@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<ClickToJumpToProblem>Click to jump to problem</ClickToJumpToProblem>
+	<ClickToJumpToProblem>Clique para ir ao problema</ClickToJumpToProblem>
 
 
 
@@ -17,9 +17,6 @@
   
   <NeedSawmill>Serraria é necessária</NeedSawmill>
   <NeedSawmillDesc>Você precisa de algum tipo de serraria para cortar toras in pranchas de madeira mais versáteis.\n\nConstrua uma SERRARIA DE MÃO ou uma SERRARIA ELÉTRICA.</NeedSawmillDesc>
-
-  <EquipStartingEquipment>Pegue seu equipamento</EquipStartingEquipment>
-  <EquipStartingEquipmentDesc>Você aterrissou com algumas armas. Pegue-as do seu local de pouso.\n\nPara equipar algo, selecione um colono e clique com o botão direito no item que você desejar equipar.</EquipStartingEquipmentDesc>
 
   <MentalBreakSoon>Colapso mental em breve</MentalBreakSoon>
   <MentalBreakSoonDesc>Estes colonos estão se aproximando do ponto de terem um colapso mental:\n\n{0}\nMelhore o psicológico desses colonos logo ou coisas ruins acontecerão.</MentalBreakSoonDesc>
@@ -55,6 +52,9 @@
   <NeedColonistBeds>Colonos precisam de camas</NeedColonistBeds>
   <NeedColonistBedsDesc>Você tem mais colonos do que tem camas de colonos. Alguém vai ficar sem um lugar para dormir.\n\nFaça mais camas ou mude uma cama de prisoneiro para cama de colono.\n\nSe você não tem recursos, locais de dormir são gratuitos e podem ser colocados instantâneamente.</NeedColonistBedsDesc>
 
+  <HunterLacksWeapon>Caçador está sem arma</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>Um colono esta atribuido como caçador mas está sem arma. Ele não irá caçar até ter uma arma.\n\nPara reduzir danos, recomendo dando a ele uma arma de longo alcance.</HunterLacksWeaponDesc>
+  
   <Starvation>Fome</Starvation>
   <StarvationDesc>Estes colonos estãos famintos:\n\n{0}\nDê a eles algo para comer. Você precisará de uma fonte de comida como distribuidor de pasta alimentícia e alguma comida para alimentá-lo. Também, tenha certeza de que eles não estão destacados.</StarvationDesc>
 
@@ -81,6 +81,9 @@
   <NoTradingCapacity>Incapaz de troca</NoTradingCapacity>
   <NoTradingCapacityDesc>Você não tem uma forma de trocar com naves de passagem.\n\nConstrua um console de comunicação.</NoTradingCapacityDesc>
 
+  <BrawlerHasRangedWeapon>Brawler está com arma de longa distância</BrawlerHasRangedWeapon>
+  <BrawlerHasRangedWeaponDesc>Um de seus colonos tem Brawler personalidade, mas está carregando uma arma de longa distância. Isso vai deixar ele muito infeliz.</BrawlerHasRangedWeaponDesc>
+
   <NeedResearchProject>Projeto de pesquisa é necessário</NeedResearchProject>
   <NeedResearchProjectDesc>Você tem o equipamento para pesquisar, mas não tem nenhum projeto selecionado.\n\nAbra o menu de pesquisa e selecione um projecto.</NeedResearchProjectDesc>
 
@@ -102,5 +105,16 @@
   <ColonistNeedsTreatment>Colonos precisam de tratamento</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>Estes colonos precisam de tratamento médico. Sem ele, eles morrerão com suas feridas ou elas poderão se tornar permanentes.\n\n{0}\nTrate deles ao enviá-los para a cama médica.\n\n(Primeiro, designe uma cama médica ao selecioná-la e alterná-la em uma cama médica. Então, selecione o colono ferido e clique com o botão direito na cama médica para que se tornem pacientes.)</ColonistNeedsTreatmentDesc>
 
+  <AlertHypothermia>Hipotermia</AlertHypothermia>
+  <AlertHypothermiaDesc>Este colono está sofrendo de hipotermia.\n\n{0}\nConfirme que a roupa deles é apropriada para estação e que o espaço interno está aquecido.</AlertHypothermiaDesc>
+  
+  <ColonistsAwaitingMedicalOperation>{0} colonos estão esperando por cirurgia</ColonistsAwaitingMedicalOperation>
+  <ColonistsAwaitingMedicalOperationDesc>Este(s) colono(s) estão esperando por cirurgia:\n\n{0}\nCertifique-se que você tem todas as ferramentas médicas e um médico livre.</ColonistsAwaitingMedicalOperationDesc>
+
+  <PawnsWithLifeThreateningDisease>Doença grave</PawnsWithLifeThreateningDisease>
+  <PawnsWithLifeThreateningDiseaseDesc>Estas pessoas estão perto da morte por estarem sofrendo com uma doença grave:\n\n{0}\nMake sure that they get as much doctors care as possible.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>Estas pessoas estão perto da morte por estarem sofrendo com uma doença grave:\n\n{0}\nSe possível, considere amputando ou implantando membros infectados para assegurar a vida do colono.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+
+  <!--<AlertAbsentMinded>{0} está perdido nos pensamentos</AlertAbsentMinded>-->
 
 </LanguageData>
