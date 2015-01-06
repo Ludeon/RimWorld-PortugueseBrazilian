@@ -1,51 +1,62 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
  
-  <MessageSiegersAssaulting>Sieging {0} from {1} are assaulting the colony.</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>{0} de {1} estão atacando a colônia.</MessageSiegersAssaulting>
 
-  <MessageRaidersBeginningAssault>{0} from {1} are beginning their assault.</MessageRaidersBeginningAssault>
-  <MessageRaidersDetectedEarlyAssault>{0} from {1} have detected you and begun their assault early.</MessageRaidersDetectedEarlyAssault>
-  <MessageRaidersKidnapping>{0} from {1} have decided to kidnap who they can and leave.</MessageRaidersKidnapping>
+  <MessageRaidersBeginningAssault>{0} de {1} estão iniciando o ataque.</MessageRaidersBeginningAssault>
+  <MessageRaidersDetectedEarlyAssault>{0} de {1} lhe detectaram e iniciaram o ataque antecipadamente.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersKidnapping>{0} de {1} decidiram sequestrar quem conseguissem e fugir.</MessageRaidersKidnapping>
 
-  <MessageRaidersLeaving>{0} from {1} are leaving.</MessageRaidersLeaving>
-	<MessageRaidersGivenUpLeaving>{0} from {1} have given up and are leaving.</MessageRaidersGivenUpLeaving>
-  <MessageRaidersSatisfiedLeaving>{0} from {1} are satisfied with the damage done and are leaving.</MessageRaidersSatisfiedLeaving>
+  <MessageRaidersLeaving>{0} de {1} estão indo embora.</MessageRaidersLeaving>
+	<MessageRaidersGivenUpLeaving>{0} de {1} desistiram e estão indo embora.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersSatisfiedLeaving>{0} de {1} estão satisfeitos com os estragos e estão indo embora.</MessageRaidersSatisfiedLeaving>
 
   
-  <MessageFightersFleeing>{0} from {1} are fleeing.</MessageFightersFleeing>
-  <MessageFriendlyFightersLeaving>Friendly {0} from {1} are leaving.</MessageFriendlyFightersLeaving>
+  <MessageFightersFleeing>{0} de {1} estão fugindo.</MessageFightersFleeing>
+  <MessageFriendlyFightersLeaving>Aliados {0} de {1} estão indo embora.</MessageFriendlyFightersLeaving>
 
+  <MessageSeasonBegun>{0} começou.</MessageSeasonBegun>
 
-
-  <MessageShipHasLeftCommsRange>{0} has left comms range.</MessageShipHasLeftCommsRange>
+  <MessageShipHasLeftCommsRange>{0} saiu da zona de comunicação.</MessageShipHasLeftCommsRange>
 	
-	<MessageNeedBeaconToTradeWithShip>You need an orbital trade beacon to trade with a ship.</MessageNeedBeaconToTradeWithShip>
+	<MessageNeedBeaconToTradeWithShip>Precisa de um farol de trocas orbital para trocar com uma nave.</MessageNeedBeaconToTradeWithShip>//farol de trocas orbital depende do nome colocado no jogo
 	
-  <MessageBillComplete>Bill complete: {0}.</MessageBillComplete>
+  <MessageBillComplete>Tarefa completa: {0}.</MessageBillComplete>
   
-  <MessageFullyHealed>{0} is fully healed.</MessageFullyHealed>
+  <MessageFullyHealed>{0} está completamente curado.</MessageFullyHealed>
 
-  <MessagePrisonerIsEscaping>Prisoner {0} is escaping.</MessagePrisonerIsEscaping>
+  <MessagePrisonerIsEscaping>Prisioneiro {0} está escapando.</MessagePrisonerIsEscaping>
 
-  <MessageRecruitSuccess>{0} successfully recruited {1} ({2} chance).</MessageRecruitSuccess>
-	<MessageRecruitFail>{0} failed to recruit {1} ({2} chance).</MessageRecruitFail>
-	<MessageRecruitFailBecauseLoyalty>{0} failed to recruit {1} (prisoner below loyalty threshold).</MessageRecruitFailBecauseLoyalty>
+  <MessageRecruitSuccess>{0} recrutou com sucesso {1} ({2} chance).</MessageRecruitSuccess>
+	<MessageRecruitFail>{0} falhou a recrutar {1} ({2} chance).</MessageRecruitFail>
+	<MessageRecruitFailBecauseLoyalty>{0} falhou ao recrutar {1} (prisioneiro abaixo do limite de lealdade).</MessageRecruitFailBecauseLoyalty>
 	
-  <MessagePoorlyTreated>{0} has received poor-quality treatment from {1} ({2} chance).</MessagePoorlyTreated>
-  <MessageWellTreated>{0} has received good-quality treatment from {1} ({2} chance).</MessageWellTreated>
+  <MessagePoorlyTreated>{0} recebeu tratamento de baixa qualidade de {1} ({2} chance).</MessagePoorlyTreated>
+  <MessageWellTreated>{0} recebeu tratamento de boa qualidade de {1} ({2} chance).</MessageWellTreated>
 	
-  <MessageTraderCannotAfford>Trader cannot afford this deal.</MessageTraderCannotAfford>
-  <MessageColonyCannotAfford>The colony cannot afford this deal.</MessageColonyCannotAfford>
-  <MessageColonyNotEnoughSilver>You do not have enough silver ready to trade.</MessageColonyNotEnoughSilver>
-  <MessageTraderNotEnoughSilver>Trader does not have enough silver.</MessageTraderNotEnoughSilver>
+  <MessageTraderCannotAfford>Comerciante não tem meios para finalizar o acordo.</MessageTraderCannotAfford>
+  <MessageColonyCannotAfford>A colônia não tem meios para finalizar o acordo.</MessageColonyCannotAfford>
+  <MessageColonyNotEnoughSilver>Você não tem prata pronta suficiente para a troca.</MessageColonyNotEnoughSilver>
+  <MessageTraderNotEnoughSilver>Comerciante não tem prata suficiente.</MessageTraderNotEnoughSilver>
 
-  <MessageCriticalAlert>Critical alert: {0}</MessageCriticalAlert>
+  <MessageCriticalAlert>Alerta importante: {0}</MessageCriticalAlert>
 
-  <MessageMustDesignateHarvestableFood>Must designate food-yielding, sufficiently-grown plants.</MessageMustDesignateHarvestableFood>
-  <MessageMustDesignateHarvestableWood>Must designate wood-yielding, sufficiently-grown trees.</MessageMustDesignateHarvestableWood>
-  <MessageMustDesignatePlants>Must designate plants.</MessageMustDesignatePlants>
-  <MessageMustDesignateHaulable>Must designate haulable items.</MessageMustDesignateHaulable>
+  <MessageMustDesignateHarvestable>É preciso designar plantas maduras o suficiente para que possam ser colhidas.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestableWood>É preciso designar árvores maduras o suficiente para que possam dar madeira.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignatePlants>É preciso desginar plantas.</MessageMustDesignatePlants>
+  <MessageMustDesignateHaulable>É preciso designar itens que possam ser transportados.</MessageMustDesignateHaulable>
+  <MessageMustDesignateMineable>É preciso impassable mineable rocks.</MessageMustDesignateMineable>
+  <MessageMustDesignateHuntable>É preciso designar animais caçáveis.</MessageMustDesignateHuntable>
+  <MessageMustDesignateClaimable>É preciso designar estruturas artificiais abandonadas.</MessageMustDesignateClaimable>
+  <MessageMustDesignateSmoothableFloor>É preciso designar chão de pedra áspera.</MessageMustDesignateSmoothableFloor>
+  
+  
+  <MessageNoMedicalBeds>Não tem camas médicas livre.</MessageNoMedicalBeds>
+  
+  <PawnDiedBecauseOf>{0} morreu por causa de {1}.</PawnDiedBecauseOf>
+
+  <MessageNoLongerDowned>{0} não está mais incapacitado de andar.</MessageNoLongerDowned>
   
   
 </LanguageData>
