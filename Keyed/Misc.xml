@@ -3,7 +3,7 @@
 
   <Autosaving>Salvando Automaticamente</Autosaving>
   
-  <GameStartDialog>Vocês três acordam em seus sarcófagos de "cryptosleep" ao som de sirenes e metal sendo rasgado. Vocês mal conseguiram chegar às naves de escape antes da nave ser despedaçada.\n\nAlgum tempo depois, vocês pousam neste mundo desconhecido.\n\nEnquanto partes da nave destruída caem à sua volta, vocês começam a fazerem planos para sobreviverem.</GameStartDialog>
+  <GameStartDialog>Vocês três acordam em seus sarcófagos de "crypto-sono" ao som de sirenes e metal sendo rasgado. Vocês mal conseguiram chegar às naves de escape antes da nave ser despedaçada.\n\nAlgum tempo depois, vocês pousam neste mundo desconhecido.\n\nEnquanto partes da nave destruída caem à sua volta, vocês começam a fazerem planos para sobreviverem.</GameStartDialog>
 
   <Colony>Colônia</Colony>
   
@@ -18,17 +18,37 @@
   <VersionIndicator>Versão {0}</VersionIndicator>
   <DevelopmentBuildLower>build de desenvolvimento</DevelopmentBuildLower>
   <CompiledOn>Compilado {0}</CompiledOn>
+  
+  
+  
+  <!-- Content generation-->
 
-	<MeatLabel>{0} carne</MeatLabel>
-  <MeatDesc>Carne crua de {0}.</MeatDesc>
-
-	<CorpseLabel>{0} cadáver</CorpseLabel>
+  <MeatLabel>{0} carne</MeatLabel>
+	<MeatDesc>Carne crua de {0}.</MeatDesc>
+	
+  <LeatherLabel>Couro de {0}</LeatherLabel>
+	<LeatherDesc>Couro feito com a pele de um {0}.</LeatherDesc>
+  
+  <CorpseLabel>{0} cadáver</CorpseLabel>
 	<CorpseDesc>Cadáver de {0}.</CorpseDesc>
+  <DeadLabel>{0} (morto)</DeadLabel>
 
+  <RoughStoneTerrainLabel>áspero {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Áspero, chão de {0} natural.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>{0} rústico</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>Chão natural de {0} grosseiramente cortado.</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>{0} lisa</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>Chão natural de {0} lisa.</SmoothStoneTerrainDesc>
 
-	<BlueprintLabelExtra> (projeto)</BlueprintLabelExtra>
+  <BlueprintLabelExtra> (projeto)</BlueprintLabelExtra>
   <FrameLabelExtra> (construção)</FrameLabelExtra>
   
+  
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
+  
+  <VariousLabel>(diverso)</VariousLabel>
   
   <!-- History events -->
   <ColonistDied>Colono morreu</ColonistDied>
