@@ -16,7 +16,7 @@
   <CannotHitTarget>impossível acertar alvo</CannotHitTarget>
   <CannotFight>{0} não pode lutar</CannotFight>
 
-  <OrderManThing>Man {0}</OrderManThing>
+  <OrderManThing>Homem {0}</OrderManThing>
   
   <MeleeAttack>Atacar corpo-a-corpo {0}</MeleeAttack>
   <MeleeAttackToDeath>Atacar corpo-a-corpo {0} até a morte</MeleeAttackToDeath>
@@ -42,15 +42,21 @@
 
   <Rescue>Resgatar {0}</Rescue>
   <CannotRescue>Impossível resgatar</CannotRescue>
+  
+  <CarryToCryptosleepCasket>Carregue {0} para o caixão de cryto-sono</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Não é possivel carregar para caixão de cryto-sono</CannotCarryToCryptosleepCasket>
 
-  <NoPrisonerBed>No available enclosed prisoner-marked bed.</NoPrisonerBed>
-  <NoNonPrisonerBed>No available usable non-prisoner bed.</NoNonPrisonerBed>
-  <Reserved>Reserved by someone else.</Reserved>
-  <ReservedBy>Reserved by {0}.</ReservedBy>
-  <IsReservedBy>{0} is reserved by {1}.</IsReservedBy>
+  <NoCryptosleepCasket>Sem caixão de cryto-sono disponível.</NoCryptosleepCasket>
+  <NoPrisonerBed>Sem cama de prisioneiro disponível.</NoPrisonerBed>
+  <NoNonPrisonerBed>Sem cama de prisioneiro disponível.</NoNonPrisonerBed>
+  <Reserved>Reservado por outra pessoa.</Reserved>
+  <ReservedBy>Reservado por {0}.</ReservedBy>
+  <IsReservedBy>{0} está reservado por {1}.</IsReservedBy>
 
-
+  <NoManipulationSkill>incapaz</NoManipulationSkill>
+  
   <Equip>Equipar {0}</Equip>
+  <EquipWarningBrawler>(brawler ficará infeliz)</EquipWarningBrawler>
   <CannotEquip>Impossível equipar {0}</CannotEquip>
   
   <Wear>Vestir {0}</Wear>
@@ -61,6 +67,8 @@
 
   <Deposit>Depositar {0} em {1}</Deposit>
   <CannotDeposit>Impossível depositar {0} em {1}</CannotDeposit>
+  
+  <SelfDestructHere>Auto-destruir aqui</SelfDestructHere>
 
   <Drop>Largar {0}</Drop>
   
@@ -69,7 +77,8 @@
   <SomeoneElseSleeping>Ocupado</SomeoneElseSleeping>
 
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Entrar no pod de "cryptosleep"</EnterCryptosleepPod>
+  <EnterCryptosleepPod>Entrar no caixão de cryto-sono</EnterCryptosleepPod>
+  <OpenCryptosleepCasket>Abrir caixão de cryto-sono</OpenCryptosleepCasket>
   
   
   
@@ -77,6 +86,8 @@
   <CannotGenericWork>Não pode {0} {1}</CannotGenericWork>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>Cannot prioritize (Health problem: {0})</CannotMissingHealthActivities>
+
   <CannotGenericAlreadyAm>Já está {0} {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeIsNotA>Não pode priorizar ({0} não é {1})</CannotPrioritizeIsNotA>
@@ -85,6 +96,7 @@
 
   <CannotPrioritizeForbidden>Não pode priorizar ({0} é proibido)</CannotPrioritizeForbidden>
 
+  
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Priorizar {0} {1}</PrioritizeGeneric>
   
