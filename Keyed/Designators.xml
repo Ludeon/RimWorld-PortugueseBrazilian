@@ -10,8 +10,8 @@
   <DesignatorDeconstruct>Desconstruir</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Desconstrói construções e reclama parte dos seus recursos.</DesignatorDeconstructDesc>
 
-  <DesignatorHarvestFood>Colher comida</DesignatorHarvestFood>
-  <DesignatorHarvestFoodDesc>Marca plantas para serem colhidas como comida. Comida será colhida, quando possível, da planta, mas a planta permanecerá intacta.</DesignatorHarvestFoodDesc>
+  <DesignatorHarvest>Colher</DesignatorHarvest>
+  <DesignatorHarvestDesc>Marca plantas para serem colhidas pela sua comida ou outros recursos.</DesignatorHarvestDesc>
 
   <DesignatorHarvestWood>Cortar madeira</DesignatorHarvestWood>
   <DesignatorHarvestWoodDesc>Marca árvores para serem cortadas em madeira.</DesignatorHarvestWoodDesc>
@@ -26,6 +26,9 @@
 
   <DesignatorMine>Minerar</DesignatorMine>
   <DesignatorMineDesc>Designa áreas de pedra para serem mineradas.</DesignatorMineDesc>
+
+  <DesignatorSmoothFloor>Piso liso</DesignatorSmoothFloor>
+  <DesignatorSmoothFloorDesc>Designa chão com pedra áspera para ser alisada.</DesignatorSmoothFloorDesc>
 
   <DesignatorPlan>Planos</DesignatorPlan>
   <DesignatorPlanDesc>Coloca desenhos de planejamento. Estes não tem efeito, apenas ajudam a planejar futuras expansões.</DesignatorPlanDesc>
@@ -45,25 +48,32 @@
   <DesignatorRegionNoRoofRemove>Remover Região Sem Teto</DesignatorRegionNoRoofRemove>
   <DesignatorRegionNoRoofRemoveDesc>Remove Região Sem Teto. Tetos serão gerados aqui e tetos existentes não serão removidos.</DesignatorRegionNoRoofRemoveDesc>
 
+  <DesignatorRegionSnowClearAdd>Adc Região livre de neve</DesignatorRegionSnowClearAdd>
+  <DesignatorRegionSnowClearAddDesc>Cria uma região na qual os colonos tentarão manter livre de neve.</DesignatorRegionSnowClearAddDesc>
+
+  <DesignatorRegionSnowClearRemove>Remover Região livre de neve</DesignatorRegionSnowClearRemove>
+  <DesignatorRegionSnowClearRemoveDesc>Remove a Região livre de neve. Colonos não tentarão mais manter area livre de neve.</DesignatorRegionSnowClearRemoveDesc>
+
   <DesignatorGrowingZoneDesc>Criar uma zona onde os colonos irão tentar plantar certos tipos de plantas.</DesignatorGrowingZoneDesc>
 
   <DesignatorZoneCreateStorageResourcesDesc>Criar um estoque onde seus colonos irão estocar recursos.\nEsta ferramenta também pode expandir qualquer estoques existentes.</DesignatorZoneCreateStorageResourcesDesc>
 
-  <DesignatorZoneCreateStorageDumpingDesc>Criar um estoque onde seus colonos irão guardar lixo.\nEsta ferramenta também pode expandir estoques existentes.</DesignatorZoneCreateStorageDumpingDesc>
-
+  <DesignatorZoneCreateStorageDumpingDesc>Criar um depósito onde seus colonos irão despejar lixo.\nEsta ferramenta também pode expandir estoques existentes.</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>Deletar zonas</DesignatorZoneDelete>
   <DesignatorZoneDeleteDesc>Remove zonas, como zonas de estoque ou de plantação.</DesignatorZoneDeleteDesc>
   
-  <DesignatorClaim>Clamar</DesignatorClaim>
-  <DesignatorClaimDesc>Clamar estruturas neutras para a colônia, incluindo ruínas ancestrais e bases de sítio abandonadas. Estruturas clamadas podem ser reparadas e mantidas por seus colonos.</DesignatorClaimDesc>
+  <DesignatorClaim>Reivindicar</DesignatorClaim>
+  <DesignatorClaimDesc>Reivindica estruturas neutras para a colônia, incluindo ruínas ancestrais e bases abandonadas. Estruturas reivindicas podem ser reparadas e mantidas por seus colonos.</DesignatorClaimDesc>
   
   
   <!-- placement of blueprints -->
-  <TooCloseToMapEdge>Muitor perto da ponta do mapa.</TooCloseToMapEdge>
-  <OutOfBounds>Fora de Limites.</OutOfBounds>
+  <UnchosenStuff>Material não escolhido</UnchosenStuff>
+  <TooCloseToMapEdge>Muito perto da beirada do mapa.</TooCloseToMapEdge>
+  <OutOfBounds>Fora dos Limites.</OutOfBounds>
   <CannotPlaceInUndiscovered>Não pode colocar em áreas não-descobertas.</CannotPlaceInUndiscovered>
   <InteractionSpotBlocked>Local de interação está bloqueado.</InteractionSpotBlocked>
+  <InteractionSpotOutOfBounds>Local de interação está fora dos limites.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>Local de interação estará bloqueado.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bloquearia o quadrante de interação de {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>O terreno já é {0}.</TerrainIsAlready>
