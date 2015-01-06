@@ -56,7 +56,7 @@
   <HowStorytellersWork>A IA Contadora de estórias cria eventos como invasões piratas, queda de recursos ou ataques de animais. Suas escolhas irão afetar a sua colônia.</HowStorytellersWork>
   <MustChooseChallengeScale>Por favor, escolha uma escala de desafio.</MustChooseChallengeScale>
   <ChallengeScale>Escala de desafio</ChallengeScale>
-  <ChallengeScaleTip>Quando o Contador enviar ameaças atrás de você, elas serão {0} maiores do que no modo Desafio.</ChallengeScaleTip>
+  <ChallengeScaleTip>Quando o narrador enviar ameaças atrás de você, elas serão {0} maiores do que no modo Desafio.</ChallengeScaleTip>
   <ChallengeScale_BuilderMode>Modo Construtor</ChallengeScale_BuilderMode>
   <ChallengeScale_Casual>Casual</ChallengeScale_Casual>
   <ChallengeScale_Rough>Duro</ChallengeScale_Rough>
@@ -87,17 +87,21 @@
   <WorldRenderModeRainfall>Pluviosidade</WorldRenderModeRainfall>
   <WorldRenderModeBiomes>Biomas</WorldRenderModeBiomes>
   <BiomeNotImplemented>Bioma não implementado</BiomeNotImplemented>
+  <BaseAlreadyThere>{0} already have a base there.</BaseAlreadyThere>
   <Biome>Bioma</Biome>
   <Terrain>Terreno</Terrain>
   <Elevation>Elevação</Elevation>
   <Fertility>Fertilidade</Fertility>
   <AvgTemp>Temperatura Média</AvgTemp>
+  <AvgJanTemp>Temp média (Jan): {0}</AvgJanTemp>
+  <AvgJulTemp>Temp média (Jul): {0}</AvgJulTemp>
   <Rainfall>Pluviosidade</Rainfall>
   <HasCoast0>Costa Norte</HasCoast0>
   <HasCoast1>Costa Leste</HasCoast1>
   <HasCoast2>Costa Sul</HasCoast2>
   <HasCoast3>Costa Oeste</HasCoast3>
-
+  <FactionBase>Base de facção</FactionBase>
+  <StoneTypesHere>Tipos de pedra</StoneTypesHere>
 
 
   <!--=========== Character chooser ==========-->
@@ -111,12 +115,14 @@
   <IncapableOf>Incapaz de</IncapableOf>
   <Traits>Feições</Traits>
   <TraitsDoNothing>Feições são apenas pedaços de estórias divertidos por agora; muitos deles não fazem nada. Isto será mudado em versões futuras.</TraitsDoNothing>
+  <PermanentMoodEffect>Permanent mood effect</PermanentMoodEffect>
   <Skills>Habilidades</Skills>
-  <NoneLower>nenhuma incapacidade</NoneLower>
+  <NoneLower>nenhuma</NoneLower>
   <Adulthood>Idade adulta</Adulthood>
   <Childhood>Infância</Childhood>
-  <Male>Homem</Male>
-  <Female>Mulher</Female>
+  <Male>Macho</Male>
+  <Female>Fêmea</Female>
+  <Pain>Dor</Pain>
   
   
   <!--=========== Misc ==========-->
