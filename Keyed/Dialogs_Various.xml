@@ -40,7 +40,7 @@
   <ResolutionRevert>Reverter</ResolutionRevert>
 
   <!-- Overview -->
-  <OverviewOf>Visão geral de {0}</OverviewOf>
+  <OverviewOf>Visão geral da {0}</OverviewOf>
 
   <!-- Research -->
   <Research>Pesquisar</Research>
@@ -52,6 +52,7 @@
   
   
   <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Aviso: Você irá pousar em um ambiente congelado. Será muito difícil ou quase impossível de sobreviver. Se acha que não aguenta um desafio extremo, escolha um local diferente ou um mês diferente.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>WARNING: Performance may degrade at larger map sizes unless your computer is quite powerful.\n\nIf you have a weak machine, choose Small.\n\nLudeonicrous size is untested and will almost certainly not play well.</MapSizePerformanceWarning>
   <MapSize>Tamanho do mapa</MapSize>
   <MapSizeDesc>{0}x{0} ({1} quadrados)</MapSizeDesc>
@@ -59,7 +60,8 @@
   <MapSizeMedium>Médio</MapSizeMedium>
   <MapSizeLarge>Grande</MapSizeLarge>
   <MapSizeExtreme>Ludeônicro</MapSizeExtreme>
-
+  <MapStartMonth>Mês inicial:</MapStartMonth>
+  <MapStartMonthDefault>Auto</MapStartMonthDefault>
 
 
   <!-- Bill config -->
@@ -71,9 +73,14 @@
   <IngredientSearchRadius>Raio de procura de ingredientes</IngredientSearchRadius>
   <TargetCount>Fazer até ter: {0}</TargetCount>
   <Infinite>Infinito</Infinite>
+  
   <RecipeCannotHaveTargetCount>(Esta receita não pode ter uma conta-alvo, pois ela tem produtos múltiplos ou inprevisíveis.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Ingredientes permitidos</PermittedIngredients>
+  <WorkAmount>Quantidade de trabalho</WorkAmount>
   <MinimumSkills>Habilidades mínimas:</MinimumSkills>
+  <BillRequires>Necessita {0} {1}</BillRequires>
+  <BillRequiresMayVary>(Quantidade pode variar com itens com volumes fora do padrão, como ouro.)</BillRequiresMayVary>
+  <UsableIngredients>ingredientes utilizáveis</UsableIngredients>
   <DoXTimes>Fazer X vezes</DoXTimes>
   <DoUntilYouHaveX>Fazer até ter X</DoUntilYouHaveX>
   <DoForever>Fazer sempre</DoForever>
@@ -82,45 +89,51 @@
   <BillStoreMode_BestStockpile>Levar para melhor estoque</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Levar para estoque mais próximo</BillStoreMode_NearestStockpileAnyPriority>
   
-  <!-- Def Card -->
-  <Type>Tipo</Type>
-  <GunType>Arma de Fogo</GunType>
-  <PlantType>Planta</PlantType>
-  <FoodType>Comida</FoodType>
-  <HumanType>Humano</HumanType>
-  <AnimalType>Animal</AnimalType>
-  <MechanoidType>Mechanóide</MechanoidType>
+  <!-- Info card -->
   <Damage>Dano</Damage>
-  <Accuracy>Precisão</Accuracy>
-  <BurstShotCount>Burst Shot Count</BurstShotCount>
+  <Accuracy>Mira</Accuracy>
+  <BurstShotCount>Quantidade de tiros na rajada</BurstShotCount>
   <WarmupTime>Aquecimento</WarmupTime>
-  <CooldownTime>Tempo de resfriamento</CooldownTime>
-  <BurstShotFireRate>Taxa de Tiro</BurstShotFireRate>
+  <CooldownTime>Recarga</CooldownTime>
+  <BurstShotFireRate>Velocidade de tiro</BurstShotFireRate>
   <Range>Alcance</Range>
-  <GrowsWild>Cresce sozinho</GrowsWild>
-  <Harvestable>Colhetável</Harvestable>
+  <GrowsWild>Cresce naturalmente</GrowsWild>
+  <Harvestable>Cultivável</Harvestable>
   <LimitedLifespan>Vida útil limitada</LimitedLifespan>
   <GrowingTime>Tempo de crescimento</GrowingTime>
   <Days>dias</Days>
-  <FertilityRequirement>Requerimento de fertilidade</FertilityRequirement>
-  <LightRequirement>Requerimento leve</LightRequirement>
+  <FertilityRequirement>Exigencia de fertilidade</FertilityRequirement>
+  <LightRequirement>Exigencia de iluminação</LightRequirement>
   <Attributes>Atributos</Attributes>
   <LifeSpan>Vida útil</LifeSpan>
   <Nutrition>Nutrição</Nutrition>
-  <FoodQuality>Qualidade de comida</FoodQuality>
-  <WalkSpeedProperty>Velocidade de caminhada</WalkSpeedProperty>
+  <FoodQuality>Qualidade de alimento</FoodQuality>
+  <WalkSpeedProperty>Velocidade de andar</WalkSpeedProperty>
   <MeleeDamage>Dano corpo-a-corpo</MeleeDamage>
   <MeatAmount>Quantidade de carne</MeatAmount>
-  <MinFoodQuality>Qualidade mín. de comida</MinFoodQuality>
+  <MinFoodQuality>Qualidade min. de alimento</MinFoodQuality>
   <Diet>Dieta</Diet>
-  <RecruitDifficulty>Dificuldade de recrutamento</RecruitDifficulty>
-  <BasePrice>Preço base</BasePrice>
+  <RecruitDifficulty>Dificuldade para recrutar</RecruitDifficulty>
+  <MarketValue>Preço base</MarketValue>
   <Covers>Coberturas</Covers>
+  <BodyPartEfficiency>Eficiência de parte do corpo</BodyPartEfficiency>
   
   <!-- Trade -->
+  <DragToTrade>Puxe para trocar</DragToTrade>
+  <BuyPriceDesc>Preço que você paga.</BuyPriceDesc>
+  <SellPriceDesc>Preço que você recebe.</SellPriceDesc>
+  <PriceTypeDesc>Por este item, o preço é {0}.</PriceTypeDesc>
+  <ColonyCount>Quantos destes itens a colônia tem pronto para troca.\n\nVocê só pode vender itens para negociantes orbitais se eles estão a céu aberto e próximo a um farol negociador orbital.</ColonyCount>
+  <TraderCount>How many of this item the trader has to trade.</TraderCount>
+  <AcceptButton>Aceitar</AcceptButton>
+  <ResetButton>Resetar</ResetButton>
+  <CancelButton>Cancelar</CancelButton>
   <YourTradeableSilver>Sua prata trocável: {0}</YourTradeableSilver>
 	<YourTradeableSilverTip>Você só pode trocar prata que está próxima da antena de troca orbital e que não esteja debaixo de um teto.</YourTradeableSilverTip>
-
+  <TraderHasNoMore>Negociador não tem mais.</TraderHasNoMore>
+  <ColonyHasNoMore>Sem mais para vender.</ColonyHasNoMore>
+  <TraderWillNotTrade>Negociador não quer trocar este item.</TraderWillNotTrade>
+  
   <!-- Comms -->
   <SocialSkillIs>Habilidade social: {0}</SocialSkillIs>
 
