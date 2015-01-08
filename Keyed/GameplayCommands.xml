@@ -18,48 +18,48 @@
   
   
   <!-- Drafting -->
-  <CommandDraftLabel>Draft</CommandDraftLabel>
-  <CommandUndraftLabel>Undraft</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest.</CommandToggleDraftDesc>
-  <IsIncapped>{0} is incapacitated.</IsIncapped>
-
-  
-  <CommandCancelConstructionLabel>Cancel</CommandCancelConstructionLabel>
-  <CommandCancelConstructionDesc>Cancel this construction.</CommandCancelConstructionDesc>
-
-  <CommandGetOutOfBedLabel>Get out of bed</CommandGetOutOfBedLabel>
-  <CommandGetOutOfBedDesc>Get out of current bed.</CommandGetOutOfBedDesc>
-
-  <CommandBedSetOwnerLabel>Set owner</CommandBedSetOwnerLabel>
-  <CommandBedSetOwnerDesc>Assign this bed to be owned by a specific colonist.</CommandBedSetOwnerDesc>
-  <BedAssign>Assign</BedAssign>
-  <CommandBedSetForPrisonersLabel>Set for prisoners</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc>Assign beds in this room for use by prisoners.</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>Cannot set outdoor beds to be for prisoners.</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetForColonistsLabel>Set for colonists</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc>Assign beds in this room for use by colonists.</CommandBedSetForColonistsDesc>
-  <CommandBedSetAsMedicalLabel>Set as medical</CommandBedSetAsMedicalLabel>
-  <CommandBedSetAsMedicalDesc> Assign this bed for medical use.</CommandBedSetAsMedicalDesc>
-  <CommandBedSetAsNonMedicalLabel>Set as non medical</CommandBedSetAsNonMedicalLabel>
-  <CommandBedSetAsNonMedicalDesc> Assign this bed for non medical use.</CommandBedSetAsNonMedicalDesc>
-  <TurningOnPrisonerBedWarning>Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOffPrisonerBedWarning>
-  <AreYouSure>Are you sure you want to do this?</AreYouSure>
-
+  <CommandDraftLabel>Alistar</CommandDraftLabel>
+  <CommandUndraftLabel>Desalistar</CommandUndraftLabel>
+  <CommandToggleDraftDesc>Alternar para alistamento militar.\n\nPessoas alistadas recebem ordens e lutam. Eles não irão trabalhar, comer ou descansar.</CommandToggleDraftDesc>
+  <IsIncapped>{0} está incapacitado.</IsIncapped>
   
   
-  <CommandDetonateDesc>Start the countdown to detonation.</CommandDetonateDesc>
-  <CommandDetonateLabel>Detonate</CommandDetonateLabel>
+  <CommandCancelConstructionLabel>Cancelar</CommandCancelConstructionLabel>
+  <CommandCancelConstructionDesc>Cancela esta construção.</CommandCancelConstructionDesc>
 
-  <CommandRenameZoneDesc>Rename this zone.</CommandRenameZoneDesc>
-  <CommandRenameZoneLabel>Rename</CommandRenameZoneLabel>
+  <CommandGetOutOfBedLabel>Levantar da cama</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>O colono levanta-se da cama.</CommandGetOutOfBedDesc>
+  
+  <CommandBedSetOwnerLabel>Designar dono</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>O colono específico passa a ser dono desta cama.</CommandBedSetOwnerDesc>
+  <BedAssign>Designar</BedAssign>
+  <CommandBedSetForPrisonersLabel>Designar para prisioneiros</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>As camas neste quarto passam a ser usadas por prisioneiros.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Não é possível designar camas ao ar livre para uso dos prisioneiros.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>Designar para colonos</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>As camas neste quarto passao a ser usadas por colonos.</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>Designar como médica</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc>Esta cama passa a ser usada para fins médicos.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Designar como não médica</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>Esta cama passa a ser usada para fins não médicos.</CommandBedSetAsNonMedicalDesc>
+  <TurningOnPrisonerBedWarning>Ativar o modo prisioneiro afeta o quarto todo (visto que os prisioneiros e os colonos não podem dormir no mesmo quarto).\n\nEstas pessoas vão deixar de ter cama:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Desativar o modo prisioneiro afeta o quarto todo (visto que os prisioneiros e os colonos não podem dormir no mesmo quarto).\n\nEstas pessoas vão deixar de ter cama:</TurningOffPrisonerBedWarning>
+  <AreYouSure>Tem certeza que pretendes continuar?</AreYouSure>
 
-  <CommandHideZoneDesc>Hide/unhide this zone.</CommandHideZoneDesc>
-  <CommandHideZoneLabel>Hide</CommandHideZoneLabel>
-  <CommandUnhideZoneLabel>Unhide</CommandUnhideZoneLabel>
+  
+  
+  <CommandDetonateDesc>Começa a contagem para a detonação.</CommandDetonateDesc>
+  <CommandDetonateLabel>Detonar</CommandDetonateLabel>
 
-  <CommandDeleteZoneDesc>Delete this zone.</CommandDeleteZoneDesc>
-  <CommandDeleteZoneLabel>Delete</CommandDeleteZoneLabel>
+  <CommandRenameZoneDesc>Renomeia esta zona.</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>Renomear</CommandRenameZoneLabel>
+
+  <CommandHideZoneDesc>Esconde/Mostra esta zona.</CommandHideZoneDesc>
+  <CommandHideZoneLabel>Esconder</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>Mostrar</CommandUnhideZoneLabel>
+
+  <CommandDeleteZoneDesc>Apaga esta zona.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneLabel>Apagar</CommandDeleteZoneLabel>
   
   
   <!-- Artillery -->
