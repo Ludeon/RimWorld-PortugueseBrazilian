@@ -12,3 +12,4 @@ Translators:
 Clemente (@ClemensXV)
 Willian (@Srlimao)
 David (@Zer0Gaming)
+Ragnar (@RagnarLothbroke)
