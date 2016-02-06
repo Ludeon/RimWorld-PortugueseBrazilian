@@ -8,7 +8,8 @@ See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
 
 ------------------------
-Translators: Eduardo (@eduardo0619) 
+Translators: 
+Eduardo (@eduardo0619) 
 Clemente (@ClemensXV)
 Willian (@Srlimao)
 David (@Zer0Gaming)
