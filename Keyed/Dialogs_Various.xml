@@ -6,7 +6,7 @@
   <Confirm>Confirmar</Confirm>
   <GoBack>Voltar</GoBack>
   <OK>OK</OK>
-  
+
   <!-- Save/load -->
   <SaveGameButton>Salvar</SaveGameButton>
   <OverwriteButton>Substituir</OverwriteButton>
@@ -16,8 +16,19 @@
   <SavedAs>Salvo como {0}.</SavedAs>
   <NeedAName>Por favor, entre com um nome.</NeedAName>
   <LoadingLongEvent>Carregando...</LoadingLongEvent>
-  
-  
+
+  <!-- Long events -->
+  <InitializingInterface>Inicializando a interface</InitializingInterface>
+  <UnloadingUnusedAssets>Descarregando recursos não utilizados</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Carregando todos os Mods ativos</LoadingAllActiveMods>
+  <LoadingDefs>Carregando defs</LoadingDefs>
+  <LoadingAssets>Carregando recursos</LoadingAssets>
+  <Initializing>Inicializando</Initializing>
+  <LoadingWorld>Carregando mundo</LoadingWorld>
+  <LoadingMap>Carregando mapa</LoadingMap>
+  <InitializingMap>Inicializando mapa</InitializingMap>
+  <SpawningAllThings>Gerando todas as coisas</SpawningAllThings>
+
   <!-- Colony naming-->
   <NameColonyMessage>Todos sabem que você não quer ficar nesta pedra por muito tempo. Mas {0} sugere que você dê um nome à colônia mesmo assim..\n\nComo ela deve ser chamada?</NameColonyMessage>
   <ColonyGainsName>A colônia agora será conhecida como {0}.</ColonyGainsName>
@@ -26,14 +37,14 @@
   <!-- Zone naming -->
   <ZoneGainsName>A zona agora se chama {0}.</ZoneGainsName>
   <ZoneNameIsInvalid>Por favor, entre com um nome de zona válido.</ZoneNameIsInvalid>
-  
+
   <!-- Pawn naming -->
   <PawnGainsName>O apelido do colono agora é {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <SaveGameIncompatibleWarningText>Incompatibilidade de versão: O mapa foi salvo com a versão de jogo {0}, o jogo está na versão {1}.\n\n Carregar este mapa provavelmente irá causar bugs ou crash do jogo.</SaveGameIncompatibleWarningText>
   <SaveGameIncompatibleWarningTitle>Incompatibilidade de jogo salvo</SaveGameIncompatibleWarningTitle>
-  
+
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Você mudou sua resolução. A nova funciona normalmente?\n\nAuto-revertendo em {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Manter</ResolutionKeep>
@@ -49,8 +60,8 @@
   <Finished>Terminado</Finished>
   <InProgress>Em progresso</InProgress>
   <ResearchMenuWithoutBench>Até você construir um BANCO DE PESQUISA, seus colonos não poderão fazer pesquisas.\n\nPorém, você ainda pode olhar e escolher projetos de pesquisar agora.</ResearchMenuWithoutBench>
-  
-  
+
+
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>AVISO: Você irá pousar em um ambiente congelado. Será muito difícil ou quase impossível de sobreviver. Se acha que não aguenta um desafio extremo, escolha um local diferente ou um mês diferente.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>AVISO: A menos que seu computador seja potente o desempenho poderá ser reduzido em mapas maiores.\n\nSe você tem um computador fraco, escolha Pequeno.\n\nO tamanho Ludeonicro não foi testado e quase certamente não funcionará.</MapSizePerformanceWarning>
@@ -73,7 +84,7 @@
   <IngredientSearchRadius>Raio de procura de ingredientes</IngredientSearchRadius>
   <TargetCount>Fazer até ter: {0}</TargetCount>
   <Infinite>Infinito</Infinite>
-  
+
   <RecipeCannotHaveTargetCount>(Esta receita não pode ter uma conta-alvo, pois ela tem produtos múltiplos ou inprevisíveis.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>Ingredientes permitidos</PermittedIngredients>
   <WorkAmount>Quantidade de trabalho</WorkAmount>
@@ -88,7 +99,7 @@
   <BillStoreMode_DropOnFloor>Largar no chão</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>Levar para melhor estoque</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Levar para estoque mais próximo</BillStoreMode_NearestStockpileAnyPriority>
-  
+
   <!-- Info card -->
   <Damage>Dano</Damage>
   <Accuracy>Mira</Accuracy>
@@ -117,7 +128,7 @@
   <MarketValue>Preço base</MarketValue>
   <Covers>Coberturas</Covers>
   <BodyPartEfficiency>Eficiência de parte do corpo</BodyPartEfficiency>
-  
+
   <!-- Trade -->
   <DragToTrade>Puxe para trocar</DragToTrade>
   <BuyPriceDesc>Valor da compra.</BuyPriceDesc>
@@ -133,14 +144,14 @@
   <TraderHasNoMore>O comerciante não tem mais.</TraderHasNoMore>
   <ColonyHasNoMore>Sem mais para vender.</ColonyHasNoMore>
   <TraderWillNotTrade>Comerciante não quer trocar este item.</TraderWillNotTrade>
-  
+
   <!-- Comms -->
   <SocialSkillIs>Habilidade social: {0}</SocialSkillIs>
 
   <!--Other-->
   <ResearchFinished>Pesquisa terminada: {0}</ResearchFinished>
   <ResearchScreen>Tela de Pesquisa</ResearchScreen>
-  
+
   <!--HistoryUpload-->
   <HistoryUploadMessage>Você deseja enviar sua informação de gameplay para ajudar os desenvolvedores balancearem o jogo? Se você concorda, sua informação será enviada a cada {0} dias (e e alguns casos raros, como o fim do jogo). Preferências de privacidade podem ser modificadas mais tarde no menu de opções.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Mesmo que a informação enviada seja anônima, você pode anexar um nome a ela.</HistoryUploadMessagePlayerName>
@@ -148,5 +159,5 @@
   <HistoryUploadNo>Não permitir envio de informação de jogo</HistoryUploadNo>
   <HistoryUploadYesOnce>Enviar apenas dessa vez</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Não enviar apenas dessa vez, pergunte-me mais tarde</HistoryUploadNoOnce>
-	
+
 </LanguageData>
