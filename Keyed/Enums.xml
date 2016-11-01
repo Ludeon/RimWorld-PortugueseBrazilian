@@ -5,35 +5,40 @@
   <Dark>Escuro</Dark>
   <Lit>Iluminado</Lit>
   <LitBrightly>Muito Iluminado</LitBrightly>
-  
-  <!-- food quality -->
-  <NoneQuality>Nenhuma</NoneQuality>
-  <PlantQuality>Planta</PlantQuality>
-  <RawQuality>Crua</RawQuality>
-  <MealAwfulQuality>Terrível</MealAwfulQuality>
-  <MealSimpleQuality>Simples</MealSimpleQuality>
-  <MealFineQuality>Bom</MealFineQuality>
-  <MealLavishLavish>Ótimo</MealLavishLavish>
-  
-  <!-- diet type -->
-  <NeverEats>Nunca come</NeverEats>
-  <Omnivorous>Onívoro</Omnivorous>
-  <Herbivorous>Herbívoro</Herbivorous>
-  <Carnivorous>Carnívoro</Carnivorous>
-  <Dendrovorous>Dendróvoro</Dendrovorous>
-  
+
   <!-- history upload pref -->
   <Unspecified>Não decidido</Unspecified>
-  <Always>Sempre enviar</Always>
-  <Never>Nunca enviar</Never>
-  
+  <Always>Permitido</Always>
+  <Never>Proibido</Never>
+
   <!-- Price types -->
   <PriceTypeVeryCheap>muito barato</PriceTypeVeryCheap>
   <PriceTypeCheap>barato</PriceTypeCheap>
   <PriceTypeNormal>normal</PriceTypeNormal>
   <PriceTypeExpensive>caro</PriceTypeExpensive>
-  <PriceTypeExorbitant>muito caro</PriceTypeExorbitant>
-  
+  <PriceTypeExorbitant>exorbitante</PriceTypeExorbitant>
+
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>não alocar</StoragePriorityUnstored>
+  <StoragePriorityLow>baixa</StoragePriorityLow>
+  <StoragePriorityNormal>normal</StoragePriorityNormal>
+  <StoragePriorityPreferred>preferencial</StoragePriorityPreferred>
+  <StoragePriorityImportant>importante</StoragePriorityImportant>
+  <StoragePriorityCritical>crítico</StoragePriorityCritical>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>vegetais</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>carne crua</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>corpos</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seeds>sementes</FoodTypeFlags_Seeds>
+  <FoodTypeFlags_AnimalProduct>produtos animais</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>plantas vivas</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>árvore viva</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>alimento</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>comidas processadas</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>licor</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>ração</FoodTypeFlags_Kibble>
+
   <!-- Quality category -->
   <QualityCategory_Awful>horrível</QualityCategory_Awful>
   <QualityCategory_Shoddy>inferior</QualityCategory_Shoddy>
@@ -44,6 +49,21 @@
   <QualityCategory_Excellent>excelente</QualityCategory_Excellent>
   <QualityCategory_Masterwork>magistral</QualityCategory_Masterwork>
   <QualityCategory_Legendary>legendario</QualityCategory_Legendary>
+  <QualityCategoryShort_Awful>horrvl</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>inf</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Poor>mau</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>bom</QualityCategoryShort_Good>
+  <QualityCategoryShort_Superior>sup</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>mags</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>legnd</QualityCategoryShort_Legendary>
+
+  <!-- Hunger -->
+  <HungerLevel_Starving>Morrendo de fome</HungerLevel_Starving>
+  <HungerLevel_UrgentlyHungry>Urgentemente com fome</HungerLevel_UrgentlyHungry>
+  <HungerLevel_Hungry>Com fome</HungerLevel_Hungry>
+  <HungerLevel_Fed>Alimentado</HungerLevel_Fed>
 
 
 </LanguageData>
