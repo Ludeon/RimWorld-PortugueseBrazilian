@@ -3,17 +3,17 @@
 
 	<ClickToJumpToProblem>Clique para ir ao problema</ClickToJumpToProblem>
 
-  
-  
+  <BreakRiskMinor>Risco pequeno de Piripaque!</BreakRiskMinor>
+  <BreakRiskMajor>Vai dar RUIM!</BreakRiskMajor>
+  <BreakRiskExtreme>VAI EXPLODIR A QUALQUER MOMENTO</BreakRiskExtreme>
+
   <NeedSawmill>Necessita-se Serraria</NeedSawmill>
   <NeedSawmillDesc>Você precisa de algum tipo de serraria para cortar troncos em tábuas de madeira mais versáteis.\n\nConstrua uma Serraria à mão ou uma Serraria Elétrica.</NeedSawmillDesc>
 
-  <PoorMood>Humor ruim</PoorMood>
-  <PoorMoodDesc>Esses colonos estão com um humor ruim e podem ter uma quebra mental leve a qualquer momento:\n\n{0}</PoorMoodDesc>
-  <TerribleMood>Humor Horrível</TerribleMood>
-  <TerribleMoodDesc>Esses colonos estão criticamente estressados e podem ter um colapso mental intenso - e potencialmente violenta -  a qualquer momento:\n\n{0}</TerribleMoodDesc>
-  <LowMoodDescEnding>Confira a aba de Necessidades desses colonos para ver o que está os incomodando.</LowMoodDescEnding>
-  
+  <BreakRiskMajorDesc>Esses colonos estão com um humor ruim e podem ter uma quebra mental grave a qualquer momento:\n\n{0}</BreakRiskMajorDesc>
+  <BreakRiskExtremeDesc>Esses colonos estão criticamente estressados e podem ter um colapso mental FODA - e VAI DAR MERDA -  a qualquer momento:\n\n{0}</BreakRiskExtremeDesc>
+  <LowMoodDescEnding>Confira a aba de Necessidades desses colonos para ver o que está os incomodando.\n\nPara fazer os colonos se sentirem melhor, você pode fazer coisas como alimentos melhores, dar a eles mais horas de diversão por dia e melhores objetos - DELÍCIA - para diversão, coloque-os em ambientes bonitos e deixe-os beber, fumar e muito mais!</LowMoodDescEnding>
+
   <ColonistNeedsRescue>Colono precisa de resgate</ColonistNeedsRescue>
   <ColonistsNeedRescue>Colonos precisam de resgate</ColonistsNeedRescue>
   <ColonistsNeedRescueDesc>Esses colonos estão incapacitados no chão:\n\n{0}\nEnvie outro colono para os resgatar e levá-los de volta para a cama.\n\n(Para resgatar, selecione outro colono, depois clique com o botão direito na vítima e selecione Resgatar.</ColonistsNeedRescueDesc>
@@ -39,7 +39,7 @@
   <LowMedicine>Poucos medicamentos</LowMedicine>
   <LowMedicineDesc>Você só tem mais {0} medicações sobrando em estoque.\n\nCompre mais medicina de comerciantes.</LowMedicineDesc>
   <NoMedicineDesc>Você não tem nenhuma medicação em estoque.\n\nCompre mais medicamentos de comerciantes.</NoMedicineDesc>
-  
+
   <NeedColonistBeds>Necessitam-se de camas para colonos</NeedColonistBeds>
   <NeedColonistBedsDesc>Você tem mais colonos que camas. Alguem vai ter que dormir no chão.\n\nOu construa mais camas, ou coloque uma cama de prisioneiro como uma de colono.\n\nSe você está sem recursos, locais de dormir são grátis e podem ser colocados instantanemente.</NeedColonistBedsDesc>
 
@@ -83,7 +83,7 @@
 
   <NeedResearchProject>Necessita-se pesquisa</NeedResearchProject>
   <NeedResearchProjectDesc>Você tem equipamento para pesquisar mas não tem um projeto selecionado.\n\nAbra o menu de pesquisa e selecione um projeto.</NeedResearchProjectDesc>
-  
+
   <NeedDump>Necessita-se lixo</NeedDump>
   <NeedDumpDesc>Você marcou {0} para ser coletado, mas os colonos não têm onde os despejar.\n\nDesigne uma zona de lixo ou configure uma zona de estoque para aceitar {0}.</NeedDumpDesc>
 
@@ -99,13 +99,13 @@
   <HaltedConstructions>{0} constructions are missing materials</HaltedConstructions>
   <HaltedConstructionsDesc>These kinds of constructions are missing materials:\n\n{0}\nYou should probably make required materials available for your colonists.</HaltedConstructionsDesc>
   -->
-  
+
   <ColonistNeedsTreatment>Colono precisa de tratamento</ColonistNeedsTreatment>
   <ColonistNeedsTreatmentDesc>Esses colonos precisam de tratamento médico. Ou poderão morrer, ou suas feridas podem tornar-se permanentes:\n\n{0}\nTrate-os os levando à uma cama médica.\n\n(Primeiro, marque uma cama como médica selecionando-a e a fazendo uma cama médica. Depois, selecione os colonos feridos e clique com o botão direito nas camas médicas para tornar-los pacientes.)</ColonistNeedsTreatmentDesc>
 
   <AlertHypothermia>Hipotermia</AlertHypothermia>
   <AlertHypothermiaDesc>Esses colonos estão sofrendo de hipotermia:\n\n{0}\nAssegure-se que as roupas deles estão apropriadas para a estação atual e que locais interiores estejam esquentados.</AlertHypothermiaDesc>
-  
+
   <PatientsAwaitingMedicalOperation>{0} pacientes aguardam cirurgia</PatientsAwaitingMedicalOperation>
   <PatientsAwaitingMedicalOperationDesc>Esses pacientes estão esperando por uma cirurgia:\n\n{0}\nAssegure-se que tem todas as ferramentas médicas e um médico livre.</PatientsAwaitingMedicalOperationDesc>
 
@@ -121,5 +121,5 @@
 
   <HunterHasShieldAndRangedWeapon>Caçador usando escudo e arma de longo alcance</HunterHasShieldAndRangedWeapon>
   <HunterHasShieldAndRangedWeaponDesc>Um de seus caçadores está usando uma arma de longo alcance e está usando um escudo pessoal, o qual não o deixará atirar à distância.\n\nEles não conseguirão caçar a não ser que o escudo seja removido.</HunterHasShieldAndRangedWeaponDesc>
-  
+
 </LanguageData>
