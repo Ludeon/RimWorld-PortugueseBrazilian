@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <LanguageData>
+
+    <!-- Various -->
     <WorkLeft>Trabalho restante</WorkLeft>
     <Contents>Conteúdo</Contents>
     <ContainedResources>Recursos contidos</ContainedResources>
@@ -7,23 +9,25 @@
     <ForColonistUse>Para uso de colonos</ForColonistUse>
     <MedicalBed>Médica</MedicalBed>
     <Owner>Dono</Owner>
+    <Owners>Donos</Owners>
+    <AssignedColonist>Atribuído ao colono</AssignedColonist>
     <Nobody>Ninguém</Nobody>
     <Unowned>Sem dono</Unowned>
     <DeadTime>Morto {0}</DeadTime>
     <WalkSpeed>velocidade do movimento {0}</WalkSpeed>
+    <FertShort>fert.</FertShort>
     <DyingLower>morrendo</DyingLower>
     <FilthOnFeet>Sujeira nos pés:</FilthOnFeet>
-    <NotEnoughStoredLower>sem suficiente guardado</NotEnoughStoredLower>
+    <NotEnoughStoredLower>sem suficiente armazenado</NotEnoughStoredLower>
     <NothingLower>nada</NothingLower>
     <Adapted>Adaptado</Adapted>
-    <Headshot>Headshot</Headshot>
     <FreshMissingBodyPart>fresco</FreshMissingBodyPart>
     <UntreatedLower>sem tratamento</UntreatedLower>
     <DevelopedImmunityLower>imunidade desenvolvida</DevelopedImmunityLower>
     <InjuryRequiresTreatment>necessita de tratamento para melhorar</InjuryRequiresTreatment>
-    <NextTreatmentAfter>próximo tratamento em {0} dias</NextTreatmentAfter>
+    <NextTreatmentIn>próximo tratamento em {0}</NextTreatmentIn>
     <MissingMedicalBillIngredient>sem {0}</MissingMedicalBillIngredient>
-    <ImmunityDevelopmentProgress>progresso de desenvolvimento de imunidade</ImmunityDevelopmentProgress>
+    <Immunity>Imunidade</Immunity>
     <Race>Raça</Race>
     <Description>Descrição</Description>
     <Equipment>Equipamento</Equipment>
@@ -31,8 +35,44 @@
     <Inventory>Inventario</Inventory>
     <ThingInfo>Informação</ThingInfo>
     <DropThing>Largar</DropThing>
+    <Rename>Renomear</Rename>
     <RenameColonist>Renomear colono</RenameColonist>
     <UnknownLower>desconhecido</UnknownLower>
+    <On>Ligado</On>
+    <Off>Desligado</Off>
+    <PowerSwitch_Power>Eletricidade</PowerSwitch_Power>
+    <JoyTolerances>Tolerância a alegria</JoyTolerances>
+    <MilkFullness>Capacidade de leite</MilkFullness>
+    <WoolGrowth>Crescimento da lã</WoolGrowth>
+    <EggProgress>Progresso dos ovos</EggProgress>
+    <Fertilized>Fertilizado</Fertilized>
+    <ProgressStoppedUntilFertilized>Progresso parou até que seja fertilizado</ProgressStoppedUntilFertilized>
+    <SkillTooLow>precisa {0} nível {2}, tem {1}</SkillTooLow>
+    <EggDamagedEmbryo>embrião danificado</EggDamagedEmbryo>
+    <CorpsePercentMissing>Partes do corpo faltando</CorpsePercentMissing>
+    <HiveReproducesIn>Reproduz em</HiveReproducesIn>
+    <BrokenDown>Quebrado</BrokenDown>
+    <BondBrackets>(ligação)</BondBrackets>
+    <Fuel>Combustível</Fuel>
+    <Enemies>inimigos</Enemies>
+    <TimePassed>tempo passou</TimePassed>
+    <CurrentRadius>raio atual</CurrentRadius>
+    <RadiusExpandsIn>raio expande em</RadiusExpandsIn>
+    <Permanent>permanente</Permanent>
+    <Temperature>Temperatura</Temperature>
+    <BadTemperature>Temperatura ruim</BadTemperature>
+    <IdealFermentingTemperature>Temperatura ideal para fermentação</IdealFermentingTemperature>
+    <DrugEffectMultiplier>{0} efeito multiplicador</DrugEffectMultiplier>
+
+    <!-- Fermentation barrel -->
+    <ContainsWort>Contém {0} / {1} erva.</ContainsWort>
+    <ContainsBeer>Contém {0} / {1} cerveja.</ContainsBeer>
+    <Fermented>Fermentado</Fermented>
+    <FermentationProgress>Progresso: {0} (termina em {1}).</FermentationProgress>
+    <FermentationBarrelOutOfIdealTemperature>Temperatura não ideal. Velocidade de fermentação: {0}</FermentationBarrelOutOfIdealTemperature>
+
+
+
     <SnowNone>Sem neve</SnowNone>
     <SnowDusting>Neve (poeira)</SnowDusting>
     <SnowThin>Neve (fina)</SnowThin>
