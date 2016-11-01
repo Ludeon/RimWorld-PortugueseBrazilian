@@ -1,8 +1,10 @@
 ### RimWorld-PortugueseBrazilian
-
 A Brazilian Portuguese translation for RimWorld.
 
 **LICENSE**: See **[this page](http://ludeon.com/forums/index.php?topic=2933.0)**
+
+### Tradução
+Antes de traduzir leia nosso [manual de boas práticas](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/dd47275add17118197bfbd2e4ac6b32ec415b99a/boasPraticas.md) de tradução.
 
 ------------------------
 Translators:
