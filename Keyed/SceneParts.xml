@@ -1,43 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- ======================== Non-grouped ========================-->
+    <!-- ======================== Non-grouped ========================-->
 
-  <ScenPart_PlayerFaction>Sua facção será {0}.</ScenPart_PlayerFaction>
+    <ScenPart_PlayerFaction>Sua facção será {0}.</ScenPart_PlayerFaction>
 
-  <ScenPart_StartWithPawns>Inicia com {0} pessoas.</ScenPart_StartWithPawns>
-  <RandomPet>animal aleatório</RandomPet>
+    <ScenPart_StartWithPawns>Inicia com {0} pessoas.</ScenPart_StartWithPawns>
+    <RandomPet>animal aleatório</RandomPet>
 
-  <ScenPart_StartingResearchFinished>Inicia com a pesquisa: {0}</ScenPart_StartingResearchFinished>
+    <ScenPart_StartingResearchFinished>Inicia com a pesquisa: {0}</ScenPart_StartingResearchFinished>
 
-  <ScenPart_ArriveInDropPods>Chega em queda de casulos.</ScenPart_ArriveInDropPods>
+    <ScenPart_ArriveInDropPods>Chega em queda de casulos.</ScenPart_ArriveInDropPods>
 
-  <ScenPart_StatFactor>A estatística "{0}" vai ser universalmente multiplicada por {1}.</ScenPart_StatFactor>
+    <ScenPart_StatFactor>A estatística "{0}" vai ser universalmente multiplicada por {1}.</ScenPart_StatFactor>
 
+    <!-- Pawn modifiers -->
+    <ScenPart_PawnsHaveHediff>{0} tem {1} de chance de começar com {2}.</ScenPart_PawnsHaveHediff>
+    <ConfigurableSeverity>severidade: {0}</ConfigurableSeverity>
 
-  <!-- Pawn modifiers -->
-  <ScenPart_PawnsHaveHediff>{0} tem {1} de chance de começar com {2}.</ScenPart_PawnsHaveHediff>
-  <ConfigurableSeverity>severidade: {0}</ConfigurableSeverity>
+    <ScenPart_SetNeed>{0} tem {1} de chance de ter sua {2} setado entre {3} e {4}.</ScenPart_SetNeed>
+    <ConfigurableLevel>nível: {0}</ConfigurableLevel>
 
-  <ScenPart_SetNeed>{0} tem {1} de chance de  ter sua {2} setado entre {3} e {4}.</ScenPart_SetNeed>
-  <ConfigurableLevel>nível: {0}</ConfigurableLevel>
+    <ScenPart_PawnsHaveTrait>{0} tem {1} chance de iniciar com o traço: {2}</ScenPart_PawnsHaveTrait>
+    <ScenPart_OnPawnDeathExplode>Personagens e criaturas explodem ao morrer ({0}, radius {1}).</ScenPart_OnPawnDeathExplode>
 
-  <ScenPart_PawnsHaveTrait>{0} tem {1} chance de iniciar com o traço: {2}</ScenPart_PawnsHaveTrait>
-  <ScenPart_OnPawnDeathExplode>Personagens e criaturas explodem  ao morrer ({0}, radius {1}).</ScenPart_OnPawnDeathExplode>
+    <!-- Pawn filters -->
+    <ScenPart_StartingPawnAgeMin>Seus personagens viverão no mínimo {0} anos.</ScenPart_StartingPawnAgeMin>
+    <ScenPart_StartingPawnAgeMax>Seus personagens viverão no máximo {0} anos.</ScenPart_StartingPawnAgeMax>
+    <ScenPart_StartingPawnAgeRange>Seus personagens viverão entre {0} e {1} anos.</ScenPart_StartingPawnAgeRange>
 
-  <!-- Pawn filters -->
-  <ScenPart_StartingPawnAgeMin>Seus personagens viverão no mínimo {0} anos.</ScenPart_StartingPawnAgeMin>
-  <ScenPart_StartingPawnAgeMax>Seus personagens viverão no máximo {0} anos.</ScenPart_StartingPawnAgeMax>
-  <ScenPart_StartingPawnAgeRange>Seus personagens viverão entre {0} e {1} anos.</ScenPart_StartingPawnAgeRange>
+    <!-- ======================== Grouped ========================-->
 
-
-  <!-- ======================== Grouped ========================-->
-
-  <ScenPart_StartWith>Inicia com</ScenPart_StartWith>
-  <ScenPart_MapScatteredWith>Mapa está disseminado com</ScenPart_MapScatteredWith>
-  <ScenPart_PermaMapCondition>Condições permanentes do mapa</ScenPart_PermaMapCondition>
-  <ScenPart_DisableIncident>Incidente(s) desabilitados</ScenPart_DisableIncident>
-  <ScenPart_CreateIncident>Incidente criado</ScenPart_CreateIncident>
-  <ScenPart_DisallowBuilding>Não consegue construir</ScenPart_DisallowBuilding>
+    <ScenPart_StartWith>Inicia com</ScenPart_StartWith>
+    <ScenPart_MapScatteredWith>Mapa está disseminado com</ScenPart_MapScatteredWith>
+    <ScenPart_PermaMapCondition>Condições permanentes do mapa</ScenPart_PermaMapCondition>
+    <ScenPart_DisableIncident>Incidente(s) desabilitados</ScenPart_DisableIncident>
+    <ScenPart_CreateIncident>Incidente criado</ScenPart_CreateIncident>
+    <ScenPart_DisallowBuilding>Não consegue construir</ScenPart_DisallowBuilding>
 
 </LanguageData>
