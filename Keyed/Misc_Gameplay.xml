@@ -144,46 +144,50 @@
     <WeaponMissRadius>Raio de erro da arma</WeaponMissRadius>
     <ShootReportShooterAbility>Atirador</ShootReportShooterAbility>
     <ShootReportWeapon>Arma</ShootReportWeapon>
-    <Darkness>Escuro</Darkness>
+    <Darkness>Escuridão</Darkness>
     <TargetProne>Alvo propenso</TargetProne>
     <TargetSize>Tamanho do alvo</TargetSize>
     <Weather>Clima</Weather>
     <ShootingCover>Cobertura</ShootingCover>
     <CoverThingBlocksPercentOfShots>{0} para {1}</CoverThingBlocksPercentOfShots>
     <NoCoverLower>sem cobertura</NoCoverLower>
+    <Execution>Execução</Execution>
+
+    <!-- Generated recipes -->
     <RecipeMake>Fazer {0}</RecipeMake>
     <RecipeMakeJobString>Fazendo {0}.</RecipeMakeJobString>
-    <Mood>Humor</Mood>
-    <MoodTip>Humor é mantido satisfazendo necessidades físicas e mentais.\n\nSe alguém estiver com o humor muito baixo, poderá sofrer um colapso mental.</MoodTip>
-    <Food>Alimento</Food>
-    <FoodTip>Alimento é a quatidade de nutrientes que a criatura consumiu recentemente. Se chegar a zero, a criatura irá sofrer de inanição até morrer.</FoodTip>
-    <Rest>Descanso</Rest>
-    <RestTip>Descanso é a qualidade do descanso no sono que alguém consegue.\n\nSobe ao máximo quando dormindo em uma cama. Fora da cama, baixa conforme o tempo.</RestTip>
-    <Environment>Ambiente</Environment>
-    <EnvironmentTip>Ambiente reflete quão agradável uma pessoa está com os arredores.\n\nAmbiente é alto quando está em lugares espaçosos com lindas decorações. E é ruim quando os arredores estão mal cuidados.</EnvironmentTip>
-    <Openness>Abertura</Openness>
+
+    <!-- Thoughts -->
     <ThoughtExpiresIn>Expira em: {0}</ThoughtExpiresIn>
     <ThoughtStartsExpiringIn>Começa a expirar em: {0}</ThoughtStartsExpiringIn>
     <ThoughtFinishesExpiringIn>Termina de expirar emn: {0}</ThoughtFinishesExpiringIn>
-    <MentalBreakThreshold>Limite de colapso mental</MentalBreakThreshold>
-    <Health>Vida</Health>
-    <PawnMainDescWithFactionGendered>{0} {1} de {2}</PawnMainDescWithFactionGendered>
+    <MentalBreakThresholdExtreme>Colapso mental EXTREMO!</MentalBreakThresholdExtreme>
+    <MentalBreakThresholdMajor>Colapso mental grande</MentalBreakThresholdMajor>
+    <MentalBreakThresholdMinor>Colapso mental leve</MentalBreakThresholdMinor>
+
+    <!-- Pawn info readout -->
     <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-    <PawnMainDescWithFactionGenderless>{0} de {1}</PawnMainDescWithFactionGenderless>
-    <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
+    <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
+    <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
     <Faction>Facção</Faction>
     <Equipped>Equipado</Equipped>
     <EquippedNothing>Nada</EquippedNothing>
     <Incapacitated>Incapacitado</Incapacitated>
     <InRestraints>Algemado (lento)</InRestraints>
     <Carrying>Carregando</Carrying>
-    <SanityDazedWander>Debilitado: Atordoado e vagando</SanityDazedWander>
-    <SanityGiveUpExit>Debilitado: Desistiu e saindo</SanityGiveUpExit>
-    <SanityPanicFlee>Debilitado: Fugindo em pânico</SanityPanicFlee>
-    <SanityPsychotic>Debilitado: Fúria Psicótica</SanityPsychotic>
+
+    <!-- Inspector general stuff -->
     <SelectNextInSquareTip>Seleciona a proxsima coisa no mesmo quadrado.\n\nTecla de atalho: {0}\n\nVocê pode também fazer isso clicando lentamente no mesmo quadrado denovo.</SelectNextInSquareTip>
     <DefInfoTip>Ver info sobre esse objeto.</DefInfoTip>
+
+    <!-- Hostility response -->
+    <HostilityReponseTip>Mudar como reagir a inimigos próximos quando colonos não estão preparados.</HostilityReponseTip>
+    <HostilityResponseCurrentMode>Modo atual</HostilityResponseCurrentMode>
+
+    <!-- like 'Blood of John' -->
     <OfLower>de</OfLower>
+
+    <!-- Power readout -->
     <PowerNotConnected>Não conectado a energia</PowerNotConnected>
     <PowerConnectedRateStored>Connected rate/stored: {0} W / {1} Wd</PowerConnectedRateStored>
     <PowerNeeded>Energia necessária</PowerNeeded>
