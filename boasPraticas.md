@@ -4,7 +4,7 @@
 - Agilizar;
 
 #### Ferramentas:
-- Editor de texto: [Atom](atom.io) (1)
+- Editor de texto: [Atom](https://atom.io) (1)
 - [Github Desktop](https://desktop.github.com/) ((2)para quem usa Windows)
 
 #### (1) Atom:
