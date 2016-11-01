@@ -23,4 +23,4 @@ Recomendamos que tenha uma ramificação do [projeto original](https://github.co
 - Utilizar o Beautify
 - Colocar antes de qualquer bloco de tradução a origem do mesmo como na imagem abaixo:
 
-![Atom](https://drive.google.com/open?id=0B-6FGtSI8QNLOTRVX3VqMG1EOFk)
+![Atom](https://lh6.googleusercontent.com/YGE5gV0xidy1Z06mJSkwB_5eVfs4_VNEVWWfUhlKPemC7jZb81RHJQCtNOp_vevTI-7TmxN4v3b7eo0=w1920-h990)
