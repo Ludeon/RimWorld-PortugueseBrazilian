@@ -5,35 +5,39 @@
   <TabBills>Projetos</TabBills>
   <TabGrowing>Cultivando</TabGrowing>
   <TabCharacter>Pessoa</TabCharacter>
+  <TabTraining>Treinando</TabTraining>
   <TabPrisoner>Prisioneiro</TabPrisoner>
-  <TabGear>Equip</TabGear>
-  <TabThoughts>Pensando</TabThoughts>
+  <TabGuest>Convidado</TabGuest>
+  <TabGear>Equipam.</TabGear>
+  <TabNeeds>Necessid.</TabNeeds>
   <TabStorage>Armazen.</TabStorage>
   <TabHealth>Saúde</TabHealth>
   <TabRace>Raça</TabRace>
   <TabBasics>Básico</TabBasics>
   <TabStats>Estado</TabStats>
+  <TabRecords>Histórico</TabRecords>
+  <TabArt>Arte</TabArt>
+  <TabSocial>Social</TabSocial>
 
-  
   <!-- Bills tab  -->
   <AddBill>Adc projeto</AddBill>
   <RecipeRequiresSkills>A receita {0} necessita as habilidades abaixo. Nenhum dos seus colonos possui essa habilidade, logo ninguem irá fazer este projeto.</RecipeRequiresSkills>
-  <BillConfig>Config</BillConfig>
+  <MinimumSkill>Habilidade mínima</MinimumSkill>
   <SuspendedCaps>SUSPENSO</SuspendedCaps>
+  <BoundWorkerIs>Trabalhador: {0}</BoundWorkerIs>
   <PlantVerb>Instalar</PlantVerb>
 
-
-  <!-- Prisoner tab -->
+  <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>Dificuldade de recrutamento</RecruitmentDifficulty>
-  <PrisonerGetsFood>Recebe comida</PrisonerGetsFood>
+  <GetsFood>Recebe comida</GetsFood>
   <DoctorsCare>Cuidados médicos</DoctorsCare>
-  <PrisonerGetsMedicine>Recebe medicina</PrisonerGetsMedicine>
+  <GetsMedicine>Recebe medicamentos</GetsMedicine>
   <ShouldTryToRecruit>Tentar recrutar</ShouldTryToRecruit>
   <PrisonerNoInteraction>Sem interação</PrisonerNoInteraction>
   <PrisonerFriendlyChat>Chat amigável</PrisonerFriendlyChat>
+  <PrisonerAttemptRecruit>Conversar e recrutar</PrisonerAttemptRecruit>
   <PrisonerRelease>Soltar</PrisonerRelease>
   <PrisonerExecution>Executar</PrisonerExecution>
-
 
   <!-- Medical - general -->
   <MoveSpeed>Velocidade de movimento</MoveSpeed>
@@ -53,7 +57,7 @@
   <WholeBody>Corpo inteiro</WholeBody>
   <DataProcessing>Processando informação</DataProcessing>
   <Communication>Comunicação</Communication>
-  <AffectsLower>efeitos</AffectsLower>
+  <Affects>Efeitos</Affects>
   <BleedingRate>Taxa de sangramento</BleedingRate>
   <HealthOverview>Resumo</HealthOverview>
   <MedicalOperationsShort>Operações ({0})</MedicalOperationsShort>
@@ -61,8 +65,13 @@
   <MedicalOperations>Operações médicas</MedicalOperations>
   <Amputate>Amputar</Amputate>
   <Harvest>Coletar</Harvest>
-  
-  
+  <RemoveOrgan>Remover</RemoveOrgan>
+  <MemoryLower>memória</MemoryLower>
+  <SocialInteractionsLower>interações sociais</SocialInteractionsLower>
+  <HungerRate>Nível de fome</HungerRate>
+  <Tiredness>Cansaço</Tiredness>
+  <PainFactor>Dor</PainFactor>
+  <PreventsInfection>Prevém infecção</PreventsInfection>
 
   <!-- Medical - Body and activities condition -->
   <None>Nenhum</None>
@@ -80,11 +89,29 @@
   <SeverePain>Alta</SeverePain>
   <ExtremePain>Extrema</ExtremePain>
 
+  <!-- Training tab-->
+  <TrainableIntelligence>Inteligência treinável</TrainableIntelligence>
+  <CannotTrainNotSmartEnough>Requer inteligência treinável {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>{0} é pequeno demais para treinar isto.</CannotTrainTooSmall>
 
+  <TrainingNeedsPrerequisite>Pré-requisito necessário: {0}</TrainingNeedsPrerequisite>
 
+  <!-- Social tab -->
+  <NoRelationships>(sem relacionamento)</NoRelationships>
+  <Kidnapped>Sequestrado</Kidnapped>
+  <Slave>Escravo</Slave>
+  <FactionLeader>Líder da Facção</FactionLeader>
+  <OpinionOf>Opinião de {0}</OpinionOf>
+  <SomeonesOpinionOfMe>Opnião de {0} sobre mim</SomeonesOpinionOfMe>
+  <IAmDead>Estou morto</IAmDead>
+  <IAmPsychopath>Sou um psicopata</IAmPsychopath>
 
-
-
-
+  <!-- Gear tab -->
+  <AverageArmor>Armadura média</AverageArmor>
+  <ComfyTemperatureRange>Extensão de temperatura confortável</ComfyTemperatureRange>
+  <ArmorBlunt>Brusco</ArmorBlunt>
+  <ArmorSharp>Afiado</ArmorSharp>
+  <ArmorHeat>Quente</ArmorHeat>
+  <ArmorElectric>Elétrico</ArmorElectric>
 
 </LanguageData>
