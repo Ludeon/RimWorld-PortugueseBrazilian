@@ -13,7 +13,7 @@ Translators:
 - [Willian](https://github.com/Srlimao)
 - [David](https://github.com/Zer0Gaming)
 - [Ragnar](https://github.com/RagnarLothbroke)
-- [Vitor](https://github.com/VitorGlinski)
+- [Vitor Glinski](https://github.com/VitorGlinski)
 - [Lich Beoulve](https://github.com/lichbeoulve)
 - [Renan Lopes](https://github.com/renan905)
 - [Daniel Caixeta](https://github.com/DanielCXT)
