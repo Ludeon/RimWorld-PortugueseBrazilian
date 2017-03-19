@@ -1,41 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    <MapDollyUp.label>Acima</MapDollyUp.label>
-    <MapDollyDown.label>Abaixo</MapDollyDown.label>
-    <MapDollyLeft.label>Esquerda</MapDollyLeft.label>
-    <MapDollyRight.label>Direita</MapDollyRight.label>
-    <MapZoomIn.label>zoom in</MapZoomIn.label>
-    <MapZoomOut.label>zoom out</MapZoomOut.label>
-    <ArchitectMode.label>Implantar menu de arquiteto</ArchitectMode.label>
-    <ToggleScreenshotMode.label>alternar Modo de Captura de Tela</ToggleScreenshotMode.label>
-    <TakeScreenshot.label>Fazer captura de tela</TakeScreenshot.label>
-    <SelectNextInCell.label>Selecionar seguinte objeto na célula</SelectNextInCell.label>
-    <TogglePause.label>pausar/resumir</TogglePause.label>
+    
+    <MapDollyUp.label>ir para cima</MapDollyUp.label>
+    
+    <MapDollyDown.label>ir para baixo</MapDollyDown.label>
+    
+    <MapDollyLeft.label>ir á esquerda</MapDollyLeft.label>
+    
+    <MapDollyRight.label>ir á direita</MapDollyRight.label>
+    
+    <MapZoomIn.label>aumentar zoom</MapZoomIn.label>
+    
+    <MapZoomOut.label>diminuir zoom</MapZoomOut.label>
+    
+    <TakeScreenshot.label>capturar tela</TakeScreenshot.label>
+    
+    <ToggleScreenshotMode.label>modo captura de tela</ToggleScreenshotMode.label>
+    
+    <SelectNextInCell.label>selecionar o próximo na célula</SelectNextInCell.label>
+    
+    <TogglePause.label>pausa/resume o jogo</TogglePause.label>
+    
     <TimeSpeedNormal.label>velocidade do jogo: normal</TimeSpeedNormal.label>
+    
     <TimeSpeedFast.label>velocidade do jogo: rápido</TimeSpeedFast.label>
-    <TimeSpeedSuperfast.label>velocidade do jogo: super rápido</TimeSpeedSuperfast.label>
-    <TimeSpeedUltrafast.label>velocidade do jogo: ultra rápido(debug)</TimeSpeedUltrafast.label>
+    
+    <TimeSpeedSuperfast.label>velocidade do jogo: muito rápido</TimeSpeedSuperfast.label>
+    
+    <TimeSpeedUltrafast.label>velocidade do jogo: ultra rápido (debug)</TimeSpeedUltrafast.label>
+    
     <PreviousColonist.label>colono anterior</PreviousColonist.label>
-    <NextColonist.label>colono seguinte</NextColonist.label>
-    <Misc1.label>Misc 1</Misc1.label>
-    <Misc2.label>Misc 2</Misc2.label>
-    <Misc3.label>Misc 3</Misc3.label>
-    <Misc4.label>Misc 4</Misc4.label>
-    <Misc5.label>Misc 5</Misc5.label>
-    <Misc6.label>Misc 6</Misc6.label>
-    <Misc7.label>Misc 7</Misc7.label>
-    <Misc8.label>Misc 8</Misc8.label>
-    <Misc9.label>Misc 9</Misc9.label>
-    <Misc10.label>Misc 10</Misc10.label>
-    <Misc11.label>Misc 11</Misc11.label>
-    <Misc12.label>Misc 12</Misc12.label>
-    <CommandTogglePower.label>Alternar Aitvo/Inativo</CommandTogglePower.label>
-    <CommandItemForbid.label>Alternar proibido</CommandItemForbid.label>
-    <CommandColonistDraft.label>Recrutar</CommandColonistDraft.label>
+    
+    <NextColonist.label>próximo colono</NextColonist.label>
+    
+    <Misc1.label>Diversos 1</Misc1.label>
+    
+    <Misc2.label>Diversos 2</Misc2.label>
+    
+    <Misc3.label>Diversos 3</Misc3.label>
+    
+    <Misc4.label>Diversos 4</Misc4.label>
+    
+    <Misc5.label>Diversos 5</Misc5.label>
+    
+    <Misc6.label>Diversos 6</Misc6.label>
+    
+    <Misc7.label>Diversos 7</Misc7.label>
+    
+    <Misc8.label>Diversos 8</Misc8.label>
+    
+    <Misc9.label>Diversos 9</Misc9.label>
+    
+    <Misc10.label>Diversos 10</Misc10.label>
+    
+    <Misc11.label>Diversos 11</Misc11.label>
+    
+    <Misc12.label>Diversos 12</Misc12.label>
+    
+    <CommandTogglePower.label>interruptor de alimentação</CommandTogglePower.label>
+    
+    <CommandItemForbid.label>alternar proibido</CommandItemForbid.label>
+    
+    <CommandColonistDraft.label>projeto</CommandColonistDraft.label>
+    
     <DesignatorCancel.label>cancelar</DesignatorCancel.label>
-    <DesignatorDeconstruct.label>desmontar</DesignatorDeconstruct.label>
-    <DesignatorRotateLeft.label>girar para esquerda</DesignatorRotateLeft.label>
-    <DesignatorRotateRight.label>girar para direita</DesignatorRotateRight.label>
-    <ToggleLog.label>Alternar Log</ToggleLog.label>
-    <DebugTickOnce.label>Um tick (debug)</DebugTickOnce.label>
+    
+    <DesignatorDeconstruct.label>desconstruir</DesignatorDeconstruct.label>
+    
+    <DesignatorRotateLeft.label>virar à esquerda</DesignatorRotateLeft.label>
+    
+    <DesignatorRotateRight.label>virar á direita</DesignatorRotateRight.label>
+
+  <!-- Debug -->
+
+  <TickOnce.label>marque uma vez</TickOnce.label>
+  <ToggleGodMode.label>alternar modo deus</ToggleGodMode.label>
+  <ToggleDebugLog.label>alternar relatório de depuração</ToggleDebugLog.label>
+  <ToggleDebugActionsMenu.label>alternar o menu de ações de depuração</ToggleDebugActionsMenu.label>
+  <ToggleDebugLogMenu.label>alternar menu de relatório de depuração</ToggleDebugLogMenu.label>
+  <ToggleDebugInspector.label>alternar inspetor de depuração</ToggleDebugInspector.label>
+  <ToggleDebugSettingsMenu.label>alternar o menu de configurações de depuração</ToggleDebugSettingsMenu.label>
+    
 </LanguageData>

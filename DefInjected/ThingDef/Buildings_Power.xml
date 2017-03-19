@@ -1,13 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    <PowerConduit.label>Condutor elétrico</PowerConduit.label>
-    <PowerConduit.description>Um conjunto de cabos para transmitir energia.</PowerConduit.description>
-    <PowerSwitch.label>Interruptor</PowerSwitch.label>
-    <PowerSwitch.description>Permite ativar ou desativar a eletricidade.</PowerSwitch.description>
-    <SolarGenerator.label>Gerador solar</SolarGenerator.label>
-    <SolarGenerator.description>Produz eletricidade através da luz solar. Não funciona no escuro.</SolarGenerator.description>
-    <GeothermalGenerator.label>Gerador geotérmico</GeothermalGenerator.label>
-    <GeothermalGenerator.description>Produz eletricidade através do calor feito pelos gêisers de vapor. Deve ser colocado sobre um gêiser.</GeothermalGenerator.description>
-    <Battery.label>Bateria</Battery.label>
-    <Battery.description>Armazena a eletricidade quando em excesso e transmite quando não há. Atenção as baterias carregadas podem explodir se esquentarem ou molharem.</Battery.description>
+    
+    <PowerConduit.label>condutor elétrico</PowerConduit.label>
+    <PowerConduit.description>Um conjunto de cabos elétricos para distribuir energia. Pode ser colocado debaixo das paredes e outros edifícios.</PowerConduit.description>
+    
+    <PowerSwitch.label>interruptor de alimentação</PowerSwitch.label>
+    <PowerSwitch.description>Desliga/Liga a alimentação elétrica.</PowerSwitch.description>
+    
+    <FueledGenerator.label>gerador abastecido</FueledGenerator.label>
+    <FueledGenerator.description>Produz energia através do consumo de combustível de madeira. Deve ser alimentado a mão.</FueledGenerator.description>
+
+    <Battery.label>bateria</Battery.label>
+    <Battery.description>Armazena eletricidade quando há excesso de pode e da-la quando não há. Aviso - As baterias carregadas tendem a explodir quando superaquecidas ou molhadas.</Battery.description>
+    
+    <SolarGenerator.label>gerador solar</SolarGenerator.label>
+    <SolarGenerator.description>Produz eletricidade da luz solar. Não funciona no escuro.</SolarGenerator.description>
+    
+    <GeothermalGenerator.label>gerador geotérmico</GeothermalGenerator.label>
+    <GeothermalGenerator.description>Produz eletricidade dos gêiseres de vapor geotérmico. Deve ser colocado em um gêiser.</GeothermalGenerator.description>
+    
 </LanguageData>
