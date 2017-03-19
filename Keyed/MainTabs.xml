@@ -1,71 +1,79 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- Work tab -->
-    <ManualPriorities>Prioridades Manuais</ManualPriorities>
-    <HigherPriority>maior prioridade</HigherPriority>
-    <LowerPriority>menor prioridade</LowerPriority>
-    <RelevantSkills>Habilidades relevantes: {0}\nMedia de habilidades relevantes: {1} / {2}</RelevantSkills>
-    <ClickToJumpTo>Clique para pular para:</ClickToJumpTo>
-    <CannotDoThisWork>{0} não pode fazer esse tipo de trabalho.</CannotDoThisWork>
-    <NoneBrackets>(nada)</NoneBrackets>
-    <IncapableOfWorkTypeBecauseOfCapacities>Este colono não consegue realizar qualquer trabalho deste tipo por conta de sua condição de saúde.</IncapableOfWorkTypeBecauseOfCapacities>
-    <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- Work tab -->
+  <ManualPriorities>Priorid. manuais</ManualPriorities>
+  <HigherPriority>maior prioridade</HigherPriority>
+  <LowerPriority>menor prioridade</LowerPriority>
+  <RelevantSkills>Habilidades revelantes: {0}\nMédia de habilidades relevantes: {1} / {2}</RelevantSkills>
+  <ClickToJumpTo>Clique para ir para:</ClickToJumpTo>
+  <CannotDoThisWork>{0} não pode fazer este tipo de trabalho.</CannotDoThisWork>
+  <NoneBrackets>(nada)</NoneBrackets>
+  <IncapableOfWorkTypeBecauseOfCapacities>Este colono não é capaz de fazer qualquer trabalho deste tipo devido à sua condição de saúde.</IncapableOfWorkTypeBecauseOfCapacities>
+  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  
+  <!-- Assign tab -->
+  <CurrentOutfit>Trajes atuais</CurrentOutfit>
+  <ManageOutfits>Gerenciar roupas</ManageOutfits>
+  <ClearForcedApparel>Tirar forçado</ClearForcedApparel>
+  <ApparelForcedLower>forçado</ApparelForcedLower>
+  <ForcedApparel>Vestuário forçado</ForcedApparel>
+  <AssignTabEdit>Editar...</AssignTabEdit>
+  <CurrentDrugPolicies>Política de drogas atual</CurrentDrugPolicies>
+  <ManageDrugPolicies>Gerenciar políticas de drogas</ManageDrugPolicies>
+  
+  <!-- Restrictions tab -->
+  <Copy>Copiar</Copy>
+  <Paste>Colar</Paste>
+  <AllowedArea>Área permitida</AllowedArea>
+  
+  <!-- Animals tab -->
+  <Master>Mestre</Master>
+  <PregnantIconDesc>Grávida ({0} / {1})</PregnantIconDesc>
+  <FollowDraftedTip>Seguir o mestre enquanto o mestre está alistado.</FollowDraftedTip>
+  <FollowFieldworkTip>Segue o mestre enquanto o mestre está fazendo trabalho de campo (caça ou domesticação de animais).</FollowFieldworkTip>
+	
+  <!-- Factions tab -->
+  <Hostile>Hostil</Hostile>
+  <DefeatedLower>derrotado</DefeatedLower>
+  <HostileTo>Inimigo de {0}</HostileTo>
+  <CurrentGoodwill>Boa vontade atual com esta facção.</CurrentGoodwill>
+  
+	<!-- Social tab -->
+	<Friend>Amigo</Friend>
+	<Rival>Rival</Rival>
+	<Acquaintance>Conhecido</Acquaintance>
+	
+  <!-- History tab - subtabs -->
+  <Graph>Gráfico</Graph>
+  <Statistics>Estatísticas</Statistics>
+  
+  <!-- History tab - Graphs -->
+  <SelectGraph>Escolha um gráfico</SelectGraph>
+  <Last30Days>Ultimos 30 dias</Last30Days>
+  <Last100Days>Ultimos 100 dias</Last100Days>
+  <Last300Days>Ultimos 300 dias</Last300Days>
+  <AllDays>Tudo</AllDays>
+  <Day>Dia</Day>
+  <Value>Valor</Value>
+  <External>Externo</External>
 
-    <!-- Assign tab -->
-    <CurrentOutfit>Roupas atuais</CurrentOutfit>
-    <ManageOutfits>Gerenciamento de roupas</ManageOutfits>
-    <ClearForcedApparel>Retirar roupa forçada</ClearForcedApparel>
-    <ApparelForcedLower>forçado</ApparelForcedLower>
-    <ForcedApparel>Roupa forçada</ForcedApparel>
-    <AssignTabEdit>Editar...</AssignTabEdit>
-    <CurrentDrugPolicies>Política de drogas</CurrentDrugPolicies>
-    <ManageDrugPolicies>Gerenciar política de drogas</ManageDrugPolicies>
+  <!-- History tab - Statistics -->
+  <Playtime>Tempo de jogo</Playtime>
+  <Storyteller>Narrador</Storyteller>
+  <ThisMapColonyWealthTotal>Riqueza da colônia (neste mapa)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthItems>Riqueza da colônia (itens) (neste mapa)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthBuildings>Riqueza da colônia (estruturas) (neste mapa)</ThisMapColonyWealthBuildings>
+  <NumThreatBigs>Ameaças principais</NumThreatBigs>
+  <NumEnemyRaids>Invasões inimigas</NumEnemyRaids>
+  <ThisMapDamageTaken>Dano recebido (neste mapa)</ThisMapDamageTaken>
+  <ColonistsKilled>Colonos mortos</ColonistsKilled>
+  <ColonistsLaunched>Colonos lançados no espaço</ColonistsLaunched>
 
-    <!-- Restrictions tab -->
-    <Copy>Copiar</Copy>
-    <Paste>Colar</Paste>
-    <AllowedArea>Áreas permitidas</AllowedArea>
-
-    <!-- Animals tab -->
-    <Master>Mestre</Master>
-    <PregnantIconDesc>Grávida ({0} / {1})</PregnantIconDesc>
-
-    <!-- Factions tab -->
-    <Hostile>Hostil</Hostile>
-    <HostileTo>Inimigo de {0}</HostileTo>
-    <CurrentGoodwill>Atualmente benevolente com esta facção.</CurrentGoodwill>
-
-    <!-- History tab - subtabs -->
-    <Graph>Gráfico</Graph>
-    <Statistics>Estatísticas</Statistics>
-
-    <!-- History tab - Graphs -->
-    <SelectGraph>Selecione um gráfico</SelectGraph>
-    <Last30Days>Últimos 30 days</Last30Days>
-    <Last100Days>Últimos 100 days</Last100Days>
-    <Last300Days>Últimos 300 days</Last300Days>
-    <AllDays>Todo o tempo</AllDays>
-    <Day>Dia</Day>
-    <Value>Valor</Value>
-    <External>Externo</External>
-
-    <!-- History tab - Statistics -->
-    <Playtime>Tempo jogado</Playtime>
-    <Storyteller>Narrador</Storyteller>
-    <ColonyWealthTotal>Riqueza da colonia</ColonyWealthTotal>
-    <ColonyWealthItems>Riqueza da colonia (itens)</ColonyWealthItems>
-    <ColonyWealthBuildings>Riqueza da colonia (prédios)</ColonyWealthBuildings>
-    <NumThreatBigs>Principais ameaças</NumThreatBigs>
-    <NumEnemyRaids>Incursões inimigas</NumEnemyRaids>
-    <DamageTaken>Dano recebido</DamageTaken>
-    <ColonistsKilled>Colonistas mortos</ColonistsKilled>
-    <ColonistsLaunched>Colonistas enviados para o espaço</ColonistsLaunched>
-
-    <!-- Research tab -->
-    <ProjectTechLevel>nível tecnológico do projeto</ProjectTechLevel>
-    <YourTechLevel>seu nível tecnológico</YourTechLevel>
-    <ResearchCostMultiplier>multiplicador de custo</ResearchCostMultiplier>
-    <ResearchCostComparison>Custo base do projeto {0} torna-se {1} por conta do seu nível de tecnologia.</ResearchCostComparison>
-
+  <!-- Research tab -->
+  <ProjectTechLevel>nível de tecnologia do projeto</ProjectTechLevel>
+  <YourTechLevel>seu nível de tecnologia</YourTechLevel>
+  <ResearchCostMultiplier>multiplicador de custo</ResearchCostMultiplier>
+  <ResearchCostComparison>O custo base do projeto {0} se tornou {1} para você por causa do seu nível de tecnologia.</ResearchCostComparison>
+  
 </LanguageData>

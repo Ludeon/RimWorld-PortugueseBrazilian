@@ -1,19 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    <MaxHitPoints.label>Saúde máxima</MaxHitPoints.label>
-    <MaxHitPoints.description>A saúde máxima de um objeto.</MaxHitPoints.description>
-    <MarketValue.label>Valor de mercado</MarketValue.label>
-    <MarketValue.description>O valor de mercado de um objeto. O preço real de mercado será modificado pela habilidade de negociação e o estado das relações.</MarketValue.description>
-    <SellPriceFactor.label>Multiplicador de preço de venda</SellPriceFactor.label>
-    <SellPriceFactor.description>Um multiplicador do preço ao que pode vender um objeto.</SellPriceFactor.description>
-    <Flammability.label>Inflamabilidade</Flammability.label>
-    <Flammability.description>A facilidade que um objeto pode queimar e a força com que queima.</Flammability.description>
-    <WorkToMake.label>Quantidade de trabalho</WorkToMake.label>
-    <WorkToMake.description>A quantidade base do trabalho que custa elaborar isto uma vez que tenha sido reunidos todos os materiais e ferramentas.</WorkToMake.description>
-    <DeteriorationRate.label>Velocidade de deterioração</DeteriorationRate.label>
-    <DeteriorationRate.description>A velocidade que este objeto se deteriora quando se encontra exposto ao exterior, especialmente na chuva.</DeteriorationRate.description>
-    <Beauty.label>Beleza</Beauty.label>
-    <Beauty.description>A quantidade de gozo que proporciona um objeto as pessoas que o observam ou que se encontram ao seu redor.</Beauty.description>
-    <Comfort.label>Conforto</Comfort.label>
-    <Comfort.description>A quantidade de conforto que proporciona um objeto ao deitar-se ou sentar-se nele.</Comfort.description>
+    
+    <MaxHitPoints.label>pontos de vida máximo</MaxHitPoints.label>
+    <MaxHitPoints.description>O valor máximo de vida de um objeto. Isto representa quanto dano pode levar antes de ser destruído.</MaxHitPoints.description>
+    
+    <Mass.label>massa</Mass.label>
+    <Mass.description>A massa física de um objeto.</Mass.description>
+    <Mass.formatString>{0} kg</Mass.formatString>
+
+    <MarketValue.label>valor de mercado</MarketValue.label>
+    <MarketValue.description>O valor de mercado de um objeto. O preço do comércio real será ainda mais modificado pela habilidade de negociação, status de relacionamento e outros fatores contextuais.</MarketValue.description>
+    <MarketValue.formatString>${0}</MarketValue.formatString>
+    
+    <SellPriceFactor.label>multiplicador de preço de venda</SellPriceFactor.label>
+    <SellPriceFactor.description>Um multiplicador sobre o preço pelo qual você pode vender itens.</SellPriceFactor.description>
+    
+    <Flammability.label>inflamabilidade</Flammability.label>
+    <Flammability.description>O quão facilmente um objeto irá pegar fogo e quão fortemente ele queima.</Flammability.description>
+    
+    <WorkToMake.label>trabalho para fazer</WorkToMake.label>
+    <WorkToMake.description>A quantidade básica de trabalho que é preciso para fazer isto, uma vez que todos os materiais e ferramentas estão reunidos.</WorkToMake.description>
+
+    <WorkToBuild.label>trabalho para construir</WorkToBuild.label>
+    <WorkToBuild.description>A quantidade básica de trabalho que leva para construir uma estrutura, uma vez que todos os materiais e ferramentas estão reunidos.</WorkToBuild.description>
+    
+    <DeteriorationRate.label>taxa de deterioração</DeteriorationRate.label>
+    <DeteriorationRate.description>A taxa na qual este item deteriora quando deixado no lado de fora, especialmente na chuva.</DeteriorationRate.description>
+    <DeteriorationRate.formatString>{0} / dia</DeteriorationRate.formatString>
+    
+    <Beauty.label>beleza</Beauty.label>
+    <Beauty.description>O quão agradável um objeto é de se estar ao redor e olhar para ele.</Beauty.description>
+    
+    <Cleanliness.label>limpeza</Cleanliness.label>
+    <Cleanliness.description>O quão limpo um objeto é.</Cleanliness.description>
+    
+    <Comfort.label>conforto</Comfort.label>
+    <Comfort.description>O quão confortável um objeto é para sentar ou deitar.</Comfort.description>
+    
 </LanguageData>

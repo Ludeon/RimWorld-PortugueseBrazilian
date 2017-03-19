@@ -1,330 +1,443 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!-- Various -->
-    <WorkLeft>Trabalho restante</WorkLeft>
-    <Contents>Conteúdo</Contents>
-    <ContainedResources>Recursos contidos</ContainedResources>
-    <ForPrisonerUse>Para uso de prisioneiro</ForPrisonerUse>
-    <ForColonistUse>Para uso de colonos</ForColonistUse>
-    <MedicalBed>Médica</MedicalBed>
-    <Owner>Dono</Owner>
-    <Owners>Donos</Owners>
-    <AssignedColonist>Atribuído ao colono</AssignedColonist>
-    <Nobody>Ninguém</Nobody>
-    <Unowned>Sem dono</Unowned>
-    <DeadTime>Morto {0}</DeadTime>
-    <WalkSpeed>velocidade do movimento {0}</WalkSpeed>
-    <FertShort>fert.</FertShort>
-    <DyingLower>morrendo</DyingLower>
-    <FilthOnFeet>Sujeira nos pés:</FilthOnFeet>
-    <NotEnoughStoredLower>sem suficiente armazenado</NotEnoughStoredLower>
-    <NothingLower>nada</NothingLower>
-    <Adapted>Adaptado</Adapted>
-    <FreshMissingBodyPart>fresco</FreshMissingBodyPart>
-    <UntreatedLower>sem tratamento</UntreatedLower>
-    <DevelopedImmunityLower>imunidade desenvolvida</DevelopedImmunityLower>
-    <InjuryRequiresTreatment>necessita de tratamento para melhorar</InjuryRequiresTreatment>
-    <NextTreatmentIn>próximo tratamento em {0}</NextTreatmentIn>
-    <MissingMedicalBillIngredient>sem {0}</MissingMedicalBillIngredient>
-    <Immunity>Imunidade</Immunity>
-    <Race>Raça</Race>
-    <Description>Descrição</Description>
-    <Equipment>Equipamento</Equipment>
-    <Apparel>Roupa</Apparel>
-    <Inventory>Inventario</Inventory>
-    <ThingInfo>Informação</ThingInfo>
-    <DropThing>Largar</DropThing>
-    <Rename>Renomear</Rename>
-    <RenameColonist>Renomear colono</RenameColonist>
-    <UnknownLower>desconhecido</UnknownLower>
-    <On>Ligado</On>
-    <Off>Desligado</Off>
-    <PowerSwitch_Power>Eletricidade</PowerSwitch_Power>
-    <JoyTolerances>Tolerância a alegria</JoyTolerances>
-    <MilkFullness>Capacidade de leite</MilkFullness>
-    <WoolGrowth>Crescimento da lã</WoolGrowth>
-    <EggProgress>Progresso dos ovos</EggProgress>
-    <Fertilized>Fertilizado</Fertilized>
-    <ProgressStoppedUntilFertilized>Progresso parou até que seja fertilizado</ProgressStoppedUntilFertilized>
-    <SkillTooLow>precisa {0} nível {2}, tem {1}</SkillTooLow>
-    <EggDamagedEmbryo>embrião danificado</EggDamagedEmbryo>
-    <CorpsePercentMissing>Partes do corpo faltando</CorpsePercentMissing>
-    <HiveReproducesIn>Reproduz em</HiveReproducesIn>
-    <BrokenDown>Quebrado</BrokenDown>
-    <BondBrackets>(ligação)</BondBrackets>
-    <Fuel>Combustível</Fuel>
-    <Enemies>inimigos</Enemies>
-    <TimePassed>tempo passou</TimePassed>
-    <CurrentRadius>raio atual</CurrentRadius>
-    <RadiusExpandsIn>raio expande em</RadiusExpandsIn>
-    <Permanent>permanente</Permanent>
-    <Temperature>Temperatura</Temperature>
-    <BadTemperature>Temperatura ruim</BadTemperature>
-    <IdealFermentingTemperature>Temperatura ideal para fermentação</IdealFermentingTemperature>
-    <DrugEffectMultiplier>{0} efeito multiplicador</DrugEffectMultiplier>
+  <!-- Various -->
+  <WorkLeft>Trabalho restante</WorkLeft>
+  <Contents>Conteúdo</Contents>
+  <ContainedResources>Recursos contidos</ContainedResources>
+  <ForPrisonerUse>Para uso dos prisioneiros</ForPrisonerUse>
+  <ForColonistUse>Para uso dos colonos</ForColonistUse>
+  <MedicalBed>Médica</MedicalBed>
+  <Owner>Dono</Owner>
+  <Owners>Donos</Owners>
+  <AssignedColonist>Atribuir colono</AssignedColonist>
+  <Nobody>Ninguém</Nobody>
+  <Unowned>Sem dono</Unowned>
+  <DeadTime>Morto há {0}</DeadTime>
+  <WalkSpeed>Velocidade de caminhada {0}</WalkSpeed>
+  <FertShort>fert.</FertShort>
+  <DyingLower>Morrendo</DyingLower>
+  <FilthOnFeet>Sujeira nos pés:</FilthOnFeet>
+  <NotEnoughStoredLower>não há suficiente armazenado</NotEnoughStoredLower>
+  <NothingLower>nada</NothingLower>
+  <Adapted>Adaptado</Adapted>
+  <FreshMissingBodyPart>fresco</FreshMissingBodyPart>
+  <DevelopedImmunityLower>desenvolveu imunidade</DevelopedImmunityLower>
+  <NeedsTendingNow>Precisa de cuidados agora</NeedsTendingNow>
+  <NextTreatmentIn>Próximo tratamento em {0}</NextTreatmentIn>
+  <MissingMedicalBillIngredient>sem {0}</MissingMedicalBillIngredient>
+  <Immunity>Imunidade</Immunity>
+  <Race>Raça</Race>
+  <Description>Descrição</Description>
+  <Equipment>Equipamentos</Equipment>
+  <Apparel>Aparência</Apparel>
+  <Inventory>Inventário</Inventory>
+  <ThingInfo>Informação</ThingInfo>
+  <DropThing>Largar</DropThing>
+  <Rename>Renomear</Rename>
+  <RenameColonist>Renomear colono</RenameColonist>
+  <UnknownLower>desconhecido</UnknownLower>
+  <On>Ligado</On>
+  <Off>Desligado</Off>
+  <PowerSwitch_Power>Eletricidade</PowerSwitch_Power>
+  <JoyTolerances>Tolerância de diversão</JoyTolerances>
+  <MilkFullness>Abundância de leite</MilkFullness>
+  <WoolGrowth>Crescimento de lã</WoolGrowth>
+  <EggProgress>Progresso de ovo</EggProgress>
+  <Fertilized>Fertilizado</Fertilized>
+  <ProgressStoppedUntilFertilized>Progresso parado até que fertilizado</ProgressStoppedUntilFertilized>
+  <SkillTooLow>precisa de nível {2} em {0}, o nível atual é {1}</SkillTooLow>
+	<Freezing>Congelamento</Freezing>
+	<Overheating>Superaquecimento</Overheating>
+	<RuinedByTemperature>Arruinado pela temperatura.</RuinedByTemperature>
+	<CorpsePercentMissing>Partes ausentes do corpo</CorpsePercentMissing>
+	<HiveReproducesIn>Reproduz em</HiveReproducesIn>
+	<BrokenDown>Quebrado</BrokenDown>
+	<BondBrackets>(vínculo)</BondBrackets>
+	<Fuel>Combustível</Fuel>
+  <FuelLevelGizmoLabel>Combustível</FuelLevelGizmoLabel>
+  <SetTargetFuelLevel>Definir o nível de combustível alvo para {0}</SetTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Definir o nível de combustível alvo para {0}\nDistância máxima: {1} azulejos</SetPodLauncherTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>Nível de combustível alvo: {0}</ConfiguredTargetFuelLevel>
+	<Enemies>inimigos</Enemies>
+	<TimePassed>tempo passado</TimePassed>
+	<CurrentRadius>alcance atual</CurrentRadius>
+	<RadiusExpandsIn>alcance expande em</RadiusExpandsIn>
+	<Permanent>permanente</Permanent>
+	<CaravanResting>Em repouso.</CaravanResting>
+  <CaravanEstimatedTimeToDestination>Tempo esti. para o destino: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanImmobilizedByMass>Imobilizado: muito peso.</CaravanImmobilizedByMass>
+  <CaravanOutOfFood>Sem comida.</CaravanOutOfFood>
+  <CaravanDaysOfFood>Dias de comida: {0}</CaravanDaysOfFood>
+	<CaravanMemberMentalBreak>Parado porque: {0} teve um colapso mental.</CaravanMemberMentalBreak>
+	<AllCaravanMembersDowned>Parado porque: todo mundo está caído.</AllCaravanMembersDowned>
+	<CaravanTraveling>Viajando.</CaravanTraveling>
+	<CaravanWaiting>Esperando.</CaravanWaiting>
+	<CaravanHoursPerTile>h/azulejo</CaravanHoursPerTile>
+	<CaravanBaseMovementTime>Tempo de movimento da base</CaravanBaseMovementTime>
+	<CurrentTileMovementTime>Tempo de movimento de azulejo</CurrentTileMovementTime>
+	<Temperature>Temperatura</Temperature>
+	<BadTemperature>má temperatura</BadTemperature>
+	<IdealFermentingTemperature>Temperatura ideal de fermentação</IdealFermentingTemperature>
+	<DrugEffectMultiplier>Efeito multiplicador de {0}</DrugEffectMultiplier>
+	<CaravanVisiting>Visitando {0}.</CaravanVisiting>
+	<CaravanEntering>Entrando em {0}.</CaravanEntering>
+	<CaravanAttacking>Atacando {0}.</CaravanAttacking>
+	<WasWornByCorpse>Foi usado por um cadáver.</WasWornByCorpse>
+	<WornByCorpseChar>D</WornByCorpseChar>
+	<DeterioratingDueToBeingUnroofed>Deteriorando devido a não estar sob um telhado.</DeterioratingDueToBeingUnroofed>
+  <Map>Mapa</Map>
+  <ForceExitAndRemoveMapCountdown>{0} horas até a partida</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Os seus colonos irão reformar automaticamente uma caravana e deixar esta área depois de {0} horas.</ForceExitAndRemoveMapCountdownTip>
+	<Room>Cômodo</Room>
+	<BeautyHere>Beleza aqui</BeautyHere>
+	<NoPower>Sem energia</NoPower>
+	<WorkSpeedPenalty>Penalidade de velocidade de trabalho</WorkSpeedPenalty>
+  <DisabledCommand>DESATIVADO</DisabledCommand>
+  <ReadyForLaunch>Pronto para lançamento.</ReadyForLaunch>
+  <NotReadyForLaunch>Não está pronto para ser lançado</NotReadyForLaunch>
+  <NotAllInGroupConnectedToFuelingPort>sem porta de abastecimento</NotAllInGroupConnectedToFuelingPort>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>Sem combustível</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>carregamento em andamento</TransportPodInGroupHasSomethingLeftToLoad>
+  <TransportPodDestinationBeyondMaximumRange>Além do alcance máximo</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodNotEnoughFuel>Sem combustível suficiente</TransportPodNotEnoughFuel>
+  <FactionBaseTrader>{0} de {1}</FactionBaseTrader>
 
-    <!-- Fermentation barrel -->
-    <ContainsWort>Contém {0} / {1} erva.</ContainsWort>
-    <ContainsBeer>Contém {0} / {1} cerveja.</ContainsBeer>
-    <Fermented>Fermentado</Fermented>
-    <FermentationProgress>Progresso: {0} (termina em {1}).</FermentationProgress>
-    <FermentationBarrelOutOfIdealTemperature>Temperatura não ideal. Velocidade de fermentação: {0}</FermentationBarrelOutOfIdealTemperature>
+	<!-- Fermentation barrel -->
+	<ContainsWort>Contém {0} / {1} mosto.</ContainsWort>
+	<ContainsBeer>Contém {0} / {1} cerveja.</ContainsBeer>
+	<Fermented>Fermentado</Fermented>
+	<FermentationProgress>Progresso: {0} (termina em cerca de {1}).</FermentationProgress>
+	<FermentationBarrelOutOfIdealTemperature>Temperatura não ideal. multiplicador de velocidade de fermentação: {0}</FermentationBarrelOutOfIdealTemperature>
 
-    <!--TextMotes-->
-    <Headshot>Tiro na cabeça</Headshot>
-    <TreatQuality>Qualidade do tratamento {0}</TreatQuality>
-    <PoorResult>resultado ruim</PoorResult>
-    <GoodResult>resultado bom</GoodResult>
-    <TextMote_TreatSuccess>Tratamento com sucesso!\n{0} de chance</TextMote_TreatSuccess>
-    <TextMote_TreatFailed>Tratamento falhou\n{0} de chance</TextMote_TreatFailed>
-    <HarvestFailed>Colheta\nfalhou</HarvestFailed>
-    <TextMote_RecruitFail>Recrutamento falhou!\n{0} de chance</TextMote_RecruitFail>
-    <TextMote_TameFail>Domar falhou\n{0} de chance</TextMote_TameFail>
-    <TextMote_TameSuccess>DOMADO!\n{0} de chance</TextMote_TameSuccess>
-    <TextMote_TrainFail>Treinamento falhou: {0}\n{1} de chance</TextMote_TrainFail>
-    <TextMote_TrainSuccess>Treinado: {0}\n{1} de chance</TextMote_TrainSuccess>
-    <TextMote_FixBrokenDownBuildingFail>Reparo\nfalhou</TextMote_FixBrokenDownBuildingFail>
-    <TextMote_ConstructionFail>Construção\nfalhou</TextMote_ConstructionFail>
+	<!--TextMotes-->
+	<Headshot>Tiro na cabeça</Headshot>
+	<TextMote_TreatSuccess>Sucesso no tratamento!\n{0} de chance</TextMote_TreatSuccess>
+	<TextMote_TreatFailed>O tratamento falhou\n{0} de chance</TextMote_TreatFailed>
+	<HarvestFailed>Colheita\nfalhou</HarvestFailed>
+	<TextMote_RecruitFail>Recrutamento falhou!\n{0} de chance</TextMote_RecruitFail>
+	<TextMote_TameFail>Domesticação falhou\n{0} de chance</TextMote_TameFail>
+	<TextMote_TameSuccess>Domesticado!\n{0} de chance</TextMote_TameSuccess>
+	<TextMote_TrainFail>Falhou no treinamento: {0}\n{1} de chance</TextMote_TrainFail>
+	<TextMote_TrainSuccess>Treinado: {0}\n{1} de chance</TextMote_TrainSuccess>
+	<TextMote_FixBrokenDownBuildingFail>Reparo\nfalhou</TextMote_FixBrokenDownBuildingFail>
+	<TextMote_ConstructionFail>Construção\nfalhou</TextMote_ConstructionFail>
 
-    <!-- Areas -->
-    <Home>Casa</Home>
-    <BuildRoof>Construir telhado</BuildRoof>
-    <NoRoof>Sem telhado</NoRoof>
-    <SnowClear>Limpar neve</SnowClear>
-    <AreaDefaultLabel>Área {0}</AreaDefaultLabel>
-    <AreaAnimalDefaultLabel>Local dos animais {0}</AreaAnimalDefaultLabel>
-    <NoAreaAllowed>Não restrito</NoAreaAllowed>
-    <NewArea>Nova área</NewArea>
-    <NewAreaAnimal>Nova área de animais</NewAreaAnimal>
-    <InvertArea>Inverter</InvertArea>
+	<!-- Areas -->
+	<Home>Casa</Home>
+	<BuildRoof>Construir telhado</BuildRoof>
+	<NoRoof>Área sem teto</NoRoof>
+	<SnowClear>Área sem neve</SnowClear>
+	<AreaDefaultLabel>Área {0}</AreaDefaultLabel>
+	<AreaAnimalDefaultLabel>Área de animal {0}</AreaAnimalDefaultLabel>
+	<NoAreaAllowed>Sem restrições</NoAreaAllowed>
+	<NewArea>Nova área</NewArea>
+	<NewAreaAnimal>Nova área de animal</NewAreaAnimal>
+	<InvertArea>Inverter</InvertArea>
 
-    <!-- Control -->
-    <CannotOrderNonControlled>Não pode ordenar unidades não controladas.</CannotOrderNonControlled>
-    <IsIncapableOfViolence>{0} é incapaz de violência.</IsIncapableOfViolence>
-    <IsIncapableOfViolenceShort>incapaz de violência</IsIncapableOfViolenceShort>
-    <IsNotDrafted>{0} não está preparado.</IsNotDrafted>
+	<!-- Control -->
+	<CannotOrderNonControlled>não pode ordenar unidades não controlaveis.</CannotOrderNonControlled>
+	<IsIncapableOfViolence>{0} é incapaz de violência.</IsIncapableOfViolence>
+	<IsIncapableOfViolenceShort>incapaz de violência</IsIncapableOfViolenceShort>
+	<IsNotDrafted>{0} não está alistado(a).</IsNotDrafted>
 
-    <!-- Snow -->
-    <SnowNone>Sem neve</SnowNone>
-    <SnowDusting>Neve (poeira)</SnowDusting>
-    <SnowThin>Neve (fina)</SnowThin>
-    <SnowMedium>Neve (media)</SnowMedium>
-    <SnowThick>Neve (grossa)</SnowThick>
+	<!-- Snow -->
+	<SnowNone>Sem neve</SnowNone>
+	<SnowDusting>Neve (varredura)</SnowDusting>
+	<SnowThin>Neve (fina)</SnowThin>
+	<SnowMedium>Neve (média)</SnowMedium>
+	<SnowThick>Neve (grossa)</SnowThick>
 
-    <!-- Turrets -->
-    <GunInstalled>Instalada</GunInstalled>
-    <MinimumRange>Distância minima</MinimumRange>
-    <CanFireIn>Pode atirar em</CanFireIn>
-    <ShellLoaded>Projétil carregado</ShellLoaded>
-    <ShellNotLoaded>Descarregado</ShellNotLoaded>
+	<!-- Turrets -->
+	<GunInstalled>Instalado</GunInstalled>
+	<MinimumRange>Alcance mínimo</MinimumRange>
+	<CanFireIn>Pode disparar em</CanFireIn>
+	<ShellLoaded>Artilharia carregada</ShellLoaded>
+	<ShellNotLoaded>Não carregado</ShellNotLoaded>
 
-    <!-- Job reports -->
-    <ReportHaulingTo>Coletando {0} para {1}.</ReportHaulingTo>
-    <ReportHauling>Coletando {0}.</ReportHauling>
-    <ReportSleeping>Dormindo.</ReportSleeping>
-    <ReportResting>Descansando.</ReportResting>
-    <WatchingSunrise>Vendo o sol nascer</WatchingSunrise>
-    <CloudWatching>a ver navios</CloudWatching>
-    <WatchingSunset>vendo o pôr do sol</WatchingSunset>
-    <Stargazing>assombrando</Stargazing>
-    <WatchingEclipse>vendo o eclipse</WatchingEclipse>
-    <UsingVerb>usando {0} em {1}.</UsingVerb>
-    <AreaLower>área</AreaLower>
-    <ReportCowering>encolhendo.</ReportCowering>
-    <ReportStanding>de pé.</ReportStanding>
-    <ReportExtinguishingFire>apagando fogo.</ReportExtinguishingFire>
-    <ReportExtinguishingFireOn>apagando fogo em {0}.</ReportExtinguishingFireOn>
+	<!-- Job reports -->
+	<ReportHaulingTo>Transportando {0} para {1}.</ReportHaulingTo>
+	<ReportHauling>Transportando {0}.</ReportHauling>
+	<ReportSleeping>Dormindo.</ReportSleeping>
+	<ReportResting>Em repouso.</ReportResting>
+	<WatchingSunrise>Observando o sol nascer</WatchingSunrise>
+	<CloudWatching>Observando as nuvens</CloudWatching>
+	<WatchingSunset>Observando o pôr do sol</WatchingSunset>
+	<Stargazing>Observando as estrelas</Stargazing>
+	<WatchingEclipse>Observando o eclipse</WatchingEclipse>
+	<UsingVerb>usando {0} em {1}.</UsingVerb>
+	<AreaLower>área</AreaLower>
+	<ReportCowering>agachado.</ReportCowering>
+	<ReportStanding>de pé.</ReportStanding>
+	<ReportExtinguishingFire>extinguindo fogo.</ReportExtinguishingFire>
+	<ReportExtinguishingFireOn>extinguindo fogo em {0}.</ReportExtinguishingFireOn>
 
-    <!-- Lord job reports -->
-    <LordReportAttendingMarriageCeremony>Attendendo cerimônia de casamento</LordReportAttendingMarriageCeremony>
-    <LordReportAttendingParty>Attendendo à festa</LordReportAttendingParty>
+	<!-- Lord job reports -->
+	<LordReportAttendingMarriageCeremony>Participando da cerimônia de casamento</LordReportAttendingMarriageCeremony>
+	<LordReportAttendingParty>Participando da festa</LordReportAttendingParty>
 
-    <!-- Shooting report -->
-    <WeaponMissRadius>Raio de erro da arma</WeaponMissRadius>
-    <ShootReportShooterAbility>Atirador</ShootReportShooterAbility>
-    <ShootReportWeapon>Arma</ShootReportWeapon>
-    <Darkness>Escuridão</Darkness>
-    <TargetProne>Alvo propenso</TargetProne>
-    <TargetSize>Tamanho do alvo</TargetSize>
-    <Weather>Clima</Weather>
-    <ShootingCover>Cobertura</ShootingCover>
-    <CoverThingBlocksPercentOfShots>{0} para {1}</CoverThingBlocksPercentOfShots>
-    <NoCoverLower>sem cobertura</NoCoverLower>
-    <Execution>Execução</Execution>
+	<!-- Shooting report -->
+	<WeaponMissRadius>Raio de erro da arma</WeaponMissRadius>
+	<ShootReportShooterAbility>Atirador</ShootReportShooterAbility>
+	<ShootReportWeapon>Arma</ShootReportWeapon>
+	<Darkness>Escuridão</Darkness>
+	<TargetProne>Alvo propenso</TargetProne>
+	<TargetSize>Tamanho do alvo</TargetSize>
+	<Weather>Clima</Weather>
+	<ShootingCover>Cobertura</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0} para {1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>sem cobertura</NoCoverLower>
+	<Execution>Execução</Execution>
 
-    <!-- Generated recipes -->
-    <RecipeMake>Fazer {0}</RecipeMake>
-    <RecipeMakeJobString>Fazendo {0}.</RecipeMakeJobString>
+	<!-- Generated recipes -->
+	<RecipeMake>fazer {0}</RecipeMake>
+	<RecipeMakeJobString>Fazendo {0}.</RecipeMakeJobString>
+	<RecipeAdminister>administrar {0}</RecipeAdminister>
+	<RecipeAdministerJobString>Administrando {0}.</RecipeAdministerJobString>
 
-    <!-- Thoughts -->
-    <ThoughtExpiresIn>Expira em: {0}</ThoughtExpiresIn>
-    <ThoughtStartsExpiringIn>Começa a expirar em: {0}</ThoughtStartsExpiringIn>
-    <ThoughtFinishesExpiringIn>Termina de expirar emn: {0}</ThoughtFinishesExpiringIn>
-    <MentalBreakThresholdExtreme>Colapso mental EXTREMO!</MentalBreakThresholdExtreme>
-    <MentalBreakThresholdMajor>Colapso mental grande</MentalBreakThresholdMajor>
-    <MentalBreakThresholdMinor>Colapso mental leve</MentalBreakThresholdMinor>
+	<!-- Thoughts -->
+	<ThoughtExpiresIn>Expira em: {0}</ThoughtExpiresIn>
+	<ThoughtStartsExpiringIn>Começa a expirar em: {0}</ThoughtStartsExpiringIn>
+	<ThoughtFinishesExpiringIn>Termina de expirar em: {0}</ThoughtFinishesExpiringIn>
+	<MentalBreakThresholdExtreme>Limite de colapso extremo</MentalBreakThresholdExtreme>
+	<MentalBreakThresholdMajor>Limite de colapso grave</MentalBreakThresholdMajor>
+	<MentalBreakThresholdMinor>Limite de colapso leve</MentalBreakThresholdMinor>
 
-    <!-- Pawn info readout -->
-    <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-    <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
-    <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
-    <Faction>Facção</Faction>
-    <Equipped>Equipado</Equipped>
-    <EquippedNothing>Nada</EquippedNothing>
-    <Incapacitated>Incapacitado</Incapacitated>
-    <InRestraints>Algemado (lento)</InRestraints>
-    <Carrying>Carregando</Carrying>
+	<!-- Pawn info readout -->
+	<PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
+	<PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
+	<PawnMainDescLifestageWrap>{0} {1}</PawnMainDescLifestageWrap>
+	<Faction>Facção</Faction>
+	<Equipped>Equipado</Equipped>
+	<EquippedNothing>nada</EquippedNothing>
+	<Dead>Morto</Dead>
+	<Unconscious>Inconsciente</Unconscious>
+	<PainShock>Em choque</PainShock>
+	<Incapacitated>Incapacitado</Incapacitated>
+	<InRestraints>Algemado (lento)</InRestraints>
+	<Carrying>Transportando</Carrying>
 
-    <!-- Inspector general stuff -->
-    <SelectNextInSquareTip>Seleciona a próxima coisa no mesmo quadrado.\n\nTecla de atalho: {0}\n\nVocê pode também fazer isso clicando lentamente no mesmo quadrado denovo.</SelectNextInSquareTip>
-    <DefInfoTip>Ver info sobre esse objeto.</DefInfoTip>
+	<!-- Inspector general stuff -->
+	<SelectNextInSquareTip>Seleciona a próxima coisa no mesmo quadrado.\n\nTecla de atalho: {0}\n\nVocê pode também fazer isso clicando lentamente no mesmo quadrado de novo.</SelectNextInSquareTip>
+	<DefInfoTip>Ver informações sobre este objeto</DefInfoTip>
 
-    <!-- Hostility response -->
-    <HostilityReponseTip>Mudar como reagir a inimigos próximos quando colonos não estão preparados.</HostilityReponseTip>
-    <HostilityResponseCurrentMode>Modo atual</HostilityResponseCurrentMode>
+	<!-- Hostility response -->
+	<HostilityReponseTip>Mudar como colonos irão reagir a inimigos próximos quando não estão alistados.</HostilityReponseTip>
+	<HostilityResponseCurrentMode>Modo atual</HostilityResponseCurrentMode>
 
-    <!-- like 'Blood of John' -->
-    <OfLower>de</OfLower>
+	<!-- like 'Blood of John' -->
+	<OfLower>de</OfLower>
 
-    <!-- Power readout -->
-    <PowerNotConnected>Não conectado a energia</PowerNotConnected>
-    <PowerConnectedRateStored>Connected rate/stored: {0} W / {1} Wd</PowerConnectedRateStored>
-    <PowerNeeded>Energia necessária</PowerNeeded>
-    <PowerOutput>Saída de energia</PowerOutput>
-    <PowerBatteryStored>Armazenado</PowerBatteryStored>
-    <PowerBatteryEfficiency>Eficiência</PowerBatteryEfficiency>
-    <TargetTemperature>Temperatura alvo</TargetTemperature>
-    <PowerConsumptionMode>Uso de energia atual</PowerConsumptionMode>
-    <PowerConsumptionHigh>Alto</PowerConsumptionHigh>
-    <PowerConsumptionLow>Baixo</PowerConsumptionLow>
-    <Indoors>Interior</Indoors>
-    <Outdoors>Exterior</Outdoors>
-    <RotStateFresh>Fresco</RotStateFresh>
-    <RotStateRotting>Apodrecendo</RotStateRotting>
-    <RotStateDessicated>Dessecado</RotStateDessicated>
-    <ShotBy>Baleado por {0}</ShotBy>
-    <CannotHit>Não é possível acertar alvo.</CannotHit>
-    <StoragePriorityUnstored>Não armazenar</StoragePriorityUnstored>
-    <StoragePriorityLow>Baixo</StoragePriorityLow>
-    <StoragePriorityNormal>Normal</StoragePriorityNormal>
-    <StoragePriorityPreferred>Preferido</StoragePriorityPreferred>
-    <StoragePriorityImportant>Importante</StoragePriorityImportant>
-    <StoragePriorityCritical>Critico</StoragePriorityCritical>
-    <CurrentlyFrozen>Congelado (não vai estragar)</CurrentlyFrozen>
-    <CurrentlyRefrigerated>Refrigerado (Estraga em {0})</CurrentlyRefrigerated>
-    <NotRefrigerated>Não refrigerado (Estraga em {0})</NotRefrigerated>
-    <OverADecade>mais de uma década</OverADecade>
-    <Ingredients>Ingredientes</Ingredients>
-    <PercentGrowth>{0}% crescimento</PercentGrowth>
-    <Growing>Crescendo</Growing>
-    <NotGrowingNow>Não está crescendo agora (precisa estar {0}).</NotGrowingNow>
-    <NotGrowingNowNight>Não está crescendo agora (noite).</NotGrowingNowNight>
-    <FullyGrownIn>Totalmente desenvolvido em {0} de crescimento.</FullyGrownIn>
-    <OutOfIdealTemperatureRange>Fora do raio ideal de temperatura (crescendo à {0}% da velocidade normal)</OutOfIdealTemperatureRange>
-    <OutOfIdealTemperatureRangeNotGrowing>Fora do raio ideal de temperatura (não está crescendo)</OutOfIdealTemperatureRangeNotGrowing>
-    <ReadyToHarvest>Pronto para colher.</ReadyToHarvest>
-    <Mature>Maduro.</Mature>
-    <SeedLabel>Semente de {0}</SeedLabel>
-    <OutdoorGrowingPeriod>Periodo de crescimento: {0}</OutdoorGrowingPeriod>
-    <NoGrowingPeriod>Nunca</NoGrowingPeriod>
-    <GrowYearRound>Todo o ano</GrowYearRound>
-    <CannotGrowTooCold>Não pode crescer - muito frio.</CannotGrowTooCold>
-    <Zone>Zona</Zone>
-    <GrowingZone>Zona de crescimento</GrowingZone>
-    <Stockpile>Estoque</Stockpile>
-    <DumpingStockpile>Estoque de lixo</DumpingStockpile>
-    <Priority>Prioridade</Priority>
-    <ClearAll>Limpar tudo</ClearAll>
-    <Undiscovered>Inexplorado</Undiscovered>
-    <ZoneVisibilityToggleButton>Alternar visibilidade de zonas.</ZoneVisibilityToggleButton>
-    <AutoHomeRegionToggleButton>Alternar adição automática de região de casa ao redor de novas construções.</AutoHomeRegionToggleButton>
-    <CategorizedResourceReadoutToggleButton>Alternar modo categorizado no display de recursos.</CategorizedResourceReadoutToggleButton>
-    <Fire>Fogo</Fire>
-    <FireOn>Fogo no {0}</FireOn>
-    <Burning>Queimando</Burning>
-    <FireSizeLower>tamanho de fogo {0}</FireSizeLower>
-    <MapConditionsTip>Condições especiais afetando a area no momento.</MapConditionsTip>
-    <NoStuffsToBuildWith>Você não tem materiais necessarios para construir isso.</NoStuffsToBuildWith>
-    <MustPlaceUnroofed>Não pode ser colocado em baixo de um telhado.</MustPlaceUnroofed>
-    <MustPlaceHeadOnShipBeam>Must place with head attached to ship structural beam.</MustPlaceHeadOnShipBeam>
-    <MustPlaceNextToHopperAccepter>Precisa ser colocado perto de algo que precise de um funil de carga(hopper).</MustPlaceNextToHopperAccepter>
-    <MustPlaceOnSteamGeyser>Precisa ser colocado diretamente em um geyser de vapor.
-    </MustPlaceOnSteamGeyser>
-    <MustPlaceCoolerWithFreeSpaces>Tanto o lado quente e o lado frio precisam ser expostos.</MustPlaceCoolerWithFreeSpaces>
-    <WindTurbine_WindPathIsBlockedBy>Bloqueado por</WindTurbine_WindPathIsBlockedBy>
-    <WindTurbine_WindPathIsBlockedByRoof>Bloqueado por telhado</WindTurbine_WindPathIsBlockedByRoof>
-    <CasketContains>Conteúdo</CasketContains>
-    <CasketUnknownContents>Desconhecido</CasketUnknownContents>
-    <CasketWarning>Aviso!\n\nNAME é o seu ultimo colonista de pé! Se você deixar ELE entrar nesse caixão, você talvez não poderá continuar jogando. Você tem certeza que quer prosseguir?</CasketWarning>
-    <ShipReportCannotLaunch>Não pode lançar.</ShipReportCannotLaunch>
-    <ShipReportCanLaunch>Pronto para lançar.</ShipReportCanLaunch>
-    <ShipReportMissingPart>Faltando componente crítico</ShipReportMissingPart>
-    <ShipReportNoFullPods>Caixões de Cryptosono vazios</ShipReportNoFullPods>
-    <UseNeurotrainer>Usar neurotreinador para aprender {0}</UseNeurotrainer>
-    <NeurotrainerUsed>{0} usou {1} neurotreinador para ir do nível {2} para o {3}.</NeurotrainerUsed>
-    <Installed>Instalado</Installed>
-    <NotInstalled>Não instalado</NotInstalled>
-    <Title>Título</Title>
-    <Untitled>Sem título</Untitled>
-    <UnfinishedItem>{0} não terminado</UnfinishedItem>
-    <UnfinishedItemWithStuff>{0} {1} não terminado</UnfinishedItemWithStuff>
-    <Quality>Qualidade</Quality>
-    <QualityDescription>A qualidade reflete o quão bem feito ele foi.</QualityDescription>
-    <QualityIs>Qualidade: {0}</QualityIs>
-    <GameOverEveryoneDead>Todo mundo morreu ou se foi. A história acabou.\n\nQuem sabe alguém ache um uso para as ruínas desse lugar.
-    </GameOverEveryoneDead>
-    <GameOverShipLaunched>Você lançou a nave! Esses colonistas escaparam:\n\n{0}\nEsses colonistas ficaram para trás:\n\n{1}\nSua IA agora tentará guiar a nave para um lugar seguro. Talvez ache um planeta próspero para você nesse sistema. Ou, talvez faça
-        uma viagem por séculos para outra estrela. Talvez decida se esconder sobre o gelo ou asteroide por alguns milhares de anos, esperando que alguém construa um novo mundo aqui.\n\nVocê ira descobrir quando acordar.</GameOverShipLaunched>
-    <GameOverKeepPlaying>Continuar jogando</GameOverKeepPlaying>
-    <GameOverMainMenu>Menu principal</GameOverMainMenu>
+	<!-- Power readout -->
+	<PowerNotConnected>Não conectado à energia.</PowerNotConnected>
+	<PowerConnectedRateStored>Taxa conectada/armazenado: {0} W / {1} Wd</PowerConnectedRateStored>
+	<PowerNeeded>Energia necessária</PowerNeeded>
+	<PowerOutput>Potência</PowerOutput>
+	<PowerBatteryStored>Armazenado</PowerBatteryStored>
+	<PowerBatteryEfficiency>Eficiência</PowerBatteryEfficiency>
 
-    <!-- Generic lifespan -->
-    <LifespanExpiry>Expira em:</LifespanExpiry>
+	<!-- Temperature control -->
+	<TargetTemperature>Temperatura alvo</TargetTemperature>
+	<PowerConsumptionMode>Uso de energia atual</PowerConsumptionMode>
+	<PowerConsumptionHigh>Alto</PowerConsumptionHigh>
+	<PowerConsumptionLow>Baixo</PowerConsumptionLow>
 
-    <!-- Traps -->
-    <TrapArmed>Armado</TrapArmed>
-    <TrapNotArmed>Desarmado</TrapNotArmed>
-    <TrapRearmingCost>Custo remanescente: {0}</TrapRearmingCost>
+	<!-- Temperature readout -->
+	<Indoors>Interior</Indoors>
+	<IndoorsUnroofed>Sem teto</IndoorsUnroofed>
+	<Outdoors>Exterior</Outdoors>
 
-    <!-- Facilities -->
-    <InactiveFacility>inativo</InactiveFacility>
+	<!--Rotting-->
+	<RotStateFresh>Fresco</RotStateFresh>
+	<RotStateRotting>Apodrecendo</RotStateRotting>
+	<RotStateDessicated>Dessecado</RotStateDessicated>
 
-    <!-- Hediffs growth modes -->
-    <DiseaseGrowthModeChanged_Growing>{0} {1} agora está crescendo.</DiseaseGrowthModeChanged_Growing>
-    <DiseaseGrowthModeChanged_Stable>{0} {1} está estável.</DiseaseGrowthModeChanged_Stable>
-    <DiseaseGrowthModeChanged_Remission>{0} {1} está em remissão.</DiseaseGrowthModeChanged_Remission>
+	<!-- Shooting tooltip -->
+	<ShotBy>Tiro por {0}</ShotBy>
+	<CannotHit>Não pode acertar o alvo.</CannotHit>
 
-    <!-- Marriage spot -->
-    <MarriageSpotUsable>Usável agora.</MarriageSpotUsable>
-    <MarriageSpotNotUsable>Não usável: {0}.</MarriageSpotNotUsable>
-    <MarriageSpotNotStandable>bloqueado</MarriageSpotNotStandable>
-    <MarriageSpotDangerous>perigoso demais para {0}</MarriageSpotDangerous>
-    <MarriageSpotForbidden>proibido para {0}</MarriageSpotForbidden>
-    <MarriageSpotReserved>reservado</MarriageSpotReserved>
-    <MarriageSpotUnreachable>inalcancável para {0}</MarriageSpotUnreachable>
-    <MarriageSpotInPrisonCell>em cela da prisão</MarriageSpotInPrisonCell>
-    <NotEnjoyableOutsideTemperature>temperatura inconfortável</NotEnjoyableOutsideTemperature>
+	<!-- Rotting -->
+	<CurrentlyFrozen>Congelado (não irá estragar)</CurrentlyFrozen>
+	<CurrentlyRefrigerated>Refrigerado (apodrece em {0})</CurrentlyRefrigerated>
+	<NotRefrigerated>Não Refrigerado (apodrece em {0})</NotRefrigerated>
+	<OverADecade>mais que uma década</OverADecade>
+	<LessThanADay>menos de um dia</LessThanADay>
 
-    <!-- Colonist bar -->
-    <ActivityIconMedicalRest>Descanso Médico</ActivityIconMedicalRest>
-    <ActivityIconSleeping>Dormindo</ActivityIconSleeping>
-    <ActivityIconFleeing>Escapando</ActivityIconFleeing>
-    <ActivityIconAttacking>Lutando</ActivityIconAttacking>
-    <ActivityIconIdle>A ver navios</ActivityIconIdle>
-    <ActivityIconBurning>Queimando</ActivityIconBurning>
+	<!-- Meal -->
+	<Ingredients>Ingredientes</Ingredients>
 
-    <!-- Maintainable -->
-    <DueForMaintenance>Devido a manutenção.</DueForMaintenance>
-    <DeterioratingDueToLackOfMaintenance>Deteriorando por falta de manutenção.</DeterioratingDueToLackOfMaintenance>
+	<!-- Plants -->
+	<PercentGrowth>{0} crescido</PercentGrowth>
+	<GrowthRate>Taxa de crescimento</GrowthRate>
+	<FullyGrownIn>Totalmente crescido em {0} de crescimento.</FullyGrownIn>
+	<PlantNeedsLightLevel>Necessita de nível de luz</PlantNeedsLightLevel>
+	<PlantResting>Em repouso</PlantResting>
+	<OutOfIdealTemperatureRange>Fora da faixa da temperatura ideal. Multiplicador de crescimento da temperatura: {0}%</OutOfIdealTemperatureRange>
+	<OutOfIdealTemperatureRangeNotGrowing>Fora da faixa da temperatura ideal. Não crescendo.</OutOfIdealTemperatureRangeNotGrowing>
+	<ReadyToHarvest>Pronto para colher.</ReadyToHarvest>
+	<Mature>Maduro.</Mature>
+	<OutdoorGrowingPeriod>Período de crescimento</OutdoorGrowingPeriod>
+	<NoGrowingPeriod>Nunca</NoGrowingPeriod>
+	<GrowYearRound>Todo o ano</GrowYearRound>
+	<GrowSeasonHereNow>A estação de crescimento é agora.</GrowSeasonHereNow>
+	<CannotGrowBadSeasonTemperature>Não pode crescer (má temperatura sazonal).</CannotGrowBadSeasonTemperature>
 
-    <!-- Deep drill -->
-    <ProgressToNextLump>Progresso para a próxima parte</ProgressToNextLump>
-    <ResourceBelow>Recurso abaixo</ResourceBelow>
+	<!-- Zones -->
+	<Zone>Zona</Zone>
+	<GrowingZone>Zona de cultivo</GrowingZone>
+	<Stockpile>Zona de estoque</Stockpile>
+	<DumpingStockpile>Zona de despejo</DumpingStockpile>
+	<Priority>Prioridade</Priority>
+	<ClearAll>Proibir tudo</ClearAll>
+	<AllowAll>Permitir tudo</AllowAll>
 
-    <!-- Learning helper -->
-    <LearningHelper>Ajudante de aprendizado</LearningHelper>
-    <MarkLearned>Marcar como aprendido</MarkLearned>
-    <AlreadyLearned>Já aprendeu</AlreadyLearned>
-    <Filter>Filtro</Filter>
+	<!-- ThingFilter -->
+	<HitPoints>{0} de pontos de vida</HitPoints>
+	<AnyQuality>qualquer qualidade</AnyQuality>
+	<OnlyQuality>{0} apenas</OnlyQuality>
+
+	<!-- Mouseover indicator -->
+	<Undiscovered>Inexplorado</Undiscovered>
+
+	<!-- Buttons -->
+	<ShowLearningHelperWhenEmptyToggleButton>Alterna a visibilidade do auxiliar de aprendizagem quando ela está vazia.\n\nO auxiliar de aprendizagem é sempre visível se existe um conceito ativado para ser aprendido. Esta alternância faz desaparecer quando nenhum conceito está ativo.</ShowLearningHelperWhenEmptyToggleButton>
+	<ZoneVisibilityToggleButton>Alternar visibilidade das zonas.</ZoneVisibilityToggleButton>
+	<ShowEnvironmentToggleButton>Alterna a exibição de beleza.\n\nExibe a beleza do mundo como seria percebido por um personagem de pé e para onde o mouse está apontando.</ShowEnvironmentToggleButton>
+	<ShowColonistBarToggleButton>Alterna a barra de colonos.\n\nExibe ícones e estatísticas básicas para todos os colonos ao longo da parte superior da tela.</ShowColonistBarToggleButton>
+	<AutoHomeAreaToggleButton>Alterna expansão autônoma da área da casa em torno das novas construções.</AutoHomeAreaToggleButton>
+	<CategorizedResourceReadoutToggleButton>Alterna para o modo categoria de como os recursos são visualizados.</CategorizedResourceReadoutToggleButton>
+	<ShowAnimalNamesToggleButton>Alterna em exibir os nomes dos animais da colônia.</ShowAnimalNamesToggleButton>
+	<ShowRoofOverlayToggleButton>Alternar visibilidade de telhados.</ShowRoofOverlayToggleButton>
+	<LockNorthUpToggleButton>Bloqueia a rotação da câmera para que o polo norte esteja sempre para cima.</LockNorthUpToggleButton>
+	<UsePlanetDayNightSystemToggleButton>Alterna o sistema de iluminação dia/noite.</UsePlanetDayNightSystemToggleButton>
+	<ExpandingIconsToggleButton>Alterna a exibição ícones expandidos em vez dos ícones regulares para objetos distantes.</ExpandingIconsToggleButton>
+
+	<!-- Fire -->
+	<Fire>Fogo</Fire>
+	<FireOn>Fogo em {0}</FireOn>
+	<Burning>Queimando</Burning>
+	<FireSizeLower>tamanho do fogo {0}</FireSizeLower>
+
+	<!-- Map conditions -->
+	<MapConditionsTip>Condições especiais que afetam a área agora.</MapConditionsTip>
+	<TimeLeft>tempo restante</TimeLeft>
+	<ImpactDate>data de impacto</ImpactDate>
+
+	<!-- Building placement -->
+	<NoStuffsToBuildWith>Você não tem materiais utilizáveis para construir isto.</NoStuffsToBuildWith>
+
+	<!-- Building placement restricters -->
+	<WillGetWorkSpeedPenalty>{0} terá penalidade de velocidade de trabalho</WillGetWorkSpeedPenalty>
+	<MustPlaceUnroofed>Não pode ser colocado debaixo de um telhado.</MustPlaceUnroofed>
+	<MustPlaceHeadOnShipBeam>Deve ser colocado com a cabeça ligada a uma viga estrutural.</MustPlaceHeadOnShipBeam>
+	<MustPlaceNextToHopperAccepter>Deve ser colocado ao lado de algo que precisa de um funil.</MustPlaceNextToHopperAccepter>
+	<MustPlaceOnSteamGeyser>Deve ser colocado diretamente sobre um gêiser de vapor.</MustPlaceOnSteamGeyser>
+	<MustPlaceCoolerWithFreeSpaces>Ambos os lados quente e frio do sistema do refrigerador devem ser expostos.</MustPlaceCoolerWithFreeSpaces>
+	<MustPlaceVentWithFreeSpaces>Ambos os lados deve ser expostos para a passagem de ar.</MustPlaceVentWithFreeSpaces>
+	<MustPlaceAdjacentStandable>Deve ser colocado com o espaço de todos os lados livres.</MustPlaceAdjacentStandable>
+	<MustPlaceNearFuelingPort>Deve ser colocado ao lado da porta de abastecimento de um lançador de cápsula.</MustPlaceNearFuelingPort>
+	
+	<!-- Wind Turbine -->
+	<WindTurbine_WindPathIsBlockedBy>Bloqueado por</WindTurbine_WindPathIsBlockedBy>
+	<WindTurbine_WindPathIsBlockedByRoof>Bloqueado pelo telhado</WindTurbine_WindPathIsBlockedByRoof>
+
+	<!-- Cryptosleep casket -->
+	<CasketContains>Contém</CasketContains>
+	<CasketWarning>Alerta!\n\nNAME é seu último colono independente! Se você deixar HE entrar neste sarcófago de cripto-sono, você pode não ser capaz de continuar a jogar. Tem certeza de que deseja continuar?</CasketWarning>
+
+	<!-- Ship launch report -->
+	<ShipReportCannotLaunch>Não é possível iniciar.</ShipReportCannotLaunch>
+	<ShipReportCanLaunch>Pronto para o lançamento.</ShipReportCanLaunch>
+	<ShipReportMissingPart>Faltando componente crítico</ShipReportMissingPart>
+	<ShipReportNoFullPods>Não há sarcófagos de cripto-sono cheios</ShipReportNoFullPods>
+
+	<!-- Neurotrainer -->
+	<NeurotrainerUsed>{0} usou {1} neurotreinador para ir do nível {2} para o nível {3}.</NeurotrainerUsed>
+
+	<!-- Minification -->
+	<Installed>Instalado</Installed>
+	<NotInstalled>Não instalado</NotInstalled>
+
+	<!-- Art -->
+	<Title>Título</Title>
+	<Untitled>Sem título</Untitled>
+
+	<!-- Unfinished thing -->
+	<UnfinishedItem>{0} Inacabado</UnfinishedItem>
+	<UnfinishedItemWithStuff>{1} de {0} Inacabado</UnfinishedItemWithStuff>
+
+	<!-- Quality -->
+	<Quality>Qualidade</Quality>
+	<QualityDescription>A qualidade de um item e o quão bem feito que é.</QualityDescription>
+	<QualityIs>Qualidade: {0}</QualityIs>
+
+	<!-- Mood descriptions -->
+	<Mood_MentalState>estado mental</Mood_MentalState>
+	<Mood_AboutToBreak>á quebrar</Mood_AboutToBreak>
+	<Mood_OnEdge>no limite</Mood_OnEdge>
+	<Mood_Stressed>estressado</Mood_Stressed>
+	<Mood_Neutral>neutro</Mood_Neutral>
+	<Mood_Content>contente</Mood_Content>
+	<Mood_Happy>feliz</Mood_Happy>
+
+	<!-- Game over -->
+	<GameOverEveryoneDead>Todos estão mortos ou se foram. Esta história acabou.\n\nTalvez alguém encontre um uso para as ruínas deste lugar.</GameOverEveryoneDead>
+	<GameOverShipLaunched>Você lançou a nave! Estes colonos escaparam:\n\n{0}\nEstes colonos foram deixados para trás:\n\n{1}\nSua IA irá agora tentar guiar a nave para um lugar seguro. Ela pode encontrar um planeta próspero para você neste sistema. Ou, pode considerar uma viagem de séculos para outra estrela. Ela pode até mesmo decidir em se esconder abaixo do gelo em um asteroide por alguns milhares de anos, à espera que alguém construa um novo mundo brilhante aqui.\n\nVocê irá descobrir quando acordar.</GameOverShipLaunched>
+	<GameOverPlanetkillerImpact>A quase da velocidade da luz, a arma aniquiladora de planetas se chocou contra o chão com a força de um trilhão de bombas de hidrogênio. Como um tiro de balão de água com um fuzil, este mundo se aniquilou sob o impacto e pulverizou as suas entranhas fundidas através do cosmos.\n\nParte de {0} é agora um pequeno cinturão de asteroides. O resto é uma fundição, de rochas radioativas derretidas, constantemente onduladas com tremores de quilômetros de distância.\n\nVocê não sobreviveu.</GameOverPlanetkillerImpact>
+	<GameOverKeepPlaying>Continuar jogando</GameOverKeepPlaying>
+	<GameOverMainMenu>Menu principal</GameOverMainMenu>
+
+	<!-- Generic lifespan -->
+	<LifespanExpiry>Expira em:</LifespanExpiry>
+
+	<!-- Traps -->
+	<TrapArmed>Armado</TrapArmed>
+	<TrapNotArmed>Não armado</TrapNotArmed>
+	<TrapRearmingCost>Tempo de rearmamento: {0}</TrapRearmingCost>
+
+	<!-- Facilities -->
+	<InactiveFacility>inativo</InactiveFacility>
+
+	<!-- Hediffs growth modes -->
+	<DiseaseGrowthModeChanged_Growing>{1} de {0} está crescendo agora.</DiseaseGrowthModeChanged_Growing>
+	<DiseaseGrowthModeChanged_Stable>{1} de {0} está agora estável.</DiseaseGrowthModeChanged_Stable>
+	<DiseaseGrowthModeChanged_Remission>{1} de {0} está agora em remissão.</DiseaseGrowthModeChanged_Remission>
+
+	<!-- Marriage spot -->
+	<MarriageSpotUsable>Utilizável agora.</MarriageSpotUsable>
+	<MarriageSpotNotUsable>Não utilizável: {0}.</MarriageSpotNotUsable>
+	<MarriageSpotNotStandable>bloqueado</MarriageSpotNotStandable>
+	<MarriageSpotDangerous>muito perigoso para {0}</MarriageSpotDangerous>
+	<MarriageSpotForbidden>proibido para {0}</MarriageSpotForbidden>
+	<MarriageSpotReserved>reservado</MarriageSpotReserved>
+	<MarriageSpotUnreachable>inacessível para {0}</MarriageSpotUnreachable>
+	<MarriageSpotInPrisonCell>em cela de prisão</MarriageSpotInPrisonCell>
+	<NotEnjoyableOutsideTemperature>temperatura desconfortável</NotEnjoyableOutsideTemperature>
+
+	<!-- Colonist bar -->
+	<ActivityIconMedicalRest>Descanso médico</ActivityIconMedicalRest>
+	<ActivityIconSleeping>Dormindo</ActivityIconSleeping>
+	<ActivityIconFleeing>Fugindo</ActivityIconFleeing>
+	<ActivityIconAttacking>Lutando</ActivityIconAttacking>
+	<ActivityIconIdle>Desocupado</ActivityIconIdle>
+	<ActivityIconBurning>Queimando</ActivityIconBurning>
+
+	<!-- Maintainable -->
+	<DueForMaintenance>Devido à manutenção.</DueForMaintenance>
+	<DeterioratingDueToLackOfMaintenance>Deteriorando devido à falta de manutenção.</DeterioratingDueToLackOfMaintenance>
+
+	<!-- Deep drill -->
+	<ProgressToNextLump>Progresso para o próxima protuberância</ProgressToNextLump>
+	<ResourceBelow>Recurso abaixo</ResourceBelow>
+
+	<!-- Learning helper -->
+	<LearningHelper>Ajuda sobre...</LearningHelper>
+	<MarkLearned>Eu já aprendi</MarkLearned>
+	<AlreadyLearned>Já aprendido</AlreadyLearned>
+	<Filter>Filtro</Filter>
+
+	<!-- Compass -->
+	<CompassTip>Mostra a direção norte. Clique para girar a câmera para o norte.</CompassTip>
+
+
 </LanguageData>

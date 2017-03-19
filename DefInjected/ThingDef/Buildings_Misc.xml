@@ -1,15 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    <SunLamp.label>Lâmpada solar</SunLamp.label>
-    <SunLamp.description>Ilumina uma área o suficiente para poder plantar nela.</SunLamp.description>
-    <OrbitalTradeBeacon.label>Baliza de comercio orbital</OrbitalTradeBeacon.label>
-    <OrbitalTradeBeacon.description>Necessário para o comércio orbital. Não deve estar debaixo de um telhado. Só pode trocar itens que estejam ao seu redor . Os comerciantes deixarão cair bens ao redor disto.</OrbitalTradeBeacon.description>
-    <CommsConsole.label>Console de comunicação</CommsConsole.label>
-    <CommsConsole.description>Com isto pode manter contato com facções e comerciantes para fazer negociações e trocas.</CommsConsole.description>
-    <Grave.label>Túmulo</Grave.label>
-    <Grave.description>Coloque os cadáveres em túmulos para lhes proporcionar uma morte decente.</Grave.description>
-    <CryptosleepCasket.label>Caixão de crypto-sono</CryptosleepCasket.label>
-    <CryptosleepCasket.description>Um caixão auto alimentado e desenhado para manter uma pessoa em estado de hibernação por muitos anos.</CryptosleepCasket.description>
-    <AncientCryptosleepCasket.label>Antigo caixão de crypto-sono</AncientCryptosleepCasket.label>
-    <AncientCryptosleepCasket.description>Este caixão de crypto-sono tem a aparência de ter estado neste lugar há muito tempo. Quem sabe o que terá dentro?</AncientCryptosleepCasket.description>
+
+  
+  <OrbitalTradeBeacon.label>baliza de comércio orbital</OrbitalTradeBeacon.label>
+  <OrbitalTradeBeacon.description>Requerido para negociação orbital. Você só pode vender produtos que estão perto de uma baliza de comércio orbital. Pode ser colocada em interiores.</OrbitalTradeBeacon.description>
+
+  <CommsConsole.label>console de comunicação</CommsConsole.label>
+  <CommsConsole.description>Permite o contato por rádio com os comerciantes remotos como também outras facções para o comércio e diplomacia.</CommsConsole.description>
+
+  <MultiAnalyzer.label>multi-analisador</MultiAnalyzer.label>
+  <MultiAnalyzer.description>Aumenta a velocidade de pesquisa. Precisa ser colocado perto da bancada de pesquisa de alta tecnologia. Uma bancada de pesquisa pode só ser ligada a apenas um multi-analisador.</MultiAnalyzer.description>
+
+  <VitalsMonitor.label>monitor de sinais vitais</VitalsMonitor.label>
+  <VitalsMonitor.description>Aumenta a qualidade do tratamento dos pacientes. Precisa ser colocado junto a uma cama médica. Uma cama médica só pode ser ligada a apenas um monitor de sinais vitais.</VitalsMonitor.description>
+
+  <ToolCabinet.label>armário de ferramentas</ToolCabinet.label>
+  <ToolCabinet.description>Aumenta a velocidade de trabalho. Precisa ser colocado perto de uma bancada. Uma bancada pode ser simultaneamente ligada a apenas dois armários de ferramentas.</ToolCabinet.description>
+
+  <FirefoamPopper.label>dispositivo de espuma</FirefoamPopper.label>
+  <FirefoamPopper.description>Quando tocado pelo fogo ou desencadeado á mão, isto solta uma espuma que extingue incêndios em um campo circular em torno de si.</FirefoamPopper.description>
+  <FirefoamPopper.comps.1.useLabel>Acionar dispositivo de espuma</FirefoamPopper.comps.1.useLabel>
+
+  <MoisturePump.label>bomba de umidade</MoisturePump.label>
+  <MoisturePump.description>Remove muito lentamente a umidade do terreno nas proximidades, convertendo pântanos ou água rasa em solo seco. Não afeta águas profundas.</MoisturePump.description>
+
+  <GroundPenetratingScanner.label>scanner penetrador subterrâneo</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.description>Um radar de penetração subterrâneo, combinado com sonar e ressonância magnética, permite detectar (mas não identificar) minerais enterrados nas profundezas da superfície. Requer uma enorme quantidade de eletricidade.</GroundPenetratingScanner.description>
+
+  <PodLauncher.label>lançador de cápsula</PodLauncher.label>
+  <PodLauncher.description>Uma porta de abastecimento para o lançamento de um cápsula de transporte. Lançadores de cápsulas pode lançam como um grupo - mas os lançadores devem sem colocados próximo um do outro.</PodLauncher.description>
+
+  <TransportPod.label>cápsula de transporte</TransportPod.label>
+  <TransportPod.description>Um cápsula de carga lançável de turismo suborbital capaz de transportar pessoas, itens, ou animais. Pode ser usada para o transporte, ataques surpresa, ou reforçar as batalhas.</TransportPod.description>
+
+  <Grave.label>túmulo</Grave.label>
+  <Grave.description>Coloque os mortos em túmulos para dar-lhes um lugar de descanso decente. Os colonos irão visitar os túmulos cheios para ganhar alegria meditativa.</Grave.description>
+
+  <Sarcophagus.label>sarcófago</Sarcophagus.label>
+  <Sarcophagus.description>Um receptáculo de enterro ornamentado para mortos honrados.</Sarcophagus.description>
+
+  <CryptosleepCasket.label>sarcófago de cripto-sono</CryptosleepCasket.label>
+  <CryptosleepCasket.description>Um sarcófago auto-alimentado projetado para manter uma pessoa em um estado de animação suspensa por milhares de anos.</CryptosleepCasket.description>
+
+  <AncientCryptosleepCasket.label>sarcófago de cripto-sono antigo</AncientCryptosleepCasket.label>
+  <AncientCryptosleepCasket.description>Este sarcófago de cripto-sono parece que está aqui há muito tempo. Quem sabe o que ele pode conter?</AncientCryptosleepCasket.description>
+
+  <MarriageSpot.label>local de casamento</MarriageSpot.label>
+  <MarriageSpot.description>Define um local onde cerimônias de casamento irão acontecer. Os espectadores podem assistir de qualquer lado.</MarriageSpot.description>
+
+  <PartySpot.label>local de festa</PartySpot.label>
+  <PartySpot.description>Define um local onde festas serão concentradas. Festam irão acontecer em torno do local.</PartySpot.description>
+
 </LanguageData>

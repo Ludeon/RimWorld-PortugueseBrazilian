@@ -1,31 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-    <NutrientPasteDispenser.label>Dispensador de pasta nutritiva</NutrientPasteDispenser.label>
-    <NutrientPasteDispenser.description>Sintetiza pasta nutritiva a partir de matéria prima orgânica. Consume menos ingredientes e tempo que qualquer outro tipo de produção de comida – mas ninguém gosta de comer pasta nutritiva.</NutrientPasteDispenser.description>
-    <Hopper.label>Funil de carga</Hopper.label>
-    <Hopper.description>Armazena as matérias primas que serão usadas nos dispensadores de pasta nutritiva.</Hopper.description>
-    <TableButcher.label>Mesa de açougueiro</TableButcher.label>
-    <TableButcher.description>Uma mesa para esquartejar criaturas e obter pedaços de carne crua.</TableButcher.description>
-    <TableTailor.label>Mesa de alfaiate</TableTailor.label>
-    <TableTailor.description>Uma mesa de trabalho equipado para produção e melhoria de roupas.</TableTailor.description>
-    <TableSmithing.label>Mesa de ferreiro</TableSmithing.label>
-    <TableSmithing.description>Uma mesa de trabalho equipado para produção de armas e ferramentas.</TableSmithing.description>
-    <TableSculpting.label>Mesa de escultor</TableSculpting.label>
-    <TableSculpting.description>Uma mesa de trabalho equipado para a escultura artística.</TableSculpting.description>
-    <TableMachining.label>Mesa de usinagem</TableMachining.label>
-    <TableMachining.description>Uma mesa de trabalho e ferramentas para montar e desmontar componentes mecânicos.</TableMachining.description>
-    <CookStove.label>Cozinha</CookStove.label>
-    <CookStove.description>Uma mesa feita para preparação de comidas.</CookStove.description>
-    <TableStonecutter.label>Mesa de canteiro</TableStonecutter.label>
-    <TableStonecutter.description>Uma mesa de trabalho equipado para transformar pedaços de pedras em blocos de pedra.</TableStonecutter.description>
-    <Brewery.label>Cervejaria</Brewery.label>
-    <Brewery.description>Uma mesa de trabalho com todo equipamento necessário para elaborar cerveja.</Brewery.description>
-    <ElectricSmelter.label>Fundição elétrica</ElectricSmelter.label>
-    <ElectricSmelter.description>Extrai metal aproveitável de escombros metálicos e de outros objetos metálicos Consume muita energia.</ElectricSmelter.description>
-    <Crematorium.label>Incinerador</Crematorium.label>
-    <Crematorium.description>Incinera cadáveres ou outras coisas.</Crematorium.description>
-    <ResearchBench.label>Mesa de pesquisa</ResearchBench.label>
-    <ResearchBench.description>Os pesquisadores trabalham aqui para descobrir coisas novas.</ResearchBench.description>
-    <HydroponicsBasin.label>pilão hidropônico</HydroponicsBasin.label>
-    <HydroponicsBasin.description>Para cultivar comida. Permite cultivar poucas plantas rapidamente. Necessita de eletricidade para funcionar e caso a eletricidade se esgote as plantas irão morrer.</HydroponicsBasin.description>
+    
+    <CraftingSpot.label>local de artesanato</CraftingSpot.label>
+    <CraftingSpot.description>Um lugar para a elaboração de coisas simples como estoques ou arcos.</CraftingSpot.description>
+    
+    <TableSculpting.label>mesa de escultor</TableSculpting.label>
+    <TableSculpting.description>Uma mesa equipada para esculpir objetos artísticos.</TableSculpting.description>
+    
+    <TableButcher.label>mesa de açougueiro</TableButcher.label>
+    <TableButcher.description>Uma mesa pesada para esquartejar criaturas mortas em pedaços de carne crua.</TableButcher.description>
+    
+    <HandTailoringBench.label>bancada de alfaiate à mão</HandTailoringBench.label>
+    <HandTailoringBench.description>Uma bancada de trabalho para confecção de roupas à mão. Trabalha a 40% da velocidade de uma bancada de alfaiataria elétrico.</HandTailoringBench.description>
+    
+    <ElectricTailoringBench.label>bancada de alfaiate elétrica</ElectricTailoringBench.label>
+    <ElectricTailoringBench.description>Uma bancada de trabalho com uma máquina para uma rápida costura das roupas. Pode funcionar sem eletricidade a 40% da velocidade normal.</ElectricTailoringBench.description>
+    
+    <FueledSmithy.label>forja abastecida</FueledSmithy.label>
+    <FueledSmithy.description>Uma estação movida a madeira para fundir armas não-mecânicas e ferramentas.</FueledSmithy.description>
+    
+    <ElectricSmithy.label>forja elétrica</ElectricSmithy.label>
+    <ElectricSmithy.description>Uma estação elétrico-motorizada equipada para fundir armas não-mecânicas e ferramentas.</ElectricSmithy.description>
+    
+    <TableMachining.label>mesa de usinagem</TableMachining.label>
+    <TableMachining.description>Uma estação de trabalho para montagem e desmontagem de máquinas, tais como armas ou corpos de mechanoides.</TableMachining.description>
+
+    <ElectricStove.label>fogão elétrico</ElectricStove.label>
+    <ElectricStove.description>Um fogão eléctrico alimentado com uma bancada anexada para preparar as refeições.</ElectricStove.description>
+    
+    <FueledStove.label>fogão abastecido</FueledStove.label>
+    <FueledStove.description>Um fogão a lenha simples com uma bancada anexada para preparar as refeições.</FueledStove.description>
+    
+    <TableStonecutter.label>mesa de canteiro</TableStonecutter.label>
+    <TableStonecutter.description>Uma mesa de trabalho equipada para cortar pedras brutas em blocos utilizáveis.</TableStonecutter.description>
+    
+    <Brewery.label>cervejaria</Brewery.label>
+    <Brewery.description>Uma estação de trabalho com todo o equipamento necessário para fabricar cerveja.</Brewery.description>
+
+    <DrugLab.label>laboratório de drogas</DrugLab.label>
+    <DrugLab.Description>Uma bancada de trabalho equipada com vários recipientes, aquecedores e equipamentos de medição para a produção de uma variedade de drogas.</DrugLab.Description>
+    
+    <ElectricSmelter.label>forno de fundição elétrico</ElectricSmelter.label>
+    <ElectricSmelter.Description>Extrai metal utilizável de pedaços de escórias e outros itens de metal misto. Consome uma grande quantidade de eletricidade.</ElectricSmelter.Description>
+
+    <Refinery.label>refinaria</Refinery.label>
+    <Refinery.description>Uma refinaria química. Usada para refinar madeira em combustível químico.</Refinery.description>
+    
+    <ComponentAssemblyBench.label>bancada de montagem de componentes</ComponentAssemblyBench.label>
+    <ComponentAssemblyBench.description>Uma bancada equipada com ferramentas avançadas para a produção de componentes a partir de materiais simples.</ComponentAssemblyBench.description>
+    
+    <SimpleResearchBench.label>bancada de pesquisa simples</SimpleResearchBench.label>
+    <SimpleResearchBench.description>Uma bancada simples com instrumentos de escrita e ferramentas científicas de baixa tecnologia. Pesquisadores trabalham aqui para descobrir novas coisas.</SimpleResearchBench.description>
+    
+    <HiTechResearchBench.label>bancada de pesquisa de alta tecnologia</HiTechResearchBench.label>
+    <HiTechResearchBench.description>Uma bancada de alta tecnologia com computadores e equipamentos de medição eletrônica. A Pesquisa é acelerada pelas ferramentas de alta tecnologia. Requer eletricidade.</HiTechResearchBench.description>
+    
+    <ElectricCrematorium.label>crematório elétrico</ElectricCrematorium.label>
+    <ElectricCrematorium.description>Crema cadáveres. Eletricamente motorizado.</ElectricCrematorium.description>
+    
+    <HydroponicsBasin.label>bacia de hidroponia</HydroponicsBasin.label>
+    <HydroponicsBasin.description>Cultiva plantas rapidamente em um banho de nutrientes artificial. Requer energia para funcionar; as plantas irão morrer se a energia for cortada.</HydroponicsBasin.description>
+    
+    <FermentingBarrel.label>barril de fermentação</FermentingBarrel.label>
+    <FermentingBarrel.description>Um barril para fermentar o mosto bruto em cerveja.</FermentingBarrel.description>
+
+    <DeepDrill.label>broca subterrânea</DeepDrill.label>
+    <DeepDrill.description>Um equipamento de perfuração profunda de crosta para extrair os minerais abaixo da superfície. Usa um scanner penetrador subterrâneo para detectar os recursos.</DeepDrill.description>
+
+    <NutrientPasteDispenser.label>dispensador de pasta de nutrientes</NutrientPasteDispenser.label>
+    <NutrientPasteDispenser.description>Sintetiza pasta de nutrientes a partir de matérias-primas orgânicas. Ele consome menos ingredientes e tempo do que qualquer outro método de produção de refeições - mas ninguém gosta de comer a pasta de nutrientes. Aceita alimentos crus, mas não matéria vegetal áspero como feno.</NutrientPasteDispenser.description>
+    
+    <Hopper.label>funil</Hopper.label>
+    <Hopper.description>Detém recursos para uso por máquinas como dispensador de pasta de nutrientes.</Hopper.description>
+    
 </LanguageData>
