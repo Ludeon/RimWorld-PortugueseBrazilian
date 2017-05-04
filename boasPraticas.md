@@ -3,24 +3,24 @@
 - Padronizar;
 - Agilizar;
 
+### OBSERVAÇÕES:
+1. **Não aprove seu próprio Pull Request**; por mais que seja pouca coisa ou esteja 100% certo pode ser que alguém ache algo que você pode melhorar ou corrigir.
+2. Caso haja dúvidas, **peça ajuda** aos membros mais ativos;
+3. **Sempre envie suas mudanças como Pull Requests**; A não ser que sejam adições a este manual, ao [README.md](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/README.md), ao [todo.txt](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/todo.txt) ou adicionar créditos ao arquivo [LanguageInfo.xml](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/LanguageInfo.xml);
+4. Utilizar a função Beautify do Atom para ajudar a editar.
+
 #### Ferramentas:
 - Editor de texto: [Atom](https://atom.io) (1)
-- [Github Desktop](https://desktop.github.com/) ((2)para quem usa Windows)
+- [Github Desktop](https://desktop.github.com/) ((2) - ajuda usuários de Windows)
 
-#### (1) Atom:
+#### (1) [Atom](https://atom.io):
 O Atom é um editor de texto cheio de funcionalidades que te facilitará na hora de editar, como:
 - Busca de texto no arquivo (Ctrl+F)
 - Busca de texto no projeto (Ctrl+Shift+F)
 - Beautifier padroniza os arquivos
 
-#### (2) Github desktop
+#### (2) [Github desktop](https://desktop.github.com/)
 Este é o programa que vai lhe permitir adicionar novas traduções ao nosso repositório.
 
 #### Enviando traduções
 Recomendamos que tenha uma ramificação do [projeto original](https://github.com/Ludeon/RimWorld-PortugueseBrazilian) na sua conta pessoal do Github e envie [Pull Requests](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/pulls) com as suas modificações.
-
-#### Durante a Edição:
-- Utilizar o Beautify
-- Colocar antes de qualquer bloco de tradução a origem do mesmo como na imagem abaixo:
-
-![Atom](https://lh6.googleusercontent.com/YGE5gV0xidy1Z06mJSkwB_5eVfs4_VNEVWWfUhlKPemC7jZb81RHJQCtNOp_vevTI-7TmxN4v3b7eo0=w1920-h990)
