@@ -1,25 +1,41 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    
-    <RemoveBodyPart.label>remover parte</RemoveBodyPart.label>
-    <RemoveBodyPart.description>Remove a parte do corpo.</RemoveBodyPart.description>
-    <RemoveBodyPart.jobString>Removendo parte do corpo.</RemoveBodyPart.jobString>
-    
-    <RemoveMechanoidBodyPart.label>remover parte</RemoveMechanoidBodyPart.label>
-    <RemoveMechanoidBodyPart.description>Remove a parte do corpo.</RemoveMechanoidBodyPart.description>
-    <RemoveMechanoidBodyPart.jobString>Removendo parte do corpo.</RemoveMechanoidBodyPart.jobString>
-    
-    <Euthanize.label>eutanásia</Euthanize.label>
-    <Euthanize.description>Eutaniza.</Euthanize.description>
-    <Euthanize.jobString>Eutanasiado.</Euthanize.jobString>
-    
-    <ShutDownMechanoid.label>desligar</ShutDownMechanoid.label>
-    <ShutDownMechanoid.description>Desliga.</ShutDownMechanoid.description>
-    <ShutDownMechanoid.jobString>Desligando.</ShutDownMechanoid.jobString>
-    
-    <ExciseCarcinoma.label>Extrair carcinoma</ExciseCarcinoma.label>
-    <ExciseCarcinoma.description>Remove a carcinoma.</ExciseCarcinoma.description>
-    <ExciseCarcinoma.jobString>Extraindo a carcinoma.</ExciseCarcinoma.jobString>
-    <ExciseCarcinoma.successfullyRemovedHediffMessage>{0} removeu com sucesso a carcinoma de {1}.</ExciseCarcinoma.successfullyRemovedHediffMessage>
-    
+
+  <!-- removing body parts -->
+
+  <RemoveBodyPart.label>remover parte</RemoveBodyPart.label>
+  <RemoveBodyPart.description>Remove parte do corpo.</RemoveBodyPart.description>
+  <RemoveBodyPart.jobString>Removendo parte do corpo.</RemoveBodyPart.jobString>
+
+  <RemoveMechanoidBodyPart.label>remover parte</RemoveMechanoidBodyPart.label>
+  <RemoveMechanoidBodyPart.description>Remove parte do corpo.</RemoveMechanoidBodyPart.description>
+  <RemoveMechanoidBodyPart.jobString>Removendo parte do corpo.</RemoveMechanoidBodyPart.jobString>
+
+
+  <!-- Anesthetize -->
+
+  <Anesthetize.label>anestesiar</Anesthetize.label>
+  <Anesthetize.description>Deixa uma criatura inconsciente através da administração de um anestésico.</Anesthetize.description>
+  <Anesthetize.jobString>Anestesiado.</Anesthetize.jobString>
+
+
+  <!-- Euthanasia -->
+
+  <Euthanize.label>eutanizar por corte</Euthanize.label>
+  <Euthanize.description>Eutaniza uma criatura por corte.</Euthanize.description>
+  <Euthanize.jobString>Eutanasiando por corte.</Euthanize.jobString>
+
+  <ShutDownMechanoid.label>desligar</ShutDownMechanoid.label>
+  <ShutDownMechanoid.description>Desliga um mechanoide.</ShutDownMechanoid.description>
+  <ShutDownMechanoid.jobString>Desligando mechanoide.</ShutDownMechanoid.jobString>
+
+
+  <!-- removing hediffs (e.g. diseases) -->
+
+  <ExciseCarcinoma.label>extrair carcinoma</ExciseCarcinoma.label>
+  <ExciseCarcinoma.description>Extrai a carcinoma.</ExciseCarcinoma.description>
+  <ExciseCarcinoma.jobString>Extraindo a carcinoma.</ExciseCarcinoma.jobString>
+  <ExciseCarcinoma.successfullyRemovedHediffMessage>{0} removeu com sucesso a carcinoma de {1}.</ExciseCarcinoma.successfullyRemovedHediffMessage>
+
+
 </LanguageData>

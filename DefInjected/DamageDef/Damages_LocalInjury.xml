@@ -1,49 +1,59 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    
-    <Cut.label>corte</Cut.label>
-    <Cut.deathMessage>{0} foi cortado(a) até a morte.</Cut.deathMessage>
-    
-    <Crush.label>esmagado</Crush.label>
-    <Crush.deathMessage>{0} morreu esmagado(a).</Crush.deathMessage>
-    
-    <Blunt.label>pancada</Blunt.label>
-    <Blunt.deathMessage>{0} foi espancado(a) até a morte.</Blunt.deathMessage>
-    
-    <Stab.label>facada</Stab.label>
-    <Stab.deathMessage>{0} foi esfaqueado(a) até a morte.</Stab.deathMessage>
-    
-    <Bullet.label>bala</Bullet.label>
-    <Bullet.deathMessage>{0} foi morto(a) a tiros.</Bullet.deathMessage>
-    
-    <Arrow.label>flecha</Arrow.label>
-    <Arrow.deathMessage>{0} foi morto(a) a flechadas.</Arrow.deathMessage>
-    
-    <Scratch.label>arranhão</Scratch.label>
-    <Scratch.deathMessage>{0} foi arranhado(a) até a morte.</Scratch.deathMessage>
-    
-    <Bite.label>mordida</Bite.label>
-    <Bite.deathMessage>{0} foi mordido(a) até a morte.</Bite.deathMessage>
-    
-    <ToxicBite.label>mordida tóxica</ToxicBite.label>
-    <ToxicBite.deathMessage>{0} foi mordido(a) até a morte.</ToxicBite.deathMessage>
-    
-    <Bomb.label>bomba</Bomb.label>
-    <Bomb.deathMessage>{0} morreu em uma explosão.</Bomb.deathMessage>
-    
-    <Flame.label>chamas</Flame.label>
-    <Flame.deathMessage>{0} queimou até a morte.</Flame.deathMessage>
-    
-    <Burn.label>queimadura</Burn.label>
-    <Burn.deathMessage>{0} queimou até a morte.</Burn.deathMessage>
-    
-    <Frostbite.label>congelamento</Frostbite.label>
-    <Frostbite.deathMessage>{0} morreu devido ao congelamento.</Frostbite.deathMessage>
-    
-    <SurgicalCut.label>corte cirúrgico</SurgicalCut.label>
-    <SurgicalCut.deathMessage>{0} morreu durante a cirurgia.</SurgicalCut.deathMessage>
-    
-    <ExecutionCut.label>corte de execução</ExecutionCut.label>
-    <ExecutionCut.deathMessage>{0} foi executado(a).</ExecutionCut.deathMessage>
-    
+
+  <Cut.label>corte</Cut.label>
+  <Cut.deathMessage>{0} foi cortado(a) até a morte.</Cut.deathMessage>
+
+
+  <!-- Surgical cut: Makes it possible to remove inner organs without harming outer body parts -->
+
+  <SurgicalCut.label>corte cirúrgico</SurgicalCut.label>
+  <SurgicalCut.deathMessage>{0} morreu durante a cirurgia.</SurgicalCut.deathMessage>
+
+
+  <!-- Execution cut: Makes it possible to distinguish execution damage from others -->
+
+  <ExecutionCut.label>corte de execução</ExecutionCut.label>
+  <ExecutionCut.deathMessage>{0} foi executado(a) por corte.</ExecutionCut.deathMessage>
+
+  <Crush.label>esmagado</Crush.label>
+  <Crush.deathMessage>{0} foi esmagado(a) até a morte.</Crush.deathMessage>
+
+  <Blunt.label>pancada</Blunt.label>
+  <Blunt.deathMessage>{0} foi espancado(a) até a morte.</Blunt.deathMessage>
+
+  <Stab.label>punhalada</Stab.label>
+  <Stab.deathMessage>{0} foi apunhalado(a) até a morte.</Stab.deathMessage>
+
+  <Bullet.label>bala</Bullet.label>
+  <Bullet.deathMessage>{0} foi morto(a) por um tiro.</Bullet.deathMessage>
+
+  <Arrow.label>flecha</Arrow.label>
+  <Arrow.deathMessage>{0} foi morto(a) por uma flechada.</Arrow.deathMessage>
+
+  <Scratch.label>arranhão</Scratch.label>
+  <Scratch.deathMessage>{0} foi rasgado(a) até a morte.</Scratch.deathMessage>
+
+  <Bite.label>mordida</Bite.label>
+  <Bite.deathMessage>{0} foi mordido(a) até a morte.</Bite.deathMessage>
+
+  <ToxicBite.label>mordida tóxica</ToxicBite.label>
+  <ToxicBite.deathMessage>{0} foi mordido(a) até a morte.</ToxicBite.deathMessage>
+
+  <Bomb.label>bomba</Bomb.label>
+  <Bomb.deathMessage>{0} morreu em uma explosão.</Bomb.deathMessage>
+
+  <Flame.label>chama</Flame.label>
+  <Flame.deathMessage>{0} queimou até a morte.</Flame.deathMessage>
+
+
+  <!-- Burn is like Flame, but doesn't ignite anything -->
+
+  <Burn.label>queimadura</Burn.label>
+  <Burn.deathMessage>{0} queimou até a morte.</Burn.deathMessage>
+
+  <Frostbite.label>congelamento</Frostbite.label>
+  <Frostbite.deathMessage>{0} sucumbiu ao congelamento.</Frostbite.deathMessage>
+
+
 </LanguageData>

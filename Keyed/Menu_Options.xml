@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Audiovisuals -->
   <Audiovisuals>Áudio visuais</Audiovisuals>
-  <GameVolume>Volume de jogo</GameVolume>
+  <GameVolume>Volume do jogo</GameVolume>
   <MusicVolume>Volume da música</MusicVolume>
   <Antialiasing>Anti-serrilhado</Antialiasing>
 
@@ -12,11 +12,12 @@
   <PauseOnLoad>Pausar no carregamento</PauseOnLoad>
   <PauseOnUrgentLetter>Pausar no aviso urgente</PauseOnUrgentLetter>
   <CustomCursor>Cursor personalizado</CustomCursor>
-	<UIScale>Escala da IU</UIScale>
-	<KeyboardConfig>Configuração do teclado</KeyboardConfig>
+  <HatsShownOnlyOnMap>Chapéus mostrados só no mapa do jogo</HatsShownOnlyOnMap>
+  <UIScale>Escala da UI</UIScale>
+  <KeyboardConfig>Configuração do teclado</KeyboardConfig>
   <ChooseLanguage>Mudar idioma</ChooseLanguage>
   <ResetAdaptiveTutor>Restaurar tutorial adaptado</ResetAdaptiveTutor>
-  <AdaptiveTutorIsReset>Tutorial adaptado resetado, ele irá agora ensinar tudo do início.</AdaptiveTutorIsReset>
+  <AdaptiveTutorIsReset>Tutorial adaptado restaurado, ele irá agora ensinar tudo do início.</AdaptiveTutorIsReset>
   <RunInBackground>Executar em segundo plano</RunInBackground>
   <DevelopmentMode>Modo desenvolvedor</DevelopmentMode>
   <ResetModsConfigOnCrash>Restaurar mods ao congelar o jogo</ResetModsConfigOnCrash>
@@ -31,17 +32,22 @@
   <TemperatureMode>Modo de temperatura</TemperatureMode>
   <ShowRealtimeClock>Mostrar relógio de tempo real</ShowRealtimeClock>
   <MaxNumberOfPlayerHomes>Número máximo de colônias: {0}</MaxNumberOfPlayerHomes>
-  <PlantWindSway>Oscilação de vento na vegetação</PlantWindSway>
-  <MaxPermadeathAutosaveIntervalInfo>intervalo de gravação automática máxima no modo permadeath é de {0} dia(s).</MaxPermadeathAutosaveIntervalInfo>
+  <PlantWindSway>Balanço do vento nas plantas</PlantWindSway>
+  <MaxPermadeathAutosaveIntervalInfo>intervalo de gravação automática máxima no modo morte permanente é de {0} dia(s).</MaxPermadeathAutosaveIntervalInfo>
+  <ModSettings>Configurações de Mod</ModSettings>
 
   <!-- Resolution -->
   <Resolution>Resolução</Resolution>
   <Fullscreen>Tela cheia</Fullscreen>
 
-  <!-- Privacy-->
+  <!-- Privacy -->
   <Privacy>Privacidade</Privacy>
-  <UserName>Nome do usuário</UserName>
+  <UserName>Nome de usuário</UserName>
   <ChooseHistoryUploadPref>Enviar dados de jogabilidade preferencial.</ChooseHistoryUploadPref>
-  <AboutHistoryUpload>Informações de gameplay dos usuários ajuda os desenvolvedores a balancear o game. Se você concorda, suas informações serão enviadas a cada {0} dias de jogo (E em alguns outros casos raros como o final do jogo) para o servidor de RimWorld e depois analisadas. Dados de jogo carregado consiste apenas de estatísticas e registros de história relacionados com o jogo - nenhuma informação pessoal é enviada, exceto para o nome do usuário, o que significa que é completamente anônima.</AboutHistoryUpload>
-  
+  <AboutHistoryUpload>Informações de jogabilidade do usuário ajudam os desenvolvedores a balancear o jogo. Se você concorda, suas informações serão enviadas a cada {0} dias de jogo (E em alguns outros casos raros como o final do jogo) para o servidor do RimWorld e depois analisadas. Dados de jogo enviados consistem apenas de estatísticas e registros de história relacionados com o jogo - nenhuma informação pessoal é enviada, exceto para o nome do usuário, o que significa que é completamente anônima.</AboutHistoryUpload>
+
+  <!-- Mods -->
+  <SelectMod>Selecionar mod...</SelectMod>
+  <NoConfigurableMods>Nenhum mod configurável foi carregado.</NoConfigurableMods>
+
 </LanguageData>

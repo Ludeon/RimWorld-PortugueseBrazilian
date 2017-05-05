@@ -1,53 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <CallOnRadio>Chamar {0}</CallOnRadio>
   <CannotUseReason>Não pode usar ({0})</CannotUseReason>
-  <CannotUseSolarFlare>Não pode usar (explosão solar)</CannotUseSolarFlare>
+  <CannotUseSolarFlare>Não pode usar (erupção solar)</CannotUseSolarFlare>
   <CannotUseNoPower>Não pode usar (sem energia)</CannotUseNoPower>
   <CannotUseNoPath>Não pode usar (sem caminho)</CannotUseNoPath>
   <CannotUseReserved>Não pode usar (reservado)</CannotUseReserved>
   <CannotUseFull>Não pode usar (cheio)</CannotUseFull>
   <LeaderUnavailable>líder {0} está indisponível</LeaderUnavailable>
-  
+  <LeaderUnavailableNoLeader>líder não está disponível</LeaderUnavailableNoLeader>
+
   <FireAt>Atirar em {0}</FireAt>
 
   <OutOfRange>fora de alcance</OutOfRange>
   <CannotHitTarget>não pode acertar o alvo</CannotHitTarget>
   <IsIncapableOfViolenceLower>{0} é incapaz de violência</IsIncapableOfViolenceLower>
+  <IncapableOfViolenceLower>incapaz de violência</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0} não está alistado</IsNotDraftedLower>
   <CannotOrderNonControlledLower>não pode ordenar unidades não controladas</CannotOrderNonControlledLower>
 
   <OrderManThing>Usar {0}</OrderManThing>
-  
+
   <MeleeAttack>Atacar corpo a corpo {0}</MeleeAttack>
   <MeleeAttackToDeath>Atacar corpo a corpo {0} até a morte</MeleeAttackToDeath>
   <NoPath>sem caminho</NoPath>
 
   <ForbiddenLower>proibido</ForbiddenLower>
   <ForbiddenOutsideAllowedAreaLower>fora da área permitida</ForbiddenOutsideAllowedAreaLower>
-  <NotInHomeArea>não na área da casa</NotInHomeArea>
-  <SociallyImproperLower>socialmente inadequado</SociallyImproperLower>
+  <NotInHomeArea>não está na área da casa</NotInHomeArea>
+  <SociallyImproperLower>socialmente impróprio</SociallyImproperLower>
   <PrisonerRoomLower>sala de prisioneiro</PrisonerRoomLower>
   <BurningLower>queimando</BurningLower>
-  <NoEmptyPlaceLower>sem local vazio configurado para armazenar isto</NoEmptyPlaceLower>
-  <AlreadyFilledLower>já está preenchido o suficiente</AlreadyFilledLower>
+  <NoEmptyPlaceLower>nenhum ponto vazio acessível configurado para armazená-lo</NoEmptyPlaceLower>
+  <AlreadyFilledLower>já preenchido o suficiente</AlreadyFilledLower>
   <MissingMaterials>precisa de materiais</MissingMaterials>
   <MissingSkill>habilidade muito baixa</MissingSkill>
-  <NoEmptyGraveLower>nenhuma sepultura vazia configurada para armazenar</NoEmptyGraveLower>
+  <NoEmptyGraveLower>nenhuma sepultura vazia configurada para armazená-lo</NoEmptyGraveLower>
   <AnimalInteractedTooRecently>animal interagido muito recentemente</AnimalInteractedTooRecently>
-  <NoUsableFood>nenhum alimento utilizável</NoUsableFood>
+  <NoUsableFood>sem comida utilizável</NoUsableFood>
   <NoFood>sem comida</NoFood>
-  <AnimalsSkillTooLow>habilidade de animais muito baixo</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>Habilidade de animais muito baixo</AnimalsSkillTooLow>
   <NoComponentsToRepair>precisa de componentes</NoComponentsToRepair>
   <NoFuelToRefuel>precisa de {0}</NoFuelToRefuel>
   <NoWort>precisa de mosto</NoWort>
-  
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>o alimento disponível está no armazém com maior prioridade</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <NoFoodToFillHopper>nenhuma comida adequada</NoFoodToFillHopper>
+  <SelfTendDisabled>auto-tratamento desativado</SelfTendDisabled>
+
   <ConsumeThing>Consumir {0}</ConsumeThing>
-  
+
   <CannotGoNoPath>Não pode ir aqui (sem caminho)</CannotGoNoPath>
   <GoHere>Ir aqui</GoHere>
-  
+
   <Arrest>Prender {0}</Arrest>
   <TryToArrest>Tentar prender {0}</TryToArrest>
   <CannotArrest>Não pode prender</CannotArrest>
@@ -62,9 +67,9 @@
   <CannotCarryToCryptosleepCasket>não pode levar para sarcófago de cripto-sono</CannotCarryToCryptosleepCasket>
 
   <NoCryptosleepCasket>Nenhum sarcófago de cripto-sono disponível.</NoCryptosleepCasket>
-  <NoPrisonerBed>Não é possível, sem cama para prisioneiro disponível.</NoPrisonerBed>
-  <NoNonPrisonerBed>Não é possível, sem cama para não-prisioneiro disponível.</NoNonPrisonerBed>
-  <NoAnimalBed>Não é possível, sem cama para animal disponível.</NoAnimalBed>
+  <NoPrisonerBed>Não acessível, cama para prisioneiro fechada não reservada em temperatura segura.</NoPrisonerBed>
+  <NoNonPrisonerBed>Não acessível, cama para não-prisioneiro não reservada em temperatura segura.</NoNonPrisonerBed>
+  <NoAnimalBed>Não acessível, cama para animal não reservada em temperatura segura.</NoAnimalBed>
   <Reserved>Reservados por outra pessoa.</Reserved>
   <ReservedBy>Reservado por {0}</ReservedBy>
   <IsReservedBy>{0} está reservado por {1}.</IsReservedBy>
@@ -73,50 +78,52 @@
   <Incapable>Incapaz</Incapable>
   <IncapableOfCapacity>incapaz de {0}</IncapableOfCapacity>
 
-  <MinSkill>habilidade mín</MinSkill>
-  
+  <MinSkill>habilidade mín.</MinSkill>
+
   <Equip>Equipar {0}</Equip>
   <EquipWarningBrawler>(lutador ficará infeliz)</EquipWarningBrawler>
   <CannotEquip>Não pode equipar {0}</CannotEquip>
-  
+
   <ForceWear>Forçar a vestir {0}</ForceWear>
   <CannotWear>Não pode vestir {0}</CannotWear>
   <CannotWearBecauseOfMissingBodyParts>Partes ausentes do corpo</CannotWearBecauseOfMissingBodyParts>
-  
+
   <CannotPickUp>Não pode pegar {0}</CannotPickUp>
   <CannotPickUpAll>Não pode pegar {0} (tudo)</CannotPickUpAll>
   <PickUp>Pegar {0}</PickUp>
   <PickUpAll>Pegar {0} (tudo)</PickUpAll>
   <PickUpSome>Pegar {0}...</PickUpSome>
   <PickUpCount>Pegar {0} x{{0}}</PickUpCount>
-  
+
   <CannotGiveToPackAnimal>Não pode dar {0} para o animal de carga</CannotGiveToPackAnimal>
   <CannotGiveToPackAnimalAll>Não pode dar {0} (tudo) o animal de carga</CannotGiveToPackAnimalAll>
   <GiveToPackAnimal>Dar {0} para o animal de carga</GiveToPackAnimal>
   <GiveToPackAnimalAll>Dar {0} (tudo) para o animal de carga</GiveToPackAnimalAll>
   <GiveToPackAnimalSome>Dar {0} para o animal de carga...</GiveToPackAnimalSome>
   <GiveToPackAnimalCount>Pegar {0} x{{0}}</GiveToPackAnimalCount>
-  
+
   <CannotCarryToExit>Não pode transportar {0} e deixar a área</CannotCarryToExit>
   <CarryToExit>Transportar {0} e deixar a área</CarryToExit>
-  
+
   <Strip>Desvestir {0}</Strip>
   <CannotStrip>Não pode desvestir {0}</CannotStrip>
 
-  <SelfDestructHere>Auto-destruir aqui</SelfDestructHere>
-  
+  <SelfDestructHere>Autodestruir aqui</SelfDestructHere>
+
   <Drop>Soltar {0}</Drop>
 
-  <UseMedicalBed>Descansar até ser curado</UseMedicalBed>
+  <UseMedicalBed>Descansar até se curar</UseMedicalBed>
   <NotInjured>Não está ferido</NotInjured>
-  <SomeoneElseSleeping>Ocupado</SomeoneElseSleeping>
-  
+  <SomeoneElseSleeping>Ocupado por {0}</SomeoneElseSleeping>
+
   <TradeWith>Negociar com {0}</TradeWith>
   <CannotTrade>Não pode negociar</CannotTrade>
-  
+
   <EnterMap>Entrar em {0}</EnterMap>
-  <VisitFactionBase>Visitar {0}</VisitFactionBase>
-  <AttackFactionBase>Atacar {0}</AttackFactionBase>
+  <VisitSettlement>Visitar {0}</VisitSettlement>
+  <VisitSite>Visitar {0}</VisitSite>
+  <AttackSite>Atacar {0}</AttackSite>
+  <AttackSettlement>Atacar {0}</AttackSettlement>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Entrar no sarcófago de cripto-sono</EnterCryptosleepCasket>
@@ -128,21 +135,27 @@
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotMissingHealthActivities>Não pode priorizar (incapaz de {0})</CannotMissingHealthActivities>
 
-  <CannotGenericAlreadyAm>Já {0} {1}</CannotGenericAlreadyAm>
+  <CannotGenericAlreadyAm>Já fazendo {0} em {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeWorkTypeDisabled>Não pode priorizar (nunca irá fazer {0})</CannotPrioritizeWorkTypeDisabled>
-  
-  <CannotPrioritizeIsNotA>Não pode priorizar ({0} não está atribuído como {1})</CannotPrioritizeIsNotA>
+
+  <CannotPrioritizeNotAssignedToWorkType>Não pode priorizar (não atribuído como {0})</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>Não pode priorizar (pesquisar é uma tarefa de longo prazo)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>Não pode priorizar ({0} está proibido)</CannotPrioritizeForbidden>
   <CannotPrioritizeForbiddenOutsideAllowedArea>Não pode priorizar ({0} está fora da área permitida)</CannotPrioritizeForbiddenOutsideAllowedArea>
-  
+
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Priorizar {0} {1}</PrioritizeGeneric>
-  
+
   <DropAtEdge>Cair na beirada</DropAtEdge>
   <DropInCenter>Cair no centro</DropInCenter>
-  
+
+  <VomitingLower>vomitando</VomitingLower>
+  <NotInterruptibleLower>não interrompível</NotInterruptibleLower>
+
+  <AddWaypoint>Adicionar um novo ponto de rota aqui</AddWaypoint>
+  <RemoveWaypoint>Remover este ponto de rota</RemoveWaypoint>
+
 </LanguageData>

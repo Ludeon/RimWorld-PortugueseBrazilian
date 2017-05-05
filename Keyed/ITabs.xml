@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
   <TabBills>Tarefas</TabBills>
-  <TabGrowing>Plantação</TabGrowing>
+  <TabGrowing>Cultivo</TabGrowing>
   <TabCharacter>Caráter</TabCharacter>
   <TabTraining>Treino</TabTraining>
   <TabPrisoner>Prisioneiro</TabPrisoner>
   <TabGuest>Convidado</TabGuest>
   <TabGear>Equipam.</TabGear>
   <TabNeeds>Necessid.</TabNeeds>
-  <TabStorage>Estoque</TabStorage>
+  <TabStorage>Armazém</TabStorage>
   <TabHealth>Saúde</TabHealth>
   <TabRace>Raça</TabRace>
   <TabBasics>Básicos</TabBasics>
@@ -19,10 +19,10 @@
   <TabArt>Arte</TabArt>
   <TabSocial>Social</TabSocial>
 
-  
+
   <!-- Bills tab  -->
   <AddBill>Adicionar tarefa</AddBill>
-  <RecipeRequiresSkills>A receita {0} requer as habilidades abaixo. Nenhum dos seus colonos têm estas habilidades, de modo que ninguém irá fazer esta tarefa.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>A receita {0} requer as habilidades abaixo. Nenhum dos seus colonos têm estas habilidades, por isso ninguém irá fazer esta tarefa.</RecipeRequiresSkills>
   <MinimumSkill>Habilidade mínima</MinimumSkill>
   <SuspendedCaps>SUSPENSO</SuspendedCaps>
   <BoundWorkerIs>Trabalhador: {0}</BoundWorkerIs>
@@ -32,7 +32,7 @@
   <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>Dificuldade de recrutamento</RecruitmentDifficulty>
   <GetsFood>Obter comida</GetsFood>
-  <DoctorsCare>Atendimento médico</DoctorsCare>
+  <DoctorsCare>Cuidados médicos</DoctorsCare>
   <GetsMedicine>Obter medicina</GetsMedicine>
   <ShouldTryToRecruit>Tentar recrutar</ShouldTryToRecruit>
   <PrisonerNoInteraction>Sem interação</PrisonerNoInteraction>
@@ -46,7 +46,9 @@
   <!-- Medical - general -->
   <MoveSpeed>Velocidade de movimento</MoveSpeed>
   <Efficiency>Eficiência</Efficiency>
-  <MissingBodyPart>Removido</MissingBodyPart>
+  <PartEfficiency>Eficiência de parte</PartEfficiency>
+  <BodyPartEfficiency>Eficiência de parte do corpo</BodyPartEfficiency>
+  <MissingBodyPart>Sumido</MissingBodyPart>
   <DestroyedBodyPart>Destruído</DestroyedBodyPart>
   <ShatteredBodyPart>Despedaçado</ShatteredBodyPart>
   <RemovedBodyPart>Removido</RemovedBodyPart>
@@ -55,7 +57,7 @@
   <PainLevel>Dor</PainLevel>
   <Injured>Ferido</Injured>
   <NoInjuries>(sem ferimentos)</NoInjuries>
-  <WholeBody>Corpo inteiro</WholeBody>
+  <WholeBody>Todo o corpo</WholeBody>
   <DataProcessing>Process. de dados</DataProcessing>
   <Communication>Comunicação</Communication>
   <Affects>Afeta</Affects>
@@ -75,7 +77,9 @@
   <Tiredness>Cansaço</Tiredness>
   <PainFactor>Dor</PainFactor>
   <PreventsInfection>Previne infecção</PreventsInfection>
-  
+  <SelfTend>auto-tratamento</SelfTend>
+  <SelfTendTip>{0} com o auto-tratamento ativado irá automaticamente cuidar de si mesmo(a) no local em {1} da eficiência normal.</SelfTendTip>
+
 
   <!-- Medical - Body and activities condition -->
   <None>Nada</None>
@@ -84,9 +88,9 @@
   <Weakened>Fraco</Weakened>
   <GoodCondition>OK</GoodCondition>
   <Enhanced>Melhorado</Enhanced>
-  <SeriouslyImpaired>Estragado</SeriouslyImpaired>
+  <SeriouslyImpaired>Muito debilitado</SeriouslyImpaired>
   <Impaired>Debilitado</Impaired>
-  <SlightlyImpaired>Prejudicado</SlightlyImpaired>
+  <SlightlyImpaired>Pouco debilitado</SlightlyImpaired>
   <NoPain>Nenhuma</NoPain>
   <LittlePain>Pouca</LittlePain>
   <MediumPain>Média</MediumPain>
@@ -100,23 +104,24 @@
   <CannotTrainTooSmall>{0} é muito pequeno(a) para treinar isto.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Pré-requisito necessário: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <NoRelationships>(sem relacionamentos)</NoRelationships>
   <Kidnapped>Sequestrado</Kidnapped>
+  <Missing>Perdido</Missing>
   <Slave>Escravo</Slave>
-  <FactionLeader>Líder da facção</FactionLeader>
+  <FactionLeader>Líder de facção</FactionLeader>
   <OpinionOf>Opinião de {0}</OpinionOf>
   <SomeonesOpinionOfMe>Opinião de {0} sobre mim</SomeonesOpinionOfMe>
   <IAmDead>Estou morto</IAmDead>
   <IAmPsychopath>Eu sou um psicopata</IAmPsychopath>
-  
+
   <!-- Gear tab -->
   <AverageArmor>Média de armadura</AverageArmor>
-  <MassCarried>Massa levada: {0} / {1} kg</MassCarried>
+  <MassCarried>Peso carregado: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Faixa de temperatura confortável</ComfyTemperatureRange>
-  <ArmorBlunt>Pancada</ArmorBlunt>
-  <ArmorSharp>Corte</ArmorSharp>
+  <ArmorBlunt>Contundente</ArmorBlunt>
+  <ArmorSharp>Afiado</ArmorSharp>
   <ArmorHeat>Calor</ArmorHeat>
   <ArmorElectric>Elétrico</ArmorElectric>
 

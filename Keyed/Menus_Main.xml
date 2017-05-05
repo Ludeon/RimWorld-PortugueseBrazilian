@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!--=========== Main menu ==========-->
-  <Tutorial>Aprender a jogar</Tutorial>
+  <Tutorial>Tutorial</Tutorial>
   <NewColony>Nova colônia</NewColony>
   <BackToGame>Voltar ao Jogo</BackToGame>
   <ReviewScenario>Revisão de cenário</ReviewScenario>
   <Save>Salvar</Save>
-  <LoadGame>Carregar colônia</LoadGame>
+  <LoadGame>Carregar jogo</LoadGame>
   <Options>Opções</Options>
   <Mods>Mods</Mods>
   <Credits>Créditos</Credits>
-  <QuitToMainMenu>Voltar para o menu principal</QuitToMainMenu>
+  <QuitToMainMenu>Sair para o menu principal</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Salvar e sair para o Menu Principal</SaveAndQuitToMainMenu>
   <QuitToOS>Sair para o SO</QuitToOS>
   <SaveAndQuitToOS>Salvar e sair do jogo</SaveAndQuitToOS>
@@ -41,13 +41,14 @@
   <PlanetTemperature_High>Alta</PlanetTemperature_High>
   <WorldSeed>Semente</WorldSeed>
   <RandomizeSeed>Semente aleatória</RandomizeSeed>
-  <PlanetCoverageTip>O planeta é sempre o mesmo diâmetro, mas já que é muito maior do que o necessário para o jogo, Não geramos toda a superfície, porque pode levar um tempo muito longo. Esta é a percentagem da superfície que você quer gerado.</PlanetCoverageTip>
+  <PlanetCoverageTip>O planeta é sempre do mesmo diâmetro, mas já que é muito maior do que o necessário para o jogo, nós não geramos toda a superfície porque pode levar um tempo muito longo. Esta é a percentagem da superfície que você quer gerado.</PlanetCoverageTip>
+  <WorldFactionsTab>Facções</WorldFactionsTab>
 
   <!--=========== Select world ===================-->
   <SelectWorld>Selecionar mundo</SelectWorld>
   <WorldChooseButton>Selecionar</WorldChooseButton>
-  <NoWorldsFilesFound>Nenhum arquivo de mundo encontrado. Crie um mundo primeiro..</NoWorldsFilesFound>
-  
+  <NoWorldsFilesFound>Nenhum arquivo de mundo encontrado. Crie um mundo primeiro.</NoWorldsFilesFound>
+
   <!--=========== Version info ==========-->
   <BuildNowAvailable>A versão {0} está disponível. Verifique ludeon.com para mais informações.</BuildNowAvailable>
   <BuildUpToDate>Esta é a versão mais recente.</BuildUpToDate>
@@ -71,21 +72,21 @@
   <UpdateOnSteamWorkshop>Atualização na Oficina Steam</UpdateOnSteamWorkshop>
   <UploadAlreadyInProgress>Upload já está em andamento.</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Submissão na Oficina falhou.\n\nRazão: {0}</WorkshopSubmissionFailed>
-  <WorkshopUploadSucceeded>Upload terminado com sucesso {0}.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>Upload com sucesso {0}.</WorkshopUploadSucceeded>
   <Downloading>Baixando</Downloading>
   <Source>Fonte</Source>
   <ModTargetVersion>Para a versão: {0}</ModTargetVersion>
   <ModNotMadeForThisVersion>Este mod não foi feito para esta versão do RimWorld, e provavelmente não irá funcionar corretamente.</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>O mod precisa de uma versão alvo bem formatado em About.xml. Como isso: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>O mod precisa de uma versão alvo bem formatado em About.xml. Como isto: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
   <DragToReorder>Arraste para reordenar</DragToReorder>
-  
+
   <!--=========== Select scenario =============-->
   <ChooseScenario>Escolha o cenário</ChooseScenario>
   <ScenariosCustom>Personalizado</ScenariosCustom>
   <ScenariosSteamWorkshop>Oficina Steam</ScenariosSteamWorkshop>
   <ScenarioEditor>Editor de cenário</ScenarioEditor>
   <Delete>Excluir</Delete>
-  
+
   <!--============ Scenario editor ===============-->
   <Seed>semente</Seed>
   <Load>Carregar</Load>
@@ -98,10 +99,10 @@
   <Incompatible>Incompatível</Incompatible>
   <TooMany>Tem muitos (máx {0}): </TooMany>
   <CanBeUpdatedOnWorkshop>Pode ser atualizado na Oficina, já que você é o autor.</CanBeUpdatedOnWorkshop>
-  
+
   <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Escolha o narrador</ChooseAIStoryteller>
-  <HowStorytellersWork>O narrador cria eventos como invasões de piratas, queda de recursos ou ataques de animais. Suas escolhas afetarão a história da sua colônia.</HowStorytellersWork>
+  <HowStorytellersWork>O narrador cria eventos como assalto de piratas, queda de recursos ou ataques de animais. Suas escolhas afetarão a história da sua colônia.</HowStorytellersWork>
   <MustChooseDifficulty>Por favor, escolha um nível de dificuldade.</MustChooseDifficulty>
   <Difficulty>Dificuldade</Difficulty>
 
@@ -113,15 +114,19 @@
   <CannotLandBiome>Você não pode pousar sobre este bioma: {0}</CannotLandBiome>
   <BiomeNotImplemented>Bioma não implementado</BiomeNotImplemented>
   <CannotLandImpassableMountains>Você não pode pousar em montanhas intransitáveis.</CannotLandImpassableMountains>
-  <BaseAlreadyThere>{0} já tem uma base aqui.</BaseAlreadyThere>
+  <BaseAlreadyThere>{0} já tem uma base lá.</BaseAlreadyThere>
+  <TileOccupied>Este azulejo está ocupado.</TileOccupied>
+  <FactionBaseAdjacent>Os assentamentos não podem estar diretamente juntos um ao outro.</FactionBaseAdjacent>
   <Biome>Bioma</Biome>
   <Terrain>Terreno</Terrain>
+  <Road>Estrada</Road>
+  <River>Rio</River>
   <Elevation>Elevação</Elevation>
   <Fertility>Fertilidade</Fertility>
   <AvgTemp>Temperatura média</AvgTemp>
   <AvgSummerTemp>Temperatura do verão</AvgSummerTemp>
   <AvgWinterTemp>Temperatura do inverno</AvgWinterTemp>
-  <Rainfall>Precipitação</Rainfall>
+  <Rainfall>Chuva</Rainfall>
   <HasCoast0>Costa norte</HasCoast0>
   <HasCoast1>Costa leste</HasCoast1>
   <HasCoast2>Costa sul</HasCoast2>
@@ -132,9 +137,10 @@
   <MovementTimeNow>Tempo de movimento atual</MovementTimeNow>
   <MovementTimeSummer>Tempo de movimento no verão</MovementTimeSummer>
   <MovementTimeWinter>Tempo de movimento no inverno</MovementTimeWinter>
+  <AnimalsCanGrazeNow>Os animais podem pastar agora</AnimalsCanGrazeNow>
 
 
-	<!--=========== Character chooser ==========-->
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Criar personagens</CreateCharacters>
   <FirstNameDesc>O primeiro nome do personagem.\n\nIsto só é exibido em alguns menus.</FirstNameDesc>
   <ShortIdentifierDesc>Como o personagem será chamado.\n\nIste nome é o principal, ele é exibido em todos os momentos. Pode ser o primeiro ou o último nome, ou um apelido completamente separado.</ShortIdentifierDesc>
@@ -146,7 +152,7 @@
   <Traits>Traços</Traits>
   <PermanentMoodEffect>Efeito de humor permanente</PermanentMoodEffect>
   <Skills>Habilidades</Skills>
-  <NoneLower>Nenhum</NoneLower>
+  <NoneLower>nenhum</NoneLower>
   <Adulthood>Fase adulta</Adulthood>
   <Childhood>Infância</Childhood>
   <Male>masculino</Male>
@@ -154,7 +160,7 @@
   <Pain>Dor</Pain>
   <Health>Saúde</Health>
   <Relations>Relações</Relations>
-  
+
   <!--=========== Misc ==========-->
   <Start>Começar</Start>
   <Advanced>Avançado</Advanced>
@@ -165,9 +171,10 @@
   <EveryoneNeedsValidName>Cada pessoa precisa de um nome válido.</EveryoneNeedsValidName>
   <Quit>Sair</Quit>
   <Ignore>Ignorar</Ignore>
-  
+
   <!--============ Progress bar==============-->
   <GeneratingWorld>Gerando mundo</GeneratingWorld>
+  <GeneratingPlanet>Gerando planeta</GeneratingPlanet>
   <GeneratingMap>Gerando mapa</GeneratingMap>
   <GeneratingMapForNewEncounter>Gerando mapa para novo encontro</GeneratingMapForNewEncounter>
 

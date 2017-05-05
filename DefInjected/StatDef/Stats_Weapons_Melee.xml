@@ -1,16 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-    
-    <MeleeWeapon_DamageAmount.label>dano corpo a corpo</MeleeWeapon_DamageAmount.label>
-    <MeleeWeapon_DamageAmount.description>Danos causados por golpe em combate corpo a corpo.</MeleeWeapon_DamageAmount.description>
-    
-    <MeleeWeapon_Cooldown.label>recarga de corpo a corpo</MeleeWeapon_Cooldown.label>
-    <MeleeWeapon_Cooldown.description>Quanto tempo leva para se recuperar depois de bater com isto como uma arma branca.</MeleeWeapon_Cooldown.description>
-    
-    <SharpDamageMultiplier.label>dano de corte</SharpDamageMultiplier.label>
-    <SharpDamageMultiplier.description>Multiplicador sobre danos com ataques afiados como corte ou esfaqueamento para itens feitos deste material.</SharpDamageMultiplier.description>
-    
-    <BluntDamageMultiplier.label>dano de pancada</BluntDamageMultiplier.label>
-    <BluntDamageMultiplier.description>Multiplicador sobre danos com ataques contundentes para itens feitos deste material.</BluntDamageMultiplier.description>
-    
+
+  <MeleeWeapon_DamageAmount.label>dano corpo a corpo</MeleeWeapon_DamageAmount.label>
+  <MeleeWeapon_DamageAmount.description>Danos causados por golpe em combate corpo a corpo.</MeleeWeapon_DamageAmount.description>
+
+  <MeleeWeapon_Cooldown.label>recarga de corpo a corpo</MeleeWeapon_Cooldown.label>
+  <MeleeWeapon_Cooldown.description>Quanto tempo leva para se recuperar depois de bater com isto como uma arma corpo a corpo.</MeleeWeapon_Cooldown.description>
+  <MeleeWeapon_Cooldown.formatString>{0} s</MeleeWeapon_Cooldown.formatString>
+
+
+  <!-- Damage multipliers should be stats on stuffs only -->
+
+  <SharpDamageMultiplier.label>dano afiado</SharpDamageMultiplier.label>
+  <SharpDamageMultiplier.description>Multiplicador sobre danos com ataques afiados como corte ou esfaqueamento para itens feitos deste material.</SharpDamageMultiplier.description>
+
+  <BluntDamageMultiplier.label>dano contundente</BluntDamageMultiplier.label>
+  <BluntDamageMultiplier.description>Multiplicador sobre danos com ataques contundentes para itens feitos deste material.</BluntDamageMultiplier.description>
+
+
 </LanguageData>
