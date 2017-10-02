@@ -18,3 +18,4 @@ Translators:
 - [Renan Lopes](https://github.com/renan905)
 - [Daniel Caixeta](https://github.com/DanielCXT)
 - [Arthur Silva](https://github.com/ArxdSilva)
+- [Vinícius Fonseca](https://github.com/vinnysoft)
