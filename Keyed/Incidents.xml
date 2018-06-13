@@ -37,13 +37,13 @@
 
   <TraderArrival>Uma nave de comércio está passando nas proximidades.\n\nEles são conhecidos como {0}. Eles são {1}.</TraderArrival>
 
-  <SingleTravelerPassing>Um(a) {0} de "{1}" está passando por perto. HECAP se chama {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>Um(a) {0} de "{1}" está passando por perto. [PAWN_pronoun] se chama {2}.</SingleTravelerPassing>
   <GroupTravelersPassing>Um grupo de viajantes de {0} está passando por perto.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Visitantes</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Um(a) {0} de "{1}" está visitando a colônia.\n\nHECAP se chama {2}.{3}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP parece ter alguns itens para o comércio.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP é o líder da facção.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrives>Um(a) {0} de "{1}" está visitando a colônia.\n\n[PAWN_pronoun] se chama {2}.{3}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] parece ter alguns itens para o comércio.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] é o líder da facção.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Visitantes</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Um grupo de {0} está visitando a colônia.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nEles parecem ter alguns itens para o comércio.</GroupVisitorsArriveTraderInfo>
@@ -51,7 +51,7 @@
   <VisitorsLeaving>Os visitantes de {0} estão partindo.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Aldeão se junta</LetterLabelWandererJoin>
-  <WandererJoin>Um(a) {0} chamado(a) NAME chegou e está se juntando a colônia. HECAP é um(a) {1}.</WandererJoin>
+  <WandererJoin>Um(a) {0} chamado(a) [PAWN_nameDef] chegou e está se juntando a colônia. [PAWN_pronoun] é um(a) {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Grupo caçador de humanos</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Um grupo caçador de {0}s entraram na área. Eles irão vagar pela região, na caça de carne humana.\n\nEles não podem passar pelas portas, por isto, se você ficar atrás das paredes estará seguro. Eles não irão atacar torretas inativas, então desligue suas torretas se você deseja poupá-las.\n\nEles deixaram a área em poucos dias.</ManhunterPackArrived>
@@ -84,7 +84,7 @@
   <BeaversArrived>Um grupo faminto de Alfacastores acabaram de chegar.\n\nTente eliminá-los antes que eles dizimem a última árvore da região.</BeaversArrived>
 
   <!-- Refugee chased -->
-  <RefugeeChasedInitial>Um(a) {1} chamado(a) {0} está te chamando. HECAP está sendo perseguido(a) pelos {2} de {3}!\n\nHECAP implora por sua segurança e se oferece para se juntar a colônia. Biologicamente HE tem {4} anos de idade.\n\nEsteja avisado - se você aceitar, você terá que lutar contra os {2} que estão atrás dele.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Um(a) {1} chamado(a) {0} está te chamando. [PAWN_pronoun] está sendo perseguido(a) pelos {2} de {3}!\n\n[PAWN_pronoun] implora por sua segurança e se oferece para se juntar a colônia. Biologicamente [PAWN_pronoun] tem {4} anos de idade.\n\nEsteja avisado - se você aceitar, você terá que lutar contra os {2} que estão atrás dele.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Oferecer segurança</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignorar mensagem</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>{0} grita em pânico pelo pequeno alto-falante antes de você cortar a transmissão.</RefugeeChasedRejected>
@@ -112,7 +112,7 @@
   <LetterBuildingBrokenDown>Uma das suas máquinas ({0}) quebrou. Ela não funcionará até que um colono com o tipo de trabalho em Reparação vá e conserte.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
-  <RansomDemand>{1} Contata você através do rádio. Eles estão prendendo o ex-colono {0} para o resgate.\n\nE estão dispostos a libertar HE de volta a você em troca de {2} pratas.</RansomDemand>
+  <RansomDemand>{1} Contata você através do rádio. Eles estão prendendo o ex-colono {0} para o resgate.\n\nE estão dispostos a libertar [PAWN_pronoun] de volta a você em troca de {2} pratas.</RansomDemand>
   <RansomDemand_Accept>Aceitar</RansomDemand_Accept>
   <RansomDemand_Reject>Recusar</RansomDemand_Reject>
 

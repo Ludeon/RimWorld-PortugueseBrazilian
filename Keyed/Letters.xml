@@ -37,7 +37,7 @@
   <NewPartDisease>{0} ficou doente de {3}. A infecção é no(a) {1}.\n\nTenha certeza que você tem uma cama médica e um médico. Certifique-se de que {2} receba o tratamento adequado e fique mais tempo na cama o quanto possível.</NewPartDisease>
 
   <LetterLabelAncientShrineWarning>Perigo ancestral</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>Quando {0} se aproximou da muralha antiga, sentiu uma má sensação . HECAP não tem certeza porque, mas HE sente que esta estrutura empoeirada pode conter um grande perigo.</AncientShrineWarning>
+  <AncientShrineWarning>Quando {0} se aproximou da muralha antiga, sentiu uma má sensação . [PAWN_pronoun] não tem certeza porque, mas [PAWN_pronoun] sente que esta estrutura empoeirada pode conter um grande perigo.</AncientShrineWarning>
 
   <StruckMineable>Nós encontramos {0}!</StruckMineable>
 
@@ -74,8 +74,8 @@
   <LetterRelatedPawnsTradingWithOtherCaravan>The caravan is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithOtherCaravan>
 
   <RelationshipAppendedLetterSuffix>(relacionamento)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME tem um relacionamento com um colono. HECAP é {1} de {0}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME tem um relacionamento com um de seus prisioneiros. HECAP é {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] tem um relacionamento com um colono. [PAWN_pronoun] é {1} de {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] tem um relacionamento com um de seus prisioneiros. [PAWN_pronoun] é {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Caso</LetterLabelAffair>
@@ -112,7 +112,7 @@
 
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>Vício em {0}</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} desenvolveu um vício em {1}.\n\nHECAP tem agora uma necessidade por {1}, visível em sua guia de Necessidades. HECAP consumirá automaticamente a droga para preencher a sua necessidade. Se HE ficar sem qualquer {1}, irá desenvolver síndrome de abstinência.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0} desenvolveu um vício em {1}.\n\n[PAWN_pronoun] tem agora uma necessidade por {1}, visível em sua guia de Necessidades. [PAWN_pronoun] consumirá automaticamente a droga para preencher a sua necessidade. Se [PAWN_pronoun] ficar sem qualquer {1}, irá desenvolver síndrome de abstinência.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <LetterLabelDrugBinge>Compulsão por {0}</LetterLabelDrugBinge>
