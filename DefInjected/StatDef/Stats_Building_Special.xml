@@ -1,32 +1,68 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <DoorOpenSpeed.label>velocidade de abertura da porta</DoorOpenSpeed.label>
-    <DoorOpenSpeed.description>A velocidade de abertura da porta.</DoorOpenSpeed.description>
-    
-    <BedRestEffectiveness.label>eficácia de descanso</BedRestEffectiveness.label>
-    <BedRestEffectiveness.description>Quão rápido as pessoas dormindo nisto irão descansar.</BedRestEffectiveness.description>
-    
-    <TrapMeleeDamage.label>dano de armadilha</TrapMeleeDamage.label>
-    <TrapMeleeDamage.description>Quanto dano esta armadilha normalmente faz. O dano real pode variar um pouco.</TrapMeleeDamage.description>
-    
-    <TrapSpringChance.label>chance de armadilha falhar</TrapSpringChance.label>
-    <TrapSpringChance.description>A probabilidade de que a armadilha irá falhar quando uma criatura inconsciente passa sobre ela.</TrapSpringChance.description>
-    
-    <ResearchSpeedFactor.label>fator de velocidade de pesquisa</ResearchSpeedFactor.label>
-    <ResearchSpeedFactor.description>Velocidade com que as pessoas fazem pesquisas é multiplicada por este valor.</ResearchSpeedFactor.description>
-    <ResearchSpeedFactor.parts.1.customLabel>Limpeza do cômodo</ResearchSpeedFactor.parts.1.customLabel>
-    
-    <MedicalTendQualityOffset.label>fator de qualidade de tratamento médico</MedicalTendQualityOffset.label>
-    <MedicalTendQualityOffset.description>A qualidade de tratamento médico é multiplicada por este valor.</MedicalTendQualityOffset.description>
-    
-    <ImmunityGainSpeedFactor.label>fator de ganho de imunidade</ImmunityGainSpeedFactor.label>
-    <ImmunityGainSpeedFactor.description>Velocidade de ganho de imunidade é multiplicada por este valor.</ImmunityGainSpeedFactor.description>
-    
-    <WorkTableWorkSpeedFactor.label>fator de velocidade de trabalho</WorkTableWorkSpeedFactor.label>
-    <WorkTableWorkSpeedFactor.description>Velocidade de trabalho é multiplicada por este valor.</WorkTableWorkSpeedFactor.description>
-    
-    <EntertainmentStrengthFactor.label>fator de entretenimento</EntertainmentStrengthFactor.label>
-    <EntertainmentStrengthFactor.description>Quão efetivamente este item entretém as pessoas e lhes dão alegria.</EntertainmentStrengthFactor.description>
-    
+  
+  <!-- EN: rest effectiveness -->
+  <BedRestEffectiveness.label>eficácia de descanso</BedRestEffectiveness.label>
+  <!-- EN: How fast people sleeping on this gain rest. -->
+  <BedRestEffectiveness.description>Quão rápido as pessoas dormindo nisto irão descansar.</BedRestEffectiveness.description>
+  
+  <!-- EN: door opening speed -->
+  <DoorOpenSpeed.label>velocidade de abertura da porta</DoorOpenSpeed.label>
+  <!-- EN: The speed at which the door opens. Slow doors will slow down everyone who uses them. -->
+  <DoorOpenSpeed.description>A velocidade de abertura da porta.</DoorOpenSpeed.description>
+  
+  <!-- EN: immunity gain speed factor -->
+  <ImmunityGainSpeedFactor.label>fator de ganho de imunidade</ImmunityGainSpeedFactor.label>
+  <!-- EN: Immunity gain speed is multiplied by this value. -->
+  <ImmunityGainSpeedFactor.description>Velocidade de ganho de imunidade é multiplicada por este valor.</ImmunityGainSpeedFactor.description>
+  
+  <!-- EN: recreation power -->
+  <JoyGainFactor.label>TODO</JoyGainFactor.label>
+  <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
+  <JoyGainFactor.description>TODO</JoyGainFactor.description>
+  
+  <!-- EN: medical tend quality offset -->
+  <MedicalTendQualityOffset.label>fator de qualidade de tratamento médico</MedicalTendQualityOffset.label>
+  <!-- EN: Medical tend quality is offset by this value. -->
+  <MedicalTendQualityOffset.description>A qualidade de tratamento médico é multiplicada por este valor.</MedicalTendQualityOffset.description>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>fator de velocidade de pesquisa</ResearchSpeedFactor.label>
+  <!-- EN: The speed at which people do research is multiplied by this value. -->
+  <ResearchSpeedFactor.description>Velocidade com que as pessoas fazem pesquisas é multiplicada por este valor.</ResearchSpeedFactor.description>
+  <!-- EN: Room cleanliness -->
+  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>Limpeza do cômodo</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  
+  <!-- EN: surgery success chance factor -->
+  <SurgerySuccessChanceFactor.label>TODO</SurgerySuccessChanceFactor.label>
+  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here. Surgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
+  <SurgerySuccessChanceFactor.description>TODO</SurgerySuccessChanceFactor.description>
+  <!-- EN: Room cleanliness -->
+  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>TODO</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
+  
+  <!-- EN: trap melee damage -->
+  <TrapMeleeDamage.label>dano de armadilha</TrapMeleeDamage.label>
+  <!-- EN: How much damage this trap does on average. The actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>Quanto dano esta armadilha normalmente faz. O dano real pode variar um pouco.</TrapMeleeDamage.description>
+  
+  <!-- EN: trap spring chance -->
+  <TrapSpringChance.label>chance de armadilha falhar</TrapSpringChance.label>
+  <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
+  <TrapSpringChance.description>A probabilidade de que a armadilha irá falhar quando uma criatura inconsciente passa sobre ela.</TrapSpringChance.description>
+  
+  <!-- EN: work efficiency factor -->
+  <WorkTableEfficiencyFactor.label>TODO</WorkTableEfficiencyFactor.label>
+  <!-- EN: Work efficiency is multiplied by this value. -->
+  <WorkTableEfficiencyFactor.description>TODO</WorkTableEfficiencyFactor.description>
+  
+  <!-- EN: work speed factor -->
+  <WorkTableWorkSpeedFactor.label>fator de velocidade de trabalho</WorkTableWorkSpeedFactor.label>
+  <!-- EN: Work speed is multiplied by this value. -->
+  <WorkTableWorkSpeedFactor.description>Velocidade de trabalho é multiplicada por este valor.</WorkTableWorkSpeedFactor.description>
+  
+  <!-- EN: work to build -->
+  <WorkToBuild.label>trabalho para construir</WorkToBuild.label>
+  <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered. -->
+  <WorkToBuild.description>A quantidade básica de trabalho que leva para construir uma estrutura, uma vez que todos os materiais e ferramentas estão reunidos.</WorkToBuild.description>
+  
 </LanguageData>

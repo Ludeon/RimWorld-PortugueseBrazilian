@@ -1,22 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <RecruitPrisonerChance.label>chance de recrutar prisioneiro</RecruitPrisonerChance.label>
-    <RecruitPrisonerChance.description>Quanto de chance esta pessoa tem para recrutar um prisioneiro.</RecruitPrisonerChance.description>
-    
-    <TameAnimalChance.label>chance de domesticar animal</TameAnimalChance.label>
-    <TameAnimalChance.description>Quanto de chance esta pessoa tem para domesticar um animal.</TameAnimalChance.description>
-    
-    <TrainAnimalChance.label>chance de treinamento de animal</TrainAnimalChance.label>
-    <TrainAnimalChance.description>Quanto de chance esta pessoa tem para fazer progresso treinando um animal em uma determinada tentativa. A chance real para uma determinada tentativa também dependerá da selvageria do animal, se está com vínculo com o treinador, e assim por diante.</TrainAnimalChance.description>
-    
-    <SocialImpact.label>impacto social</SocialImpact.label>
-    <SocialImpact.description>Quando esta pessoa interage socialmente, isto é o quanto que a outra pessoa é afetada.</SocialImpact.description>
-    
-    <GiftImpact.label>impacto de presente diplomático</GiftImpact.label>
-    <GiftImpact.description>Quando esta pessoa dá presentes para outra facção, este multiplicador é aplicado ao seu impacto sobre as relações da facção.</GiftImpact.description>
-    
-    <TradePriceImprovement.label>melhoria dos preços do comércio</TradePriceImprovement.label>
-    <TradePriceImprovement.description>Quando esta pessoa negocia preços, os preços de comprar e vender são melhorados por esta porcentagem.</TradePriceImprovement.description>
-    
+  
+  <!-- EN: negotiation ability -->
+  <NegotiationAbility.label>impacto de presente diplomático</NegotiationAbility.label>
+  <!-- EN: How effective this person is as a negotiator. This affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
+  <NegotiationAbility.description>Quando esta pessoa dá presentes para outra facção, este multiplicador é aplicado ao seu impacto sobre as relações da facção.</NegotiationAbility.description>
+  
+  <!-- EN: social impact -->
+  <SocialImpact.label>impacto social</SocialImpact.label>
+  <!-- EN: A multiplier on how much other people are affected by this person's social interactions. -->
+  <SocialImpact.description>Quando esta pessoa interage socialmente, isto é o quanto que a outra pessoa é afetada.</SocialImpact.description>
+  
+  <!-- EN: tame animal chance -->
+  <TameAnimalChance.label>chance de domesticar animal</TameAnimalChance.label>
+  <!-- EN: The base chance this person will successfully tame an animal on any given attempt. The actual chance is also affected by the animal's wildness. Failed tame attempt can induce animal attacks, especially for more vicious animals. -->
+  <TameAnimalChance.description>Quanto de chance esta pessoa tem para domesticar um animal.</TameAnimalChance.description>
+  
+  <!-- EN: trade price improvement -->
+  <TradePriceImprovement.label>melhoria dos preços do comércio</TradePriceImprovement.label>
+  <!-- EN: When this person acts as a trade negotiator, buy and sell prices are improved by this percentage. -->
+  <TradePriceImprovement.description>Quando esta pessoa negocia preços, os preços de comprar e vender são melhorados por esta porcentagem.</TradePriceImprovement.description>
+  
+  <!-- EN: train animal chance -->
+  <TrainAnimalChance.label>chance de treinamento de animal</TrainAnimalChance.label>
+  <!-- EN: The base chance this person will make progress training an animal on a given attempt. The actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
+  <TrainAnimalChance.description>Quanto de chance esta pessoa tem para fazer progresso treinando um animal em uma determinada tentativa. A chance real para uma determinada tentativa também dependerá da selvageria do animal, se está com vínculo com o treinador, e assim por diante.</TrainAnimalChance.description>
+  
 </LanguageData>

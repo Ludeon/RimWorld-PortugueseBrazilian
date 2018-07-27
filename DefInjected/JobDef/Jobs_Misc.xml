@@ -1,86 +1,166 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <Goto.reportString>em movimento.</Goto.reportString>
-    
-    <GotoSafeTemperature.reportString>procurando temperatura confortável.</GotoSafeTemperature.reportString>
-    
-    <GotoWander.reportString>vagando.</GotoWander.reportString>
-    
-    <Wait.reportString>parado.</Wait.reportString>
-    
-    <WaitDowned.reportString>caído.</WaitDowned.reportString>
-    
-    <WaitSafeTemperature.reportString>esperando na temperatura segura.</WaitSafeTemperature.reportString>
-    
-    <WaitWander.reportString>vagando.</WaitWander.reportString>
-    
-    <WaitCombat.reportString>observando os alvos.</WaitCombat.reportString>
-    
-    <AttackStatic.reportString>atacando TargetA.</AttackStatic.reportString>
-    
-    <AttackMelee.reportString>atacando corpo a corpo TargetA.</AttackMelee.reportString>
-    <SocialFight.reportString>brigando com TargetA.</SocialFight.reportString>
-    <UseVerbOnThing.reportString>Fazendo algo.</UseVerbOnThing.reportString>
-    
-    <Equip.reportString>equipando TargetA.</Equip.reportString>
-    
-    <TakeInventory.reportString>pegando TargetA.</TakeInventory.reportString>
-    <GiveToPackAnimal.reportString>carregando TargetA no animal de carga.</GiveToPackAnimal.reportString>   
-    <Wear.reportString>vestindo TargetA.</Wear.reportString>
-    
-    <RemoveApparel.reportString>removendo TargetA.</RemoveApparel.reportString>
-    <DropEquipment.reportString>soltando TargetA no chão.</DropEquipment.reportString>	
-    <Strip.reportString>desvestindo TargetA.</Strip.reportString>
-    
-    <Open.reportString>abrindo TargetA.</Open.reportString>
-    
-    <RearmTrap.reportString>rearmando TargetA.</RearmTrap.reportString>
-    
-    <Refuel.reportString>reabastecendo TargetA.</Refuel.reportString>
-
-    <FillFermentingBarrel.reportString>enchendo TargetA.</FillFermentingBarrel.reportString>
-
-    <TakeBeerOutOfFermentingBarrel.reportString>tirando cerveja de TargetA.</TakeBeerOutOfFermentingBarrel.reportString>
-
-    <UnloadInventory.reportString>descarregando TargetA.</UnloadInventory.reportString>
-
-    <UnloadYourInventory.reportString>descarregando inventário.</UnloadYourInventory.reportString>
-    
-    <ManTurret.reportString>operando torreta.</ManTurret.reportString>
-    
-    <EnterCryptosleepCasket.reportString>entrando no sarcófago de cripto-sono.</EnterCryptosleepCasket.reportString>
-    
-    <UseNeurotrainer.reportString>usando neurotreinador.</UseNeurotrainer.reportString>
-    
-    <UseArtifact.reportString>ativando artefato.</UseArtifact.reportString>
-    
-    <TriggerFirefoamPopper.reportString>ativando dispositivo de espuma.</TriggerFirefoamPopper.reportString>
-    
-    <ClearSnow.reportString>limpando neve.</ClearSnow.reportString>
-    
-    <Vomit.reportString>vomitando.</Vomit.reportString>
-    
-    <Flick.reportString>alternando interruptor.</Flick.reportString>
-    
-    <TradeWithPawn.reportString>negociando com TargetA.</TradeWithPawn.reportString>
-    
-    <FleeAndCower.reportString>fugindo.</FleeAndCower.reportString>
-
-    <EnterTransporter.reportString>entrando em TargetA.</EnterTransporter.reportString>
-    
-    <Ignite.reportString>colocando fogo em TargetA.</Ignite.reportString>
-    
-    <BeatFire.reportString>combatendo incêndio.</BeatFire.reportString>
-    
-    <ExtinguishSelf.reportString>se extinguindo.</ExtinguishSelf.reportString>
-    
-    <Ingest.reportString>consumindo TargetA.</Ingest.reportString>
-    
-    <LayDown.reportString>deitado.</LayDown.reportString>
-	
-  <!--============ Love ============-->
-
-    <Lovin.reportString>amando.</Lovin.reportString>
-    
+  
+  <!-- EN: melee attacking TargetA. -->
+  <AttackMelee.reportString>atacando corpo a corpo TargetA.</AttackMelee.reportString>
+  
+  <!-- EN: attacking TargetA. -->
+  <AttackStatic.reportString>atacando TargetA.</AttackStatic.reportString>
+  
+  <!-- EN: beating fire out. -->
+  <BeatFire.reportString>combatendo incêndio.</BeatFire.reportString>
+  
+  <!-- EN: clearing snow. -->
+  <ClearSnow.reportString>limpando neve.</ClearSnow.reportString>
+  
+  <!-- EN: dropping TargetA. -->
+  <DropEquipment.reportString>soltando TargetA no chão.</DropEquipment.reportString>
+  
+  <!-- EN: entering cryptosleep casket. -->
+  <EnterCryptosleepCasket.reportString>entrando no sarcófago de cripto-sono.</EnterCryptosleepCasket.reportString>
+  
+  <!-- EN: entering TargetA. -->
+  <EnterTransporter.reportString>entrando em TargetA.</EnterTransporter.reportString>
+  
+  <!-- EN: equipping TargetA. -->
+  <Equip.reportString>equipando TargetA.</Equip.reportString>
+  
+  <!-- EN: extinguishing self. -->
+  <ExtinguishSelf.reportString>se extinguindo.</ExtinguishSelf.reportString>
+  
+  <!-- EN: filling TargetA. -->
+  <FillFermentingBarrel.reportString>enchendo TargetA.</FillFermentingBarrel.reportString>
+  
+  <!-- EN: fleeing. -->
+  <Flee.reportString>TODO</Flee.reportString>
+  
+  <!-- EN: fleeing. -->
+  <FleeAndCower.reportString>fugindo.</FleeAndCower.reportString>
+  
+  <!-- EN: flicking switch. -->
+  <Flick.reportString>alternando interruptor.</Flick.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <Follow.reportString>TODO</Follow.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <FollowClose.reportString>TODO</FollowClose.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <GiveToPackAnimal.reportString>carregando TargetA no animal de carga.</GiveToPackAnimal.reportString>
+  
+  <!-- EN: moving. -->
+  <Goto.reportString>em movimento.</Goto.reportString>
+  
+  <!-- EN: seeking safe temperature. -->
+  <GotoSafeTemperature.reportString>procurando temperatura confortável.</GotoSafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <GotoWander.reportString>vagando.</GotoWander.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulCorpseToPublicPlace.reportString>TODO</HaulCorpseToPublicPlace.reportString>
+  
+  <!-- EN: igniting TargetA. -->
+  <Ignite.reportString>colocando fogo em TargetA.</Ignite.reportString>
+  
+  <!-- EN: inducing TargetA to escape. -->
+  <InducePrisonerToEscape.reportString>TODO</InducePrisonerToEscape.reportString>
+  
+  <!-- EN: consuming TargetA. -->
+  <Ingest.reportString>consumindo TargetA.</Ingest.reportString>
+  
+  <!-- EN: insulting TargetA. -->
+  <Insult.reportString>TODO</Insult.reportString>
+  
+  <!-- EN: lying down. -->
+  <LayDown.reportString>deitado.</LayDown.reportString>
+  
+  <!-- EN: lovin'. -->
+  <Lovin.reportString>amando.</Lovin.reportString>
+  
+  <!-- EN: operating turret. -->
+  <ManTurret.reportString>operando torreta.</ManTurret.reportString>
+  
+  <!-- EN: opening TargetA. -->
+  <Open.reportString>abrindo TargetA.</Open.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurret.reportString>TODO</RearmTurret.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurretAtomic.reportString>TODO</RearmTurretAtomic.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <Refuel.reportString>reabastecendo TargetA.</Refuel.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <RefuelAtomic.reportString>TODO</RefuelAtomic.reportString>
+  
+  <!-- EN: removing TargetA. -->
+  <RemoveApparel.reportString>removendo TargetA.</RemoveApparel.reportString>
+  
+  <!-- EN: resurrecting TargetA. -->
+  <Resurrect.reportString>TODO</Resurrect.reportString>
+  
+  <!-- EN: fighting with TargetA. -->
+  <SocialFight.reportString>brigando com TargetA.</SocialFight.reportString>
+  
+  <!-- EN: stripping TargetA. -->
+  <Strip.reportString>desvestindo TargetA.</Strip.reportString>
+  
+  <!-- EN: taking beer out of TargetA. -->
+  <TakeBeerOutOfFermentingBarrel.reportString>tirando cerveja de TargetA.</TakeBeerOutOfFermentingBarrel.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <TakeInventory.reportString>pegando TargetA.</TakeInventory.reportString>
+  
+  <!-- EN: trading with TargetA. -->
+  <TradeWithPawn.reportString>negociando com TargetA.</TradeWithPawn.reportString>
+  
+  <!-- EN: triggering firefoam popper. -->
+  <TriggerFirefoamPopper.reportString>ativando dispositivo de espuma.</TriggerFirefoamPopper.reportString>
+  
+  <!-- EN: unloading TargetA. -->
+  <UnloadInventory.reportString>descarregando TargetA.</UnloadInventory.reportString>
+  
+  <!-- EN: unloading inventory. -->
+  <UnloadYourInventory.reportString>descarregando inventário.</UnloadYourInventory.reportString>
+  
+  <!-- EN: activating artifact. -->
+  <UseArtifact.reportString>ativando artefato.</UseArtifact.reportString>
+  
+  <!-- EN: using TargetA. -->
+  <UseItem.reportString>TODO</UseItem.reportString>
+  
+  <!-- EN: using neurotrainer. -->
+  <UseNeurotrainer.reportString>usando neurotreinador.</UseNeurotrainer.reportString>
+  
+  <!-- EN: Doing something. -->
+  <UseVerbOnThing.reportString>Fazendo algo.</UseVerbOnThing.reportString>
+  
+  <!-- EN: vomiting. -->
+  <Vomit.reportString>vomitando.</Vomit.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait.reportString>parado.</Wait.reportString>
+  
+  <!-- EN: watching for targets. -->
+  <Wait_Combat.reportString>observando os alvos.</Wait_Combat.reportString>
+  
+  <!-- EN: downed. -->
+  <Wait_Downed.reportString>caído.</Wait_Downed.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait_MaintainPosture.reportString>TODO</Wait_MaintainPosture.reportString>
+  
+  <!-- EN: waiting in safe temperature. -->
+  <Wait_SafeTemperature.reportString>esperando na temperatura segura.</Wait_SafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <Wait_Wander.reportString>vagando.</Wait_Wander.reportString>
+  
+  <!-- EN: wearing TargetA. -->
+  <Wear.reportString>vestindo TargetA.</Wear.reportString>
+  
 </LanguageData>

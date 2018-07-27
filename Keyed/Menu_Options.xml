@@ -1,51 +1,106 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
   <Audiovisuals>Áudio visuais</Audiovisuals>
+  <!-- EN: Game volume -->
   <GameVolume>Volume de jogo</GameVolume>
+  <!-- EN: Music volume -->
   <MusicVolume>Volume da música</MusicVolume>
+  <!-- EN: Ambient volume -->
+  <AmbientVolume>TODO</AmbientVolume>
+  <!-- EN: Anti-aliasing -->
   <Antialiasing>Anti-serrilhado</Antialiasing>
 
   <!-- Gameplay -->
+  <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Rolagem do mouse nas bordas</EdgeScreenScroll>
+  <!-- EN: Pause on load -->
   <PauseOnLoad>Pausar no carregamento</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Pausar no aviso urgente</PauseOnUrgentLetter>
+  <!-- EN: Custom cursor -->
   <CustomCursor>Cursor personalizado</CustomCursor>
-	<UIScale>Escala da IU</UIScale>
-	<KeyboardConfig>Configuração do teclado</KeyboardConfig>
+  <!-- EN: Hats shown only on game map -->
+  <HatsShownOnlyOnMap>Chapéus apenas no mapa do jogo</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
+  <UIScale>Escala da IU</UIScale>
+  <!-- EN: Keyboard configuration -->
+  <KeyboardConfig>Configuração do teclado</KeyboardConfig>
+  <!-- EN: Choose language -->
   <ChooseLanguage>Mudar idioma</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
   <ResetAdaptiveTutor>Restaurar tutorial adaptado</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
   <AdaptiveTutorIsReset>Tutorial adaptado resetado, ele irá agora ensinar tudo do início.</AdaptiveTutorIsReset>
+  <!-- EN: Run in background -->
   <RunInBackground>Executar em segundo plano</RunInBackground>
+  <!-- EN: Development mode -->
   <DevelopmentMode>Modo desenvolvedor</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>Restaurar mods ao congelar o jogo</ResetModsConfigOnCrash>
+  <!-- EN: Verbose logging -->
   <LogVerbose>Relatório detalhado</LogVerbose>
+  <!-- EN: Open save data folder -->
   <OpenSaveGameDataFolder>Abrir pasta de jogos salvos</OpenSaveGameDataFolder>
+  <!-- EN: Show save data location -->
+  <ShowSaveGameDataLocation>TODO</ShowSaveGameDataLocation>
+  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
   <NamesYouWantToSee>Sobrenomes de pessoas no jogo ou do passado dos personagens que você deseja ver:</NamesYouWantToSee>
+  <!-- EN: Add name -->
   <AddName>Adicionar nome</AddName>
+  <!-- EN: Type the first name, nickname, or last name. -->
   <TypeFirstNickOrLastName>Digite o primeiro nome, apelido ou sobrenome.</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>Este nome já está na lista de preferências.</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
   <ChangeStoryteller>Escolher narrador</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
   <AutosaveInterval>Interv. de salvamento</AutosaveInterval>
+  <!-- EN: Temperature mode -->
   <TemperatureMode>Modo de temperatura</TemperatureMode>
+  <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Mostrar relógio de tempo real</ShowRealtimeClock>
-  <MaxNumberOfPlayerHomes>Número máximo de colônias: {0}</MaxNumberOfPlayerHomes>
+  <!-- EN: Maximum number of colonies: {0} -->
+  <MaxNumberOfPlayerSettlements>TODO</MaxNumberOfPlayerSettlements>
+  <!-- EN: Plant wind sway -->
   <PlantWindSway>Oscilação de vento na vegetação</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
+  <EnableTestMapSizes>TODO</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
   <MaxPermadeathAutosaveIntervalInfo>intervalo de gravação automática máxima no modo permadeath é de {0} dia(s).</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
+  <ModSettings>Configuração do mod</ModSettings>
+  <!-- EN: Permanently disable development mode -->
+  <PermanentlyDisableDevMode>TODO</PermanentlyDisableDevMode>
 
   <!-- Resolution -->
+  <!-- EN: Resolution -->
   <Resolution>Resolução</Resolution>
+  <!-- EN: Fullscreen -->
   <Fullscreen>Tela cheia</Fullscreen>
 
-  <!-- Privacy-->
+  <!-- Privacy -->
+  <!-- EN: Privacy -->
   <Privacy>Privacidade</Privacy>
+  <!-- EN: User name -->
   <UserName>Nome do usuário</UserName>
+  <!-- EN: Gameplay data upload pref. -->
   <ChooseHistoryUploadPref>Enviar dados de jogabilidade preferencial.</ChooseHistoryUploadPref>
+  <!-- EN: Users gameplay data helps developers balance the game. If you agree, your information will be sent every {0} game days (and in some other rare cases like the end of the game) to the RimWorld server and then analyzed. Uploaded gameplay data consists only of statistics and history records related to the game - no personal information is sent, except for user name, which means it is completely anonymous. -->
   <AboutHistoryUpload>Informações de gameplay dos usuários ajuda os desenvolvedores a balancear o game. Se você concorda, suas informações serão enviadas a cada {0} dias de jogo (E em alguns outros casos raros como o final do jogo) para o servidor de RimWorld e depois analisadas. Dados de jogo carregado consiste apenas de estatísticas e registros de história relacionados com o jogo - nenhuma informação pessoal é enviada, exceto para o nome do usuário, o que significa que é completamente anônima.</AboutHistoryUpload>
 
+  <!-- Mods -->
+  <!-- EN: Select mod... -->
   <SelectMod>Selecionar mod...</SelectMod>
-  <ModSettings>Configuração do mod</ModSettings>
+  <!-- EN: No configurable mods loaded. -->
   <NoConfigurableMods>Sem mods configuráveis carregados.</NoConfigurableMods>
-  <HatsShownOnlyOnMap>Chapéus apenas no mapa do jogo</HatsShownOnlyOnMap>
+  
+  <!-- Options reset -->
+  <!-- EN: Restore to default settings -->
+  <RestoreToDefaultSettings>TODO</RestoreToDefaultSettings>
+  <!-- EN: Your options have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>TODO</ResetAndRestart>
+  
 </LanguageData>

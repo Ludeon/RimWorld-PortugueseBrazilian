@@ -1,22 +1,69 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <WorkSpeedGlobal.label>velocidade de trabalho global</WorkSpeedGlobal.label>
-    <WorkSpeedGlobal.description>Um multiplicador na velocidade de alguém em fazer qualquer trabalho.</WorkSpeedGlobal.description>
-    
-    <MiningSpeed.label>velocidade de mineração</MiningSpeed.label>
-    <MiningSpeed.description>Um multiplicador sobre a velocidade com que esta pessoa mina rochas.</MiningSpeed.description>
-    
-    <SmoothingSpeed.label>velocidade de alisamento</SmoothingSpeed.label>
-    <SmoothingSpeed.description>Um multiplicador sobre a velocidade com que esta pessoa alisa pisos.</SmoothingSpeed.description>
-    
-    <ResearchSpeed.label>velocidade de pesquisa</ResearchSpeed.label>
-    <ResearchSpeed.description>Esta pessoa faz pesquisas nesta velocidade.</ResearchSpeed.description>
-    
-    <ConstructionSpeed.label>velocidade de construção</ConstructionSpeed.label>
-    <ConstructionSpeed.description>Velocidade com que esta pessoa constrói e repara edifícios.</ConstructionSpeed.description>
-    
-    <PlantWorkSpeed.label>velocidade de trabalho em plantas</PlantWorkSpeed.label>
-    <PlantWorkSpeed.description>Velocidade com que esta pessoa planta e colhe plantas.</PlantWorkSpeed.description>
-   
+  
+  <!-- EN: animal gather speed -->
+  <AnimalGatherSpeed.label>TODO</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
+  <AnimalGatherSpeed.description>TODO</AnimalGatherSpeed.description>
+  
+  <!-- EN: animal gather yield -->
+  <AnimalGatherYield.label>TODO</AnimalGatherYield.label>
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal. Higher percentages reduce the chance of wasting the product. -->
+  <AnimalGatherYield.description>TODO</AnimalGatherYield.description>
+  
+  <!-- EN: construction speed -->
+  <ConstructionSpeed.label>velocidade de construção</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
+  <ConstructionSpeed.description>Velocidade com que esta pessoa constrói e repara edifícios.</ConstructionSpeed.description>
+  
+  <!-- EN: construct success chance -->
+  <ConstructSuccessChance.label>TODO</ConstructSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in constructing something. Failing means wasting time and resources. -->
+  <ConstructSuccessChance.description>TODO</ConstructSuccessChance.description>
+  
+  <!-- EN: repair success chance -->
+  <FixBrokenDownBuildingSuccessChance.label>TODO</FixBrokenDownBuildingSuccessChance.label>
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage. -->
+  <FixBrokenDownBuildingSuccessChance.description>TODO</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>TODO</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter. A 0% score means no reduction. A 100% score means animals never attack. -->
+  <HuntingStealth.description>TODO</HuntingStealth.description>
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>velocidade de mineração</MiningSpeed.label>
+  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
+  <MiningSpeed.description>Um multiplicador sobre a velocidade com que esta pessoa mina rochas.</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>TODO</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce. This applies to both wall mining and deep drill mining. This doesn't affect the production rate of rock chunks. -->
+  <MiningYield.description>TODO</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>TODO</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>TODO</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>velocidade de trabalho em plantas</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>Velocidade com que esta pessoa planta e colhe plantas.</PlantWorkSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>velocidade de pesquisa</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>Esta pessoa faz pesquisas nesta velocidade.</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>velocidade de alisamento</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>Um multiplicador sobre a velocidade com que esta pessoa alisa pisos.</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>velocidade de trabalho global</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>Um multiplicador na velocidade de alguém em fazer qualquer trabalho.</WorkSpeedGlobal.description>
+  
 </LanguageData>

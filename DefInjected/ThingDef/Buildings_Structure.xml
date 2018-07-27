@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <Door.label>porta</Door.label>
-    <Door.description>Divide cômodos. Deve ser aberta manualmente e fechada, o que atrasa as pessoas.</Door.description>
-    <Door_Blueprint.label>porta (projeto)</Door_Blueprint.label>
-    <Door_Frame.label>porta (construção)</Door_Frame.label>
-    
-    <Autodoor.label>porta automática</Autodoor.label>
-    <Autodoor.description>Divide cômodos. a operação automática permite que as pessoas se movam através da porta sem abri-las.</Autodoor.description>
-    <Autodoor_Blueprint.label>porta automática (projeto)</Autodoor_Blueprint.label>
-    <Autodoor_Frame.label>porta automática (construção)</Autodoor_Frame.label>
-    
-    <Wall.label>parede</Wall.label>
-    <Wall.description>Um muro intransponível. Capaz de sustentar um telhado.</Wall.description>
-    <Wall_Blueprint.label>parede (projeto)</Wall_Blueprint.label>
-    <Wall_Frame.label>parede (construção)</Wall_Frame.label>
-    
+  
+  <!-- EN: autodoor -->
+  <Autodoor.label>porta automática</Autodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
+  <Autodoor.description>Divide cômodos. a operação automática permite que as pessoas se movam através da porta sem abri-las.</Autodoor.description>
+  
+  <!-- EN: door -->
+  <Door.label>porta</Door.label>
+  <!-- EN: Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
+  <Door.description>Divide cômodos. Deve ser aberta manualmente e fechada, o que atrasa as pessoas.</Door.description>
+  
+  <!-- EN: wall -->
+  <Wall.label>parede</Wall.label>
+  <!-- EN: An impassable wall. Capable of holding up a roof. -->
+  <Wall.description>Um muro intransponível. Capaz de sustentar um telhado.</Wall.description>
+  
 </LanguageData>

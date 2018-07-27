@@ -1,32 +1,54 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <WanderConfused.label>vagando confuso</WanderConfused.label>
-    <WanderConfused.beginLetterLabel>confusão</WanderConfused.beginLetterLabel>
-    <WanderConfused.beginLetter>{0} teve um colapso mental e está vagando confuso(a).</WanderConfused.beginLetter>
-    <WanderConfused.recoveryMessage>{0} não está mais confuso.</WanderConfused.recoveryMessage>
-    <WanderConfused.baseInspectLine>Estado mental: Confuso e vagando</WanderConfused.baseInspectLine>
-    
-    <PanicFlee.label>fuga em pânico</PanicFlee.label>
-    <PanicFlee.beginLetterLabel>fugindo</PanicFlee.beginLetterLabel>
-    <PanicFlee.beginLetter>{0} está fugindo em pânico.</PanicFlee.beginLetter>
-    <PanicFlee.recoveryMessage>{0} não está mais fugindo em pânico.</PanicFlee.recoveryMessage>
-    <PanicFlee.baseInspectLine>Estado mental: Fugindo em pânico</PanicFlee.baseInspectLine>
-    
-    <Manhunter.label>caçando humanos</Manhunter.label>
-    <Manhunter.beginLetterLabel>caçando humanos</Manhunter.beginLetterLabel>
-    <Manhunter.beginLetter>{0} virou caçador de humanos!</Manhunter.beginLetter>
-    <Manhunter.recoveryMessage>A sede de sangue humana de {0} chegou ao fim.</Manhunter.recoveryMessage>
-    <Manhunter.baseInspectLine>Enlouquecido: Caçando humanos</Manhunter.baseInspectLine>
-
-    <ManhunterPermanent.label>caçando humanos</ManhunterPermanent.label>
-    <ManhunterPermanent.beginLetterLabel>caçando humanos</ManhunterPermanent.beginLetterLabel>
-    <ManhunterPermanent.beginLetter>{0} virou caçador de humanos!</ManhunterPermanent.beginLetter>
-    <ManhunterPermanent.recoveryMessage>A sede de sangue humana de {0} chegou ao fim.</ManhunterPermanent.recoveryMessage>
-    <ManhunterPermanent.baseInspectLine>Enlouquecido: Caçando humanos</ManhunterPermanent.baseInspectLine>
-    
-    <SocialFighting.label>brigando socialmente</SocialFighting.label>
-    <SocialFighting.recoveryMessage>{0} e {1} não estão mais brigando socialmente.</SocialFighting.recoveryMessage>
-    <SocialFighting.baseInspectLine>Estado mental: Brigando socialmente</SocialFighting.baseInspectLine>
-    
+  
+  <!-- EN: manhunter -->
+  <Manhunter.label>caçando humanos</Manhunter.label>
+  <!-- EN: Maddened: Manhunter -->
+  <Manhunter.baseInspectLine>Enlouquecido: Caçando humanos</Manhunter.baseInspectLine>
+  <!-- EN: {0} has become a manhunter! -->
+  <Manhunter.beginLetter>{0} virou caçador de humanos!</Manhunter.beginLetter>
+  <!-- EN: manhunter -->
+  <Manhunter.beginLetterLabel>caçando humanos</Manhunter.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <Manhunter.recoveryMessage>A sede de sangue humana de {0} chegou ao fim.</Manhunter.recoveryMessage>
+  
+  <!-- EN: manhunter -->
+  <ManhunterPermanent.label>caçando humanos</ManhunterPermanent.label>
+  <!-- EN: Maddened: Manhunter -->
+  <ManhunterPermanent.baseInspectLine>Enlouquecido: Caçando humanos</ManhunterPermanent.baseInspectLine>
+  <!-- EN: {0} has become a manhunter! -->
+  <ManhunterPermanent.beginLetter>{0} virou caçador de humanos!</ManhunterPermanent.beginLetter>
+  <!-- EN: manhunter -->
+  <ManhunterPermanent.beginLetterLabel>caçando humanos</ManhunterPermanent.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <ManhunterPermanent.recoveryMessage>A sede de sangue humana de {0} chegou ao fim.</ManhunterPermanent.recoveryMessage>
+  
+  <!-- EN: panic fleeing -->
+  <PanicFlee.label>fuga em pânico</PanicFlee.label>
+  <!-- EN: Mental state: Fleeing in panic -->
+  <PanicFlee.baseInspectLine>Estado mental: Fugindo em pânico</PanicFlee.baseInspectLine>
+  <!-- EN: {0} is fleeing in panic. -->
+  <PanicFlee.beginLetter>{0} está fugindo em pânico.</PanicFlee.beginLetter>
+  <!-- EN: flee -->
+  <PanicFlee.beginLetterLabel>fugindo</PanicFlee.beginLetterLabel>
+  <!-- EN: {0} is no longer fleeing in panic. -->
+  <PanicFlee.recoveryMessage>{0} não está mais fugindo em pânico.</PanicFlee.recoveryMessage>
+  
+  <!-- EN: social fighting -->
+  <SocialFighting.label>brigando socialmente</SocialFighting.label>
+  <!-- EN: Mental state: Social fighting -->
+  <SocialFighting.baseInspectLine>Estado mental: Brigando socialmente</SocialFighting.baseInspectLine>
+  <SocialFighting.recoveryMessage>{0} e {1} não estão mais brigando socialmente.</SocialFighting.recoveryMessage>
+  
+  <!-- EN: confused wandering -->
+  <WanderConfused.label>vagando confuso</WanderConfused.label>
+  <!-- EN: Mental state: Confused and wandering -->
+  <WanderConfused.baseInspectLine>Estado mental: Confuso e vagando</WanderConfused.baseInspectLine>
+  <!-- EN: {0} has broken down and is wandering around confused. -->
+  <WanderConfused.beginLetter>{0} teve um colapso mental e está vagando confuso(a).</WanderConfused.beginLetter>
+  <!-- EN: confusion -->
+  <WanderConfused.beginLetterLabel>confusão</WanderConfused.beginLetterLabel>
+  <!-- EN: {0} is no longer confused. -->
+  <WanderConfused.recoveryMessage>{0} não está mais confuso.</WanderConfused.recoveryMessage>
+  
 </LanguageData>

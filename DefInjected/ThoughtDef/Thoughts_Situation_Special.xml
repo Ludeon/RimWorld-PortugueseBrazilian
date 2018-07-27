@@ -1,28 +1,81 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <Imprisoned.stages.0.label>aprisionado</Imprisoned.stages.0.label>
-    <Imprisoned.stages.0.description>Eu odeio estar trancado.</Imprisoned.stages.0.description>
-    
-    <SharedBedroom.stages.0.label>compartilhando quarto</SharedBedroom.stages.0.label>
-    <SharedBedroom.stages.0.description>Dividir o quarto com os outros é irritante. Quero um pouco de privacidade.</SharedBedroom.stages.0.description>
-    
-    <SharedBed.stages.0.label>compartilhando cama</SharedBed.stages.0.label>
-    <SharedBed.stages.0.description>Eu tenho que dividir a cama com alguém que eu particularmente não quero.</SharedBed.stages.0.description>
-    
-    <ColonistLeftUnburied.stages.0.label>colono não enterrado</ColonistLeftUnburied.stages.0.label>
-    <ColonistLeftUnburied.stages.0.description>Um de nós morreu e o deixamos em um local aberto. Ninguém deve ser deixado assim. As pessoas merecem um enterro decente.</ColonistLeftUnburied.stages.0.description>
-    
-    <Naked.stages.0.label>nu</Naked.stages.0.label>
-    <Naked.stages.0.description>Estou nu. Isso é humilhante.</Naked.stages.0.description>
-    
-    <Pain.stages.0.label>com um pouco de dor</Pain.stages.0.label>
-    <Pain.stages.0.description>Ai... Isso dói.</Pain.stages.0.description>
-    <Pain.stages.1.label>com quantidade moderada de dor</Pain.stages.1.label>
-    <Pain.stages.1.description>Ughhh... Quando isso irá acabar?</Pain.stages.1.description>
-    <Pain.stages.2.label>experimentando dor aguda</Pain.stages.2.label>
-    <Pain.stages.2.description>Faça parar... faça parar... faça parar...</Pain.stages.2.description>
-    <Pain.stages.3.label>em choque de dor excepcional</Pain.stages.3.label>
-    <Pain.stages.3.description>AAAAAHHH! Me mate agora!</Pain.stages.3.description>
-    
+  
+  <!-- EN: beautiful aurora -->
+  <Aurora.stages.beautiful_aurora.label>TODO</Aurora.stages.beautiful_aurora.label>
+  <!-- EN: The view is amazing. -->
+  <Aurora.stages.beautiful_aurora.description>TODO</Aurora.stages.beautiful_aurora.description>
+  
+  <!-- EN: colonist left unburied -->
+  <ColonistLeftUnburied.stages.colonist_left_unburied.label>colono não enterrado</ColonistLeftUnburied.stages.colonist_left_unburied.label>
+  <!-- EN: One of us died and we're just leaving them lying in the open. Nobody should be left like that. People deserve a decent burial. -->
+  <ColonistLeftUnburied.stages.colonist_left_unburied.description>Um de nós morreu e o deixamos em um local aberto. Ninguém deve ser deixado assim. As pessoas merecem um enterro decente.</ColonistLeftUnburied.stages.colonist_left_unburied.description>
+  
+  <!-- EN: minor passion for my work -->
+  <DoingPassionateWork.stages.minor_passion_for_my_work.label>TODO</DoingPassionateWork.stages.minor_passion_for_my_work.label>
+  <!-- EN: I enjoy my work. -->
+  <DoingPassionateWork.stages.minor_passion_for_my_work.description>TODO</DoingPassionateWork.stages.minor_passion_for_my_work.description>
+  <!-- EN: burning passion for my work -->
+  <DoingPassionateWork.stages.burning_passion_for_my_work.label>TODO</DoingPassionateWork.stages.burning_passion_for_my_work.label>
+  <!-- EN: I love my work. I could do this all day, every day. -->
+  <DoingPassionateWork.stages.burning_passion_for_my_work.description>TODO</DoingPassionateWork.stages.burning_passion_for_my_work.description>
+  
+  <!-- EN: joywire -->
+  <Joywire.stages.joywire.label>Arame da alegria</Joywire.stages.joywire.label>
+  <!-- EN: It feels amazing. -->
+  <Joywire.stages.joywire.description>Eu me sinto incrível.</Joywire.stages.joywire.description>
+  
+  <!-- EN: naked -->
+  <Naked.stages.naked.label>nu</Naked.stages.naked.label>
+  <!-- EN: I'm naked. This is humiliating. -->
+  <Naked.stages.naked.description>Estou nu. Isso é humilhante.</Naked.stages.naked.description>
+  
+  <!-- EN: minor pain -->
+  <Pain.stages.minor_pain.label>com um pouco de dor</Pain.stages.minor_pain.label>
+  <!-- EN: Ow... That hurts. -->
+  <Pain.stages.minor_pain.description>Ai... Isso dói.</Pain.stages.minor_pain.description>
+  <!-- EN: serious pain -->
+  <Pain.stages.serious_pain.label>com quantidade moderada de dor</Pain.stages.serious_pain.label>
+  <!-- EN: Ughhh... When will it end? -->
+  <Pain.stages.serious_pain.description>Ughhh... Quando isso irá acabar?</Pain.stages.serious_pain.description>
+  <!-- EN: intense pain -->
+  <Pain.stages.intense_pain.label>experimentando dor aguda</Pain.stages.intense_pain.label>
+  <!-- EN: Make it stop... make it stop... make it stop... -->
+  <Pain.stages.intense_pain.description>Faça parar... faça parar... faça parar...</Pain.stages.intense_pain.description>
+  <!-- EN: mind-shattering pain -->
+  <Pain.stages.mindshattering_pain.label>em choque de dor excepcional</Pain.stages.mindshattering_pain.label>
+  <!-- EN: AAAAAHHH! -->
+  <Pain.stages.mindshattering_pain.description>AAAAAHHH! Me mate agora!</Pain.stages.mindshattering_pain.description>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicDrone.stages.psychic_soothe.label>calmante psíquico (médio)</PsychicDrone.stages.psychic_soothe.label>
+  <!-- EN: It's like a calming voice at the back of my mind, soothing me, settling my nerves. -->
+  <PsychicDrone.stages.psychic_soothe.description>É como uma voz calma na parte de trás da minha mente, me acalmando, estabelecendo os meus nervos.</PsychicDrone.stages.psychic_soothe.description>
+  <!-- EN: low psychic drone -->
+  <PsychicDrone.stages.low_psychic_drone.label>drone psíquico (baixo)</PsychicDrone.stages.low_psychic_drone.label>
+  <!-- EN: It's like a scratching at the back of my mind. A voice, whispering. I can only make out a few words, and I don't like them. -->
+  <PsychicDrone.stages.low_psychic_drone.description>É como um arranhão na parte de trás da minha mente. Uma voz, sussurrando. Eu só consigo decifrar algumas palavras, e eu não gosto deles.</PsychicDrone.stages.low_psychic_drone.description>
+  <!-- EN: moderate psychic drone -->
+  <PsychicDrone.stages.moderate_psychic_drone.label>drone psíquico (médio)</PsychicDrone.stages.moderate_psychic_drone.label>
+  <!-- EN: I feel like someone is always just out of sight, speaking to me. The voice changes but the message doesn't. I'm supposed to hurt people. Make it go away! -->
+  <PsychicDrone.stages.moderate_psychic_drone.description>Eu sinto que alguém está sempre fora de vista, falando para mim. As alterações de voz mudam, mas a mensagem não. Supostamente eu deveria ferir as pessoa. Faça isso parar!</PsychicDrone.stages.moderate_psychic_drone.description>
+  <!-- EN: high psychic drone -->
+  <PsychicDrone.stages.high_psychic_drone.label>drone psíquico (alto)</PsychicDrone.stages.high_psychic_drone.label>
+  <!-- EN: The voice is unbearably loud. It's hard to concentrate. I find myself talking back to it, yelling at it. But it just keeps shouting! -->
+  <PsychicDrone.stages.high_psychic_drone.description>A voz está insuportavelmente alta. É difícil se concentrar. Me encontro falando de volta a ela, gritando com ela. Mas ela simplesmente não pára.</PsychicDrone.stages.high_psychic_drone.description>
+  <!-- EN: extreme psychic drone -->
+  <PsychicDrone.stages.extreme_psychic_drone.label>drone psíquico (extremo)</PsychicDrone.stages.extreme_psychic_drone.label>
+  <!-- EN: My heart pounds and I'm sweating. All I can think of is hurting and suffering and all these enemies around me. They're my nightmare, my nightmare, my nightmare... -->
+  <PsychicDrone.stages.extreme_psychic_drone.description>Meu coração bate forte e eu estou suando. Tudo o que posso pensar é caçar e causar sofrimento a todos estes inimigos que me cercam. Eles são o meus pesadelos, meus pesadelos, meus pesadelos...</PsychicDrone.stages.extreme_psychic_drone.description>
+  
+  <!-- EN: psychic emanator soothe -->
+  <PsychicEmanatorSoothe.stages.psychic_emanator_soothe.label>TODO</PsychicEmanatorSoothe.stages.psychic_emanator_soothe.label>
+  <!-- EN: The psychic emanator makes me feel strange, but also very relaxed. -->
+  <PsychicEmanatorSoothe.stages.psychic_emanator_soothe.description>TODO</PsychicEmanatorSoothe.stages.psychic_emanator_soothe.description>
+  
+  <!-- EN: sharing bed -->
+  <SharedBed.stages.sharing_bed.label>compartilhando cama</SharedBed.stages.sharing_bed.label>
+  <!-- EN: I have to share a bed with someone who I don't particularly want to. -->
+  <SharedBed.stages.sharing_bed.description>Eu tenho que dividir a cama com alguém que eu particularmente não quero.</SharedBed.stages.sharing_bed.description>
+  
 </LanguageData>
