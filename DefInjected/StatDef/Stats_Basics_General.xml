@@ -1,40 +1,75 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <MaxHitPoints.label>pontos de vida máximo</MaxHitPoints.label>
-    <MaxHitPoints.description>O valor máximo de vida de um objeto. Isto representa quanto dano pode levar antes de ser destruído.</MaxHitPoints.description>
-    
-    <Mass.label>massa</Mass.label>
-    <Mass.description>A massa física de um objeto.</Mass.description>
-    <Mass.formatString>{0} kg</Mass.formatString>
-
-    <MarketValue.label>valor de mercado</MarketValue.label>
-    <MarketValue.description>O valor de mercado de um objeto. O preço do comércio real será ainda mais modificado pela habilidade de negociação, status de relacionamento e outros fatores contextuais.</MarketValue.description>
-    <MarketValue.formatString>${0}</MarketValue.formatString>
-    
-    <SellPriceFactor.label>multiplicador de preço de venda</SellPriceFactor.label>
-    <SellPriceFactor.description>Um multiplicador sobre o preço pelo qual você pode vender itens.</SellPriceFactor.description>
-    
-    <Flammability.label>inflamabilidade</Flammability.label>
-    <Flammability.description>O quão facilmente um objeto irá pegar fogo e quão fortemente ele queima.</Flammability.description>
-    
-    <WorkToMake.label>trabalho para fazer</WorkToMake.label>
-    <WorkToMake.description>A quantidade básica de trabalho que é preciso para fazer isto, uma vez que todos os materiais e ferramentas estão reunidos.</WorkToMake.description>
-
-    <WorkToBuild.label>trabalho para construir</WorkToBuild.label>
-    <WorkToBuild.description>A quantidade básica de trabalho que leva para construir uma estrutura, uma vez que todos os materiais e ferramentas estão reunidos.</WorkToBuild.description>
-    
-    <DeteriorationRate.label>taxa de deterioração</DeteriorationRate.label>
-    <DeteriorationRate.description>A taxa na qual este item deteriora quando deixado no lado de fora, especialmente na chuva.</DeteriorationRate.description>
-    <DeteriorationRate.formatString>{0} / dia</DeteriorationRate.formatString>
-    
-    <Beauty.label>beleza</Beauty.label>
-    <Beauty.description>O quão agradável um objeto é de se estar ao redor e olhar para ele.</Beauty.description>
-    
-    <Cleanliness.label>limpeza</Cleanliness.label>
-    <Cleanliness.description>O quão limpo um objeto é.</Cleanliness.description>
-    
-    <Comfort.label>conforto</Comfort.label>
-    <Comfort.description>O quão confortável um objeto é para sentar ou deitar.</Comfort.description>
-    
+  
+  <!-- EN: beauty -->
+  <Beauty.label>beleza</Beauty.label>
+  <!-- EN: How enjoyable an object is to look at. Beautiful objects fulfill characters' need for beauty. -->
+  <Beauty.description>O quão agradável um objeto é de se estar ao redor e olhar para ele.</Beauty.description>
+  
+  <!-- EN: cleanliness -->
+  <Cleanliness.label>limpeza</Cleanliness.label>
+  <!-- EN: How much an object contributes to an area's cleanliness score. -->
+  <Cleanliness.description>O quão limpo um objeto é.</Cleanliness.description>
+  
+  <!-- EN: comfort -->
+  <Comfort.label>conforto</Comfort.label>
+  <!-- EN: How comfortable an object is to sit or lay on. Using comfortable objects fulfills a character's need for comfort. -->
+  <Comfort.description>O quão confortável um objeto é para sentar ou deitar.</Comfort.description>
+  
+  <!-- EN: deterioration rate -->
+  <DeteriorationRate.label>taxa de deterioração</DeteriorationRate.label>
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day. Deterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
+  <DeteriorationRate.description>A taxa na qual este item deteriora quando deixado no lado de fora, especialmente na chuva.</DeteriorationRate.description>
+  <!-- EN: {0} / day -->
+  <DeteriorationRate.formatString>{0} / dia</DeteriorationRate.formatString>
+  
+  <!-- EN: flammability -->
+  <Flammability.label>inflamabilidade</Flammability.label>
+  <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
+  <Flammability.description>O quão facilmente um objeto irá pegar fogo e quão fortemente ele queima.</Flammability.description>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChanceFixedHuman.label>TODO</FoodPoisonChanceFixedHuman.label>
+  <!-- EN: The chance this food will cause food poisoning. -->
+  <FoodPoisonChanceFixedHuman.description>TODO</FoodPoisonChanceFixedHuman.description>
+  
+  <!-- EN: market value -->
+  <MarketValue.label>valor de mercado</MarketValue.label>
+  <!-- EN: The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
+  <MarketValue.description>O valor de mercado de um objeto. O preço do comércio real será ainda mais modificado pela habilidade de negociação, status de relacionamento e outros fatores contextuais.</MarketValue.description>
+  <!-- EN: ${0} -->
+  <MarketValue.formatString>${0}</MarketValue.formatString>
+  
+  <!-- EN: mass -->
+  <Mass.label>massa</Mass.label>
+  <!-- EN: The physical mass of an object. -->
+  <Mass.description>A massa física de um objeto.</Mass.description>
+  <!-- EN: {0} kg -->
+  <Mass.formatString>{0} kg</Mass.formatString>
+  
+  <!-- EN: max hit points -->
+  <MaxHitPoints.label>pontos de vida máximo</MaxHitPoints.label>
+  <!-- EN: The maximum hit points of an object. This represents how much damage it can take before being destroyed. -->
+  <MaxHitPoints.description>O valor máximo de vida de um objeto. Isto representa quanto dano pode levar antes de ser destruído.</MaxHitPoints.description>
+  
+  <!-- EN: nutrition -->
+  <Nutrition.label>TODO</Nutrition.label>
+  <!-- EN: How nutritious this food is. -->
+  <Nutrition.description>TODO</Nutrition.description>
+  
+  <!-- EN: sell price multiplier -->
+  <SellPriceFactor.label>multiplicador de preço de venda</SellPriceFactor.label>
+  <!-- EN: A multiplier on the price at which you can sell items. -->
+  <SellPriceFactor.description>Um multiplicador sobre o preço pelo qual você pode vender itens.</SellPriceFactor.description>
+  
+  <!-- EN: shooting accuracy -->
+  <ShootingAccuracyTurret.label>TODO</ShootingAccuracyTurret.label>
+  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <ShootingAccuracyTurret.description>TODO</ShootingAccuracyTurret.description>
+  
+  <!-- EN: work to make -->
+  <WorkToMake.label>trabalho para fazer</WorkToMake.label>
+  <!-- EN: The base amount of work it takes to make an item, once all materials are gathered. -->
+  <WorkToMake.description>A quantidade básica de trabalho que é preciso para fazer isto, uma vez que todos os materiais e ferramentas estão reunidos.</WorkToMake.description>
+  
 </LanguageData>

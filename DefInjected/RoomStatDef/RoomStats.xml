@@ -1,63 +1,112 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <Impressiveness.label>impressão</Impressiveness.label>
-    <Impressiveness.scoreStages.0.label>horrível</Impressiveness.scoreStages.0.label>
-    <Impressiveness.scoreStages.1.label>repulsivo</Impressiveness.scoreStages.1.label>
-    <Impressiveness.scoreStages.2.label>maçante</Impressiveness.scoreStages.2.label>
-    <Impressiveness.scoreStages.3.label>medíocre</Impressiveness.scoreStages.3.label>
-    <Impressiveness.scoreStages.4.label>interessante</Impressiveness.scoreStages.4.label>
-    <Impressiveness.scoreStages.5.label>um pouco impressionante</Impressiveness.scoreStages.5.label>
-    <Impressiveness.scoreStages.6.label>muito impressionante</Impressiveness.scoreStages.6.label>
-    <Impressiveness.scoreStages.7.label>extremamente impressionante</Impressiveness.scoreStages.7.label>
-    <Impressiveness.scoreStages.8.label>incrivelmente impressionante</Impressiveness.scoreStages.8.label>
-    <Impressiveness.scoreStages.9.label>maravilhosamente impressionante</Impressiveness.scoreStages.9.label>
-    
-    <Wealth.label>riqueza</Wealth.label>
-    <Wealth.scoreStages.0.label>empobrecido</Wealth.scoreStages.0.label>
-    <Wealth.scoreStages.1.label>um pouco pobre</Wealth.scoreStages.1.label>
-    <Wealth.scoreStages.2.label>medíocre</Wealth.scoreStages.2.label>
-    <Wealth.scoreStages.3.label>um tanto rico</Wealth.scoreStages.3.label>
-    <Wealth.scoreStages.4.label>rico</Wealth.scoreStages.4.label>
-    <Wealth.scoreStages.5.label>luxuoso</Wealth.scoreStages.5.label>
-    <Wealth.scoreStages.6.label>muito luxuoso</Wealth.scoreStages.6.label>
-    <Wealth.scoreStages.7.label>extremamente luxuoso</Wealth.scoreStages.7.label>
-    <Wealth.scoreStages.8.label>incrivelmente luxuoso</Wealth.scoreStages.8.label>
-    
-    <Space.label>espaço</Space.label>
-    <Space.scoreStages.0.label>apertado</Space.scoreStages.0.label>
-    <Space.scoreStages.1.label>meio apertado</Space.scoreStages.1.label>
-    <Space.scoreStages.2.label>tamanho médio</Space.scoreStages.2.label>
-    <Space.scoreStages.3.label>pouco espaçoso</Space.scoreStages.3.label>
-    <Space.scoreStages.4.label>espaçoso</Space.scoreStages.4.label>
-    <Space.scoreStages.5.label>muito espaçoso</Space.scoreStages.5.label>
-    <Space.scoreStages.6.label>extremamente espaçoso</Space.scoreStages.6.label>
-    
-    <Beauty.label>beleza</Beauty.label>
-    <Beauty.scoreStages.0.label>medonho</Beauty.scoreStages.0.label>
-    <Beauty.scoreStages.1.label>feio</Beauty.scoreStages.1.label>
-    <Beauty.scoreStages.2.label>neutro</Beauty.scoreStages.2.label>
-    <Beauty.scoreStages.3.label>agradável</Beauty.scoreStages.3.label>
-    <Beauty.scoreStages.4.label>bonito</Beauty.scoreStages.4.label>
-    <Beauty.scoreStages.5.label>muito bonito</Beauty.scoreStages.5.label>
-    <Beauty.scoreStages.6.label>extremamente bonito</Beauty.scoreStages.6.label>
-    <Beauty.scoreStages.7.label>incrivelmente bonito</Beauty.scoreStages.7.label>
-    
-    <Cleanliness.label>limpeza</Cleanliness.label>
-    <Cleanliness.scoreStages.0.label>muito sujo</Cleanliness.scoreStages.0.label>
-    <Cleanliness.scoreStages.1.label>sujo</Cleanliness.scoreStages.1.label>
-    <Cleanliness.scoreStages.2.label>um pouco sujo</Cleanliness.scoreStages.2.label>
-    <Cleanliness.scoreStages.3.label>limpo</Cleanliness.scoreStages.3.label>
-    <Cleanliness.scoreStages.4.label>esterilizado</Cleanliness.scoreStages.4.label>
-    
-    <InfectionChanceFactor.label>fator de chance de infecção</InfectionChanceFactor.label>
-    
-    <SurgerySuccessChanceFactor.label>fator de sucesso na cirurgia</SurgerySuccessChanceFactor.label>
-    
-    <ResearchSpeedFactor.label>fator de velocidade de pesquisa</ResearchSpeedFactor.label>
-    
-    <GraveVisitingJoyGainFactor.label>fator de diversão ao visitar cemitério</GraveVisitingJoyGainFactor.label>
-    
-    <FoodPoisonChanceFactor.label>chance de intoxicação alimentar</FoodPoisonChanceFactor.label>
-    
+  
+  <!-- EN: beauty -->
+  <Beauty.label>beleza</Beauty.label>
+  <!-- EN: hideous -->
+  <Beauty.scoreStages.hideous.label>medonho</Beauty.scoreStages.hideous.label>
+  <!-- EN: ugly -->
+  <Beauty.scoreStages.ugly.label>feio</Beauty.scoreStages.ugly.label>
+  <!-- EN: neutral -->
+  <Beauty.scoreStages.neutral.label>neutro</Beauty.scoreStages.neutral.label>
+  <!-- EN: pretty -->
+  <Beauty.scoreStages.pretty.label>agradável</Beauty.scoreStages.pretty.label>
+  <!-- EN: beautiful -->
+  <Beauty.scoreStages.beautiful.label>bonito</Beauty.scoreStages.beautiful.label>
+  <!-- EN: very beautiful -->
+  <Beauty.scoreStages.very_beautiful.label>muito bonito</Beauty.scoreStages.very_beautiful.label>
+  <!-- EN: extremely beautiful -->
+  <Beauty.scoreStages.extremely_beautiful.label>extremamente bonito</Beauty.scoreStages.extremely_beautiful.label>
+  <!-- EN: unbelievably beautiful -->
+  <Beauty.scoreStages.unbelievably_beautiful.label>incrivelmente bonito</Beauty.scoreStages.unbelievably_beautiful.label>
+  
+  <!-- EN: cleanliness -->
+  <Cleanliness.label>limpeza</Cleanliness.label>
+  <!-- EN: very dirty -->
+  <Cleanliness.scoreStages.very_dirty.label>muito sujo</Cleanliness.scoreStages.very_dirty.label>
+  <!-- EN: dirty -->
+  <Cleanliness.scoreStages.dirty.label>sujo</Cleanliness.scoreStages.dirty.label>
+  <!-- EN: slightly dirty -->
+  <Cleanliness.scoreStages.slightly_dirty.label>um pouco sujo</Cleanliness.scoreStages.slightly_dirty.label>
+  <!-- EN: clean -->
+  <Cleanliness.scoreStages.clean.label>limpo</Cleanliness.scoreStages.clean.label>
+  <!-- EN: sterile -->
+  <Cleanliness.scoreStages.sterile.label>esterilizado</Cleanliness.scoreStages.sterile.label>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>TODO</FoodPoisonChance.label>
+  
+  <!-- EN: grave visiting recreation factor -->
+  <GraveVisitingJoyGainFactor.label>fator de diversão ao visitar cemitério</GraveVisitingJoyGainFactor.label>
+  
+  <!-- EN: impressiveness -->
+  <Impressiveness.label>impressão</Impressiveness.label>
+  <!-- EN: awful -->
+  <Impressiveness.scoreStages.awful.label>horrível</Impressiveness.scoreStages.awful.label>
+  <!-- EN: dull -->
+  <Impressiveness.scoreStages.dull.label>repulsivo</Impressiveness.scoreStages.dull.label>
+  <!-- EN: mediocre -->
+  <Impressiveness.scoreStages.mediocre.label>maçante</Impressiveness.scoreStages.mediocre.label>
+  <!-- EN: decent -->
+  <Impressiveness.scoreStages.decent.label>medíocre</Impressiveness.scoreStages.decent.label>
+  <!-- EN: slightly impressive -->
+  <Impressiveness.scoreStages.slightly_impressive.label>interessante</Impressiveness.scoreStages.slightly_impressive.label>
+  <!-- EN: somewhat impressive -->
+  <Impressiveness.scoreStages.somewhat_impressive.label>um pouco impressionante</Impressiveness.scoreStages.somewhat_impressive.label>
+  <!-- EN: very impressive -->
+  <Impressiveness.scoreStages.very_impressive.label>muito impressionante</Impressiveness.scoreStages.very_impressive.label>
+  <!-- EN: extremely impressive -->
+  <Impressiveness.scoreStages.extremely_impressive.label>extremamente impressionante</Impressiveness.scoreStages.extremely_impressive.label>
+  <!-- EN: unbelievably impressive -->
+  <Impressiveness.scoreStages.unbelievably_impressive.label>incrivelmente impressionante</Impressiveness.scoreStages.unbelievably_impressive.label>
+  <!-- EN: wondrously impressive -->
+  <Impressiveness.scoreStages.wondrously_impressive.label>maravilhosamente impressionante</Impressiveness.scoreStages.wondrously_impressive.label>
+  
+  <!-- EN: infection chance factor -->
+  <InfectionChanceFactor.label>fator de chance de infecção</InfectionChanceFactor.label>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>fator de velocidade de pesquisa</ResearchSpeedFactor.label>
+  
+  <!-- EN: space -->
+  <Space.label>espaço</Space.label>
+  <!-- EN: cramped -->
+  <Space.scoreStages.cramped.label>apertado</Space.scoreStages.cramped.label>
+  <!-- EN: rather tight -->
+  <Space.scoreStages.rather_tight.label>meio apertado</Space.scoreStages.rather_tight.label>
+  <!-- EN: average-sized -->
+  <Space.scoreStages.averagesized.label>tamanho médio</Space.scoreStages.averagesized.label>
+  <!-- EN: somewhat spacious -->
+  <Space.scoreStages.somewhat_spacious.label>pouco espaçoso</Space.scoreStages.somewhat_spacious.label>
+  <!-- EN: quite spacious -->
+  <Space.scoreStages.quite_spacious.label>espaçoso</Space.scoreStages.quite_spacious.label>
+  <!-- EN: very spacious -->
+  <Space.scoreStages.very_spacious.label>muito espaçoso</Space.scoreStages.very_spacious.label>
+  <!-- EN: extremely spacious -->
+  <Space.scoreStages.extremely_spacious.label>extremamente espaçoso</Space.scoreStages.extremely_spacious.label>
+  
+  <!-- EN: surgery success chance cleanliness factor -->
+  <SurgerySuccessChanceCleanlinessFactor.label>TODO</SurgerySuccessChanceCleanlinessFactor.label>
+  
+  <!-- EN: wealth -->
+  <Wealth.label>riqueza</Wealth.label>
+  <!-- EN: impoverished -->
+  <Wealth.scoreStages.impoverished.label>empobrecido</Wealth.scoreStages.impoverished.label>
+  <!-- EN: somewhat poor -->
+  <Wealth.scoreStages.somewhat_poor.label>um pouco pobre</Wealth.scoreStages.somewhat_poor.label>
+  <!-- EN: mediocre -->
+  <Wealth.scoreStages.mediocre.label>medíocre</Wealth.scoreStages.mediocre.label>
+  <!-- EN: somewhat rich -->
+  <Wealth.scoreStages.somewhat_rich.label>um tanto rico</Wealth.scoreStages.somewhat_rich.label>
+  <!-- EN: rich -->
+  <Wealth.scoreStages.rich.label>rico</Wealth.scoreStages.rich.label>
+  <!-- EN: luxurious -->
+  <Wealth.scoreStages.luxurious.label>luxuoso</Wealth.scoreStages.luxurious.label>
+  <!-- EN: very luxurious -->
+  <Wealth.scoreStages.very_luxurious.label>muito luxuoso</Wealth.scoreStages.very_luxurious.label>
+  <!-- EN: extremely luxurious -->
+  <Wealth.scoreStages.extremely_luxurious.label>extremamente luxuoso</Wealth.scoreStages.extremely_luxurious.label>
+  <!-- EN: unbelievably luxurious -->
+  <Wealth.scoreStages.unbelievably_luxurious.label>incrivelmente luxuoso</Wealth.scoreStages.unbelievably_luxurious.label>
+  
 </LanguageData>

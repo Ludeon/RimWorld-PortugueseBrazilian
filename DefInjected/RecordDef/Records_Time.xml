@@ -1,73 +1,119 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <TimeAsColonistOrColonyAnimal.label>tempo como um colono</TimeAsColonistOrColonyAnimal.label>
-    <TimeAsColonistOrColonyAnimal.description>O tempo total gasto como um colono.</TimeAsColonistOrColonyAnimal.description>
-    
-    <TimeAsPrisoner.label>tempo como um prisioneiro</TimeAsPrisoner.label>
-    <TimeAsPrisoner.description>O tempo total gasto como um prisioneiro.</TimeAsPrisoner.description>
-    
-    <TimeInBed.label>tempo na cama</TimeInBed.label>
-    <TimeInBed.description>O tempo total gasto em uma cama</TimeInBed.description>
-    
-    <TimeInBedForMedicalReasons.label>tempo na cama por razões médicas</TimeInBedForMedicalReasons.label>
-    <TimeInBedForMedicalReasons.description>O tempo total gasto em uma cama por razões médicas: à espera de tratamento, se recuperando de ferimentos ou sendo operado.</TimeInBedForMedicalReasons.description>
-    
-    <TimeDowned.label>tempo caído</TimeDowned.label>
-    <TimeDowned.description>O tempo total gasto caído no chão.</TimeDowned.description>
-    
-    <TimeGettingFood.label>tempo achando comida e comendo</TimeGettingFood.label>
-    <TimeGettingFood.description>o Tempo total gasto em encontrar comida e comer.</TimeGettingFood.description>
-    
-    <TimeGettingJoy.label>tempo se divertindo</TimeGettingJoy.label>
-    <TimeGettingJoy.description>O tempo total gasto em entretenimento.</TimeGettingJoy.description>
-    
-    <TimeUnderRoof.label>tempo sob um telhado</TimeUnderRoof.label>
-    <TimeUnderRoof.description>O tempo total gasto sob um telhado.</TimeUnderRoof.description>
-    
-    <TimeDrafted.label>tempo alistado</TimeDrafted.label>
-    <TimeDrafted.description>O tempo total gasto alistado.</TimeDrafted.description>
-    
-    <TimeOnFire.label>tempo no fogo</TimeOnFire.label>
-    <TimeOnFire.description>O tempo total gasto em chamas.</TimeOnFire.description>
-    
-    <TimeInMentalState.label>tempo em estado mental</TimeInMentalState.label>
-    <TimeInMentalState.description>O tempo total gasto em estado mental.</TimeInMentalState.description>
-    
-    <TimeHauling.label>tempo transportando</TimeHauling.label>
-    <TimeHauling.description>O tempo total gasto transportando coisas.</TimeHauling.description>
-    
-    <TimeHandlingAnimals.label>tempo domesticando animais</TimeHandlingAnimals.label>
-    <TimeHandlingAnimals.description>O tempo total gasto domesticando animais.</TimeHandlingAnimals.description>
-    
-    <TimeFirefighting.label>tempo combatendo incêndios</TimeFirefighting.label>
-    <TimeFirefighting.description>O tempo total gasto combatendo incêndios.</TimeFirefighting.description>
-    
-    <TimeWardening.label>tempo vagando</TimeWardening.label>
-    <TimeWardening.description>O tempo total gasto vagando.</TimeWardening.description>
-    
-    <TimeHunting.label>tempo caçando</TimeHunting.label>
-    <TimeHunting.description>O tempo total gasto caçando.</TimeHunting.description>
-    
-    <TimeConstructing.label>tempo construindo</TimeConstructing.label>
-    <TimeConstructing.description>O tempo total gasto construindo e desconstruindo.</TimeConstructing.description>
-    
-    <TimeTreatingAndFeeding.label>tempo tratando e alimentando</TimeTreatingAndFeeding.label>
-    <TimeTreatingAndFeeding.description>O tempo total gasto tratando e alimentando pacientes.</TimeTreatingAndFeeding.description>
-    
-    <TimeResearching.label>tempo pesquisando</TimeResearching.label>
-    <TimeResearching.description>O tempo total gasto pesquisando.</TimeResearching.description>
-    
-    <TimeCleaning.label>tempo limpando</TimeCleaning.label>
-    <TimeCleaning.description>O tempo total gasto limpando.</TimeCleaning.description>
-    
-    <TimeRepairing.label>tempo reparando</TimeRepairing.label>
-    <TimeRepairing.description>O tempo total gasto reparando.</TimeRepairing.description>
-    
-    <TimeMining.label>tempo minerando</TimeMining.label>
-    <TimeMining.description>O tempo total gasto minerando.</TimeMining.description>
-    
-    <TimeSowingAndHarvesting.label>tempo plantando e colhendo</TimeSowingAndHarvesting.label>
-    <TimeSowingAndHarvesting.description>O tempo total gasto plantando, colhendo e cortando plantas.</TimeSowingAndHarvesting.description>
-    
+  
+  <!-- EN: time as a colonist -->
+  <TimeAsColonistOrColonyAnimal.label>tempo como um colono</TimeAsColonistOrColonyAnimal.label>
+  <!-- EN: Total time spent loyal to your community. -->
+  <TimeAsColonistOrColonyAnimal.description>O tempo total gasto como um colono.</TimeAsColonistOrColonyAnimal.description>
+  
+  <!-- EN: time as a prisoner -->
+  <TimeAsPrisoner.label>tempo como um prisioneiro</TimeAsPrisoner.label>
+  <!-- EN: Total time spent as a prisoner. -->
+  <TimeAsPrisoner.description>O tempo total gasto como um prisioneiro.</TimeAsPrisoner.description>
+  
+  <!-- EN: time cleaning -->
+  <TimeCleaning.label>tempo limpando</TimeCleaning.label>
+  <!-- EN: Total time spent cleaning. -->
+  <TimeCleaning.description>O tempo total gasto limpando.</TimeCleaning.description>
+  
+  <!-- EN: time constructing -->
+  <TimeConstructing.label>tempo construindo</TimeConstructing.label>
+  <!-- EN: Total time spent constructing and deconstructing buildings. -->
+  <TimeConstructing.description>O tempo total gasto construindo e desconstruindo.</TimeConstructing.description>
+  
+  <!-- EN: time downed -->
+  <TimeDowned.label>tempo caído</TimeDowned.label>
+  <!-- EN: Total time spent downed. -->
+  <TimeDowned.description>O tempo total gasto caído no chão.</TimeDowned.description>
+  
+  <!-- EN: time drafted -->
+  <TimeDrafted.label>tempo alistado</TimeDrafted.label>
+  <!-- EN: Total time spent drafted. -->
+  <TimeDrafted.description>O tempo total gasto alistado.</TimeDrafted.description>
+  
+  <!-- EN: time firefighting -->
+  <TimeFirefighting.label>tempo combatendo incêndios</TimeFirefighting.label>
+  <!-- EN: Total time spent firefighting. -->
+  <TimeFirefighting.description>O tempo total gasto combatendo incêndios.</TimeFirefighting.description>
+  
+  <!-- EN: time finding food and eating -->
+  <TimeGettingFood.label>tempo achando comida e comendo</TimeGettingFood.label>
+  <!-- EN: Total time spent on finding food and eating. -->
+  <TimeGettingFood.description>o Tempo total gasto em encontrar comida e comer.</TimeGettingFood.description>
+  
+  <!-- EN: time spent on entertainment -->
+  <TimeGettingJoy.label>tempo se divertindo</TimeGettingJoy.label>
+  <!-- EN: Total time spent on entertainment. -->
+  <TimeGettingJoy.description>O tempo total gasto em entretenimento.</TimeGettingJoy.description>
+  
+  <!-- EN: time handling animals -->
+  <TimeHandlingAnimals.label>tempo domesticando animais</TimeHandlingAnimals.label>
+  <!-- EN: Total time spent handling animals. -->
+  <TimeHandlingAnimals.description>O tempo total gasto domesticando animais.</TimeHandlingAnimals.description>
+  
+  <!-- EN: time hauling -->
+  <TimeHauling.label>tempo transportando</TimeHauling.label>
+  <!-- EN: Total time spent hauling things. -->
+  <TimeHauling.description>O tempo total gasto transportando coisas.</TimeHauling.description>
+  
+  <!-- EN: time hunting -->
+  <TimeHunting.label>tempo caçando</TimeHunting.label>
+  <!-- EN: Total time spent hunting. -->
+  <TimeHunting.description>O tempo total gasto caçando.</TimeHunting.description>
+  
+  <!-- EN: time in a bed -->
+  <TimeInBed.label>tempo na cama</TimeInBed.label>
+  <!-- EN: Total time spent in bed. -->
+  <TimeInBed.description>O tempo total gasto em uma cama</TimeInBed.description>
+  
+  <!-- EN: time in a bed for medical reasons -->
+  <TimeInBedForMedicalReasons.label>tempo na cama por razões médicas</TimeInBedForMedicalReasons.label>
+  <!-- EN: Total time spent in bed for medical reasons: awaiting treatment, recovering from injuries or being operated on. -->
+  <TimeInBedForMedicalReasons.description>O tempo total gasto em uma cama por razões médicas: à espera de tratamento, se recuperando de ferimentos ou sendo operado.</TimeInBedForMedicalReasons.description>
+  
+  <!-- EN: time in mental state -->
+  <TimeInMentalState.label>tempo em estado mental</TimeInMentalState.label>
+  <!-- EN: Total time spent in an abnormal mental state. -->
+  <TimeInMentalState.description>O tempo total gasto em estado mental.</TimeInMentalState.description>
+  
+  <!-- EN: time mining -->
+  <TimeMining.label>tempo minerando</TimeMining.label>
+  <!-- EN: Total time spent mining. -->
+  <TimeMining.description>O tempo total gasto minerando.</TimeMining.description>
+  
+  <!-- EN: time on fire -->
+  <TimeOnFire.label>tempo no fogo</TimeOnFire.label>
+  <!-- EN: Total time spent on fire. -->
+  <TimeOnFire.description>O tempo total gasto em chamas.</TimeOnFire.description>
+  
+  <!-- EN: time repairing -->
+  <TimeRepairing.label>tempo reparando</TimeRepairing.label>
+  <!-- EN: Total time spent repairing. -->
+  <TimeRepairing.description>O tempo total gasto reparando.</TimeRepairing.description>
+  
+  <!-- EN: time researching -->
+  <TimeResearching.label>tempo pesquisando</TimeResearching.label>
+  <!-- EN: Total time spent researching. -->
+  <TimeResearching.description>O tempo total gasto pesquisando.</TimeResearching.description>
+  
+  <!-- EN: time sowing and harvesting -->
+  <TimeSowingAndHarvesting.label>tempo plantando e colhendo</TimeSowingAndHarvesting.label>
+  <!-- EN: Total time spent sowing, harvesting and cutting plants. -->
+  <TimeSowingAndHarvesting.description>O tempo total gasto plantando, colhendo e cortando plantas.</TimeSowingAndHarvesting.description>
+  
+  <!-- EN: time treating and feeding -->
+  <TimeTreatingAndFeeding.label>tempo tratando e alimentando</TimeTreatingAndFeeding.label>
+  <!-- EN: Total time spent treating and feeding patients. -->
+  <TimeTreatingAndFeeding.description>O tempo total gasto tratando e alimentando pacientes.</TimeTreatingAndFeeding.description>
+  
+  <!-- EN: time under a roof -->
+  <TimeUnderRoof.label>tempo sob um telhado</TimeUnderRoof.label>
+  <!-- EN: Total time spent under a roof. -->
+  <TimeUnderRoof.description>O tempo total gasto sob um telhado.</TimeUnderRoof.description>
+  
+  <!-- EN: time wardening -->
+  <TimeWardening.label>tempo vagando</TimeWardening.label>
+  <!-- EN: Total time spent wardening. -->
+  <TimeWardening.description>O tempo total gasto vagando.</TimeWardening.description>
+  
 </LanguageData>

@@ -1,27 +1,45 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <ImmediateAttack.letterLabelEnemy>Invasão</ImmediateAttack.letterLabelEnemy>
-    <ImmediateAttack.arrivalTextEnemy>Eles irão atacar imediatamente.</ImmediateAttack.arrivalTextEnemy>
-    <ImmediateAttack.letterLabelFriendly>Aliados</ImmediateAttack.letterLabelFriendly>
-    <ImmediateAttack.arrivalTextFriendly>Eles estão se movendo para ajudá-lo imediatamente.</ImmediateAttack.arrivalTextFriendly>
-    
-    <ImmediateAttackSmart.letterLabelEnemy>Invasão</ImmediateAttackSmart.letterLabelEnemy>
-    <ImmediateAttackSmart.arrivalTextEnemy>Eles irão atacar imediatamente.\n\nCuidado - eles parecem ser excepcionalmente inteligentes com as suas táticas.</ImmediateAttackSmart.arrivalTextEnemy>
-    <ImmediateAttackSmart.letterLabelFriendly>Aliados</ImmediateAttackSmart.letterLabelFriendly>
-    <ImmediateAttackSmart.arrivalTextFriendly>Eles estão se movendo para ajudá-lo imediatamente.</ImmediateAttackSmart.arrivalTextFriendly>
-    
-    <StageThenAttack.letterLabelEnemy>Invasão</StageThenAttack.letterLabelEnemy>
-    <StageThenAttack.arrivalTextEnemy>Eles irão se preparar por um tempo, em seguida, atacar.\n\nPrepare uma defesa ou os ataque preventivamente.</StageThenAttack.arrivalTextEnemy>
-    <StageThenAttack.letterLabelFriendly>Aliados</StageThenAttack.letterLabelFriendly>
-    <StageThenAttack.arrivalTextFriendly>Eles irão se preparar por um tempo antes de se moverem para ajudá-lo.</StageThenAttack.arrivalTextFriendly>
-    
-    <ImmediateAttackSappers.letterLabelEnemy>Invasão</ImmediateAttackSappers.letterLabelEnemy>
-    <ImmediateAttackSappers.arrivalTextEnemy>Parece que eles querem usar sapadores para fazer um túnel em torno de suas defesas.</ImmediateAttackSappers.arrivalTextEnemy>
-    
-    <Siege.letterLabelEnemy>Cerco</Siege.letterLabelEnemy>
-    <Siege.arrivalTextEnemy>Parece que eles querem cercar a colônia com artilharia de longa distância. Você pode tentar esperar por eles - ou ir atacá-los.</Siege.arrivalTextEnemy>
-    <Siege.letterLabelFriendly>Aliados</Siege.letterLabelFriendly>
-    <Siege.arrivalTextFriendly>Parece que eles querem usar táticas de cerco para ajudá-lo.</Siege.arrivalTextFriendly>
-    
+  
+  <!-- EN: They are attacking immediately. -->
+  <ImmediateAttack.arrivalTextEnemy>Eles irão atacar imediatamente.</ImmediateAttack.arrivalTextEnemy>
+  <!-- EN: They are moving in to help you immediately. -->
+  <ImmediateAttack.arrivalTextFriendly>Eles estão se movendo para ajudá-lo imediatamente.</ImmediateAttack.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <ImmediateAttack.letterLabelEnemy>Invasão</ImmediateAttack.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <ImmediateAttack.letterLabelFriendly>Aliados</ImmediateAttack.letterLabelFriendly>
+  
+  <!-- EN: It looks like they want to use sappers to tunnel around your defenses. -->
+  <ImmediateAttackSappers.arrivalTextEnemy>Parece que eles querem usar sapadores para fazer um túnel em torno de suas defesas.</ImmediateAttackSappers.arrivalTextEnemy>
+  <!-- EN: Raid -->
+  <ImmediateAttackSappers.letterLabelEnemy>Invasão</ImmediateAttackSappers.letterLabelEnemy>
+  
+  <!-- EN: They are attacking immediately.\n\nWatch out - they appear to be unusually clever with their tactics. They'll avoid your turrets' fields of fire and notice some of your traps. -->
+  <ImmediateAttackSmart.arrivalTextEnemy>Eles irão atacar imediatamente.\n\nCuidado - eles parecem ser excepcionalmente inteligentes com as suas táticas.</ImmediateAttackSmart.arrivalTextEnemy>
+  <!-- EN: They are moving in to help you immediately. -->
+  <ImmediateAttackSmart.arrivalTextFriendly>Eles estão se movendo para ajudá-lo imediatamente.</ImmediateAttackSmart.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <ImmediateAttackSmart.letterLabelEnemy>Invasão</ImmediateAttackSmart.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <ImmediateAttackSmart.letterLabelFriendly>Aliados</ImmediateAttackSmart.letterLabelFriendly>
+  
+  <!-- EN: It looks like they want to besiege the colony and pound you with mortars from a distance. You can try to wait them out - or go get them. -->
+  <Siege.arrivalTextEnemy>Parece que eles querem cercar a colônia com artilharia de longa distância. Você pode tentar esperar por eles - ou ir atacá-los.</Siege.arrivalTextEnemy>
+  <!-- EN: It looks like they want to use siege tactics to help you. -->
+  <Siege.arrivalTextFriendly>Parece que eles querem usar táticas de cerco para ajudá-lo.</Siege.arrivalTextFriendly>
+  <!-- EN: Siege -->
+  <Siege.letterLabelEnemy>Cerco</Siege.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <Siege.letterLabelFriendly>Aliados</Siege.letterLabelFriendly>
+  
+  <!-- EN: They will prepare for a while, then attack.\n\nPrepare a defense or attack them pre-emptively. -->
+  <StageThenAttack.arrivalTextEnemy>Eles irão se preparar por um tempo, em seguida, atacar.\n\nPrepare uma defesa ou os ataque preventivamente.</StageThenAttack.arrivalTextEnemy>
+  <!-- EN: They will prepare for a while before moving in to help you. -->
+  <StageThenAttack.arrivalTextFriendly>Eles irão se preparar por um tempo antes de se moverem para ajudá-lo.</StageThenAttack.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <StageThenAttack.letterLabelEnemy>Invasão</StageThenAttack.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <StageThenAttack.letterLabelFriendly>Aliados</StageThenAttack.letterLabelFriendly>
+  
 </LanguageData>

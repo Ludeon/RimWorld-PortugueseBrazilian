@@ -1,36 +1,67 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <MakeStoneBlocksAny.label>fazer qualquer bloco de pedra</MakeStoneBlocksAny.label>
-    <MakeStoneBlocksAny.description>Corta pedaços de rochas em blocos de pedra utilizáveis.</MakeStoneBlocksAny.description>
-    <MakeStoneBlocksAny.jobString>Cortando blocos de pedra de pedaço.</MakeStoneBlocksAny.jobString>
-    
-    <ExtractMetalFromSlag.label>fundir metal de escória</ExtractMetalFromSlag.label>
-    <ExtractMetalFromSlag.description>Usa o calor e fortes electromagnetos para separar metais úteis de pedaços de escória.</ExtractMetalFromSlag.description>
-    <ExtractMetalFromSlag.jobString>Fundindo metal de escória.</ExtractMetalFromSlag.jobString>
-    
-    <SmeltWeapon.label>fundir metal de arma</SmeltWeapon.label>
-    <SmeltWeapon.description>Usa o calor e fortes electromagnetos para quebrar as armas em recursos úteis.</SmeltWeapon.description>
-    <SmeltWeapon.jobString>Fundindo metal de arma.</SmeltWeapon.jobString>
-
-    <DestroyWeapon.label>destruir arma</DestroyWeapon.label>
-    <DestroyWeapon.description>Usa o calor para destruir armas indesejadas. Mais rápido do que a fundição, e funciona em itens não-fundíveis, mas não rende nenhum recurso.</DestroyWeapon.description>
-    <DestroyWeapon.jobString>Destruindo arma.</DestroyWeapon.jobString>
-    
-    <MakeMortarShell.label>fazer projétil de artilharia</MakeMortarShell.label>
-    <MakeMortarShell.description>Cria um projétil de artilharia.</MakeMortarShell.description>
-    <MakeMortarShell.jobString>Fazendo projétil de artilharia.</MakeMortarShell.jobString>
-
-    <MakeChemfuelFromWood.label>fazer combustível químico de madeira</MakeChemfuelFromWood.label>
-    <MakeChemfuelFromWood.description>Faz um lote de combustível químico gaseificando toras de madeira.</MakeChemfuelFromWood.description>
-    <MakeChemfuelFromWood.jobString>Refinando combustível químico da madeira.</MakeChemfuelFromWood.jobString>
-
-    <MakeChemfuelFromOrganics.label>Fazer combustível químico de orgânicos</MakeChemfuelFromOrganics.label>
-    <MakeChemfuelFromOrganics.description>Faz um lote de combustível químico extraindo o biocombustível de matérias-primas orgânicas.</MakeChemfuelFromOrganics.description>
-    <MakeChemfuelFromOrganics.jobString>Refinando combustível químico de orgânicos.</MakeChemfuelFromOrganics.jobString>
-    
-    <MakeComponent.label>fazer componente</MakeComponent.label>
-    <MakeComponent.description>Faz um componente.</MakeComponent.description>
-    <MakeComponent.jobString>Fazendo componente.</MakeComponent.jobString>
-    
+  
+  <!-- EN: destroy weapon -->
+  <DestroyWeapon.label>destruir arma</DestroyWeapon.label>
+  <!-- EN: Use heat to destroy unwanted weapons. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
+  <DestroyWeapon.description>Usa o calor para destruir armas indesejadas. Mais rápido do que a fundição, e funciona em itens não-fundíveis, mas não rende nenhum recurso.</DestroyWeapon.description>
+  <!-- EN: Destroying weapon. -->
+  <DestroyWeapon.jobString>Destruindo arma.</DestroyWeapon.jobString>
+  
+  <!-- EN: smelt metal from slag -->
+  <ExtractMetalFromSlag.label>fundir metal de escória</ExtractMetalFromSlag.label>
+  <!-- EN: Use heat and strong electromagnets to extract useful metal from slag chunks. -->
+  <ExtractMetalFromSlag.description>Usa o calor e fortes electromagnetos para separar metais úteis de pedaços de escória.</ExtractMetalFromSlag.description>
+  <!-- EN: Smelting metal from slag. -->
+  <ExtractMetalFromSlag.jobString>Fundindo metal de escória.</ExtractMetalFromSlag.jobString>
+  
+  <!-- EN: make chemfuel from organics -->
+  <Make_ChemfuelFromOrganics.label>Fazer combustível químico de orgânicos</Make_ChemfuelFromOrganics.label>
+  <!-- EN: Make a batch of chemfuel by extracting biofuel from organic feedstocks. -->
+  <Make_ChemfuelFromOrganics.description>Faz um lote de combustível químico extraindo o biocombustível de matérias-primas orgânicas.</Make_ChemfuelFromOrganics.description>
+  <!-- EN: Refining chemfuel from organics. -->
+  <Make_ChemfuelFromOrganics.jobString>Refinando combustível químico de orgânicos.</Make_ChemfuelFromOrganics.jobString>
+  
+  <!-- EN: make chemfuel from wood -->
+  <Make_ChemfuelFromWood.label>fazer combustível químico de madeira</Make_ChemfuelFromWood.label>
+  <!-- EN: Make a batch of chemfuel by extracting and condensing wood gas from logs. -->
+  <Make_ChemfuelFromWood.description>Faz um lote de combustível químico gaseificando toras de madeira.</Make_ChemfuelFromWood.description>
+  <!-- EN: Refining chemfuel from wood. -->
+  <Make_ChemfuelFromWood.jobString>Refinando combustível químico da madeira.</Make_ChemfuelFromWood.jobString>
+  
+  <!-- EN: make component -->
+  <Make_ComponentIndustrial.label>fazer componente</Make_ComponentIndustrial.label>
+  <!-- EN: Make a component. -->
+  <Make_ComponentIndustrial.description>Faz um componente.</Make_ComponentIndustrial.description>
+  <!-- EN: Making component. -->
+  <Make_ComponentIndustrial.jobString>Fazendo componente.</Make_ComponentIndustrial.jobString>
+  
+  <!-- EN: make advanced component -->
+  <Make_ComponentSpacer.label>TODO</Make_ComponentSpacer.label>
+  <!-- EN: Make an advanced component. -->
+  <Make_ComponentSpacer.description>TODO</Make_ComponentSpacer.description>
+  <!-- EN: Making advanced component. -->
+  <Make_ComponentSpacer.jobString>TODO</Make_ComponentSpacer.jobString>
+  
+  <!-- EN: make patchleather -->
+  <Make_Patchleather.label>TODO</Make_Patchleather.label>
+  <!-- EN: Combine various types of leather to create weak patchleather. -->
+  <Make_Patchleather.description>TODO</Make_Patchleather.description>
+  <!-- EN: Making patchleather. -->
+  <Make_Patchleather.jobString>TODO</Make_Patchleather.jobString>
+  
+  <!-- EN: make any stone blocks -->
+  <Make_StoneBlocksAny.label>fazer qualquer bloco de pedra</Make_StoneBlocksAny.label>
+  <!-- EN: Cut rock chunks into usable stone blocks. -->
+  <Make_StoneBlocksAny.description>Corta pedaços de rochas em blocos de pedra utilizáveis.</Make_StoneBlocksAny.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksAny.jobString>Cortando blocos de pedra de pedaço.</Make_StoneBlocksAny.jobString>
+  
+  <!-- EN: smelt weapon -->
+  <SmeltWeapon.label>fundir metal de arma</SmeltWeapon.label>
+  <!-- EN: Use heat and strong electromagnets to break down weapons into useful resources. -->
+  <SmeltWeapon.description>Usa o calor e fortes electromagnetos para quebrar as armas em recursos úteis.</SmeltWeapon.description>
+  <!-- EN: Smelting weapon. -->
+  <SmeltWeapon.jobString>Fundindo metal de arma.</SmeltWeapon.jobString>
+  
 </LanguageData>

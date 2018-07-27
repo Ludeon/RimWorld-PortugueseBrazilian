@@ -1,124 +1,146 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <SleepingSpot.label>local para dormir</SleepingSpot.label>
-    <SleepingSpot.description>Específica um ponto no chão onde as pessoas devem dormir. Nada confortável.</SleepingSpot.description>
-    <SleepingSpot_Blueprint.label>local para dormir (projeto)</SleepingSpot_Blueprint.label>
-    <SleepingSpot_Frame.label>local para dormir (construção)</SleepingSpot_Frame.label>
-    
-    <Bed.label>cama</Bed.label>
-    <Bed.description>Um colchão com lençóis aconchegantes em uma moldura para descansar.</Bed.description>
-    <Bed_Blueprint.label>cama (projeto)</Bed_Blueprint.label>
-    <Bed_Blueprint_Install.label>cama (projeto)</Bed_Blueprint_Install.label>
-    <Bed_Frame.label>cama (construção)</Bed_Frame.label>
-    
-    <DoubleBed.label>cama de casal</DoubleBed.label>
-    <DoubleBed.description>Uma cama de largura dupla simples que suporta duas pessoas.</DoubleBed.description>
-    <DoubleBed_Blueprint.label>cama de casal (projeto)</DoubleBed_Blueprint.label>
-    <DoubleBed_Blueprint_Install.label>cama de casal (projeto)</DoubleBed_Blueprint_Install.label>
-    <DoubleBed_Frame.label>cama de casal (construção)</DoubleBed_Frame.label>
-    
-    <RoyalBed.label>cama nobre</RoyalBed.label>
-    <RoyalBed.description>Uma cama luxuosa de ouro incrustado para os bem nascidos. Muito confortável e bonita. Serve para duas pessoas.</RoyalBed.description>
-    <RoyalBed_Blueprint.label>cama nobre (projeto)</RoyalBed_Blueprint.label>
-    <RoyalBed_Blueprint_Install.label>cama nobre (projeto)</RoyalBed_Blueprint_Install.label>
-    <RoyalBed_Frame.label>cama nobre (construção)</RoyalBed_Frame.label>
-    
-    <HospitalBed.label>cama de hospital</HospitalBed.label>
-    <HospitalBed.description>Uma cama especialmente concebida para pessoas feridas. Melhora a chance de trabalho médico bem sucedido.</HospitalBed.description>
-    <HospitalBed_Blueprint.label>cama de hospital (projeto)</HospitalBed_Blueprint.label>
-    <HospitalBed_Blueprint_Install.label>cama de hospital (projeto)</HospitalBed_Blueprint_Install.label>
-    <HospitalBed_Frame.label>cama de hospital (construção)</HospitalBed_Frame.label>
-    
-    <AnimalSleepingSpot.label>local para animal dormir</AnimalSleepingSpot.label>
-    <AnimalSleepingSpot.description>Específica um ponto no chão onde os animais devem dormir.</AnimalSleepingSpot.description>
-    <AnimalSleepingSpot_Blueprint.label>local para animal dormir (projeto)</AnimalSleepingSpot_Blueprint.label>
-    <AnimalSleepingSpot_Frame.label>local para animal dormir (construção)</AnimalSleepingSpot_Frame.label>
-    
-    <AnimalSleepingBox.label>caixa de dormir para animal</AnimalSleepingBox.label>
-    <AnimalSleepingBox.description>Uma caixa pequena para animais dormirem. Serve para pequenos animais como galinhas, gatos ou cães de pequeno porte.</AnimalSleepingBox.description>
-    <AnimalSleepingBox_Blueprint.label>caixa de dormir para animal (projeto)</AnimalSleepingBox_Blueprint.label>
-    <AnimalSleepingBox_Blueprint_Install.label>caixa de dormir para animal (projeto)</AnimalSleepingBox_Blueprint_Install.label>
-    <AnimalSleepingBox_Frame.label>caixa de dormir para animal (construção)</AnimalSleepingBox_Frame.label>
-    
-    <AnimalBed.label>cama para animal</AnimalBed.label>
-    <AnimalBed.description>Uma cama macia para os animais dormirem. Suporta qualquer animal.</AnimalBed.description>
-    <AnimalBed_Blueprint.label>cama para animal (projeto)</AnimalBed_Blueprint.label>
-    <AnimalBed_Blueprint_Install.label>cama para animal (projeto)</AnimalBed_Blueprint_Install.label>
-    <AnimalBed_Frame.label>cama para animal (construção)</AnimalBed_Frame.label>
-    
-    <Stool.label>banco</Stool.label>
-    <Stool.description>Uma simples plataforma usada para se sentar.</Stool.description>
-    <Stool_Blueprint.label>banco (projeto)</Stool_Blueprint.label>
-    <Stool_Blueprint_Install.label>banco (projeto)</Stool_Blueprint_Install.label>
-    <Stool_Frame.label>banco (construção)</Stool_Frame.label>
-    
-    <DiningChair.label>cadeira de jantar</DiningChair.label>
-    <DiningChair.description>Uma cadeira confortável e atraente para se sentar em uma mesa.</DiningChair.description>
-    <DiningChair_Blueprint.label>cadeira de jantar (projeto)</DiningChair_Blueprint.label>
-    <DiningChair_Blueprint_Install.label>cadeira de jantar (projeto)</DiningChair_Blueprint_Install.label>
-    <DiningChair_Frame.label>cadeira de jantar (construção)</DiningChair_Frame.label>
-    
-    <Armchair.label>poltrona</Armchair.label>
-    <Armchair.description>Um asento confortável, grande e macio. Ótimo para o relaxamento.</Armchair.description>
-    <Armchair_Blueprint.label>poltrona (projeto)</Armchair_Blueprint.label>
-    <Armchair_Blueprint_Install.label>poltrona (projeto)</Armchair_Blueprint_Install.label>
-    <Armchair_Frame.label>poltrona (construção)</Armchair_Frame.label>
-    
-    <TableShort.label>mesa (curta)</TableShort.label>
-    <TableShort.description>As pessoas comem em mesas quando as cadeiras são colocadas de frente a elas.</TableShort.description>
-    <TableShort_Blueprint.label>mesa (curta) (projeto)</TableShort_Blueprint.label>
-    <TableShort_Blueprint_Install.label>mesa (curta) (projeto)</TableShort_Blueprint_Install.label>
-    <TableShort_Frame.label>mesa (curta) (construção)</TableShort_Frame.label>
-    
-    <TableLong.label>mesa (longa)</TableLong.label>
-    <TableLong.description>As pessoas comem em mesas quando as cadeiras são colocadas de frente a elas.</TableLong.description>
-    <TableLong_Blueprint.label>mesa (longa) (projeto)</TableLong_Blueprint.label>
-    <TableLong_Blueprint_Install.label>mesa (longa) (projeto)</TableLong_Blueprint_Install.label>
-    <TableLong_Frame.label>mesa (longa) (construção)</TableLong_Frame.label>
-    
-    <PlantPot.label>vaso</PlantPot.label>
-    <PlantPot.description>Planta flores decorativas para melhorar o humor das pessoas nas proximidades.</PlantPot.description>
-    <PlantPot_Blueprint.label>vaso (projeto)</PlantPot_Blueprint.label>
-    <PlantPot_Blueprint_Install.label>vaso (projeto)</PlantPot_Blueprint_Install.label>
-    <PlantPot_Frame.label>vaso (construção)</PlantPot_Frame.label>
-
-    <TorchLamp.label>tocha</TorchLamp.label>
-    <TorchLamp.description>Uma tocha de madeira para a iluminação de uma área. Pode ser reabastecida automaticamente com madeira. Produz uma pequena quantidade de calor.</TorchLamp.description>
-    <TorchLamp_Blueprint.label>tocha (projeto)</TorchLamp_Blueprint.label>
-    <TorchLamp_Frame.label>tocha (construção)</TorchLamp_Frame.label>
-    
-    <StandingLamp.label>luminária</StandingLamp.label>
-    <StandingLamp.description>Uma lâmpada que ilumina uma área.</StandingLamp.description>
-    <StandingLamp_Blueprint.label>luminária (projeto)</StandingLamp_Blueprint.label>
-    <StandingLamp_Blueprint_Install.label>luminária (projeto)</StandingLamp_Blueprint_Install.label>
-    <StandingLamp_Frame.label>luminária (construção)</StandingLamp_Frame.label>
-    
-    <StandingLamp_Red.label>luminária (vermelha)</StandingLamp_Red.label>
-    <StandingLamp_Red.description>Uma lâmpada que ilumina uma área em vermelho.</StandingLamp_Red.description>
-    <StandingLamp_Red_Blueprint.label>luminária (vermelha) (projeto)</StandingLamp_Red_Blueprint.label>
-    <StandingLamp_Red_Blueprint_Install.label>luminária (vermelha) (projeto)</StandingLamp_Red_Blueprint_Install.label>
-    <StandingLamp_Red_Frame.label>luminária (vermelha) (construção)</StandingLamp_Red_Frame.label>
-    
-    <StandingLamp_Green.label>luminária (verde)</StandingLamp_Green.label>
-    <StandingLamp_Green.description>Uma lâmpada que ilumina uma área em verde.</StandingLamp_Green.description>
-    <StandingLamp_Green_Blueprint.label>luminária (verde) (projeto)</StandingLamp_Green_Blueprint.label>
-    <StandingLamp_Green_Blueprint_Install.label>luminária (verde) (projeto)</StandingLamp_Green_Blueprint_Install.label>
-    <StandingLamp_Green_Frame.label>luminária (verde) (construção)</StandingLamp_Green_Frame.label>
-    
-    <StandingLamp_Blue.label>luminária (azul)</StandingLamp_Blue.label>
-    <StandingLamp_Blue.description>Uma lâmpada que ilumina uma área em azul.</StandingLamp_Blue.description>
-    <StandingLamp_Blue_Blueprint.label>luminária (azul) (projeto)</StandingLamp_Blue_Blueprint.label>
-    <StandingLamp_Blue_Blueprint_Install.label>luminária (azul) (projeto)</StandingLamp_Blue_Blueprint_Install.label>
-    <StandingLamp_Blue_Frame.label>luminária (azul) (construção)</StandingLamp_Blue_Frame.label>
-
-    <SunLamp.label>lâmpada solar</SunLamp.label>
-    <SunLamp.description>Ilumina uma área o suficiente para o cultivo.</SunLamp.description>
-    <SunLamp_Blueprint.label>lâmpada solar (projeto)</SunLamp_Blueprint.label>
-    <SunLamp_Blueprint_Install.label>lâmpada solar (projeto)</SunLamp_Blueprint_Install.label>
-    <SunLamp_Frame.label>lâmpada solar (construção)</SunLamp_Frame.label>
-    
-    <EquipmentRack.label>estante de equipamentos</EquipmentRack.label>
-    <EquipmentRack.description>Itens armazenados nisto não irão se deteriorar, mesmo no lado de fora.</EquipmentRack.description>
-    
+  
+  <!-- EN: animal bed -->
+  <AnimalBed.label>cama para animal</AnimalBed.label>
+  <!-- EN: A soft bed for animals to sleep on. Fits any animal. -->
+  <AnimalBed.description>Uma cama macia para os animais dormirem. Suporta qualquer animal.</AnimalBed.description>
+  
+  <!-- EN: animal sleeping box -->
+  <AnimalSleepingBox.label>caixa de dormir para animal</AnimalSleepingBox.label>
+  <!-- EN: A small box for animals to sleep in. Fits smaller animals like chickens, cats, or small dogs. -->
+  <AnimalSleepingBox.description>Uma caixa pequena para animais dormirem. Serve para pequenos animais como galinhas, gatos ou cães de pequeno porte.</AnimalSleepingBox.description>
+  
+  <!-- EN: animal sleeping spot -->
+  <AnimalSleepingSpot.label>local para animal dormir</AnimalSleepingSpot.label>
+  <!-- EN: Designates a spot on the ground where animals should sleep. -->
+  <AnimalSleepingSpot.description>Específica um ponto no chão onde os animais devem dormir.</AnimalSleepingSpot.description>
+  
+  <!-- EN: armchair -->
+  <Armchair.label>poltrona</Armchair.label>
+  <!-- EN: A large, soft, comfy seat. Great for relaxation. Can be used at tables, work stations, and elsewhere. -->
+  <Armchair.description>Um asento confortável, grande e macio. Ótimo para o relaxamento.</Armchair.description>
+  
+  <!-- EN: bed -->
+  <Bed.label>cama</Bed.label>
+  <!-- EN: A cozy mattress and sheets on a frame for resting. -->
+  <Bed.description>Um colchão com lençóis aconchegantes em uma moldura para descansar.</Bed.description>
+  
+  <!-- EN: bedroll -->
+  <Bedroll.label>TODO</Bedroll.label>
+  <!-- EN: A simple bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep. -->
+  <Bedroll.description>TODO</Bedroll.description>
+  
+  <!-- EN: double bedroll -->
+  <BedrollDouble.label>TODO</BedrollDouble.label>
+  <!-- EN: A simple double-wide bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep. -->
+  <BedrollDouble.description>TODO</BedrollDouble.description>
+  
+  <!-- EN: dining chair -->
+  <DiningChair.label>cadeira de jantar</DiningChair.label>
+  <!-- EN: A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere. -->
+  <DiningChair.description>Uma cadeira confortável e atraente para se sentar em uma mesa.</DiningChair.description>
+  
+  <!-- EN: double bed -->
+  <DoubleBed.label>cama de casal</DoubleBed.label>
+  <!-- EN: A simple double-wide bed that fits two people. -->
+  <DoubleBed.description>Uma cama de largura dupla simples que suporta duas pessoas.</DoubleBed.description>
+  
+  <!-- EN: double sleeping spot -->
+  <DoubleSleepingSpot.label>TODO</DoubleSleepingSpot.label>
+  <!-- EN: Designates a spot on the ground where two people should sleep together. Not comfortable. -->
+  <DoubleSleepingSpot.description>TODO</DoubleSleepingSpot.description>
+  
+  <!-- EN: dresser -->
+  <Dresser.label>TODO</Dresser.label>
+  <!-- EN: A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect. -->
+  <Dresser.description>TODO</Dresser.description>
+  
+  <!-- EN: end table -->
+  <EndTable.label>TODO</EndTable.label>
+  <!-- EN: A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. -->
+  <EndTable.description>TODO</EndTable.description>
+  
+  <!-- EN: hospital bed -->
+  <HospitalBed.label>cama de hospital</HospitalBed.label>
+  <!-- EN: A bed specially designed for use in hospitals. Adjustable for a patient and festooned with built-in equipment, it improves medical outcomes over normal beds. -->
+  <HospitalBed.description>Uma cama especialmente concebida para pessoas feridas. Melhora a chance de trabalho médico bem sucedido.</HospitalBed.description>
+  
+  <!-- EN: plant pot -->
+  <PlantPot.label>vaso</PlantPot.label>
+  <!-- EN: Plant decorative flowers here to improve the mood of people nearby. -->
+  <PlantPot.description>Planta flores decorativas para melhorar o humor das pessoas nas proximidades.</PlantPot.description>
+  
+  <!-- EN: royal bed -->
+  <RoyalBed.label>cama nobre</RoyalBed.label>
+  <!-- EN: A luxurious gold-inlaid bed fit for the highborn. Very comfy and beautiful, it is a work of art in itself. Fits two. -->
+  <RoyalBed.description>Uma cama luxuosa de ouro incrustado para os bem nascidos. Muito confortável e bonita. Serve para duas pessoas.</RoyalBed.description>
+  
+  <!-- EN: shelf -->
+  <Shelf.label>TODO</Shelf.label>
+  <!-- EN: A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside. -->
+  <Shelf.description>TODO</Shelf.description>
+  
+  <!-- EN: sleeping spot -->
+  <SleepingSpot.label>local para dormir</SleepingSpot.label>
+  <!-- EN: Designates a spot on the ground where people should sleep. Not comfortable. -->
+  <SleepingSpot.description>Específica um ponto no chão onde as pessoas devem dormir. Nada confortável.</SleepingSpot.description>
+  
+  <!-- EN: standing lamp -->
+  <StandingLamp.label>luminária</StandingLamp.label>
+  <!-- EN: An electrical standing lamp that lights an area. People need light to move and work at full speed. -->
+  <StandingLamp.description>Uma lâmpada que ilumina uma área.</StandingLamp.description>
+  
+  <!-- EN: standing lamp (blue) -->
+  <StandingLamp_Blue.label>luminária (azul)</StandingLamp_Blue.label>
+  <!-- EN: A standing lamp that lights an area in blue. -->
+  <StandingLamp_Blue.description>Uma lâmpada que ilumina uma área em azul.</StandingLamp_Blue.description>
+  
+  <!-- EN: standing lamp (green) -->
+  <StandingLamp_Green.label>luminária (verde)</StandingLamp_Green.label>
+  <!-- EN: A standing lamp that lights an area in green. -->
+  <StandingLamp_Green.description>Uma lâmpada que ilumina uma área em verde.</StandingLamp_Green.description>
+  
+  <!-- EN: standing lamp (red) -->
+  <StandingLamp_Red.label>luminária (vermelha)</StandingLamp_Red.label>
+  <!-- EN: A standing lamp that lights an area in red. -->
+  <StandingLamp_Red.description>Uma lâmpada que ilumina uma área em vermelho.</StandingLamp_Red.description>
+  
+  <!-- EN: stool -->
+  <Stool.label>banco</Stool.label>
+  <!-- EN: A simple platform on which to sit. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere. -->
+  <Stool.description>Uma simples plataforma usada para se sentar.</Stool.description>
+  
+  <!-- EN: sun lamp -->
+  <SunLamp.label>lâmpada solar</SunLamp.label>
+  <!-- EN: An industrial lamp which lights an area brightly enough to grow crops, but consumes a huge amount of power. Automatically turns itself off at night. -->
+  <SunLamp.description>Ilumina uma área o suficiente para o cultivo.</SunLamp.description>
+  <!-- EN: Off for plant resting period -->
+  <SunLamp.comps.CompSchedule.offMessage>TODO</SunLamp.comps.CompSchedule.offMessage>
+  
+  <!-- EN: table (1x2) -->
+  <Table1x2c.label>TODO</Table1x2c.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <Table1x2c.description>TODO</Table1x2c.description>
+  
+  <!-- EN: table (2x2) -->
+  <Table2x2c.label>mesa (curta)</Table2x2c.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <Table2x2c.description>As pessoas comem em mesas quando as cadeiras são colocadas de frente a elas.</Table2x2c.description>
+  
+  <!-- EN: table (2x4) -->
+  <Table2x4c.label>mesa (longa)</Table2x4c.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <Table2x4c.description>As pessoas comem em mesas quando as cadeiras são colocadas de frente a elas.</Table2x4c.description>
+  
+  <!-- EN: table (3x3) -->
+  <Table3x3c.label>TODO</Table3x3c.label>
+  <!-- EN: People eat off tables when chairs are placed facing them. -->
+  <Table3x3c.description>TODO</Table3x3c.description>
+  
+  <!-- EN: torch lamp -->
+  <TorchLamp.label>tocha</TorchLamp.label>
+  <!-- EN: A wooden torch for lighting an area. People need light to move and work at full speed. Can be automatically refueled with wood. Produces a small amount of heat. -->
+  <TorchLamp.description>Uma tocha de madeira para a iluminação de uma área. Pode ser reabastecida automaticamente com madeira. Produz uma pequena quantidade de calor.</TorchLamp.description>
+  
 </LanguageData>

@@ -1,79 +1,158 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Work tab -->
+  <!-- EN: Manual priorities -->
   <ManualPriorities>Priorid. manuais</ManualPriorities>
+  <!-- EN: higher priority -->
   <HigherPriority>maior prioridade</HigherPriority>
+  <!-- EN: lower priority -->
   <LowerPriority>menor prioridade</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
   <RelevantSkills>Habilidades revelantes: {0}\nMédia de habilidades relevantes: {1} / {2}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Clique para ir para:</ClickToJumpTo>
+  <!-- EN: {0} cannot do this kind of work. -->
   <CannotDoThisWork>{0} não pode fazer este tipo de trabalho.</CannotDoThisWork>
+  <!-- EN: (none) -->
   <NoneBrackets>(nada)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Este colono não é capaz de fazer qualquer trabalho deste tipo devido à sua condição de saúde.</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
+  <SelectedWorkTypeWithVeryBadSkill>TODO</SelectedWorkTypeWithVeryBadSkill>
   
   <!-- Assign tab -->
-  <CurrentOutfit>Trajes atuais</CurrentOutfit>
+  <!-- EN: Manage outfits -->
   <ManageOutfits>Gerenciar roupas</ManageOutfits>
+  <!-- EN: Clear forced -->
   <ClearForcedApparel>Tirar forçado</ClearForcedApparel>
+  <!-- EN: forced -->
   <ApparelForcedLower>forçado</ApparelForcedLower>
+  <!-- EN: Forced apparel -->
   <ForcedApparel>Vestuário forçado</ForcedApparel>
+  <!-- EN: Edit... -->
   <AssignTabEdit>Editar...</AssignTabEdit>
-  <CurrentDrugPolicies>Política de drogas atual</CurrentDrugPolicies>
+  <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Gerenciar políticas de drogas</ManageDrugPolicies>
   
   <!-- Restrictions tab -->
+  <!-- EN: Copy -->
   <Copy>Copiar</Copy>
+  <!-- EN: Paste -->
   <Paste>Colar</Paste>
+  <!-- EN: Allowed area -->
   <AllowedArea>Área permitida</AllowedArea>
   
   <!-- Animals tab -->
+  <!-- EN: Master -->
   <Master>Dono</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Prenhe ({0} / {1})</PregnantIconDesc>
-  <FollowDraftedTip>Seguir o dono enquanto o dono estiver alistado.</FollowDraftedTip>
-  <FollowFieldworkTip>Segue o dono enquanto o dono estiver trabalhando no campo (caça ou domesticação de animais).</FollowFieldworkTip>
-	
-  <!-- Factions tab -->
-  <Hostile>Hostil</Hostile>
-  <DefeatedLower>derrotado</DefeatedLower>
-  <HostileTo>Inimigo de {0}</HostileTo>
-  <CurrentGoodwill>Boa vontade atual com esta facção.</CurrentGoodwill>
+  <!-- EN: Bonded to -->
+  <BondedTo>TODO</BondedTo>
   
-	<!-- Social tab -->
-	<Friend>Amigo</Friend>
-	<Rival>Rival</Rival>
-	<Acquaintance>Conhecido</Acquaintance>
-	
+  <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
+  <IsPredator>TODO</IsPredator>
+  
+  <!-- Factions tab -->
+  <!-- EN: Hostile -->
+  <Hostile>Hostil</Hostile>
+  <!-- EN: Ally -->
+  <Ally>TODO</Ally>
+  <!-- EN: defeated -->
+  <DefeatedLower>derrotado</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
+  <HostileTo>Inimigo de {0}</HostileTo>
+  <!-- EN: Current goodwill and relations status with this faction. -->
+  <CurrentGoodwillTip>TODO</CurrentGoodwillTip>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
+  <CurrentGoodwillTip_PermanentEnemy>TODO</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Ally>TODO</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
+  <CurrentGoodwillTip_Neutral>TODO</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
+  <CurrentGoodwillTip_Hostile>TODO</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
+  <CurrentGoodwillTip_NaturalGoodwill>TODO</CurrentGoodwillTip_NaturalGoodwill>
+  
+  <!-- Social tab -->
+  <!-- EN: Friend -->
+  <Friend>Amigo</Friend>
+  <!-- EN: Rival -->
+  <Rival>Rival</Rival>
+  <!-- EN: Acquaintance -->
+  <Acquaintance>Conhecido</Acquaintance>
+  
   <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
   <Graph>Gráfico</Graph>
+  <!-- EN: Messages -->
+  <Messages>TODO</Messages>
+  <!-- EN: Statistics -->
   <Statistics>Estatísticas</Statistics>
   
   <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
   <SelectGraph>Escolha um gráfico</SelectGraph>
+  <!-- EN: Last 30 days -->
   <Last30Days>Últimos 30 dias</Last30Days>
+  <!-- EN: Last 100 days -->
   <Last100Days>Últimos 100 dias</Last100Days>
+  <!-- EN: Last 300 days -->
   <Last300Days>Últimos 300 dias</Last300Days>
+  <!-- EN: All -->
   <AllDays>Tudo</AllDays>
-  <Day>Dia</Day>
+  <!-- EN: Value -->
   <Value>Valor</Value>
+  <!-- EN: External -->
   <External>Externo</External>
 
+  <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
+  <ShowLetters>TODO</ShowLetters>
+  <!-- EN: Show messages -->
+  <ShowMessages>TODO</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
+  <PinArchivableTip>TODO</PinArchivableTip>
+  <!-- EN: no messages -->
+  <NoMessages>TODO</NoMessages>
+
   <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
   <Playtime>Tempo de jogo</Playtime>
+  <!-- EN: Storyteller -->
   <Storyteller>Narrador</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
   <ThisMapColonyWealthTotal>Riqueza da colônia (neste mapa)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
   <ThisMapColonyWealthItems>Riqueza da colônia (itens) (neste mapa)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
   <ThisMapColonyWealthBuildings>Riqueza da colônia (estruturas) (neste mapa)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (animals) (this map) -->
+  <ThisMapColonyWealthTameAnimals>TODO</ThisMapColonyWealthTameAnimals>
+  <!-- EN: Major threats -->
   <NumThreatBigs>Ameaças principais</NumThreatBigs>
+  <!-- EN: Enemy raids -->
   <NumEnemyRaids>Invasões inimigas</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
   <ThisMapDamageTaken>Dano recebido (neste mapa)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
   <ColonistsKilled>Colonos mortos</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
   <ColonistsLaunched>Colonos lançados no espaço</ColonistsLaunched>
 
   <!-- Research tab -->
+  <!-- EN: project tech level -->
   <ProjectTechLevel>nível de tecnologia do projeto</ProjectTechLevel>
+  <!-- EN: your tech level -->
   <YourTechLevel>seu nível de tecnologia</YourTechLevel>
+  <!-- EN: cost multiplier -->
   <ResearchCostMultiplier>multiplicador de custo</ResearchCostMultiplier>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>O custo base do projeto {0} se tornou {1} para você por causa do seu nível de tecnologia.</ResearchCostComparison>
   
 </LanguageData>

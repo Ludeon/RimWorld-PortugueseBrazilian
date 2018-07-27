@@ -1,156 +1,298 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- glow -->
+  <!-- Glow -->
+  <!-- EN: Dark -->
   <Dark>Escuro</Dark>
+  <!-- EN: Lit -->
   <Lit>Iluminado</Lit>
+  <!-- EN: Brightly lit -->
   <LitBrightly>Muito iluminado</LitBrightly>
   
-  <!-- history upload pref -->
+  <!-- History upload pref -->
+  <!-- EN: Undecided -->
   <Unspecified>Indeciso</Unspecified>
+  <!-- EN: Allow -->
   <Always>Permitir</Always>
+  <!-- EN: Do not allow -->
   <Never>Não permitir</Never>
   
   <!-- Price types -->
+  <!-- EN: very cheap -->
   <PriceTypeVeryCheap>muito barato</PriceTypeVeryCheap>
+  <!-- EN: cheap -->
   <PriceTypeCheap>barato</PriceTypeCheap>
+  <!-- EN: normal -->
   <PriceTypeNormal>normal</PriceTypeNormal>
+  <!-- EN: expensive -->
   <PriceTypeExpensive>caro</PriceTypeExpensive>
+  <!-- EN: exorbitant -->
   <PriceTypeExorbitant>exorbitante</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
+  <!-- EN: unstored -->
   <StoragePriorityUnstored>não estocado</StoragePriorityUnstored>
+  <!-- EN: low -->
   <StoragePriorityLow>baixa</StoragePriorityLow>
+  <!-- EN: normal -->
   <StoragePriorityNormal>normal</StoragePriorityNormal>
+  <!-- EN: preferred -->
   <StoragePriorityPreferred>preferida</StoragePriorityPreferred>
+  <!-- EN: important -->
   <StoragePriorityImportant>importante</StoragePriorityImportant>
+  <!-- EN: critical -->
   <StoragePriorityCritical>crítica</StoragePriorityCritical>
 
   <!-- Food type flags -->
+  <!-- EN: vegetables -->
   <FoodTypeFlags_VegetableOrFruit>vegetais</FoodTypeFlags_VegetableOrFruit>
+  <!-- EN: raw meat -->
   <FoodTypeFlags_Meat>carne crua</FoodTypeFlags_Meat>
+  <!-- EN: corpses -->
   <FoodTypeFlags_Corpse>cadáveres</FoodTypeFlags_Corpse>
+  <!-- EN: seeds -->
   <FoodTypeFlags_Seed>sementes</FoodTypeFlags_Seed>
+  <!-- EN: animal products -->
   <FoodTypeFlags_AnimalProduct>produtos de origem animal</FoodTypeFlags_AnimalProduct>
+  <!-- EN: live plants -->
   <FoodTypeFlags_Plant>plantas vivas</FoodTypeFlags_Plant>
+  <!-- EN: live trees -->
   <FoodTypeFlags_Tree>árvores vivas</FoodTypeFlags_Tree>
+  <!-- EN: meals -->
   <FoodTypeFlags_Meal>refeições</FoodTypeFlags_Meal>
+  <!-- EN: processed foods -->
   <FoodTypeFlags_Processed>alimentos processados</FoodTypeFlags_Processed>
+  <!-- EN: liquor -->
   <FoodTypeFlags_Liquor>licor</FoodTypeFlags_Liquor>
+  <!-- EN: kibble -->
   <FoodTypeFlags_Kibble>ração</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
+  <!-- EN: awful -->
   <QualityCategory_Awful>horrível</QualityCategory_Awful>
-  <QualityCategory_Shoddy>ruim</QualityCategory_Shoddy>
+  <!-- EN: poor -->
   <QualityCategory_Poor>pobre</QualityCategory_Poor>
+  <!-- EN: normal -->
   <QualityCategory_Normal>normal</QualityCategory_Normal>
+  <!-- EN: good -->
   <QualityCategory_Good>bom</QualityCategory_Good>
-  <QualityCategory_Superior>superior</QualityCategory_Superior>
+  <!-- EN: excellent -->
   <QualityCategory_Excellent>excelente</QualityCategory_Excellent>
+  <!-- EN: masterwork -->
   <QualityCategory_Masterwork>obra-prima</QualityCategory_Masterwork>
+  <!-- EN: legendary -->
   <QualityCategory_Legendary>lendário</QualityCategory_Legendary>
+  <!-- EN: awfl -->
   <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>ruim</QualityCategoryShort_Shoddy>
+  <!-- EN: poor -->
   <QualityCategoryShort_Poor>pobr</QualityCategoryShort_Poor>
+  <!-- EN: norm -->
   <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
+  <!-- EN: good -->
   <QualityCategoryShort_Good>bom</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>supe</QualityCategoryShort_Superior>
+  <!-- EN: exc -->
   <QualityCategoryShort_Excellent>exce</QualityCategoryShort_Excellent>
+  <!-- EN: mast -->
   <QualityCategoryShort_Masterwork>obra</QualityCategoryShort_Masterwork>
+  <!-- EN: legd -->
   <QualityCategoryShort_Legendary>lege</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
+  <!-- EN: Starving -->
   <HungerLevel_Starving>Faminto</HungerLevel_Starving>
+  <!-- EN: Urgently hungry -->
   <HungerLevel_UrgentlyHungry>Urgentemente com fome</HungerLevel_UrgentlyHungry>
+  <!-- EN: Hungry -->
   <HungerLevel_Hungry>Fome</HungerLevel_Hungry>
+  <!-- EN: Fed -->
   <HungerLevel_Fed>Alimentado</HungerLevel_Fed>
 
   <!-- -Fatigue -->
+  <!-- EN: Exhausted -->
   <HungerLevel_Exhausted>Exausto</HungerLevel_Exhausted>
+  <!-- EN: Very tired -->
   <HungerLevel_VeryTired>Muito cansado</HungerLevel_VeryTired>
+  <!-- EN: Tired -->
   <HungerLevel_Tired>Cansado</HungerLevel_Tired>
+  <!-- EN: Rested -->
   <HungerLevel_Rested>Descansado</HungerLevel_Rested>
 
   <!-- Hilliness -->
+  <!-- EN: flat -->
   <Hilliness_Flat>plano</Hilliness_Flat>
+  <!-- EN: small hills -->
   <Hilliness_SmallHills>colinas pequenas</Hilliness_SmallHills>
+  <!-- EN: large hills -->
   <Hilliness_LargeHills>colinas grandes</Hilliness_LargeHills>
+  <!-- EN: mountainous -->
   <Hilliness_Mountainous>montanhoso</Hilliness_Mountainous>
+  <!-- EN: impassable -->
   <Hilliness_Impassable>intransitável</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
+  <!-- EN: Creating -->
   <WorkshopInteractStage_CreatingItem>Criando</WorkshopInteractStage_CreatingItem>
+  <!-- EN: Submitting -->
   <WorkshopInteractStage_SubmittingItem>Submetendo</WorkshopInteractStage_SubmittingItem>
+  <!-- EN: Invalid -->
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Inválido</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <!-- EN: Preparing config data -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Preparando dados de configuração</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <!-- EN: Preparing content files -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Preparando arquivos de conteúdo</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <!-- EN: Uploading content -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Enviando conteúdo</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <!-- EN: Uploading preview file -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Arquivo de visualização de conteúdo</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <!-- EN: Committing changes -->
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Fazendo mudanças</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
+  <!-- EN: local folder -->
   <ContentSource_LocalFolder>pasta local</ContentSource_LocalFolder>
+  <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>Oficina Steam</ContentSource_SteamWorkshop>
   
-  <!-- Trainable intelligence -->
-  <TrainableIntelligence_None>nada</TrainableIntelligence_None>
-  <TrainableIntelligence_Simple>simples</TrainableIntelligence_Simple>
-  <TrainableIntelligence_Intermediate>intermediário</TrainableIntelligence_Intermediate>
-  <TrainableIntelligence_Advanced>avançado</TrainableIntelligence_Advanced>
-
   <!-- Medical care category -->
+  <!-- EN: No medical care -->
   <MedicalCareCategory_NoCare>Sem atendimento médico</MedicalCareCategory_NoCare>
+  <!-- EN: Doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>Atendimento médico, mas sem medicina</MedicalCareCategory_NoMeds>
+  <!-- EN: Herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>Medicina herbal ou pior</MedicalCareCategory_HerbalOrWorse>
+  <!-- EN: Industrial-tech medicine or worse -->
   <MedicalCareCategory_NormalOrWorse>Medicina normal ou pior</MedicalCareCategory_NormalOrWorse>
+  <!-- EN: Best quality medicine -->
   <MedicalCareCategory_Best>Melhor medicina e assistência médica</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
+  <!-- EN: Ignore -->
   <HostilityResponseMode_Ignore>Ignorar</HostilityResponseMode_Ignore>
+  <!-- EN: Attack -->
   <HostilityResponseMode_Attack>Atacar</HostilityResponseMode_Attack>
+  <!-- EN: Flee -->
   <HostilityResponseMode_Flee>Fugir</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
+  <!-- EN: growing -->
   <HediffGrowthMode_Growing>crescendo</HediffGrowthMode_Growing>
+  <!-- EN: stable -->
   <HediffGrowthMode_Stable>estável</HediffGrowthMode_Stable>
+  <!-- EN: remission -->
   <HediffGrowthMode_Remission>remissão</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
+  <!-- EN: animal -->
   <TechLevel_Animal>animal</TechLevel_Animal>
+  <!-- EN: neolithic -->
   <TechLevel_Neolithic>neolítico</TechLevel_Neolithic>
+  <!-- EN: medieval -->
   <TechLevel_Medieval>medieval</TechLevel_Medieval>
+  <!-- EN: industrial -->
   <TechLevel_Industrial>industrial</TechLevel_Industrial>
+  <!-- EN: spacer -->
   <TechLevel_Spacer>espacial</TechLevel_Spacer>
+  <!-- EN: ultra -->
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
-  <TechLevel_Transcendent>transcendente</TechLevel_Transcendent>
+  <!-- EN: archotech -->
+  <TechLevel_Archotech>TODO</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
+  <!-- EN: Standing -->
   <PlayerPawnsArriveMethod_Standing>De pé</PlayerPawnsArriveMethod_Standing>
+  <!-- EN: Drop pods -->
   <PlayerPawnsArriveMethod_DropPods>Cápsulas caídas</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
+  <!-- EN: all characters -->
   <PawnGenerationContext_All>todos os personagens</PawnGenerationContext_All>
+  <!-- EN: player starting characters -->
   <PawnGenerationContext_PlayerStarter>personagens jogáveis iniciais</PawnGenerationContext_PlayerStarter>
+  <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>personagens não jogáveis</PawnGenerationContext_NonPlayer>
   
   <!-- Animal name display mode -->
+  <!-- EN: Show animal names -->
   <ShowAnimalNames>Ver nomes - animais</ShowAnimalNames>
+  <!-- EN: Tame (named only) -->
   <AnimalNameDisplayMode_TameNamed>Domados(nomeados)</AnimalNameDisplayMode_TameNamed>
+  <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Domados(todos)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
+  <!-- EN: Celsius -->
   <Celsius>Celsius</Celsius>
+  <!-- EN: Fahrenheit -->
   <Fahrenheit>Fahrenheit</Fahrenheit>
+  <!-- EN: Kelvin -->
   <Kelvin>Kelvin</Kelvin>
   
   <!-- Direction8Way -->
+  <!-- EN: N -->
   <Direction8Way_North_Short>N</Direction8Way_North_Short>
+  <!-- EN: NE -->
   <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
+  <!-- EN: E -->
   <Direction8Way_East_Short>L</Direction8Way_East_Short>
+  <!-- EN: SE -->
   <Direction8Way_SouthEast_Short>SE</Direction8Way_SouthEast_Short>
+  <!-- EN: S -->
   <Direction8Way_South_Short>S</Direction8Way_South_Short>
+  <!-- EN: SW -->
   <Direction8Way_SouthWest_Short>SO</Direction8Way_SouthWest_Short>
+  <!-- EN: W -->
   <Direction8Way_West_Short>O</Direction8Way_West_Short>
+  <!-- EN: NW -->
   <Direction8Way_NorthWest_Short>NO</Direction8Way_NorthWest_Short>
   
+  <!-- Diet category -->
+  <!-- EN: Never eats -->
+  <DietCategory_NeverEats>TODO</DietCategory_NeverEats>
+  <!-- EN: Herbivorous -->
+  <DietCategory_Herbivorous>TODO</DietCategory_Herbivorous>
+  <!-- EN: Dendrovorous -->
+  <DietCategory_Dendrovorous>TODO</DietCategory_Dendrovorous>
+  <!-- EN: Ovivorous -->
+  <DietCategory_Ovivorous>TODO</DietCategory_Ovivorous>
+  <!-- EN: Omnivorous -->
+  <DietCategory_Omnivorous>TODO</DietCategory_Omnivorous>
+  <!-- EN: Carnivorous -->
+  <DietCategory_Carnivorous>TODO</DietCategory_Carnivorous>
+  <!-- EN: - -->
+  <DietCategory_NeverEats_Short>TODO</DietCategory_NeverEats_Short>
+  <!-- EN: H -->
+  <DietCategory_Herbivorous_Short>TODO</DietCategory_Herbivorous_Short>
+  <!-- EN: D -->
+  <DietCategory_Dendrovorous_Short>TODO</DietCategory_Dendrovorous_Short>
+  <!-- EN: Ov -->
+  <DietCategory_Ovivorous_Short>TODO</DietCategory_Ovivorous_Short>
+  <!-- EN: O -->
+  <DietCategory_Omnivorous_Short>TODO</DietCategory_Omnivorous_Short>
+  <!-- EN: C -->
+  <DietCategory_Carnivorous_Short>TODO</DietCategory_Carnivorous_Short>
+
+  <!-- Food poison cause -->
+  <!-- EN: incompetent cook -->
+  <FoodPoisonCause_IncompetentCook>TODO</FoodPoisonCause_IncompetentCook>
+  <!-- EN: dirty cooking area -->
+  <FoodPoisonCause_FilthyKitchen>TODO</FoodPoisonCause_FilthyKitchen>
+  <!-- EN: rotten food -->
+  <FoodPoisonCause_Rotten>TODO</FoodPoisonCause_Rotten>
+  <!-- EN: dangerous food type -->
+  <FoodPoisonCause_DangerousFoodType>TODO</FoodPoisonCause_DangerousFoodType>
+
+  <!-- Psychic drone level -->
+  <!-- EN: none -->
+  <PsychicDroneLevel_None>TODO</PsychicDroneLevel_None>
+  <!-- EN: medium -->
+  <PsychicDroneLevel_GoodMedium>TODO</PsychicDroneLevel_GoodMedium>
+  <!-- EN: low -->
+  <PsychicDroneLevel_BadLow>TODO</PsychicDroneLevel_BadLow>
+  <!-- EN: medium -->
+  <PsychicDroneLevel_BadMedium>TODO</PsychicDroneLevel_BadMedium>
+  <!-- EN: high -->
+  <PsychicDroneLevel_BadHigh>TODO</PsychicDroneLevel_BadHigh>
+  <!-- EN: extreme -->
+  <PsychicDroneLevel_BadExtreme>TODO</PsychicDroneLevel_BadExtreme>
+
 </LanguageData>
