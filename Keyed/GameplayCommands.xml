@@ -73,7 +73,7 @@
   <!-- EN: Assign -->
   <BuildingAssign>Definir</BuildingAssign>
   <!-- EN: Reassign -->
-  <BuildingReassign>TODO</BuildingReassign>
+  <BuildingReassign>Reatribuir</BuildingReassign>
   <!-- EN: Unassign -->
   <BuildingUnassign>Indefinir</BuildingUnassign>
   <!-- EN: For prisoners -->
@@ -142,15 +142,15 @@
   <!-- EN: Not currently force-attacking. -->
   <CommandStopAttackFailNotForceAttacking>O ataque atual não é forçado.</CommandStopAttackFailNotForceAttacking>
   <!-- EN: Extract shell -->
-  <CommandExtractShell>TODO</CommandExtractShell>
+  <CommandExtractShell>Extrair munição</CommandExtractShell>
   <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
-  <CommandExtractShellDesc>TODO</CommandExtractShellDesc>
+  <CommandExtractShellDesc>Remove a munição atual para que ela possa ser substituída por uma munição diferente.</CommandExtractShellDesc>
   <!-- EN: Target beyond maximum range. -->
   <MessageTargetBeyondMaximumRange>Alvo fora do alcance máximo.</MessageTargetBeyondMaximumRange>
   <!-- EN: Target below minimum range. -->
   <MessageTargetBelowMinimumRange>Alvo abaixo alcance mínimo.</MessageTargetBelowMinimumRange>
   <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
-  <MessageTurretWontFireBecauseHoldFire>TODO</MessageTurretWontFireBecauseHoldFire>
+  <MessageTurretWontFireBecauseHoldFire>Aviso: A artilharia não irá disparar porque está definida para "Segurar o fogo".</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
   <!-- EN: Launch ship -->
@@ -162,9 +162,9 @@
   <!-- EN: Show a readiness report about the ship's launch capability. -->
   <CommandShipLaunchReportDesc>Mostrar um relatório de prontidão sobre a capacidade de lançamento da nave.</CommandShipLaunchReportDesc>
   <!-- EN: Start ship -->
-  <CommandShipStartup>TODO</CommandShipStartup>
+  <CommandShipStartup>Iniciar nave</CommandShipStartup>
   <!-- EN: Wake up hibernating ship components. -->
-  <CommandShipStartupDesc>TODO</CommandShipStartupDesc>
+  <CommandShipStartupDesc>Inicie os componentes da nave em hibernação.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <!-- EN: Eject sleeper -->
@@ -236,9 +236,9 @@
   
   <!-- Melee attack -->
   <!-- EN: Melee attack -->
-  <CommandMeleeAttack>TODO</CommandMeleeAttack>
+  <CommandMeleeAttack>Ataque corpo a corpo</CommandMeleeAttack>
   <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
-  <CommandMeleeAttackDesc>TODO</CommandMeleeAttackDesc>
+  <CommandMeleeAttackDesc>Ordene colonos selecionados para atacar o alvo designado usando apenas punhos e armas brancas.</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <!-- EN: Hold fire -->
@@ -256,7 +256,7 @@
   
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
-  <CommandSelectMineralToScanFor>TODO</CommandSelectMineralToScanFor>
+  <CommandSelectMineralToScanFor>Sintonizado</CommandSelectMineralToScanFor>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -290,7 +290,7 @@
   <!-- EN: Merge selected caravans. -->
   <CommandMergeCaravansDesc>Une as caravanas selecionadas.</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
-  <CommandMergeCaravansFailCaravansNotSelected>TODO</CommandMergeCaravansFailCaravansNotSelected>
+  <CommandMergeCaravansFailCaravansNotSelected>Selecione todas as caravanas que devem ser mescladas. As caravanas devem estar próximas umas das outras.</CommandMergeCaravansFailCaravansNotSelected>
   
   <!-- Settle -->
   <!-- EN: Settle -->
@@ -322,15 +322,15 @@
 
   <!-- Remove from caravan -->
   <!-- EN: Remove from caravan -->
-  <CommandRemoveFromCaravan>TODO</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravan>Remover da caravana</CommandRemoveFromCaravan>
   <!-- EN: Remove this person or animal from the caravan. -->
-  <CommandRemoveFromCaravanDesc>TODO</CommandRemoveFromCaravanDesc>
+  <CommandRemoveFromCaravanDesc>Remova essa pessoa ou animal da caravana.</CommandRemoveFromCaravanDesc>
   
   <!-- Add to caravan -->
   <!-- EN: Add to caravan -->
-  <CommandAddToCaravan>TODO</CommandAddToCaravan>
+  <CommandAddToCaravan>Adicionar à caravana</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
-  <CommandAddToCaravanDesc>TODO</CommandAddToCaravanDesc>
+  <CommandAddToCaravanDesc>Adicione essa pessoa ou animal à caravana em formação.</CommandAddToCaravanDesc>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -348,9 +348,9 @@
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
-  <CommandOfferGifts>TODO</CommandOfferGifts>
+  <CommandOfferGifts>Oferecer presentes</CommandOfferGifts>
   <!-- EN: Offer gifts to this faction. -->
-  <CommandOfferGiftsDesc>TODO</CommandOfferGiftsDesc>
+  <CommandOfferGiftsDesc>Ofereça presentes a essa facção.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <!-- EN: Fulfill trade offer -->
@@ -436,20 +436,20 @@
 
   <!-- Pause caravan -->
   <!-- EN: Rest -->
-  <CommandPauseCaravan>TODO</CommandPauseCaravan>
+  <CommandPauseCaravan>Descansar</CommandPauseCaravan>
   <!-- EN: Stop the caravan for a moment. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}\n  - Sick people can rest in bedrolls -->
-  <CommandToggleCaravanPauseDesc>TODO</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Pare a caravana por um momento. Isso tem os seguintes benefícios: \n\n- As pessoas podem interagir socialmente \n- Recolha forragem {0} vezes mais rápido \n- Visibilidade multiplicada por {1} \n- Pessoas doentes podem descansar em colchonetes</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
-  <CommandShowSellableItems>TODO</CommandShowSellableItems>
+  <CommandShowSellableItems>Mostre o que vai comprar</CommandShowSellableItems>
   <!-- EN: Show everything this trader wants to buy. -->
-  <CommandShowSellableItemsDesc>TODO</CommandShowSellableItemsDesc>
+  <CommandShowSellableItemsDesc>Mostre tudo que este comerciante quer comprar.</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
   <!-- EN: Attack -->
-  <CommandAttackSettlement>TODO</CommandAttackSettlement>
+  <CommandAttackSettlement>Ataque</CommandAttackSettlement>
   <!-- EN: Attack this settlement. -->
-  <CommandAttackSettlementDesc>TODO</CommandAttackSettlementDesc>
+  <CommandAttackSettlementDesc>Ataque esse assentamento.</CommandAttackSettlementDesc>
 
 </LanguageData>

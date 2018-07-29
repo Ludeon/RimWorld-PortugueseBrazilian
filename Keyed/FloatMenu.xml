@@ -36,7 +36,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>não pode ordenar unidades não controladas</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
-  <CannotAttackSelf>TODO</CannotAttackSelf>
+  <CannotAttackSelf>não pode se atacar</CannotAttackSelf>
 
   <!-- EN: Man {0} -->
   <OrderManThing>Usar {0}</OrderManThing>
@@ -59,19 +59,19 @@
   <!-- EN: no empty, accessible spot configured to store it -->
   <NoEmptyPlaceLower>sem local vazio configurado para armazenar isto</NoEmptyPlaceLower>
   <!-- EN: no stack available to merge into -->
-  <NoMergeTarget>TODO</NoMergeTarget>
+  <NoMergeTarget>nenhuma pilha disponível para mesclar</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>já está preenchido o suficiente</AlreadyFilledLower>
   <!-- EN: need material -->
   <MissingMaterials>precisa de materiais</MissingMaterials>
   <!-- EN: under required skill {0} -->
-  <UnderRequiredSkill>TODO</UnderRequiredSkill>
+  <UnderRequiredSkill>sob a habilidade requerida {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
-  <UnderAllowedSkill>TODO</UnderAllowedSkill>
+  <UnderAllowedSkill>sob a habilidade permitida {0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
-  <AboveAllowedSkill>TODO</AboveAllowedSkill>
+  <AboveAllowedSkill>acima da habilidade permitida {0}</AboveAllowedSkill>
   <!-- EN: missing required skill level -->
-  <MissingRequiredSkillLevel>TODO</MissingRequiredSkillLevel>
+  <MissingRequiredSkillLevel>falta nível de habilidade requerida</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>animal interagido muito recentemente</AnimalInteractedTooRecently>
   <!-- EN: no usable food -->
@@ -81,13 +81,13 @@
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>habilidade de animais muito baixo</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
-  <CantInteractAnimalDowned>TODO</CantInteractAnimalDowned>
+  <CantInteractAnimalDowned>animal abatido</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
-  <CantInteractAnimalAsleep>TODO</CantInteractAnimalAsleep>
+  <CantInteractAnimalAsleep>animal dormindo</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
-  <CantInteractAnimalBusy>TODO</CantInteractAnimalBusy>
+  <CantInteractAnimalBusy>animal ocupado</CantInteractAnimalBusy>
   <!-- EN: construction skill too low -->
-  <ConstructionSkillTooLow>TODO</ConstructionSkillTooLow>
+  <ConstructionSkillTooLow>habilidade de construção muito baixa</ConstructionSkillTooLow>
   <!-- EN: need components -->
   <NoComponentsToRepair>precisa de componentes</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -103,19 +103,19 @@
   <!-- EN: reserved for prisoners -->
   <ReservedForPrisoners>reservado para prisioneiros</ReservedForPrisoners>
   <!-- EN: cannot reach -->
-  <CannotReach>TODO</CannotReach>
+  <CannotReach>não pode alcançar</CannotReach>
   <!-- EN: not ready for surgery -->
-  <NotSurgeryReady>TODO</NotSurgeryReady>
+  <NotSurgeryReady>não está pronto para cirurgia</NotSurgeryReady>
   <!-- EN: skill incapable -->
-  <SkillDisabled>TODO</SkillDisabled>
+  <SkillDisabled>habilidade incapaz</SkillDisabled>
   <!-- EN: too bright -->
-  <CantSowCavePlantBecauseOfLight>TODO</CantSowCavePlantBecauseOfLight>
+  <CantSowCavePlantBecauseOfLight>muito brilhante</CantSowCavePlantBecauseOfLight>
   <!-- EN: unroofed -->
-  <CantSowCavePlantBecauseUnroofed>TODO</CantSowCavePlantBecauseUnroofed>
+  <CantSowCavePlantBecauseUnroofed>sem teto</CantSowCavePlantBecauseUnroofed>
   <!-- EN: incapable of deconstruction -->
-  <IncapableOfDeconstruction>TODO</IncapableOfDeconstruction>
+  <IncapableOfDeconstruction>incapaz de desconstruir</IncapableOfDeconstruction>
   <!-- EN: angers faction -->
-  <AngersFaction>TODO</AngersFaction>
+  <AngersFaction>irrita facção</AngersFaction>
   
   <!-- EN: Consume {0} -->
   <ConsumeThing>Consumir {0}</ConsumeThing>
@@ -179,7 +179,7 @@
   <!-- EN: Cannot equip {0} -->
   <CannotEquip>Não pode equipar {0}</CannotEquip>
   <!-- EN: Cannot man {0} -->
-  <CannotManThing>TODO</CannotManThing>
+  <CannotManThing>Não é possível homem {0}</CannotManThing>
   
   <!-- EN: Force wear {0} -->
   <ForceWear>Forçar a vestir {0}</ForceWear>
@@ -215,26 +215,26 @@
   <GiveToPackAnimalCount>Pegar {0} x{{0}}</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {0} into caravan -->
-  <CannotLoadIntoCaravan>TODO</CannotLoadIntoCaravan>
+  <CannotLoadIntoCaravan>Não é possível carregar {0} na caravana</CannotLoadIntoCaravan>
   <!-- EN: Cannot load {0} (all) into caravan -->
-  <CannotLoadIntoCaravanAll>TODO</CannotLoadIntoCaravanAll>
+  <CannotLoadIntoCaravanAll>Não é possível carregar {0} (todos) na caravana</CannotLoadIntoCaravanAll>
   <!-- EN: Load {0} into caravan -->
-  <LoadIntoCaravan>TODO</LoadIntoCaravan>
+  <LoadIntoCaravan>Carregue {0} na caravana</LoadIntoCaravan>
   <!-- EN: Load {0} (all) into caravan -->
-  <LoadIntoCaravanAll>TODO</LoadIntoCaravanAll>
+  <LoadIntoCaravanAll>Carregue {0} (tudo) na caravana</LoadIntoCaravanAll>
   <!-- EN: Load {0} into caravan... -->
-  <LoadIntoCaravanSome>TODO</LoadIntoCaravanSome>
+  <LoadIntoCaravanSome>Carregue {0} na caravana...</LoadIntoCaravanSome>
   <!-- EN: Load {0} x{{0}} -->
-  <LoadIntoCaravanCount>TODO</LoadIntoCaravanCount>
+  <LoadIntoCaravanCount>Carregue {0} x{{0}}</LoadIntoCaravanCount>
   <!-- EN: overweight -->
-  <OverweightLower>TODO</OverweightLower>
+  <OverweightLower>excesso de peso</OverweightLower>
 
   <!-- EN: Cannot carry {0} and leave the area -->
   <CannotCarryToExit>Não pode transportar {0} e deixar a área</CannotCarryToExit>
   <!-- EN: Carry {0} and leave the area -->
   <CarryToExit>Transportar {0} e deixar a área</CarryToExit>
   <!-- EN: Capture {0} and leave the area -->
-  <CarryToExitAndCapture>TODO</CarryToExitAndCapture>
+  <CarryToExitAndCapture>Capture {0} e saia da área</CarryToExitAndCapture>
   
   <!-- EN: Strip {0} -->
   <Strip>Desvestir {0}</Strip>
@@ -264,17 +264,17 @@
   <!-- EN: Visit {0} -->
   <VisitSettlement>Visitar {0}</VisitSettlement>
   <!-- EN: Visit {0} -->
-  <VisitPeaceTalks>TODO</VisitPeaceTalks>
+  <VisitPeaceTalks>Visite {0}</VisitPeaceTalks>
   <!-- EN: Visit {0} -->
-  <VisitEscapeShip>TODO</VisitEscapeShip>
+  <VisitEscapeShip>Visite {0}</VisitEscapeShip>
   <!-- EN: Attack {0} -->
   <AttackSettlement>Atacar {0}</AttackSettlement>
   <!-- EN: Approach {0} -->
-  <ApproachSite>TODO</ApproachSite>
+  <ApproachSite>Abordagem {0}</ApproachSite>
   <!-- EN: Approaching {0} -->
-  <ApproachingSite>TODO</ApproachingSite>
+  <ApproachingSite>Aproximando {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
-  <OfferGifts>TODO</OfferGifts>
+  <OfferGifts>Oferecer presentes</OfferGifts>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -286,7 +286,7 @@
   <!-- EN: Cannot {0} {1} -->
   <CannotGenericWork>Não pode {0} {1}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
-  <CannotGenericWorkCustom>TODO</CannotGenericWorkCustom>
+  <CannotGenericWorkCustom>Não é possível {0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize (incapable of {0}) -->
   <CannotMissingHealthActivities>Não pode priorizar (incapaz de {0})</CannotMissingHealthActivities>
@@ -301,12 +301,12 @@
   <!-- EN: Cannot prioritize (will never {0}) -->
   <CannotPrioritizeWorkGiverDisabled>Não é possível priorizar (nunca vai {0})</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
-  <WillNever>TODO</WillNever>
+  <WillNever>nunca vai {0}</WillNever>
 
   <!-- EN: Cannot prioritize (not assigned to {0}) -->
   <CannotPrioritizeNotAssignedToWorkType>Não pode priorizar (não atribuído a {0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>TODO</NotAssigned>
+  <NotAssigned>não atribuído</NotAssigned>
 
   <!-- EN: Cannot prioritize (research is a long-term task) -->
   <CannotPrioritizeResearch>Não pode priorizar (pesquisar é uma tarefa de longo prazo)</CannotPrioritizeResearch>
@@ -314,7 +314,7 @@
   <!-- EN: Cannot prioritize ({0} is forbidden) -->
   <CannotPrioritizeForbidden>Não pode priorizar ({0} está proibido)</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize (forbidden) -->
-  <CannotPrioritizeCellForbidden>TODO</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeCellForbidden>Não é possível priorizar (proibido)</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Não pode priorizar ({0} está fora da área permitida)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
@@ -327,9 +327,9 @@
   <!-- EN: Drop in center -->
   <DropInCenter>Cair no centro</DropInCenter>
   <!-- EN: Attack {0}: Drop at edge -->
-  <AttackAndDropAtEdge>TODO</AttackAndDropAtEdge>
+  <AttackAndDropAtEdge>Ataque {0}: deixará</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
-  <AttackAndDropInCenter>TODO</AttackAndDropInCenter>
+  <AttackAndDropInCenter>Ataque {0}: Soltará</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
   <VomitingLower>vomitando</VomitingLower>
@@ -342,32 +342,32 @@
   <RemoveWaypoint>Remover este waypoint</RemoveWaypoint>
 
   <!-- EN: Cancel all designations -->
-  <RemoveAllDesignations>TODO</RemoveAllDesignations>
+  <RemoveAllDesignations>Cancelar todas as designações</RemoveAllDesignations>
   <!-- EN: Designate all -->
-  <DesignateAll>TODO</DesignateAll>
+  <DesignateAll>Designar todos</DesignateAll>
   <!-- EN: {0} affected -->
-  <CountToDesignate>TODO</CountToDesignate>
+  <CountToDesignate>{0} afetado</CountToDesignate>
   <!-- EN: Forbid all items -->
-  <ForbidAllItems>TODO</ForbidAllItems>
+  <ForbidAllItems>Proibir todos os itens</ForbidAllItems>
   <!-- EN: Unforbid all items -->
-  <UnforbidAllItems>TODO</UnforbidAllItems>
+  <UnforbidAllItems>Permitir todos os itens</UnforbidAllItems>
 
   <!-- Transport pods -->
   <!-- EN: Zoom in and choose a landing spot in {0} -->
-  <LandInExistingMap>TODO</LandInExistingMap>
+  <LandInExistingMap>Aumente o zoom e escolha um local de pouso em {0}</LandInExistingMap>
   <!-- EN: The contents will be lost -->
-  <TransportPodsContentsWillBeLost>TODO</TransportPodsContentsWillBeLost>
+  <TransportPodsContentsWillBeLost>O conteúdo será perdido</TransportPodsContentsWillBeLost>
   <!-- EN: Form caravan here -->
-  <FormCaravanHere>TODO</FormCaravanHere>
+  <FormCaravanHere>Formar caravana aqui</FormCaravanHere>
   <!-- EN: Give to {0} -->
-  <GiveToCaravan>TODO</GiveToCaravan>
+  <GiveToCaravan>Dê para {0}</GiveToCaravan>
   <!-- EN: Give as a gift to {0} ({1}) -->
-  <GiveGiftViaTransportPods>TODO</GiveGiftViaTransportPods>
+  <GiveGiftViaTransportPods>Dar de presente para {0} ({1})</GiveGiftViaTransportPods>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
-  <FreePrisoner>TODO</FreePrisoner>
+  <FreePrisoner>Libertar prisioneiro</FreePrisoner>
   <!-- EN: Offer help -->
-  <OfferHelp>TODO</OfferHelp>
+  <OfferHelp>Oferecer ajuda</OfferHelp>
   
 </LanguageData>

@@ -13,7 +13,7 @@
   <!-- EN: Blight -->
   <LetterLabelCropBlight>Praga</LetterLabelCropBlight>
   <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
-  <LetterCropBlight>TODO</LetterCropBlight>
+  <LetterCropBlight>Um colono notou uma praga em suas plantações! Você deve cortar ou queimar as plantas danificadas antes que a praga se espalhe.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Milagre</LetterLabelMiracleHeal>
@@ -33,11 +33,11 @@
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.\n\nDepending on [PAWN_nameDef]'s faction, you may be able to rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash>Você detectou uma cápsula de escape caindo nas proximidades.\n\nSe alguém sobreviveu ao impacto, eles irão estar gravemente feridos.</RefugeePodCrash>
   <!-- EN: You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_NonHostileOrFactionless>TODO</RefugeePodCrash_NonHostileOrFactionless>
+  <RefugeePodCrash_NonHostileOrFactionless>Você pode resgatar [PAWN_objective] e enviar [PAWN_objective] no modo [PAWN_possessive]. Ou capture [PAWN_objective] para fins de recrutamento ou escravidão.</RefugeePodCrash_NonHostileOrFactionless>
   <!-- EN: You can capture [PAWN_objective] for recruitment or slavery purposes. [PAWN_pronoun] is from [PAWN_factionName]. -->
-  <RefugeePodCrash_Hostile>TODO</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>Você pode capturar [PAWN_objective] para propósitos de recrutamento ou escravidão. [PAWN_pronoun] é de [PAWN_factionName].</RefugeePodCrash_Hostile>
   <!-- EN: Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations. -->
-  <RefugeePodCrash_NonHostile>TODO</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>Nota: [PAWN_nameDef] é de [PAWN_factionName]. Capturar [PAWN_objective] irá irritá-los, enquanto resgatar e curar [PAWN_objective] melhorará as relações entre as facções.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
@@ -49,9 +49,9 @@
   <!-- EN: A fault in {0} has caused a short circuit. -->
   <ShortCircuit>Uma falha no {0} causou um curto-circuito.\n\nTodos os {1} de energia nas baterias conectadas foram descarregados em uma explosão elétrica.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>TODO</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>Uma falha em {0} causou um curto-circuito que iniciou um incêndio.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>TODO</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>Todos os {0} Wd de energia nas baterias conectadas foram descarregados em uma explosão elétrica.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
   <ShortCircuitWasLarge>Esta grande quantidade de energia criou uma explosão de tamanho considerável.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
@@ -191,13 +191,13 @@
   <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
   <JourneyOffer>Uma IA amigável do seu passado chamada Charlon Whitestone lhe enviou uma mensagem!\n\nEla revela que existe uma nave estrelar escondida neste planeta, e lhe envia suas coordenadas mundiais.\n\nSe você viajar para a nave, Charlon irá levá-lo para fora deste mundo isolado, para as estrelas.</JourneyOffer>
   <!-- EN: Ship found -->
-  <EscapeShipFoundLabel>TODO</EscapeShipFoundLabel>
+  <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>TODO</EscapeShipFound>
+  <EscapeShipFound>Você alcançou as coordenadas enviadas por Charlon Whitestone e descobriu a nave estelar oculta. \n\nO reator da nave ainda está no modo de hibernação, por isso não pode voar ainda. Você pode iniciá-lo interagindo com o núcleo do computador. \n\nCharlon Whitestone avisa que o processo de inicialização levará cerca de 15 dias, e a assinatura de energia será detectável a longa distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanóides mortais. \n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</EscapeShipFound>
   <!-- EN: Ship destroyed -->
-  <EscapeShipLostLabel>TODO</EscapeShipLostLabel>
+  <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
   <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>TODO</EscapeShipLost>
+  <EscapeShipLost>O Charlon Whitestone envia uma mensagem para você. \n\nEle vê que você perdeu o controle da nave. Para impedir que caia nas mãos erradas, ele foi forçado a acionar o mecanismo de autodestruição da nave. A nave agora virou uma cratera. \n\nVocê precisará encontrar outra saída deste planeta.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -211,7 +211,7 @@
   <!-- EN: Move on -->
   <CaravanMeeting_MoveOn>Seguir em frente</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
-  <CaravanMeeting_TradeIncapable>TODO</CaravanMeeting_TradeIncapable>
+  <CaravanMeeting_TradeIncapable>nenhum membro da caravana é capaz de negociar</CaravanMeeting_TradeIncapable>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
@@ -221,7 +221,7 @@
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
   <CaravanRequestInfo>Requisitando: {0}, Recompensa: {1} ({2} sobrando)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
-  <NormalQualityOrBetter>TODO</NormalQualityOrBetter>
+  <NormalQualityOrBetter>qualidade normal ou melhor</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
@@ -235,12 +235,12 @@
 
   <!-- Site no longer hostile -->
   <!-- EN: Quest no longer available -->
-  <LetterLabelSiteNoLongerHostile>TODO</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostile>Missão não está mais disponível</LetterLabelSiteNoLongerHostile>
   <!-- EN: Quests no longer available -->
-  <LetterLabelSiteNoLongerHostileMulti>TODO</LetterLabelSiteNoLongerHostileMulti>
+  <LetterLabelSiteNoLongerHostileMulti>Missões não estão mais disponíveis</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
-  <LetterSiteNoLongerHostile>TODO</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostile>Como você não é mais hostil com {0}, o site {1} não está mais disponível.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
-  <LetterSiteNoLongerHostileMulti>TODO</LetterSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostileMulti>Como você não é mais hostil com {0}, os seguintes sites não estão mais disponíveis</LetterSiteNoLongerHostileMulti>
 
 </LanguageData>
