@@ -150,7 +150,7 @@
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>O apelido do colono agora é {0}.</PawnGainsName>
+  <PawnGainsName>O apelido dessa pessoa agora é {0}. [PAWN_possessive] título é {1}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>O nome do animal agora é {0}.</AnimalGainsName>
 
@@ -234,7 +234,7 @@
   <!-- EN: SUSPENDED -->
   <SuspendedAllCaps>SUSPENSO</SuspendedAllCaps>
   <!-- EN: Repeat: -->
-  <RepeatCount>Repetir: {0}</RepeatCount>
+  <RepeatCount>Repetir:</RepeatCount>
   <!-- EN: Forever -->
   <Forever>Sempre</Forever>
   <!-- EN: Details -->
@@ -267,9 +267,9 @@
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requer {0} de nutrição</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Nota: ingredientes de pequeno volume, como o ouro exigem 20x a mais.</BillRequiresMayVary>
+  <BillRequiresMayVary>Nota: Ingredientes de pequeno volume, como o ouro requerem {0}x a mais.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/20 equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você irá precisar de 20x a mais sempre.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/{0} equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você irá precisar de {0}x a mais sempre.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -517,11 +517,11 @@
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Você deve atribuir pelo menos um colono não-caído.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
-  <CaravanCouldNotFindExitSpot>Não foi possível encontrar qualquer local de saída válido.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindExitSpot>O local de saída escolhido ({0}) está inacessível.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>Não pode achar nenhum local de armazenamento válido. Certifique-se que o local de saída ({0}) é acessível.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>Aviso: alguns dos colonos designados não conseguem chegar ao local de saída.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Aviso: alguns dos colonos designados não conseguem acessar o local de saída ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {0} is unreachable by any of the assigned colonists. -->
   <CaravanPawnIsUnreachable>{0} está inalcançável por qualquer dos colonos designados.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
@@ -537,7 +537,7 @@
   <!-- EN: Days of food -->
   <DaysWorthOfFood>Dias de comida</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
-  <DaysWorthOfFoodInfoRot>{0} dias de comida, apodrece em {1} dias</DaysWorthOfFoodInfoRot>
+  <DaysWorthOfFoodInfoRot>apodrecerá em {0}</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Nunca ficará sem comida</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->

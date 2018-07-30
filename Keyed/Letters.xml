@@ -92,9 +92,9 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>vingança de {0}</LetterLabelAnimalManhunterRevenge>
   <!-- EN: [PAWN_indefinite] is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>Um(a) {0} está atacando depois de ter sido prejudicado(a)!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>[PAWN_indefinite] está atacando depois de ter sido prejudicado(a)!\n\nEla(e) vai caçar qualquer humamo que possa alcançar. Ela(e) só vai se acalmar quando ao dormir.</AnimalManhunterFromDamage>
   <!-- EN: [PAWN_indefinite] is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>Um(a) {0} está atacando devido a uma tentativa fracassada de domesticação!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>[PAWN_indefinite] está atacando devido a uma tentativa fracassada de domesticação!</AnimalManhunterFromTaming>
   <!-- EN: Other {0} nearby have also become enraged! -->
   <AnimalManhunterOthers>Outros {0}s próximos também estão enfurecidos!</AnimalManhunterOthers>
 
@@ -139,17 +139,17 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Relacionamento</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>Há pessoas que tem relacionamentos com seus colonos ou prisioneiros no grupo de {0} que está chegando.\n\nTenha em mente que mesmo que eles estejam relacionados, eles ainda irão atacar uns aos outros por causa de suas relações ruins com a facção.\n\nEstas pessoas são:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>Há pessoas que tem relacionamentos com {0} ou prisioneiros no grupo de {1} que está chegando.\n\nTenha em mente que mesmo que eles estejam relacionados, eles ainda irão atacar uns aos outros por causa de suas relações ruins com a facção.\n\nEstas pessoas são:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>Há pessoas que tem relacionamentos com seus colonos ou prisioneiros no grupo amigável de {0} que está chegando:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>Há pessoas que tem relacionamentos com {0} ou prisioneiros no grupo amigável de {1} que está chegando:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>Há pessoas que tem relacionamentos com seus colonos ou prisioneiros no grupo chegando:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>Há pessoas que tem relacionamentos com {0} ou prisioneiros no grupo chegando:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>O comerciante orbital está vendendo pessoas que têm relacionamentos com seus colonos ou prisioneiros:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>O comerciante orbital está vendendo pessoas que têm relacionamentos com {0} ou prisioneiros:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>O assentamento está vendendo pessoas que têm relações com seus colonos ou prisioneiros:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>O assentamento está vendendo pessoas que têm relações com {0} ou prisioneiros:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>The caravan is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>A caravana está vendendo pessoas que têm relacionamentos com {0} ou prisioneiros:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
   <LetterRelatedPawnsGroupGeneric>Existem pessoas que têm relacionamentos com seus {0} ou prisioneiros no grupo:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
@@ -182,9 +182,9 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Casamento recusado</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>{1} aceitou a proposta de casamento de {0}.\n\nEm algum momento nos próximos dias ou estações, eles terão a sua cerimônia de casamento e convidaram todos os colonos. Considere em colocar um ponto de casamento, se você quiser controlar onde ocorrerá a cerimônia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>Em algum momento nos próximos dias ou quadrums, eles terão sua cerimônia de casamento e convidarão todos os colonos. Considere colocar um ponto de casamento se você quiser controlar onde a cerimônia ocorrerá.</LetterAcceptedProposal>
   <!-- EN: {0} is going to be unhappy about this. -->
-  <LetterRejectedProposal>{1} recusou a proposta de casamento de {0}. {0} ficará infeliz com isso.</LetterRejectedProposal>
+  <LetterRejectedProposal>{0} vai ficar triste com isso.</LetterRejectedProposal>
   
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
@@ -236,7 +236,7 @@
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravana destruída</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
-  <LetterAllCaravanColonistsDied>Todos os membros de sua caravana morreram.</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Todos os membros de {0} morreram.</LetterAllCaravanColonistsDied>
   
   <!-- Caravan entered ambush map -->
   <!-- EN: Caravan arrived at ambush -->
@@ -274,7 +274,7 @@
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>Minerais preciosos encontrados</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {3} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Seu scanner mineral de longo alcance encontrou um pedaço de recursos preciosos nas proximidades.\n\nNão sabemos quem ou o que - se alguma coisa - pode estar protegendo isso.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Usando seu scanner mineral de longo alcance, {3} encontrou um nódulo de {0} nas proximidades. \n\nInfelizmente, não vai durar - outros o pegarão primeiro em {1} dias, se não o fizermos. \n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->

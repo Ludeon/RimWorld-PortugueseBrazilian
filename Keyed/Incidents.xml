@@ -2,11 +2,11 @@
 <LanguageData>
 
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanitySingle>Animal louco</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{0} louco</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {0} has gone mad. It will attack everyone it sees. -->
   <AnimalInsanitySingle>{0} local enlouqueceu e atacará qualquer um pela frente.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>Animais loucos!</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>{0} loucos!</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>Algum tipo de onda psíquica varreu sobre a paisagem. Os seus colonos estão bem, mas...\n\nParece muitos(as) {0}s na área enlouqueceram.</AnimalInsanityMultiple>
 
@@ -47,7 +47,7 @@
   <!-- EN: an electrical conduit -->
   <AnElectricalConduit>Cabo elétrico</AnElectricalConduit>
   <!-- EN: A fault in {0} has caused a short circuit. -->
-  <ShortCircuit>Uma falha no {0} causou um curto-circuito.\n\nTodos os {1} de energia nas baterias conectadas foram descarregados em uma explosão elétrica.</ShortCircuit>
+  <ShortCircuit>Uma falha no {0} causou um curto-circuito.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
   <ShortCircuitStartedFire>Uma falha em {0} causou um curto-circuito que iniciou um incêndio.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
@@ -68,7 +68,7 @@
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Visitantes</LetterLabelSingleVisitorArrives>
   <!-- EN: A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4} -->
-  <SingleVisitorArrives>Um(a) {0} de "{1}" está visitando a colônia.\n\n[PAWN_pronoun] se chama {2}.{3}</SingleVisitorArrives>
+  <SingleVisitorArrives>Um(a) {0} de {1} está visitando a colônia.\n\n[PAWN_pronoun] se chama {2}.{3}{4}</SingleVisitorArrives>
   <!-- EN: \n\n[PAWN_pronoun] seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] parece ter alguns itens para o comércio.</SingleVisitorArrivesTraderInfo>
   <!-- EN: \n\n[PAWN_pronoun] is the leader of the faction. -->
@@ -113,7 +113,7 @@
   <!-- EN: Psychic drone -->
   <LetterLabelPsychicDrone>Drone psíquico</LetterLabelPsychicDrone>
   <!-- EN: Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <LetterIncidentPsychicDrone>Cada colono do gênero {0} se estremece de dor!\n\nAlgum mecanismo distante de ódio está se agitando. Ele está projetando um poderoso drone psíquico ao longo de toda esta região, em uma frequência que só parece afetar ao gênero {0}. Por alguns dias, o humor de algumas pessoas irão estar um pouco pior.</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>Cada colono do gênero {0} se estremece de dor!\n\nAlgum mecanismo distante de ódio está se agitando. Ele está projetando um poderoso drone psíquico ao longo de toda esta região, em uma frequência que só parece afetar ao gênero {0}. Por alguns dias, o humor de algumas pessoas irão estar um pouco pior. \n\nO nível do drone é {1}.</LetterIncidentPsychicDrone>
 
   <!-- EN: Psychic soothe -->
   <LetterLabelPsychicSoothe>Calmante psíquico</LetterLabelPsychicSoothe>
@@ -130,7 +130,7 @@
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Refugiado perseguido em {0}</RefugeeChasedTitle>
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>Um(a) {1} chamado(a) {0} está te chamando. [PAWN_pronoun] está sendo perseguido(a) pelos {2} de {3}!\n\n[PAWN_pronoun] implora por sua segurança e se oferece para se juntar a colônia. Biologicamente [PAWN_pronoun] tem {4} anos de idade.\n\nEsteja avisado - se você aceitar, você terá que lutar contra os {2} que estão atrás dele.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Um(a) [PAWN_title] chamado(a) [PAWN_nameDef] está te chamando. [PAWN_pronoun] está sendo perseguido(a) pelos {2} de {3}!\n\n[PAWN_pronoun] implora por sua segurança e se oferece para se juntar a colônia. [PAWN_pronoun] fala pra você [PAWN_pronoun] tem {4} anos de idade.\n\nEsteja avisado - se você aceitar, você terá que lutar contra os {2} de [PAWN_pronoun] que estão atrás dele. O grupo deles é composto por: \n\n {5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Oferecer segurança</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
@@ -198,7 +198,7 @@
   <!-- EN: Caravan meeting by {0} -->
   <CaravanMeetingTitle>Reunião de caravanas por {0}</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>Sua caravana se reuniu pacificamente com uma caravana de {0}. A outra caravana é composta de:\n\n{1}</CaravanMeeting>
+  <CaravanMeeting>{0} se encontrou pacificamente com uma caravana de {1}. A outra caravana é composta por: \n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
   <CaravanMeeting_Trade>Negociar</CaravanMeeting_Trade>
   <!-- EN: Attack -->
@@ -212,9 +212,9 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Pedido de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>Um acordo próximo, {0}, contata você com um pedido comercial especial. Eles gostariam de comprar:\n\n{1}\n\nNo retorno, eles oferecem:\n\n{2}\n\nEsta solicitação expira depois: {3}\n\nSe quiser fazer o comércio, Envie uma caravana com os suprimentos solicitados. Você pode rever esta oferta selecionando {0} no mapa do mundo.</LetterCaravanRequest>
+  <LetterCaravanRequest>Um acordo próximo, {0}, contata você com um pedido comercial especial. Eles gostariam de comprar:\n\n  {1} (worth {2})\n\nNo retorno, eles oferecem:\n\n  {3} (worth {4})\n\nEsta solicitação expira depois: {5}\n\nSe quiser fazer o comércio, Envie uma caravana com os suprimentos solicitados. O tempo estimado de viagem é {6}. Você pode rever esta oferta selecionando {0} no mapa do mundo.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>Requisitando: {0}, Recompensa: {1} ({2} sobrando)</CaravanRequestInfo>
+  <CaravanRequestInfo>Requisitando: {0} ({3}), Recompensa {1} ({4}) ({2} sobrando)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>qualidade normal ou melhor</NormalQualityOrBetter>
 
@@ -222,7 +222,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Demanda de caravanas por {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>Sua caravana foi emboscada por um grupo de {1} {3} de {0}. Eles atacarão a menos que você os dê:\n\n{2}</CaravanDemand>
+  <CaravanDemand>{0} foi emboscado por um grupo de {2} {4} de {1}. Eles atacarão, a menos que você os forneça: \n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Entregar e passar</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
