@@ -33,7 +33,7 @@
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
   <RefugeePodCrash>Você detectou uma cápsula de escape caindo nas proximidades.\n\nSe alguém sobreviveu ao impacto, eles irão estar gravemente feridos.</RefugeePodCrash>
   <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>TODO</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>[PAWN_nameDef] não é afiliado a nenhuma facção. Você pode resgatar [PAWN_objective] e esperar que [PAWN_pronoun] se una a você ou capturar [PAWN_objective] para propósitos de recrutamento ou escravidão.</RefugeePodCrash_Factionless>
   <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>Você pode capturar [PAWN_objective] para propósitos de recrutamento ou escravidão. [PAWN_pronoun] é de [PAWN_factionName].</RefugeePodCrash_Hostile>
   <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
@@ -237,10 +237,5 @@
   <LetterSiteNoLongerHostile>Como você não é mais hostil com {0}, o site {1} não está mais disponível.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Como você não é mais hostil com {0}, os seguintes sites não estão mais disponíveis</LetterSiteNoLongerHostileMulti>
-
-  <!-- UNUSED -->
-  <RefugeePodCrash_NonHostileOrFactionless>Você pode resgatar [PAWN_objective] e enviar [PAWN_objective] no modo [PAWN_possessive]. Ou capture [PAWN_objective] para fins de recrutamento ou escravidão.</RefugeePodCrash_NonHostileOrFactionless>
-  <LetterLabelWandererJoin>Aldeão se junta</LetterLabelWandererJoin>
-  <WandererJoin>Um(a) {0} chamado(a) [PAWN_nameDef] chegou e está se juntando a colônia. [PAWN_pronoun] é um(a) {1}.</WandererJoin>
 
 </LanguageData>
