@@ -177,7 +177,7 @@
   <ResolutionRevert>Reverter</ResolutionRevert>
 
   <!-- Confirm permanently disable dev mode -->
-  <!-- EN: Do you really want to permanently disable development mode on this computer? -->
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo de desenvolvimento neste computador?</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
@@ -408,8 +408,6 @@
   <Skill>Habilidade</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>Multiplicador da taxa de sucesso</SurgerySuccessChanceFactor>
-  <!-- EN: Requires bed -->
-  <SurgeryRequireBed>Requer cama</SurgeryRequireBed>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>Velocidade de trabalho regida por</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
@@ -816,5 +814,8 @@
   <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}? \n\nIsto irá: \n- Adicionar espaços reservados para traduções com chave perdidas, traduções injetadas e backstories \n- Adicione ou atualize os comentários que contêm no texto original não traduzido \n- Mova todas as traduções digitadas e desinfectadas para os arquivos XML apropriados \n- Aplique a formatação automática a todos os arquivos XML \n- Atualize os nomes def compatíveis com versões anteriores \n- Remova todos os comentários XML existentes (exceto em full injeções de lista) \n\nOs arquivos XML não serão removidos ou modificados. \n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados. \n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sim, eu tenho um backup</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- UNUSED -->
+  <SurgeryRequireBed>Requer cama</SurgeryRequireBed>
 
 </LanguageData>
