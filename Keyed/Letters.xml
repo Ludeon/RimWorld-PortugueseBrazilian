@@ -14,20 +14,20 @@
   <FirstSummerWarning>O verão começou! Mas o inverno está chegando.\n\nSuas plantações não irão crescer no frio do inverno. Certifique-se de armazenar uma quantidade de comida para vários dias agora, enquanto você ainda pode.\n\nVocê pode construir uma sala de refrigeração para impedir que o alimento se estrague.\n\nE tente comprar, roubar ou fazer alguns casacos, ou você irá congelar quando você pisar lá fora.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again. -->
-  <LetterRelationsChange_Hostile>TODO</LetterRelationsChange_Hostile>
+  <LetterRelationsChange_Hostile>As relações com {0} foram completamente desfeitas. Eles agora são hostis a você. \n\nEles invasões periódicas em sua colônia, e se recusarão a negociar com você. Se você quiser melhorar as relações, poderá oferecer presentes usando caravanas ou capsulas de transporte. \n\nIsso aconteceu porque a boa vontade ({1}) caiu abaixo de {2}. Para se ter relações neutras, a boa vontade deve atingir {3} novamente.</LetterRelationsChange_Hostile>
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you.\n\nThis happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostile>TODO</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromHostile>Relações com {0} se aqueceram. Eles agora o consideram neutro e não mais lhe atacarão. \n\nIsso aconteceu porque a boa vontade ({1}) passou de {2}. Se a boa vontade cair abaixo de {3}, {0} se tornará hostil novamente. Se a boa vontade subir acima de {4}, eles se tornarão seus aliados e lutarão por você.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAlly>TODO</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_NeutralFromAlly>As relações com {0} esfriaram. Eles agora consideram você neutro ao invez de aliado. \n\nEmbora eles ainda interajam pacificamente com você, eles não enviarão mais combatentes para ajudá-lo quando você estiver sob ameaça. \n\nIsso aconteceu porque a boa vontade ({1}) caiu abaixo {2}. Se a boa vontade cair abaixo de {3}, {0} se tornará hostil. Se a boa vontade subir acima de {4}, eles se tornarão aliados novamente.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral. -->
-  <LetterRelationsChange_Ally>TODO</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>Relações com {0} tornaram-se muito boas. Eles agora consideram você um aliado. \n\nÀs vezes, os aliados chegam para ajudar a combater seus inimigos quando você está sendo atacado. Você também pode pedir ajuda a qualquer momento, a um custo de boa vontade. \n\nVocê se tornou aliado porque sua boa vontade ({1}) passou de {2}. Se a boa vontade cair abaixo de {3}, as relações retornarão ao neutro.</LetterRelationsChange_Ally>
 
   <!-- EN: goodwill -->
-  <goodwill>TODO</goodwill>
+  <goodwill>boa vontade</goodwill>
   <!-- EN: Neutral -->
   <Neutral>Neutro</Neutral>
   <!-- EN: Death -->
-  <Death>TODO</Death>
+  <Death>Morte</Death>
 
   <!-- EN: A {0} has short-circuited in the rain and started a fire. -->
   <ShortCircuitRain>Um(a) {0} sofreu um curto-circuito na chuva e começou um incêndio.</ShortCircuitRain>
@@ -54,7 +54,7 @@
   <RecruitFail>{0} falhou em recrutar {1} ({2} de chance).</RecruitFail>
 
   <!-- EN: [PAWN_nameDef] is {0}'s {1}. If [PAWN_nameDef] dies, {0} will suffer from long-lasting grief. However, if you manage to rescue [PAWN_nameDef], {0} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>TODO</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] é {0}s {1}. Se [PAWN_nameDef] morrer, {0} ficará de luto por muito tempo. No entanto, se você conseguir resgatar [PAWN_nameDef], {0} ficará extremamente feliz por muito tempo.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>Aniversário</LetterLabelBirthday>
@@ -70,16 +70,16 @@
   <!-- EN: {0} has gotten sick from {3}. The infection is in [PAWN_possessive] {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible. -->
   <NewPartDisease>{0} ficou doente de {3}. A infecção é no(a) {1}.\n\nTenha certeza que você tem uma cama médica e um médico. Certifique-se de que {2} receba o tratamento adequado e fique mais tempo na cama o quanto possível.</NewPartDisease>
   <!-- EN: {0} has developed an illness: {1} -->
-  <NewDiseaseAnimal>TODO</NewDiseaseAnimal>
+  <NewDiseaseAnimal>{0} desenvolveu uma doença: {1}</NewDiseaseAnimal>
   <!-- EN: {0} has developed an illness: {3} in [PAWN_possessive] {1} -->
-  <NewPartDiseaseAnimal>TODO</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>{0} desenvolveu uma doença: {3} em [PAWN_possessive] {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>TODO</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{0} fazia parte da sua facção.</PawnWasFormerlyColonist>
   <!-- EN: {0} has these relationships with your colonists: -->
-  <PawnHasTheseRelationshipsWithColonists>TODO</PawnHasTheseRelationshipsWithColonists>
+  <PawnHasTheseRelationshipsWithColonists>{0} tem essas relações com seus colonos:</PawnHasTheseRelationshipsWithColonists>
   <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again. -->
-  <PrisonerRescueTimeout>TODO</PrisonerRescueTimeout>
+  <PrisonerRescueTimeout>O acampamento desaparecerá após {0} dias. Se você perder esta oportunidade, talvez nunca mais ouça {1} novamente.</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Perigo ancestral</LetterLabelAncientShrineWarning>
