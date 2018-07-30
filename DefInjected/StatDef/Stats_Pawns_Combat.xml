@@ -4,7 +4,7 @@
   <!-- EN: aiming time -->
   <AimingDelayFactor.label>tempo de pontaria</AimingDelayFactor.label>
   <!-- EN: How long it takes to shoot after choosing a target. -->
-  <AimingDelayFactor.description>Quanto tempo leva para atacar depois de mirar.</AimingDelayFactor.description>
+  <AimingDelayFactor.description>Quanto tempo leva para atirar depois de mirar.</AimingDelayFactor.description>
   
   <!-- EN: melee armor penetration -->
   <MeleeArmorPenetration.label>TODO</MeleeArmorPenetration.label>
@@ -12,19 +12,23 @@
   <MeleeArmorPenetration.description>TODO</MeleeArmorPenetration.description>
   
   <!-- EN: melee dodge chance -->
-  <MeleeDodgeChance.label>TODO</MeleeDodgeChance.label>
+  <MeleeDodgeChance.label>chance de esquiva corpo a corpo</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit. Characters will not dodge while aiming or firing a ranged weapon. -->
-  <MeleeDodgeChance.description>TODO</MeleeDodgeChance.description>
+  <MeleeDodgeChance.description>Chance de desviar de um ataque corpo a corpo que teria de outra forma atingido. Os personagens não esquivarão enquanto apontando ou disparando uma arma de longo alcance.</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
   <MeleeDPS.label>DPS de ataque corpo a corpo</MeleeDPS.label>
   <!-- EN: Average damage per second in melee combat. This stat ignores target defenses like dodging and armor. -->
-  <MeleeDPS.description>Dano médio por segundo em combate corpo a corpo.</MeleeDPS.description>
+  <MeleeDPS.description>Dano médio por segundo em combate corpo a corpo. Esta estatística ignora defesas do alvo como esquivando e armadura.</MeleeDPS.description>
   
   <!-- EN: melee hit chance -->
   <MeleeHitChance.label>chance de acerto corpo a corpo</MeleeHitChance.label>
   <!-- EN: Chance to hit a target in melee. The target can still dodge even if we would've hit. -->
-  <MeleeHitChance.description>Chance de acerto no alvo em combate corpo a corpo.</MeleeHitChance.description>
+  <MeleeHitChance.description>Chance de atingir um alvo no corpo a corpo. O alvo ainda pode esquivar-se mesmo se nós batemos.</MeleeHitChance.description>
+  
+  <!-- UNUSED -->
+  <ShootingAccuracy.label>precisão de tiro</ShootingAccuracy.label>
+  <ShootingAccuracy.description>Base de chance por metro quadrado da distância do tiro.</ShootingAccuracy.description>
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyPawn.label>TODO</ShootingAccuracyPawn.label>

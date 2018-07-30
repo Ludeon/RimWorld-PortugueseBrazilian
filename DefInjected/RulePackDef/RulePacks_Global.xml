@@ -1,111 +1,174 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>Trans->of</li>
-    <li>Trans->for</li>
-    <li>Trans->by</li>
-    <li>Trans->with</li>
-    <li>Character(p=6)->[PersonJob]</li>
-    <li>Character(p=4)->[Animal]</li>
-    <li>Character(p=3)->[Enemy]</li>
-    <li>Character->[Mechanoid]</li>
-    <li>Quantity_adjphrase->two</li>
-    <li>Quantity_adjphrase->three</li>
-    <li>Quantity_adjphrase->four</li>
-    <li>Quantity_adjphrase->five</li>
-    <li>Quantity_adjphrase->six</li>
-    <li>Quantity_adjphrase->seven</li>
-    <li>Quantity_adjphrase->eight</li>
-    <li>Quantity_adjphrase->nine</li>
-    <li>Quantity_adjphrase->ten</li>
-    <li>Quantity_adjphrase->several</li>
-    <li>Quantity_adjphrase->a group of</li>
-    <li>Quantity_adjphrase->a large group of</li>
-    <li>Quantity_adjphrase->dozens of</li>
-    <li>Quantity_adjphrase->hundreds of</li>
-    <li>Quantity_adjphrase->a thousand</li>
-    <li>Quantity_adjphrase->thousands of</li>
-    <li>Shape->triangle</li>
-    <li>Shape->square</li>
-    <li>Shape->rectangle</li>
-    <li>Shape->cone</li>
-    <li>Shape->line</li>
-    <li>Shape->heart</li>
-    <li>Shape->star</li>
-    <li>Shape->circle</li>
-    <li>Shape->ellipse</li>
-    <li>AdjectiveAny->[AdjectiveBadass]</li>
-    <li>AdjectiveAny->[AdjectiveAngsty]</li>
-    <li>AdjectiveAny->[AdjectiveFriendly]</li>
-    <li>AdjectiveAny->[AdjectiveNatural]</li>
-    <li>ConceptAny->[ConceptPositive]</li>
-    <li>ConceptAny->[ConceptBadass]</li>
-    <li>ConceptAny->[ConceptAngsty]</li>
-    <li>PersonalCharacteristic(p=0.15)->genitals</li>
-    <li>PersonalCharacteristic(p=0.15)->pubic hair</li>
-    <li>PersonalCharacteristic(p=0.15)->body hair</li>
-    <li>PersonalCharacteristic(p=0.15)->toilet habits</li>
-    <li>PersonalCharacteristic(p=0.15)->sexual prowess</li>
-    <li>PersonalCharacteristic(p=0.15)->sexual preferences</li>
-    <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
-  -->
-  <GlobalUtility.rulePack.rulesStrings>
-    <li>quantity_adjphrase->um grupo de</li>
-    <li>quantity_adjphrase->varios</li>
-    <li>quantity_adjphrase->dezenas de</li>
-    <li>quantity_adjphrase->dois</li>
-    <li>quantity_adjphrase->três</li>
-    <li>quantity_adjphrase->quadro</li>
-    <li>quantity_adjphrase->cinco</li>
-    <li>quantity_adjphrase->seis</li>
-    <li>quantity_adjphrase->incontável</li>
-    <li>quantity_adjphrase->inumerável</li>
-    <li>trans->de</li>
-    <li>trans->para</li>
-    <li>trans->por</li>
-    <li>trans->com</li>
-  </GlobalUtility.rulePack.rulesStrings>
+  <!-- EN: Trans->of -->
+  <GlobalUtility.rulePack.rulesStrings.0>quantity_adjphrase->um grupo de</GlobalUtility.rulePack.rulesStrings.0>
+  <!-- EN: Trans->for -->
+  <GlobalUtility.rulePack.rulesStrings.1>quantity_adjphrase->vários</GlobalUtility.rulePack.rulesStrings.1>
+  <!-- EN: Trans->by -->
+  <GlobalUtility.rulePack.rulesStrings.2>quantity_adjphrase->dezenas de</GlobalUtility.rulePack.rulesStrings.2>
+  <!-- EN: Trans->with -->
+  <GlobalUtility.rulePack.rulesStrings.3>quantity_adjphrase->dois</GlobalUtility.rulePack.rulesStrings.3>
+  <!-- EN: Character(p=6)->[PersonJob] -->
+  <GlobalUtility.rulePack.rulesStrings.4>quantity_adjphrase->três</GlobalUtility.rulePack.rulesStrings.4>
+  <!-- EN: Character(p=4)->[Animal] -->
+  <GlobalUtility.rulePack.rulesStrings.5>quantity_adjphrase->quadro</GlobalUtility.rulePack.rulesStrings.5>
+  <!-- EN: Character(p=3)->[Enemy] -->
+  <GlobalUtility.rulePack.rulesStrings.6>quantity_adjphrase->cinco</GlobalUtility.rulePack.rulesStrings.6>
+  <!-- EN: Character->[Mechanoid] -->
+  <GlobalUtility.rulePack.rulesStrings.7>quantity_adjphrase->seis</GlobalUtility.rulePack.rulesStrings.7>
+  <!-- EN: Quantity_adjphrase->two -->
+  <GlobalUtility.rulePack.rulesStrings.8>quantity_adjphrase->incontáveis</GlobalUtility.rulePack.rulesStrings.8>
+  <!-- EN: Quantity_adjphrase->three -->
+  <GlobalUtility.rulePack.rulesStrings.9>quantity_adjphrase->inumeráveis</GlobalUtility.rulePack.rulesStrings.9>
+  <!-- EN: Quantity_adjphrase->four -->
+  <GlobalUtility.rulePack.rulesStrings.10>trans->de</GlobalUtility.rulePack.rulesStrings.10>
+  <!-- EN: Quantity_adjphrase->five -->
+  <GlobalUtility.rulePack.rulesStrings.11>trans->para</GlobalUtility.rulePack.rulesStrings.11>
+  <!-- EN: Quantity_adjphrase->six -->
+  <GlobalUtility.rulePack.rulesStrings.12>trans->por</GlobalUtility.rulePack.rulesStrings.12>
+  <!-- EN: Quantity_adjphrase->seven -->
+  <GlobalUtility.rulePack.rulesStrings.13>trans->com</GlobalUtility.rulePack.rulesStrings.13>
+  <!-- EN: Quantity_adjphrase->eight -->
+  <GlobalUtility.rulePack.rulesStrings.14>Quantity_adjphrase->eight</GlobalUtility.rulePack.rulesStrings.14>
+  <!-- EN: Quantity_adjphrase->nine -->
+  <GlobalUtility.rulePack.rulesStrings.15>Quantity_adjphrase->nine</GlobalUtility.rulePack.rulesStrings.15>
+  <!-- EN: Quantity_adjphrase->ten -->
+  <GlobalUtility.rulePack.rulesStrings.16>Quantity_adjphrase->ten</GlobalUtility.rulePack.rulesStrings.16>
+  <!-- EN: Quantity_adjphrase->several -->
+  <GlobalUtility.rulePack.rulesStrings.17>Quantity_adjphrase->several</GlobalUtility.rulePack.rulesStrings.17>
+  <!-- EN: Quantity_adjphrase->a group of -->
+  <GlobalUtility.rulePack.rulesStrings.18>Quantity_adjphrase->a group of</GlobalUtility.rulePack.rulesStrings.18>
+  <!-- EN: Quantity_adjphrase->a large group of -->
+  <GlobalUtility.rulePack.rulesStrings.19>Quantity_adjphrase->a large group of</GlobalUtility.rulePack.rulesStrings.19>
+  <!-- EN: Quantity_adjphrase->dozens of -->
+  <GlobalUtility.rulePack.rulesStrings.20>Quantity_adjphrase->dozens of</GlobalUtility.rulePack.rulesStrings.20>
+  <!-- EN: Quantity_adjphrase->hundreds of -->
+  <GlobalUtility.rulePack.rulesStrings.21>Quantity_adjphrase->hundreds of</GlobalUtility.rulePack.rulesStrings.21>
+  <!-- EN: Quantity_adjphrase->a thousand -->
+  <GlobalUtility.rulePack.rulesStrings.22>Quantity_adjphrase->a thousand</GlobalUtility.rulePack.rulesStrings.22>
+  <!-- EN: Quantity_adjphrase->thousands of -->
+  <GlobalUtility.rulePack.rulesStrings.23>Quantity_adjphrase->thousands of</GlobalUtility.rulePack.rulesStrings.23>
+  <!-- EN: Shape->triangle -->
+  <GlobalUtility.rulePack.rulesStrings.24>Shape->triangle</GlobalUtility.rulePack.rulesStrings.24>
+  <!-- EN: Shape->square -->
+  <GlobalUtility.rulePack.rulesStrings.25>Shape->square</GlobalUtility.rulePack.rulesStrings.25>
+  <!-- EN: Shape->rectangle -->
+  <GlobalUtility.rulePack.rulesStrings.26>Shape->rectangle</GlobalUtility.rulePack.rulesStrings.26>
+  <!-- EN: Shape->cone -->
+  <GlobalUtility.rulePack.rulesStrings.27>Shape->cone</GlobalUtility.rulePack.rulesStrings.27>
+  <!-- EN: Shape->line -->
+  <GlobalUtility.rulePack.rulesStrings.28>Shape->line</GlobalUtility.rulePack.rulesStrings.28>
+  <!-- EN: Shape->heart -->
+  <GlobalUtility.rulePack.rulesStrings.29>Shape->heart</GlobalUtility.rulePack.rulesStrings.29>
+  <!-- EN: Shape->star -->
+  <GlobalUtility.rulePack.rulesStrings.30>Shape->star</GlobalUtility.rulePack.rulesStrings.30>
+  <!-- EN: Shape->circle -->
+  <GlobalUtility.rulePack.rulesStrings.31>Shape->circle</GlobalUtility.rulePack.rulesStrings.31>
+  <!-- EN: Shape->ellipse -->
+  <GlobalUtility.rulePack.rulesStrings.32>Shape->ellipse</GlobalUtility.rulePack.rulesStrings.32>
+  <!-- EN: AdjectiveAny->[AdjectiveBadass] -->
+  <GlobalUtility.rulePack.rulesStrings.33>AdjectiveAny->[AdjectiveBadass]</GlobalUtility.rulePack.rulesStrings.33>
+  <!-- EN: AdjectiveAny->[AdjectiveAngsty] -->
+  <GlobalUtility.rulePack.rulesStrings.34>AdjectiveAny->[AdjectiveAngsty]</GlobalUtility.rulePack.rulesStrings.34>
+  <!-- EN: AdjectiveAny->[AdjectiveFriendly] -->
+  <GlobalUtility.rulePack.rulesStrings.35>AdjectiveAny->[AdjectiveFriendly]</GlobalUtility.rulePack.rulesStrings.35>
+  <!-- EN: AdjectiveAny->[AdjectiveNatural] -->
+  <GlobalUtility.rulePack.rulesStrings.36>AdjectiveAny->[AdjectiveNatural]</GlobalUtility.rulePack.rulesStrings.36>
+  <!-- EN: ConceptAny->[ConceptPositive] -->
+  <GlobalUtility.rulePack.rulesStrings.37>ConceptAny->[ConceptPositive]</GlobalUtility.rulePack.rulesStrings.37>
+  <!-- EN: ConceptAny->[ConceptBadass] -->
+  <GlobalUtility.rulePack.rulesStrings.38>ConceptAny->[ConceptBadass]</GlobalUtility.rulePack.rulesStrings.38>
+  <!-- EN: ConceptAny->[ConceptAngsty] -->
+  <GlobalUtility.rulePack.rulesStrings.39>ConceptAny->[ConceptAngsty]</GlobalUtility.rulePack.rulesStrings.39>
+  <!-- EN: PersonalCharacteristic(p=0.15)->genitals -->
+  <GlobalUtility.rulePack.rulesStrings.40>TODO</GlobalUtility.rulePack.rulesStrings.40>
+  <!-- EN: PersonalCharacteristic(p=0.15)->pubic hair -->
+  <GlobalUtility.rulePack.rulesStrings.41>TODO</GlobalUtility.rulePack.rulesStrings.41>
+  <!-- EN: PersonalCharacteristic(p=0.15)->body hair -->
+  <GlobalUtility.rulePack.rulesStrings.42>TODO</GlobalUtility.rulePack.rulesStrings.42>
+  <!-- EN: PersonalCharacteristic(p=0.15)->toilet habits -->
+  <GlobalUtility.rulePack.rulesStrings.43>TODO</GlobalUtility.rulePack.rulesStrings.43>
+  <!-- EN: PersonalCharacteristic(p=0.15)->sexual prowess -->
+  <GlobalUtility.rulePack.rulesStrings.44>TODO</GlobalUtility.rulePack.rulesStrings.44>
+  <!-- EN: PersonalCharacteristic(p=0.15)->sexual preferences -->
+  <GlobalUtility.rulePack.rulesStrings.45>TODO</GlobalUtility.rulePack.rulesStrings.45>
+  <!-- EN: PersonalCharacteristic(p=0.15)->sexual experience -->
+  <GlobalUtility.rulePack.rulesStrings.46>TODO</GlobalUtility.rulePack.rulesStrings.46>
   
-  <!-- EN:
-    <li>TalkTopicAny->[TalkTopicLight]</li>
-    <li>TalkTopicAny->[TalkTopicHeavy]</li>
-    <li>TalkTopicHeavy->[talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->the link between [talktopicheavyfile] and [talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->the connection between [talktopicheavyfile] and [talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->the relationship between [talktopicheavyfile] and [talktopicheavyfile]</li>
-    <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
-    <li>TalkTopicLight->[Vegetable]s</li>
-    <li>TalkTopicLight->eating [Vegetable]s</li>
-    <li>TalkTopicLight->cooking with [Vegetable]s</li>
-    <li>TalkTopicLight->[Game]</li>
-    <li>TalkTopicLight->playing [Game]</li>
-    <li>TalkTopicLight->practicing [Game]</li>
-    <li>TalkTopicLight->learning [Game]</li>
-    <li>TalkTopicLight->[Animal]s</li>
-    <li>TalkTopicLight->training [Animal]s</li>
-    <li>TalkTopicLight->taming [Animal]s</li>
-    <li>TalkTopicLight->fighting [Animal]s</li>
-    <li>TalkTopicLight->crazy [Animal]s</li>
-    <li>TalkTopicLight->[Weapon]s</li>
-    <li>TalkTopicLight->using [Weapon]s</li>
-    <li>TalkTopicLight->practicing with [Weapon]s</li>
-    <li>TalkTopicLight->[TerrainFeature]s</li>
-    <li>TalkTopicLight->[NaturalObject]s</li>
-    <li>TalkTopicLight->[TreeType] trees</li>
-    <li>TalkTopicLight->[PersonJob]s</li>
-    <li>TalkTopicLight->friendly [PersonJob]s</li>
-    <li>TalkTopicLight->hostile [PersonJob]s</li>
-    <li>TalkTopicLight->[Enemy]s</li>
-    <li>TalkTopicLight->fighting [Enemy]s</li>
-    <li>TalkTopicLight->[Apparel]s</li>
-    <li>TalkTopicLight->wearing [Apparel]s</li>
-    <li>TalkTopicLight->making [Apparel]s</li>
-    <li>talktopicheavyfile(p=0.15)->sex</li>
-    <li>talktopicheavyfile(p=0.15)->seduction</li>
-    <li>talktopicheavyfile(p=0.15)->animal sexuality</li>
-    <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
-  -->
-  <TalkTopicsUtility.rulePack.rulesStrings>TODO</TalkTopicsUtility.rulePack.rulesStrings>
+  <!-- EN: TalkTopicAny->[TalkTopicLight] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.0>TalkTopicAny->[TalkTopicLight]</TalkTopicsUtility.rulePack.rulesStrings.0>
+  <!-- EN: TalkTopicAny->[TalkTopicHeavy] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.1>TalkTopicAny->[TalkTopicHeavy]</TalkTopicsUtility.rulePack.rulesStrings.1>
+  <!-- EN: TalkTopicHeavy->[talktopicheavyfile] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.2>TalkTopicHeavy->[talktopicheavyfile]</TalkTopicsUtility.rulePack.rulesStrings.2>
+  <!-- EN: TalkTopicHeavy(p=0.08)->the link between [talktopicheavyfile] and [talktopicheavyfile] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.3>TalkTopicHeavy(p=0.08)->the link between [talktopicheavyfile] and [talktopicheavyfile]</TalkTopicsUtility.rulePack.rulesStrings.3>
+  <!-- EN: TalkTopicHeavy(p=0.08)->the connection between [talktopicheavyfile] and [talktopicheavyfile] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.4>TalkTopicHeavy(p=0.08)->the connection between [talktopicheavyfile] and [talktopicheavyfile]</TalkTopicsUtility.rulePack.rulesStrings.4>
+  <!-- EN: TalkTopicHeavy(p=0.08)->the relationship between [talktopicheavyfile] and [talktopicheavyfile] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.5>TalkTopicHeavy(p=0.08)->the relationship between [talktopicheavyfile] and [talktopicheavyfile]</TalkTopicsUtility.rulePack.rulesStrings.5>
+  <!-- EN: TalkTopicLight(p=25)->[talktopiclightfile] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.6>TalkTopicLight(p=25)->[talktopiclightfile]</TalkTopicsUtility.rulePack.rulesStrings.6>
+  <!-- EN: TalkTopicLight->[Vegetable]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.7>TalkTopicLight->[Vegetable]s</TalkTopicsUtility.rulePack.rulesStrings.7>
+  <!-- EN: TalkTopicLight->eating [Vegetable]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.8>TalkTopicLight->eating [Vegetable]s</TalkTopicsUtility.rulePack.rulesStrings.8>
+  <!-- EN: TalkTopicLight->cooking with [Vegetable]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.9>TalkTopicLight->cooking with [Vegetable]s</TalkTopicsUtility.rulePack.rulesStrings.9>
+  <!-- EN: TalkTopicLight->[Game] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.10>TalkTopicLight->[Game]</TalkTopicsUtility.rulePack.rulesStrings.10>
+  <!-- EN: TalkTopicLight->playing [Game] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.11>TalkTopicLight->playing [Game]</TalkTopicsUtility.rulePack.rulesStrings.11>
+  <!-- EN: TalkTopicLight->practicing [Game] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.12>TalkTopicLight->practicing [Game]</TalkTopicsUtility.rulePack.rulesStrings.12>
+  <!-- EN: TalkTopicLight->learning [Game] -->
+  <TalkTopicsUtility.rulePack.rulesStrings.13>TalkTopicLight->learning [Game]</TalkTopicsUtility.rulePack.rulesStrings.13>
+  <!-- EN: TalkTopicLight->[Animal]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.14>TalkTopicLight->[Animal]s</TalkTopicsUtility.rulePack.rulesStrings.14>
+  <!-- EN: TalkTopicLight->training [Animal]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.15>TalkTopicLight->training [Animal]s</TalkTopicsUtility.rulePack.rulesStrings.15>
+  <!-- EN: TalkTopicLight->taming [Animal]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.16>TalkTopicLight->taming [Animal]s</TalkTopicsUtility.rulePack.rulesStrings.16>
+  <!-- EN: TalkTopicLight->fighting [Animal]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.17>TalkTopicLight->fighting [Animal]s</TalkTopicsUtility.rulePack.rulesStrings.17>
+  <!-- EN: TalkTopicLight->crazy [Animal]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.18>TalkTopicLight->crazy [Animal]s</TalkTopicsUtility.rulePack.rulesStrings.18>
+  <!-- EN: TalkTopicLight->[Weapon]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.19>TalkTopicLight->[Weapon]s</TalkTopicsUtility.rulePack.rulesStrings.19>
+  <!-- EN: TalkTopicLight->using [Weapon]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.20>TalkTopicLight->using [Weapon]s</TalkTopicsUtility.rulePack.rulesStrings.20>
+  <!-- EN: TalkTopicLight->practicing with [Weapon]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.21>TalkTopicLight->practicing with [Weapon]s</TalkTopicsUtility.rulePack.rulesStrings.21>
+  <!-- EN: TalkTopicLight->[TerrainFeature]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.22>TalkTopicLight->[TerrainFeature]s</TalkTopicsUtility.rulePack.rulesStrings.22>
+  <!-- EN: TalkTopicLight->[NaturalObject]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.23>TalkTopicLight->[NaturalObject]s</TalkTopicsUtility.rulePack.rulesStrings.23>
+  <!-- EN: TalkTopicLight->[TreeType] trees -->
+  <TalkTopicsUtility.rulePack.rulesStrings.24>TalkTopicLight->[TreeType] trees</TalkTopicsUtility.rulePack.rulesStrings.24>
+  <!-- EN: TalkTopicLight->[PersonJob]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.25>TalkTopicLight->[PersonJob]s</TalkTopicsUtility.rulePack.rulesStrings.25>
+  <!-- EN: TalkTopicLight->friendly [PersonJob]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.26>TalkTopicLight->friendly [PersonJob]s</TalkTopicsUtility.rulePack.rulesStrings.26>
+  <!-- EN: TalkTopicLight->hostile [PersonJob]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.27>TalkTopicLight->hostile [PersonJob]s</TalkTopicsUtility.rulePack.rulesStrings.27>
+  <!-- EN: TalkTopicLight->[Enemy]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.28>TalkTopicLight->[Enemy]s</TalkTopicsUtility.rulePack.rulesStrings.28>
+  <!-- EN: TalkTopicLight->fighting [Enemy]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.29>TalkTopicLight->fighting [Enemy]s</TalkTopicsUtility.rulePack.rulesStrings.29>
+  <!-- EN: TalkTopicLight->[Apparel]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.30>TalkTopicLight->[Apparel]s</TalkTopicsUtility.rulePack.rulesStrings.30>
+  <!-- EN: TalkTopicLight->wearing [Apparel]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.31>TalkTopicLight->wearing [Apparel]s</TalkTopicsUtility.rulePack.rulesStrings.31>
+  <!-- EN: TalkTopicLight->making [Apparel]s -->
+  <TalkTopicsUtility.rulePack.rulesStrings.32>TalkTopicLight->making [Apparel]s</TalkTopicsUtility.rulePack.rulesStrings.32>
+  <!-- EN: talktopicheavyfile(p=0.15)->sex -->
+  <TalkTopicsUtility.rulePack.rulesStrings.33>TODO</TalkTopicsUtility.rulePack.rulesStrings.33>
+  <!-- EN: talktopicheavyfile(p=0.15)->seduction -->
+  <TalkTopicsUtility.rulePack.rulesStrings.34>TODO</TalkTopicsUtility.rulePack.rulesStrings.34>
+  <!-- EN: talktopicheavyfile(p=0.15)->animal sexuality -->
+  <TalkTopicsUtility.rulePack.rulesStrings.35>TODO</TalkTopicsUtility.rulePack.rulesStrings.35>
+  <!-- EN: talktopicheavyfile(p=0.15)->sexual fetishes -->
+  <TalkTopicsUtility.rulePack.rulesStrings.36>TODO</TalkTopicsUtility.rulePack.rulesStrings.36>
   
 </LanguageData>

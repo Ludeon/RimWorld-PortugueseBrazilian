@@ -1,34 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>r_name->[celestial_name]</li>
-    <li>r_name->[celestial_prefix] [celestial_name]</li>
-    <li>r_name->[celestial_name] [celestial_suffix]</li>
-    <li>r_name->[world_name_numeric]</li>
-    <li>r_name->[world_name_numeric] [celestial_suffix]</li>
-    <li>r_name(p=0.5)->[celestial_name] [RomanNumeral]</li>
-    <li>r_name(p=0.5)->[celestial_name]-[RomanNumeral]</li>
-    <li>r_name(p=0.5)->[celestial_name]-[numbers]</li>
-    <li>r_name->[celestial_name] [celestial_name]</li>
-    <li>r_name->[NamePerson]'s [planet]</li>
-    <li>world_name_numeric->[letters]-[numbers]</li>
-    <li>world_name_numeric->[letters] [numbers]</li>
-    <li>letters->[Letter]</li>
-    <li>letters->[Letter][Letter]</li>
-    <li>letters->[Letter][Letter][Letter]</li>
-    <li>numbers->[Digit]</li>
-    <li>numbers->[Digit][Digit]</li>
-    <li>numbers->[Digit][Digit][Digit]</li>
-    <li>planet->World</li>
-    <li>planet->Planet</li>
-  -->
-  <NamerWorld.rulePack.rulesStrings>
-    <li>name->[celestialname]</li>
-    <li>name->[celestialprefix] [celestialname]</li>
-    <li>name->[celestialname] [romannumeral]</li>
-    <li>name->[celestialname] [celestialname]</li>
-    <li>name->[celestialname] [celestialsuffix]</li>
-  </NamerWorld.rulePack.rulesStrings>
+  <!-- EN: r_name->[celestial_name] -->
+  <NamerWorld.rulePack.rulesStrings.0>name->[celestialname]</NamerWorld.rulePack.rulesStrings.0>
+  <!-- EN: r_name->[celestial_prefix] [celestial_name] -->
+  <NamerWorld.rulePack.rulesStrings.1>name->[celestialprefix] [celestialname]</NamerWorld.rulePack.rulesStrings.1>
+  <!-- EN: r_name->[celestial_name] [celestial_suffix] -->
+  <NamerWorld.rulePack.rulesStrings.2>name->[celestialname] [romannumeral]</NamerWorld.rulePack.rulesStrings.2>
+  <!-- EN: r_name->[world_name_numeric] -->
+  <NamerWorld.rulePack.rulesStrings.3>name->[celestialname] [celestialname]</NamerWorld.rulePack.rulesStrings.3>
+  <!-- EN: r_name->[world_name_numeric] [celestial_suffix] -->
+  <NamerWorld.rulePack.rulesStrings.4>name->[celestialname] [celestialsuffix]</NamerWorld.rulePack.rulesStrings.4>
+  <!-- EN: r_name(p=0.5)->[celestial_name] [RomanNumeral] -->
+  <NamerWorld.rulePack.rulesStrings.5>r_name(p=0.5)->[celestial_name] [RomanNumeral]</NamerWorld.rulePack.rulesStrings.5>
+  <!-- EN: r_name(p=0.5)->[celestial_name]-[RomanNumeral] -->
+  <NamerWorld.rulePack.rulesStrings.6>r_name(p=0.5)->[celestial_name]-[RomanNumeral]</NamerWorld.rulePack.rulesStrings.6>
+  <!-- EN: r_name(p=0.5)->[celestial_name]-[numbers] -->
+  <NamerWorld.rulePack.rulesStrings.7>r_name(p=0.5)->[celestial_name]-[numbers]</NamerWorld.rulePack.rulesStrings.7>
+  <!-- EN: r_name->[celestial_name] [celestial_name] -->
+  <NamerWorld.rulePack.rulesStrings.8>r_name->[celestial_name] [celestial_name]</NamerWorld.rulePack.rulesStrings.8>
+  <!-- EN: r_name->[NamePerson]'s [planet] -->
+  <NamerWorld.rulePack.rulesStrings.9>r_name->[planet] [NamePerson]</NamerWorld.rulePack.rulesStrings.9>
+  <!-- EN: world_name_numeric->[letters]-[numbers] -->
+  <NamerWorld.rulePack.rulesStrings.10>world_name_numeric->[letters]-[numbers]</NamerWorld.rulePack.rulesStrings.10>
+  <!-- EN: world_name_numeric->[letters] [numbers] -->
+  <NamerWorld.rulePack.rulesStrings.11>world_name_numeric->[letters] [numbers]</NamerWorld.rulePack.rulesStrings.11>
+  <!-- EN: letters->[Letter] -->
+  <NamerWorld.rulePack.rulesStrings.12>letters->[Letter]</NamerWorld.rulePack.rulesStrings.12>
+  <!-- EN: letters->[Letter][Letter] -->
+  <NamerWorld.rulePack.rulesStrings.13>letters->[Letter][Letter]</NamerWorld.rulePack.rulesStrings.13>
+  <!-- EN: letters->[Letter][Letter][Letter] -->
+  <NamerWorld.rulePack.rulesStrings.14>letters->[Letter][Letter][Letter]</NamerWorld.rulePack.rulesStrings.14>
+  <!-- EN: numbers->[Digit] -->
+  <NamerWorld.rulePack.rulesStrings.15>numbers->[Digit]</NamerWorld.rulePack.rulesStrings.15>
+  <!-- EN: numbers->[Digit][Digit] -->
+  <NamerWorld.rulePack.rulesStrings.16>numbers->[Digit][Digit]</NamerWorld.rulePack.rulesStrings.16>
+  <!-- EN: numbers->[Digit][Digit][Digit] -->
+  <NamerWorld.rulePack.rulesStrings.17>numbers->[Digit][Digit][Digit]</NamerWorld.rulePack.rulesStrings.17>
+  <!-- EN: planet->World -->
+  <NamerWorld.rulePack.rulesStrings.18>planet->Mundo</NamerWorld.rulePack.rulesStrings.18>
+  <!-- EN: planet->Planet -->
+  <NamerWorld.rulePack.rulesStrings.19>planet->Planeta</NamerWorld.rulePack.rulesStrings.19>
   
 </LanguageData>
