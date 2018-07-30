@@ -8,9 +8,6 @@
   <!-- EN: mortar -->
   <Artillery_Mortar.verbs.Verb_Shoot.label>morteiro</Artillery_Mortar.verbs.Verb_Shoot.label>
   
-  <!-- UNUSED -->
-  <Blueprint_TrapDeadfall.label>armadilha suspensa (projeto)</Blueprint_TrapDeadfall.label>
-  
   <!-- EN: autocannon shell -->
   <Bullet_AutocannonTurret.label>munição de canhão automático</Bullet_AutocannonTurret.label>
   
@@ -19,10 +16,6 @@
   
   <!-- EN: uranium slug -->
   <Bullet_TurretSniper.label>bala de urânio</Bullet_TurretSniper.label>
-  
-  <!-- UNUSED -->
-  <Frame_TrapDeadfall.label>armadilha suspensa (construção)</Frame_TrapDeadfall.label>
-  <Frame_TrapDeadfall.description>Um espinho pesado suspenso sustentado por um gatilho delicado. Quando a vítima perturba no gatilho, o peso é libertado e cai sobre sua cabeça ou torso.</Frame_TrapDeadfall.description>
   
   <!-- EN: autocannon -->
   <Gun_AutocannonTurret.label>canhão automatico</Gun_AutocannonTurret.label>
@@ -56,14 +49,14 @@
   <TrapIED_AntigrainWarhead.description>Uma ogiva de alta tecnologia conectada a um gatilho caseiro. Quando disparada, a ogiva detona, criando uma enorme explosão de antimatéria. Uma vez que está escondido no terreno, não pode ser colocado ao lado de outras armadilhas. Os animais podem senti-la quando estão calmos.</TrapIED_AntigrainWarhead.description>
   
   <!-- EN: IED EMP trap -->
-  <TrapIED_EMP.label>IED EMP trap</TrapIED_EMP.label>
+  <TrapIED_EMP.label>armadilha de EMP</TrapIED_EMP.label>
   <!-- EN: A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_EMP.description>A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions.</TrapIED_EMP.description>
+  <TrapIED_EMP.description>Uma armadilha simples que consiste em uma granada de EMP e um gatilho caseiro. A explosão pode paralisar os mecanóides por alguns segundos. Pode ser ativada por aqueles que não são afetados por explosões EMP.</TrapIED_EMP.description>
   
   <!-- EN: IED firefoam trap -->
-  <TrapIED_Firefoam.label>IED firefoam trap</TrapIED_Firefoam.label>
+  <TrapIED_Firefoam.label>armadilha do firefoam</TrapIED_Firefoam.label>
   <!-- EN: When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Firefoam.description>When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself.</TrapIED_Firefoam.description>
+  <TrapIED_Firefoam.description>Quando alguém toca no gatilho, a armadilha explode e pulveriza uma espuma extintora de fogo em torno de si.</TrapIED_Firefoam.description>
   
   <!-- EN: IED trap -->
   <TrapIED_HighExplosive.label>IED trap</TrapIED_HighExplosive.label>
@@ -85,37 +78,37 @@
   <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
   <Turret_Autocannon.description>A long-ranged heavy automatic turret. Its large-caliber shells do heavy damage over long ranges, but it requires frequent and expensive barrel changes. It cannot fire at close-up targets, and may explode when damaged.</Turret_Autocannon.description>
   <!-- EN: Barrel durability -->
-  <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>TODO</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>Quantidade de munição</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>TODO</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>Proxima troca de munição</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: Needs new barrel -->
-  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>TODO</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
+  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>Não é possível disparar: precisa de munição</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
   
   <!-- EN: mini-turret -->
-  <Turret_MiniTurret.label>mini-turret</Turret_MiniTurret.label>
+  <Turret_MiniTurret.label>mini-torre</Turret_MiniTurret.label>
   <!-- EN: A portable automatic turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
-  <Turret_MiniTurret.description>A small, short-ranged automatic turret. Requires steel to replace its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</Turret_MiniTurret.description>
+  <Turret_MiniTurret.description>Uma pequena torre automática de curto alcance. Requer aço para substituir a munição após muito uso. Pode explodir quando estiver danificado. Sua IA não pode ser controlado diretamente, portanto, cuidado com fogo amigo.</Turret_MiniTurret.description>
   <!-- EN: Barrel durability -->
-  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>TODO</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>Quantidade de munição</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until barrel change -->
-  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>TODO</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>Proxima troca de munição</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: Needs new barrel -->
-  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>TODO</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
+  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>Não é possível disparar: precisa de munição</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
   
   <!-- EN: mortar -->
-  <Turret_Mortar.label>mortar</Turret_Mortar.label>
+  <Turret_Mortar.label>morteiro</Turret_Mortar.label>
   <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
-  <Turret_Mortar.description>A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field.</Turret_Mortar.description>
+  <Turret_Mortar.description>Um morteiro que lança todos os tipos de munições. Embora possa infligir danos devastadores, a sua imprecisão faz ele ser mais útil para atacar grandes fortificações do que grupos de inimigos.</Turret_Mortar.description>
   
   <!-- EN: uranium slug turret -->
-  <Turret_Sniper.label>TODO</Turret_Sniper.label>
+  <Turret_Sniper.label>torre com bala de urânio</Turret_Sniper.label>
   <!-- EN: A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
-  <Turret_Sniper.description>TODO</Turret_Sniper.description>
+  <Turret_Sniper.description>Uma torre de longo alcance. Suas balas de urânio ultra-densas podem perfurar armaduras pesadas a longas distâncias, mas requer que novas balas de urânio sejam carregadas após o uso. É mais precisa a logas distâncias. Pode explodir quando estiver danificado.</Turret_Sniper.description>
   <!-- EN: Barrel durability -->
-  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>TODO</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Quantidade de munição</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Shots until rearm -->
-  <Turret_Sniper.comps.CompRefuelable.fuelLabel>TODO</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>Proxima troca de munição</Turret_Sniper.comps.CompRefuelable.fuelLabel>
   <!-- EN: Cannot shoot: Needs rearm -->
-  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>TODO</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>Não é possível disparar: precisa de munição</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   
 </LanguageData>
