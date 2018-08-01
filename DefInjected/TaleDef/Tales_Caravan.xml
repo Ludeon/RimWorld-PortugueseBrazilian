@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: caravan ambush defeated -->
-  <CaravanAmbushDefeated.label>TODO</CaravanAmbushDefeated.label>
+  <CaravanAmbushDefeated.label>emboscada da caravana eliminada</CaravanAmbushDefeated.label>
   <!-- EN:
     <li>tale_noun->a successful defense of [PAWN_nameDef]'s caravan</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan fighting off an ambush</li>
@@ -27,10 +27,33 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
-  <CaravanAmbushDefeated.rulePack.rulesStrings>TODO</CaravanAmbushDefeated.rulePack.rulesStrings>
+  <CaravanAmbushDefeated.rulePack.rulesStrings>
+    <li>tale_noun->a defesa da caravana de [PAWN_nameDef] foi bem sucedida</li>
+    <li>tale_noun->A caravana de [PAWN_nameDef] está lutando contra uma emboscada</li>
+    <li>image->[PAWN_nameFull] está organizando a resistência enquanto [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está empunhando uma [Weapon] na defensiva enquanto [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está retaliando com [PAWN_possessive] [Weapon] enquanto [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está tão alto quanto um prédio enquanto [circunstance_group]</li>
+    <li>image->[PAWN_nameFull] está usando uma expressão [AdjectiveBadass] enquanto [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está usando uma expressão [AdjectiveAngsty] enquanto [circumstance_group]</li>
+    <li>circumstance_phrase->se prepara contra a horda que avançava</li>
+    <li>circumstance_phrase->circula os vagões</li>
+    <li>circumstance_phrase->ruge da vitória</li>
+    <li>circumstance_phrase->brada [Weapon]s</li>
+    <li>circumstance_phrase->coberto de [Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avanço, bradando [Weapon]s.</li>
+    <li>desc_sentence->Um imenso [Enemy] avanços, brandindo um [Weapon].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avançar com um [AdjectiveBadass] olha nos olhos deles.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avançar com um [AdjectiveAngsty] olha nos olhos deles.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avança com brilho [Color] nos olhos.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avança, coberto de [Gore].</li>
+    <li>desc_sentence->O chão é revestido de [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fugiu da área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s fugiu da área.</li>
+  </CaravanAmbushDefeated.rulePack.rulesStrings>
   
   <!-- EN: caravan assault successful -->
-  <CaravanAssaultSuccessful.label>TODO</CaravanAssaultSuccessful.label>
+  <CaravanAssaultSuccessful.label>ataque a caravana bem sucedido</CaravanAssaultSuccessful.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan defeating an enemy stronghold</li>
     <li>image->[PAWN_nameFull] running towards a [Enemy], [circumstance_group]</li>
@@ -50,7 +73,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
-  <CaravanAssaultSuccessful.rulePack.rulesStrings>TODO</CaravanAssaultSuccessful.rulePack.rulesStrings>
+  <CaravanAssaultSuccessful.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] está derrotando uma fortaleza inimiga</li>
+    <li>image->[PAWN_nameFull] está correndo em direção a [Enemy], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está empunhando uma [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está girando uma [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está tão alto como um prédio, [circumstance_group]</li>
+    <li>circumstance_phrase->TODOwearing a [AdjectiveBadass] look in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->wearing a [AdjectiveAngsty] look in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->roaring in victory</li>
+    <li>circumstance_phrase->covered in [Gore]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s cower from the assault.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are visibly wounded.</li>
+    <li>desc_sentence->A [Community] burns in the distance.</li>
+    <li>desc_sentence->A [Community] smokes in the distance.</li>
+    <li>desc_sentence->The ground is coated in [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
+  </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
   <CaravanFled.label>TODO</CaravanFled.label>

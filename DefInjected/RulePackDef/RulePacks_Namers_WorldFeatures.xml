@@ -266,7 +266,26 @@
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerSwamp.rulePack.rulesStrings>TODO</NamerSwamp.rulePack.rulesStrings>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>standardname(p=0.1)->Pântano [narrative_name]</li>
+    <li>standardname(p=0.3)->[swamp_adjective] [narrative_name]</li>
+    <li>swamp_adjective->molhado</li>
+    <li>swamp_adjective->fumegante</li>
+    <li>swamp_adjective->sufocando</li>
+    <li>swamp_adjective->podre</li>
+    <li>swamp_adjective->apodrecendo</li>
+    <li>swamp_adjective->coberto de mato</li>
+    <li>swamp_adjective->emaranhado</li>
+    <li>swamp_adjective->vinhoso</li>
+    <li>swamp_adjective->espinhoso</li>
+    <li>terrain_word(p=6)->pântano</li>
+    <li>terrain_word->bacia</li>
+    <li>terrain_word->zonas húmidas</li>
+    <li>terrain_word->rio sujo</li>
+    <li>terrain_word->brejo</li>
+    <li>terrain_word->pântano</li>
+    <li>terrain_word->pântano</li>
+  </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</li>
@@ -284,7 +303,22 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
   -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>TODO</NamerTropicalRainforest.rulePack.rulesStrings>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+    <li>rainforest_adjective->molhado</li>
+    <li>rainforest_adjective->fumegante</li>
+    <li>rainforest_adjective->sufocando </li>
+    <li>rainforest_adjective->coberto de mato </li>
+    <li>rainforest_adjective->emaranhado</li>
+    <li>rainforest_adjective->vinhedo</li>
+    <li>rainforest_adjective->espinhoso </li>
+    <li>terrain_word(p=6)->floresta tropical </li>
+    <li>terrain_word(p=3)->selva </li>
+    <li>terrain_word->floresta </li>
+    <li>terrain_word->arvoredo</li>
+    <li>terrain_word->floresta </li>
+    <li>terrain_word->emaranhado</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN: terrain_word(p=4)->plateau -->
   <NamerTundra.rulePack.rulesStrings.0>terrain_word(p=4)->planalto</NamerTundra.rulePack.rulesStrings.0>
@@ -384,6 +418,78 @@
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
   -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>TODO</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>r_name->[metaprefix] [standardname]</li>
+    <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
+    <li>standardname->[narrative_name] [terrain_word]</li>
+    <li>metaprefix(p=10)-></li>
+    <li>metaprefix->[Direction]</li>
+    <li>metaprefix->[basic_adjective]</li>
+    <li>basic_adjective->ótimo </li>
+    <li>basic_adjective->maior </li>
+    <li>basic_adjective->menor</li>
+    <li>basic_adjective->grande</li>
+    <li>basic_adjective->novo</li>
+    <li>basic_adjective->antigo</li>
+    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[PlaceOutlander]</li>
+    <li>narrative_name->[Color][NaturalObject]</li>
+    <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
+    <li>narrative_name->[Animal]</li>
+    <li>narrative_name->[Color]</li>
+    <li>narrative_name->[Color][Animal]</li>
+    <li>narrative_name->[AdjectiveNatural][Animal]</li>
+    <li>narrative_name->[Animal][BodyPart]</li>
+    <li>narrative_name->[Color] [Animal]</li>
+    <li>narrative_name->[AdjectiveNatural] [Animal]</li>
+    <li>narrative_name->[Animal] [BodyPart]</li>
+    <li>storyname(p=50)->[subject]s [maybe_basic_adjective] [story_result]</li>
+    <li>storyname(p=2)->[subject]s [BodyPart]</li>
+    <li>storyname->[subject]s [Gore]</li>
+    <li>maybe_basic_adjective-></li>
+    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->loucura</li>
+    <li>story_result->vício</li>
+    <li>story_result->loucura</li>
+    <li>story_result->erro</li>
+    <li>story_result->culpa</li>
+    <li>story_result->passo em falso</li>
+    <li>story_result->ilusão</li>
+    <li>story_result->alegria</li>
+    <li>story_result->deleite</li>
+    <li>story_result->maravilha</li>
+    <li>story_result->orgulho</li>
+    <li>story_result->jóia</li>
+    <li>story_result->prêmio</li>
+    <li>story_result->recompensa</li>
+    <li>story_result->honra</li>
+    <li>story_result->bolada</li>
+    <li>story_result->troféu</li>
+    <li>story_result->presunção</li>
+    <li>story_result->arrogância</li>
+    <li>story_result->ficar de pé</li>
+    <li>story_result->perda</li>
+    <li>story_result->dívida</li>
+    <li>story_result->colapso</li>
+    <li>story_result->destruição</li>
+    <li>story_result->cataclismo</li>
+    <li>story_result->ruína</li>
+    <li>story_result->ruína</li>
+    <li>story_result->desfazer</li>
+    <li>story_result->queda</li>
+    <li>story_result->fim</li>
+    <li>story_result->aposentadoria</li>
+    <li>story_result->realização</li>
+    <li>story_result->final</li>
+    <li>story_result->blefe</li>
+    <li>story_result->ardil</li>
+    <li>story_result->decepção</li>
+    <li>story_result->fachada</li>
+    <li>story_result->fraude</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>
