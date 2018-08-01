@@ -23,7 +23,28 @@
     <li>scraped_past->scraped</li>
     <li>scraped_past->slid</li>
   -->
-  <Combat_Deflect.rulePack.rulesStrings>TODO</Combat_Deflect.rulePack.rulesStrings>
+  <Combat_Deflect.rulePack.rulesStrings>
+    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] with [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] [deflected_result].</li>
+    <li>at-></li>
+    <li>at->at</li>
+    <li>deflected_result-> [adverb_deflected]</li>
+    <li>deflected_result->, [deflected_consequence]</li>
+    <li>adverb_deflected_opt(p=4)-></li>
+    <li>adverb_deflected_opt->[adverb_deflected]</li>
+    <li>adverb_deflected->harmlessly</li>
+    <li>adverb_deflected->uselessly</li>
+    <li>deflected_consequence->but the [TOOL_label] [scraped_past] off [adverb_deflected_opt]</li>
+    <li>deflected_consequence->[scraped_present] off [RECIPIENT_possessive] armor [adverb_deflected_opt]</li>
+    <li>scraped_present->scraping</li>
+    <li>scraped_present->sliding</li>
+    <li>scraped_past->scraped</li>
+    <li>scraped_past->slid</li>
+  </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
     <li>scraped_present->glancing</li>
@@ -39,7 +60,20 @@
     <li>scraped_past->skipped</li>
     <li>scraped_past->skated</li>
   -->
-  <Combat_DeflectIncludes.rulePack.rulesStrings>TODO</Combat_DeflectIncludes.rulePack.rulesStrings>
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>scraped_present->glancing</li>
+    <li>scraped_present->bouncing</li>
+    <li>scraped_present->grazing</li>
+    <li>scraped_present->caroming</li>
+    <li>scraped_present->skipping</li>
+    <li>scraped_present->skating</li>
+    <li>scraped_past->glanced</li>
+    <li>scraped_past->bounced</li>
+    <li>scraped_past->grazed</li>
+    <li>scraped_past->caromed</li>
+    <li>scraped_past->skipped</li>
+    <li>scraped_past->skated</li>
+  </Combat_DeflectIncludes.rulePack.rulesStrings>
   
   <!-- EN: r_logentry(p=0.2)->[RECIPIENT_definite] dodged [INITIATOR_definite]'s [damaged_inf] from [implement]. -->
   <Combat_Dodge.rulePack.rulesStrings.0>logentry(p=0.2)->[RECIPIENT_definite] esquivou [damaged_inf] de [damaged_inf] a partir de [implement].</Combat_Dodge.rulePack.rulesStrings.0>

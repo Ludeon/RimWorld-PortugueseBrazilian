@@ -73,7 +73,12 @@
     <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
-  <DamageEvent_Include.rulePack.rulesStrings>TODO</DamageEvent_Include.rulePack.rulesStrings>
+  <DamageEvent_Include.rulePack.rulesStrings>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets] e [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
+  </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damage_source->The [sky] opened up on</li>
@@ -90,7 +95,21 @@
     <li>light->flame</li>
     <li>light(p=0.2)->incandescence</li>
   -->
-  <DamageEvent_PowerBeam.rulePack.rulesStrings>TODO</DamageEvent_PowerBeam.rulePack.rulesStrings>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings>
+    <li>damage_source->O [sky] abril em</li>
+    <li>damage_source->Um raio de incrível [power] [damaged_past]</li>
+    <li>damage_source->Uma coluna de [light] [damaged_past]</li>
+    <li>sky->céu</li>
+    <li>sky->céu</li>
+    <li>sky->céu</li>
+    <li>power->poder</li>
+    <li>power->força</li>
+    <li>power->calor</li>
+    <li>light->luz</li>
+    <li>light->calor</li>
+    <li>light->fogo</li>
+    <li>light(p=0.2)->incandecente</li>
+  </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damage_source->A [spiraling] tornado [enveloped]</li>
@@ -103,6 +122,16 @@
     <li>enveloped->engulfed</li>
     <li>enveloped->surrounded</li>
   -->
-  <DamageEvent_Tornado.rulePack.rulesStrings>TODO</DamageEvent_Tornado.rulePack.rulesStrings>
+  <DamageEvent_Tornado.rulePack.rulesStrings>
+    <li>damage_source->Um [spiraling] tornado [enveloped]</li>
+    <li>destroyed_present(p=3)->arrancando</li>
+    <li>spiraling->espiral</li>
+    <li>spiraling->espiral</li>
+    <li>spiraling->espiral</li>
+    <li>spiraling(p=10)-></li>
+    <li>enveloped(p=8)->levou</li>
+    <li>enveloped->engoliu</li>
+    <li>enveloped->cercou</li>
+  </DamageEvent_Tornado.rulePack.rulesStrings>
   
 </LanguageData>
