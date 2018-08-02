@@ -74,7 +74,7 @@
   </BuiltSnowman.rulePack.rulesStrings>
   
   <!-- EN: buried corpse -->
-  <BuriedCorpse.label>TODO</BuriedCorpse.label>
+  <BuriedCorpse.label>cadáver enterrado</BuriedCorpse.label>
   <!-- EN:
     <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
     <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
@@ -96,10 +96,30 @@
     <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveAngsty] expression.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
-  <BuriedCorpse.rulePack.rulesStrings>TODO</BuriedCorpse.rulePack.rulesStrings>
+  <BuriedCorpse.rulePack.rulesStrings>
+    <li>tale_noun->[DIGGER_nameDef] enterrando [CORPSE_nameDef]</li>
+    <li>tale_noun->[DIGGER_nameDef] colocando [CORPSE_nameDef] para descansar</li>
+    <li>image->[DIGGER_nameFull] está em pé ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] está sentado ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] está encostado no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] está escrevendo um texto na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] está pintando uma arte na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] está colocando o corpo de [CORPSE_nameFull] dentro de uma sepultura [circumstance_group]</li>
+    <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
+    <li>circumstance_phrase->e consumido em pensamentos</li>
+    <li>circumstance_phrase->enquanto admira a distância [TerrainFeature]</li>
+    <li>circumstance_phrase->falando baixinho para o memorial</li>
+    <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
+    <li>desc_sentence->À distância, uma [Community] está coberta de neve.</li>
+    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] examina a cena com uma expressão [AdjectiveFriendly].</li>
+    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [DIGGER_nameDef], usando uma expressão [AdjectiveFriendly].</li>
+    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] examina a cena com uma expressão [AdjectiveAngsty].</li>
+    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [DIGGER_nameDef], usando uma expressão [AdjectiveAngsty].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansam perto da cena.</li>
+  </BuriedCorpse.rulePack.rulesStrings>
   
   <!-- EN: completed long construction project -->
-  <CompletedLongConstructionProject.label>TODO</CompletedLongConstructionProject.label>
+  <CompletedLongConstructionProject.label>projeto de construção longo concluído</CompletedLongConstructionProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
@@ -117,10 +137,26 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the [OBJECT_label].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
-  <CompletedLongConstructionProject.rulePack.rulesStrings>TODO</CompletedLongConstructionProject.rulePack.rulesStrings>
+  <CompletedLongConstructionProject.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] terminou a construção de [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] está montando um aparelho complicado dentro de um [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está polindo a superfície de um [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está adicionando detalhes da superfície de [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está inscrevendo seu nome em um [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->com um brilho no olho [PAWN_possessive]</li>
+    <li>circumstance_phrase->enquanto limpa o suor da testa [PAWN_possessive]</li>
+    <li>circumstance_phrase->enquanto coberto de sujeira</li>
+    <li>circumstance_phrase->enquanto sorri orgulhosamente</li>
+    <li>circumstance_phrase->com uma expressão satisfeita no rosto [PAWN_possessive]</li>
+    <li>desc_sentence->O [OBJECT_label] parece ter uma torre acima de [PAWN_nameDef].</li>
+    <li>desc_sentence->O [OBJECT_label] brilha vuavemente [Color].</li>
+    <li>desc_sentence->O [OBJECT_label] é extremamente detalhado.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s maravilhe-se com o [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s olhar admirado.</li>
+  </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
-  <CompletedLongCraftingProject.label>TODO</CompletedLongCraftingProject.label>
+  <CompletedLongCraftingProject.label>projeto de elaboração de longo prazo concluído</CompletedLongCraftingProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
@@ -141,7 +177,7 @@
   <CompletedLongCraftingProject.rulePack.rulesStrings>TODO</CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
-  <EnteredCryptosleep.label>TODO</EnteredCryptosleep.label>
+  <EnteredCryptosleep.label>entrou cryptosono</EnteredCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
     <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
@@ -162,7 +198,7 @@
   <EnteredCryptosleep.rulePack.rulesStrings>TODO</EnteredCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: gained master skill -->
-  <GainedMasterSkillWithoutPassion.label>TODO</GainedMasterSkillWithoutPassion.label>
+  <GainedMasterSkillWithoutPassion.label>ganhou habilidade mestre</GainedMasterSkillWithoutPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -184,7 +220,7 @@
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>TODO</GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
   <!-- EN: gained master skill with passion -->
-  <GainedMasterSkillWithPassion.label>TODO</GainedMasterSkillWithPassion.label>
+  <GainedMasterSkillWithPassion.label>ganhou habilidade mestre com paixão</GainedMasterSkillWithPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -208,7 +244,7 @@
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>TODO</GainedMasterSkillWithPassion.rulePack.rulesStrings>
   
   <!-- EN: increased menagerie -->
-  <IncreasedMenagerie.label>TODO</IncreasedMenagerie.label>
+  <IncreasedMenagerie.label>aumento de zoológico</IncreasedMenagerie.label>
   <!-- EN:
     <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
@@ -231,7 +267,7 @@
   <IncreasedMenagerie.rulePack.rulesStrings>TODO</IncreasedMenagerie.rulePack.rulesStrings>
   
   <!-- EN: meditated -->
-  <Meditated.label>TODO</Meditated.label>
+  <Meditated.label>meditar</Meditated.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] meditating</li>
     <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
@@ -251,7 +287,7 @@
   <Meditated.rulePack.rulesStrings>TODO</Meditated.rulePack.rulesStrings>
   
   <!-- EN: mined valuable -->
-  <MinedValuable.label>TODO</MinedValuable.label>
+  <MinedValuable.label>minar valioso</MinedValuable.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
@@ -274,7 +310,7 @@
   <MinedValuable.rulePack.rulesStrings>TODO</MinedValuable.rulePack.rulesStrings>
   
   <!-- EN: played game -->
-  <PlayedGame.label>TODO</PlayedGame.label>
+  <PlayedGame.label>jogar jogo</PlayedGame.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
     <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
@@ -304,7 +340,7 @@
   <PlayedGame.rulePack.rulesStrings>TODO</PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
-  <Prayed.label>TODO</Prayed.label>
+  <Prayed.label>orar</Prayed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] praying</li>
     <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
@@ -325,7 +361,7 @@
   <Prayed.rulePack.rulesStrings>TODO</Prayed.rulePack.rulesStrings>
   
   <!-- EN: put into cryptosleep -->
-  <PutIntoCryptosleep.label>TODO</PutIntoCryptosleep.label>
+  <PutIntoCryptosleep.label>colocar em uma cryptosono</PutIntoCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
     <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
@@ -346,7 +382,7 @@
   <PutIntoCryptosleep.rulePack.rulesStrings>TODO</PutIntoCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: stripped -->
-  <Stripped.label>TODO</Stripped.label>
+  <Stripped.label>despojado</Stripped.label>
   <!-- EN:
     <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
@@ -367,7 +403,7 @@
   <Stripped.rulePack.rulesStrings>TODO</Stripped.rulePack.rulesStrings>
   
   <!-- EN: visited grave -->
-  <VisitedGrave.label>TODO</VisitedGrave.label>
+  <VisitedGrave.label>túmulo visitado</VisitedGrave.label>
   <!-- EN:
     <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
     <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
