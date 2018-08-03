@@ -192,14 +192,14 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s olha admirado.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
-  <!-- EN: entered cryptosleep -->
+  <!-- EN: entered cryptosono -->
   <EnteredCryptosleep.label>entrou cryptosono</EnteredCryptosleep.label>
   <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
-    <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] opening an empty cryptosleep casket [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sealing themselves inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] looking through the wall of a cryptosleep casket at a world they're about to leave [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] entering cryptosono</li>
+    <li>image->[PAWN_nameFull] lying down inside a cryptosono casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] opening an empty cryptosono casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sealing themselves inside a cryptosono casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking through the wall of a cryptosono casket at a world they're about to leave [circumstance_group]</li>
     <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
     <li>circumstance_phrase->while consumed in thought</li>
     <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
@@ -209,9 +209,25 @@
     <li>desc_sentence->[PAWN_nameDef] radiates determination.</li>
     <li>desc_sentence->[PAWN_nameDef] is visibly wounded.</li>
     <li>desc_sentence->A [Color] aurora shines in the background.</li>
-    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosono caskets surround the scene.</li>
   -->
-  <EnteredCryptosleep.rulePack.rulesStrings>TODO</EnteredCryptosleep.rulePack.rulesStrings>
+  <EnteredCryptosleep.rulePack.rulesStrings>
+	<li>tale_noun->[PAWN_nameDef] inserido na cryptosono</li>
+    <li>image->[PAWN_nameFull] deitado dentro de um caixão cryptosono [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] abrindo um caixão vazio de cryptosono [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] se selando dentro de um caixão cryptosono [circunstance_group]</li>
+    <li>image->[PAWN_nameFull] olhando através da parede de um caixão cryptosono em um mundo que ele esta prestes a sair [circumstance_group]</li>
+    <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
+    <li>circumstance_phrase->enquanto consumido em pensamentos</li>
+    <li>circumstance_phrase->enquanto olha para um(a) distante [TerrainFeature]</li>
+    <li>circumstance_phrase->enquanto fala baixinho para si mesmos</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansa perto da cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se aproxima da área.</li>
+    <li>desc_sentence->[PAWN_nameDef] irradia determinação.</li>
+    <li>desc_sentence->[PAWN_nameDef] está visivelmente ferido.</li>
+    <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
+    <li>desc_sentence->[Quantity_adjphrase] caixas de cryptosono preenchidas cercam a cena.</li>
+  </EnteredCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: gained master skill -->
   <GainedMasterSkillWithoutPassion.label>ganhou habilidade mestre</GainedMasterSkillWithoutPassion.label>
@@ -233,7 +249,24 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
-  <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>TODO</GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+  <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+	<li>tale_noun->[PAWN_nameDef] está se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>image->[PAWN_nameFull] está praticando a habilidade de [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está lendo um livro sobre métodos de [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está recebendo treinamento na habilidade de [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está operando sem parar [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está terminando um projeto [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto está coberto de suor</li>
+    <li>circumstance_phrase->com exaustão visível</li>
+    <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
+    <li>circumstance_phrase->com uma expressão entediada</li>
+    <li>desc_sentence->A cena é cercada por [Quantity_adjphrase] experiências com falhas.</li>
+    <li>desc_sentence->A cena é cercada por [Quantity_adjphrase] livros.</li>
+    <li>desc_sentence->Sua habilidade é visível no trabalho.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s assistem com espanto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s assistem com espanto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] espíritos dos antigos mestres observam de cima.</li>
+  </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
   <!-- EN: gained master skill with passion -->
   <GainedMasterSkillWithPassion.label>ganhou habilidade mestre com paixão</GainedMasterSkillWithPassion.label>
@@ -376,14 +409,14 @@
   -->
   <Prayed.rulePack.rulesStrings>TODO</Prayed.rulePack.rulesStrings>
   
-  <!-- EN: put into cryptosleep -->
+  <!-- EN: put into cryptosono -->
   <PutIntoCryptosleep.label>colocar em uma cryptosono</PutIntoCryptosleep.label>
   <!-- EN:
-    <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
-    <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[CARRIER_nameFull] opening an empty cryptosleep casket while supporting [SLEEPER_nameDef] [circumstance_group]</li>
-    <li>image->[CARRIER_nameFull] sealing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
-    <li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosleep casket [circumstance_group]</li>
+    <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosono</li>
+    <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosono casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] opening an empty cryptosono casket while supporting [SLEEPER_nameDef] [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] sealing [SLEEPER_nameDef] inside a cryptosono casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosono casket [circumstance_group]</li>
     <li>circumstance_phrase(p=3)->with a [AdjectiveAny] expression</li>
     <li>circumstance_phrase->while consumed in thought</li>
     <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
@@ -393,7 +426,7 @@
     <li>desc_sentence->[CARRIER_nameDef] radiates determination.</li>
     <li>desc_sentence->[SLEEPER_nameDef] is visibly wounded.</li>
     <li>desc_sentence->[SLEEPER_nameDef] looks exhausted.</li>
-    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosono caskets surround the scene.</li>
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>TODO</PutIntoCryptosleep.rulePack.rulesStrings>
   
