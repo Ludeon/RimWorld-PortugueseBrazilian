@@ -370,9 +370,9 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings.50>to->para dentro</Combat_MeleeIncludes.rulePack.rulesStrings.50>
   
   <!-- EN: r_logentry(p=0.2)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf]. -->
-  <Combat_Miss.rulePack.rulesStrings.0>r_logentry(p=0.2)->[RECIPIENT_definite] evitado [INITIATOR_definite] de [WEAPON_label]  [damaged_inf].</Combat_Miss.rulePack.rulesStrings.0>
+  <Combat_Miss.rulePack.rulesStrings.0>r_logentry(p=0.2)->[RECIPIENT_definite] evitou [INITIATOR_definite] de [WEAPON_label]  [damaged_inf].</Combat_Miss.rulePack.rulesStrings.0>
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement]. -->
-  <Combat_Miss.rulePack.rulesStrings.1>r_logentry(p=0.2)->[INITIATOR_definite] perdido [RECIPIENT_definite] com um(a) [damaged_inf] a partir de [implement].</Combat_Miss.rulePack.rulesStrings.1>
+  <Combat_Miss.rulePack.rulesStrings.1>r_logentry(p=0.2)->[INITIATOR_definite] errou [RECIPIENT_definite] ao tentar dar um(a) [damaged_inf] com seu [implement].</Combat_Miss.rulePack.rulesStrings.1>
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] with [implement]. -->
   <Combat_Miss.rulePack.rulesStrings.2>r_logentry(p=0.2)->[INITIATOR_definite] [failtype] enquanto tentava [damaged_inf] [RECIPIENT_definite] com [implement].</Combat_Miss.rulePack.rulesStrings.2>
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite]. -->
@@ -435,7 +435,7 @@
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [WEAPON_projectile_label]. -->
   <Combat_RangedDamage.rulePack.rulesStrings.16>r_logentry(p=0.2)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um(a) [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.16>
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite]'s [WEAPON_projectile_label] hit [RECIPIENT_definite]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.17>r_logentry(p=0.2)->[INITIATOR_definite] de [WEAPON_projectile_label] acertou [RECIPIENT_definite].</Combat_RangedDamage.rulePack.rulesStrings.17>
+  <Combat_RangedDamage.rulePack.rulesStrings.17>r_logentry(p=0.2)->O [WEAPON_projectile_label] de [INITIATOR_definite] acertou [RECIPIENT_definite].</Combat_RangedDamage.rulePack.rulesStrings.17>
   <!-- EN: r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite] with a [WEAPON_projectile_label]. -->
   <Combat_RangedDamage.rulePack.rulesStrings.18>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou [RECIPIENT_definite] com um(a) [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.18>
   <!-- EN: r_logentry(p=0.4)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite]. -->
@@ -591,9 +591,9 @@
   <!-- EN: shot->[adverb_shot] [verb_shot] -->
   <Combat_RangedFire.rulePack.rulesStrings.9>shot->[shotadverb] [shotverb]</Combat_RangedFire.rulePack.rulesStrings.9>
   <!-- EN: shotat->shot [aburst] at -->
-  <Combat_RangedFire.rulePack.rulesStrings.10>shotat->atirar [aburst] em</Combat_RangedFire.rulePack.rulesStrings.10>
+  <Combat_RangedFire.rulePack.rulesStrings.10>shotat->atirou [aburst] em</Combat_RangedFire.rulePack.rulesStrings.10>
   <!-- EN: shotat->[adverb_shot] shot [aburst] at -->
-  <Combat_RangedFire.rulePack.rulesStrings.11>shotat->[shotadverb] atirar [aburst] em</Combat_RangedFire.rulePack.rulesStrings.11>
+  <Combat_RangedFire.rulePack.rulesStrings.11>shotat->[shotadverb] atirou [aburst] em</Combat_RangedFire.rulePack.rulesStrings.11>
   <!-- EN: shotat(p=0.5)->tried to shoot [aburst] at -->
   <Combat_RangedFire.rulePack.rulesStrings.12>shotat(p=0.5)->tentou atirar [aburst] em</Combat_RangedFire.rulePack.rulesStrings.12>
   <!-- EN: shotat(p=0.3)->took a shot at -->
@@ -695,37 +695,37 @@
   <Combat_RangedFire_Thrown.rulePack.rulesStrings.22>adjective_threw(initiator_flesh!=Mechanoid)->desconfiado</Combat_RangedFire_Thrown.rulePack.rulesStrings.22>
   
   <!-- EN: r_logentry->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed]. -->
-  <Combat_RangedMiss.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite] de [WEAPON_projectile_label] [missed].</Combat_RangedMiss.rulePack.rulesStrings.0>
+  <Combat_RangedMiss.rulePack.rulesStrings.0>r_logentry->[WEAPON_projectile_label] de [INITIATOR_definite] [missed].</Combat_RangedMiss.rulePack.rulesStrings.0>
   <!-- EN: r_logentry->[INITIATOR_definite] missed [ORIGINALTARGET_definite]. -->
   <Combat_RangedMiss.rulePack.rulesStrings.1>r_logentry->[INITIATOR_definite] perdeu [ORIGINALTARGET_definite].</Combat_RangedMiss.rulePack.rulesStrings.1>
   <!-- EN: r_logentry->[ORIGINALTARGET_definite] [avoidance], [INITIATOR_definite]'s [WEAPON_projectile_label] [missing]. -->
   <Combat_RangedMiss.rulePack.rulesStrings.2>r_logentry->[ORIGINALTARGET_definite] [avoidance], [INITIATOR_definite] de [WEAPON_projectile_label] [missing].</Combat_RangedMiss.rulePack.rulesStrings.2>
   <!-- EN: missed(p=4)->missed -->
-  <Combat_RangedMiss.rulePack.rulesStrings.3>missed(p=4)->errando</Combat_RangedMiss.rulePack.rulesStrings.3>
+  <Combat_RangedMiss.rulePack.rulesStrings.3>missed(p=4)->errou</Combat_RangedMiss.rulePack.rulesStrings.3>
   <!-- EN: missed(p=2)->missed by a small margin -->
-  <Combat_RangedMiss.rulePack.rulesStrings.4>missed(p=2)->errando por uma pequena margem</Combat_RangedMiss.rulePack.rulesStrings.4>
+  <Combat_RangedMiss.rulePack.rulesStrings.4>missed(p=2)->errou por uma pequena distância</Combat_RangedMiss.rulePack.rulesStrings.4>
   <!-- EN: missed(p=2)->missed by a wide margin -->
-  <Combat_RangedMiss.rulePack.rulesStrings.5>missed(p=2)->errando por uma ampla margem</Combat_RangedMiss.rulePack.rulesStrings.5>
+  <Combat_RangedMiss.rulePack.rulesStrings.5>missed(p=2)->errou por uma longa distância</Combat_RangedMiss.rulePack.rulesStrings.5>
   <!-- EN: missed->went wide -->
-  <Combat_RangedMiss.rulePack.rulesStrings.6>missed->indo amplo(a)</Combat_RangedMiss.rulePack.rulesStrings.6>
+  <Combat_RangedMiss.rulePack.rulesStrings.6>missed->foi longe</Combat_RangedMiss.rulePack.rulesStrings.6>
   <!-- EN: missed->flew into the air -->
-  <Combat_RangedMiss.rulePack.rulesStrings.7>missed->voando no ar</Combat_RangedMiss.rulePack.rulesStrings.7>
+  <Combat_RangedMiss.rulePack.rulesStrings.7>missed->passou no ar</Combat_RangedMiss.rulePack.rulesStrings.7>
   <!-- EN: missed->flew high into the air -->
-  <Combat_RangedMiss.rulePack.rulesStrings.8>missed->voando alto no ar</Combat_RangedMiss.rulePack.rulesStrings.8>
+  <Combat_RangedMiss.rulePack.rulesStrings.8>missed->passou longe no ar</Combat_RangedMiss.rulePack.rulesStrings.8>
   <!-- EN: missed->dug into the ground -->
-  <Combat_RangedMiss.rulePack.rulesStrings.9>missed->voando no ar</Combat_RangedMiss.rulePack.rulesStrings.9>
+  <Combat_RangedMiss.rulePack.rulesStrings.9>missed->passou no ar</Combat_RangedMiss.rulePack.rulesStrings.9>
   <!-- EN: missed->skipped off the ground and was lost -->
-  <Combat_RangedMiss.rulePack.rulesStrings.10>missed->saltou no chão e se perdeu</Combat_RangedMiss.rulePack.rulesStrings.10>
+  <Combat_RangedMiss.rulePack.rulesStrings.10>missed->bateu no chão e se perdeu</Combat_RangedMiss.rulePack.rulesStrings.10>
   <!-- EN: missed->dug a divot out of the ground -->
-  <Combat_RangedMiss.rulePack.rulesStrings.11>missed->cavou o chão e se perdeu</Combat_RangedMiss.rulePack.rulesStrings.11>
+  <Combat_RangedMiss.rulePack.rulesStrings.11>missed->acertou o chão e se perdeu</Combat_RangedMiss.rulePack.rulesStrings.11>
   <!-- EN: missed(p=0.2)->passed within millimeters of [ORIGINALTARGET_definite] -->
-  <Combat_RangedMiss.rulePack.rulesStrings.12>missed(p=0.2)->passado de dentro de milímetro de de [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.12>
+  <Combat_RangedMiss.rulePack.rulesStrings.12>missed(p=0.2)->passou a milímetros de [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.12>
   <!-- EN: missed->passed within centimeters of [ORIGINALTARGET_definite] -->
-  <Combat_RangedMiss.rulePack.rulesStrings.13>missed->passou a centímetro de de [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.13>
+  <Combat_RangedMiss.rulePack.rulesStrings.13>missed->passou a centímetro de [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.13>
   <!-- EN: missed->passed within a meter of [ORIGINALTARGET_definite] -->
-  <Combat_RangedMiss.rulePack.rulesStrings.14>missed->passou dentro de um metro de [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.14>
+  <Combat_RangedMiss.rulePack.rulesStrings.14>missed->passou a cerca de um metro de [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.14>
   <!-- EN: missed->was blown offcourse -->
-  <Combat_RangedMiss.rulePack.rulesStrings.15>missed->estava desviado</Combat_RangedMiss.rulePack.rulesStrings.15>
+  <Combat_RangedMiss.rulePack.rulesStrings.15>missed->se desviou</Combat_RangedMiss.rulePack.rulesStrings.15>
   <!-- EN: missing->missing -->
   <Combat_RangedMiss.rulePack.rulesStrings.16>missing->estava soprando claro</Combat_RangedMiss.rulePack.rulesStrings.16>
   <!-- EN: missing->missing by a small margin -->
