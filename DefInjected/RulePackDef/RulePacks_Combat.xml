@@ -148,9 +148,9 @@
   <Combat_ExplosionImpact.rulePack.rulesStrings.29>fromof->de</Combat_ExplosionImpact.rulePack.rulesStrings.29>
   
   <!-- EN: action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.0>action->[INITIATOR_definite] [tried] para [damaged_inf] [RECIPIENT_definite]</Combat_FailIncludes.rulePack.rulesStrings.0>
+  <Combat_FailIncludes.rulePack.rulesStrings.0>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite]</Combat_FailIncludes.rulePack.rulesStrings.0>
   <!-- EN: action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.1>action->[INITIATOR_definite] [tried] para [damaged_inf] [RECIPIENT_definite] com [implement]</Combat_FailIncludes.rulePack.rulesStrings.1>
+  <Combat_FailIncludes.rulePack.rulesStrings.1>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite] com [implement]</Combat_FailIncludes.rulePack.rulesStrings.1>
   <!-- EN: action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite] -->
   <Combat_FailIncludes.rulePack.rulesStrings.2>action->[INITIATOR_definite] [tried] para usar [implement] para [damaged_inf] [RECIPIENT_definite]</Combat_FailIncludes.rulePack.rulesStrings.2>
   <!-- EN: action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite] -->
@@ -177,13 +177,13 @@
   <Combat_FailIncludes.rulePack.rulesStrings.13>tried->tentou</Combat_FailIncludes.rulePack.rulesStrings.13>
   
   <!-- EN: r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label]. -->
-  <Combat_Hit.rulePack.rulesStrings.0>r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] do(a) [RECIPIENT_definite].</Combat_Hit.rulePack.rulesStrings.0>
+  <Combat_Hit.rulePack.rulesStrings.0>r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] d[RECIPIENT_definite].</Combat_Hit.rulePack.rulesStrings.0>
   <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [adverb_flavortext]. -->
-  <Combat_Hit.rulePack.rulesStrings.1>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] do(a) [RECIPIENT_definite] [flavortextadverb].</Combat_Hit.rulePack.rulesStrings.1>
+  <Combat_Hit.rulePack.rulesStrings.1>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] d[RECIPIENT_definite] [flavortextadverb].</Combat_Hit.rulePack.rulesStrings.1>
   <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [flavortext_situation]. -->
-  <Combat_Hit.rulePack.rulesStrings.2>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] do(a) [RECIPIENT_definite] [flavortextsituation].</Combat_Hit.rulePack.rulesStrings.2>
+  <Combat_Hit.rulePack.rulesStrings.2>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] d[RECIPIENT_definite] [flavortextsituation].</Combat_Hit.rulePack.rulesStrings.2>
   <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label], [flavortext_consequence]. -->
-  <Combat_Hit.rulePack.rulesStrings.3>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] do(a) [RECIPIENT_definite], [flavortextconsequence].</Combat_Hit.rulePack.rulesStrings.3>
+  <Combat_Hit.rulePack.rulesStrings.3>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] no(a) [recipient_part0_label] d[RECIPIENT_definite], [flavortextconsequence].</Combat_Hit.rulePack.rulesStrings.3>
   <!-- EN: r_logentry(p=0.07)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label]. -->
   <Combat_Hit.rulePack.rulesStrings.4>r_logentry(p=0.4)->[INITIATOR_definite], empunhando [INITIATOR_possessive] [weapon_label] [expertly], [damaged_past] [RECIPIENT_definite] no(a) [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.4>
   <!-- EN: r_logentry(p=0.03)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [adverb_flavortext] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label]. -->
@@ -289,27 +289,27 @@
   <!-- EN: implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label] -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.10>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</Combat_MeleeIncludes.rulePack.rulesStrings.10>
   <!-- EN: adjective_bodypart->hard -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.11>adjective_bodypart->dificil</Combat_MeleeIncludes.rulePack.rulesStrings.11>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.11>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.11>
   <!-- EN: adjective_bodypart->strong -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.12>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.12>
   <!-- EN: adjective_bodypart->powerful -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.13>adjective_bodypart->poderoso</Combat_MeleeIncludes.rulePack.rulesStrings.13>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.13>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.13>
   <!-- EN: adjective_bodypart->forceful -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.14>adjective_bodypart->vigoroso</Combat_MeleeIncludes.rulePack.rulesStrings.14>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.14>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.14>
   <!-- EN: adjective_bodypart->mighty -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.15>adjective_bodypart->poderosa</Combat_MeleeIncludes.rulePack.rulesStrings.15>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.15>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.15>
   <!-- EN: adjective_bodypart->rugged -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.16>adjective_bodypart->áspero</Combat_MeleeIncludes.rulePack.rulesStrings.16>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.16>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.16>
   <!-- EN: adjective_bodypart->stout -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.17>adjective_bodypart->robusto</Combat_MeleeIncludes.rulePack.rulesStrings.17>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.17>adjective_bodypart->firme</Combat_MeleeIncludes.rulePack.rulesStrings.17>
   <!-- EN: adjective_bodypart->sturdy -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.18>adjective_bodypart->firme</Combat_MeleeIncludes.rulePack.rulesStrings.18>
   <!-- EN: adjective_bodypart->solid -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.19>adjective_bodypart->solido</Combat_MeleeIncludes.rulePack.rulesStrings.19>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.19>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.19>
   <!-- EN: adjective_bodypart->tough -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.20>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.20>
   <!-- EN: adjective_bodypart(initiator_flesh==True)->calloused -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.21>adjective_bodypart(initiator_flesh==True)->calejado</Combat_MeleeIncludes.rulePack.rulesStrings.21>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.21>adjective_bodypart(initiator_flesh==True)->firme</Combat_MeleeIncludes.rulePack.rulesStrings.21>
   <!-- EN: adjective_bodypart->firm -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.22>adjective_bodypart->firme</Combat_MeleeIncludes.rulePack.rulesStrings.22>
   <!-- EN: targetlist(recipient_part_count==1)->[RECIPIENT_part0_label] -->
@@ -390,15 +390,15 @@
   <!-- EN: failtype->missed -->
   <Combat_Miss.rulePack.rulesStrings.9>failtype->errou</Combat_Miss.rulePack.rulesStrings.9>
   <!-- EN: result->but missed -->
-  <Combat_Miss.rulePack.rulesStrings.10>result->ma de errou</Combat_Miss.rulePack.rulesStrings.10>
+  <Combat_Miss.rulePack.rulesStrings.10>result->mas errou</Combat_Miss.rulePack.rulesStrings.10>
   <!-- EN: result->but hit only air -->
-  <Combat_Miss.rulePack.rulesStrings.11>result->ma de atingiu apena de o ar</Combat_Miss.rulePack.rulesStrings.11>
+  <Combat_Miss.rulePack.rulesStrings.11>result->mas acertou apenas o ar</Combat_Miss.rulePack.rulesStrings.11>
   <!-- EN: result->but the swing went wide -->
-  <Combat_Miss.rulePack.rulesStrings.12>result->ma de o balanço passou longe</Combat_Miss.rulePack.rulesStrings.12>
+  <Combat_Miss.rulePack.rulesStrings.12>result->mas o ataque passou longe</Combat_Miss.rulePack.rulesStrings.12>
   <!-- EN: result->but stumbled at the last second -->
-  <Combat_Miss.rulePack.rulesStrings.13>result->ma de tropeçou no último segundo</Combat_Miss.rulePack.rulesStrings.13>
+  <Combat_Miss.rulePack.rulesStrings.13>result->mas tropeçou no último segundo</Combat_Miss.rulePack.rulesStrings.13>
   <!-- EN: result(initiator_flesh!=Mechanoid)->but hesitated at the last second -->
-  <Combat_Miss.rulePack.rulesStrings.14>result->ma de hesitou no último segundo</Combat_Miss.rulePack.rulesStrings.14>
+  <Combat_Miss.rulePack.rulesStrings.14>result->mas errou no último segundo</Combat_Miss.rulePack.rulesStrings.14>
   
   <!-- EN: r_logentry->[INITIATOR_definite]'s [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets]. -->
   <Combat_RangedDamage.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite] de [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets].</Combat_RangedDamage.rulePack.rulesStrings.0>
