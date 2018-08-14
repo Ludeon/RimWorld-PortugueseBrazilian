@@ -3,26 +3,23 @@
   
   <!-- EN: breakup -->
   <Breakup.label>rompimento</Breakup.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for a break.</li>
-    <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for some space.</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it's not working out.</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it would be best to see other people.</li>
-  -->
-  <Breakup.logRulesInitiator.rulesStrings>
-    <li>logentry->Rompeu com [other_nameShortIndef].</li>
-  </Breakup.logRulesInitiator.rulesStrings>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for a break. -->
+  <Breakup.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] pediu para [OTHER_nameIndef] um tempo.</Breakup.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for some space. -->
+  <Breakup.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] pediu para [OTHER_nameIndef] por espaço.</Breakup.logRulesInitiator.rulesStrings.1>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it's not working out. -->
+  <Breakup.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameIndef] contou para [OTHER_nameIndef] que não está dando certo.</Breakup.logRulesInitiator.rulesStrings.2>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it would be best to see other people. -->
+  <Breakup.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameIndef] contou para [OTHER_nameIndef] que seria melhor conhecer outras pessoas.</Breakup.logRulesInitiator.rulesStrings.3>
   
   <!-- EN: marriage proposal -->
   <MarriageProposal.label>proposta de casamento</MarriageProposal.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
-  -->
-  <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>logentry->Propós casamento para [other_nameShortIndef].</li>
-  </MarriageProposal.logRulesInitiator.rulesStrings>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed marriage to [OTHER_nameDef]. -->
+  <MarriageProposal.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameIndef] propós casamento para [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [OTHER_nameDef]. -->
+  <MarriageProposal.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameIndef] propôs um compromisso sério para [OTHER_nameIndef].</MarriageProposal.logRulesInitiator.rulesStrings.1>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective]. -->
+  <MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef] disse a [OTHER_nameDef] que [INITIATOR_pronoun] quer passar [INITIATOR_possessive] vida com [OTHER_objective].</MarriageProposal.logRulesInitiator.rulesStrings.2>
   
   <!-- EN: romance attempt -->
   <RomanceAttempt.label>tentativa de romance</RomanceAttempt.label>
@@ -89,7 +86,66 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>logentry->Tentou seduzir [other_nameShortIndef] em um romance.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] [wootactic].</li>
+    <li>wooed->tentou flertar</li>
+    <li>wooed->flertou</li>
+    <li>wooed->tentou atrair</li>
+    <li>wooed->tentou um romance com</li>
+    <li>wooed->tentou cortejar</li>
+    <li>wooed->cortejou</li>
+    <li>wooed->seguil</li>
+    <li>wooed->encantou</li>
+    <li>wooed->atriu</li>
+    <li>wootactic(p=4)->[complimenting] [PersonalCharacteristic] de [OTHER_possessive]</li>
+    <li>wootactic->contando uma história sobre [TalkTopicAny]</li>
+    <li>wootactic->contando uma história sobre [TalkTopicAny]</li>
+    <li>wootactic->brincando sobre [TalkTopicAny]</li>
+    <li>wootactic->fazendo uma observação sobre [TalkTopicAny]</li>
+    <li>wootactic(p=2)->[boasting] a [PersonalCharacteristic] de [INITIATOR_possessive]</li>
+    <li>wootactic->comparando [OTHER_objective] com uma [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->descrevendo [OTHER_objective] como uma [romantic_adj] [romantic_noun]</li>
+    <li>boasting->gabando-se sobre</li>
+    <li>boasting->mencionando</li>
+    <li>boasting->implicando coisas boas sobre</li>
+    <li>boasting->exagerando sobre</li>
+    <li>boasting->falando sobre</li>
+    <li>boasting->chamando a atenção para</li>
+    <li>complimenting(p=3)->elogiando</li>
+    <li>complimenting->elogiando sutilmente</li>
+    <li>complimenting->louvando</li>
+    <li>complimenting->elogiando</li>
+    <li>complimenting->dizendo coisas boas sobre</li>
+    <li>complimenting(p=2)->divertidamente tirando sarro de</li>
+    <li>complimenting->cutucando e brincando com</li>
+    <li>complimenting->brincando com elogios a</li>
+    <li>complimenting->maliciosamente questionando</li>
+    <li>complimenting->alegremente tirando sarro de</li>
+    <li>romantic_adj->bonita(o)</li>
+    <li>romantic_adj->brilhante</li>
+    <li>romantic_adj->cintilante</li>
+    <li>romantic_adj->celestial</li>
+    <li>romantic_adj->dourada(o)</li>
+    <li>romantic_adj->brilhante</li>
+    <li>romantic_adj->celestial</li>
+    <li>romantic_adj->encantador(a)</li>
+    <li>romantic_adj->deslumbrante</li>
+    <li>romantic_adj->delicada(o)</li>
+    <li>romantic_adj->fina(o)</li>
+    <li>romantic_adj->magnífica(o)</li>
+    <li>romantic_adj->adorável</li>
+    <li>romantic_adj->Maravilhosa(o)</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_noun->flor</li>
+    <li>romantic_noun->primavera</li>
+    <li>romantic_noun->rio</li>
+    <li>romantic_noun->estrela</li>
+    <li>romantic_noun->lua</li>
+    <li>romantic_noun->sol</li>
+    <li>romantic_noun->casa</li>
+    <li>romantic_noun->aurora</li>
+    <li>romantic_noun->[TreeType] árvore</li>
+    <li>romantic_noun(p=2)->[TerrainFeature]</li>
+    <li>romantic_noun(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

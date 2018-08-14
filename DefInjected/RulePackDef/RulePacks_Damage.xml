@@ -14,7 +14,19 @@
     <li>destroyed_past->annihilated</li>
     <li>destroyed_past->detonated</li>
   -->
-  <Damage_Bomb.rulePack.rulesStrings>TODO</Damage_Bomb.rulePack.rulesStrings>
+  <Damage_Bomb.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->explodido</li>
+    <li>damaged_past(p=2)->explodido</li>
+    <li>damaged_past->ferido</li>
+    <li>damaged_past->danificado</li>
+    <li>damaged_past->ferido</li>
+    <li>damaged_past->ferido</li>
+    <li>destroyed_past->quebrado</li>
+    <li>destroyed_past->esmagado</li>
+    <li>destroyed_past->obliterado</li>
+    <li>destroyed_past->aniquilado</li>
+    <li>destroyed_past->detonado</li>
+  </Damage_Bomb.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->electrified</li>
@@ -22,7 +34,12 @@
     <li>damaged_past->zapped</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_EMP.rulePack.rulesStrings>TODO</Damage_EMP.rulePack.rulesStrings>
+  <Damage_EMP.rulePack.rulesStrings>
+    <li>damaged_past->eletrificado</li>
+    <li>damaged_past->chocado</li>
+    <li>damaged_past->apagado</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_EMP.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->extinguished</li>
@@ -31,7 +48,13 @@
     <li>damaged_past->quenched</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Extinguish.rulePack.rulesStrings>TODO</Damage_Extinguish.rulePack.rulesStrings>
+  <Damage_Extinguish.rulePack.rulesStrings>
+    <li>damaged_past->extinto</li>
+    <li>damaged_past->inundado</li>
+    <li>damaged_past->expandido</li>
+    <li>damaged_past->extinto</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Extinguish.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past(p=2)->blasted</li>
@@ -67,7 +90,40 @@
     <li>destroyed_present->annihilating</li>
     <li>destroyed_present->detonating</li>
   -->
-  <Damage_Flame.rulePack.rulesStrings>TODO</Damage_Flame.rulePack.rulesStrings>
+  <Damage_Flame.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->explodido</li>
+    <li>damaged_past(p=2)->queimado</li>
+    <li>damaged_past(p=2)->queimado</li>
+    <li>damaged_past(p=2)->empolado</li>
+    <li>damaged_past(p=2)->aceso</li>
+    <li>damaged_past(p=2)->grelhado</li>
+    <li>damaged_past->ferido</li>
+    <li>damaged_past->danificado</li>
+    <li>damaged_past->ferido</li>
+    <li>damaged_past->ferido</li>
+    <li>damaged_present(p=2)->explodindo</li>
+    <li>damaged_present(p=2)->escaldando</li>
+    <li>damaged_present(p=2)->queimando</li>
+    <li>damaged_present(p=2)->formação de bolhas</li>
+    <li>damaged_present(p=2)->acendendo</li>
+    <li>damaged_present(p=2)->grelhando</li>
+    <li>damaged_present->ferindo</li>
+    <li>damaged_present->danificando</li>
+    <li>damaged_present->ferindo</li>
+    <li>damaged_present->ferindo</li>
+    <li>destroyed_past->cremado</li>
+    <li>destroyed_past->incinerado</li>
+    <li>destroyed_past->carbonizado</li>
+    <li>destroyed_past->obliterado</li>
+    <li>destroyed_past->aniquilado</li>
+    <li>destroyed_past->detonado</li>
+    <li>destroyed_present->cremando</li>
+    <li>destroyed_present->incinerando</li>
+    <li>destroyed_present->carbonizando</li>
+    <li>destroyed_present->obliterando</li>
+    <li>destroyed_present->aniquilando</li>
+    <li>destroyed_present->detonando</li>
+  </Damage_Flame.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->smoked</li>
@@ -75,7 +131,12 @@
     <li>damaged_past->clouded</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Smoke.rulePack.rulesStrings>TODO</Damage_Smoke.rulePack.rulesStrings>
+  <Damage_Smoke.rulePack.rulesStrings>
+    <li>damaged_past->fumado</li>
+    <li>damaged_past->embaçado</li>
+    <li>damaged_past->nublado</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Smoke.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->stunned</li>
@@ -84,6 +145,12 @@
     <li>damaged_past->dizzied</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Stun.rulePack.rulesStrings>TODO</Damage_Stun.rulePack.rulesStrings>
+  <Damage_Stun.rulePack.rulesStrings>
+    <li>damaged_past->atordoado</li>
+    <li>damaged_past->confuso</li>
+    <li>damaged_past->parou</li>
+    <li>damaged_past->confundido</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Stun.rulePack.rulesStrings>
   
 </LanguageData>
