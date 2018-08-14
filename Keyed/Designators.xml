@@ -49,9 +49,9 @@
   <DesignatorMineDesc>Seleciona áreas de rocha para serem mineradas.</DesignatorMineDesc>
 
   <!-- EN: Smooth surface -->
-  <DesignatorSmoothSurface>TODO</DesignatorSmoothSurface>
+  <DesignatorSmoothSurface>Superfície lisa</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
-  <DesignatorSmoothSurfaceDesc>TODO</DesignatorSmoothSurfaceDesc>
+  <DesignatorSmoothSurfaceDesc>Designe terrenos de pedra áspera e paredes a serem alisadas.</DesignatorSmoothSurfaceDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planos</DesignatorPlan>
@@ -64,14 +64,14 @@
   <DesignatorPlanRemoveDesc>Remove desenhos de planejamento.</DesignatorPlanRemoveDesc>
 
   <!-- EN: Forbid -->
-  <DesignatorForbid>TODO</DesignatorForbid>
+  <DesignatorForbid>Proibir</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
-  <DesignatorForbidDesc>TODO</DesignatorForbidDesc>
+  <DesignatorForbidDesc>Marcar itens como proibidos. Os colonos não poderão interagir com os itens designados.</DesignatorForbidDesc>
 
   <!-- EN: Unforbid -->
-  <DesignatorUnforbid>TODO</DesignatorUnforbid>
+  <DesignatorUnforbid>Permitidos</DesignatorUnforbid>
   <!-- EN: Mark items as unforbidden. Colonists will be able to interact with the designated items. -->
-  <DesignatorUnforbidDesc>TODO</DesignatorUnforbidDesc>
+  <DesignatorUnforbidDesc>Marcar itens como permitidos. Os colonos poderão interagir com os itens designados.</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
   <DesignatorAreaHomeExpand>Expandir área da casa</DesignatorAreaHomeExpand>
@@ -83,19 +83,19 @@
   <DesignatorAreaHomeClearDesc>Remove área da casa. Colonos deixaram de limpar, reparar, ou extenguir incêndios neste local.</DesignatorAreaHomeClearDesc>
 
   <!-- EN: Build roof area -->
-  <DesignatorAreaBuildRoofExpand>Expandir área do teto</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpand>Expandir área do telhado</DesignatorAreaBuildRoofExpand>
   <!-- EN: Colonists will build roofs in this area. -->
   <DesignatorAreaBuildRoofExpandDesc>Os colonos irão construir telhados nesta área.</DesignatorAreaBuildRoofExpandDesc>
 
   <!-- EN: Remove roof area -->
-  <DesignatorAreaNoRoofExpand>Expandir área sem teto</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpand>Expandir área sem telhado</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
   <DesignatorAreaNoRoofExpandDesc>Cria uma área onde telhados não irão ser criados. Isto também irá remover telhados existentes.</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
-  <DesignatorAreaIgnoreRoofExpand>TODO</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpand>Ignorar a área do telhado</DesignatorAreaIgnoreRoofExpand>
   <!-- EN: Colonists will ignore roofs in this area. -->
-  <DesignatorAreaIgnoreRoofExpandDesc>TODO</DesignatorAreaIgnoreRoofExpandDesc>
+  <DesignatorAreaIgnoreRoofExpandDesc>Os colonos vão ignorar telhados nesta área.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <!-- EN: Expand snow clear area -->
   <DesignatorAreaSnowClearExpand>Expandir área sem neve</DesignatorAreaSnowClearExpand>
@@ -129,12 +129,12 @@
   <!-- EN: Shrink zones -->
   <DesignatorZoneDelete>Apagar zonas</DesignatorZoneDelete>
   <!-- EN: Shrink zone -->
-  <DesignatorZoneDeleteSingular>TODO</DesignatorZoneDeleteSingular>
+  <DesignatorZoneDeleteSingular>Apagar zona</DesignatorZoneDeleteSingular>
   <!-- EN: Remove zones, like stockpile zones or growing zones. -->
   <DesignatorZoneDeleteDesc>Remove zonas, como zonas de estoques ou zonas de cultivo.</DesignatorZoneDeleteDesc>
 
   <!-- EN: Expand zone -->
-  <DesignatorZoneExpand>TODO</DesignatorZoneExpand>
+  <DesignatorZoneExpand>Expandir zona</DesignatorZoneExpand>
   
   <!-- EN: Claim -->
   <DesignatorClaim>Reivindicar</DesignatorClaim>
@@ -147,9 +147,9 @@
   <DesignatorRemoveFloorDesc>Remove piso para revelar o terreno abaixo.</DesignatorRemoveFloorDesc>
 
   <!-- EN: Remove bridge -->
-  <DesignatorRemoveBridge>TODO</DesignatorRemoveBridge>
+  <DesignatorRemoveBridge>Remover ponte</DesignatorRemoveBridge>
   <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>TODO</DesignatorRemoveBridgeDesc>
+  <DesignatorRemoveBridgeDesc>Remova as pontes para revelar o terreno por baixo.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>Remover roupas</DesignatorStrip>
@@ -191,7 +191,7 @@
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>O terreno aqui já é de {0}.</TerrainIsAlready>
   <!-- EN: The surface is already marked for smoothing. -->
-  <SurfaceBeingSmoothed>TODO</SurfaceBeingSmoothed>
+  <SurfaceBeingSmoothed>A superfície já está marcada para ser suavizada.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
   <IdenticalThingExists>Algo idêntico já existe aqui.</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
@@ -205,7 +205,7 @@
   <!-- EN: Must target a removable floor. -->
   <TerrainMustBeRemovable>Deve ser designado um piso removível.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
-  <MustBeOnMovingWater>TODO</MustBeOnMovingWater>
+  <MustBeOnMovingWater>A roda d'água deve estar em água movimentada.</MustBeOnMovingWater>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -217,10 +217,10 @@
   <!-- EN: Transmits power -->
   <TransmitsPower>Transmitindo energia</TransmitsPower>
   <!-- EN: Construction needed -->
-  <ConstructionNeeded>TODO</ConstructionNeeded>
+  <ConstructionNeeded>Construção necessária</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithConstructionSkillTip>TODO</NoColonistWithConstructionSkillTip>
+  <NoColonistWithConstructionSkillTip>Nenhum dos seus {0} tem essa habilidade.</NoColonistWithConstructionSkillTip>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>TODO</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Todos os seus {0} que possuem essa habilidade não são atribuídos a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
 
 </LanguageData>

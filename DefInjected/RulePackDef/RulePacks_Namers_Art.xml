@@ -1,76 +1,112 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
-    <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Vegetable]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Game]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Animal]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Gore]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [NaturalObject]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</li>
-    <li>r_art_name(p=2)->[Artwork] No. [art_name_numeric]</li>
-    <li>r_art_name->No. [art_name_numeric]</li>
-    <li>r_art_name->[art_name_numeric]</li>
-    <li>r_art_name->[Artwork] [art_name_numeric]</li>
-    <li>r_art_name->[ConceptAny] No. [art_name_numeric]</li>
-    <li>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=6)->[ANYPAWN_nameIndef]'s [Artwork]</li>
-    <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic]</li>
-    <li>r_art_name(p=3)->[PersonalCharacteristic] of [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][RomanNumeral][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][RomanNumeral][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][Digit][RomanNumeral][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][RomanNumeral][Digit][Digit][RomanNumeral][maybe_letter]</li>
-    <li>maybe_letter(p=8)-></li>
-    <li>maybe_letter->[Letter]</li>
-    <li>maybe_letter->[Letter][Letter]</li>
-    <li>maybe_a(p=3)-></li>
-    <li>maybe_a->a</li>
-    <li>maybe_adjective(p=5)-></li>
-    <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
-    <li>maybe_adjective->[AdjectiveBadass]</li>
-    <li>maybe_adjective->[Color]</li>
-  -->
-  <NamerArtCommon.rulePack.rulesStrings>TODO</NamerArtCommon.rulePack.rulesStrings>
+  <!-- EN: r_art_name(p=4)->[Artwork] [Trans] [ConceptAny] -->
+  <NamerArtCommon.rulePack.rulesStrings.0>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</NamerArtCommon.rulePack.rulesStrings.0>
+  <!-- EN: r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork] -->
+  <NamerArtCommon.rulePack.rulesStrings.1>r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork]</NamerArtCommon.rulePack.rulesStrings.1>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [ConceptAny] -->
+  <NamerArtCommon.rulePack.rulesStrings.2>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</NamerArtCommon.rulePack.rulesStrings.2>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature] -->
+  <NamerArtCommon.rulePack.rulesStrings.3>r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature]</NamerArtCommon.rulePack.rulesStrings.3>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [Vegetable] -->
+  <NamerArtCommon.rulePack.rulesStrings.4>r_art_name->[maybe_a] [maybe_adjective] [Vegetable]</NamerArtCommon.rulePack.rulesStrings.4>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [Game] -->
+  <NamerArtCommon.rulePack.rulesStrings.5>r_art_name->[maybe_a] [maybe_adjective] [Game]</NamerArtCommon.rulePack.rulesStrings.5>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [Animal] -->
+  <NamerArtCommon.rulePack.rulesStrings.6>r_art_name->[maybe_a] [maybe_adjective] [Animal]</NamerArtCommon.rulePack.rulesStrings.6>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [Gore] -->
+  <NamerArtCommon.rulePack.rulesStrings.7>r_art_name->[maybe_a] [maybe_adjective] [Gore]</NamerArtCommon.rulePack.rulesStrings.7>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [NaturalObject] -->
+  <NamerArtCommon.rulePack.rulesStrings.8>r_art_name->[maybe_a] [maybe_adjective] [NaturalObject]</NamerArtCommon.rulePack.rulesStrings.8>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [PersonFamily] -->
+  <NamerArtCommon.rulePack.rulesStrings.9>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</NamerArtCommon.rulePack.rulesStrings.9>
+  <!-- EN: r_art_name->[maybe_a] [maybe_adjective] [Enemy] -->
+  <NamerArtCommon.rulePack.rulesStrings.10>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</NamerArtCommon.rulePack.rulesStrings.10>
+  <!-- EN: r_art_name(p=2)->[Artwork] No. [art_name_numeric] -->
+  <NamerArtCommon.rulePack.rulesStrings.11>r_art_name(p=2)->[Artwork] No. [art_name_numeric]</NamerArtCommon.rulePack.rulesStrings.11>
+  <!-- EN: r_art_name->No. [art_name_numeric] -->
+  <NamerArtCommon.rulePack.rulesStrings.12>r_art_name->No. [art_name_numeric]</NamerArtCommon.rulePack.rulesStrings.12>
+  <!-- EN: r_art_name->[art_name_numeric] -->
+  <NamerArtCommon.rulePack.rulesStrings.13>r_art_name->[art_name_numeric]</NamerArtCommon.rulePack.rulesStrings.13>
+  <!-- EN: r_art_name->[Artwork] [art_name_numeric] -->
+  <NamerArtCommon.rulePack.rulesStrings.14>r_art_name->[Artwork] [art_name_numeric]</NamerArtCommon.rulePack.rulesStrings.14>
+  <!-- EN: r_art_name->[ConceptAny] No. [art_name_numeric] -->
+  <NamerArtCommon.rulePack.rulesStrings.15>r_art_name->[ConceptAny] No. [art_name_numeric]</NamerArtCommon.rulePack.rulesStrings.15>
+  <!-- EN: r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef] -->
+  <NamerArtCommon.rulePack.rulesStrings.16>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</NamerArtCommon.rulePack.rulesStrings.16>
+  <!-- EN: r_art_name(p=6)->[ANYPAWN_nameIndef]'s [Artwork] -->
+  <NamerArtCommon.rulePack.rulesStrings.17>r_art_name(p=6)->[Artwork] de [ANYPAWN_nameIndef]</NamerArtCommon.rulePack.rulesStrings.17>
+  <!-- EN: r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color] -->
+  <NamerArtCommon.rulePack.rulesStrings.18>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</NamerArtCommon.rulePack.rulesStrings.18>
+  <!-- EN: r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic] -->
+  <NamerArtCommon.rulePack.rulesStrings.19>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</NamerArtCommon.rulePack.rulesStrings.19>
+  <!-- EN: r_art_name(p=3)->[PersonalCharacteristic] of [ANYPAWN_nameIndef] -->
+  <NamerArtCommon.rulePack.rulesStrings.20>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</NamerArtCommon.rulePack.rulesStrings.20>
+  <!-- EN: r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef] -->
+  <NamerArtCommon.rulePack.rulesStrings.21>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</NamerArtCommon.rulePack.rulesStrings.21>
+  <!-- EN: r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef] -->
+  <NamerArtCommon.rulePack.rulesStrings.22>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</NamerArtCommon.rulePack.rulesStrings.22>
+  <!-- EN: art_name_numeric->[maybe_letter][Digit][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.23>art_name_numeric->[maybe_letter][Digit][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.23>
+  <!-- EN: art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.24>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.24>
+  <!-- EN: art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.25>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.25>
+  <!-- EN: art_name_numeric->[maybe_letter][RomanNumeral][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.26>art_name_numeric->[maybe_letter][RomanNumeral][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.26>
+  <!-- EN: art_name_numeric->[maybe_letter][RomanNumeral][Digit][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.27>art_name_numeric->[maybe_letter][RomanNumeral][Digit][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.27>
+  <!-- EN: art_name_numeric->[maybe_letter][Digit][RomanNumeral][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.28>art_name_numeric->[maybe_letter][Digit][RomanNumeral][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.28>
+  <!-- EN: art_name_numeric->[maybe_letter][Digit][RomanNumeral][Digit][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.29>art_name_numeric->[maybe_letter][Digit][RomanNumeral][Digit][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.29>
+  <!-- EN: art_name_numeric->[maybe_letter][RomanNumeral][Digit][RomanNumeral][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.30>art_name_numeric->[maybe_letter][RomanNumeral][Digit][RomanNumeral][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.30>
+  <!-- EN: art_name_numeric->[maybe_letter][RomanNumeral][Digit][Digit][RomanNumeral][maybe_letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.31>art_name_numeric->[maybe_letter][RomanNumeral][Digit][Digit][RomanNumeral][maybe_letter]</NamerArtCommon.rulePack.rulesStrings.31>
+  <!-- EN: maybe_letter(p=8)-> -->
+  <NamerArtCommon.rulePack.rulesStrings.32>maybe_letter(p=8)-></NamerArtCommon.rulePack.rulesStrings.32>
+  <!-- EN: maybe_letter->[Letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.33>maybe_letter->[Letter]</NamerArtCommon.rulePack.rulesStrings.33>
+  <!-- EN: maybe_letter->[Letter][Letter] -->
+  <NamerArtCommon.rulePack.rulesStrings.34>maybe_letter->[Letter][Letter]</NamerArtCommon.rulePack.rulesStrings.34>
+  <!-- EN: maybe_a(p=3)-> -->
+  <NamerArtCommon.rulePack.rulesStrings.35>maybe_a(p=3)-></NamerArtCommon.rulePack.rulesStrings.35>
+  <!-- EN: maybe_a->a -->
+  <NamerArtCommon.rulePack.rulesStrings.36>maybe_a->um</NamerArtCommon.rulePack.rulesStrings.36>
+  <!-- EN: maybe_adjective(p=5)-> -->
+  <NamerArtCommon.rulePack.rulesStrings.37>maybe_adjective(p=5)-></NamerArtCommon.rulePack.rulesStrings.37>
+  <!-- EN: maybe_adjective(p=2)->[AdjectiveAngsty] -->
+  <NamerArtCommon.rulePack.rulesStrings.38>maybe_adjective(p=2)->[AdjectiveAngsty]</NamerArtCommon.rulePack.rulesStrings.38>
+  <!-- EN: maybe_adjective->[AdjectiveBadass] -->
+  <NamerArtCommon.rulePack.rulesStrings.39>maybe_adjective->[AdjectiveBadass]</NamerArtCommon.rulePack.rulesStrings.39>
+  <!-- EN: maybe_adjective->[Color] -->
+  <NamerArtCommon.rulePack.rulesStrings.40>maybe_adjective->[Color]</NamerArtCommon.rulePack.rulesStrings.40>
   
-  <!-- EN:
-    <li>r_art_name->[ConceptBadass]</li>
-    <li>r_art_name->The [AnimalBadass]</li>
-    <li>r_art_name->[AdjectiveBadass] [AnimalBadass]</li>
-    <li>r_art_name->[ColorBadass] [AnimalBadass]</li>
-    <li>r_art_name->[ConceptBadass] [ColorBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [ConceptBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [AnimalBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonAlly]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonFamily]</li>
-    <li>r_art_name(p=3)->[ConceptBadass] of [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
-  -->
-  <NamerArtWeapon.rulePack.rulesStrings>
-    <li>art_name->[badassconcept]</li>
-    <li>art_name->Os [badassanimal]</li>
-    <li>art_name->[badassadjective] [badassanimal]</li>
-    <li>art_name->[badassanimal] [badasscolor] </li>
-    <li>art_name->[badassconcept] [badasscolor]</li>
-    <li>art_name->[badassconcept] de [anyPawn_nameShort]</li>
-    <li>art_name->[badassconcept] de [anyPawn_nameShort]</li>
-    <li>art_name->[anyPawn_nameShort] [badasscolor]</li>
-    <li>art_name->[badassanimal] de [anyPawn_nameShort]</li>
-    <li>art_name->[badassperson] de [anyPawn_nameShort]</li>
-  </NamerArtWeapon.rulePack.rulesStrings>
+  <!-- EN: r_art_name->[ConceptBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.0>r_art_name->[ConceptBadass]</NamerArtWeapon.rulePack.rulesStrings.0>
+  <!-- EN: r_art_name->The [AnimalBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.1>r_art_name->O [AnimalBadass]</NamerArtWeapon.rulePack.rulesStrings.1>
+  <!-- EN: r_art_name->[AdjectiveBadass] [AnimalBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.2>r_art_name->[AdjectiveBadass] [AnimalBadass]</NamerArtWeapon.rulePack.rulesStrings.2>
+  <!-- EN: r_art_name->[ColorBadass] [AnimalBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.3>r_art_name->[ColorBadass] [AnimalBadass]</NamerArtWeapon.rulePack.rulesStrings.3>
+  <!-- EN: r_art_name->[ConceptBadass] [ColorBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.4>r_art_name->[ConceptBadass] [ColorBadass]</NamerArtWeapon.rulePack.rulesStrings.4>
+  <!-- EN: r_art_name(p=3)->[ANYPAWN_nameIndef]'s [ConceptBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.5>r_art_name(p=3)->[ConceptBadass] de [ANYPAWN_nameIndef]</NamerArtWeapon.rulePack.rulesStrings.5>
+  <!-- EN: r_art_name(p=3)->[ANYPAWN_nameIndef]'s [AnimalBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.6>r_art_name(p=3)->[AnimalBadass] de [ANYPAWN_nameIndef]</NamerArtWeapon.rulePack.rulesStrings.6>
+  <!-- EN: r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonBadass] -->
+  <NamerArtWeapon.rulePack.rulesStrings.7>r_art_name(p=3)->[PersonBadass] de [ANYPAWN_nameIndef]</NamerArtWeapon.rulePack.rulesStrings.7>
+  <!-- EN: r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonAlly] -->
+  <NamerArtWeapon.rulePack.rulesStrings.8>r_art_name(p=3)->[PersonAlly] de [ANYPAWN_nameIndef]</NamerArtWeapon.rulePack.rulesStrings.8>
+  <!-- EN: r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonFamily] -->
+  <NamerArtWeapon.rulePack.rulesStrings.9>r_art_name(p=3)->[PersonFamily] de [ANYPAWN_nameIndef]</NamerArtWeapon.rulePack.rulesStrings.9>
+  <!-- EN: r_art_name(p=3)->[ConceptBadass] of [ANYPAWN_nameIndef] -->
+  <NamerArtWeapon.rulePack.rulesStrings.10>r_art_name(p=3)->[ConceptBadass] de [ANYPAWN_nameIndef]</NamerArtWeapon.rulePack.rulesStrings.10>
+  <!-- EN: r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef] -->
+  <NamerArtWeapon.rulePack.rulesStrings.11>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</NamerArtWeapon.rulePack.rulesStrings.11>
   
 </LanguageData>

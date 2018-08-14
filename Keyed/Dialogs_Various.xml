@@ -8,13 +8,13 @@
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
-  <Close>TODO</Close>
+  <Close>Fechar</Close>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
-  <GameUpdatedToNewVersionInitial>RimWorld foi atualizado da versão {0} para a versão {1}.\n\nIsto pode fazer com que jogos salvos e mods da versão antiga parem de funcionar.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>RimWorld foi atualizado da versão {0} para a versão {1}.</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
-  <GameUpdatedToNewVersionSavesIncompatible>Isso pode causar jogos salvos e mods da versão antiga para parar de funcionar.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesIncompatible>Isto pode fazer com que jogos salvos e mods da versão antiga parem de funcionar.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
   <GameUpdatedToNewVersionSavesCompatible>Jogos salvos da versão antiga devem ser compatíveis, mas alguns mods podem parar de funcionar.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
@@ -100,7 +100,7 @@
   <!-- EN: Saving -->
   <SavingLongEvent>Salvando</SavingLongEvent>
   <!-- EN: (Permadeath) -->
-  <PermadeathModeSaveSuffix>(Permadeath)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Permaduro)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
   <SaveIsFromDifferentGameVersion>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma versão completamente diferente.\n\nTentar carregar estes dados provavelmente não irão funcionar.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
@@ -114,9 +114,9 @@
   <!-- EN: Load anyway -->
   <LoadAnyway>Carregar mesmo assim</LoadAnyway>
   <!-- EN: Load mod list from save -->
-  <ChangeLoadedMods>TODO</ChangeLoadedMods>
+  <ChangeLoadedMods>Carregar lista de mods do save</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>TODO</MissingMods>
+  <MissingMods>Alguns mods estão indisponíveis e precisam ser instalados</MissingMods>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -150,9 +150,9 @@
   
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>O apelido do colono agora é {0}.</PawnGainsName>
+  <PawnGainsName>O apelido dessa pessoa agora é {0}. [PAWN_possessive] título é {1}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
-  <AnimalGainsName>TODO</AnimalGainsName>
+  <AnimalGainsName>O nome do animal agora é {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -177,8 +177,8 @@
   <ResolutionRevert>Reverter</ResolutionRevert>
 
   <!-- Confirm permanently disable dev mode -->
-  <!-- EN: Do you really want to permanently disable development mode on this computer? -->
-  <ConfirmPermanentlyDisableDevMode>TODO</ConfirmPermanentlyDisableDevMode>
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
+  <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo de desenvolvimento neste computador?</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <!-- EN: Research -->
@@ -222,9 +222,9 @@
   <!-- EN: Starting season -->
   <MapStartSeason>Estação inicial:</MapStartSeason>
   <!-- EN: Auto -->
-  <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
+  <MapStartSeasonDefault>automático</MapStartSeasonDefault>
   <!-- EN: Notice -->
-  <Notice>TODO</Notice>
+  <Notice>Notícia</Notice>
 
   <!-- Bill config -->
   <!-- EN: Suspended -->
@@ -234,7 +234,7 @@
   <!-- EN: SUSPENDED -->
   <SuspendedAllCaps>SUSPENSO</SuspendedAllCaps>
   <!-- EN: Repeat: -->
-  <RepeatCount>Repetir: {0}</RepeatCount>
+  <RepeatCount>Repetir:</RepeatCount>
   <!-- EN: Forever -->
   <Forever>Sempre</Forever>
   <!-- EN: Details -->
@@ -250,11 +250,11 @@
   <!-- EN: Allowed {0} skill: -->
   <AllowedSkillRange>Habilidade {0} permitido:</AllowedSkillRange>
   <!-- EN: incompatible -->
-  <IncompatibleLower>TODO</IncompatibleLower>
+  <IncompatibleLower>incompatível</IncompatibleLower>
   <!-- EN: Any worker -->
-  <AnyWorker>TODO</AnyWorker>
+  <AnyWorker>Qualquer trabalhador</AnyWorker>
   <!-- EN: Unlimited -->
-  <Unlimited>TODO</Unlimited>
+  <Unlimited>Ilimitado</Unlimited>
   
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>(Esta receita não pode ter uma contagem de destino, porque tem vários ou imprevisíveis produtos.)</RecipeCannotHaveTargetCount>
@@ -267,9 +267,9 @@
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requer {0} de nutrição</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Nota: ingredientes de pequeno volume, como o ouro exigem 20x a mais.</BillRequiresMayVary>
+  <BillRequiresMayVary>Nota: Ingredientes de pequeno volume, como o ouro requerem {0}x a mais.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/20 equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você irá precisar de 20x a mais sempre.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/{0} equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você irá precisar de {0}x a mais sempre.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -285,23 +285,23 @@
   <Unpause>Despausar</Unpause>
 
   <!-- EN: Count equipped -->
-  <IncludeEquipped>TODO</IncludeEquipped>
+  <IncludeEquipped>Contar equipado</IncludeEquipped>
   <!-- EN: Count tainted -->
-  <IncludeTainted>TODO</IncludeTainted>
+  <IncludeTainted>Contar contaminado</IncludeTainted>
   <!-- EN: Only allowed ingredients -->
-  <LimitToAllowedStuff>TODO</LimitToAllowedStuff>
+  <LimitToAllowedStuff>Apenas ingredientes permitidos</LimitToAllowedStuff>
   <!-- EN: Look everywhere -->
-  <IncludeFromAll>TODO</IncludeFromAll>
+  <IncludeFromAll>Olhe para todo lado</IncludeFromAll>
   <!-- EN: Look in {0} -->
-  <IncludeSpecific>TODO</IncludeSpecific>
+  <IncludeSpecific>Olhe em {0}</IncludeSpecific>
   
   <!-- Info card -->
   <!-- EN: Damage -->
   <Damage>Dano</Damage>
   <!-- EN: Armor penetration -->
-  <ArmorPenetration>TODO</ArmorPenetration>
+  <ArmorPenetration>Penetração de Armadura</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>TODO</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de armadura que esta arma irá ignorar toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a armadura do alvo, é como se o alvo não tivesse armadura. Caso contrário, a penetração da armadura é subtraída da armadura do alvo.</ArmorPenetrationExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Precisão</Accuracy>
   <!-- EN: Burst shot count -->
@@ -317,13 +317,13 @@
   <!-- EN: Range -->
   <Range>Alcance</Range>
   <!-- EN: Stopping power -->
-  <StoppingPower>TODO</StoppingPower>
+  <StoppingPower>Poder de lentidão</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>TODO</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Golpes desta arma irão balançar o alvo, diminuindo o movimento por vários segundos. Alvos com um tamanho de corpo maior que o poder de lentidão não serão afetados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>TODO</DirectHitChance>
+  <DirectHitChance>Chance de acerto</DirectHitChance>
   <!-- EN: Miss radius -->
-  <MissRadius>TODO</MissRadius>
+  <MissRadius>Chance de erro</MissRadius>
   <!-- EN: Grows wild -->
   <GrowsWild>Crescimento espontâneo</GrowsWild>
   <!-- EN: Harvestable -->
@@ -333,7 +333,7 @@
   <!-- EN: Growing time -->
   <GrowingTime>Tempo de crescimento</GrowingTime>
   <!-- EN: Harvest yield -->
-  <HarvestYield>TODO</HarvestYield>
+  <HarvestYield>Rendimento da colheita</HarvestYield>
   <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
   <GrowingTimeDesc>As plantas crescem apenas durante uma parte do dia, e somente quando está iluminado. Esta estatística mede o tempo que a planta precisa crescer para atingir o tamanho máximo.  O tempo de crescimento real efetiva será geralmente de cerca de duas vezes mais longa. Baixas temperaturas também desacelera o crescimento das plantas.</GrowingTimeDesc>
   <!-- EN: days -->
@@ -363,7 +363,7 @@
   <!-- EN: Diet -->
   <Diet>Dieta</Diet>
   <!-- EN: Leather type -->
-  <LeatherType>TODO</LeatherType>
+  <LeatherType>Tipo de couro</LeatherType>
   <!-- EN: Body size -->
   <BodySize>Tamanho do corpo</BodySize>
   <!-- EN: Recruit difficulty -->
@@ -373,7 +373,7 @@
   <!-- EN: Covers -->
   <Covers>Cobertura</Covers>
   <!-- EN: Layer -->
-  <Layer>TODO</Layer>
+  <Layer>Camada</Layer>
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Eficácia de cobertura</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight. Higher percentages will block more shots. -->
@@ -387,9 +387,9 @@
   <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
   <WildnessExplanation>Criaturas selvagens são naturalmente mais difíceis de domesticar, treinar e manusear.</WildnessExplanation>
   <!-- EN: Training decay interval -->
-  <TrainingDecayInterval>TODO</TrainingDecayInterval>
+  <TrainingDecayInterval>Intervalo de decaimento de habilidade</TrainingDecayInterval>
   <!-- EN: Tameness will never decay. -->
-  <TamenessWillNotDecay>TODO</TamenessWillNotDecay>
+  <TamenessWillNotDecay>habilidade nunca vai decair.</TamenessWillNotDecay>
   <!-- EN: Animal filth rate -->
   <AnimalFilthRate>Taxa de sujeira animal</AnimalFilthRate>
   <!-- EN: Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
@@ -405,33 +405,31 @@
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
   <PackAnimalExplanation>Se este animal é apropriado para ser usado para transportar itens em uma caravana em longas distâncias.</PackAnimalExplanation>
   <!-- EN: Skill -->
-  <Skill>TODO</Skill>
+  <Skill>Habilidade</Skill>
   <!-- EN: Success rate multiplier -->
-  <SurgerySuccessChanceFactor>TODO</SurgerySuccessChanceFactor>
-  <!-- EN: Requires bed -->
-  <SurgeryRequireBed>TODO</SurgeryRequireBed>
+  <SurgerySuccessChanceFactor>Multiplicador da taxa de sucesso</SurgerySuccessChanceFactor>
   <!-- EN: Work speed governed by -->
-  <WorkSpeedStat>TODO</WorkSpeedStat>
+  <WorkSpeedStat>Velocidade de trabalho regida por</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
-  <EfficiencyStat>TODO</EfficiencyStat>
+  <EfficiencyStat>Quantidade de saída regida por</EfficiencyStat>
   <!-- EN: Construction skill required -->
-  <ConstructionSkillRequired>TODO</ConstructionSkillRequired>
+  <ConstructionSkillRequired>Habilidade de construção exigida</ConstructionSkillRequired>
   <!-- EN: Requires this level of Construction in order to build. -->
-  <ConstructionSkillRequiredExplanation>TODO</ConstructionSkillRequiredExplanation>
+  <ConstructionSkillRequiredExplanation>Requer este nível de construção para ser construido.</ConstructionSkillRequiredExplanation>
   <!-- EN: Nuzzle interval -->
-  <NuzzleInterval>TODO</NuzzleInterval>
+  <NuzzleInterval>Intervalo de acariciamento</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>TODO</NuzzleIntervalExplanation>
+  <NuzzleIntervalExplanation>Quantas vezes, em média um animal irá acariciar colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição. A maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>TODO</HarmedRevengeChance>
+  <HarmedRevengeChance>Chance de vingança</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>TODO</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>A chance de que essa criatura procure se vingar ao ser atingida por um ataque.\n\nEssa chance aumenta se o agressor estiver mais próximo. Se for atacado muito próximo, a chance é três vezes maior.\n\nEssa chance é aplicada toda vez que um dano é recebido, portanto é menos provável que armas de disparo mais lento e maior dano acione a vingança.\n\nPara minimizar a chance de uma criatura se vingar, ataque-a com um fuzil a distancia.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
-  <TameFailedRevengeChance>TODO</TameFailedRevengeChance>
+  <TameFailedRevengeChance>Chance de vingança ao falhar uma domesticação</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
-  <TerrainRequirement>TODO</TerrainRequirement>
+  <TerrainRequirement>Requisito de terreno</TerrainRequirement>
   <!-- EN: Supports -->
-  <Supports>TODO</Supports>
+  <Supports>Suportes</Supports>
 
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -469,9 +467,9 @@
   <!-- EN: Your negotiator {0} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>Seu(ua) negociador(a) {0} Não pode falar corretamente por causa de problemas de saúde.\n\nIsto afetará os preços no comércio.\n\nConsidere o uso de um negociador mais saudável.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {0} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>TODO</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>Seu negociador {0} não pode ouvir corretamente devido a problemas de saúde.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
-  <NegotiatorCapacityImpaired>TODO</NegotiatorCapacityImpaired>
+  <NegotiatorCapacityImpaired>Isso afetará os preços de comércio.\n\nConsidere o uso de um negociador mais saudável.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
   <ConfirmTraderShortFunds>O comerciante não tem prata suficiente para cobrir integralmente esta transação. Deseja continuar mesmo assim?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
@@ -497,15 +495,15 @@
   <!-- EN: Final price -->
   <FinalPrice>Preço final</FinalPrice>
   <!-- EN: Gift mode - offer gifts to {0}. -->
-  <GiftModeTip>TODO</GiftModeTip>
+  <GiftModeTip>Modo presente - ofereça presentes para {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
-  <TradeModeTip>TODO</TradeModeTip>
+  <TradeModeTip>Retornar ao modo de negociação.</TradeModeTip>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
-  <SellableItemsTitle>TODO</SellableItemsTitle>
+  <SellableItemsTitle>Coisas que este comerciante vai comprar</SellableItemsTitle>
   <!-- EN: Creatures -->
-  <PawnsTabShort>TODO</PawnsTabShort>
+  <PawnsTabShort>Criaturas</PawnsTabShort>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
@@ -519,11 +517,11 @@
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Você deve atribuir pelo menos um colono não-caído.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
-  <CaravanCouldNotFindExitSpot>Não foi possível encontrar qualquer local de saída válido.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindExitSpot>O local de saída escolhido ({0}) está inacessível.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>Não pode achar nenhum local de armazenamento válido. Certifique-se que o local de saída ({0}) é acessível.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>Aviso: alguns dos colonos designados não conseguem chegar ao local de saída.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Aviso: alguns dos colonos designados não conseguem acessar o local de saída ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {0} is unreachable by any of the assigned colonists. -->
   <CaravanPawnIsUnreachable>{0} está inalcançável por qualquer dos colonos designados.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
@@ -535,35 +533,35 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>Uso de massa e capacidade de massa atual.\n\nO uso de massa inclui os materiais atribuídos da caravana, bem como o equipamento atual dos colonos.\n\nVocê não poderá enviar a caravana se o uso em massa exceder a capacidade.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>TODO</CaravanVisibilityTip>
+  <CaravanVisibilityTip>A visibilidade é a facilidade com que sua caravana é notada.\n\nEla multiplica a chance de sua caravana ser assaltada por inimigos.\n\nA visibilidade não afeta sua capacidade de encontrar as coisas que você deseja.\n\nA visibilidade é baseada no total do tamanho do corpo de todas as pessoas e animais na caravana.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
-  <DaysWorthOfFood>TODO</DaysWorthOfFood>
+  <DaysWorthOfFood>Dias de comida</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
-  <DaysWorthOfFoodInfoRot>{0} dias de comida, apodrece em {1} dias</DaysWorthOfFoodInfoRot>
+  <DaysWorthOfFoodInfoRot>apodrecerá em {0}</DaysWorthOfFoodInfoRot>
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Nunca ficará sem comida</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Um número aproximado de dias antes da caravana ficar sem comida.\n\nIsto leva em conta tanto os alimentos humanos como de animais, e mostra o pior caso de cenário. Isto significa que depois de muitos dias, pelo menos uma pessoa ou animal ficará sem comida.</DaysWorthOfFoodTooltip>
   <!-- EN: \n(only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>TODO</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(somente o primeiro ponto é levado em conta)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Sua caravana só tem {0} dias de comida e passará fome muito rapidamente.\n\nVocê tem certeza de que deseja formar esta caravana?</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Sua caravana não tem comida e ficará com fome muito rapidamente.\n\nVocê tem certeza de que deseja formar esta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>TODO</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>A quantidade média de alimentos por dia que o seu pessoal vai procurar. Este valor irá mudar conforme você viaja através dos biomas com diferentes taxas de rendimento de forragem.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
-  <ForagedFoodPerDay>TODO</ForagedFoodPerDay>
+  <ForagedFoodPerDay>Forragem por dia</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
   <CaravanFoodWillRotSoonWarningDialog>Uma grande parte da comida atribuída irá apodrecer em breve.\n\nVocê tem certeza de que deseja formar esta caravana?</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
-  <CaravanIncapableOfSocial>TODO</CaravanIncapableOfSocial>
+  <CaravanIncapableOfSocial>Você não tem nenhum membro da caravana capaz de diplomacia ou negociação.</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
-  <CaravanAreYouSure>TODO</CaravanAreYouSure>
+  <CaravanAreYouSure>Tem certeza que quer formar esta caravana?</CaravanAreYouSure>
   <!-- EN: You must choose a route for the caravan first. -->
-  <MessageMustChooseRouteFirst>TODO</MessageMustChooseRouteFirst>
+  <MessageMustChooseRouteFirst>Você deve escolher uma rota para a caravana primeiro.</MessageMustChooseRouteFirst>
   <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
-  <MessageNoValidExitTile>TODO</MessageNoValidExitTile>
+  <MessageNoValidExitTile>Sua caravana não pode sair da área. Certifique-se de que pelo menos um dos lados esteja acessível.</MessageNoValidExitTile>
   <!-- EN: Weight of this item. -->
   <ItemWeightTip>Peso deste item.</ItemWeightTip>
   <!-- EN: Market value -->
@@ -571,15 +569,15 @@
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
   <DaysUntilRotTip>O número de dias até o item iniciar a apodrecer é baseado na média de temperatura desta área.</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
-  <ItemNutritionTip>TODO</ItemNutritionTip>
+  <ItemNutritionTip>Quanta nutrição esta comida fornece.\n\nPara referência: a pessoa adulta precisa de {0} de nutrição por dia.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
-  <AnimalCanGrazeTip>TODO</AnimalCanGrazeTip>
+  <AnimalCanGrazeTip>Este animal pode pastar no ambiente em vez de comer a comida carregada. Pastar só é possível em alguns biomas e faixas de temperatura.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>TODO</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>Nutrição forrageira por dia. A quantidade real de forragem também é afetada pela capacidade do bioma.\n\n {0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
-  <NutritionEatenPerDayTip>TODO</NutritionEatenPerDayTip>
+  <NutritionEatenPerDayTip>Nutrição consumida por dia. Para referência, refeições simples têm {0} de nutrição.\n\nPode comer: {2}\n\nLegenda: \n {1}.</NutritionEatenPerDayTip>
   <!-- EN: Mass carried -->
-  <MassCarriedSimple>TODO</MassCarriedSimple>
+  <MassCarriedSimple>massa carregada</MassCarriedSimple>
   <!-- EN: Mass capacity -->
   <MassCapacity>Capacidade de massa</MassCapacity>
   <!-- EN: Mass -->
@@ -597,41 +595,41 @@
   <!-- EN: Prisoners -->
   <PrisonersSection>Prisioneiros</PrisonersSection>
   <!-- EN: Capture -->
-  <CaptureSection>TODO</CaptureSection>
+  <CaptureSection>Capturar</CaptureSection>
   <!-- EN: Animals -->
   <AnimalsSection>Animais</AnimalsSection>
   <!-- EN: Choose route -->
-  <ChooseRouteButton>TODO</ChooseRouteButton>
+  <ChooseRouteButton>Escolha a rota</ChooseRouteButton>
   <!-- EN: Abandon -->
-  <AbandonButton>TODO</AbandonButton>
+  <AbandonButton>Abandono</AbandonButton>
   <!-- EN: Movement speed -->
-  <CaravanMovementSpeed>TODO</CaravanMovementSpeed>
+  <CaravanMovementSpeed>Velocidade de movimento</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>TODO</TilesPerDay>
+  <TilesPerDay>telhas/dia</TilesPerDay>
   <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
-  <CaravanMovementSpeedTip>TODO</CaravanMovementSpeedTip>
+  <CaravanMovementSpeedTip>A velocidade de movimento depende da velocidade média de todas as pessoas e animais, da massa transportada e da dificuldade de movimentação do terreno.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
-  <AnimalsWillBeAbleToGraze>TODO</AnimalsWillBeAbleToGraze>
+  <AnimalsWillBeAbleToGraze>Os animais poderão pastar</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
-  <AnimalsCanGraze>TODO</AnimalsCanGraze>
+  <AnimalsCanGraze>Os animais podem pastar</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
-  <PossibleToGrazeFor>TODO</PossibleToGrazeFor>
+  <PossibleToGrazeFor>(por mais {0} dias)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
-  <PossibleToGrazeForever>TODO</PossibleToGrazeForever>
+  <PossibleToGrazeForever>(para sempre)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
-  <CantGrazeBecauseOfBiome>TODO</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>TODO</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(muito frio por mais {0} dias)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
-  <TotalNutrition>TODO</TotalNutrition>
+  <TotalNutrition>Nutrição total</TotalNutrition>
   <!-- EN: Not moving -->
-  <CaravanNotMoving>TODO</CaravanNotMoving>
+  <CaravanNotMoving>Parado</CaravanNotMoving>
   <!-- EN: Foraged nutrition per day -->
-  <ForagedNutritionPerDay>TODO</ForagedNutritionPerDay>
+  <ForagedNutritionPerDay>Nutrição forrageada por dia</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
-  <FactionType>TODO</FactionType>
+  <FactionType>Tipo de facção</FactionType>
   <!-- EN: Total body size -->
-  <TotalBodySize>TODO</TotalBodySize>
+  <TotalBodySize>Tamanho total do corpo</TotalBodySize>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -789,19 +787,19 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>TODO</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonizadores saúdaveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {0}? -->
-  <ConfirmBanishPawnDialog>TODO</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>Você realmente quer banir {0}?</ConfirmBanishPawnDialog>
   <!-- EN: {0} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>TODO</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_LeftToDie>{0} provavelmente irá morrer.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {0} will take the following items with [PAWN_objective]: -->
-  <ConfirmBanishPawnDialog_Items>TODO</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{0} tomará os seguintes itens com [PAWN_objective]:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>TODO</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Todos os colonos terão os seguintes pensamentos:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>TODO</ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Banir {0} fará com que as seguintes pessoas tenham os seguintes pensamentos:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {0} is missing. Launch anyway? -->
@@ -809,12 +807,12 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>TODO</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Como esse local está dentro de {0} blocos da base de outra facção, eles sentirão que você está invadindo sua terra e as relações com essas facções piorarão a cada {1} dias.\n\nficar aqui mesmo assim?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>TODO</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}?\n\nIsto irá: \n- Adicionar espaços reservados para traduções com chave perdidas, traduções injetadas e backstories \n- Adicione ou atualize os comentários que contêm no texto original não traduzido \n- Mova todas as traduções digitadas e desinfectadas para os arquivos XML apropriados \n- Aplique a formatação automática a todos os arquivos XML \n- Atualize os nomes def compatíveis com versões anteriores \n- Remova todos os comentários XML existentes (exceto em full injeções de lista)\n\nOs arquivos XML não serão removidos ou modificados.\n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados.\n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
-  <ConfirmCleanupTranslationFiles_Confirm>TODO</ConfirmCleanupTranslationFiles_Confirm>
+  <ConfirmCleanupTranslationFiles_Confirm>Sim, eu tenho um backup</ConfirmCleanupTranslationFiles_Confirm>
 
 </LanguageData>
