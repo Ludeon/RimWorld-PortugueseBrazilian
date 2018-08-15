@@ -100,7 +100,7 @@
   <!-- EN: Saving -->
   <SavingLongEvent>Salvando</SavingLongEvent>
   <!-- EN: (Permadeath) -->
-  <PermadeathModeSaveSuffix>(Permaduro)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Morte perman.)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
   <SaveIsFromDifferentGameVersion>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma versão completamente diferente.\n\nTentar carregar estes dados provavelmente não irão funcionar.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
@@ -178,7 +178,7 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo de desenvolvimento neste computador?</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo desenvolvedor neste computador?</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <!-- EN: Research -->
@@ -194,7 +194,7 @@
   <!-- EN: Locked -->
   <Locked>Trancado</Locked>
   <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
-  <ResearchMenuWithoutBench>Até que você construa uma BANCADA DE PESQUISA, os colonos não serão capazes de fazer alguma pesquisa.\n\nNo entanto, você ainda poderá olhar para os projetos de pesquina.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Até que você construa uma BANCADA DE PESQUISA, os colonos não serão capazes de fazer alguma pesquisa.\n\nNo entanto, você ainda poderá olhar para os projetos de pesquisa.</ResearchMenuWithoutBench>
   <!-- EN: Research prerequisites -->
   <ResearchPrerequisites>Pré-requisitos de pesquisa</ResearchPrerequisites>
   <!-- EN: Required research bench -->
@@ -222,7 +222,7 @@
   <!-- EN: Starting season -->
   <MapStartSeason>Estação inicial:</MapStartSeason>
   <!-- EN: Auto -->
-  <MapStartSeasonDefault>automático</MapStartSeasonDefault>
+  <MapStartSeasonDefault>Automático</MapStartSeasonDefault>
   <!-- EN: Notice -->
   <Notice>Notícia</Notice>
 
@@ -423,7 +423,7 @@
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Chance de vingança</HarmedRevengeChance>
   <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>A chance de que essa criatura procure se vingar ao ser atingida por um ataque.\n\nEssa chance aumenta se o agressor estiver mais próximo. Se for atacado muito próximo, a chance é três vezes maior.\n\nEssa chance é aplicada toda vez que um dano é recebido, portanto é menos provável que armas de disparo mais lento e maior dano acione a vingança.\n\nPara minimizar a chance de uma criatura se vingar, ataque-a com um fuzil a distancia.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>A chance de que essa criatura procure se vingar ao ser atingida por um ataque.\n\nEssa chance aumenta se o agressor estiver mais próximo. Se for atacado muito próximo, a chance é três vezes maior.\n\nEssa chance é aplicada toda vez que um dano é recebido, portanto é menos provável que armas de disparo mais lento e maior dano acione a vingança.\n\nPara minimizar a chance de uma criatura se vingar, ataque-a com um rifle a distância.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Chance de vingança ao falhar uma domesticação</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -515,7 +515,7 @@
   <!-- EN: Items -->
   <ItemsTab>Itens</ItemsTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
-  <CaravanMustHaveAtLeastOneColonist>Você deve atribuir pelo menos um colono não-caído.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanMustHaveAtLeastOneColonist>Você deve atribuir pelo menos um colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
   <CaravanCouldNotFindExitSpot>O local de saída escolhido ({0}) está inacessível.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
@@ -543,7 +543,7 @@
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Um número aproximado de dias antes da caravana ficar sem comida.\n\nIsto leva em conta tanto os alimentos humanos como de animais, e mostra o pior caso de cenário. Isto significa que depois de muitos dias, pelo menos uma pessoa ou animal ficará sem comida.</DaysWorthOfFoodTooltip>
   <!-- EN: \n(only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(somente o primeiro ponto é levado em conta)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(somente o primeiro ponto de rota é levado em conta)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Sua caravana só tem {0} dias de comida e passará fome muito rapidamente.\n\nVocê tem certeza de que deseja formar esta caravana?</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
@@ -605,7 +605,7 @@
   <!-- EN: Movement speed -->
   <CaravanMovementSpeed>Velocidade de movimento</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>telhas/dia</TilesPerDay>
+  <TilesPerDay>ladrilhos/dia</TilesPerDay>
   <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
   <CaravanMovementSpeedTip>A velocidade de movimento depende da velocidade média de todas as pessoas e animais, da massa transportada e da dificuldade de movimentação do terreno.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
@@ -625,7 +625,7 @@
   <!-- EN: Not moving -->
   <CaravanNotMoving>Parado</CaravanNotMoving>
   <!-- EN: Foraged nutrition per day -->
-  <ForagedNutritionPerDay>Nutrição forrageada por dia</ForagedNutritionPerDay>
+  <ForagedNutritionPerDay>Nutrição forrageira por dia</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
   <FactionType>Tipo de facção</FactionType>
   <!-- EN: Total body size -->
@@ -635,7 +635,7 @@
   <!-- EN: Split caravan -->
   <SplitCaravan>Dividir caravana</SplitCaravan>
   <!-- EN: You must leave at least one non-downed colonist. -->
-  <SourceCaravanMustHaveAtLeastOneColonist>Você deve deixar pelo menos um colono não-caído.</SourceCaravanMustHaveAtLeastOneColonist>
+  <SourceCaravanMustHaveAtLeastOneColonist>Você deve deixar pelo menos um colono consciente.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Quantos deste item a caravana está pronta para dar à nova caravana.</SplitCaravanThingCountTip>
   
@@ -665,7 +665,7 @@
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
-  <HistoryUploadMessage>Você deseja fazer envio de seus registros de dados de jogo para o servidor de RimWorld, a fim de ajudar os desenvolvedores a equilibrar o jogo? Se você concordar, seus dados serão enviados a cada {0} dias (e em alguns outros casos raros, como o fim do jogo). preferências de privacidade podem ser alteradas mais tarde no menu de opções.</HistoryUploadMessage>
+  <HistoryUploadMessage>Você deseja fazer envio de seus registros de dados de jogo para o servidor de RimWorld, a fim de ajudar os desenvolvedores a equilibrar o jogo? Se você concordar, seus dados serão enviados a cada {0} dias (e em alguns outros casos raros, como o fim do jogo). Preferências de privacidade podem ser alteradas mais tarde no menu de opções.</HistoryUploadMessage>
   <!-- EN: Even though history is sent anonymously, you can attach your name. -->
   <HistoryUploadMessagePlayerName>Mesmo que a história seja enviado anonimamente, você pode anexar o seu nome.</HistoryUploadMessagePlayerName>
   <!-- EN: Allow uploading gameplay data -->
@@ -749,7 +749,7 @@
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
   <JoyThresholdColumnDesc>Os colonos irão usar esta droga apenas seus níveis de diversão estiver abaixo deste limiar.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
-  <TakeToInventoryColumnDesc>Uma quantidade da droga para pegar adicionalmente quando reunir-la para o consumo, a fim de evitar ter que visitar o estoque de drogas o tempo todo.</TakeToInventoryColumnDesc>
+  <TakeToInventoryColumnDesc>Uma quantidade da droga para pegar adicionalmente quando reuni-la para o consumo, a fim de evitar ter que visitar o estoque de drogas o tempo todo.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
   <DrugUsageTipForAddiction>Para vícios\n\nUse esta droga para alimentar as necessidades de dependência já estabelecidas.\n\nMesmo se desativado, alguns personagens com traços específicos, ou em colapsos mentais, podem usar a droga de qualquer maneira.</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
@@ -765,7 +765,7 @@
   <!-- EN: Imprisoned colonist -->
   <MedGroupImprisonedColonist>Colono preso</MedGroupImprisonedColonist>
   <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>Colonia animal</MedGroupColonyAnimal>
+  <MedGroupColonyAnimal>Colônia animal</MedGroupColonyAnimal>
   <!-- EN: Neutral animal -->
   <MedGroupNeutralAnimal>Animal neutro</MedGroupNeutralAnimal>
   <!-- EN: Neutral faction -->
@@ -787,7 +787,7 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonizadores saúdaveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonizadores saudáveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {0}? -->
@@ -811,7 +811,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}?\n\nIsto irá: \n- Adicionar espaços reservados para traduções com chave perdidas, traduções injetadas e backstories \n- Adicione ou atualize os comentários que contêm no texto original não traduzido \n- Mova todas as traduções digitadas e desinfectadas para os arquivos XML apropriados \n- Aplique a formatação automática a todos os arquivos XML \n- Atualize os nomes def compatíveis com versões anteriores \n- Remova todos os comentários XML existentes (exceto em full injeções de lista)\n\nOs arquivos XML não serão removidos ou modificados.\n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados.\n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}?\n\nIsto irá:\n  - Adicionar espaços reservados para traduções dos arquivos Keyed, DefInjected e Backstories.\n  - Adicionar ou atualizar os comentários que contêm no texto original não traduzido.\n  - Mover todas as traduções de Keyed e DefInjected para os arquivos XML apropriados.\n  - Aplicar a formatação automática a todos os arquivos XML.\n  - Atualizar os nomes Def compatíveis com versões anteriores.\n  - Remover todos os comentários XML existentes (exceto em texto completo).\n\nArquivos não-XML não serão removidos ou modificados.\n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados.\n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sim, eu tenho um backup</ConfirmCleanupTranslationFiles_Confirm>
 
