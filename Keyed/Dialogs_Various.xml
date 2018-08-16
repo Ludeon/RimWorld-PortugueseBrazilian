@@ -582,6 +582,8 @@
   <MassCapacity>Capacidade de massa</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Massa</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>Massa da caravana</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Massa de equipamentos e roupas</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -814,5 +816,9 @@
   <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}?\n\nIsto irá:\n  - Adicionar espaços reservados para traduções dos arquivos Keyed, DefInjected e Backstories.\n  - Adicionar ou atualizar os comentários que contêm no texto original não traduzido.\n  - Mover todas as traduções de Keyed e DefInjected para os arquivos XML apropriados.\n  - Aplicar a formatação automática a todos os arquivos XML.\n  - Atualizar os nomes Def compatíveis com versões anteriores.\n  - Remover todos os comentários XML existentes (exceto em texto completo).\n\nArquivos não-XML não serão removidos ou modificados.\n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados.\n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sim, eu tenho um backup</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>A caravana ficará imóvel se você enviar os pods para uma outro local. Deseja mesmo fazer isso?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>
