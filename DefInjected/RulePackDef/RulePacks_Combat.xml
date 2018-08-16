@@ -10,7 +10,7 @@
     <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] [deflected_result].</li>
     <li>at-></li>
     <li>at->at</li>
-    <li>deflected_result->[adverb_deflected]</li>
+    <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
     <li>adverb_deflected_opt->[adverb_deflected]</li>
@@ -277,7 +277,7 @@
   <!-- EN: implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label] -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.4>implement(IMPLEMENTOWNER_type==weapon,p=1)->um(a) [WEAPON_label] de [TOOL_label]</Combat_MeleeIncludes.rulePack.rulesStrings.4>
   <!-- EN: implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.5>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->um(a [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.5>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.5>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->um(a) [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.5>
   <!-- EN: implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label] -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.6>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</Combat_MeleeIncludes.rulePack.rulesStrings.6>
   <!-- EN: implement(IMPLEMENTOWNER_type==bodypart,p=1)->[INITIATOR_possessive] [adjective_bodypart] [TOOL_label] -->
@@ -531,7 +531,7 @@
     <li>weapon_projectile_label(p=0.05)->shot</li>
     <li>damaged_target_possessive_opt-></li>
     <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [RECIPIENT_part_damaged0_label]</li>
-    <li>deflected_result->[adverb_deflected]</li>
+    <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
     <li>adverb_deflected_opt->[adverb_deflected]</li>
@@ -757,7 +757,7 @@
   <!-- EN: avoidance(ORIGINALTARGET_mobile==True)->stumbled in an attempt to escape -->
   <Combat_RangedMiss.rulePack.rulesStrings.30>avoidance(ORIGINALTARGET_mobile==True)->tropeçou ao tentar escapar</Combat_RangedMiss.rulePack.rulesStrings.30>
   <!-- EN: avoidance(ORIGINALTARGET_mobile==True)->threw [ORIGINALTARGET_objective]self to the ground -->
-  <Combat_RangedMiss.rulePack.rulesStrings.31>avoidance(ORIGINALTARGET_mobile==True)->jogou [ORIGINALTARGET_objective] para o chão</Combat_RangedMiss.rulePack.rulesStrings.31>
+  <Combat_RangedMiss.rulePack.rulesStrings.31>avoidance(ORIGINALTARGET_mobile==True)->se jogou no chão</Combat_RangedMiss.rulePack.rulesStrings.31>
   <!-- EN: avoidance(ORIGINALTARGET_mobile==True,p=0.3)->ducked behind [COVER_definite] -->
   <Combat_RangedMiss.rulePack.rulesStrings.32>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->se escondeu atrá de [COVER_definite]</Combat_RangedMiss.rulePack.rulesStrings.32>
   <!-- EN: avoidance(ORIGINALTARGET_mobile==True,p=0.3)->leaped behind [COVER_definite] -->
