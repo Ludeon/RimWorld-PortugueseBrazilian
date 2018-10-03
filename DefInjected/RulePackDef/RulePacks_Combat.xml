@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN:
-    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=1)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [at] [RECIPIENT_definite] with [implement] [deflected_result].</li>
@@ -26,7 +26,7 @@
   <Combat_Deflect.rulePack.rulesStrings>
     <li>r_logentry(p=1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] no [RECIPIENT_part0_label] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite], empunhando seu(ua) [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] no [RECIPIENT_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.3)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um [damaged_inf] a partir de [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um(a) [damaged_inf] usando [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] usava [implement] para [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] com [implement] [deflected_result].</li>
     <li>r_logentry(p=0.6)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] [deflected_result].</li>
@@ -176,17 +176,17 @@
   <!-- EN: tried->attempted -->
   <Combat_FailIncludes.rulePack.rulesStrings.13>tried->tentou</Combat_FailIncludes.rulePack.rulesStrings.13>
   
-  <!-- EN: r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label]. -->
+  <!-- EN: r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label]. -->
   <Combat_Hit.rulePack.rulesStrings.0>r_logentry(p=0.3)->[INITIATOR_definite] [damaged_past] o(a) [recipient_part0_label] de [RECIPIENT_definite].</Combat_Hit.rulePack.rulesStrings.0>
-  <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [adverb_flavortext]. -->
+  <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [adverb_flavortext]. -->
   <Combat_Hit.rulePack.rulesStrings.1>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] o(a) [recipient_part0_label] de [RECIPIENT_definite] [adverb_flavortext].</Combat_Hit.rulePack.rulesStrings.1>
-  <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label] [flavortext_situation]. -->
+  <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [flavortext_situation]. -->
   <Combat_Hit.rulePack.rulesStrings.2>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] o(a) [recipient_part0_label] de [RECIPIENT_definite] [flavortext_situation].</Combat_Hit.rulePack.rulesStrings.2>
-  <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label], [flavortext_consequence]. -->
+  <!-- EN: r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label], [flavortext_consequence]. -->
   <Combat_Hit.rulePack.rulesStrings.3>r_logentry(p=0.1)->[INITIATOR_definite] [damaged_past] o(a) [recipient_part0_label] de [RECIPIENT_definite], [flavortext_consequence].</Combat_Hit.rulePack.rulesStrings.3>
-  <!-- EN: r_logentry(p=0.07)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label]. -->
+  <!-- EN: r_logentry(p=0.07)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label]. -->
   <Combat_Hit.rulePack.rulesStrings.4>r_logentry(p=0.4)->[INITIATOR_definite], empunhando [INITIATOR_possessive] [weapon_label] [expertly], [damaged_past] [RECIPIENT_definite] no(a) [recipient_part0_label].</Combat_Hit.rulePack.rulesStrings.4>
-  <!-- EN: r_logentry(p=0.03)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [adverb_flavortext] [damaged_past] [RECIPIENT_definite] in the [RECIPIENT_part0_label]. -->
+  <!-- EN: r_logentry(p=0.03)->[INITIATOR_definite], wielding [INITIATOR_possessive] [WEAPON_label] [expertly], [adverb_flavortext] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label]. -->
   <Combat_Hit.rulePack.rulesStrings.5>r_logentry(p=0.3)->[INITIATOR_definite] empunhando [INITIATOR_possessive] [WEAPON_label] [expertly], [adverb_flavortext] [damaged_past] [RECIPIENT_definite] no [RECIPIENT_part0_label]..</Combat_Hit.rulePack.rulesStrings.5>
   <!-- EN: r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets]. -->
   <Combat_Hit.rulePack.rulesStrings.6>r_logentry(p=0.3)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets].</Combat_Hit.rulePack.rulesStrings.6>
@@ -203,7 +203,7 @@
   <!-- EN: result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets] -->
   <Combat_Hit.rulePack.rulesStrings.12>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] e [damaged_present] [RECIPIENT_possessive] [damaged_targets]</Combat_Hit.rulePack.rulesStrings.12>
   <!-- EN: action(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] -->
-  <Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um [damaged_inf] usando [implement]</Combat_Hit.rulePack.rulesStrings.13>
+  <Combat_Hit.rulePack.rulesStrings.13>action(p=0.3)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um(a) [damaged_inf] usando [implement]</Combat_Hit.rulePack.rulesStrings.13>
   <!-- EN: action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite] -->
   <Combat_Hit.rulePack.rulesStrings.14>action(p=0.3)->[INITIATOR_definite] usou [implement] para [damaged_inf] [RECIPIENT_definite]</Combat_Hit.rulePack.rulesStrings.14>
   <!-- EN: action->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement] -->
@@ -312,13 +312,13 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings.21>adjective_bodypart(initiator_flesh==True)->firme</Combat_MeleeIncludes.rulePack.rulesStrings.21>
   <!-- EN: adjective_bodypart->firm -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.22>adjective_bodypart->firme</Combat_MeleeIncludes.rulePack.rulesStrings.22>
-  <!-- EN: targetlist(recipient_part_count==1)->[RECIPIENT_part0_label] -->
+  <!-- EN: targetlist(recipient_part_count==1)->[recipient_part0_label] -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.23>targetlist(recipient_part_count==1)->[RECIPIENT_part0_label]</Combat_MeleeIncludes.rulePack.rulesStrings.23>
-  <!-- EN: targetlist(recipient_part_count==2)->[RECIPIENT_part0_label] and [RECIPIENT_part1_label] -->
+  <!-- EN: targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label] -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.24>targetlist(recipient_part_count==2)->[RECIPIENT_part0_label] e [RECIPIENT_part1_label]</Combat_MeleeIncludes.rulePack.rulesStrings.24>
-  <!-- EN: targetlist(recipient_part_count==3)->[RECIPIENT_part0_label], [RECIPIENT_part1_label], and [RECIPIENT_part2_label] -->
+  <!-- EN: targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label] -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.25>targetlist(recipient_part_count==3)->[RECIPIENT_part0_label], [RECIPIENT_part1_label], e [RECIPIENT_part2_label]</Combat_MeleeIncludes.rulePack.rulesStrings.25>
-  <!-- EN: targetlist->[RECIPIENT_part0_label], [RECIPIENT_part1_label], [RECIPIENT_part2_label], and [RECIPIENT_part3_label] -->
+  <!-- EN: targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label] -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.26>targetlist->[RECIPIENT_part0_label], [RECIPIENT_part1_label], [RECIPIENT_part2_label], e [RECIPIENT_part3_label]</Combat_MeleeIncludes.rulePack.rulesStrings.26>
   <!-- EN: damaged_present(deflected!=True)->wounding -->
   <Combat_MeleeIncludes.rulePack.rulesStrings.27>damaged_present(deflected!=True)->ferindo</Combat_MeleeIncludes.rulePack.rulesStrings.27>
@@ -416,32 +416,32 @@
   <Combat_RangedDamage.rulePack.rulesStrings.6>r_logentry->[RECIPIENT_definite] de [destroyed_targets] estava [destroyed_past] de [INITIATOR_definite] de [expert] [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.6>
   <!-- EN: r_logentry->[RECIPIENT_definite]'s [destroyed_targets] was [destroyed_past] into [destroyed_suffix] by [INITIATOR_definite]'s [WEAPON_projectile_label]. -->
   <Combat_RangedDamage.rulePack.rulesStrings.7>r_logentry->[RECIPIENT_definite] de [destroyed_targets] estava [destroyed_past] into [destroyed_suffix] de [INITIATOR_definite] de [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.7>
-  <!-- EN: r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite]'s [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite]'s [damaged_targets]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.8>r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite] de [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite] de [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.8>
-  <!-- EN: r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite]'s [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite]'s [damaged_targets] [expertly]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.9>r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite] de [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite] de [damaged_targets] [expertly].</Combat_RangedDamage.rulePack.rulesStrings.9>
-  <!-- EN: r_logentry(recipient_partDestroyed_count==0,p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite]'s [damaged_targets]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.10>r_logentry(recipient_partDestroyed_count==0,p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] e [damaged_past] [RECIPIENT_definite] de [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.10>
-  <!-- EN: r_logentry(recipient_partDestroyed_count==0,p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite]'s [damaged_targets]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.11>r_logentry(recipient_partDestroyed_count==0,p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite] de [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.11>
-  <!-- EN: r_logentry(recipient_partDestroyed_count==0)->[RECIPIENT_definite]'s [damaged_targets] was [damaged_past] by [INITIATOR_definite]'s [WEAPON_projectile_label]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.12>r_logentry(recipient_partDestroyed_count==0)->[RECIPIENT_definite] de [damaged_targets] estava [damaged_past] de [INITIATOR_definite] de [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.12>
-  <!-- EN: r_logentry(recipient_partDestroyed_count==0)->[RECIPIENT_definite]'s [damaged_targets] was [damaged_past] by [INITIATOR_definite]'s [expert] [WEAPON_projectile_label]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.13>r_logentry(recipient_partDestroyed_count==0)->[RECIPIENT_definite] de [damaged_targets] estava [damaged_past] de [INITIATOR_definite] de [expert] [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.13>
+  <!-- EN: r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]'s [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite]'s [damaged_targets]. -->
+  <Combat_RangedDamage.rulePack.rulesStrings.8>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] de [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite] de [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.8>
+  <!-- EN: r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]'s [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite]'s [damaged_targets] [expertly]. -->
+  <Combat_RangedDamage.rulePack.rulesStrings.9>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite] de [WEAPON_projectile_label] [damaged_past] [RECIPIENT_definite] de [damaged_targets] [expertly].</Combat_RangedDamage.rulePack.rulesStrings.9>
+  <!-- EN: r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and [damaged_past] [RECIPIENT_definite]'s [damaged_targets]. -->
+  <Combat_RangedDamage.rulePack.rulesStrings.10>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] e [damaged_past] [RECIPIENT_definite] de [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.10>
+  <!-- EN: r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite]'s [damaged_targets]. -->
+  <Combat_RangedDamage.rulePack.rulesStrings.11>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite] de [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.11>
+  <!-- EN: r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]'s [damaged_targets] was [damaged_past] by [INITIATOR_definite]'s [WEAPON_projectile_label]. -->
+  <Combat_RangedDamage.rulePack.rulesStrings.12>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite] de [damaged_targets] estava [damaged_past] de [INITIATOR_definite] de [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.12>
+  <!-- EN: r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]'s [damaged_targets] was [damaged_past] by [INITIATOR_definite]'s [expert] [WEAPON_projectile_label]. -->
+  <Combat_RangedDamage.rulePack.rulesStrings.13>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite] de [damaged_targets] estava [damaged_past] de [INITIATOR_definite] de [expert] [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.13>
   <!-- EN: r_logentry(p=3)->[INITIATOR_definite]'s [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_past] [RECIPIENT_possessive] [damaged_targets]. -->
   <Combat_RangedDamage.rulePack.rulesStrings.14>r_logentry(p=3)->[INITIATOR_definite] de [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets] e [damaged_past] [RECIPIENT_possessive] [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.14>
   <!-- EN: r_logentry(p=6)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite]'s [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets]. -->
   <Combat_RangedDamage.rulePack.rulesStrings.15>r_logentry(p=6)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] de [destroyed_targets] e [damaged_present] [RECIPIENT_possessive] [damaged_targets].</Combat_RangedDamage.rulePack.rulesStrings.15>
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [WEAPON_projectile_label]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.16>r_logentry(p=0.2)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.16>
+  <Combat_RangedDamage.rulePack.rulesStrings.16>r_logentry(p=0.2)->[INITIATOR_definite] acertou o(a) [RECIPIENT_definite] com um [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.16>
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite]'s [WEAPON_projectile_label] hit [RECIPIENT_definite]. -->
   <Combat_RangedDamage.rulePack.rulesStrings.17>r_logentry(p=0.2)->O [WEAPON_projectile_label] de [INITIATOR_definite] acertou [RECIPIENT_definite].</Combat_RangedDamage.rulePack.rulesStrings.17>
   <!-- EN: r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite] with a [WEAPON_projectile_label]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.18>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou [RECIPIENT_definite] com um(a) [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.18>
+  <Combat_RangedDamage.rulePack.rulesStrings.18>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou o(a) [RECIPIENT_definite] com um(a) [WEAPON_projectile_label].</Combat_RangedDamage.rulePack.rulesStrings.18>
   <!-- EN: r_logentry(p=0.4)->[INITIATOR_definite]'s [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] and hit [RECIPIENT_definite]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.19>r_logentry(p=0.4)->O [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou [RECIPIENT_definite].</Combat_RangedDamage.rulePack.rulesStrings.19>
+  <Combat_RangedDamage.rulePack.rulesStrings.19>r_logentry(p=0.4)->O [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou o(a) [RECIPIENT_definite].</Combat_RangedDamage.rulePack.rulesStrings.19>
   <!-- EN: r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [WEAPON_projectile_label] intended for [ORIGINALTARGET_definite]. -->
-  <Combat_RangedDamage.rulePack.rulesStrings.20>r_logentry(p=0.2)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um(a) [WEAPON_projectile_label] mirando em [ORIGINALTARGET_definite].</Combat_RangedDamage.rulePack.rulesStrings.20>
+  <Combat_RangedDamage.rulePack.rulesStrings.20>r_logentry(p=0.2)->[INITIATOR_definite] acertou o(a) [RECIPIENT_definite] com um [WEAPON_projectile_label] mirando em [ORIGINALTARGET_definite].</Combat_RangedDamage.rulePack.rulesStrings.20>
   <!-- EN: weapon_projectile_label(p=0.05)->shot -->
   <Combat_RangedDamage.rulePack.rulesStrings.21>weapon_projectile_label(p=0.05)->tiro</Combat_RangedDamage.rulePack.rulesStrings.21>
   <!-- EN: destroyed_past->shattered -->
@@ -530,7 +530,7 @@
     <li>r_logentry(p=0.2)->[INITIATOR_definite] hit [RECIPIENT_definite][damaged_target_possessive_opt] with a [WEAPON_projectile_label] intended for [ORIGINALTARGET_definite] [deflected_result].</li>
     <li>weapon_projectile_label(p=0.05)->shot</li>
     <li>damaged_target_possessive_opt-></li>
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [RECIPIENT_part_damaged0_label]</li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [recipient_part_damaged0_label]</li>
     <li>deflected_result-> [adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
@@ -550,8 +550,8 @@
     <li>r_logentry->[RECIPIENT_definite] [damaged_target_possessive_opt] estava [damaged_past] de [INITIATOR_definite] de [WEAPON_projectile_label] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] acertou [RECIPIENT_definite][damaged_target_possessive_opt] com um(a) [WEAPON_projectile_label] [deflected_result].</li>
     <li>r_logentry(p=0.2)->O [WEAPON_projectile_label] de [INITIATOR_definite] acertou [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou [RECIPIENT_definite][damaged_target_possessive_opt] com um(a) [WEAPON_projectile_label] [deflected_result].</li>
-    <li>r_logentry(p=0.4)->O [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou o(a) [RECIPIENT_definite][damaged_target_possessive_opt] com um(a) [WEAPON_projectile_label] [deflected_result].</li>
+    <li>r_logentry(p=0.4)->O [WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] e acertou o(a) [RECIPIENT_definite][damaged_target_possessive_opt] [deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] acertou [RECIPIENT_definite][damaged_target_possessive_opt] com um(a) [WEAPON_projectile_label] destinado a [ORIGINALTARGET_definite] [deflected_result].</li>
     <li>weapon_projectile_label(p=0.05)->tiro</li>
     <li>damaged_target_possessive_opt-></li>
@@ -721,9 +721,9 @@
   <!-- EN: missed(p=0.2)->passed within millimeters of [ORIGINALTARGET_definite] -->
   <Combat_RangedMiss.rulePack.rulesStrings.12>missed(p=0.2)->passou a milímetros d[ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.12>
   <!-- EN: missed->passed within centimeters of [ORIGINALTARGET_definite] -->
-  <Combat_RangedMiss.rulePack.rulesStrings.13>missed->passou a centímetro d[ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.13>
+  <Combat_RangedMiss.rulePack.rulesStrings.13>missed->passou a centímetro [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.13>
   <!-- EN: missed->passed within a meter of [ORIGINALTARGET_definite] -->
-  <Combat_RangedMiss.rulePack.rulesStrings.14>missed->passou a cerca de um metro d[ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.14>
+  <Combat_RangedMiss.rulePack.rulesStrings.14>missed->passou a cerca de um metro [ORIGINALTARGET_definite]</Combat_RangedMiss.rulePack.rulesStrings.14>
   <!-- EN: missed->was blown offcourse -->
   <Combat_RangedMiss.rulePack.rulesStrings.15>missed->se desviou</Combat_RangedMiss.rulePack.rulesStrings.15>
   <!-- EN: missing->missing -->
@@ -763,21 +763,21 @@
   <!-- EN: avoidance(ORIGINALTARGET_mobile==True,p=0.3)->leaped behind [COVER_definite] -->
   <Combat_RangedMiss.rulePack.rulesStrings.33>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->saltou para trá de [COVER_definite]</Combat_RangedMiss.rulePack.rulesStrings.33>
   
-  <!-- EN: destroyed_targets(recipient_part_destroyed_count==1)->[RECIPIENT_part_destroyed0_label] -->
+  <!-- EN: destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.0>destroyed_targets(recipient_part_destroyed_count==1)->[RECIPIENT_part_destroyed0_label]</Combat_WoundIncludes.rulePack.rulesStrings.0>
-  <!-- EN: destroyed_targets(recipient_part_destroyed_count==2)->[RECIPIENT_part_destroyed0_label] and [RECIPIENT_part_destroyed1_label] -->
+  <!-- EN: destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.1>destroyed_targets(recipient_part_destroyed_count==2)->[RECIPIENT_part_destroyed0_label] e [RECIPIENT_part_destroyed1_label]</Combat_WoundIncludes.rulePack.rulesStrings.1>
-  <!-- EN: destroyed_targets(recipient_part_destroyed_count==3)->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], and [RECIPIENT_part_destroyed2_label] -->
+  <!-- EN: destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.2>destroyed_targets(recipient_part_destroyed_count==3)->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], e [RECIPIENT_part_destroyed2_label]</Combat_WoundIncludes.rulePack.rulesStrings.2>
-  <!-- EN: destroyed_targets->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], [RECIPIENT_part_destroyed2_label], and [RECIPIENT_part_destroyed3_label] -->
+  <!-- EN: destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.3>destroyed_targets->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], [RECIPIENT_part_destroyed2_label], e [RECIPIENT_part_destroyed3_label]</Combat_WoundIncludes.rulePack.rulesStrings.3>
-  <!-- EN: damaged_targets(recipient_part_damaged_count==1)->[RECIPIENT_part_damaged0_label] -->
+  <!-- EN: damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.4>damaged_targets(recipient_part_damaged_count==1)->[RECIPIENT_part_damaged0_label]</Combat_WoundIncludes.rulePack.rulesStrings.4>
-  <!-- EN: damaged_targets(recipient_part_damaged_count==2)->[RECIPIENT_part_damaged0_label] and [RECIPIENT_part_damaged1_label] -->
+  <!-- EN: damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.5>damaged_targets(recipient_part_damaged_count==2)->[RECIPIENT_part_damaged0_label] e [RECIPIENT_part_damaged1_label]</Combat_WoundIncludes.rulePack.rulesStrings.5>
-  <!-- EN: damaged_targets(recipient_part_damaged_count==3)->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], and [RECIPIENT_part_damaged2_label] -->
+  <!-- EN: damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.6>damaged_targets(recipient_part_damaged_count==3)->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], e [RECIPIENT_part_damaged2_label]</Combat_WoundIncludes.rulePack.rulesStrings.6>
-  <!-- EN: damaged_targets->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], [RECIPIENT_part_damaged2_label], and [RECIPIENT_part_damaged3_label] -->
+  <!-- EN: damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label] -->
   <Combat_WoundIncludes.rulePack.rulesStrings.7>damaged_targets->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], [RECIPIENT_part_damaged2_label], e [RECIPIENT_part_damaged3_label]</Combat_WoundIncludes.rulePack.rulesStrings.7>
   <!-- EN: expertly->expertly -->
   <Combat_WoundIncludes.rulePack.rulesStrings.8>expertly->com habilidade</Combat_WoundIncludes.rulePack.rulesStrings.8>

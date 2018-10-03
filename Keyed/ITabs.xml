@@ -52,8 +52,8 @@
   <MinimumSkill>Habilidade mínima</MinimumSkill>
   <!-- EN: SUSPENDED -->
   <SuspendedCaps>SUSPENSO</SuspendedCaps>
-  <!-- EN: Worker: {0} -->
-  <BoundWorkerIs>Trabalhador: {0}</BoundWorkerIs>
+  <!-- EN: Worker: {1_labelShort} -->
+  <BoundWorkerIs>Trabalhador: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>Plano</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
@@ -196,8 +196,8 @@
   <Trainability>Treinabilidade</Trainability>
   <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>Requer inteligência treinável {0}.</CannotTrainNotSmartEnough>
-  <!-- EN: {0} is too small to train this. -->
-  <CannotTrainTooSmall>{0} é muito pequeno(a) para treinar isto.</CannotTrainTooSmall>
+  <!-- EN: {1_labelShort} is too small to train this. -->
+  <CannotTrainTooSmall>{1_labelShort} é muito pequeno(a) para treinar isto.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Pré-requisito necessário: {0}</TrainingNeedsPrerequisite>
@@ -213,10 +213,10 @@
   <Slave>Escravo</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Líder da facção</FactionLeader>
-  <!-- EN: Opinion of {0} -->
-  <OpinionOf>Opinião de {0}</OpinionOf>
-  <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>Opinião de {0} sobre mim</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {1_labelShort} -->
+  <OpinionOf>Opinião de {1_labelShort}</OpinionOf>
+  <!-- EN: {1_labelShort}'s opinion of me -->
+  <SomeonesOpinionOfMe>Opinião de {1_labelShort} sobre mim</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Estou morto</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -261,6 +261,10 @@
   <FormingCaravanStatus_GatheringSlaves>Coleta de escravos</FormingCaravanStatus_GatheringSlaves>
   <!-- EN: Gathering slaves (waiting) -->
   <FormingCaravanStatus_GatheringSlaves_Pause>Coleta de escravos (esperando)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Gathering downed people -->
+  <FormingCaravanStatus_GatheringDownedPawns>Coleta de pessoas abatidas</FormingCaravanStatus_GatheringDownedPawns>
+  <!-- EN: Gathering downed people (waiting) -->
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>Coleta de pessoas abatidas (esperando)</FormingCaravanStatus_GatheringDownedPawns_Pause>
   <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>Deixando</FormingCaravanStatus_Leaving>
   <!-- EN: Leaving (waiting) -->
