@@ -4,9 +4,11 @@
   <!-- Forbid -->
   <!-- EN: Forbid -->
   <CommandForbid>Permitir</CommandForbid>
-  <!-- EN: Forbidden - colonists will not interact with this. -->
+  <!-- EN: Allow -->
+  <CommandAllow>Permitir</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>Proibido - os colonos não irão interagir com isso.</CommandForbiddenDesc>
-  <!-- EN: Not forbidden - colonists may interact with this. -->
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
   <CommandNotForbiddenDesc>Não é proibido - colonos podem interagir com isto.</CommandNotForbiddenDesc>
 
   <!-- Power -->
@@ -39,8 +41,8 @@
   <CommandUndraftLabel>Desalistar</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Alista para o modo de combate\n\npessoas alistadas recebem ordens e lutam. Eles não irão trabalhar, comer ou dormir.</CommandToggleDraftDesc>
-  <!-- EN: {0} cannot walk. -->
-  <IsIncapped>{0} não pode andar.</IsIncapped>
+  <!-- EN: {1_labelShort} cannot walk. -->
+  <IsIncapped>{1_labelShort} não pode andar.</IsIncapped>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Disparo à vontade</CommandFireAtWillLabel>

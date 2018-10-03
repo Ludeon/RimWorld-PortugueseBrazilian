@@ -68,9 +68,9 @@
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
   <DesignatorForbidDesc>Marcar itens como proibidos. Os colonos não poderão interagir com os itens designados.</DesignatorForbidDesc>
 
-  <!-- EN: Unforbid -->
+  <!-- EN: Allow -->
   <DesignatorUnforbid>Permitidos</DesignatorUnforbid>
-  <!-- EN: Mark items as unforbidden. Colonists will be able to interact with the designated items. -->
+  <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
   <DesignatorUnforbidDesc>Marcar itens como permitidos. Os colonos poderão interagir com os itens designados.</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
@@ -180,12 +180,12 @@
   <OutOfBounds>Fora dos limites.</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
   <CannotPlaceInUndiscovered>Não é possível colocar em áreas desconhecidas.</CannotPlaceInUndiscovered>
-  <!-- EN: Interaction spot is blocked by {0}. -->
-  <InteractionSpotBlocked>local de interação está bloqueado por {0}.</InteractionSpotBlocked>
+  <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
+  <InteractionSpotBlocked>local de interação está bloqueado por {1_labelShort}.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
   <InteractionSpotOutOfBounds>local de interação está fora dos limites.</InteractionSpotOutOfBounds>
-  <!-- EN: Interaction spot will be blocked by {0}. -->
-  <InteractionSpotWillBeBlocked>local de interação será bloqueado por {0}.</InteractionSpotWillBeBlocked>
+  <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
+  <InteractionSpotWillBeBlocked>local de interação será bloqueado por {1_labelShort}.</InteractionSpotWillBeBlocked>
   <!-- EN: {0} would block {1}'s interaction spot. -->
   <WouldBlockInteractionSpot>{0} bloquearia {1} local de interação.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
@@ -198,6 +198,8 @@
   <IdenticalBlueprintExists>Projeto idêntico já existe aqui.</IdenticalBlueprintExists>
   <!-- EN: The terrain here cannot support this. -->
   <TerrainCannotSupport>O terreno não suporta isto.</TerrainCannotSupport>
+  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordance>{0_label} requer terreno que possa suportar: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>O espaço já está ocupado.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->

@@ -82,8 +82,8 @@
   <CorpseLabel>cadáver de {0}</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>Corpo sem vida de {0}.</CorpseDesc>
-  <!-- EN: {0} (dead) -->
-  <DeadLabel>{0} (morto)</DeadLabel>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label} (morto)</DeadLabel>
 
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>{0} áspero</RoughStoneTerrainLabel>
@@ -109,12 +109,12 @@
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <!-- EN: {0} {1} -->
-  <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
+  <ThingMadeOfStuffLabel>{0} de {1}</ThingMadeOfStuffLabel>
 
-  <!-- EN: {0}'s {1} -->
-  <SomeonesRoom>{1} de {0}</SomeonesRoom>
-  <!-- EN: {0} and {1}'s {2} -->
-  <CouplesRoom>{2} de {0} e {1}</CouplesRoom>
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <SomeonesRoom>{PAWN_labelShort} de {1}</SomeonesRoom>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
+  <CouplesRoom>{PAWN1_labelShort} e {PAWN2_labelShort} de {2}</CouplesRoom>
   
   <!-- EN: (various) -->
   <VariousLabel>(diversos)</VariousLabel>
