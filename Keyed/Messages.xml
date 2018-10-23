@@ -2,12 +2,12 @@
 <LanguageData>
 
   <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
-  <MessageSiegersAssaulting>Cerco de {0} de {1} está assaltando a colônia.</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>Cerco de {0} de {1} está atacando a colônia.</MessageSiegersAssaulting>
 
   <!-- EN: {0} from {1} are beginning their assault. -->
-  <MessageRaidersBeginningAssault>{0} de {1} estão começando o assalto deles.</MessageRaidersBeginningAssault>
+  <MessageRaidersBeginningAssault>{0} de {1} estão começando o ataque.</MessageRaidersBeginningAssault>
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
-  <MessageRaidersDetectedEarlyAssault>{0} de {1} detectaram você e começaram o assalto deles cedo.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersDetectedEarlyAssault>{0} de {1} detectaram você e começaram mais cedo o ataque.</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
   <MessageRaidersKidnapping>{0} de {1} decidiram raptar quem eles puderem e partir.</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
@@ -127,27 +127,27 @@
   <PawnDied>{1_labelShort} morreu.</PawnDied>
 
   <!-- EN: {1_label} is no longer incapable of walking. -->
-  <MessageNoLongerDowned>{1_label} não está mais incapaz de andar.</MessageNoLongerDowned>
+  <MessageNoLongerDowned>{1_label} se curou da incapacidade de andar.</MessageNoLongerDowned>
 
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_labelShort} colapsou devido á extrema exaustão.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_labelShort} colapsou devido à exaustão extrema.</MessageInvoluntarySleep>
 
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} falhou de uma maneira menor enquanto operava {PATIENT_labelShort}.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {patient.LabelShort}. -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} falhou catastroficamente na operação de {patient.LabelShort}.</MessageMedicalOperationFailureCatastrophic>
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_LabelShort}. -->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} falhou catastroficamente na operação de {PATIENT_LabelShort}.</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} falhou de uma maneira ridícula enquanto operava {PATIENT_labelShort}.</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
   <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} cometeu um erro fatal ao operar em {PATIENT_labelShort} devido aos desafios especiais de: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- EN: This operation will anger {0}. -->
-  <MessageMedicalOperationWillAngerFaction>Esta operação irá irritar {0}.</MessageMedicalOperationWillAngerFaction>
+  <MessageMedicalOperationWillAngerFaction>Esta operação vai irritar {0}.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0} abortou devido á fome.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>{0} abortou devido à fome.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} abortou devido a má saúde.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>{0} abortou devido à má saúde.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} deu a luz.</MessageGaveBirth>
 
@@ -223,10 +223,10 @@
   <MessageNoLongerSocialFighting>{PAWN1_labelShort} e {PAWN2_labelShort} não estão mais brigando socialmente.</MessageNoLongerSocialFighting>
   
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{2_labelShort} não está mais tendo compulsão por {1}.</MessageNoLongerBingingOnDrug>
+  <MessageNoLongerBingingOnDrug>{2_labelShort} parou de ter compulsão por {1}.</MessageNoLongerBingingOnDrug>
 
   <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
-  <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} não está mais em uma onda de insultos contra {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
+  <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} parou com a onda de insultos contra {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
   <MessageRottedAwayInStorage>{1_label} apodreceu no armazém.</MessageRottedAwayInStorage>
@@ -282,8 +282,8 @@
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort}s {2} está curado. Causa: {0}</MessagePermanentWoundHealed>
 
-  <!-- EN: Since you rescued {!_objective}, {1_labelShort} has joined your group! -->
-  <MessageRescueeJoined>Uma vez que você resgatou {!_objective}, {1_labelShort} se juntou ao seu grupo!</MessageRescueeJoined>
+  <!-- EN: {1_labelShort} has joined your group after being rescued! -->
+  <MessageRescueeJoined>{1_labelShort} se juntou ao seu grupo depois de ser resgatado!</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>Algumas cápsulas de transporte estão inacessíveis.</MessageTransporterUnreachable>
