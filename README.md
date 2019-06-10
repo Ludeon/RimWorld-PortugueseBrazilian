@@ -20,6 +20,7 @@ Translators:
 - [Arthur Silva](https://github.com/ArxdSilva)
 - [Vinícius Fonseca](https://github.com/vinnysoft)
 - [Ezequiel Wilhelm Ribeiro](https://github.com/Firty)
+- [Joás Felipe](https://github.com/Hokys)
 
 -------------------------
 
