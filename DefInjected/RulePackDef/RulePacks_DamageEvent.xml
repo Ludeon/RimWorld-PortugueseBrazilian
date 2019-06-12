@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: damage_source->the [roof] [collapsed] on -->
   <DamageEvent_Ceiling.rulePack.rulesStrings.0>damage_source->o(a) [roof] [collapsed] em</DamageEvent_Ceiling.rulePack.rulesStrings.0>
   <!-- EN: roof->roof -->
@@ -35,7 +35,7 @@
   <DamageEvent_Ceiling.rulePack.rulesStrings.15>destroyed_present->aniquilou</DamageEvent_Ceiling.rulePack.rulesStrings.15>
   <!-- EN: destroyed_present->breaking -->
   <DamageEvent_Ceiling.rulePack.rulesStrings.16>destroyed_present->quebrou</DamageEvent_Ceiling.rulePack.rulesStrings.16>
-  
+
   <!-- EN: damage_source->[fire] burned -->
   <DamageEvent_Fire.rulePack.rulesStrings.0>damage_source->[fire] queimou</DamageEvent_Fire.rulePack.rulesStrings.0>
   <!-- EN: fire(p=3)->fire -->
@@ -66,7 +66,7 @@
   <DamageEvent_Fire.rulePack.rulesStrings.13>destroyed_present->cozinhador</DamageEvent_Fire.rulePack.rulesStrings.13>
   <!-- EN: destroyed_present->cremating -->
   <DamageEvent_Fire.rulePack.rulesStrings.14>destroyed_present->cremador</DamageEvent_Fire.rulePack.rulesStrings.14>
-  
+
   <!-- EN:
     <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets].</li>
     <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
@@ -79,7 +79,7 @@
     <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>damage_source->The [sky] opened up on</li>
     <li>damage_source->A beam of incredible [power] [damaged_past]</li>
@@ -96,21 +96,21 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damage_source->O [sky] abril em</li>
+    <li>damage_source->O [sky] abriu em</li>
     <li>damage_source->Um raio de incrível [power] [damaged_past]</li>
     <li>damage_source->Uma coluna de [light] [damaged_past]</li>
     <li>sky->céu</li>
-    <li>sky->céu</li>
-    <li>sky->céu</li>
+    <li>sky->núvens</li>
+    <li>sky->céus</li>
     <li>power->poder</li>
     <li>power->força</li>
     <li>power->calor</li>
     <li>light->luz</li>
     <li>light->calor</li>
-    <li>light->fogo</li>
-    <li>light(p=0.2)->incandecente</li>
+    <li>light->chama</li>
+    <li>light(p=0.2)->incandescente</li>
   </DamageEvent_PowerBeam.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>damage_source->A [spiraling] tornado [enveloped]</li>
     <li>destroyed_present(p=3)->tearing off</li>
@@ -125,15 +125,15 @@
   <DamageEvent_Tornado.rulePack.rulesStrings>
     <li>damage_source->Um [spiraling] tornado [enveloped]</li>
     <li>destroyed_present(p=3)->arrancando</li>
-    <li>spiraling->espiral</li>
-    <li>spiraling->espiral</li>
-    <li>spiraling->espiral</li>
+    <li>spiraling->girando</li>
+    <li>spiraling->girando</li>
+    <li>spiraling->girando</li>
     <li>spiraling(p=10)-></li>
     <li>enveloped(p=8)->levou</li>
     <li>enveloped->engoliu</li>
     <li>enveloped->cercou</li>
   </DamageEvent_Tornado.rulePack.rulesStrings>
-  
+
   <!-- EN:
     <li>damage_source->[spiketrap] stabbed</li>
     <li>damage_source->[spiketrap] struck</li>
@@ -158,17 +158,17 @@
     <li>damage_source->[spiketrap] lançado em</li>
     <li>spiketrap(p=3)->uma armadilha de espinhos</li>
     <li>spiketrap(p=3)->a armadilha de espinhos</li>
-    <li>spiketrap->cravos</li>
+    <li>spiketrap->espinhos</li>
     <li>spiketrap->uma armadilha afiada</li>
-    <li>spiketrap->uma armadilha espetada</li>
+    <li>spiketrap->uma armadilha espinhosa</li>
     <li>damaged_present->perfurando</li>
     <li>damaged_present->espetando</li>
     <li>damaged_present->penetrando</li>
     <li>damaged_present->furando</li>
-    <li>destroyed_present->rasgado</li>
-    <li>destroyed_present->triturado</li>
-    <li>destroyed_present->eviscerado</li>
-    <li>destroyed_present->explodido</li>
+    <li>destroyed_present->rasgando</li>
+    <li>destroyed_present->triturando</li>
+    <li>destroyed_present->eviscerando</li>
+    <li>destroyed_present->explodindo</li>
   </DamageEvent_TrapSpike.rulePack.rulesStrings>
-  
+
 </LanguageData>

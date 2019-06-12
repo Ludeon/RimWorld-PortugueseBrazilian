@@ -1,64 +1,64 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: Armor - Blunt -->
   <ArmorRating_Blunt.label>Resistência - Contundente</ArmorRating_Blunt.label>
   <!-- EN: The chance to affect blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Blunt.description>Resistência contra dano contundente como ataques de porrete, queda de rochas, e explosões.</ArmorRating_Blunt.description>
-  
+
   <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>Resistência - Calor</ArmorRating_Heat.label>
   <!-- EN: The chance to affect temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Heat.description>Resistência contra danos relacionados a temperatura como queimaduras.</ArmorRating_Heat.description>
-  
+
   <!-- EN: Armor - Sharp -->
   <ArmorRating_Sharp.label>Resistência - Cortante</ArmorRating_Sharp.label>
   <!-- EN: The chance to affect sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is converted into blunt damage and reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Sharp.description>Resistência contra danos cortantes como balas, golpes de faca, e mordidas de animais.</ArmorRating_Sharp.description>
-  
+
   <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>Energia máxima do escudo</EnergyShieldEnergyMax.label>
   <!-- EN: The maximum energy a shield belt can have at one time. More energy absorbs more damage. -->
   <EnergyShieldEnergyMax.description>A energia máxima de que cinto escudo pode ter de uma só vez. Mais energia pode absorver mais dano.</EnergyShieldEnergyMax.description>
-  
+
   <!-- EN: Shield recharge rate -->
   <EnergyShieldRechargeRate.label>Taxa de recarga do escudo</EnergyShieldRechargeRate.label>
   <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
   <EnergyShieldRechargeRate.description>Taxa na qual um escudo ganha energia desde que ele não esteja quebrado.</EnergyShieldRechargeRate.description>
   <!-- EN: {0}/s -->
   <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
-  
+
   <!-- EN: equip delay -->
   <EquipDelay.label>equipar atraso</EquipDelay.label>
   <!-- EN: The time it takes to equip and unequip this item. -->
   <EquipDelay.description>O tempo que leva para equipar e desequipar este item.</EquipDelay.description>
   <!-- EN: {0} s -->
   <EquipDelay.formatString>{0} s</EquipDelay.formatString>
-  
+
   <!-- EN: Insulation - Cold -->
   <Insulation_Cold.label>Isolamento - Frio</Insulation_Cold.label>
   <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature. Greater values allow surviving in colder temperatures. -->
   <Insulation_Cold.description>O quanto esta roupa compensa de temperatura confortável mínima de um utilizador quando usada.</Insulation_Cold.description>
-  
+
   <!-- EN: Insulation - Heat -->
   <Insulation_Heat.label>Isolamento - Calor</Insulation_Heat.label>
   <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature. Greater values allow surviving in warmer temperatures. -->
   <Insulation_Heat.description>O quanto esta roupa compensa de temperatura confortável máxima de um utilizador quando usada.</Insulation_Heat.description>
-  
+
   <!-- EN: Smokepop belt radius -->
   <SmokepopBeltRadius.label>Raio de cinto bomba de fumaça</SmokepopBeltRadius.label>
   <!-- EN: The area obscured when a smokepop belt detonates. -->
-  <SmokepopBeltRadius.description>A área obscurecida quando um cinto de fumaça detona.</SmokepopBeltRadius.description>
+  <SmokepopBeltRadius.description>A área obscurecida quando um cinto bomba de fumaça detona.</SmokepopBeltRadius.description>
   <!-- EN: {0} c -->
   <SmokepopBeltRadius.formatString>{0} c</SmokepopBeltRadius.formatString>
-  
+
   <!-- EN: Armor - Material effect multiplier -->
   <StuffEffectMultiplierArmor.label>Armadura - multiplicador de efeito material</StuffEffectMultiplierArmor.label>
-  
+
   <!-- EN: Insulation - Cold - Material effect multiplier -->
   <StuffEffectMultiplierInsulation_Cold.label>Isolante - Frio - Multiplicador de efeito material</StuffEffectMultiplierInsulation_Cold.label>
-  
+
   <!-- EN: Insulation - Heat - Material effect multiplier -->
   <StuffEffectMultiplierInsulation_Heat.label>Isolante - Calor - Multiplicador de efeito material</StuffEffectMultiplierInsulation_Heat.label>
-  
+
 </LanguageData>
