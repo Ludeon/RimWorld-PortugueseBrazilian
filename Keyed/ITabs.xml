@@ -47,7 +47,7 @@
   <!-- EN: Add bill -->
   <AddBill>Adicionar tarefa</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>A receita {0} requer as habilidades abaixo. Nenhum dos seus colonos têm estas habilidades, de modo que ninguém irá fazer esta tarefa.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>A receita {0} requer as habilidades abaixo. Nenhum dos seus colonos têm estas habilidades, então ninguém irá fazer esta tarefa.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
   <MinimumSkill>Habilidade mínima</MinimumSkill>
   <!-- EN: SUSPENDED -->
@@ -57,7 +57,7 @@
   <!-- EN: Plant -->
   <PlantVerb>Plano</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
-  <ClipboardBillNotAvailableHere>A fatura copiada não pode ser colada aqui.</ClipboardBillNotAvailableHere>
+  <ClipboardBillNotAvailableHere>A tarefa copiada não pode ser colada aqui.</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>Mover para cima</ReorderBillUpTip>
   <!-- EN: Move down -->
@@ -157,10 +157,10 @@
   <!-- EN: Prevents infection -->
   <PreventsInfection>Previne infecção</PreventsInfection>
   <!-- EN: Self-tend -->
-  <SelfTend>Auto-atendimento</SelfTend>
+  <SelfTend>Autoatendimento</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0} com autonomia habilitada, tenderá automaticamente a se encontrar no local em {1} a eficiência normal.</SelfTendTip>
-  
+  <SelfTendTip>{0} com o autoatendimento ligado vão tentar curar a si mesmos automaticamente no local, com {1} da eficiência normal.</SelfTendTip>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Nada</None>
@@ -183,7 +183,7 @@
   <!-- EN: None -->
   <NoPain>Nenhuma</NoPain>
   <!-- EN: Little -->
-  <LittlePain>Pouca</LittlePain>
+  <LittlePain>Pequena</LittlePain>
   <!-- EN: Medium -->
   <MediumPain>Média</MediumPain>
   <!-- EN: Severe -->
@@ -201,7 +201,7 @@
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Pré-requisito necessário: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <!-- EN: (no relationships) -->
   <NoRelationships>(sem relacionamentos)</NoRelationships>
@@ -221,7 +221,7 @@
   <IAmDead>Estou morto</IAmDead>
   <!-- EN: I'm a psychopath -->
   <IAmPsychopath>Eu sou um psicopata</IAmPsychopath>
-  
+
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
   <OverallArmor>Armadura geral</OverallArmor>
@@ -235,7 +235,7 @@
   <ArmorSharp>Corte</ArmorSharp>
   <!-- EN: Heat -->
   <ArmorHeat>Calor</ArmorHeat>
-  
+
   <!-- Log tab -->
   <!-- EN: Show all -->
   <ShowAll>Mostre tudo</ShowAll>
