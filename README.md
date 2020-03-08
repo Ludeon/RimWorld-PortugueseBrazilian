@@ -19,6 +19,7 @@ Translators:
 - [Vinícius Fonseca](https://github.com/vinnysoft)
 - [Vitor Glinski](https://github.com/VitorGlinski)
 - [Willian](https://github.com/Srlimao)
+- [Philippus](https://github.com/PhilippusBR)
 
 -------------------------
 
