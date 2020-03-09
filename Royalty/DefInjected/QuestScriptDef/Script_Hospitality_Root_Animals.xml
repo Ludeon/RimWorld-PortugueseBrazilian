@@ -52,11 +52,11 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Por razões desconhecidas, o [lodgersLabel] se tornou alvo de um enxame mecanóide em órbita. Enquanto [lodgers0_pronoun] estiver presente, os aglomerados mecanoides cairão regularmente em [map_definite].</li>
-    <li>threatsInfoMechClustersMultiAnimal->Por razões desconhecidas, os [lodgersLabelPlural] se tornaram alvos de um enxame mecanóide em órbita. Enquanto estiverem presentes, os aglomerados mecanoides cairão regularmente em [map_definite].</li>
-    <li>threatsInfoMechRaidsSingleAnimal->Por razões desconhecidas, o [lodgersLabel] se tornou alvo de uma colméia mecanóide. Enquanto [lodgers0_pronoun] estiver presente, grupos de combate mecanoides atacarão [map_definite] regularmente.</li>
-    <li>threatsInfoMechRaidsMultiAnimal->Por razões desconhecidas, os [lodgersLabelPlural] se tornaram alvos de uma colméia mecanóide. Enquanto estiverem presentes, grupos de combate mecanoides atacarão [map_definite] regularmente.</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Uma organização de resgate de animais deseja que você cuide de um [lodgersLabel] chamado [lodgers0_nameDef] em [map_definite] por [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
+    <li>threatsInfoMechClustersSingleAnimal->Por razões desconhecidas, o [lodgersLabel] se tornou alvo de um enxame mecanoide em órbita. Enquanto [lodgers0_pronoun] estiver presente, os aglomerados mecanoides cairão regularmente em [map_definite].</li>
+    <li>threatsInfoMechClustersMultiAnimal->Por razões desconhecidas, os [lodgersLabelPlural] se tornaram alvos de um enxame mecanoide em órbita. Enquanto estiverem presentes, os aglomerados mecanoides cairão regularmente em [map_definite].</li>
+    <li>threatsInfoMechRaidsSingleAnimal->Por razões desconhecidas, o [lodgersLabel] se tornou alvo de uma colméia mecanoide. Enquanto [lodgers0_pronoun] estiver presente, grupos de combate mecanoides atacarão [map_definite] regularmente.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->Por razões desconhecidas, os [lodgersLabelPlural] se tornaram alvos de uma colméia mecanoide. Enquanto estiverem presentes, grupos de combate mecanoides atacarão [map_definite] regularmente.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Uma organização de resgate de animais deseja que você cuide de um(a) [lodgersLabel] chamado(a) [lodgers0_nameDef] em [map_definite] por [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1]\n\n[commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nOs ativistas de resgate de animais roubaram [lodgers0_nameDef] de uma cerimônia de abate realizada por [enemyFaction_name]. Agora os [enemyFaction_pawnsPlural] estão vindo para se vingar. Se você aceitar [lodgers0_nameDef], [enemyFaction_pawnsPlural] atacará enquanto [lodgers0_pronoun] estiver presente. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
@@ -66,12 +66,12 @@
     <li>victim->mulher</li>
     <li>victim->homem</li>
     <li>victim->[PersonJobGen]</li>
-    <li>victim(generateThreats==true,allowedThreats==Raids)->amigo de [enemyFaction_leaderTitle] de [enemyFaction_name]</li>
+    <li>victim(generateThreats==true,allowedThreats==Raids)->amigo(a) de [enemyFaction_leaderTitle] de [enemyFaction_name]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nInfelizmente, esses [lodgersLabelPlural] fizeram parte da morte de um [victim] recentemente. Agora, [enemyFaction_pawnsPlural] de [enemyFaction_name] estão caçando-os por vingança. Se você aceitar o [lodgersLabelPlural], o [enemyFaction_pawnsPlural] atacará enquanto estiverem presentes. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] está procurando um lugar seguro para cuidar do animal de estimação [asker_possessive] [lodgersLabel] [lodgers0_nameDef] por [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name] está procurando um lugar seguro para cuidar do animal de estimação [lodgersLabel] [lodgers0_nameDef] por [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3]\n\n[commonDescEnding]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] estão tentando matar o pobre [lodgers0_nameDef] para chegar a [asker_nameDef]. Se você aceitar [lodgers0_nameDef], [enemyFaction_pawnsPlural] atacará enquanto [lodgers0_pronoun] estiver presente. [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
@@ -81,12 +81,12 @@
     <li>threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], um [asker_royalTitleInCurrentFaction] de [asker_faction_name] está fazendo uma solicitação. [asker_pronoun] quer que você cuide do animal de estimação favorito [asker_possessive], o [lodgersLabel] [lodgers0_nameDef], em [map_definite] por [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5]\n\n[commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], um [asker_royalTitleInCurrentFaction] de [asker_faction_name] está fazendo uma solicitação. [asker_pronoun] quer que você cuide do seu animal de estimação favorito, o [lodgersLabel] [lodgers0_nameDef], em [map_definite] por [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5]\n\n[commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] é um presente prometido ao filho de [asker_nameDef] para uma cerimônia de casamento. Para tentar impedir o casamento, [enemyFaction_name] está enviando [enemyFaction_pawnsPlural] atrás de [lodgers0_objective]. Se você aceitar [lodgers0_nameDef], [enemyFaction_pawnsPlural] atacará enquanto [lodgers0_nameDef] estiver presente. [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], um [asker_royalTitleInCurrentFaction] de [asker_faction_name] está fazendo uma solicitação. [asker_pronoun] quer que você cuide de [lodgersCount] [lodgersLabelPlural] em [map_definite] por [shuttleDelayTicks_duration]. Os [lodgersLabelPlural] são os animais de estimação favoritos de [asker_nameDef] e o [asker_pronoun] quer que eles vejam o mundo fora da corte real [asker_possessive]. [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], um [asker_royalTitleInCurrentFaction] de [asker_faction_name] está fazendo uma solicitação. [asker_pronoun] quer que você cuide de [lodgersCount] [lodgersLabelPlural] em [map_definite] por [shuttleDelayTicks_duration]. Os [lodgersLabelPlural] são os animais de estimação favoritos de [asker_nameDef] e o [asker_pronoun] quer que eles vejam o mundo fora da sua corte real. [healthInfo][threatsInfo6]\n\n[commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\nInfelizmente, [enemyFaction_name] está procurando os [lodgersLabelPlural] para tentar prejudicar o [asker_nameDef] pessoalmente. Se você aceitar os [lodgersLabelPlural], os [enemyFaction_pawnsPlural] atacarão enquanto estiverem presentes. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal]</li>
@@ -120,13 +120,13 @@
     <li>questName(lodgersCount==1)->um [lodgersLabel] [animalAdj]</li>
     <li>questName(lodgersCount==1)->[lodgersLabel] [animalAdj]</li>
     <li>questName(lodgersCount==1)->[lodgersLabel]-sentado</li>
-    <li>questName(lodgersCount==1)->guardando [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->protegendo [lodgers0_nameDef]</li>
     <li>questName(lodgersCount==1)->pobre [lodgers0_nameDef]</li>
     <li>questName(lodgersCount==2)->os [lodgersLabelPlural] [animalAdj]</li>
     <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj]</li>
     <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj]</li>
     <li>questName(lodgersCount>=2)->[lodgersLabel]-sentados</li>
-    <li>questName(lodgersCount==2)->guardando [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount==2)->protegendo [lodgersLabelPlural]</li>
     <li>animalAdj->adorável</li>
     <li>animalAdj->fofo</li>
     <li>animalAdj->fiel</li>

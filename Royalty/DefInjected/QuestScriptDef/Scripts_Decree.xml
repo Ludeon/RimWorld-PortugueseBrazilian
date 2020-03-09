@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nVocê deve construir um monumento. Seu tamanho é [monumentSize] e exigirá esses recursos (valor total [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]</li>
+  </Decree_BuildMonument.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->monument decree</li>
+  -->
+  <Decree_BuildMonument.questNameRules.rulesStrings>decreto do monumento</Decree_BuildMonument.questNameRules.rulesStrings>
+  <!-- EN: New monument marker arrived -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.label.slateRef>Chegou um novo marcador de monumento</Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.label.slateRef>
+  <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.text.slateRef>Já que o marcador do monumento foi destruído, um novo foi enviado.</Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.text.slateRef>
+
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nVocê deve colher [plantToHarvest_label] x[harvestItemCount].\n\nPode ser necessário plantar e cultivar [plantToHarvest_label] primeiro.\n\n[decreeThreatInfo]</li>
+  </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[plantToHarvest_label] harvest decree</li>
+  -->
+  <Decree_HarvestCrop.questNameRules.rulesStrings>
+    <li>questName->decreto de colheita: [plantToHarvest_label]</li>
+  </Decree_HarvestCrop.questNameRules.rulesStrings>
+
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  -->
+  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nVocê deve caçar ou abater [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[animalToHunt_label] hunting decree</li>
+  -->
+  <Decree_HuntAnimal.questNameRules.rulesStrings>
+    <li>questName->decreto de caça: [animalToHunt_label]</li>
+  </Decree_HuntAnimal.questNameRules.rulesStrings>
+
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nVocê deve produzir:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  </Decree_ProduceItem.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[defToProduce_label] production decree</li>
+  -->
+  <Decree_ProduceItem.questNameRules.rulesStrings>decreto de produção: [defToProduce_label]</Decree_ProduceItem.questNameRules.rulesStrings>
+
+</LanguageData>

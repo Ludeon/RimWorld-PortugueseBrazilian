@@ -18,6 +18,10 @@
   <LetterGainedRoyalTitle>{PAWN_labelShort} recebeu o título de {TITLE} de {FACTION_name}!!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort} não possui mais o título de {TITLE} com {FACTION_name}..</LetterLostRoyalTitle>
+  <!-- EN: Title rewards -->
+  <LetterLabelRewardsForNewTitle>Recompensas por título</LetterLabelRewardsForNewTitle>
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent them following reward(s): -->
+  <LetterRewardsForNewTitle>Para honrar {PAWN_labelShort} por ter avançado para o título de {TITLE}, {FACTION_name} enviou a eles as seguintes recompensas:</LetterRewardsForNewTitle>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun} tem estas permissões:</LetterRoyalTitlePermits>
@@ -72,7 +76,7 @@
 
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>Herança de título</LetterTitleInheritance>
-    <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
   <LetterTitleInheritance_Base>Já que {PAWN_nameFull} morreu, os títulos {PAWN_possessive} foram transferidos para herdeiros {PAWN_possessive}, de acordo com as leis das facções que concedem títulos.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
   <LetterTitleInheritance_AsReplacement>O título de {TITLE} {PAWN_possessive} foi herdado por {HEIR_nameFull}, de acordo com as leis de sucessão de {FACTION_name}. Isto substitui o título {REPLACEDTITLE} {HEIR_possessive}.</LetterTitleInheritance_AsReplacement>
@@ -104,7 +108,7 @@
   <LetterSpeechInterrupted>Como o discurso foi interrompido após apenas {0} ser concluído, não foi tão eficaz.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
   <LetterSpeechCancelled>O discurso do {ORGANIZER_bestRoyalTitleDef} foi cancelado antes de atingir 50% de conclusão. Não teve efeito.</LetterSpeechCancelled>
-    <!-- EN: Speech cancelled -->
+  <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Discurso cancelado</LetterLabelSpeechCancelled>
 
   <!-- Wild decree mental break -->
@@ -117,8 +121,12 @@
   <LetterDecreeMentalBreak>{0_nameIndef}, na tentativa de liberar o estresse {0_possessive}, emitiu um decreto real e agora exige que seja executado.\nSe não for realizado a tempo, {0_nameIndef} ficará muito infeliz.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}, a fim de afirmar o título {0_possessive} de {0_bestRoyalTitleIndef}, emitiu um decreto e agora exige que seja realizado.\nSe não for realizado a tempo, {0_nameIndef} ficará muito infeliz.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, a fim de firmar o título {0_possessive} de {0_bestRoyalTitleIndef}, emitiu um decreto e agora exige que seja realizado.\nSe não for realizado a tempo, {0_nameIndef} ficará muito infeliz.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
-  <LetterDecree_Quest>O decreto é intitulado "{0}".</LetterDecree_Quest>
+  <LetterDecree_Quest>O decreto foi intitulado de "{0}".</LetterDecree_Quest>
+
+  <!-- Lent colonist died -->
+  <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
+  <LentColonistDied>{PAWN_nameDef} foi emprestado para {FACTION}. Eles retornarão o corpo de {PAWN_nameDef} em breve.</LentColonistDied>
 
 </LanguageData>
