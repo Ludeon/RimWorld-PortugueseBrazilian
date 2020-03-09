@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN:
+    <li>questDescription->[asker_nameFull], [asker_titleIndef], is calling from nearby. [asker_pronoun] has deserted the army of [asker_factionName] and is being hunted by a loyalty squad. [asker_pronoun] wishes to join you at [map_definite].\n\n[asker_nameDef] knows the location of key outpost containing everything needed to develop secret psychic powers:\n\n[sitePart1_itemStashContents]\n\nBeware - If you accept [asker_nameDef], you will become an enemy of [asker_factionName]! The pursuing loyalty squad will attack immediately. It is composed of: \n\n[raid/raidPawnKinds]\n\nOnly accept if you wish to fight against [asker_factionName] and develop your psycasters in secret without gaining royal titles. You will have one year to attack the outpost it before it is moved.</li>
+  -->
+  <Intro_Deserter.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameFull], [asker_titleIndef], está chamando por perto. [asker_pronoun] abandonou o exército de [asker_factionName] e está sendo caçado por um esquadrão de lealdade. [asker_pronoun] deseja se juntar a você em [map_definite].\n\n[asker_nameDef] conhece a localização do posto avançado principal, contendo tudo o necessário para desenvolver poderes psíquicos secretos:\n\n[sitePart1_itemStashContents]\n\nCuidado - Se você aceitar [asker_nameDef], você vai se tornar um inimigo de [asker_factionName]! O esquadrão de lealdade em busca atacará imediatamente. Ele é composto por: \n\n[raid/raidPawnKinds]\n\nAceite apenas se desejar lutar contra [asker_factionName] e desenvolver seus invocadores psíquicos em segredo, sem ganhar títulos reais. Você terá um ano para atacar o posto avançado antes que ele seja movido.</li>
+  </Intro_Deserter.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The Deserter</li>
+  -->
+  <Intro_Deserter.questNameRules.rulesStrings>O Desertor</Intro_Deserter.questNameRules.rulesStrings>
+  <!-- EN: {BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon. -->
+  <Intro_Deserter.root.nodes.PawnsArrive.customLetterText.slateRef>{BASETEXT}\n\nJá que você aceitou [asker_nameDef], [asker_factionName] tornou-se hostil.\n\nO esquadrão de lealdade que está caçando [asker_objective] chegará em breve.</Intro_Deserter.root.nodes.PawnsArrive.customLetterText.slateRef>
+  <!-- EN: {BASELABEL}: Loyalty squad -->
+  <Intro_Deserter.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>{BASELABEL}: Esquadrão de lealdade</Intro_Deserter.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>
+  <!-- EN: {BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull].\n               -->
+  <Intro_Deserter.root.nodes.Delay.node.parms.customLetterText.value.slateRef>{BASETEXT}\n\nEste é o esquadrão de lealdade que estava caçando [../asker_nameFull].\n              </Intro_Deserter.root.nodes.Delay.node.parms.customLetterText.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>A missão expirou: [resolvedQuestName]</Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The key imperial outpost, containing items needed for secret psychic powers, has packed up and moved on. -->
+  <Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>O posto avançado imperial, contendo itens necessários para poderes psíquicos secretos, se desfez e seguiu em frente.</Intro_Deserter.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+
+</LanguageData>
