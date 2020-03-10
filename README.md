@@ -22,3 +22,6 @@ Translators:
 - [Philippus](https://github.com/PhilippusBR)
 
 -------------------------
+
+### ATENÇÃO
+- Antes de começar a traduzir, leia nosso [manual de boas práticas de tradução](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/boaspraticas.md)

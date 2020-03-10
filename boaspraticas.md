@@ -68,4 +68,4 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 2. Em **Summary (required)** digite o título da atualização (geralmente a versão do jogo);
 3. Em **Description** descreva suas mudanças feitas na tradução;
 4. Clique em **Commit to master**;
-5. Clique em **** para enviar as traduções para seu repositório.
+5. Clique em **Pull origin** para enviar as traduções para seu repositório.
