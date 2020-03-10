@@ -9,11 +9,11 @@
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, a mechanoid cluster will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]As a reward, [allRewardsDescriptions]</li>
   -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nAs cápsulas contêm esses perigos:\n\n[allThreats]</li>
+    <li>dangersDescription(priority=1)->\n\nAs cápsulas contêm estas ameaças:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está fazendo um pedido. [commonMainPart]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], um [asker_royalTitleInCurrentFaction] de [asker_faction_name], está fazendo um pedido. [commonMainPart]</li>
-    <li>commonMainPart->Um enxame mecanoide está atacando seus assentamentos. [asker_pronoun] quer que você sinalize os mecanoides para distraí-los enquanto [asker_pronoun] limpa a colméia. Se você fizer, um aglomerado mecanoide pousará em [map_definite].[dangersDescription]\n\nO aglomerado mecanoide ficará inicialmente inativo. Pode ter um ativador de contagem regressiva ou permanecer inativo para sempre até ser perturbado.\n\n[helpersParagraph]Como recompensa, [allRewardsDescriptions]</li>
+    <li>commonMainPart->Um enxame mecanoide está atacando seus assentamentos. [asker_pronoun] quer que você distraia os mecanoides, enquanto [asker_pronoun] limpa a colméia. Se você aceitar, um aglomerado mecanoide pousará em [map_definite].[dangersDescription]\n\nO aglomerado mecanoide ficará inicialmente inativo. Ele pode possuir um ativador de contagem regressiva ou permanecer inativo para sempre até ser perturbado.\n\n[helpersParagraph]Como recompensa, [allRewardsDescriptions]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>

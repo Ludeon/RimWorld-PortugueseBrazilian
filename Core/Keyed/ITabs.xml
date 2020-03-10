@@ -42,6 +42,8 @@
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Conteúdo</TabTransporterContents>
+  <!-- EN: Contents -->
+  <TabCasketContents>Conteúdo</TabCasketContents>
 
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -78,6 +80,24 @@
   <RecruitmentResistance>Resistência restante</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Dificuldade de recrutamento</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>Chance de recrutamento</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>Fator de dificuldade de recrutamento: {0}\Fator de humor: {1}\nChance base combinada: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nÚltima tentativa de recrutamento\nRecrutador: {3}\nFator da habilidade de negociação: {4}\nFator de opinião: {5} ({6})\nChance final de {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nRedução de resistência: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>Relações ganhas na liberação</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>O aprimoramento das relações de facção que você obterá da facção do prisioneiro se você o liberta. Isso é afetado pela saúde e condição mental do prisioneiro.</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>Intervalo de fuga da prisão</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>O número médio de dias acordado entre as tentativas de fuga da prisão. Afetada pelo humor, mobilidade e tempo desde a última fuga da prisão.\n\nEste número ignora o tempo gasto dormindo, portanto, o intervalo médio real da fuga da prisão geralmente será maior.</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>Preço do escravo</SlavePrice>
   <!-- EN: Gets food -->
   <GetsFood>Obter comida</GetsFood>
   <!-- EN: Doctors care -->
@@ -114,6 +134,8 @@
   <PainLevel>Dor</PainLevel>
   <!-- EN: Injured -->
   <Injured>Ferido</Injured>
+  <!-- EN: Untended injury -->
+  <UntendedInjury>Ferimento não cuidado</UntendedInjury>
   <!-- EN: no health conditions -->
   <NoHealthConditions>sem condições de saúde</NoHealthConditions>
   <!-- EN: Whole body -->
@@ -194,8 +216,8 @@
   <!-- Training tab -->
   <!-- EN: Trainability -->
   <Trainability>Treinabilidade</Trainability>
-  <!-- EN: Requires trainability {0}. -->
-  <CannotTrainNotSmartEnough>Requer inteligência treinável {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: Requires {0} trainability. -->
+  <CannotTrainNotSmartEnough>Requer treinabilidade em {0}.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{1_labelShort} é muito pequeno(a) para treinar isto.</CannotTrainTooSmall>
 
@@ -207,6 +229,8 @@
   <NoRelationships>(sem relacionamentos)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Sequestrado</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>Emprestado para {FACTION_name}, retorna em {1}</Lent>
   <!-- EN: Missing -->
   <Missing>Faltando</Missing>
   <!-- EN: Slave -->
@@ -287,7 +311,17 @@
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Remover {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>Itens contidos</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>Você realmente quer remover {0}?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>Ignore esta missão e mova-a para a guia histórico.\n\nA missão pode ser cancelada a qualquer momento. Seus efeitos e prazos de validade continuarão normalmente. Você não receberá notificações sobre missões rejeitadas.</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>Descancelar esta missão.\n\nA missão será retornada à guia disponível ou ativa e as notificações serão reativadas.</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>Esta missão está aqui porque foi ignorada.\n\nVocê pode descancelar ela até que expire.</QuestDismissed>
 
 </LanguageData>
