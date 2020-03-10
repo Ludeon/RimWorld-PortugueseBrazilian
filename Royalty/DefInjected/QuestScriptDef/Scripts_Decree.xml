@@ -10,11 +10,13 @@
   <!-- EN:
     <li>questName->monument decree</li>
   -->
-  <Decree_BuildMonument.questNameRules.rulesStrings>decreto do monumento</Decree_BuildMonument.questNameRules.rulesStrings>
+  <Decree_BuildMonument.questNameRules.rulesStrings>
+    <li>questName->decreto de monumento</li>
+  </Decree_BuildMonument.questNameRules.rulesStrings>
   <!-- EN: New monument marker arrived -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.label.slateRef>Chegou um novo marcador de monumento</Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.label.slateRef>
+  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>Chegou um novo marcador de monumento</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.text.slateRef>Já que o marcador do monumento foi destruído, um novo foi enviado.</Decree_BuildMonument.root.nodes.monumentMarkerCancelled.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Já que o marcador do monumento foi destruído, um novo foi enviado.</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
 
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
@@ -55,6 +57,8 @@
   <!-- EN:
     <li>questName->[defToProduce_label] production decree</li>
   -->
-  <Decree_ProduceItem.questNameRules.rulesStrings>decreto de produção: [defToProduce_label]</Decree_ProduceItem.questNameRules.rulesStrings>
+  <Decree_ProduceItem.questNameRules.rulesStrings>
+    <li>questName->decreto de produção: [defToProduce_label]</li>
+  </Decree_ProduceItem.questNameRules.rulesStrings>
 
 </LanguageData>

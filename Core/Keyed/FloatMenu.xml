@@ -3,22 +3,24 @@
 
   <!-- EN: Call {0} -->
   <CallOnRadio>Chamar {0}</CallOnRadio>
-  <!-- EN: Cannot use ({0}) -->
-  <CannotUseReason>Não pode usar ({0})</CannotUseReason>
-  <!-- EN: Cannot use (solar flare) -->
-  <CannotUseSolarFlare>Não pode usar (explosão solar)</CannotUseSolarFlare>
-  <!-- EN: Cannot use (no power) -->
-  <CannotUseNoPower>Não pode usar (sem energia)</CannotUseNoPower>
-  <!-- EN: Cannot use (no path) -->
-  <CannotUseNoPath>Não pode usar (sem caminho)</CannotUseNoPath>
-  <!-- EN: Cannot use (reserved) -->
-  <CannotUseReserved>Não pode usar (reservado)</CannotUseReserved>
-  <!-- EN: Cannot use (full) -->
-  <CannotUseFull>Não pode usar (cheio)</CannotUseFull>
+  <!-- EN: Cannot use: {0} -->
+  <CannotUseReason>Não pode usar: {0}</CannotUseReason>
+  <!-- EN: Cannot use: EMP -->
+  <CannotUseSolarFlare>Não pode usar: PEM</CannotUseSolarFlare>
+  <!-- EN: Cannot use: No power -->
+  <CannotUseNoPower>Não pode usar: Sem energia</CannotUseNoPower>
+  <!-- EN: Cannot use: No path -->
+  <CannotUseNoPath>Não pode usar: Sem caminho</CannotUseNoPath>
+  <!-- EN: Cannot use: Reserved -->
+  <CannotUseReserved>Não pode usar: Reservado</CannotUseReserved>
+  <!-- EN: Cannot use: full -->
+  <CannotUseFull>Não pode usar: cheio</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>líder {1_labelShort} está indisponível</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>líder está indisponível</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>Não permitido</NotAllowed>
 
   <!-- EN: Fire at {1_label} -->
   <FireAt>Atirar em {1_label}</FireAt>
@@ -27,8 +29,8 @@
   <OutOfRange>fora de alcance</OutOfRange>
   <!-- EN: too close -->
   <TooClose>muito perto</TooClose>
-  <!-- EN: cannot hit target -->
-  <CannotHitTarget>não pode acertar o alvo</CannotHitTarget>
+  <!-- EN: Cannot hit target -->
+  <CannotHitTarget>Não pode acertar o alvo</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
   <IsIncapableOfViolenceLower>{1_labelShort} é incapaz de violência</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
@@ -49,6 +51,8 @@
   <MeleeAttackToDeath>Atacar corpo a corpo {1_label} até a morte</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>sem caminho</NoPath>
+  <!-- EN: burying -->
+  <Burying>enterrando</Burying>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>proibido</ForbiddenLower>
@@ -80,6 +84,8 @@
   <NoUsableFood>nenhum alimento utilizável</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>sem comida</NoFood>
+  <!-- EN: below requirements of {0} -->
+  <FoodBelowTitleRequirements>abaixo dos requisitos de {0}</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>habilidade de animais muito baixo - precisa {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
@@ -88,6 +94,8 @@
   <CantInteractAnimalAsleep>animal dormindo</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>animal ocupado</CantInteractAnimalBusy>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>Habilidade {0} muito baixa</SkillTooLowForConstruction>
   <!-- EN: need components -->
   <NoComponentsToRepair>precisa de componentes</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -118,12 +126,22 @@
   <IncapableOfMining>incapaz de minerar</IncapableOfMining>
   <!-- EN: angers faction -->
   <AngersFaction>irrita facção</AngersFaction>
+  <!-- EN: no body part -->
+  <InstallImplantNoBodyPart>nenhuma parte do corpo</InstallImplantNoBodyPart>
+  <!-- EN: not a colonist -->
+  <InstallImplantNotAllowedForNonColonists>não é um colono</InstallImplantNotAllowedForNonColonists>
+  <!-- EN: already installed -->
+  <InstallImplantAlreadyInstalled>já instalado</InstallImplantAlreadyInstalled>
+  <!-- EN: max level -->
+  <InstallImplantAlreadyMaxLevel>nível máximo</InstallImplantAlreadyMaxLevel>
+  <!-- EN: Upgrade {0} to level {1} -->
+  <UpgradeImplant>Atualizar {0} para o nível {1}</UpgradeImplant>
 
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consumir {1_labelShort}</ConsumeThing>
 
-  <!-- EN: Cannot go here (no path) -->
-  <CannotGoNoPath>Não pode ir aqui (sem caminho)</CannotGoNoPath>
+  <!-- EN: Cannot go here: no path -->
+  <CannotGoNoPath>Não pode vir aqui: sem caminho</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Ir aqui</GoHere>
 
@@ -149,8 +167,13 @@
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>não pode levar para sarcófago de criptosono</CannotCarryToCryptosleepCasket>
 
+  <!-- EN: Carry {0_label} to shuttle -->
+  <CarryToShuttle>Leve {0_label} para o transporte</CarryToShuttle>
+
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>Nenhum sarcófago de criptosono disponível.</NoCryptosleepCasket>
+  <!-- EN: Temporary faction members not allowed. -->
+  <CryptosleepCasketGuestsNotAllowed>Membros de facção temporários não permitidos.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Não é possível, sem cama para prisioneiro disponível.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -203,18 +226,18 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Pegar {1_labelShort} x{{0}}</PickUpCount>
 
-  <!-- EN: Cannot give {1_label} to pack animal -->
-  <CannotGiveToPackAnimal>Não pode dar {1_label} para o animal de carga</CannotGiveToPackAnimal>
-  <!-- EN: Cannot give {1_label} (all) to pack animal -->
-  <CannotGiveToPackAnimalAll>Não pode dar {1_label} (tudo) o animal de carga</CannotGiveToPackAnimalAll>
-  <!-- EN: Give {1_label} to pack animal -->
-  <GiveToPackAnimal>Dar {1_label} para o animal de carga</GiveToPackAnimal>
-  <!-- EN: Give {1_label} (all) to pack animal -->
-  <GiveToPackAnimalAll>Dar {1_label} (tudo) para o animal de carga</GiveToPackAnimalAll>
-  <!-- EN: Give {1_labelShort} to pack animal... -->
-  <GiveToPackAnimalSome>Dar {1_labelShort} para o animal de carga...</GiveToPackAnimalSome>
-  <!-- EN: Take {1_labelShort} x{{0}} -->
-  <GiveToPackAnimalCount>Pegar {1_labelShort} x{{0}}</GiveToPackAnimalCount>
+  <!-- EN: Load {1_label} onto pack animal -->
+  <CannotGiveToPackAnimal>Colocar {1_label} no bando animal</CannotGiveToPackAnimal>
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
+  <CannotGiveToPackAnimalAll>Não é possível colocar {1_label} (todos) no bando animal</CannotGiveToPackAnimalAll>
+  <!-- EN: Load {1_label} onto pack animal -->
+  <GiveToPackAnimal>Colocar {1_label} no bando animal</GiveToPackAnimal>
+  <!-- EN: Load {1_label} (all) onto pack animal -->
+  <GiveToPackAnimalAll>Colocar {1_label} (todos) no bando animal</GiveToPackAnimalAll>
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
+  <GiveToPackAnimalSome>Colocar {1_labelShort} no bando animal...</GiveToPackAnimalSome>
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
+  <GiveToPackAnimalCount>Colocar {1_labelShort} x{{0}} no bando animal</GiveToPackAnimalCount>
 
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>Não é possível carregar {1_label} na caravana</CannotLoadIntoCaravan>
@@ -242,6 +265,14 @@
   <Strip>Desvestir {1_label}</Strip>
   <!-- EN: Cannot strip {1_label} -->
   <CannotStrip>Não pode desvestir {1_label}</CannotStrip>
+  <!-- EN: Cannot drop {1_label} -->
+  <CannotDrop>Não pode largar {1_label}</CannotDrop>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>membro temporário da facção</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>Não é possível mudar de roupa dos membros temporários da facção</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>substituiria vestuário trancado</WouldReplaceLockedApparel>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Auto-destruir aqui</SelfDestructHere>
@@ -282,12 +313,16 @@
   <ApproachingSite>Aproximando {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>Oferecer presentes</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>Negociar com {0}</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
   <EnterCryptosleepCasket>Entrar no sarcófago de criptosono</EnterCryptosleepCasket>
   <!-- EN: Open cryptosleep casket -->
   <OpenCryptosleepCasket>Abrir sarcófago de criptosono</OpenCryptosleepCasket>
+  <!-- EN: Get in shuttle -->
+  <EnterShuttle>Entrar no transporte</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
@@ -295,33 +330,37 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Não é possível {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize (incapable of {0}) -->
-  <CannotMissingHealthActivities>Não pode priorizar (incapaz de {0})</CannotMissingHealthActivities>
+  <!-- EN: Cannot prioritize: incapable of {0} -->
+  <CannotMissingHealthActivities>Não pode priorizar: incapaz de {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
   <CannotGenericAlreadyAm>Já {0} {2_labelShort}</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>Já {0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize (will never do {0}) -->
-  <CannotPrioritizeWorkTypeDisabled>Não pode priorizar (nunca irá fazer {0})</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: Cannot prioritize: will never do {0} -->
+  <CannotPrioritizeWorkTypeDisabled>Não é possível priorizar: nunca fará {0}</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: Cannot trade: lacking necessary title -->
+  <CannotTradeMissingTitleAbility>Não é possível negociar: sem o título necessário</CannotTradeMissingTitleAbility>
 
-  <!-- EN: Cannot prioritize (will never {0}) -->
-  <CannotPrioritizeWorkGiverDisabled>Não é possível priorizar (nunca vai {0})</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: Cannot prioritize: will never {0} -->
+  <CannotPrioritizeWorkGiverDisabled>Não pode priorizar: nunca irá {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nunca vai {0}</WillNever>
 
-  <!-- EN: Cannot prioritize (not assigned to {0}) -->
-  <CannotPrioritizeNotAssignedToWorkType>Não pode priorizar (não atribuído a {0})</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: Cannot prioritize: not assigned to {0} -->
+  <CannotPrioritizeNotAssignedToWorkType>Não pode priorizar: não atribuído a {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>não atribuído</NotAssigned>
 
-  <!-- EN: Cannot prioritize (research is a long-term task) -->
-  <CannotPrioritizeResearch>Não pode priorizar (pesquisar é uma tarefa de longo prazo)</CannotPrioritizeResearch>
+  <!-- EN: Cannot prioritize: research is a long-term task -->
+  <CannotPrioritizeResearch>Não pode priorizar: pesquisar é uma tarefa de longo prazo</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize ({1_label} is forbidden) -->
-  <CannotPrioritizeForbidden>Não pode priorizar ({1_label} está proibido)</CannotPrioritizeForbidden>
-  <!-- EN: Cannot prioritize (forbidden) -->
-  <CannotPrioritizeCellForbidden>Não é possível priorizar (proibido)</CannotPrioritizeCellForbidden>
+  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
+  <CannotPrioritizeForbidden>Não pode priorizar: {1_label} está proibido</CannotPrioritizeForbidden>
+  <!-- EN: Cannot prioritize: forbidden -->
+  <CannotPrioritizeCellForbidden>Não é possível priorizar: proibido</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Fora da área permitida</CannotPrioritizeForbiddenOutsideAllowedArea>
 
@@ -376,5 +415,8 @@
   <FreePrisoner>Libertar prisioneiro</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>Oferecer ajuda</OfferHelp>
+
+  <!-- EN: apply {0} -->
+  <ApplyTechprint>aplicar {0}</ApplyTechprint>
 
 </LanguageData>

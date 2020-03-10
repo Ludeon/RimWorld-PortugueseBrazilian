@@ -9,7 +9,7 @@
   <!-- EN: Cut plants -->
   <DesignatorCutPlants>Cortar plantas</DesignatorCutPlants>
   <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
-  <DesignatorCutPlantsDesc>Seleciona plantas para serem cortadas e destruídas. As plantas serão completamente removidas, e qualquer alimento ou recurso será colhido.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>Seleciona plantas para serem cortadas e destruídas. A planta será completamente removida, e qualquer alimento ou recurso será colhido.</DesignatorCutPlantsDesc>
 
   <!-- EN: Deconstruct -->
   <DesignatorDeconstruct>Descontruir</DesignatorDeconstruct>
@@ -76,7 +76,7 @@
   <!-- EN: Expand home area -->
   <DesignatorAreaHomeExpand>Expandir área da casa</DesignatorAreaHomeExpand>
   <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
-  <DesignatorAreaHomeExpandDesc>Colonos irão reparar edifícios, limpar chão, e apagar incêndios apenas em áreas de casa..</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeExpandDesc>Colonos irão reparar construções, limpar o chão, e apagar incêndios apenas em áreas da casa.</DesignatorAreaHomeExpandDesc>
   <!-- EN: Clear home area -->
   <DesignatorAreaHomeClear>Remover área da casa</DesignatorAreaHomeClear>
   <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
@@ -198,8 +198,10 @@
   <IdenticalBlueprintExists>Projeto idêntico já existe aqui.</IdenticalBlueprintExists>
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label} não pode ser construído neste terreno.</TerrainCannotSupport>
-  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} requer terreno que possa suportar: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordance>{0_label} requer terreno que que suporte: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (quando feito de {2_label}) requer terreno que suporte: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>O espaço já está ocupado.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -207,7 +209,13 @@
   <!-- EN: Must target a removable floor. -->
   <TerrainMustBeRemovable>Deve ser designado um piso removível.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
-  <MustBeOnMovingWater>A roda d'água deve estar em água movimentada.</MustBeOnMovingWater>
+  <MustBeOnMovingWater>A roda d'água deve estar em água corrente.</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>O ponto de interação irá se sobrepor com o ponto de interação de {1_labelShort}.</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>O ponto de interação se sobrepõe ao ponto de interação de {1_labelShort}.</InteractionSpotOverlaps>
+  <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
+  <MonumentAdjacentToBuilding>Marcadores de monumento não podem ser colocados diretamente adjacentes a qualquer construção.</MonumentAdjacentToBuilding>
 
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -220,5 +228,13 @@
   <TransmitsPower>Transmitindo energia</TransmitsPower>
   <!-- EN: Construction needed -->
   <ConstructionNeeded>Construção necessária</ConstructionNeeded>
+  <!-- EN: None of your {0} have this skill. -->
+  <NoColonistWithSkillTip>Nenhum dos seus {0} tem essa habilidade.</NoColonistWithSkillTip>
+  <!-- EN: {0} needed -->
+  <SkillNeededForConstructing>{0} necessário</SkillNeededForConstructing>
+  <!-- EN: None of your {0} have all skills required. -->
+  <NoColonistWithAllSkillsForConstructing>Nenhum dos seus {0} possui todas as habilidades necessárias.</NoColonistWithAllSkillsForConstructing>
+  <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
+  <AllColonistsWithSkillHaveDisabledConstructingTip>Todos os seus {0} que possuem essa habilidade não estão atribuídos a {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>
