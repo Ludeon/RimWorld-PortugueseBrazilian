@@ -48,7 +48,7 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 #### Mantendo seu repositório atualizado com o repositório oficial
 
 1. Se o seu repositório apresenta alguma mensagem do tipo: **This branch is behind Ludeon:master**, então está na hora de atualizá-lo. Para atualizar seu repositório clique em **Compare**, localizado ao lado da mensagem de alerta;
-2. Provavelmente você irá receber a mensagem **There isn't anything to compare.**. Clique em **Try switching the base** para trocar as ordem de envio (em vez de enviar para o oficial, você vai pegar do oficial), se o link **Try switching the base** não estiver presente, mude a ordem manualmente clicando na lista **base repository:** e **head repository:**, de modo que o seu repositório esteja na esquerda e o repositório oficial na direita;
+2. Provavelmente você irá receber a mensagem **There isn't anything to compare**. Clique em **Try switching the base** para trocar as ordem de envio (em vez de enviar para o oficial, você vai pegar do oficial), se o link **Try switching the base** não estiver presente, mude a ordem manualmente clicando na lista **base repository:** e **head repository:**, de modo que o seu repositório esteja na esquerda e o repositório oficial na direita;
 3. Clique em **Create new pull request**;
 4. Adicione o título e a descrição do **Pull request** e clique em **Create pull request**;
 5. Em seguida desça toda a página e clique em **Merge pull request**;
