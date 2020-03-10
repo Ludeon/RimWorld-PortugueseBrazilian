@@ -16,6 +16,8 @@
   <LoadGame>Carregar jogo</LoadGame>
   <!-- EN: Options -->
   <Options>Opções</Options>
+  <!-- EN: Mod -->
+  <Mod>Mod</Mod>
   <!-- EN: Mods -->
   <Mods>Mods</Mods>
   <!-- EN: Save translation report -->
@@ -82,6 +84,8 @@
   <PlanetRainfall>Chuva geral</PlanetRainfall>
   <!-- EN: Overall temperature -->
   <PlanetTemperature>Temperatura geral</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>População</PlanetPopulation>
   <!-- EN: Low -->
   <PlanetRainfall_Low>Baixa</PlanetRainfall_Low>
   <!-- EN: Normal -->
@@ -94,6 +98,12 @@
   <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
   <!-- EN: High -->
   <PlanetTemperature_High>Alta</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>Escassa</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>Lotada</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>Semente</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -138,6 +148,8 @@
   <ConfirmDisableCoreMod>Tem certeza de que deseja desativar o mod núcleo? O jogo não irá funcionar a menos que você tenha um outro mod que substitui todas as funcionalidades do núcleo.\n\nLembre-se, outros mods pode substituir defs no mod núcleo usando o mesmo defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Tem certeza de que deseja apagar todo o conteúdo de {0}?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>Organizar mods</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Desinscrever</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -158,16 +170,60 @@
   <WorkshopUploadSucceeded>Enviado com sucesso {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Baixando</Downloading>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>Exibir requisitos cumpridos</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
+  <ModClickToSelect>Clique para selecionar.</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>Clique para ir ao site.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Fonte</Source>
-  <!-- EN: For version: {0} -->
-  <ModTargetVersion>Para a versão: {0}</ModTargetVersion>
+  <!-- EN: For game version(s) -->
+  <ModTargetVersion>Para versão do jogo</ModTargetVersion>
+  <!-- EN: ID -->
+  <ModPackageId>ID</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>Isso deve ser carregado antes: {0}</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>Isso deve ser carregado depois: {0}</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>Depende de: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>Incompatível com: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>Este mod é incompatível com: {0}.</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>Este mod está carregando na ordem errada em relação a outro mod. Use o botão 'organizar mods' ou reordene os mods manualmente.</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>Outro mod ativo usa o mesmo ID: {0}.</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>Há uma dependência de mod cíclica iniciando com {0}.</ModCyclicDependency>
+  <!-- EN: This requires following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>Isso requer os seguintes mods para funcionar: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Este mod não foi feito para esta versão do RimWorld, e provavelmente não irá funcionar corretamente.</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Este mod foi feito para uma versão mais nova do RimWorld, e provavelmente não funcionará corretamente.</ModNotMadeForThisVersion_Newer>
-  <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
-  <MessageModNeedsWellFormattedTargetVersion>O mod precisa de uma versão alvo bem formatado em About.xml. Como isto: &lt;targetVersion>{0}&lt;/targetVersion>.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>O Mod precisa de informações da versão suportada formatadas corretamente em About.xml. Como isto: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> está obsoleto. Verifique o log para obter mais informações.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>O Mod precisa de um packageId exclusivo e devidamente formatado em About.xml. Ele deve atender aos seguintes requisitos:\n\n  - Caracteres alfanuméricos e somente pontos.\n  - Sem espaços.\n  - Pelo menos um ponto.\n  - Sem pontos repetidos seguidos, ou começando ou terminando com um ponto.\n  - 60 caracteres ou menos.\n  - Não pode conter a palavra "Ludeon".\n\nPor exemplo:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId></MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>Este mod possui problemas no LoadFolders.xml que você precisa resolver antes de fazer o upload:</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>A pasta {0} especificada para a versão {1} não existe.</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>Versão incorreta da string '{0}'. O formato correto é Major.Minor (por exemplo, 1.1)</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>A lista de pastas de carregamento da versão {0} está vazia.</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>A versão {0} lista a mesma pasta mais de uma vez: {1}.</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>Pedido de versão inválido: {0} deve vir antes de {1}.</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>Pedido de versão inválido: 'default' deve ser definido primeiro.</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>A versão {0} é definida nas pastas de carregamento, mas não está listada em 'supportedVersions' do About.xml do mod.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Arraste para reordenar</DragToReorder>
 
@@ -316,10 +372,26 @@
   <Randomize>Aleatorizar</Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>Idade {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>{PAWN_race}, {PAWN_ageFull} anos</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>{PAWN_race} {PAWN_gender}, {PAWN_ageFull} anos</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Passado</Backstory>
   <!-- EN: Incapable of -->
   <IncapableOf>Incapaz de</IncapableOf>
+  <!-- EN: Abilities -->
+  <Abilities>Habilidades</Abilities>
+  <!-- EN: Caused by backstory: {0} -->
+  <IncapableOfTooltipBackstory>Causada pelo passado: {0}</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title: {0} -->
+  <IncapableOfTooltipTitle>Causada pelo título: {0}</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait: {0} -->
+  <IncapableOfTooltipTrait>Causada pela característica: {0}</IncapableOfTooltipTrait>
+  <!-- EN: Caused by: {0} -->
+  <IncapableOfTooltipHediff>Causada por: {0}</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
+  <IncapableOfTooltipWorkTypes>Tipos de trabalho desativados:</IncapableOfTooltipWorkTypes>
   <!-- EN: Traits -->
   <Traits>Traços</Traits>
   <!-- EN: Permanent mood effect -->
@@ -386,5 +458,8 @@
   <GeneratingMap>Gerando mapa</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Gerando mapa para novo encontro</GeneratingMapForNewEncounter>
+  
+  <!-- EN: Click for more info -->
+  <ClickForMoreInfo>Clique para mais informações</ClickForMoreInfo>
 
 </LanguageData>

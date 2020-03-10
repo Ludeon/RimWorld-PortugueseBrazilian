@@ -15,12 +15,12 @@
   <!-- EN: Toggle power -->
   <CommandTogglePowerLabel>Alternar energia</CommandTogglePowerLabel>
   <!-- EN: Toggle power. -->
-  <CommandTogglePowerDesc>Alterna a energia.</CommandTogglePowerDesc>
+  <CommandTogglePowerDesc>Ativa ou desativa a energia.</CommandTogglePowerDesc>
 
   <!-- EN: Designate toggle power -->
-  <CommandDesignateTogglePowerLabel>Ligar energia</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerLabel>Alternar energia</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>Liga e desliga a energia deste objeto. Um colono virá em breve para virar o interruptor.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>Ativa ou desativa a energia deste objeto. Um colono virá em breve para virar o interruptor.</CommandDesignateTogglePowerDesc>
 
   <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
@@ -64,8 +64,12 @@
   <!-- EN: Get out of current bed. -->
   <CommandGetOutOfBedDesc>Sai da cama atual.</CommandGetOutOfBedDesc>
 
+  <!-- EN: Set owner -->
+  <CommandThingSetOwnerLabel>Definir dono</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific colonist. -->
   <CommandBedSetOwnerDesc>Define esta cama para ser possuída por um colono específico.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
+  <CommandThroneSetOwnerDesc>Designe este trono para pertencer a um colono específico.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Definir colono</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -347,6 +351,8 @@
   <CommandTradeDesc>Negocia com esta facção.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>Não há nenhum negociador consciente, não quebrado.</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
+  <CommandTradeFailNeedPermit>Nenhum de seus colonos tem a permissão de facção necessária: {0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
@@ -361,8 +367,8 @@
   <CommandFulfillTradeOfferDesc>Cumprir o pedido de bens e reivindicar sua recompensa.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>Sua caravana deve ter {0} para cumprir esta oferta comercial.</CommandFulfillTradeOfferFailInsufficient>
-  <!-- EN: Offer {0} for {1}? -->
-  <CommandFulfillTradeOfferConfirm>Oferecer {0} por {1}?</CommandFulfillTradeOfferConfirm>
+  <!-- EN: Give {0}? -->
+  <CommandFulfillTradeOfferConfirm>Dar {0}?</CommandFulfillTradeOfferConfirm>
 
   <!-- Take off -->
   <!-- EN: Take off -->
@@ -377,6 +383,12 @@
   <CommandSetTargetFuelLevel>Definir o nível de combustível alvo</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>Define o nível de combustível desejado. Os colonos irão tentar preencher isto até o nível de combustível alvo.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
+  <CommandToggleAllowAutoRefuel>Alternar reabastecimento automático</CommandToggleAllowAutoRefuel>
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
+  <CommandToggleAllowAutoRefuelDesc>Define se o reabastecimento automático é ou não permitido.</CommandToggleAllowAutoRefuelDesc>
 
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -405,6 +417,24 @@
   <CommandLoadTransporterFailNotConnectedToFuelingPort>A cápsula de transporte não está ligada a uma porta de abastecimento.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>O lançador de cápsula não tem combustível.</CommandLoadTransporterFailNoFuel>
+
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
+  <CommandLoadTransporterSingle>Carregar</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterSingleDesc>Abre a caixa de diálogo de carregamento para que você possa decidir quem e o que deve ser carregado dentro.</CommandLoadTransporterSingleDesc>
+
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
+  <CommandSetToLoadTransporter>Definir para carregar</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandSetToLoadTransporterDesc>Abre a caixa de diálogo de carregamento para que você possa decidir quem e o que deve ser carregado dentro.</CommandSetToLoadTransporterDesc>
+
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
+  <CommandAutoloadTransporters>Autocarregamento</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
+  <CommandAutoloadTransportersDesc>Alterne para carregar toda a carga necessária automaticamente assim que estiverem disponíveis.</CommandAutoloadTransportersDesc>
 
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
@@ -453,5 +483,37 @@
   <CommandAttackSettlement>Ataque</CommandAttackSettlement>
   <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>Ataque esse assentamento.</CommandAttackSettlementDesc>
+
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
+  <CommandSendShuttle>Enviar</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
+  <CommandSendShuttleDesc>Inicie a decolagem e faça com que o transporte voe para o seu destino.</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
+  <CommandSendShuttleFailUnderRoof>O transporte está sob um teto.</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
+  <CommandSendShuttleFailMissingRequiredThing>Alguns dos itens ou pessoas necessários estão ausentes.</CommandSendShuttleFailMissingRequiredThing>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
+  <CommandPlaceBlueprints>Colocar projetos</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
+  <CommandPlaceBlueprintsDesc>Coloque todos os projetos necessários sempre que possível.</CommandPlaceBlueprintsDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
+  <CommandCancelMonumentMarker>Cancelar</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
+  <CommandCancelMonumentMarkerDesc>Remova permanentemente este marcador de monumento.</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
+  <CommandViewQuest>Ver missão: {0}</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
+  <CommandViewQuestDesc>Veja esta missão na guia de missões.</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
+  <CommandOpenLinkedQuest>Abrir missão vinculada</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
+  <CommandOpenLinkedQuestDesc>Abrir a missão vinculada na guia missões.</CommandOpenLinkedQuestDesc>
 
 </LanguageData>

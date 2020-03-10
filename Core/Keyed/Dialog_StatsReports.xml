@@ -24,8 +24,8 @@
   <StatsReport_CharacterQuality>Qualidade do personagem</StatsReport_CharacterQuality>
   <!-- EN: Skills -->
   <StatsReport_Skills>Habilidades</StatsReport_Skills>
-  <!-- EN: Other stats -->
-  <StatsReport_OtherStats>Outras estatísticas</StatsReport_OtherStats>
+  <!-- EN: Post-process - other stats -->
+  <StatsReport_OtherStats>Pós-processo - outras estatísticas</StatsReport_OtherStats>
   <!-- EN: Health -->
   <StatsReport_Health>Saúde</StatsReport_Health>
   <!-- EN: {0} importance -->
@@ -112,5 +112,156 @@
   <StatsReport_WildMan>Homem selvagem</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Ataque</StatsReport_NonToolAttack>
+
+  <!-- EN: Mined item -->
+  <Stat_MineableThing_Name>Item minerado</Stat_MineableThing_Name>
+  <!-- EN: The item that will be yielded when mining this. -->
+  <Stat_MineableThing_Desc>O item que será fornecido ao minerar isso.</Stat_MineableThing_Desc>
+  <!-- EN: Source species -->
+  <Stat_SourceSpecies_Name>Espécies de origem</Stat_SourceSpecies_Name>
+  <!-- EN: The species of creature from which this was taken. -->
+  <Stat_SourceSpecies_Desc>A espécie de criatura da qual foi tirada.</Stat_SourceSpecies_Desc>
+  <!-- EN: Stuff -->
+  <Stat_Stuff_Name>Material</Stat_Stuff_Name>
+  <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
+  <Stat_Stuff_Desc>O material de que essa coisa é feita. Isso afeta muitas outras estatísticas, incluindo dano de arma, armadura e isolamento de vestuário, pontos de vida de itens e construção, beleza, valor de mercado e muito mais.</Stat_Stuff_Desc>
+  <!-- EN: Weapon -->
+  <Stat_Weapon_Name>Arma</Stat_Weapon_Name>
+  <!-- EN: The weapon used by this turret. -->
+  <Stat_Weapon_Desc>A arma usada por esta torreta.</Stat_Weapon_Desc>
+  <!-- EN: How much damage an object can take before being destroyed. -->
+  <Stat_HitPoints_Desc>Quanto dano um objeto pode receber antes de ser destruído.</Stat_HitPoints_Desc>
+  <!-- EN: The amount of work it takes to uninstall this. -->
+  <Stat_Thing_WorkToUninstall_Desc>A quantidade de trabalho necessária para desinstalar isso.</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Which facilities can be used to produce this. -->
+  <Stat_Thing_CreatedAt_Desc>Quais instalações podem ser usadas para produzir isso.</Stat_Thing_CreatedAt_Desc>
+  <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
+  <Stat_Thing_Damage_Desc>A quantidade de dano que esta arma causa.\n\nIsso pode ser desviado ou mitigado pela armadura do alvo.</Stat_Thing_Damage_Desc>
+  <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Um multiplicador na quantidade de experiência que os médicos adquirem ao usá-lo para cuidar de um paciente.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
+  <!-- EN: The attributes of this plant. -->
+  <Stat_Thing_Plant_Attributes_Desc>Os atributos desta planta.</Stat_Thing_Plant_Attributes_Desc>
+  <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
+  <Stat_Thing_Apparel_Covers_Desc>Quais partes do corpo isto cobre.\n\nA armadura não protege as partes do corpo que ela não cobre.</Stat_Thing_Apparel_Covers_Desc>
+  <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
+  <Stat_Thing_Apparel_Layer_Desc>Quais as camadas de vestuário que são preenchidas.\n\nPara uma determinada parte do corpo, apenas uma peça de vestuário pode ser usada em cada camada.</Stat_Thing_Apparel_Layer_Desc>
+  <!-- EN: The minimum soil fertility that this plant requires to grow. -->
+  <Stat_Thing_Plant_FertilityRequirement_Desc>A fertilidade mínima do solo necessária para que esta planta cresça.</Stat_Thing_Plant_FertilityRequirement_Desc>
+  <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
+  <Stat_Thing_Plant_FertilitySensitivity_Desc>O quão sensível essa planta é com a fertilidade do solo.\n\nA baixa sensibilidade significa que a planta crescerá aproximadamente na mesma velocidade em solo rico ou pobre. Alta sensibilidade significa que a planta cresce lentamente em solo pobre, porém mais rápida em solo rico.</Stat_Thing_Plant_FertilitySensitivity_Desc>
+  <!-- EN: The amount of light this plant requires to grow. -->
+  <Stat_Thing_Plant_LightRequirement_Desc>A quantidade de luz que esta planta precisa para crescer.</Stat_Thing_Plant_LightRequirement_Desc>
+  <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
+  <Stat_Thing_Plant_LifeSpan_Desc>A vida útil da planta.\n\nAs plantas morrem naturalmente após atingirem uma certa idade, mesmo que não sejam colhidas.</Stat_Thing_Plant_LifeSpan_Desc>
+  <!-- EN: The amount of product this plant will yield when harvested. -->
+  <Stat_Thing_Plant_HarvestYield_Desc>A quantidade de produto que essa planta produzirá quando colhida.</Stat_Thing_Plant_HarvestYield_Desc>
+  <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>A temperatura mínima que esta planta pode sobreviver.\n\nTemperaturas abaixo disso causarão danos ao longo do tempo.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>A temperatura máxima que esta planta pode sobreviver.\n\nTemperaturas acima disso causarão danos ao longo do tempo.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
+  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>A habilidade mínima necessária para um agricultor semear esta planta.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
+  <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
+  <Stat_Race_Diet_Desc>Os tipos de comida que esta criatura é capaz de comer.\n\nPode comer: {0}</Stat_Race_Diet_Desc>
+  <!-- EN: The type of leather this creature will yield when butchered. -->
+  <Stat_Race_LeatherType_Desc>O tipo de couro que esta criatura renderá quando abatida.</Stat_Race_LeatherType_Desc>
+  <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>A chance dessa criatura atacar quando um domador tenta domá-la e falha.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
+  <Stat_Race_Trainability_Desc>A aptidão mental geral desta criatura para o treinamento. Esta é uma combinação de inteligência e atenção. Determina quais tipos de tarefas essa criatura pode ser treinada para executar.</Stat_Race_Trainability_Desc>
+  <!-- EN: The average life expectancy of this creature. -->
+  <Stat_Race_LifeExpectancy_Desc>A expectativa média de vida desta criatura.</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
+  <Stat_Thing_Ingestible_Joy_Desc>O valor recreativo ganho ao ingerir isso. Números mais altos irão preencher mais a necessidade de recreação.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The size of this creature's body, compared to an average adult human. -->
+  <Stat_Race_BodySize_Desc>O tamanho do corpo desta criatura, comparado a um humano adulto médio.</Stat_Race_BodySize_Desc>
+  <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>Quanto tempo se passa entre o início de um ataque corpo a corpo com essa arma, e quando ela atinge o alvo.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <!-- EN: The amount of shots this weapon fires in each burst. -->
+  <Stat_Thing_Weapon_BurstShotCount_Desc>A quantidade de tiros que essa arma dispara a cada rajada.</Stat_Thing_Weapon_BurstShotCount_Desc>
+  <!-- EN: The fire rate of this weapon during each burst. -->
+  <Stat_Thing_Weapon_BurstShotFireRate_Desc>A taxa de tiro desta arma durante cada rajada.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <!-- EN: The maximum range of this weapon. -->
+  <Stat_Thing_Weapon_Range_Desc>O alcance máximo desta arma.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
+  <Stat_Thing_Weapon_MissRadius_Desc>O raio de propagação aleatória dos tiros disparados por esta arma.\n\nValores altos fazem com que os projéteis se dispersem aleatoriamente ao redor do alvo.</Stat_Thing_Weapon_MissRadius_Desc>
+  <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
+  <Stat_Thing_Weapon_DirectHitChance_Desc>A chance de um tiro atingir diretamente seu alvo se não for interceptado, esquivado ou parado.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <!-- EN: This body part's effect on the mood of the owner. -->
+  <Stat_Thing_MoodChange_Desc>O efeito dessa parte do corpo no humor do proprietário.</Stat_Thing_MoodChange_Desc>
+  <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
+  <Stat_Recipe_Skill_Desc>A principal habilidade usada ao executar esta receita.\n\nDetermina a qualidade do resultado e é aprendida durante a execução desta receita.</Stat_Recipe_Skill_Desc>
+  <!-- EN: The ingredients required to perform this recipe. -->
+  <Stat_Recipe_Ingredients_Desc>Os ingredientes necessários para realizar esta receita.</Stat_Recipe_Ingredients_Desc>
+  <!-- EN: The skills required to perform this recipe. -->
+  <Stat_Recipe_SkillRequirements_Desc>As habilidades necessárias para executar esta receita.</Stat_Recipe_SkillRequirements_Desc>
+  <!-- EN: The products produced by this recipe. -->
+  <Stat_Recipe_Products_Desc>Os produtos produzidos por esta receita.</Stat_Recipe_Products_Desc>
+  <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
+  <Stat_Recipe_WorkSpeedStat_Desc>Qual status do personagem define a velocidade de trabalho desta receita.\n\nQuanto maior o status do trabalhador, mais rápido será o trabalho.</Stat_Recipe_WorkSpeedStat_Desc>
+  <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
+  <Stat_Recipe_EfficiencyStat_Desc>Qual status define a qualidade ou quantidade de saída.\n\nQuanto maior for o status do trabalhador, maior será a qualidade ou o rendimento.</Stat_Recipe_EfficiencyStat_Desc>
+  <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Um multiplicador na chance dessa operação ser um sucesso. Operações mais difíceis têm multiplicadores mais baixos.\n\nA chance real de sucesso de uma cirurgia também é afetada pelo médico, pelas instalações e pelos medicamentos utilizados.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <!-- EN: Can't fail -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Não pode falhar</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
+  <!-- EN: Performing this operation is safe for the patient. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>A realização desta operação é segura para o paciente.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <!-- EN: The chance the patient will die upon failure of this surgery. -->
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>A chance de o paciente morrer após falha desta cirurgia.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <!-- EN: The addictiveness of this drug. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>A dependência desta droga.</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: Total bleed factor -->
+  <Stat_Hediff_TotalBleedFactor_Name>Fator de sangramento total</Stat_Hediff_TotalBleedFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of blood loss. -->
+  <Stat_Hediff_TotalBleedFactor_Desc>Um multiplicador aplicado à taxa geral de perda de sangue.</Stat_Hediff_TotalBleedFactor_Desc>
+  <!-- EN: Natural healing factor -->
+  <Stat_Hediff_NaturalHealingFactor_Name>Fator de cura natural</Stat_Hediff_NaturalHealingFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
+  <Stat_Hediff_NaturalHealingFactor_Desc>Um multiplicador aplicado à taxa geral de cicatrização natural de feridas.</Stat_Hediff_NaturalHealingFactor_Desc>
+  <!-- EN: Food poisoning chance factor -->
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>Fator de chance de intoxicação alimentar</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <!-- EN: A multiplier applied to the chance of accidentally cooking a meal with food poisoning. -->
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Um multiplicador aplicado à possibilidade de cozinhar acidentalmente uma refeição com intoxicação alimentar.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <!-- EN: The rate at which this condition is drains blood. -->
+  <Stat_Hediff_BleedingRate_Desc>A taxa na qual essa condição drena o sangue.</Stat_Hediff_BleedingRate_Desc>
+  <!-- EN: The amount of pain caused by this condition. -->
+  <Stat_Hediff_Pain_Desc>A quantidade de dor causada por essa condição.</Stat_Hediff_Pain_Desc>
+  <!-- EN: The offset in efficiency applied to body parts affected by this. -->
+  <Stat_Hediff_PartEfficiency_Desc>A diferença de eficiência aplicada às partes do corpo afetadas por isso.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: The mental abilities this affects. -->
+  <Stat_Hediff_Affects_Desc>As habilidades mentais que isso afeta.</Stat_Hediff_Affects_Desc>
+  <!-- EN: Hunger rate offset -->
+  <Stat_Hediff_HungerRateOffset_Name>Diferença da taxa de fome</Stat_Hediff_HungerRateOffset_Name>
+  <!-- EN: A multiplier on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateFactor_Desc>Um multiplicador da taxa na qual a necessidade por alimento se esgota.</Stat_Hediff_HungerRateFactor_Desc>
+  <!-- EN: An offset on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateOffset_Desc>Uma diferença na taxa na qual a necessidade por alimento se esgota.</Stat_Hediff_HungerRateOffset_Desc>
+  <!-- EN: Rest fall rate -->
+  <Stat_Hediff_TirednessOffset_Name>Taxa de queda da necessidade de repouso</Stat_Hediff_TirednessOffset_Name>
+  <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>Uma diferença aplicada à taxa em que a necessidade de repouso de criaturas diminui.</Stat_Hediff_TirednessOffset_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>Um multiplciador aplicada à taxa em que a necessidade de repouso de criaturas diminui.</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: Whether or not this will prevent infections. -->
+  <Stat_Hediff_PreventsInfection_Desc>Se isso irá ou não prevenir infecções.</Stat_Hediff_PreventsInfection_Desc>
+  <!-- EN: The things this terrain supports. -->
+  <Stat_Thing_Terrain_Supports_Desc>As coisas que este terreno suporta.</Stat_Thing_Terrain_Supports_Desc>
+  <!-- EN: This can only be placed on terrain of these types. -->
+  <Stat_Thing_TerrainRequirement_Desc>Isso só pode ser colocado em terrenos desse tipo.</Stat_Thing_TerrainRequirement_Desc>
+  <!-- EN: Considered -->
+  <Stat_Thing_Terrain_Fine_Name>Considerado</Stat_Thing_Terrain_Fine_Name>
+  <!-- EN: Fine -->
+  <Stat_Thing_Terrain_Fine_Value>Fino</Stat_Thing_Terrain_Fine_Value>
+  <!-- EN: This floor is considered fine and suitable for royalty. -->
+  <Stat_Thing_Terrain_Fine_Desc>Este piso é considerado fino e adequado para a realeza.</Stat_Thing_Terrain_Fine_Desc>
+  <!-- EN: The amount of power this building will draw from the power grid. -->
+  <Stat_Thing_PowerConsumption_Desc>A quantidade de energia que esta construção consumirá da rede elétrica.</Stat_Thing_PowerConsumption_Desc>
+  <!-- EN: The overall efficiency of this body part. -->
+  <Stat_Thing_BodyPartEfficiency_Desc>A eficiência geral desta parte do corpo.</Stat_Thing_BodyPartEfficiency_Desc>
+  <!-- EN: Biocoding -->
+  <Stat_Thing_Weapon_Biocoded_Name>Biocodificação</Stat_Thing_Weapon_Biocoded_Name>
+  <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
+  <Stat_Thing_Weapon_Biocoded_Desc>Este item foi codificado para aceitar apenas a bioassinatura de um indivíduo em particular.</Stat_Thing_Weapon_Biocoded_Desc>
 
 </LanguageData>

@@ -17,19 +17,19 @@
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
   <BreakRiskExtremeDesc>Estes colonos estão estressados e podem ter um extremo (e possivelmente violento) colapso mental a qualquer momento:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
-  <BreakRiskDescEnding>Verifique a guia Situação destes colonos para ver o que está incomodando eles.\n\nPara fazer com que os colonos se sintam melhores, você pode fazer coisas como mandá-los fazer refeições sofisticadas, dar-lhes mais horas de diversão por dia, ter objetos de diversão agradáveis, colocá-los em ambientes bonitos, deixá-los beber e fumar, e muito mais.</BreakRiskDescEnding>
+  <BreakRiskDescEnding>Verifique a guia Situação destes colonos para ver o que está incomodando eles.\n\nPara fazer com que os colonos se sintam melhores, você pode fazer coisas como dar refeições sofisticadas para eles, dar-lhes mais horas de diversão por dia e ter objetos de diversão melhores, colocá-los em ambientes bonitos, deixá-los beber e fumar, e muito mais.</BreakRiskDescEnding>
 
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>Colono precisa de resgate</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>Colonos precisam de resgate</ColonistsNeedRescue>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue. -->
-  <ColonistsNeedRescueDesc>Estes colonos estão no chão incapacitados:\n\n{0}\nEnvie outro colono para resgatá-los e levá-los de volta para uma cama.\n\nPara resgatar, selecione outro colono, em seguida, clique com o botão direito sobre a vítima e selecione Resgate.</ColonistsNeedRescueDesc>
+  <ColonistsNeedRescueDesc>Estes colonos estão incapacitados no chão:\n\n{0}\nEnvie outro colono para resgatá-los e levá-los de volta para uma cama.\n\nPara resgatar, selecione outro colono, em seguida, clique com o botão direito sobre a vítima e selecione Resgate.</ColonistsNeedRescueDesc>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>Precisa-se de defesas</NeedDefenses>
   <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
-  <NeedDefensesDesc>Você está aqui há algum tempo e provavelmente tem sido notado. Ataques de piratas irão começar em breve.\n\nVocê deve preparar defesas, construa alguns sacos de areia ou armadilhas.</NeedDefensesDesc>
+  <NeedDefensesDesc>Você está aqui há algum tempo e provavelmente tem sido notado. Ataques de piratas irão começar em breve.\n\nVocê deve preparar defesas, como sacos de areia ou armadilhas.</NeedDefensesDesc>
 
   <!-- EN: Need doctor -->
   <NeedDoctor>Precisa-se de médico</NeedDoctor>
@@ -37,7 +37,7 @@
   <NeedDoctorDesc>Estes colonos precisam de cuidados médicos, mas você não tem colonos saudáveis atribuídos como médicos.\n\n{0}\nSelecione um colono saudável para o trabalho médico. Se não forem tratadas, as feridas podem nunca se curar corretamente e podem se tornar permanentes.</NeedDoctorDesc>
 
   <!-- EN: Need miner -->
-  <NeedMiner>Precisa-se de mineiro</NeedMiner>
+  <NeedMiner>Precisa-se de minerador</NeedMiner>
   <!-- EN: You have designated some rocks to be mined, but no colonist has the Mining work type.\n\nAssign a colonist the Mining work type. -->
   <NeedMinerDesc>Você designou algumas rochas para serem escavadas, mas nenhum colono tem o tipo de trabalho de mineração.\n\nSelecione um colono para o trabalho de mineração.</NeedMinerDesc>
 
@@ -62,6 +62,11 @@
   <NeedColonistBeds>Precisa-se de camas para colonos</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>Você tem mais colonos do que camas para colonos. Alguém ficará sem um lugar para dormir.\n\nFaça mais camas, ou altere uma cama de prisioneiro para uma cama de colono.\n\nSe você não tem recursos, locais para dormir são gratuitos e podem ser colocados imediatamente.</NeedColonistBedsDesc>
+
+  <!-- EN: Colonist left unburied -->
+  <AlertColonistLeftUnburied>Colono não enterrado</AlertColonistLeftUnburied>
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <AlertColonistLeftUnburiedDesc>Um colono não foi enterrado.\n\nIsso pode afetar negativamente o humor dos seus colonos.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Caçador está sem arma de longo alcance</HunterLacksWeapon>
@@ -142,9 +147,14 @@
   <NeedResearchProjectDesc>Você tem o equipamento para fazer uma pesquisa, mas não selecionou um projeto.\n\nAbra o menu de pesquisa e selecione um projeto.</NeedResearchProjectDesc>
 
   <!-- EN: {0} colonists idle -->
-  <ColonistsIdle>{0} colono(s) desocupado(s)</ColonistsIdle>
+  <ColonistsIdle>{0} colono(s) ocioso(s)</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Estes colonos estão vagando à toa:\n\n{0}\nVocê provavelmente deveria encontrar algo produtivo para deixá-los fazer.</ColonistsIdleDesc>
+
+  <!-- EN: Caravan idle -->
+  <CaravanIdle>Caravana ociosa</CaravanIdle>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
+  <CaravanIdleDesc>Essas caravanas estão esperando você definir o próximo destino:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Colonos precisam de tratamento</ColonistNeedsTreatment>
@@ -153,8 +163,8 @@
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
-  <AlertHypothermiaDesc>Estes colonos estão com hipotermia.\n\n{0}\nCertifique-se de suas roupas são apropriadas para a estação e que os espaços interiores estão devidamente aquecidos.</AlertHypothermiaDesc>
+  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <AlertHypothermiaDesc>Estes colonos estão com hipotermia:\n\n{0}\nCertifique-se de suas roupas são apropriadas para a estação e que os espaços interiores estão devidamente aquecidos.</AlertHypothermiaDesc>
 
   <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>{0} paciente(s) aguarda(m) operação médica</PatientsAwaitingMedicalOperation>
@@ -196,5 +206,45 @@
   <ImmobileCaravan>Caravana imóvel</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>Uma de suas caravanas está imóvel porque está carregando demais.\n\nVocê pode tornar a caravana móvel novamente abandonando alguns itens na guia ITENS.</ImmobileCaravanDesc>
+
+  <!-- EN: Building unusable due to roof -->
+  <BuildingCantBeUsedRoofed>Construção inutilizável devido ao telhado</BuildingCantBeUsedRoofed>
+  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
+  <BuildingCantBeUsedRoofedDesc>Uma ou mais das sua construções só podem ser utilizadas se não estiverem cobertas, mas há um teto sobre ela. A construção não será utilizável até que você remova o telhado.</BuildingCantBeUsedRoofedDesc>
+
+  <!-- EN: Heatstroke -->
+  <AlertHeatstroke>Insolação</AlertHeatstroke>
+  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>As seguintes pessoas estão sofrendo insolação:\n\n{0}\nLeve-as a uma área mais fresca. Você pode esfriar as salas com refrigeradores passivos ou elétricos. Os espaços subterrâneos profundos também são naturalmente frescos, se separados do exterior por uma porta.</AlertHeatstrokeDesc>
+
+  <!-- EN: Guest unhappy -->
+  <QuestPartMoodBelowThreshold>Convidado infeliz</QuestPartMoodBelowThreshold>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>A missão {0} exige que você mantenha essa pessoa de bom humor. No entanto, seu humor está ruim. Tome uma atitude para fazê-los se sentir melhor:\n\n{1}</QuestPartMoodBelowThresholdDesc>
+
+  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartShuttleLeaveDelay>Traslado partindo em {0}</QuestPartShuttleLeaveDelay>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>O transporte partirá em {1}. A missão {0} exige que você leve as seguintes pessoas ou itens para o transporte antes que ele saia:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+
+  <!-- EN: Monument will be destroyed -->
+  <DisallowedBuildingInsideMonument>Monumento será destruído</DisallowedBuildingInsideMonument>
+  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
+  <DisallowedBuildingInsideMonumentDesc>Você fez uma construção não permitida dentro de um de seus monumentos. O monumento será considerado destruído em {0}.</DisallowedBuildingInsideMonumentDesc>
+
+  <!-- EN: Countdown activator {0} -->
+  <ActivatorCountdown>Ativador de contagem regressiva {0}</ActivatorCountdown>
+  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDesc>Há um ativador de contagem regressiva preparando-se para despertar mecanoides próximos.</ActivatorCountdownDesc>
+  <!-- EN: {0} countdown activators -->
+  <ActivatorCountdownMultiple>{0} ativadores de contagem regressiva</ActivatorCountdownMultiple>
+  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDescMultiple>Existem {0} ativadores de contagem regressiva preparando-se para despertar mecanoides próximos.</ActivatorCountdownDescMultiple>
+
+  <!-- EN: Quest expires in {0} -->
+  <QuestExpiresSoon>A missão expira em {0}</QuestExpiresSoon>
+  <!-- EN: The quest '{0}' will expire in {1}. -->
+  <QuestExpiresSoonDesc>A missão '{0}' expirará em {1}.</QuestExpiresSoonDesc>
+  </LanguageData>
 
 </LanguageData>

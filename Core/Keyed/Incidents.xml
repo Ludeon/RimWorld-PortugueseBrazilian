@@ -12,8 +12,8 @@
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Praga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
-  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\n\nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>Pragas foram descobertas em {PLANTDEF_labelPlural}!\n\nVocê deve cortar ou queimar as plantas afetadas antes que a praga se espalhe.</LetterCropBlight>
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\nYou should cut or burn the affected plants before the blight spreads. -->
+  <LetterCropBlight>Pragas foram descobertas em {PLANTDEF_labelPlural}!\nVocê deve cortar ou queimar as plantas afetadas antes que a praga se espalhe.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Milagre</LetterLabelMiracleHeal>
@@ -31,7 +31,7 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Cápsula de escape</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} chamado {PAWN_nameDef} está caindo em uma capsula de transporte nas proximidades. Se {PAWN_pronoun} sobreviver ao impacto, {PAWN_pronoun} ficará gravemente ferido.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} chamado {PAWN_nameDef} está caindo em uma cápsula de transporte nas proximidades. Se {PAWN_pronoun} sobreviver ao impacto, {PAWN_pronoun} ficará gravemente ferido.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} não é afiliado a nenhuma facção. Você pode resgatar {PAWN_objective} e esperar que {PAWN_pronoun} se una a você ou capturar {PAWN_objective} para fins de recrutamento ou escravidão.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -59,6 +59,10 @@
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
   <TraderArrival>Uma nave de comércio está passando nas proximidades.\n\nEles são conhecidos como {0}. Eles são um {1}.\n\n{2}</TraderArrival>
+  <!-- EN: They're affiliated with {FACTION_name}. -->
+  <TraderArrivalFromFaction>Eles são afiliados a {FACTION_name}.</TraderArrivalFromFaction>
+  <!-- EN: They are not affiliated with any faction. -->
+  <TraderArrivalNoFaction>Eles não são afiliados a nenhuma facção.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>Um(a) {PAWN_title} de "{1}" está passando por perto. [PAWN_pronoun] se chama {PAWN_nameFull}.</SingleTravelerPassing>
@@ -95,7 +99,11 @@
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>A parte caída da nave emitiu um pulso psíquico concentrado que impulsionou o colono {0} à insanidade.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>Acordou há {0} dias atrás</AwokeDaysAgo>
+  <AwokeDaysAgo>Despertado {0} dias atrás</AwokeDaysAgo>
+  <!-- EN: Activated {0} days ago -->
+  <ActivatedDaysAgo>Ativado há {0} dias</ActivatedDaysAgo>
+  <!-- EN: Opened {0} days ago -->
+  <OpenedDaysAgo>Aberto há {0} dias</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Nível de zumbido psíquico: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
@@ -109,17 +117,11 @@
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
   <LetterAgentRevealed>{0} foi revelado(a) como um agente do seu inimigo {1}.\n\nE está tentando escapar agora.</LetterAgentRevealed>
 
-  <!-- Distant psychic drone -->
-
-
   <!-- Beavers -->
   <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>Castores!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>Um grupo faminto de Alfacastores acabaram de chegar.\n\nTente eliminá-los antes que eles dizimem a última árvore da região.</BeaversArrived>
-
-  <!-- Refugee chased -->
-
 
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
@@ -146,8 +148,10 @@
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
-  <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
-  <LetterTraderCaravanArrival>Uma caravana de comércio de {0} está se aproximando. Se trata de {1}\n\nA caravana irá ficar em volta da colônia por alguns dias antes de sair. Você pode atacá-la, mas isto irá irritar a sua facção!</LetterTraderCaravanArrival>
+  <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
+  <LetterTraderCaravanArrival>Uma caravana de comércio de {0} está se aproximando. Eles são um {1}.</LetterTraderCaravanArrival>
+  <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
+  <LetterCaravanArrivalCommonWarning>Eles ficarão na colônia por algum tempo antes de partir. Você pode atacá-los - mas isso irritará a facção deles!</LetterCaravanArrivalCommonWarning>
 
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
@@ -162,12 +166,14 @@
   <!-- Journey-related -->
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
-  <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Você alcançou as coordenadas enviadas por Charlon Whitestone e descobriu a nave estelar oculta.\n\nO reator da nave ainda está no modo de hibernação, por isso não pode voar ainda. Você pode iniciá-lo interagindo com o núcleo do computador.\n\nCharlon Whitestone avisa que o processo de inicialização levará cerca de 15 dias, e a assinatura de energia será detectável a longa distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <EscapeShipFound>Você alcançou as coordenadas enviadas por <Name>Charlon Whitestone</Name> e descobriu a nave estelar oculta.\n\nO reator da nave ainda está no modo de hibernação, por isso não pode voar ainda. Você pode iniciá-lo interagindo com o núcleo do computador.\n\n<Name>Charlon Whitestone</Name> avisa que o processo de inicialização levará cerca de 15 dias, e a assinatura de energia será detectável a longa distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</EscapeShipFound>
+  <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days. -->
+  <EscapeShipFoundPeaceful>Você alcançou as coordenadas enviadas por <Name>Charlon Whitestone</Name> e descobriu a nave estelar oculta.\n\nO reator da nave ainda está no modo de hibernação profunda, portanto ainda não pode voar. Você pode iniciá-lo interagindo com o núcleo do computador.\n\n<Name>Charlon Whitestone</Name> avisa que o processo de inicialização levará cerca de 15 dias.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
-  <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>O Charlon Whitestone envia uma mensagem para você.\n\nEle vê que você perdeu o controle da nave. Para impedir que caia nas mãos erradas, ele foi forçado a acionar o mecanismo de autodestruição da nave. A nave agora virou uma cratera.\n\nVocê precisará encontrar outra saída deste planeta.</EscapeShipLost>
+  <!-- EN: <Name>Charlon Whitestone</Name> sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
+  <EscapeShipLost><Name>Charlon Whitestone</Name> envia uma mensagem para você.\n\nEle vê que você perdeu o controle da nave. Para impedir que caia nas mãos erradas, ele foi forçado a acionar o mecanismo de autodestruição da nave. A nave agora virou uma cratera.\n\nVocê precisará encontrar outra saída deste planeta.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -182,14 +188,16 @@
   <CaravanMeeting_MoveOn>Seguir em frente</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>nenhum membro da caravana é capaz de negociar</CaravanMeeting_TradeIncapable>
+  <!-- EN: need a trader with the title of {0} from {1_name} -->
+  <CaravanMeeting_NoPermit>precisa de um comerciante com o título {0} de {1_name}</CaravanMeeting_NoPermit>
 
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Pedido de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Um acordo próximo, {0}, contata você com um pedido comercial especial. Eles gostariam de comprar:\n\n  {1} (worth {2})\n\nNo retorno, eles oferecem:\n\n  {3} (worth {4})\n\nEsta solicitação expira depois: {5}\n\nSe quiser fazer o comércio, Envie uma caravana com os suprimentos solicitados. O tempo estimado de viagem é {6}. Você pode rever esta oferta selecionando {0} no mapa do mundo.</LetterCaravanRequest>
-  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
-  <CaravanRequestInfo>Requisitando: {0} ({3}), Recompensa {1} ({4}) ({2} sobrando)</CaravanRequestInfo>
+  <!-- EN: Requesting: {0} ({2}) ({1} left) -->
+  <CaravanRequestInfo>Requisitando: {0} ({2}) ({1} sobrando)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>qualidade normal ou melhor</NormalQualityOrBetter>
   <!-- EN: not tainted -->
@@ -214,5 +222,23 @@
   <LetterSiteNoLongerHostile>Como você não é mais hostil com {0}, o site {1} não está mais disponível.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Como você não é mais hostil com {0}, os seguintes sites não estão mais disponíveis</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerFactionHostile>A missão falhou</LetterLabelQuestAskerFactionHostile>
+  <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
+  <LetterQuestAskerFactionHostile>A missão agora está incompletável porque {FACTION_name} está hostil.</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerCaptured>A missão falhou</LetterLabelQuestAskerCaptured>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
+  <LetterQuestAskerCaptured>A missão agora está incompletável porque {SUBJECT_definite} foi capturado.</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerDied>A missão falhou</LetterLabelQuestAskerDied>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
+  <LetterQuestAskerDied>A missão agora está incompletável porque {SUBJECT_definite} morreu.</LetterQuestAskerDied>
 
 </LanguageData>
