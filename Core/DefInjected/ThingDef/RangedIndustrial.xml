@@ -1,39 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: assault rifle bullet -->
   <Bullet_AssaultRifle.label>tiro de rifle de assalto</Bullet_AssaultRifle.label>
-
+  
   <!-- EN: autopistol bullet -->
   <Bullet_Autopistol.label>tiro de pistola automática</Bullet_Autopistol.label>
-
+  
   <!-- EN: bolt-action rifle bullet -->
   <Bullet_BoltActionRifle.label>tiro de espingarda de repetição</Bullet_BoltActionRifle.label>
-
+  
+  <!-- EN: EMP launcher shell -->
+  <Bullet_EMPLauncher.label>lançador de granadas PEM</Bullet_EMPLauncher.label>
+  
   <!-- EN: heavy SMG bullet -->
   <Bullet_HeavySMG.label>tiro de submetralhadora pesada</Bullet_HeavySMG.label>
-
+  
   <!-- EN: incendiary bolt -->
   <Bullet_IncendiaryLauncher.label>projétil incendiário</Bullet_IncendiaryLauncher.label>
-
+  
   <!-- EN: LMG bullet -->
   <Bullet_LMG.label>tiro de metralhadora leve</Bullet_LMG.label>
-
+  
   <!-- EN: machine pistol bullet -->
   <Bullet_MachinePistol.label>tiro de submetralhadora</Bullet_MachinePistol.label>
-
+  
   <!-- EN: minigun bullet -->
   <Bullet_Minigun.label>tiro de minigun</Bullet_Minigun.label>
-
+  
   <!-- EN: revolver bullet -->
   <Bullet_Revolver.label>tiro de revólver</Bullet_Revolver.label>
-
+  
   <!-- EN: shotgun blast -->
   <Bullet_Shotgun.label>cartucho de espingarda</Bullet_Shotgun.label>
-
+  
+  <!-- EN: smoke launcher shell -->
+  <Bullet_SmokeLauncher.label>lançador de granadas de fumaça</Bullet_SmokeLauncher.label>
+  
   <!-- EN: sniper rifle bullet -->
   <Bullet_SniperRifle.label>tiro de rifle de precisão</Bullet_SniperRifle.label>
-
+  
   <!-- EN: assault rifle -->
   <Gun_AssaultRifle.label>rifle de assalto</Gun_AssaultRifle.label>
   <!-- EN: A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy. -->
@@ -44,7 +50,7 @@
   <Gun_AssaultRifle.tools.barrel.label>carregador</Gun_AssaultRifle.tools.barrel.label>
   <!-- EN: assault rifle -->
   <Gun_AssaultRifle.verbs.Verb_Shoot.label>rifle de assalto</Gun_AssaultRifle.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: autopistol -->
   <Gun_Autopistol.label>pistola automática</Gun_Autopistol.label>
   <!-- EN: An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire. -->
@@ -55,7 +61,7 @@
   <Gun_Autopistol.tools.barrel.label>carregador</Gun_Autopistol.tools.barrel.label>
   <!-- EN: autopistol -->
   <Gun_Autopistol.verbs.Verb_Shoot.label>pistola automática</Gun_Autopistol.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: bolt-action rifle -->
   <Gun_BoltActionRifle.label>espingarda de repetição</Gun_BoltActionRifle.label>
   <!-- EN: An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
@@ -66,7 +72,7 @@
   <Gun_BoltActionRifle.tools.barrel.label>ferrolho</Gun_BoltActionRifle.tools.barrel.label>
   <!-- EN: bolt-action rifle -->
   <Gun_BoltActionRifle.verbs.Verb_Shoot.label>espingarda de repetição</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: chain shotgun -->
   <Gun_ChainShotgun.label>espingarda automática</Gun_ChainShotgun.label>
   <!-- EN: A magazine-fed fully automatic shotgun. It is even shorter-ranged than a typical shotgun, but is extraordinarily dangerous due to burst fire. -->
@@ -77,7 +83,18 @@
   <Gun_ChainShotgun.tools.barrel.label>ferrolho</Gun_ChainShotgun.tools.barrel.label>
   <!-- EN: chain shotgun -->
   <Gun_ChainShotgun.verbs.Verb_Shoot.label>espingarda automática</Gun_ChainShotgun.verbs.Verb_Shoot.label>
-
+  
+  <!-- EN: EMP launcher -->
+  <Gun_EmpLauncher.label>lançador PEM</Gun_EmpLauncher.label>
+  <!-- EN: A wide-barreled EMP shell launcher. The shell will upon impact release a burst of electromagnetic energy, stunning mechanical targets (mechanoids, turrets, mortars) and depleting shields in the area of effect. -->
+  <Gun_EmpLauncher.description>Um lançador de granadas PEM de cano largo. Após o impacto, a carga libera uma explosão de energia eletromagnética, alvos mecânicos como mecanoides, torres, morteiros e escudos na área são afetados.</Gun_EmpLauncher.description>
+  <!-- EN: stock -->
+  <Gun_EmpLauncher.tools.stock.label>punho</Gun_EmpLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_EmpLauncher.tools.barrel.label>tambor</Gun_EmpLauncher.tools.barrel.label>
+  <!-- EN: EMP launcher -->
+  <Gun_EmpLauncher.verbs.Verb_Shoot.label>lançador PEM</Gun_EmpLauncher.verbs.Verb_Shoot.label>
+  
   <!-- EN: heavy SMG -->
   <Gun_HeavySMG.label>submetralhadora pesada</Gun_HeavySMG.label>
   <!-- EN: A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well. -->
@@ -88,7 +105,7 @@
   <Gun_HeavySMG.tools.barrel.label>carregador</Gun_HeavySMG.tools.barrel.label>
   <!-- EN: heavy SMG -->
   <Gun_HeavySMG.verbs.Verb_Shoot.label>submetralhadora pesada</Gun_HeavySMG.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: incendiary launcher -->
   <Gun_IncendiaryLauncher.label>lançador incendiário</Gun_IncendiaryLauncher.label>
   <!-- EN: A wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires. -->
@@ -99,7 +116,7 @@
   <Gun_IncendiaryLauncher.tools.barrel.label>tanque</Gun_IncendiaryLauncher.tools.barrel.label>
   <!-- EN: incendiary launcher -->
   <Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>lançador incendiário</Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: LMG -->
   <Gun_LMG.label>metralhadora leve</Gun_LMG.label>
   <!-- EN: A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies. -->
@@ -110,7 +127,7 @@
   <Gun_LMG.tools.barrel.label>carregador</Gun_LMG.tools.barrel.label>
   <!-- EN: LMG -->
   <Gun_LMG.verbs.Verb_Shoot.label>metralhadora leve</Gun_LMG.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: machine pistol -->
   <Gun_MachinePistol.label>submetralhadora</Gun_MachinePistol.label>
   <!-- EN: A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness. -->
@@ -121,16 +138,16 @@
   <Gun_MachinePistol.tools.barrel.label>carregador</Gun_MachinePistol.tools.barrel.label>
   <!-- EN: machine pistol -->
   <Gun_MachinePistol.verbs.Verb_Shoot.label>submetralhadora</Gun_MachinePistol.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: minigun -->
   <Gun_Minigun.label>minigun</Gun_Minigun.label>
   <!-- EN: A multi-barrel machine gun. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading guns are powered by the energy from the gunpowder, the minigun uses an electric motor to rapidly cycle cartridges through the weapon. -->
-  <Gun_Minigun.description>Uma metralhadora multi-barril. É pesada, mas uma vez que começa a disparar, dispara muito rápido. A maioria das armas de carregamento automático são alimentadas pela energia da pólvora, porém, a minigun usa um motor elétrico para passar rapidamente os cartuchos através da arma.</Gun_Minigun.description>
+  <Gun_Minigun.description>Uma metralhadora multi-carregador. É pesada, mas uma vez que começa a disparar, dispara muito rápido. A maioria das armas de carregamento automático são alimentadas pela energia da pólvora, porém, a minigun usa um motor elétrico para passar rapidamente os cartuchos através da arma.</Gun_Minigun.description>
   <!-- EN: barrels -->
-  <Gun_Minigun.tools.barrels.label>barrís</Gun_Minigun.tools.barrels.label>
+  <Gun_Minigun.tools.barrels.label>carregadores</Gun_Minigun.tools.barrels.label>
   <!-- EN: minigun -->
   <Gun_Minigun.verbs.Verb_Shoot.label>minigun</Gun_Minigun.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: pump shotgun -->
   <Gun_PumpShotgun.label>espingarda</Gun_PumpShotgun.label>
   <!-- EN: An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range. -->
@@ -141,18 +158,29 @@
   <Gun_PumpShotgun.tools.barrel.label>ferrolho</Gun_PumpShotgun.tools.barrel.label>
   <!-- EN: pump shotgun -->
   <Gun_PumpShotgun.verbs.Verb_Shoot.label>espingarda</Gun_PumpShotgun.verbs.Verb_Shoot.label>
-
+  
   <!-- EN: revolver -->
   <Gun_Revolver.label>revólver</Gun_Revolver.label>
   <!-- EN: An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw. -->
   <Gun_Revolver.description>Um revólver padrão antigo de ação dupla. Não é muito poderoso, mas tem um alcance decente para um revólver, e é rápido.</Gun_Revolver.description>
   <!-- EN: grip -->
-  <Gun_Revolver.tools.grip.label>cabo</Gun_Revolver.tools.grip.label>
+  <Gun_Revolver.tools.grip.label>punho</Gun_Revolver.tools.grip.label>
   <!-- EN: barrel -->
   <Gun_Revolver.tools.barrel.label>carregador</Gun_Revolver.tools.barrel.label>
   <!-- EN: revolver -->
   <Gun_Revolver.verbs.Verb_Shoot.label>revólver</Gun_Revolver.verbs.Verb_Shoot.label>
-
+  
+  <!-- EN: smoke launcher -->
+  <Gun_SmokeLauncher.label>lançador de fumaça</Gun_SmokeLauncher.label>
+  <!-- EN: A wide-barreled smoke shell launcher. The shell will upon impact release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. -->
+  <Gun_SmokeLauncher.description>Um lançador de granadas de fumaça de cano largo. Com o impacto, a granada liberará uma nuvem de fumaça, obscurecendo os tiros recebidos e impedindo que as torres façam mira.</Gun_SmokeLauncher.description>
+  <!-- EN: stock -->
+  <Gun_SmokeLauncher.tools.stock.label>punho</Gun_SmokeLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_SmokeLauncher.tools.barrel.label>tambor</Gun_SmokeLauncher.tools.barrel.label>
+  <!-- EN: smoke launcher -->
+  <Gun_SmokeLauncher.verbs.Verb_Shoot.label>lançador de fumaça</Gun_SmokeLauncher.verbs.Verb_Shoot.label>
+  
   <!-- EN: sniper rifle -->
   <Gun_SniperRifle.label>rifle de precisão</Gun_SniperRifle.label>
   <!-- EN: An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other weapons outclass it at close range. -->
@@ -163,5 +191,5 @@
   <Gun_SniperRifle.tools.barrel.label>carregador</Gun_SniperRifle.tools.barrel.label>
   <!-- EN: sniper rifle -->
   <Gun_SniperRifle.verbs.Verb_Shoot.label>rifle de precisão</Gun_SniperRifle.verbs.Verb_Shoot.label>
-
+  
 </LanguageData>
