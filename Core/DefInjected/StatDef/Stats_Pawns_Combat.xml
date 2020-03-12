@@ -6,29 +6,41 @@
   <!-- EN: How long it takes to shoot after choosing a target. -->
   <AimingDelayFactor.description>Quanto tempo leva para atirar depois de mirar.</AimingDelayFactor.description>
   
+  <!-- EN: incoming damage multiplier -->
+  <IncomingDamageFactor.label>multiplicador de danos recebidos</IncomingDamageFactor.label>
+  <!-- EN: A multiplier on all incoming damage. -->
+  <IncomingDamageFactor.description>Um multiplicador de todos os danos recebidos.</IncomingDamageFactor.description>
+  
   <!-- EN: melee armor penetration -->
   <MeleeArmorPenetration.label>penetração de armadura corpo-a-corpo</MeleeArmorPenetration.label>
-  <!-- EN: Average armor penetration of all attacks in melee combat. This stat includes currently used weapon. -->
+  <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
   <MeleeArmorPenetration.description>Penetração média de armadura de todos os ataques em combate corpo a corpo. Esta estatística inclui a arma usada atualmente.</MeleeArmorPenetration.description>
   
   <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>chance de esquiva corpo a corpo</MeleeDodgeChance.label>
-  <!-- EN: Chance to dodge a melee attack that would've otherwise hit. Characters will not dodge while aiming or firing a ranged weapon. -->
+  <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
   <MeleeDodgeChance.description>Chance de desviar de um ataque corpo a corpo que teria de outra forma atingido. Os personagens não esquivarão enquanto apontando ou disparando uma arma de longo alcance.</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
   <MeleeDPS.label>DPS de ataque corpo a corpo</MeleeDPS.label>
-  <!-- EN: Average damage per second in melee combat. This stat ignores target defenses like dodging and armor. -->
+  <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
   <MeleeDPS.description>Dano médio por segundo em combate corpo a corpo. Esta estatística ignora defesas do alvo como esquivando e armadura.</MeleeDPS.description>
   
   <!-- EN: melee hit chance -->
   <MeleeHitChance.label>chance de acerto corpo a corpo</MeleeHitChance.label>
-  <!-- EN: Chance to hit a target in melee. The target can still dodge even if we would've hit. -->
+  <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
   <MeleeHitChance.description>Chance de atingir um alvo no corpo a corpo. O alvo ainda pode esquivar-se mesmo se nós batemos.</MeleeHitChance.description>
+  
+  <!-- EN: trap spring chance -->
+  <PawnTrapSpringChance.label>chance lançar armadilha</PawnTrapSpringChance.label>
+  <!-- EN: Chance to spring a trap the character is unaware of. -->
+  <PawnTrapSpringChance.description>Chance de lançar uma armadilha que o personagem desconhece.</PawnTrapSpringChance.description>
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyPawn.label>precisão de tiro</ShootingAccuracyPawn.label>
-  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyPawn.description>Chance por telha de acertar um alvo a distância com um tiro. A chance de acertar também é afetada por muitos outros fatores. A chance de acerto pode ser vista selecionando um atirador e passando o mouse sobre um alvo.</ShootingAccuracyPawn.description>
+  <!-- EN: shooting accuracy (people) -->
+  <ShootingAccuracyPawn.labelForFullStatList>precisão de tiro (pessoas)</ShootingAccuracyPawn.labelForFullStatList>
   
 </LanguageData>
