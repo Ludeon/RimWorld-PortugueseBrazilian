@@ -3,17 +3,17 @@
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>capacidade de transporte</CarryingCapacity.label>
-  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>A quantidade de coisas que esta criatura pode carregar em sua mãos, boca ou outros manipuladores.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>Temperatura máxima confortável</ComfyTemperatureMax.label>
-  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Acima desta temperatura, os personagens irão ficar infelizes. Significativamente acima desta temperatura, eles irão desenvolver insolação e eventualmente irão morrer.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>Temperatura mínima confortável</ComfyTemperatureMin.label>
-  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>Abaixo desta temperatura, os personagens vão ficarem infelizes. Significativamente abaixo desta temperatura, eles irão desenvolver hipotermia e congelamento e eventualmente irão morrer.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
@@ -38,7 +38,7 @@
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>velocidade de ganho de imunidade</ImmunityGainSpeed.label>
-  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>Velocidade com que este personagem ganha imunidade a doenças. Se este é muito lento, o personagem irá morrer de uma doença antes de desenvolver a imunidade.</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
@@ -53,7 +53,7 @@
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>limite de colapso mental</MentalBreakThreshold.label>
-  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
   <MentalBreakThreshold.description>Enquanto o humor de alguém estiver abaixo deste nível, o personagem corre o risco de ter um colapso mental.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
@@ -73,9 +73,26 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>O ponto em que esta criatura é derrubada pela dor.</PainShockThreshold.description>
   
+  <!-- EN: psychic entropy gain -->
+  <PsychicEntropyGain.label>ganho de entropia psíquica</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on psychic entropy gained from any source. -->
+  <PsychicEntropyGain.description>Um multiplicador de entropia psíquica ganho de qualquer fonte.</PsychicEntropyGain.description>
+  
+  <!-- EN: psychic entropy limit -->
+  <PsychicEntropyMax.label>limite de entropia psíquica</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
+  <PsychicEntropyMax.description>A quantidade máxima de entropia psíquica individual, que pode ser tolerada com segurança.</PsychicEntropyMax.description>
+  
+  <!-- EN: psychic entropy recovery rate -->
+  <PsychicEntropyRecoveryRate.label>taxa de recuperação de entropia psíquica</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces psychic entropy. -->
+  <PsychicEntropyRecoveryRate.description>A taxa na qual essa pessoa reduz a entropia psíquica.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/30s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/30s</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilidade psíquica</PsychicSensitivity.label>
-  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases psychic entropy limit. -->
   <PsychicSensitivity.description>Multiplicador sobre o impacto dos fenômenos psíquicos que afetam esta pessoa.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
