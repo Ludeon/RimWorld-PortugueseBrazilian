@@ -3,7 +3,7 @@
   
   <!-- EN: beauty -->
   <Beauty.label>beleza</Beauty.label>
-  <!-- EN: How enjoyable an object is to look at. Beautiful objects fulfill characters' need for beauty. -->
+  <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
   <Beauty.description>O quão agradável um objeto é de se estar ao redor e olhar para ele.</Beauty.description>
   
   <!-- EN: cleanliness -->
@@ -13,12 +13,12 @@
   
   <!-- EN: comfort -->
   <Comfort.label>conforto</Comfort.label>
-  <!-- EN: How comfortable an object is to sit or lay on. Using comfortable objects fulfills a character's need for comfort. -->
+  <!-- EN: How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort. -->
   <Comfort.description>O quão confortável um objeto é para sentar ou deitar.</Comfort.description>
   
   <!-- EN: deterioration rate -->
   <DeteriorationRate.label>taxa de deterioração</DeteriorationRate.label>
-  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day. Deterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
   <DeteriorationRate.description>A taxa na qual este item deteriora quando deixado no lado de fora, em média de danos de pontos de vida por dia. As coisas se deterioram mais rápido do que o normal em alguns climas, como a chuva.</DeteriorationRate.description>
   <!-- EN: {0} / day -->
   <DeteriorationRate.formatString>{0} / dia</DeteriorationRate.formatString>
@@ -32,10 +32,12 @@
   <FoodPoisonChanceFixedHuman.label>chance de envenenar a comida</FoodPoisonChanceFixedHuman.label>
   <!-- EN: The chance this food will cause food poisoning. -->
   <FoodPoisonChanceFixedHuman.description>A chance deste alimento causar intoxicação alimentar.</FoodPoisonChanceFixedHuman.description>
+  <!-- EN: food poison chance (food stat) -->
+  <FoodPoisonChanceFixedHuman.labelForFullStatList>chance de envenenar a comida (estatística alimentar)</FoodPoisonChanceFixedHuman.labelForFullStatList>
   
   <!-- EN: market value -->
   <MarketValue.label>valor de mercado</MarketValue.label>
-  <!-- EN: The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
+  <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
   <MarketValue.description>O valor de mercado de um objeto. O preço do comércio real será ainda mais modificado pela habilidade de negociação, status de relacionamento e outros fatores contextuais.</MarketValue.description>
   <!-- EN: ${0} -->
   <MarketValue.formatString>${0}</MarketValue.formatString>
@@ -49,13 +51,18 @@
   
   <!-- EN: max hit points -->
   <MaxHitPoints.label>pontos de vida máximo</MaxHitPoints.label>
-  <!-- EN: The maximum hit points of an object. This represents how much damage it can take before being destroyed. -->
+  <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
   <MaxHitPoints.description>O valor máximo de vida de um objeto. Isto representa quanto dano pode levar antes de ser destruído.</MaxHitPoints.description>
   
   <!-- EN: nutrition -->
   <Nutrition.label>nutrição</Nutrition.label>
   <!-- EN: How nutritious this food is. -->
   <Nutrition.description>Como esta comida é nutritiva.</Nutrition.description>
+  
+  <!-- EN: royal favor value -->
+  <RoyalFavorValue.label>valor do favor real</RoyalFavorValue.label>
+  <!-- EN: The amount of royal favor your trader will earn for giving this to a tribute collector. -->
+  <RoyalFavorValue.description>A quantidade de favor real que seu comerciante ganhará, por entregar isso a um coletor de tributos.</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>multiplicador de preço de venda</SellPriceFactor.label>
@@ -64,8 +71,10 @@
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyTurret.label>precisão de tiro</ShootingAccuracyTurret.label>
-  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyTurret.description>Chance por telha de acertar um alvo a distância com um tiro. A chance de acertar também é afetada por muitos outros fatores. A chance de acerto pode ser vista selecionando um atirador e passando o mouse sobre um alvo.</ShootingAccuracyTurret.description>
+  <!-- EN: shooting accuracy (turrets) -->
+  <ShootingAccuracyTurret.labelForFullStatList>precisão de tiro (torretas)</ShootingAccuracyTurret.labelForFullStatList>
   
   <!-- EN: work to make -->
   <WorkToMake.label>trabalho para fazer</WorkToMake.label>

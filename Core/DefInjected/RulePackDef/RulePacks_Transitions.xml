@@ -1,28 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: die(p=2)->die -->
+  <!-- EN: die(SUBJECT_flesh!=Mechanoid,p=2)->die -->
   <Transition_Died.rulePack.rulesStrings.0>die(p=2)->morrer</Transition_Died.rulePack.rulesStrings.0>
-  <!-- EN: die->perish -->
+  <!-- EN: die(SUBJECT_flesh!=Mechanoid)->perish -->
   <Transition_Died.rulePack.rulesStrings.1>die->perecer</Transition_Died.rulePack.rulesStrings.1>
-  <!-- EN: die->expire -->
+  <!-- EN: die(SUBJECT_flesh!=Mechanoid)->expire -->
   <Transition_Died.rulePack.rulesStrings.2>die->expirar</Transition_Died.rulePack.rulesStrings.2>
-  <!-- EN: die(subject_flesh!=Mechanoid,p=0.5)->give in to [SUBJECT_possessive] wounds -->
+  <!-- EN: die(SUBJECT_flesh==Mechanoid)->shut down -->
   <Transition_Died.rulePack.rulesStrings.3>die(subject_flesh!=Mechanoid,p=0.5)->cedeu as feridas de [SUBJECT_possessive]</Transition_Died.rulePack.rulesStrings.3>
-  <!-- EN: die(subject_flesh==Mechanoid,p=0.5)->shut down -->
+  <!-- EN: die(SUBJECT_flesh==Mechanoid)->stop functioning -->
   <Transition_Died.rulePack.rulesStrings.4>die(subject_flesh==Mechanoid,p=0.5)->desligou</Transition_Died.rulePack.rulesStrings.4>
-  <!-- EN: die(subject_flesh==Mechanoid,p=0.5)->stop functioning -->
+  <!-- EN: die(SUBJECT_flesh==Mechanoid)->lose power -->
   <Transition_Died.rulePack.rulesStrings.5>die(subject_flesh==Mechanoid,p=0.5)->paraou as funções</Transition_Died.rulePack.rulesStrings.5>
-  <!-- EN: died(p=2)->died -->
+  <!-- EN: died(SUBJECT_flesh!=Mechanoid,p=2)->died -->
   <Transition_Died.rulePack.rulesStrings.6>died(p=2)->morreu</Transition_Died.rulePack.rulesStrings.6>
-  <!-- EN: died->perished -->
+  <!-- EN: died(SUBJECT_flesh!=Mechanoid)->perished -->
   <Transition_Died.rulePack.rulesStrings.7>died->morreu</Transition_Died.rulePack.rulesStrings.7>
-  <!-- EN: died(subject_flesh!=Mechanoid)->expired -->
+  <!-- EN: died(SUBJECT_flesh!=Mechanoid)->expired -->
   <Transition_Died.rulePack.rulesStrings.8>died(subject_flesh!=Mechanoid)->morreu</Transition_Died.rulePack.rulesStrings.8>
-  <!-- EN: died(subject_flesh==Mechanoid)->shut down -->
+  <!-- EN: died(SUBJECT_flesh==Mechanoid)->shut down -->
   <Transition_Died.rulePack.rulesStrings.9>died(subject_flesh==Mechanoid)->desligou</Transition_Died.rulePack.rulesStrings.9>
-  <!-- EN: died(subject_flesh==Mechanoid)->stopped functioning -->
+  <!-- EN: died(SUBJECT_flesh==Mechanoid)->stopped functioning -->
   <Transition_Died.rulePack.rulesStrings.10>died(subject_flesh==Mechanoid)->parou de funcionar</Transition_Died.rulePack.rulesStrings.10>
+  <!-- EN: died(SUBJECT_flesh==Mechanoid)->lost power -->
+  <Transition_Died.rulePack.rulesStrings.11>died(SUBJECT_flesh==Mechanoid)->perda de energia</Transition_Died.rulePack.rulesStrings.11>
   
   <!-- EN: die(p=3)->explode [flavor] -->
   <Transition_DiedExplosive.rulePack.rulesStrings.0>die(p=3)->explode [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
@@ -54,9 +56,9 @@
   <Transition_DiedExplosive.rulePack.rulesStrings.13>flavor(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.13>
   <!-- EN: flavorsuffix->, scattering [pieces] [everywhere] -->
   <Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->, espalhando [pieces] [everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.14>
-  <!-- EN: flavorsuffix(subject_flesh!=Mechanoid,p=2)->, scattering [Gore] [everywhere] -->
+  <!-- EN: flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, scattering [Gore] [everywhere] -->
   <Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, espalhando [Gore] [everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.15>
-  <!-- EN: flavorsuffix(subject_flesh!=Mechanoid)->, leaving a small pile of [Gore] -->
+  <!-- EN: flavorsuffix(SUBJECT_flesh!=Mechanoid)->, leaving a small pile of [Gore] -->
   <Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix(subject_flesh!=Mechanoid)->, deixando uma pequena pilha de [Gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
   <!-- EN: flavorsuffix->, leaving a small crater -->
   <Transition_DiedExplosive.rulePack.rulesStrings.17>flavorsuffix->, deixando uma pequena cratera</Transition_DiedExplosive.rulePack.rulesStrings.17>
@@ -96,61 +98,58 @@
   <Transition_Downed.rulePack.rulesStrings.0>r_logentry->[CULPRITHEDIFF_labelNoun], causou um [collapsemeta] em [SUBJECT_definite].</Transition_Downed.rulePack.rulesStrings.0>
   <!-- EN: r_logentry->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [collapsemeta]. -->
   <Transition_Downed.rulePack.rulesStrings.1>r_logentry->[CULPRITHEDIFF_labelNounPretty], causou um [collapsemeta] em [SUBJECT_definite].</Transition_Downed.rulePack.rulesStrings.1>
-  <!-- EN: r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun]. -->
+  <!-- EN: r_logentry->[CULPRITHEDIFF_labelNoun] made [SUBJECT_definite] [collapsemeta]. -->
   <Transition_Downed.rulePack.rulesStrings.2>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</Transition_Downed.rulePack.rulesStrings.2>
-  <!-- EN: r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty]. -->
+  <!-- EN: r_logentry->[CULPRITHEDIFF_labelNounPretty] made [SUBJECT_definite] [collapsemeta]. -->
   <Transition_Downed.rulePack.rulesStrings.3>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</Transition_Downed.rulePack.rulesStrings.3>
-  <!-- EN: r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta]. -->
+  <!-- EN: r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun]. -->
   <Transition_Downed.rulePack.rulesStrings.4>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</Transition_Downed.rulePack.rulesStrings.4>
-  <!-- EN: collapse->collapse -->
+  <!-- EN: r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty]. -->
   <Transition_Downed.rulePack.rulesStrings.5>collapse->colapso</Transition_Downed.rulePack.rulesStrings.5>
-  <!-- EN: collapse->crumple -->
+  <!-- EN: r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta]. -->
   <Transition_Downed.rulePack.rulesStrings.6>collapse->colapso</Transition_Downed.rulePack.rulesStrings.6>
-  <!-- EN: collapse->drop -->
+  <!-- EN: collapse->collapse -->
   <Transition_Downed.rulePack.rulesStrings.7>collapse->a queda</Transition_Downed.rulePack.rulesStrings.7>
-  <!-- EN: collapse(subject_flesh!=Mechanoid)->faint -->
+  <!-- EN: collapse->drop -->
   <Transition_Downed.rulePack.rulesStrings.8>collapse(subject_flesh!=Mechanoid)->desmaio</Transition_Downed.rulePack.rulesStrings.8>
-  <!-- EN: collapse(subject_flesh==Mechanoid)->crash -->
+  <!-- EN: collapse(SUBJECT_flesh!=Mechanoid)->crumple -->
   <Transition_Downed.rulePack.rulesStrings.9>collapse->desmaio</Transition_Downed.rulePack.rulesStrings.9>
-  <!-- EN: collapse(subject_flesh==Mechanoid)->bootloop -->
+  <!-- EN: collapse(SUBJECT_flesh==Mechanoid)->crash -->
   <Transition_Downed.rulePack.rulesStrings.10>collapse(subject_flesh==Mechanoid)->loop no boot</Transition_Downed.rulePack.rulesStrings.10>
-  <!-- EN: collapse(subject_flesh==Mechanoid)->hardlock -->
+  <!-- EN: collapse(SUBJECT_flesh==Mechanoid)->lock up -->
   <Transition_Downed.rulePack.rulesStrings.11>collapse(subject_flesh==Mechanoid)->hardlock</Transition_Downed.rulePack.rulesStrings.11>
-  <!-- EN: collapsed->collapsed -->
+  <!-- EN: collapse(SUBJECT_flesh==Mechanoid)->lose main power -->
   <Transition_Downed.rulePack.rulesStrings.12>collapsed->colapsou</Transition_Downed.rulePack.rulesStrings.12>
-  <!-- EN: collapsed->crumpled -->
+  <!-- EN: collapsed->collapsed -->
   <Transition_Downed.rulePack.rulesStrings.13>collapsed->entrou em colapso</Transition_Downed.rulePack.rulesStrings.13>
   <!-- EN: collapsed->dropped -->
   <Transition_Downed.rulePack.rulesStrings.14>collapsed->desistiu</Transition_Downed.rulePack.rulesStrings.14>
-  <!-- EN: collapsed(subject_flesh!=Mechanoid)->fainted -->
+  <!-- EN: collapsed(SUBJECT_flesh!=Mechanoid)->crumpled -->
   <Transition_Downed.rulePack.rulesStrings.15>collapsed(subject_flesh!=Mechanoid)->desmaiou</Transition_Downed.rulePack.rulesStrings.15>
-  <!-- EN: collapsed(subject_flesh==Mechanoid)->crashed -->
+  <!-- EN: collapsed(SUBJECT_flesh==Mechanoid)->crashed -->
   <Transition_Downed.rulePack.rulesStrings.16>collapsed(subject_flesh==Mechanoid)->caiu</Transition_Downed.rulePack.rulesStrings.16>
-  <!-- EN: collapsed(subject_flesh==Mechanoid)->bootlooped -->
+  <!-- EN: collapsed(SUBJECT_flesh==Mechanoid)->locked up -->
   <Transition_Downed.rulePack.rulesStrings.17>collapsed(subject_flesh==Mechanoid)->bootlooped</Transition_Downed.rulePack.rulesStrings.17>
-  <!-- EN: collapsed(subject_flesh==Mechanoid)->hardlocked -->
+  <!-- EN: collapsed(SUBJECT_flesh==Mechanoid)->lost main power -->
   <Transition_Downed.rulePack.rulesStrings.18>collapsed(subject_flesh==Mechanoid)->hardlocked</Transition_Downed.rulePack.rulesStrings.18>
   <!-- EN: helplessly->helplessly -->
   <Transition_Downed.rulePack.rulesStrings.19>helplessly->sem forças</Transition_Downed.rulePack.rulesStrings.19>
-  <!-- EN: helplessly(subject_flesh!=Mechanoid)->unconscious -->
+  <!-- EN: helplessly(SUBJECT_flesh!=Mechanoid)->unconscious -->
   <Transition_Downed.rulePack.rulesStrings.20>helplessly(subject_flesh!=Mechanoid)->inconsciente</Transition_Downed.rulePack.rulesStrings.20>
-  <!-- EN: helplessly(subject_flesh!=Mechanoid)->in exhaustion -->
+  <!-- EN: helplessly(SUBJECT_flesh!=Mechanoid)->weakly -->
   <Transition_Downed.rulePack.rulesStrings.21>helplessly(subject_flesh!=Mechanoid)->de exaustão</Transition_Downed.rulePack.rulesStrings.21>
-  <!-- EN: helplessly(subject_flesh!=Mechanoid)->weakly -->
+  <!-- EN: helplessly(SUBJECT_flesh!=Mechanoid)->feebly -->
   <Transition_Downed.rulePack.rulesStrings.22>helplessly(subject_flesh!=Mechanoid)->de fraqueza</Transition_Downed.rulePack.rulesStrings.22>
-  <!-- EN: helplessly(subject_flesh!=Mechanoid)->feebly -->
+  <!-- EN: helplessly(SUBJECT_flesh==Mechanoid)->uncontrollably -->
   <Transition_Downed.rulePack.rulesStrings.23>helplessly(subject_flesh!=Mechanoid)->debilitado</Transition_Downed.rulePack.rulesStrings.23>
-  <!-- EN: helplessly(subject_flesh==Mechanoid)->uncontrollably -->
-  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh==Mechanoid)->incontrolavelmente</Transition_Downed.rulePack.rulesStrings.24>
   <!-- EN: collapsemeta->[collapse] -->
-  <Transition_Downed.rulePack.rulesStrings.25>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.25>
+  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh==Mechanoid)->incontrolavelmente</Transition_Downed.rulePack.rulesStrings.24>
   <!-- EN: collapsemeta(p=0.5)->[collapse] [helplessly] -->
-  <Transition_Downed.rulePack.rulesStrings.26>collapsemeta(p=0.5)->[collapse] [helplessly]</Transition_Downed.rulePack.rulesStrings.26>
+  <Transition_Downed.rulePack.rulesStrings.25>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.25>
   <!-- EN: collapsedmeta->[collapsed] -->
-  <Transition_Downed.rulePack.rulesStrings.27>collapsedmeta->[collapsed]</Transition_Downed.rulePack.rulesStrings.27>
+  <Transition_Downed.rulePack.rulesStrings.26>collapsemeta(p=0.5)->[collapse] [helplessly]</Transition_Downed.rulePack.rulesStrings.26>
   <!-- EN: collapsedmeta(p=0.5)->[collapsed] [helplessly] -->
-  <Transition_Downed.rulePack.rulesStrings.28>collapsedmeta(p=0.5)->[collapsed] [helplessly]</Transition_Downed.rulePack.rulesStrings.28>
-  
+  <Transition_Downed.rulePack.rulesStrings.27>collapsedmeta->[collapsed]</Transition_Downed.rulePack.rulesStrings.27> 
   <!-- EN: duetoa->due to -->
   <Transition_Include.rulePack.rulesStrings.0>duetoa->devido à um(a)</Transition_Include.rulePack.rulesStrings.0>
   <!-- EN: duetoa(p=0.5)->because of -->
