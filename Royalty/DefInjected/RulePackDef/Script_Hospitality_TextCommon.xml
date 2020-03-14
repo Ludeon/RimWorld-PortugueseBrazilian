@@ -59,7 +59,7 @@
     <li>minMoodInfo(priority=1,lodgersCount>=2)->Você é obrigado a manter o humor [lodgersLabelPlural] [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
-    <li>enemyGroupsParagraph->Os ataques chegarão aproximadamente uma vez por [threatsIntervalTicks_duration]. Os ataques serão de tamanho semelhante a este:\n\n[threatExample]</li>
+    <li>enemyGroupsParagraph->As invasões chegarão aproximadamente uma vez por [threatsIntervalTicks_duration]. Os ataques serão de tamanho semelhante a este:\n\n[threatExample]</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgers0_nameDef]. Se você levar [lodgers0_objective] para o ônibus vivo, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar os [lodgersLabelPlural]. Se você os colocar no ônibus vivos, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->Você deve manter [lodgers0_nameDef] em [map_definite] e não mandar [lodgers0_objective] para nenhum outro lugar.</li>

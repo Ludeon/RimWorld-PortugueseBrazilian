@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A prisoner being held by [siteFaction_name] has managed to steal a radio and call you!\n\n[prisoner_nameDef] is being held at a camp near [map_definite][underArmedGuard]. Rescue [prisoner_objective], and [prisoner_pronoun] will join your colony. [prisoner_pronoun] is a [prisoner_age]-year-old [prisoner_title]. [prisoner_pronoun] says that [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nIf you miss this opportunity, you may never hear from [prisoner_nameDef] again.</li>
+    <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
+    <li>formerColonistInfo-></li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> under armed guard</li>
+    <li>underArmedGuard-></li>
+  -->
+  <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+    <li>questDescription->Um prisioneiro mantido por [siteFaction_name] conseguiu roubar um rádio e ligar para você!\n\n[prisoner_nameDef] está preso em um acampamento perto de [map_definite][underArmedGuard]. Resgate [prisoner_pronoun], e [prisoner_pronoun] irá se juntar a sua colônia. [prisoner_pronoun] é um(a) [prisoner_title] de [prisoner_age] anos de idade. [prisoner_pronoun] diz que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSe você perder esta oportunidade, talvez nunca tenha notícias de [prisoner_nameDef] novamente.</li>
+    <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
+    <li>formerColonistInfo-></li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> sob guarda armada</li>
+    <li>underArmedGuard-></li>
+  </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[prisoner_nameDef]'s Salvation</li>
+    <li>questName->[prisoner_nameDef]'s Rescue</li>
+    <li>questName->[prisoner_nameDef]'s Breakout</li>
+    <li>questName->Rescuing [prisoner_nameDef]</li>
+    <li>questName->Saving [prisoner_nameDef]</li>
+    <li>questName->Breaking [prisoner_nameDef] Out</li>
+  -->
+  <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+    <li>questName->Salvação de [prisoner_nameDef]</li>
+    <li>questName->Resgate de [prisoner_nameDef]</li>
+    <li>questName->Fuga de [prisoner_nameDef]</li>
+    <li>questName->Resgatando [prisoner_nameDef]</li>
+    <li>questName->Salvando [prisoner_nameDef]</li>
+    <li>questName->Fazendo [prisoner_nameDef] Escapar</li>
+  </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
+  
+</LanguageData>
