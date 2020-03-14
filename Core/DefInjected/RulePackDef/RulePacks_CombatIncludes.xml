@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN:
     <li>scraped_present->glancing</li>
     <li>scraped_present->bouncing</li>
@@ -30,132 +30,144 @@
     <li>scraped_past->patinou</li>
   </Combat_DeflectIncludes.rulePack.rulesStrings>
   
-  <!-- EN: action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.0>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite]</Combat_FailIncludes.rulePack.rulesStrings.0>
-  <!-- EN: action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.1>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite] com [implement]</Combat_FailIncludes.rulePack.rulesStrings.1>
-  <!-- EN: action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.2>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite] com [implement]</Combat_FailIncludes.rulePack.rulesStrings.2>
-  <!-- EN: action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.3>action->[INITIATOR_definite] tentou bater seu(ua) [WEAPON_label] em [RECIPIENT_definite]</Combat_FailIncludes.rulePack.rulesStrings.3>
-  <!-- EN: action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.4>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] com [implement]</Combat_FailIncludes.rulePack.rulesStrings.4>
-  <!-- EN: action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.5>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</Combat_FailIncludes.rulePack.rulesStrings.5>
-  <!-- EN: action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement] -->
-  <Combat_FailIncludes.rulePack.rulesStrings.6>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] com [implement]</Combat_FailIncludes.rulePack.rulesStrings.6>
-  <!-- EN: towardsat->towards -->
-  <Combat_FailIncludes.rulePack.rulesStrings.7>towardsat->em</Combat_FailIncludes.rulePack.rulesStrings.7>
-  <!-- EN: towardsat->at -->
-  <Combat_FailIncludes.rulePack.rulesStrings.8>towardsat->em</Combat_FailIncludes.rulePack.rulesStrings.8>
-  <!-- EN: verb_genericattack->swung -->
-  <Combat_FailIncludes.rulePack.rulesStrings.9>verb_genericattack->tentou bater</Combat_FailIncludes.rulePack.rulesStrings.9>
-  <!-- EN: verb_genericattack->flailed -->
-  <Combat_FailIncludes.rulePack.rulesStrings.10>verb_genericattack->tentou bater</Combat_FailIncludes.rulePack.rulesStrings.10>
-  <!-- EN: verb_genericattack->thrashed -->
-  <Combat_FailIncludes.rulePack.rulesStrings.11>verb_genericattack->tentou bater</Combat_FailIncludes.rulePack.rulesStrings.11>
-  <!-- EN: tried->tried -->
-  <Combat_FailIncludes.rulePack.rulesStrings.12>tried->tentou</Combat_FailIncludes.rulePack.rulesStrings.12>
-  <!-- EN: tried->attempted -->
-  <Combat_FailIncludes.rulePack.rulesStrings.13>tried->tentou</Combat_FailIncludes.rulePack.rulesStrings.13>
+  <!-- EN:
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
+    <li>towardsat->towards</li>
+    <li>towardsat->at</li>
+    <li>verb_genericattack->swung</li>
+    <li>verb_genericattack->flailed</li>
+    <li>verb_genericattack->thrashed</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action->[INITIATOR_definite] [tried] para [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] para [damaged_inf] [RECIPIENT_definite] com [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] usar [implement] para [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] balançou [INITIATOR_possessive] [WEAPON_label] em [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] com [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] com [implement]</li>
+    <li>towardsat->em direção</li>
+    <li>towardsat->em</li>
+    <li>verb_genericattack->balançou</li>
+    <li>verb_genericattack->agitou</li>
+    <li>verb_genericattack->bateu</li>
+    <li>tried->tentou</li>
+    <li>tried->tentou</li>
+  </Combat_FailIncludes.rulePack.rulesStrings>
   
-  <!-- EN: result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist] -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.0>result(p=0.5)->[damaged_present] [RECIPIENT_possessive] [targetlist]</Combat_MeleeDamageIncludes.rulePack.rulesStrings.0>
-  <!-- EN: result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence] -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.1>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist], [adverb_flavortext]</Combat_MeleeDamageIncludes.rulePack.rulesStrings.1>
-  <!-- EN: result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv] -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.2>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist], [flavortext_situation]</Combat_MeleeDamageIncludes.rulePack.rulesStrings.2>
-  <!-- EN: strikeAdv->painfully -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.3>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist], [flavortext_consequence]</Combat_MeleeDamageIncludes.rulePack.rulesStrings.3>
-  <!-- EN: strikeAdv->horribly -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.4>adverb_flavortext->penosamente</Combat_MeleeDamageIncludes.rulePack.rulesStrings.4>
-  <!-- EN: strikeAdv->savagely -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.5>adverb_flavortext->brutalmente</Combat_MeleeDamageIncludes.rulePack.rulesStrings.5>
-  <!-- EN: strikeAdv->viciously -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.6>adverb_flavortext->horrivelmente</Combat_MeleeDamageIncludes.rulePack.rulesStrings.6>
-  <!-- EN: flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.7>adverb_flavortext->agonizantemente</Combat_MeleeDamageIncludes.rulePack.rulesStrings.7>
-  <!-- EN: flavortext_consequence->leaving a horrific wound -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.8>adverb_flavortext->ferozmente</Combat_MeleeDamageIncludes.rulePack.rulesStrings.8>
-  <!-- EN: flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent] -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.9>adverb_flavortext->cruelmente</Combat_MeleeDamageIncludes.rulePack.rulesStrings.9>
-  <!-- EN: flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings.10>adverb_flavortext->barbaramente</Combat_MeleeDamageIncludes.rulePack.rulesStrings.10>
+  <!-- EN:
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->painfully</li>
+    <li>strikeAdv->horribly</li>
+    <li>strikeAdv->savagely</li>
+    <li>strikeAdv->viciously</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->leaving a horrific wound</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+  -->
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] e [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->dolorosamente</li>
+    <li>strikeAdv->penosamente</li>
+    <li>strikeAdv->brutalmente</li>
+    <li>strikeAdv->horrivelmente</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixando uma ferida nojenta</li>
+    <li>flavortext_consequence->deixando uma ferida horrível</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->fazendo [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->deixando [RECIPIENT_objective] sem equilíbrio</li>
+  </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
-  <!-- EN: r_logentry->[action], [result]. -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.0>r_logentry->[action], [result].</Combat_MeleeIncludes.rulePack.rulesStrings.0>
-  <!-- EN: implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.1>r_logentry(p=0.2)->[action].</Combat_MeleeIncludes.rulePack.rulesStrings.1>
-  <!-- EN: implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.2>implement(IMPLEMENTOWNER_type==weapon,p=2)->seu(ua) [TOOL_label] do(a) [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.2>
-  <!-- EN: implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.3>implement(IMPLEMENTOWNER_type==weapon,p=1)->seu(ua) [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.3>
-  <!-- EN: implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.4>implement(IMPLEMENTOWNER_type==weapon,p=1)->seu(ua) [TOOL_label] do(a) [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.4>
-  <!-- EN: implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.5>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->seu(ua) [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.5>
-  <!-- EN: implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.6>implement(IMPLEMENTOWNER_type==bodypart,p=2)->seu(ua) [TOOL_label]</Combat_MeleeIncludes.rulePack.rulesStrings.6>
-  <!-- EN: implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.7>implement(IMPLEMENTOWNER_type==bodypart,p=1)->seu [adjective_bodypart] [TOOL_label]</Combat_MeleeIncludes.rulePack.rulesStrings.7>
-  <!-- EN: implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.8>implement(IMPLEMENTOWNER_type==hediff,p=2)->seu(ua) [TOOL_label] do(a) [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.8>
-  <!-- EN: targetlist(recipient_part_count==1)->[recipient_part0_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.9>implement(IMPLEMENTOWNER_type==hediff,p=1)->seu(ua) [WEAPON_label]</Combat_MeleeIncludes.rulePack.rulesStrings.9>
-  <!-- EN: targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.10>implement(IMPLEMENTOWNER_type==hediff,p=1)->seu(ua) [TOOL_label]</Combat_MeleeIncludes.rulePack.rulesStrings.10>
-  <!-- EN: targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.11>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.11>
-  <!-- EN: targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label] -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.12>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.12>
-  <!-- EN: damaged_present(deflected!=True)->wounding -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.13>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.13>
-  <!-- EN: damaged_present(deflected!=True)->injuring -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.14>adjective_bodypart->forte</Combat_MeleeIncludes.rulePack.rulesStrings.14>
-  <!-- EN: destroyed(p=0.5)->destroyed -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.15>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.15>
-  <!-- EN: destroyed(p=0.5)->demolished -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.16>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.16>
-  <!-- EN: destroyed(p=0.5)->ruined -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.17>adjective_bodypart->firme</Combat_MeleeIncludes.rulePack.rulesStrings.17>
-  <!-- EN: destroyed(p=0.5)->wrecked -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.18>adjective_bodypart->firme</Combat_MeleeIncludes.rulePack.rulesStrings.18>
-  <!-- EN: wince(recipient_flesh==Normal)->wince -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.19>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.19>
-  <!-- EN: wince(recipient_flesh==Normal)->grimace -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.20>adjective_bodypart->resistente</Combat_MeleeIncludes.rulePack.rulesStrings.20>
-  <!-- EN: wince(recipient_flesh==Normal)->cringe -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.21>adjective_bodypart(initiator_flesh==True)->firme</Combat_MeleeIncludes.rulePack.rulesStrings.21>
-  <!-- EN: wince(recipient_flesh==Normal)->groan -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.22>adjective_bodypart->firme</Combat_MeleeIncludes.rulePack.rulesStrings.22>
-  <!-- EN: wince(recipient_flesh!=Mechanoid)->scream -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.23>targetlist(recipient_part_count==1)->[RECIPIENT_part0_label]</Combat_MeleeIncludes.rulePack.rulesStrings.23>
-  <!-- EN: wince(recipient_flesh!=Mechanoid)->shout -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.24>targetlist(recipient_part_count==2)->[RECIPIENT_part0_label] e [RECIPIENT_part1_label]</Combat_MeleeIncludes.rulePack.rulesStrings.24>
-  <!-- EN: wince->recoil -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.25>targetlist(recipient_part_count==3)->[RECIPIENT_part0_label], [RECIPIENT_part1_label], e [RECIPIENT_part2_label]</Combat_MeleeIncludes.rulePack.rulesStrings.25>
-  <!-- EN: wince->stumble -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.26>targetlist->[RECIPIENT_part0_label], [RECIPIENT_part1_label], [RECIPIENT_part2_label], e [RECIPIENT_part3_label]</Combat_MeleeIncludes.rulePack.rulesStrings.26>
-  <!-- EN: painstate->in -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.27>damaged_present(deflected!=True)->ferindo</Combat_MeleeIncludes.rulePack.rulesStrings.27>
-  <!-- EN: painstate->with -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.28>damaged_present(deflected!=True)->prejudicando</Combat_MeleeIncludes.rulePack.rulesStrings.28>
-  <!-- EN: painstate->from the -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.29>destroyed(p=0.5)->destruido</Combat_MeleeIncludes.rulePack.rulesStrings.29>
-  <!-- EN: painevent(recipient_flesh!=Mechanoid)->[painstate] pain -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.30>destroyed(p=0.5)->demolido</Combat_MeleeIncludes.rulePack.rulesStrings.30>
-  <!-- EN: painevent(recipient_flesh!=Mechanoid)->[painstate] agony -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.31>destroyed(p=0.5)->arruinado</Combat_MeleeIncludes.rulePack.rulesStrings.31>
-  <!-- EN: painevent(recipient_flesh==Normal)->with misery -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.32>destroyed(p=0.5)->devastado</Combat_MeleeIncludes.rulePack.rulesStrings.32>
-  <!-- EN: painevent->from the injury -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.33>wince(recipient_flesh==Normal)->estremecer</Combat_MeleeIncludes.rulePack.rulesStrings.33>
-  <!-- EN: painevent->from the wound -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.34>wince(recipient_flesh==Normal)->encolher</Combat_MeleeIncludes.rulePack.rulesStrings.34>
-  <!-- EN: to->to -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.35>wince(recipient_flesh==Normal)->encolher</Combat_MeleeIncludes.rulePack.rulesStrings.35>
-  <!-- EN: to->into -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings.36>wince(recipient_flesh==Normal)->gemer</Combat_MeleeIncludes.rulePack.rulesStrings.36>
+  <!-- EN:
+    <li>r_logentry->[action], [result].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->wounding</li>
+    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>destroyed(p=0.5)->destroyed</li>
+    <li>destroyed(p=0.5)->demolished</li>
+    <li>destroyed(p=0.5)->ruined</li>
+    <li>destroyed(p=0.5)->wrecked</li>
+    <li>wince(recipient_flesh==Normal)->wince</li>
+    <li>wince(recipient_flesh==Normal)->grimace</li>
+    <li>wince(recipient_flesh==Normal)->cringe</li>
+    <li>wince(recipient_flesh==Normal)->groan</li>
+    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
+    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent->from the injury</li>
+    <li>painevent->from the wound</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  -->
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry->[action], [result].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] de [TOOL_label] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->um [TOOL_label] de[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->um [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [TOOL_label] de [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] e [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], e [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], e [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->lesionando</li>
+    <li>damaged_present(deflected!=True)->ferindo</li>
+    <li>destroyed(p=0.5)->destruído</li>
+    <li>destroyed(p=0.5)->demolido</li>
+    <li>destroyed(p=0.5)->arruinado</li>
+    <li>destroyed(p=0.5)->quebrado</li>
+    <li>wince(recipient_flesh==Normal)->estremecer</li>
+    <li>wince(recipient_flesh==Normal)->careta</li>
+    <li>wince(recipient_flesh==Normal)->vergonhoso</li>
+    <li>wince(recipient_flesh==Normal)->murmúrio</li>
+    <li>wince(recipient_flesh!=Mechanoid)->grito</li>
+    <li>wince(recipient_flesh!=Mechanoid)->berro</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] dor</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agonia</li>
+    <li>painevent(recipient_flesh==Normal)->com miséria</li>
+    <li>painevent->da lesão</li>
+    <li>painevent->da ferida</li>
+    <li>to->para</li>
+    <li>to->em</li>
+  </Combat_MeleeIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
@@ -207,23 +219,76 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->empunhando</li>
+    <li>wielding(p=3)->usando</li>
+    <li>wielding(p=2)->manejando</li>
+    <li>wielding->brandindo</li>
+    <li>wielding->manipulando</li>
+    <li>using(p=4)->usando</li>
+    <li>using->conduzindo</li>
+    <li>using->empurrando</li>
+    <li>using->utilizando</li>
+    <li>using->movendo</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->incompetentemente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->ineptamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->descontroladamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->aleatoriamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->instavelmente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->estranhamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->desajeitadamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->medrosamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->vacilantemente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->tolamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->hesitantemente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->relutantemente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->lentamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->provisoriamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->Inexperientemente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->amadoramente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->timidamente</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->entusiasticamente</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->proficientemente</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->competentemente</li>
+    <li>skillAdv(INITIATOR_skill>=8)->profissionalmente</li>
+    <li>skillAdv(INITIATOR_skill>=8)->habilmente</li>
+    <li>skillAdv(INITIATOR_skill>=8)->apropriadamente</li>
+    <li>skillAdv(INITIATOR_skill>=8)->inteligentemente</li>
+    <li>skillAdv(INITIATOR_skill>=8)->habilmente</li>
+    <li>skillAdv(INITIATOR_skill>=8)->habilidosamente</li>
+    <li>skillAdv(INITIATOR_skill>=10)->habilmente</li>
+    <li>skillAdv(INITIATOR_skill>=10)->habilidosamente</li>
+    <li>skillAdv(INITIATOR_skill>=12)->habilmente</li>
+    <li>skillAdv(INITIATOR_skill>=12)->precisamente</li>
+    <li>skillAdv(INITIATOR_skill>=14)->magistralmente</li>
+    <li>skillAdv(INITIATOR_skill>=16)->artisticamente</li>
+    <li>skillAdv(INITIATOR_skill>=16)->graciosamente</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mecanicamente</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->roboticamente</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->diretamente</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
   
-  <!-- EN: destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.0>destroyed_targets(recipient_part_destroyed_count==1)->[RECIPIENT_part_destroyed0_label]</Combat_WoundIncludes.rulePack.rulesStrings.0>
-  <!-- EN: destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.1>destroyed_targets(recipient_part_destroyed_count==2)->[RECIPIENT_part_destroyed0_label] e [RECIPIENT_part_destroyed1_label]</Combat_WoundIncludes.rulePack.rulesStrings.1>
-  <!-- EN: destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.2>destroyed_targets(recipient_part_destroyed_count==3)->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], e [RECIPIENT_part_destroyed2_label]</Combat_WoundIncludes.rulePack.rulesStrings.2>
-  <!-- EN: destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.3>destroyed_targets->[RECIPIENT_part_destroyed0_label], [RECIPIENT_part_destroyed1_label], [RECIPIENT_part_destroyed2_label], e [RECIPIENT_part_destroyed3_label]</Combat_WoundIncludes.rulePack.rulesStrings.3>
-  <!-- EN: damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.4>damaged_targets(recipient_part_damaged_count==1)->[RECIPIENT_part_damaged0_label]</Combat_WoundIncludes.rulePack.rulesStrings.4>
-  <!-- EN: damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.5>damaged_targets(recipient_part_damaged_count==2)->[RECIPIENT_part_damaged0_label] e [RECIPIENT_part_damaged1_label]</Combat_WoundIncludes.rulePack.rulesStrings.5>
-  <!-- EN: damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.6>damaged_targets(recipient_part_damaged_count==3)->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], e [RECIPIENT_part_damaged2_label]</Combat_WoundIncludes.rulePack.rulesStrings.6>
-  <!-- EN: damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label] -->
-  <Combat_WoundIncludes.rulePack.rulesStrings.7>damaged_targets->[RECIPIENT_part_damaged0_label], [RECIPIENT_part_damaged1_label], [RECIPIENT_part_damaged2_label], e [RECIPIENT_part_damaged3_label]</Combat_WoundIncludes.rulePack.rulesStrings.7>
-  
+  <!-- EN:
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+  -->
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] e [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], e [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], e [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] e [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], e [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], e [recipient_part_damaged3_label]</li>
+  </Combat_WoundIncludes.rulePack.rulesStrings>
+
 </LanguageData>
