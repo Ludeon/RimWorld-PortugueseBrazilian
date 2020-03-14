@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIn return, [allRewardsDescriptions]\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
+    <li>qualityInfo-></li>
+  -->
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->Um assentamento próximo, [settlement_label], tem uma solicitação comercial especial. Eles gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](Custando [requestedThingMarketValue_money])\n\nEm troca, [allRewardsDescriptions]\n\nSe você quiser fazer o comércio, envie uma caravana com os itens solicitados. O tempo estimado de viagem é [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualidade normal+ </li>
+    <li>qualityInfo-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Caravan to [settlement_label]</li>
+    <li>questName->Trade with [settlement_label]</li>
+    <li>questName->Selling to [settlement_label]</li>
+    <li>questName->Supplies for [settlement_label]</li>
+    <li>questName->A [special] [trade]</li>
+    <li>special->Special</li>
+    <li>special->Unique</li>
+    <li>special->Non-traditional</li>
+    <li>trade->Trade</li>
+    <li>trade->Exchange</li>
+    <li>trade->Deal</li>
+    <li>trade->Offer</li>
+  -->
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->Caravana para [settlement_label]</li>
+    <li>questName->Comércio com [settlement_label]</li>
+    <li>questName->Vendendo para [settlement_label]</li>
+    <li>questName->Suprimentos para [settlement_label]</li>
+    <li>questName->Um(a) [trade] [special]</li>
+    <li>special->Especial</li>
+    <li>special->Única(o)</li>
+    <li>special->Não Tradicional</li>
+    <li>trade->Comércio</li>
+    <li>trade->Troca</li>
+    <li>trade->Acordo</li>
+    <li>trade->Oferta</li>
+  </TradeRequest.questNameRules.rulesStrings>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>Quem deve ser creditado com [asker_faction_royalFavorLabel] de favor, por atender à solicitação de negociação?</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  
+</LanguageData>
