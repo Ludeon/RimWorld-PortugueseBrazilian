@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: Great!\n\nReorder and randomize more if you want - but don't try to get the perfect characters. Everyone has flaws, and it makes the story more interesting!\n\nYou can also re-name the characters by clicking on their names.\n\nClick START when you're ready. -->
-  <AcceptStartingPawns.text>Ótimo!\n\nPode aleatorizar mais se quiser - mas não tente obter o personagem perfeito. Todo mundo tem falhas, e isso torna a história mais interessante!\n\nVocê também pode renomear os personagens clicando em seus nomes.\n\nClique em COMEÇAR quando você estiver pronto.</AcceptStartingPawns.text>
+  <AcceptStartingPawns.text>Ótimo!\n\nReordene e aleatorize mais, se desejar - mas não tente obter os personagens perfeitos. Todo mundo tem falhas, e isso torna a história mais interessante!\n\nVocê também pode renomear os personagens clicando em seus nomes.\n\nClique em COMEÇAR quando você estiver pronto.</AcceptStartingPawns.text>
   
   <!-- EN: Select this -->
   <AddBillSimpleMeal.onMapInstruction>Selecione isto</AddBillSimpleMeal.onMapInstruction>
   <!-- EN: Please add a bill to cook simple meals at your cook stove. -->
-  <AddBillSimpleMeal.rejectInputMessage>Por favor, adicione uma tarefa para cozinhar refeições simples em seu fogão a combustível.</AddBillSimpleMeal.rejectInputMessage>
+  <AddBillSimpleMeal.rejectInputMessage>Por favor, adicione uma tarefa para cozinhar refeições simples em seu fogão.</AddBillSimpleMeal.rejectInputMessage>
   <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
   <AddBillSimpleMeal.text>Os colonos precisam ser avisados do que cozinhar.\n\nAs ordens de cozimento são adicionadas no próprio fogão. Uma vez que uma tarefa foi criada, os colonos irão fazer o trabalho automaticamente\n\n1. Aguarde até que o fogão seja construído.\n2. Clique no fogão para selecioná-lo.\n3. Abra a aba TAREFAS.\n4. Clique em ADICIONAR TAREFA.\n5. Selecione COZINHAR REFEIÇÃO SIMPLES no menu de contexto.\n6. Clique no botão + para aumentar a contagem até 10.\n\nLembre-se, você pode acelerar o tempo se estiver demorando muito para construir.\n\nVocê também pode selecionar um colono e clicar com o botão direito no fogão para priorizar a construção dele.</AddBillSimpleMeal.text>
   
@@ -79,10 +79,10 @@
   <!-- EN: You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often! -->
   <ChangeWorkSettings.text>Você pode controlar quem faz o quê e que tipos de trabalhos usando as caixas selecionáveis. Os colonos irão as fazer tarefas em ordem, da esquerda para a direita.\n\nTente alterar algumas configurações agora.\n\nMas cuidado - Os colonos sempre seguirão as suas prioridades de trabalho, mesmo que isto os deixe fazer coisas estúpidas! A criação de um regime de trabalho inteligente é uma habilidade fundamental para o sucesso em RimWorld. Então defina as configurações de trabalho com cuidado, e reveja elas com frequência!</ChangeWorkSettings.text>
   
-  <!-- EN: Please choose a temperate forest site with flat terrain. -->
-  <ChooseLandingSite.rejectInputMessage>Por favor, escolha um local de pouso na floresta temperada e com o terreno plano.</ChooseLandingSite.rejectInputMessage>
-  <!-- EN: Here, you choose your starting site.\n\nThere are lots of biomes, but for now, let's start with a friendly one.\n\nClick a location with temperate forest biome and flat terrain, and click NEXT.\n\nYou can use the TERRAIN tab to view information about the selected tile. -->
-  <ChooseLandingSite.text>Aqui, você deve escolher o seu local de pouso.\n\nExistem muitos biomas, mas por enquanto, vamos começar com um amigável.\n\nClique em um local de pouso com bioma de floresta temperada e terreno plano e clique em PRÓXIMO. Você pode usar a aba TERRENO para exibir informações sobre o azulejo selecionado.</ChooseLandingSite.text>
+  <!-- EN: Please choose a temperate forest site with no hills (light green with no brown dots). -->
+  <ChooseLandingSite.rejectInputMessage>Por favor, escolha um local de floresta temperada sem colinas (verde claro sem pontos marrons).</ChooseLandingSite.rejectInputMessage>
+  <!-- EN: Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
+  <ChooseLandingSite.text>Aqui você escolhe o seu lugar inicial.\n\nClique em uma floresta temperada (verde claro) sem colinas marrons. Depois clique em PRÓXIMO.\n\nOpcionalmente, você pode usar a aba TERRENO para visualizar informações sobre o ladrilho selecionado.</ChooseLandingSite.text>
   
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>Por favor, escolha um narrador no menu de Opções para terminar o tutorial.</ChooseStoryteller.rejectInputMessage>
@@ -169,15 +169,15 @@
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>Você pode pausar o tempo.\n\nIsto significa que você nunca precisará se apressar. Você sempre pode fazer uma pausa e tomar o seu tempo para emitir ordens.\n\nTente pausar com a tecla {Key:TogglePause}, ou usando os controles de tempo no canto inferior direito.</Pause.text>
   
-  <!-- EN: Please try randomizing a character first. -->
-  <RandomizeCharacter.rejectInputMessage>Por favor, tente aleatorizar um personagem primeiro.</RandomizeCharacter.rejectInputMessage>
-  <!-- EN: If you don't like a character, you can regenerate them!\n\nTry randomizing a character with the RANDOMIZE button. -->
-  <RandomizeCharacter.text>Agora você irá gerar os personagens!\n\nTente aleatorizar um personagem com o botão ALEATORIZAR.</RandomizeCharacter.text>
+  <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.rejectInputMessage>Por favor, clique no botão ALEATORIZAR para randomizar o personagem.</RandomizeCharacter.rejectInputMessage>
+  <!-- EN: If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.text>Agora você irá gerar os personagens!\n\nClique no botão ALEATORIZAR para randomizar o personagem.</RandomizeCharacter.text>
   
-  <!-- EN: Please try choosing a character first. -->
-  <ReorderCharacters.rejectInputMessage>Por favor, tente escolher um personagem primeiro.</ReorderCharacters.rejectInputMessage>
-  <!-- EN: Now you can choose characters!\n\nClick in the left area to select from available characters. If you find a character you like, drag them into the top section with the SELECTED label. -->
-  <ReorderCharacters.text>Agora você pode escolher os personagens!\n\nClique na área à esquerda para selecionar os personagens disponíveis. Se você encontrar um personagem de sua preferência, arraste-o para a seção superior com o rótulo SELECIONADO.</ReorderCharacters.text>
+  <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
+  <ReorderCharacters.rejectInputMessage>Por favor, arraste um personagem do grupo "deixado para trás" (no canto inferior esquerdo) para o grupo "selecionado" (no canto superior esquerdo).</ReorderCharacters.rejectInputMessage>
+  <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
+  <ReorderCharacters.text>Agora você escolhe com quais personagens deseja iniciar.\n\nARRASTE um personagem da parte "deixada para trás" da lista de personagens (na parte inferior) para a parte "selecionado" (na parte superior).\n\nOpcionalmente, clicar em um personagem permitirá que você o inspecione.</ReorderCharacters.text>
   
   <!-- EN: Please choose a research project. -->
   <SelectResearchProject.rejectInputMessage>Por favor, escolha um projeto de pesquisa.</SelectResearchProject.rejectInputMessage>
