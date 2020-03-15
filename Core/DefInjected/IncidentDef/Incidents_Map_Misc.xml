@@ -15,8 +15,6 @@
   <ColdSnap.label>onda de frio</ColdSnap.label>
   <!-- EN: Cold snap -->
   <ColdSnap.letterLabel>Onda de frio</ColdSnap.letterLabel>
-  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
-  <ColdSnap.letterText>Uma onda de frio incomum começou. Cuidado com a hipotermia e morte da vegetação.</ColdSnap.letterText>
   
   <!-- EN: crop blight -->
   <CropBlight.label>praga das plantações</CropBlight.label>
@@ -25,18 +23,14 @@
   <FarmAnimalsWanderIn.label>animais de fazenda se juntam</FarmAnimalsWanderIn.label>
   
   <!-- EN: flashstorm -->
-  <Flashstorm.label>tempestade seca</Flashstorm.label>
+  <Flashstorm.label>tempestade de raios</Flashstorm.label>
   <!-- EN: Flashstorm -->
-  <Flashstorm.letterLabel>Tempestade seca</Flashstorm.letterLabel>
-  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
-  <Flashstorm.letterText>Quantidades extremas de raios estão atingindo uma pequena região. Isto pode causar incêndios maciços.</Flashstorm.letterText>
+  <Flashstorm.letterLabel>Tempestade de raios</Flashstorm.letterLabel>
   
   <!-- EN: heat wave -->
   <HeatWave.label>onda de calor</HeatWave.label>
   <!-- EN: Heat wave -->
   <HeatWave.letterLabel>Onda de calor</HeatWave.letterLabel>
-  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
-  <HeatWave.letterText>Uma onda de calor incomum começou. Cuidado com a insolação.</HeatWave.letterText>
   
   <!-- EN: herd migration -->
   <HerdMigration.label>migração de rebanho</HerdMigration.label>
@@ -63,9 +57,6 @@
   <!-- EN: Ransom demand -->
   <RansomDemand.letterLabel>pedido de resgate</RansomDemand.letterLabel>
   
-  <!-- EN: chased refugee -->
-  <RefugeeChased.label>refugiado perseguido</RefugeeChased.label>
-  
   <!-- EN: transport pod crash -->
   <RefugeePodCrash.label>colisão de cápsula de refugiado</RefugeePodCrash.label>
   
@@ -85,22 +76,18 @@
   <ToxicFallout.label>precipitação tóxica</ToxicFallout.label>
   <!-- EN: Toxic fallout -->
   <ToxicFallout.letterLabel>Precipitação tóxica</ToxicFallout.letterLabel>
-  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
-  <ToxicFallout.letterText>Um incêndio químico distante começou e lançou uma nuvem de veneno ao longo de toda esta região.\n\nQualquer pessoa ou criatura que não esteja sob um telhado será lentamente envenenado com a poeira tóxica por se estabelecer fora da atmosfera ideal.\n\nIsto pode durar de alguns dias a semanas.</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
-  <VolcanicWinter.label>cinzas vulcânicas</VolcanicWinter.label>
+  <VolcanicWinter.label>inverno vulcânico</VolcanicWinter.label>
   <!-- EN: Volcanic winter -->
-  <VolcanicWinter.letterLabel>Cinzas vulcânicas</VolcanicWinter.letterLabel>
-  <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
-  <VolcanicWinter.letterText>Um super vulcão distante entrou em erupção e começou a soltar milhões de quilômetros cúbicos de cinzas na atmosfera.\n\nAs cinzas na atmosfera irão obscurecer o sol. As temperaturas irão cair e as plantas vão sofrer por falta de luz solar. Isto pode dpassar em algumas semanas, ou pode durar muitos trimestres.</VolcanicWinter.letterText>
+  <VolcanicWinter.letterLabel>Inverno vulcânico</VolcanicWinter.letterLabel>
   
   <!-- EN: wanderer join -->
   <WandererJoin.label>aldeão se junta</WandererJoin.label>
-  <!-- EN: Wanderer joins -->
-  <WandererJoin.letterLabel>aldeões se junta</WandererJoin.letterLabel>
-  <!-- EN: A {PAWN_kind} named {PAWN_nameDef} has arrived and is joining the colony. {PAWN_pronoun} is a {PAWN_title}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>Um {PAWN_kind} chamado {PAWN_nameDef} chegou e está se juntando à colônia. {PAWN_pronoun} é um {PAWN_title}.\n\n[PAWN_pronoun] está disposto a contribuir, mas não sairá voluntariamente. Se você não quiser {PAWN_nameDef}, pode banir {PAWN_objective}, vender {PAWN_objective} como escravo ou simplesmente matar {PAWN_objective}. No entanto, seus outros colonos podem achar isso perturbador.</WandererJoin.letterText>
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
+  <WandererJoin.letterLabel>Aldeão se junta: {PAWN_nameDef}</WandererJoin.letterLabel>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
+  <WandererJoin.letterText>Um(a) {PAWN_title} chamado {PAWN_nameDef} chegou e está se juntando à colônia.\n\n[PAWN_pronoun] está disposto a contribuir, mas não sairá voluntariamente. Se você não quiser {PAWN_nameDef}, pode banir {PAWN_objective}, vender {PAWN_objective} como escravo, ou simplesmente matar {PAWN_objective}. No entanto, seus outros colonos podem achar isso perturbador.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>homem selvagem na área</WildManWandersIn.label>
