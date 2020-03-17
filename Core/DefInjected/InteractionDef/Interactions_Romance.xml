@@ -3,24 +3,32 @@
   
   <!-- EN: breakup -->
   <Breakup.label>rompimento</Breakup.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break. -->
-  <Breakup.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef] um tempo.</Breakup.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space. -->
-  <Breakup.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef] por espaço.</Breakup.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out. -->
-  <Breakup.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef] contou para [RECIPIENT_nameDef] que não está dando certo.</Breakup.logRulesInitiator.rulesStrings.2>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people. -->
-  <Breakup.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef] contou para [RECIPIENT_nameDef] que seria melhor conhecer outras pessoas.</Breakup.logRulesInitiator.rulesStrings.3>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
+    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
+  -->
+  <Breakup.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef], para dar um tempo.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef], por espaço.</li>
+    <li>r_logentry->[INITIATOR_nameDef] contou para [RECIPIENT_nameDef] que não está dando certo.</li>
+    <li>r_logentry->[INITIATOR_nameDef] contou para [RECIPIENT_nameDef] que seria melhor conhecer outras pessoas.</li>
+  </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
   <MarriageProposal.label>proposta de casamento</MarriageProposal.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef]. -->
-  <MarriageProposal.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] propós casamento para [RECIPIENT_nameDef].</MarriageProposal.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef]. -->
-  <MarriageProposal.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef] propôs um compromisso sério para [RECIPIENT_nameDef].</MarriageProposal.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective]. -->
-  <MarriageProposal.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef] disse a [RECIPIENT_nameDef] que [INITIATOR_pronoun] quer passar [INITIATOR_possessive] vida com [OTHER_objective].</MarriageProposal.logRulesInitiator.rulesStrings.2>
-  
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
+  -->
+  <MarriageProposal.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] propós casamento para [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] propôs um compromisso sério para [RECIPIENT_nameDef].</li>
+    <li>r_logentry->r_logentry->[INITIATOR_nameDef] disse a [RECIPIENT_nameDef] que [INITIATOR_pronoun] quer passar sua vida com [OTHER_objective].</li>
+  </MarriageProposal.logRulesInitiator.rulesStrings>
+
   <!-- EN: romance attempt -->
   <RomanceAttempt.label>tentativa de romance</RomanceAttempt.label>
   <!-- EN:

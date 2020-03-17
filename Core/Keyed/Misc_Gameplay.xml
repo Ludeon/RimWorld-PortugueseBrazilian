@@ -98,6 +98,12 @@
   <RenameAnimal>Renomear animal</RenameAnimal>
   <!-- EN: Rename colonist -->
   <RenameColonist>Renomear colono</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>Renunciar título</RenounceTitle>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>{0} de {1}</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>Esta ação irá fazer {PAWN_nameDef} perder o título {TITLE} {PAWN_possessive}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: unknown -->
   <UnknownLower>desconhecido</UnknownLower>
   <!-- EN: On -->
@@ -411,7 +417,7 @@
   <!-- EN: Radius expand rate -->
   <RadiusExpandRate>Taxa de expansão do raio</RadiusExpandRate>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>Exibição: {0}</ViewHyperlink>
+  <ViewHyperlink>Ver: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Detona em {0} dias</DetonationCountdown>
   <!-- EN: Large explosion if damaged -->
@@ -438,6 +444,8 @@
   <DormantCompBeacon>Pronto para descartar mecanoides</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>Expirado</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>Inicia em</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Ativa em {0}</SendSignalOnCountdownCompTime>
   <!-- EN: Psychic entropy -->
@@ -879,7 +887,7 @@
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Alterna expansão autônoma da área da casa em torno das novas construções.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Alternar reconstrução automática de estruturas destruídas na área de origem.</AutoRebuildButton>
+  <AutoRebuildButton>Alternar reconstrução automática de estruturas destruídas na área da casa.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
   <CategorizedResourceReadoutToggleButton>Alterna para o modo categoria de como os recursos são visualizados.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
@@ -995,7 +1003,7 @@
   <!-- EN: Use skill neurotrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>Use o treinador neural de habilidades para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>Uma superdosagem de mecanites de uso único que treina uma habilidade específica.\n\nA dose é administrada através da órbita do olho. Uma vez liberados no cérebro, os mecanites melhoram rapidamente as habilidades do sujeito em uma área específica, transformando-se em tecido neural, conforme necessário.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Uma superdosagem de mecanitos de uso único que treina uma habilidade específica.\n\nA dose é administrada através da órbita do olho. Uma vez liberados no cérebro, os mecanitos melhoram rapidamente as habilidades do sujeito em uma área específica, transformando-se em tecido neural, conforme necessário.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
   <SkillNeurotrainerUsed>{USER_labelShort} usou {1} treinador neural para passar do nível {2} para o nível {3}.</SkillNeurotrainerUsed>
 
@@ -1237,11 +1245,11 @@
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
-  <BondedWith>Ligado a: {0}</BondedWith>
+  <BondedWith>Vinculado a: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>Ainda não está ligado</NotBonded>
+  <NotBonded>Ainda não está vinculado</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>ligado a outra pessoa</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>vinculado a outra pessoa</BladelinkBondedToSomeoneElse>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
