@@ -12,8 +12,8 @@
   <Breakup.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef], para dar um tempo.</li>
     <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef], por espaço.</li>
-    <li>r_logentry->[INITIATOR_nameDef] contou para [RECIPIENT_nameDef] que não está dando certo.</li>
-    <li>r_logentry->[INITIATOR_nameDef] contou para [RECIPIENT_nameDef] que seria melhor conhecer outras pessoas.</li>
+    <li>r_logentry->[INITIATOR_nameDef] falou para [RECIPIENT_nameDef] que não está dando certo.</li>
+    <li>r_logentry->[INITIATOR_nameDef] falou para [RECIPIENT_nameDef] que seria melhor conhecer outras pessoas.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -26,7 +26,7 @@
   <MarriageProposal.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] propós casamento para [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] propôs um compromisso sério para [RECIPIENT_nameDef].</li>
-    <li>r_logentry->r_logentry->[INITIATOR_nameDef] disse a [RECIPIENT_nameDef] que [INITIATOR_pronoun] quer passar sua vida com [OTHER_objective].</li>
+    <li>r_logentry->r_logentry->[INITIATOR_nameDef] disse a [RECIPIENT_nameDef] que [INITIATOR_pronoun] quer passar sua vida com [OTHER_pronoun].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
 
   <!-- EN: romance attempt -->
@@ -110,8 +110,8 @@
     <li>wootactic->brincando sobre [TalkTopicAny]</li>
     <li>wootactic->fazendo uma observação sobre [TalkTopicAny]</li>
     <li>wootactic(p=2)->[boasting] a [PersonalCharacteristic] de [INITIATOR_possessive]</li>
-    <li>wootactic->comparando [RECIPIENT_objective] com uma [romantic_adj] [romantic_noun]</li>
-    <li>wootactic->descrevendo [RECIPIENT_objective] como uma [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->comparando [RECIPIENT_pronoun] com uma [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->descrevendo [RECIPIENT_pronoun] como uma [romantic_adj] [romantic_noun]</li>
     <li>boasting->gabando-se sobre</li>
     <li>boasting->mencionando</li>
     <li>boasting->implicando coisas boas sobre</li>

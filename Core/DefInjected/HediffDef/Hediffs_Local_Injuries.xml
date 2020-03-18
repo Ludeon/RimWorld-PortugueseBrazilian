@@ -5,6 +5,12 @@
   <Bite.label>mordida</Bite.label>
   <!-- EN: A bite wound. -->
   <Bite.description>Uma ferida de mordida.</Bite.description>
+  <!-- EN: set -->
+  <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Bite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: bite scar -->
   <Bite.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de mordida</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Bitten off -->
@@ -20,6 +26,14 @@
   <Bruise.label>hematoma</Bruise.label>
   <!-- EN: A bruise. -->
   <Bruise.description>Um hematoma.</Bruise.description>
+  <!-- EN: set -->
+  <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>cuidado</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Bruise.injuryProps.destroyedLabel>Destruído</Bruise.injuryProps.destroyedLabel>
   <!-- EN: a bruise -->
   <Bruise.labelNoun>um hematoma</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -29,6 +43,12 @@
   <Burn.label>queimadura</Burn.label>
   <!-- EN: A burn. -->
   <Burn.description>Uma queimadura.</Burn.description>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>cuidado</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Burn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>cuidado</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off -->
@@ -59,8 +79,16 @@
   <Crack.label>fissura</Crack.label>
   <!-- EN: A crack. -->
   <Crack.description>Uma fissura.</Crack.description>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>fixado</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>fixado</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>fissura permanente</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shattered -->
+  <Crack.injuryProps.destroyedLabel>destruído</Crack.injuryProps.destroyedLabel>
   <!-- EN: a crack wound -->
   <Crack.labelNoun>uma ferida permanente</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -70,8 +98,16 @@
   <Crush.label>esmagamento</Crush.label>
   <!-- EN: A crushing wound. -->
   <Crush.description>Uma ferida de esmagamento.</Crush.description>
+  <!-- EN: set -->
+  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Crush.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: mangled scar -->
   <Crush.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de esmagamento</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Crushed -->
+  <Crush.injuryProps.destroyedLabel>Esmagado</Crush.injuryProps.destroyedLabel>
   <!-- EN: a crush wound -->
   <Crush.labelNoun>uma ferida de esmagamento</Crush.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -81,6 +117,12 @@
   <Cut.label>corte</Cut.label>
   <!-- EN: A cut. -->
   <Cut.description>Um corte.</Cut.description>
+  <!-- EN: set -->
+  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Cut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: cut scar -->
   <Cut.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de corte</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Cut off -->
@@ -96,6 +138,12 @@
   <Frostbite.label>queimadura por frio</Frostbite.label>
   <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
   <Frostbite.description>Tecido congelado causado pela exposição ao frio sem proteção adequada. A queimadura por frio do tecido é muito dolorosa, e partes do corpo queimadas são frequentemente perdidas.</Frostbite.description>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>cuidado</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>cuidado</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura por frio</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Lost to frostbite -->
@@ -107,6 +155,12 @@
   <Gunshot.label>tiro</Gunshot.label>
   <!-- EN: A gunshot wound. -->
   <Gunshot.description>Um ferimento de tiro.</Gunshot.description>
+  <!-- EN: set -->
+  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent gunshot injury -->
   <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>lesão permanente por arma de fogo</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old gunshot -->
@@ -124,6 +178,14 @@
   <Misc.label>outros</Misc.label>
   <!-- EN: Miscellanous injuries. -->
   <Misc.description>Ferimentos diversos.</Misc.description>
+  <!-- EN: set -->
+  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Misc.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Misc.injuryProps.destroyedLabel>Destruído</Misc.injuryProps.destroyedLabel>
   <!-- EN: an injury -->
   <Misc.labelNoun>uma lesão</Misc.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -142,6 +204,12 @@
   <Scratch.label>arranhão</Scratch.label>
   <!-- EN: A scratch or tear. -->
   <Scratch.description>Um arranhão ou rasgo.</Scratch.description>
+  <!-- EN: set -->
+  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: scratch scar -->
   <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de arranhão</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Torn off -->
@@ -157,6 +225,12 @@
   <Shredded.label>dilaceração</Shredded.label>
   <!-- EN: A part of the body has been shredded and torn. -->
   <Shredded.description>Uma parte do corpo foi dilacerada e rasgada.</Shredded.description>
+  <!-- EN: set -->
+  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: shredded scar -->
   <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de dilaceração</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Torn off -->
@@ -172,6 +246,12 @@
   <Stab.label>facada</Stab.label>
   <!-- EN: A stab wound. -->
   <Stab.description>Uma facada.</Stab.description>
+  <!-- EN: set -->
+  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</Stab.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: stab scar -->
   <Stab.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de facada</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Cut off -->
@@ -187,6 +267,12 @@
   <SurgicalCut.label>corte cirúrgico</SurgicalCut.label>
   <!-- EN: A cut made during surgery. -->
   <SurgicalCut.description>Um corte feito durante a cirurgia.</SurgicalCut.description>
+  <!-- EN: set -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>enfaixado</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>suturado</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: surgical scar -->
   <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz cirúrgica</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: a surgical cut -->
