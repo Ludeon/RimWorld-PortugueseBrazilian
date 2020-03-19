@@ -3,7 +3,7 @@
 
   <!-- Royal Titles -->
   <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
-  <RoyalFavorDescription>A quantia de {FACTION_royalFavorLabel} que seu negociador receberá pessoalmente como resultado desta transação.</RoyalFavorDescription>
+  <RoyalFavorDescription>A quantia de {FACTION_royalFavorLabel} que seu negociador receberá pessoalmente como resultado deste acordo.</RoyalFavorDescription>
   <!-- EN: Required apparel -->
   <RoyalTitleTooltipRequiredApparel>Requer roupas</RoyalTitleTooltipRequiredApparel>
   <!-- EN: Minimum apparel quality -->
@@ -17,19 +17,19 @@
   <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
   <RoyalTitleTooltipMaxPsycastLevelDescription>O nível mais alto de invocador psíquico permitido por este título.\n\n As leis de {FACTION_name} proíbem o uso de invocações psíquicas sem um título adequado. Cada vez que você realiza uma invocação psíquica ilegal, há uma chance de a assinatura psíquica ser detectada, levando a consequências diplomáticas.\n\nAs assinaturas psíquicas podem ser ocultadas com um implante de silenciador psíquico.</RoyalTitleTooltipMaxPsycastLevelDescription>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>Sala: {0} azulejos</RoomRequirementArea>
+  <RoomRequirementArea>area da sala: {0} ladrilhos</RoomRequirementArea>
   <!-- EN: room impressiveness -->
-  <RoomRequirementImpressiveness>Impressionabilidade do quarto</RoomRequirementImpressiveness>
+  <RoomRequirementImpressiveness>impressionabilidade da sala</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
   <RoomRequirementAllFloored>todo pavimentado</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
   <RoomRequirementAllBraziersMustBeLit>todos os braseiros devem estar acesos</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>tudo bem pavimentado</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>todo finamente pavimentado</RoomRequirementAllFineFloored>
   <!-- EN: Holders of this title must be covered in some combination of -->
-  <RoyalTitleRequiredApparelStatDescription>Detentores deste título devem estar vestidos por alguma combinação de</RoyalTitleRequiredApparelStatDescription>
+  <RoyalTitleRequiredApparelStatDescription>Detentores deste título devem estar vestidos com alguma combinação de</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any powered armor -->
-  <ApparelRequirementAnyPowerArmor>Qualquer armadura potente</ApparelRequirementAnyPowerArmor>
+  <ApparelRequirementAnyPowerArmor>Qualquer armadura poderosa</ApparelRequirementAnyPowerArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>Qualquer roupa de invocador psíquico</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: Disabled work types -->
@@ -38,25 +38,25 @@
   <RoyalTitleRequiredMeals>Alimentos permitidos</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
   <RoyalTitleRequiredMealsDesc>O detentor deste título só comerá esses alimentos, a menos que estejam passando fome ou em uma caravana.</RoyalTitleRequiredMealsDesc>
-
+  
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
-  <RoyalImplantIllegalUseWarning>De acordo com as leis de {FACTION_name}, é necessário ter o título de {TITLE} para usar legalmente um {IMPLANT}.\n\n{VIOLATIONTRIGGER}, é possível que {FACTION_name} detecte sua assinatura psíquica. Isso levará a consequências diplomáticas.\n\nUm implante de silenciador psíquico permitiria o uso do {IMPLANT} sem detecção.</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>De acordo com as leis de {FACTION_name}, é necessário ter o título de {TITLE} para usar legalmente um(a) {IMPLANT}.\n\n{VIOLATIONTRIGGER}, existe uma chance de que {FACTION_name} detecte sua assinatura psíquica. Isso levará a consequências diplomáticas.\n\nUm implante de silenciador psíquico permitiria o uso do {IMPLANT} sem detecção.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>Tem certeza que quer instalar este implante?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>Tem certeza que quer atualizar este implante?</RoyalImplantUpgradeConfirmation>
   <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
-  <PsychicAmplifierViolationTrigger>Cada vez que o {PAWN_labelShort} executa uma invocação psíquica acima do nível permitido</PsychicAmplifierViolationTrigger>
+  <PsychicAmplifierViolationTrigger>Toda vez que {PAWN_labelShort} executa uma invocação psíquica acima do nível permitido</PsychicAmplifierViolationTrigger>
 
   <!-- Royal weapons -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
-  <RoyalWeaponIllegalUseWarning>De acordo com as leis de {FACTION_name}, é necessário ter o título de {TITLE} para usar legalmente {WEAPON_indefinite}.\n\nCada vez que {PAWN_labelShort} ataca com uma arma bladelink, existe a chance de {FACTION_name} detectar sua assinatura psíquica. Isso levará a consequências diplomáticas.\n\nUm implante de silenciador psíquico permitiria o uso de {WEAPON_definite} sem detecção.</RoyalWeaponIllegalUseWarning>
+  <RoyalWeaponIllegalUseWarning>De acordo com as leis de {FACTION_name}, é necessário ter o título de {TITLE} para usar {WEAPON_indefinite} legalmente.\n\nCada vez que {PAWN_labelShort} ataca com uma arma bladelink, existe a chance de {FACTION_name} detectar sua assinatura psíquica. Isso levará a consequências diplomáticas.\n\nUm implante de silenciador psíquico permitiria o uso de {WEAPON_definite} sem detecção.</RoyalWeaponIllegalUseWarning>
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>Uma vez vinculada a um portador, a persona da arma se recusará a ser manejada por qualquer outra pessoa.</BladelinkEquipWarning>
   <!-- EN: Are you sure you want to equip this item? -->
   <RoyalWeaponEquipConfirmation>Tem certeza de que deseja equipar este item?</RoyalWeaponEquipConfirmation>
-
+  
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>O alvo é surdo psiquicamente.</AbilityTargetPsychicallyDeaf>
