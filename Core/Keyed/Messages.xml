@@ -206,7 +206,7 @@
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>{HUMAN_labelShort} e {ANIMAL_labelShort} formaram um vínculo.</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort} e {1} formaram um vínculo. {HUMAN_labelShort} agora chama {ANIMAL_objective} de {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort} e {1} formaram um vínculo. {HUMAN_labelShort} nomeou {ANIMAL_pronoun} de {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
 
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL} teve um surto mental por causa da morte de {HUMAN_labelShort}.</MessageBondedAnimalMentalBreak>
@@ -436,13 +436,13 @@
   <MessageWarningCavePlantsExposedToLight>Aviso: {0} não pode viver quando exposto à luz.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} não conseguiu alcançar {OLDTARGET_label}, por isso, {PAWN_pronoun} decidiu redirecionar a raiva {PAWN_possessive} para {TARGET_label}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} não conseguiu alcançar {OLDTARGET_label}, por isso, {PAWN_pronoun} decidiu redirecionar a raiva {PAWN_objective} para {TARGET_label}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} não conseguiu alcançar {OLDTARGET_label}, por isso, {PAWN_pronoun} decidiu redirecionar a raiva {PAWN_possessive} para {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} não conseguiu alcançar {OLDTARGET_label}, por isso, {PAWN_pronoun} decidiu redirecionar a raiva {PAWN_objective} para {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>{PAWN_labelShort} decidiu redirecionar a raiva {PAWN_possessive} para {TARGET_label}.</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>{PAWN_labelShort} decidiu redirecionar a raiva {PAWN_objective} para {TARGET_label}.</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0} não pode crescer debaixo de um telhado.</MessagePlantIncompatibleWithRoof>
@@ -566,7 +566,7 @@
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Um dos arquivos de tradução ({0}) não pôde ser carregado. Todos os erros de análise XML devem ser resolvidos primeiro.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>Aviso: a captura de {PAWN_nameDef} irritará a facção {PAWN_possessive} {PAWN_factionName}.</MessageCapturingWillAngerFaction>
+  <MessageCapturingWillAngerFaction>Aviso: Capturar {PAWN_nameDef} irritará a facção {PAWN_objective} {PAWN_factionName}.</MessageCapturingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>Não pode atirar em uma luta corpo a corpo.</MessageCantShootInMelee>

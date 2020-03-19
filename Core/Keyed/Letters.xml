@@ -71,11 +71,11 @@
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
   <NewDisease>{PAWN} ficou doente de {1}.\n\nTenha certeza que você tem uma cama médica e um médico. Certifique-se de que {PAWN_definite} receba o tratamento adequado e fique mais tempo na cama o quanto possível.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN} ficou doente de {3}. A infecção é {PAWN_possessive} {1}.\n\nTenha certeza que você tem uma cama médica e um médico. Certifique-se de que {PAWN_definite} receba o tratamento adequado e fique mais tempo na cama o quanto possível.</NewPartDisease>
+  <NewPartDisease>{PAWN} ficou doente de {3}. A infecção está no(a) {1} {PAWN_objective}.\n\nTenha certeza que você tem uma cama médica e um médico. Certifique-se de que {PAWN_definite} receba tratamento adequado e passe o maior tempo possível na cama.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
   <NewDiseaseAnimal>{PAWN_labelShort} desenvolveu uma doença: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
-  <NewPartDiseaseAnimal>{PAWN_labelShort} desenvolveu uma doença: {3} em {PAWN_possessive} {1}</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>{PAWN_labelShort} desenvolveu uma doença: {3} no(a) {1} {PAWN_objective}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{0} fazia parte da sua facção.</PawnWasFormerlyColonist>
@@ -87,7 +87,7 @@
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Perigo ancestral</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>Quando {PAWN_nameDef} se aproxima da antiga muralha, uma sensação de mau presságio toma {PAWN_objective}. {PAWN_pronoun} não tem certeza do motivo, mas {PAWN_pronoun} acha que essa estrutura empoeirada pode conter um grande perigo.</AncientShrineWarning>
+  <AncientShrineWarning>À medida que {PAWN_nameDef} se aproxima da antiga muralha, uma sensação de mau presságio toma {PAWN_pronoun}. {PAWN_pronoun} não tem certeza do motivo, mas {PAWN_pronoun} acha que essa estrutura empoeirada pode conter um grande perigo.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>Nós encontramos {0}!</StruckMineable>
@@ -189,7 +189,7 @@
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_labelShort} e {PAWN2_labelShort} não estão mais em um relacionamento.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} alterará o sobrenome d{PAWN_pronoun} de volta para o seu nome de nascimento.</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} alterará o sobrenome {PAWN_objective} de volta para o seu nome de nascimento.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Rompimento</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -199,7 +199,7 @@
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>Em algum momento nos próximos dias ou trimestres, eles terão sua cerimônia de casamento e convidarão todos os colonos. Considere colocar um ponto de casamento se você quiser controlar onde a cerimônia ocorrerá.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>{PAWN_label} mudará o sobrenome d{PAWN_pronoun} para {1}.</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label} mudará o sobrenome {PAWN_objective} para {1}.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>{INITIATOR_nameFull} vai ficar triste com isso.</LetterRejectedProposal>
 
@@ -233,7 +233,7 @@
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>Vício em {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort} desenvolveu um vício em {1}.\n\n{PAWN_pronoun} tem agora uma necessidade por {1}, visível em sua guia de Situação. {PAWN_pronoun} consumirá automaticamente a droga para preencher a sua necessidade. Se {PAWN_pronoun} ficar sem qualquer {1}, {PAWN_pronoun} irá desenvolver síndrome de abstinência.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort} desenvolveu um vício em {1}.\n\n{PAWN_pronoun} agora tem uma necessidade por {1}, visível em sua guia de Situação. {PAWN_pronoun} consumirá automaticamente a droga para preencher a sua necessidade. Se {PAWN_pronoun} não conseguir obter {1}, {PAWN_pronoun} irá desenvolver síndrome de abstinência.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
@@ -323,7 +323,7 @@
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0} está farto da civilização.\n\n{PAWN_pronoun} percebeu que as criaturas selvagens estão sempre livres. Então, {PAWN_pronoun} decidiu deixar sua facção e conviver com os animais.\n\nVocê pode tentar domar ou prender {PAWN_objective} para recuperar {PAWN_objective}.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} está farto(a) da civilização.\n\n{PAWN_pronoun} percebeu que as criaturas selvagens estão sempre livres. Então, {PAWN_pronoun} decidiu deixar sua facção e conviver com os animais.\n\nVocê pode tentar domar ou prender {PAWN_pronoun} para recuperá-lo(a).</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
@@ -433,7 +433,7 @@
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>{PAWN_nameDef} se juntou</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef} agradece por você ter o(a) resgatado. {PAWN_pronoun} decidiu que {PAWN_pronoun} prefere ficar do que sair e está se juntando à sua colônia.</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} agradece por você ter o(a) resgatado. {PAWN_pronoun} decidiu que prefere ficar do que ir embora, e está se juntando à sua colônia.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
@@ -463,7 +463,7 @@
   <!-- EN: {PAWN_nameDef} kidnapped -->
   <LetterLabelPawnsKidnapped>{PAWN_nameDef} sequestrado</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>O {PAWN_nameDef} foi sequestrado por {FACTION_name}!\nNo entanto, {PAWN_pronoun} não está perdido para sempre. Uma oportunidade de resgatar {PAWN_pronoun} pode aparecer nos próximos dias ou anos.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} foi sequestrado(a) por {FACTION_name}!\nNo entanto, {PAWN_pronoun} não está perdido(a) para sempre. Uma oportunidade de resgatar {PAWN_pronoun} pode aparecer nos próximos dias ou anos.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->

@@ -11,33 +11,35 @@
   <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>({0} impressionante)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
-  <ThroneMustBePlacedInside>O trono deve ser colocado dentro da sala.</ThroneMustBePlacedInside>
+  <ThroneMustBePlacedInside>O trono deve ser colocado no interior.</ThroneMustBePlacedInside>
   <!-- EN: Throne room contains more than one throne, but this is only allowed for married couples. -->
   <ThroneRoomHasMoreThan1Throne>A sala do trono contém mais de um trono, mas isso só é permitido para casais.</ThroneRoomHasMoreThan1Throne>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>Título mínimo de ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>Título mínimo ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
   <RequiresTradePermission>A negociação aqui requer o título: {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
-  <RequirementPersonalBedroom>Quarto pessoal (permitido parceiro)</RequirementPersonalBedroom>
-
+  <RequirementPersonalBedroom>Quarto pessoal (parceiro permitido)</RequirementPersonalBedroom>
+  
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>treinador psíquico ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use neurotrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Use o neurotreinador para aprender {0} invocação psíquica</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Usar o neurotreinador para aprender a invocação psíquica {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Uma super dose de uso único de mecanitos ajustados para treinar um psycast específico. A dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade psycast específica, transmutando-se em tecido neural quando necessário.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Uma super dose de uso único de mecanitos ajustados para treinar uma invocação psíquica específica. A dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade de invocação psíquica específica, transmutando-se em tecido neural quando necessário.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender o psycast {1}.</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender a invocação psíquica {1}.</AbilityNeurotrainerUsed>
   <!-- EN: {USER_labelShort} has reached psychic amplifer level {1} and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort} atingiu o nível de amplificador psíquico {1} e aprendeu automaticamente este psycast: {2}.</PsycastLearnedFromImplant>
+  <PsycastLearnedFromImplant>{USER_labelShort} atingiu o nível {1} do amplificador psíquico, e aprendeu automaticamente esta invocação psíquica: {2}.</PsycastLearnedFromImplant>
   <!-- EN: Requires psychic amplifier -->
   <PsycastNeurotrainerNoPsychicAmplifier>Requer amplificador psíquico</PsycastNeurotrainerNoPsychicAmplifier>
+  <!-- EN: {USER_labelShort} already knows {1}. -->
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} já conhece {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor>quem aceitou a missão receberá {1} de {0_royalFavorLabel} de {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>você pode escolher um dos {2} participantes para receber {1} {0_royalFavorLabel} de {0_name}</Reward_RoyalFavor_ChoosePawn>
-
+  <Reward_RoyalFavor_ChoosePawn>você pode escolher um dos {2} participantes para receber {1} de {0_royalFavorLabel} de {0_name}</Reward_RoyalFavor_ChoosePawn>
+  
 </LanguageData>
