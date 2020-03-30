@@ -1,5 +1,5 @@
 
-### Manual de boas práticas de tradução
+## Manual de boas práticas de tradução
 
 -------------------------
 
@@ -58,7 +58,7 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 
 1. Após ter instalado o GitHub Desktop, abra-o;
 2. A tela de inicio do GitHub Desktop irá aparecer, faça login com sua conta e clique em **Clone a repository from the internet...**;
-3. Selecione o seu repositório criado, e clone o mesmo. Por exemplo: https://github.com/(usuario)/RimWorld-PortugueseBrazilian;
+3. Selecione o seu repositório criado, e clone o mesmo. Exemplo: https://github.com/(usuario)/RimWorld-PortugueseBrazilian;
 4. Pronto, você configurou o GitHub Desktop;
 5. Em seguida, basta abrir a pasta da tradução baixada pelo GitHub Desktop com seu editor de texto e começar a traduzir. Caminho da pasta (padrão): C:\Users\(usuário)\Documents\GitHub\RimWorld-PortugueseBrazilian.
 
@@ -69,3 +69,13 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 3. Em **Description** descreva suas mudanças feitas na tradução;
 4. Clique em **Commit to master**;
 5. Clique em **Pull origin** para enviar as traduções para seu repositório.
+
+#### Enviando traduções do seu repositório para o repositório oficial
+
+1. Abra a página do seu repositório. Exemplo: https://github.com/(usuario)/RimWorld-PortugueseBrazilian;
+2. Clique em **New pull request**.
+3. Deixe a ordem dos repositórios de modo que o repositório oficial fique na esquerda, e o seu repositório na direita. Assim você irá enviar atualizações do seu repositório, para o repositório oficial.
+4. Clique em **Create pull request**.
+5. Adicione um título e a descrição das mudanças.
+6. Clique em **Create pull request** novamente.
+7. Aguarde para que suas alterações sejam aprovadas.
