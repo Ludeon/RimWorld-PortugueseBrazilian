@@ -58,7 +58,7 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 
 1. Após ter instalado o GitHub Desktop, abra-o;
 2. A tela de inicio do GitHub Desktop irá aparecer, faça login com sua conta e clique em **Clone a repository from the internet...**;
-3. Selecione o menu **URL** e em **Repository URL or GitHub username and repository** coloque a URL do seu repositório criado. Por exemplo: https://github.com/(usuario)/RimWorld-PortugueseBrazilian;
+3. Selecione o seu repositório criado, e clone o mesmo. Por exemplo: https://github.com/(usuario)/RimWorld-PortugueseBrazilian;
 4. Pronto, você configurou o GitHub Desktop;
 5. Em seguida, basta abrir a pasta da tradução baixada pelo GitHub Desktop com seu editor de texto e começar a traduzir. Caminho da pasta (padrão): C:\Users\(usuário)\Documents\GitHub\RimWorld-PortugueseBrazilian.
 
