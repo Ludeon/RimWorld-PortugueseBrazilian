@@ -17,7 +17,21 @@
   <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>Chegou um novo marcador de monumento</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
   <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Já que o marcador do monumento foi destruído, um novo foi enviado.</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
-
+  <!-- EN: Monument completed -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>Monumento completo</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration] days, otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>Você concluiu a construção do monumento.\n\nVocê deve mantê-lo seguro por [keepMonumentTicks_duration] dias, caso contrário, [asker_nameDef] ficará descontente.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <!-- EN: Monument destroyed -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monumento destruído</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] está ofendido que você tenha permitido que o monumento fosse arruinado logo após a conclusão.\n\n[asker_pronoun] ficará infeliz com isso.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>Não destrua o monumento por {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>Não destrua o monumento por {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>Mantenha o monumento {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
+  
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
   -->

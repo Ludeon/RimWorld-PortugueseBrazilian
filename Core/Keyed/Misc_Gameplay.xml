@@ -104,6 +104,8 @@
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>Esta ação irá fazer {PAWN_nameDef} perder o título de {TITLE} {PAWN_objective}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá essas permissões</RenounceTitleWillLoosePermits>
   <!-- EN: unknown -->
   <UnknownLower>desconhecido</UnknownLower>
   <!-- EN: On -->
@@ -456,6 +458,8 @@
   <ConditionCauserRadius>raio {0}</ConditionCauserRadius>
   <!-- EN: {0} left -->
   <DurationLeft>{0} restante</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>Qualquer um</AnyOf>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1234,12 +1238,10 @@
   <Reward_Pawn_Caravan>um {0_age} anos de idade {0_title} chamado {0_nameDef} vai se juntar a você {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>os pods de transporte com os seguintes recursos chegarão (total value {1}):
-\n{0}</Reward_Items>
+  <Reward_Items>os pods de transporte com os seguintes recursos chegarão (total value {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>você receberá (total value {1}):
-\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>você receberá (total value {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>suas relações de facção com {0_name} melhorarão em {1}</Reward_Goodwill>
   
