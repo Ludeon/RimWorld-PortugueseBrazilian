@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN:
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->guests</li>
@@ -59,7 +59,7 @@
   <Hospitality_Joiners.questDescriptionRules.rulesStrings>
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->os convidados</li>
-    <li>joinerEnding->Você poderá direcionar [lodgersDef] da mesma maneira que direciona seus próprios colonos. [SpecialNeedsExplanation]</li>
+    <li>joinerEnding->Você poderá direcionar [lodgersDef] da mesma maneira que direciona seus próprios colonos. [specialNeedsExplanation]</li>
     <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> Você precisará satisfazer qualquer necessidade real especial que os convidados possam ter.</li>
     <li>specialNeedsExplanation-></li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Um(a) [lodgers0_title] chamado(a) [lodgers0_nameFull] deseja que você proteja [lodgers0_objective] em [map_definite] por [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1]\n\n[commonDescEnding] [joinerEnding]</li>
@@ -167,5 +167,5 @@
   <Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.label.slateRef>Convidado infeliz: {SUBJECT_definite}</Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold_percent] too long.\n\n[remainingWillNowLeave] -->
   <Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, que você foi encarregado de proteger e manter feliz, ficou abaixo do humor mínimo de [lodgersMoodThreshold_percent] por muito tempo.\n\n[remainingWillNowLeave]</Hospitality_Joiners.root.nodes.IsTrue-0.node.nodes.MoodBelow.node.nodes.Letter.text.slateRef>
-
+  
 </LanguageData>
