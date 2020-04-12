@@ -47,7 +47,7 @@
     <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets].</li>
     <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets] [strikeAdv].</li>
     <li>r_logentry->[prefix] [strikeAdv] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets] e [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets] e [damaged_past] seu(ua) [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [RECIPIENT_definite] de [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [RECIPIENT_definite] de [damaged_targets] [strikeAdv].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_past] [RECIPIENT_definite] de [damaged_targets].</li>
@@ -134,7 +134,7 @@
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] e [damaged_past] [RECIPIENT_definite] de [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [damaged_present] [RECIPIENT_definite] de [damaged_targets].</li>
     <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite] de [damaged_targets] foi [damaged_past] por [INITIATOR_definite] de [WEAPON_projectile_label].</li>
-    <li>r_logentry(p=3)->[INITIATOR_definite] de [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets] e [damaged_past] [RECIPIENT_possessive] [damaged_targets].</li>
+    <li>r_logentry(p=3)->[INITIATOR_definite] de [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets] e [damaged_past] seu(ua) [damaged_targets].</li>
     <li>r_logentry(p=6)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] de [destroyed_targets] e [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] atingido [RECIPIENT_definite] com um [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] de [WEAPON_projectile_label] acertou [RECIPIENT_definite].</li>
@@ -225,7 +225,7 @@
     <li>adverb_deflected->inofensivamente</li>
     <li>adverb_deflected->inutilmente</li>
     <li>deflected_consequence->mas isso [scraped_past] fora [adverb_deflected_opt]</li>
-    <li>deflected_consequence->[scraped_present] fora [RECIPIENT_possessive] armadura [adverb_deflected_opt]</li>
+    <li>deflected_consequence->[scraped_present] fora sua armadura [adverb_deflected_opt]</li>
     <li>scraped_past->ricocheteou</li>
     <li>scraped_present->ricocheteando</li>
     <li>missed->se perdeu</li>
@@ -262,12 +262,12 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [shotat] em [RECIPIENT_definite] com [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>r_logentry->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label] em [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [shotat] em [RECIPIENT_definite] com seu(ua) [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [shot] com seu(ua) [WEAPON_label] em [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shotat] em [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label] [burst] em [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] com seu(ua) [WEAPON_label].</li>
     <li>shot_a(p=2)->[verb_shot] um(a)</li>
     <li>shot_a->[skillAdv] [verb_shot] um(a)</li>
     <li>shot(p=2)->[verb_shot]</li>
@@ -317,9 +317,9 @@
     <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label] em [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [threw] seu(ua) [WEAPON_projectile_label] em [RECIPIENT_definite].</li>
     <li>r_logentry->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label] em [RECIPIENT_definite].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] [INITIATOR_possessive] [WEAPON_projectile_label].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw] seu(ua) [WEAPON_projectile_label].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a] [WEAPON_projectile_label].</li>
     <li>threw_a->[adverb_threw] [verb_threw] um(a)</li>
     <li>threw_a(p=2)->[verb_threw] um(a)</li>

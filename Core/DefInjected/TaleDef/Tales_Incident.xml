@@ -76,10 +76,10 @@
     <li>image->[PAWN_nameFull] gritando em voz alta [circumstance_group]</li>
     <li>imagem->[PAWN_nameFull] executando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] com um oponente [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] defendendo [PAWN_objective]self [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] defendendo [PAWN_pronoun] mesmo [circumstance_group]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveBadass]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveBadass]</li>
-    <li>circumstance_phrase->enquanto empunha a arma [PAWN_possessive]</li>
+    <li>circumstance_phrase->enquanto empunha a arma [PAWN_objective]</li>
     <li>circumstance_phrase->banhado de suor com esforço</li>
     <li>desc_sentence->[Quantity_adjphrase] figuras distantes se aproximam por trás de um [TerrainFeature].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s pode ser visto à distância.</li>
@@ -120,7 +120,7 @@
     <li>imagem->[PAWN_nameFull] executando [circumstance_group]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveBadass]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveBadass]</li>
-    <li>circumstance_phrase->enquanto empunha a arma [PAWN_possessive]</li>
+    <li>circumstance_phrase->enquanto empunha a arma [PAWN_objective]</li>
     <li>circumstance_phrase->banhado de suor</li>
     <li>circumstance_phrase->coberto com [Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] animais distantes se aproximam por trás de um [TerrainFeature].</li>
@@ -264,7 +264,7 @@
     <li>circumstance_phrase->cobertura de crepúsculo [Quantity_adjphrase] nas proximidades [TerrainFeature]s</li>
     <li>circumstance_phrase->com estrelas visíveis</li>
     <li>desc_sentence->Abaixo, [PAWN_nameDef] reproduz [Game] com uma aparência [AdjectiveFriendly].</li>
-    <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_objective].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] é visto de baixo.</li>
     <li>desc_sentence->[PAWN_nameDef] fica perto de um [TerrainFeature], olhando para o céu.</li>
     <li>desc_sentence->Uma [Community] de espectadores observa o céu pacificamente.</li>
@@ -372,7 +372,7 @@
     <li>circumstance_phrase->quase envolvendo um [TerrainFeature]</li>
     <li>circumstance_phrase->quase envolvendo [Quantity_adjphrase] [TerrainFeature]s</li>
     <li>desc_sentence->[PAWN_nameDef] assiste com medo visível.</li>
-    <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_nameDef] está coordenando medidas defensivas.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] corre para se preparar.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s foge da área.</li>
@@ -417,7 +417,7 @@
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência.</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente.</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
-    <li>desc_sentence->[PAWN_nameDef] retalia com [PAWN_possessive] [Weapon].</li>
+    <li>desc_sentence->[PAWN_nameDef] retalia com seu(ua) [Weapon].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveBadass].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveAngsty].</li>
     <li>desc_sentence->O chão é revestido em [Gore].</li>
@@ -475,7 +475,7 @@
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência.</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente.</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
-    <li>desc_sentence->[PAWN_nameDef] retalia com [PAWN_possessive] [Weapon].</li>
+    <li>desc_sentence->[PAWN_nameDef] retalia com seu(ua) [Weapon].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveBadass].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveAngsty].</li>
     <li>desc_sentence->O chão é revestido em [Gore].</li>
@@ -588,7 +588,7 @@
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
-    <li>desc_sentence->[PAWN_nameDef] retalia com [PAWN_possessive] [Weapon] enquanto [defender_circunstância].</li>
+    <li>desc_sentence->[PAWN_nameDef] retalia com seu(ua) [Weapon] enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] é tão alto quanto um prédio, [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveBadass].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveAngsty].</li>
@@ -598,7 +598,7 @@
     <li>defender_circumstance->gritando triunfalmente</li>
     <li>defender_circumstance->brilhante [Cor]</li>
     <li>defender_circumstance->levantando o punho em desafio</li>
-    <li>defender_circumstance->flexionar [PAWN_possessive] músculos</li>
+    <li>defender_circumstance->flexionando seus músculos</li>
   </Raid.rulePack.rulesStrings>
   
   <!-- EN: ship part crash -->
@@ -654,7 +654,7 @@
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
-    <li>desc_sentence->[PAWN_nameDef] retalia com [PAWN_possessive] [Weapon] enquanto [defender_circunstância].</li>
+    <li>desc_sentence->[PAWN_nameDef] retalia com seu(ua) [Weapon] enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] é tão alto quanto um prédio, [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveBadass].</li>
     <li>desc_sentence->[PAWN_nameDef] usa uma expressão [AdjectiveAngsty].</li>
@@ -665,7 +665,7 @@
     <li>defender_circumstance->gritando triunfalmente</li>
     <li>defender_circumstance->brilhante [Cor]</li>
     <li>defender_circumstance->levantando o punho em desafio</li>
-    <li>defender_circumstance->flexionar [PAWN_possessive] músculos</li>
+    <li>defender_circumstance->flexionando seus músculos</li>
   </ShipPartCrash.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
@@ -708,7 +708,7 @@
     <li>circumstance_phrase->obscurecendo um [TerrainFeature]</li>
     <li>circumstance_phrase->envolvendo um [TerrainFeature]</li>
     <li>desc_sentence->[PAWN_nameDef] assiste com medo visível.</li>
-    <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_nameDef] está coordenando medidas defensivas.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] corre para se preparar.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s foge da área.</li>
@@ -757,8 +757,8 @@
     <li>circumstance_phrase->obscurecendo um [TerrainFeature]</li>
     <li>circumstance_phrase->envolvendo um [TerrainFeature]</li>
     <li>desc_sentence->[COLONIST_nameDef] assiste com medo visível.</li>
-    <li>desc_sentence (p = 0.5)->[COLONIST_nameDef] assiste com admiração na face [COLONIST_possessive].</li>
-    <li>desc_sentence (p = 0.5)->[ATTACKER_nameDef] assiste com admiração na face [ATTACKER_possessive].</li>
+    <li>desc_sentence (p = 0.5)->[COLONIST_nameDef] assiste com admiração na face [COLONIST_objective].</li>
+    <li>desc_sentence (p = 0.5)->[ATTACKER_nameDef] assiste com admiração na face [ATTACKER_objective].</li>
     <li>desc_sentence->[COLONIST_nameDef] está coordenando medidas defensivas.</li>
     <li>desc_sentence->[ATTACKER_nameDef] brinca de alegria.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] corre para se preparar.</li>
@@ -800,10 +800,10 @@
     <li>circumstance_phrase->coberto por um leve brilho de poeira luminosa</li>
     <li>circumstance_phrase->arranjado em um padrão que sugere ossos</li>
     <li>circumstance_phrase->esperando que o veneno pare</li>
-    <li>desc_sentence->[PAWN_nameDef] está no chão, o corpo [PAWN_possessive] torcido em um ângulo incomum.</li>
+    <li>desc_sentence->[PAWN_nameDef] está no chão, o corpo [PAWN_objective] torcido em um ângulo incomum.</li>
     <li>desc_sentence->[PAWN_nameDef]se esconde perto de um [TerrainFeature], observando com uma aparência [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] observa em estado de choque.</li>
-    <li>desc_sentence->[PAWN_nameDef] fica em silêncio com uma camada de suor na face [PAWN_possessive].</li>
+    <li>desc_sentence->[PAWN_nameDef] fica em silêncio com uma camada de suor na face [PAWN_objective].</li>
     <li>desc_sentence->[Quantity_adjphrase] morto [Animal]s estava no chão.</li>
     <li>desc_sentence->[Quantity_adjphrase] morrendo [Animal]s estava no chão.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s moinho em torno de incerteza.</li>

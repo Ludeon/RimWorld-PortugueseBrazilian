@@ -16,7 +16,7 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] irá enviar um [helperKind_label] para ajudá-lo, sob seu controle. Você terá que alimentar e abrigar [helpers0_objective], porém [helpers0_pronoun] pode morrer em batalha sem consequências.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] irá enviar um [helperKind_label] para ajudá-lo, sob seu controle. Você terá que alimentar e abrigar [helpers0_pronoun], porém [helpers0_pronoun] pode morrer em batalha sem consequências.\n\n</li>
     <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] irá enviar [helpersCount] [helperKind_labelPlural] para ajudá-lo, sob seu controle. Você terá que alimentar e abrigar eles, porém eles podem morrer em batalha sem consequências.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] enviado para ajudá-lo.</li>

@@ -65,8 +65,8 @@
     <li>image->[PAWN_nameFull] deitado na neve [circumstance_group]</li>
     <li>circumstance_phrase->enquanto enrolado em [Quantity_adjphrase] jaqueta</li>
     <li>circumstance_phrase->enquanto obscurecido em uma tempestade de neve leve</li>
-    <li>circumstance_phrase->enquanto [PAWN_possessive] amigos constroem um forte</li>
-    <li>circumstance_phrase->enquanto [PAWN_possessive] amigos constroem uma família de boneco de neve</li>
+    <li>circumstance_phrase->enquanto seus amigos constroem um forte</li>
+    <li>circumstance_phrase->enquanto seus amigos constroem uma família de boneco de neve</li>
     <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
     <li>desc_sentence->À distância, uma [Community] está coberta de neve.</li>
     <li>desc_sentence->Um campo de [Vegetable]s é um pouco visível através da neve.</li>
@@ -143,11 +143,11 @@
     <li>image->[PAWN_nameFull] está polindo a superfície de um [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] está adicionando detalhes da superfície de [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] está inscrevendo seu nome em um [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->com um brilho no olho [PAWN_possessive]</li>
-    <li>circumstance_phrase->enquanto limpa o suor da testa [PAWN_possessive]</li>
+    <li>circumstance_phrase->com um brilho no olho [PAWN_objective]</li>
+    <li>circumstance_phrase->enquanto limpa o suor da testa [PAWN_objective]</li>
     <li>circumstance_phrase->enquanto coberto de sujeira</li>
     <li>circumstance_phrase->enquanto sorri orgulhosamente</li>
-    <li>circumstance_phrase->com uma expressão satisfeita no rosto [PAWN_possessive]</li>
+    <li>circumstance_phrase->com uma expressão satisfeita no rosto [PAWN_objective]</li>
     <li>desc_sentence->O [OBJECT_label] parece ter uma torre acima de [PAWN_nameDef].</li>
     <li>desc_sentence->O [OBJECT_label] brilha vuavemente [Color].</li>
     <li>desc_sentence->O [OBJECT_label] é extremamente detalhado.</li>
@@ -180,11 +180,11 @@
     <li>image->[PAWN_nameFull] está polindo a superfície de [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] está adicionando detalhes a superfície da [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] está escrevendo seu nome na [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->com um brilho em [PAWN_possessive] olhar</li>
-    <li>circumstance_phrase->enquanto limpando o suor de [PAWN_possessive] testa</li>
+    <li>circumstance_phrase->com um brilho em seu olhar</li>
+    <li>circumstance_phrase->enquanto limpando o suor de sua testa</li>
     <li>circumstance_phrase->enquanto está coberto de sujeira</li>
     <li>circumstance_phrase->enquanto sorri orgulhosamente</li>
-    <li>circumstance_phrase->com uma expressão satisfatória em [PAWN_possessive] face</li>
+    <li>circumstance_phrase->com uma expressão satisfatória em sua face</li>
     <li>desc_sentence->A [OBJECT_label] brilha suavemente [Color].</li>
     <li>desc_sentence->A [OBJECT_label] é muito detalhado(a).</li>
     <li>desc_sentence->[PAWN_nameDef] levanta o [OBJECT_label] sem muito esforço.</li>
@@ -373,7 +373,7 @@
     <li>image->[PAWN_nameFull] sentado em uma árvore [TreeType], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] sentado em silêncio, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] olhando para a distância e [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] fechando olhos [PAWN_possessive] e [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] fechando olhos [PAWN_objective] e [circumstance_group]</li>
     <li>circumstance_phrase->irradiando serenidade</li>
     <li>circumstance_phrase->com um sorriso tranquilo</li>
     <li>circumstance_phrase->com um sorriso [VerbFriendly]</li>
@@ -417,7 +417,7 @@
     <li>circumstance_phrase->usando uma expressão [AdjectiveFriendly]</li>
     <li>circumstance_phrase->usando uma expressão [AdjectiveFriendly]</li>
     <li>circumstance_phrase->sorrindo orgulhosamente</li>
-    <li>circumstance_phrase->uma expressão satisfeita na [PAWN_possessive] face</li>
+    <li>circumstance_phrase->uma expressão satisfeita na sua face</li>
     <li>desc_sentence->[Quantity_adjphrase] ajuda [ally] s.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] vagueia pela área.</li>
     <li>desc_sentence->Existe uma [Community] em segundo plano.</li>
@@ -457,16 +457,16 @@
   <PlayedGame.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] relaxando em um [OBJECT_label]</li>
     <li>tale_noun->[PAWN_nameDef] jogando em um [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] aproveitando [PAWN_objective] self em um [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] se divertindo em um [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] esperando em uma cadeira, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] posicionada sobre o [OBJECT_label], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ao lado do [OBJECT_label], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ganhando em um [OBJECT_label], [circumstance_group]</li>
     <li>image->[PAWN_nameFull] perdendo em um [OBJECT_label], [circumstance_group]</li>
     <li>circumstance_phrase->tensa com energia</li>
-    <li>circumstance_phrase->[PAWN_possessive] corpo solto e relaxado</li>
-    <li>circumstance_phrase->planejando [PAWN_possessive] próxima ação</li>
-    <li>circumstance_phrase->massageando suavemente pulsos [PAWN_possessive]</li>
+    <li>circumstance_phrase->seu corpo solto e relaxado</li>
+    <li>circumstance_phrase->planejando sua próxima ação</li>
+    <li>circumstance_phrase->massageando suavemente os pulsos [PAWN_objective]</li>
     <li>circumstance_phrase->[angstyverb] com uma expressão [AdjectiveAngsty]</li>
     <li>circumstance_phrase->usando uma aparência [AdjectiveAngsty]</li>
     <li>circumstance_phrase->[angstyverb]</li>
@@ -504,8 +504,8 @@
     <li>tale_noun->[PAWN_nameDef] orando</li>
     <li>tale_noun->[PAWN_nameDef] rezando para um poder maior</li>
     <li>image->[PAWN_nameFull] olhando para a distância e [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] fechando olhos [PAWN_possessive] e [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] aperta as mãos [PAWN_possessive] e [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] fechando seus olhos e [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] apertando as mãos [PAWN_objective] e [circumstance_group]</li>
     <li>image->[PAWN_nameFull] olhando para o céu e [circumstance_group]</li>
     <li>circumstance_phrase->irradiando serenidade</li>
     <li>circumstance_phrase->sussurrando suavemente</li>
@@ -579,7 +579,7 @@
     <li>image->[TAKER_nameFull] despersonando [STRIPPED_nameFull] em público [circumstance_group]</li>
     <li>image->[TAKER_nameFull] removendo as roupas de [STRIPPED_nameFull] [circumstance_group]</li>
     <li>image->[TAKER_nameFull] segurando uma porção de [Apparel] s ao lado de [STRIPPED_nameFull], que está completamente nu [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] esperando pacientemente enquanto [STRIPPED_nameFull] remove [STRIPPED_possessive] roupas [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] esperando pacientemente enquanto [STRIPPED_nameFull] remove suas roupas [circumstance_group]</li>
     <li>circumstance_phrase->com um senso de propósito</li>
     <li>circumstance_phrase->sem nenhum sinal de vergonha</li>
     <li>circumstance_phrase->enquanto outros procuram</li>
