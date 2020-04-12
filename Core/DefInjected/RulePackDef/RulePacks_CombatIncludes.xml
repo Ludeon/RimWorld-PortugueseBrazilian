@@ -50,7 +50,7 @@
     <li>action->[INITIATOR_definite] [tried] para [damaged_inf] [RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite] [tried] para [damaged_inf] [RECIPIENT_definite] com [implement]</li>
     <li>action->[INITIATOR_definite] [tried] usar [implement] para [damaged_inf] [RECIPIENT_definite]</li>
-    <li>action->[INITIATOR_definite] balançou [INITIATOR_possessive] [WEAPON_label] em [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] balançou seu(ua) [WEAPON_label] em [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] com [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] com [implement]</li>
@@ -77,17 +77,17 @@
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
-    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
-    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] e [flavortext_consequence]</li>
-    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>result(p=1)->[damaged_present] seu(ua) [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] seu(ua) [targetlist] [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] seu(ua) [targetlist] [strikeAdv]</li>
     <li>strikeAdv->dolorosamente</li>
     <li>strikeAdv->penosamente</li>
     <li>strikeAdv->brutalmente</li>
     <li>strikeAdv->horrivelmente</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixando uma ferida nojenta</li>
     <li>flavortext_consequence->deixando uma ferida horrível</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->fazendo [RECIPIENT_objective] [wince] [painevent]</li>
-    <li>flavortext_consequence(p=0.2)->deixando [RECIPIENT_objective] sem equilíbrio</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->fazendo [RECIPIENT_pronoun] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->deixando [RECIPIENT_pronoun] sem equilíbrio</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -133,14 +133,14 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings>
     <li>r_logentry->[action], [result].</li>
     <li>r_logentry(priority=-10)->[action].</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] de [TOOL_label] [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->um [TOOL_label] de[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->seu(ua) de [TOOL_label] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->seu(ua) [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->um [TOOL_label] de [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->um [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [TOOL_label] de [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->seu(ua) [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->seu(ua) [TOOL_label] de [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->seu(ua) [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->seu(ua) [TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label] e [recipient_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], e [recipient_part2_label]</li>
@@ -222,7 +222,7 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
-    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[wielding] seu(ua) [WEAPON_label] [skillAdv]</li>
     <li>skillDescMelee->[using] [implement] [skillAdv]</li>
     <li>wielding(p=4)->empunhando</li>
     <li>wielding(p=3)->usando</li>

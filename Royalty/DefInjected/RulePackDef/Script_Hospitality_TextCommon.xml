@@ -55,14 +55,14 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] é um(a) lutador(a) experiente.</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] são lutadores experientes.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->Você é obrigado a manter [lodgers0_possessive] humor acima de [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1,lodgersCount==1)->Você é obrigado a manter seu humor acima de [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo(priority=1,lodgersCount>=2)->Você é obrigado a manter o humor [lodgersLabelPlural] [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
     <li>enemyGroupsParagraph->As invasões chegarão aproximadamente uma vez por [threatsIntervalTicks_duration]. Os ataques serão de tamanho semelhante a este:\n\n[threatExample]</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgers0_nameDef]. Se você levar [lodgers0_objective] para o ônibus vivo, [allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgers0_nameDef]. Se você levar [lodgers0_pronoun] para o ônibus vivo, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar os [lodgersLabelPlural]. Se você os colocar no ônibus vivos, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->Você deve manter [lodgers0_nameDef] em [map_definite] e não mandar [lodgers0_objective] para nenhum outro lugar.</li>
+    <li>mustKeepOnMapParagraph(lodgersCount==1)->Você deve manter [lodgers0_nameDef] em [map_definite] e não mandar [lodgers0_pronoun] para nenhum outro lugar.</li>
     <li>mustKeepOnMapParagraph(lodgersCount>=2)->Você deve manter os [lodgersLabelPlural] em [map_definite] e não mandá-los para nenhum outro lugar.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recentemente [mechViolation], e tornou-se alvo de um enxame mecanoide em órbita. Ele enviará grupos de combate mecanoides para [map_definite] enquanto [lodgers0_nameDef] estiver presente.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Os prisioneiros recentemente [mechViolation], e tornaram-se alvos de um enxame mecanoide em órbita. Ele enviará grupos de combate mecanoides para [map_definite] enquanto estiverem presentes.</li>
