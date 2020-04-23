@@ -74,9 +74,9 @@
     <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->um aglomerado mecanoide de força tripla será implantado nas proximidades.</li>
     <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->dois aglomerados mecanoides de força dupla serão implantados nas proximidades.</li>
     <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->dois aglomerados mecanoides serão implantados nas proximidades.</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgers0_nameDef]. Se você colocar [lodgers0_objective] vivo(a) no transporte, [allRewardsDescriptions]</li>
+    <li>shuttleWillComeParagraph(lodgersCount==1)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgers0_nameDef]. Se você colocar [lodgers0_pronoun] vivo(a) no transporte, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgersLabelPlural]. Se você os colocar vivos no transporte, [allRewardsDescriptions]</li>
-    <li>mustKeepOnMapParagraph(lodgersCount==1)->Você deve manter [lodgers0_nameDef] em [map_definite] e não mandar [lodgers0_objective] para nenhum outro lugar.</li>
+    <li>mustKeepOnMapParagraph(lodgersCount==1)->Você deve manter [lodgers0_nameDef] em [map_definite] e não mandar [lodgers0_pronoun] para nenhum outro lugar.</li>
     <li>mustKeepOnMapParagraph(lodgersCount>=2)->Você deve manter os [lodgersLabelPlural] em [map_definite] e não os mandar para nenhum outro lugar..</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recentemente [mechViolation], e se tornou alvo de um enxame mecanoide em órbita.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Os prisioneiros recentemente [mechViolation], se tornaram alvos de um enxame mecanoide em órbita.</li>
