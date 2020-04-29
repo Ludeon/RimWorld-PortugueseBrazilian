@@ -13,21 +13,11 @@
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
     <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] precisa de mãos extras para ajudar a [dutyDescription]. [asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para [asker_faction_name] por [lendForDays] dias.\n\nDepois que [lendForDays] dias se passarem, seus colonos serão devolvidos.\n\nSe você aceitar, um transporte vai chegar para pegar o(s) [colonistCountToLend]. Quando o transporte partir com ele(s) a bordo, [allRewardsDescriptions]</li>
-    <li>dutyDescription->colher a plantação</li>
-    <li>dutyDescription->fortificar um assentamento</li>
-    <li>dutyDescription->estabelecer um assentamento</li>
-    <li>dutyDescription->vijiar contra invasores</li>
-    <li>dutyDescription->estabelecer um hospital</li>
-    <li>dutyDescription->conter um surto de [disease]</li>
     <li>disease->gripe</li>
     <li>disease->praga</li>
     <li>disease->malária</li>
     <li>disease->infecção</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] deseja adicionar um pouco de vida à sua corte, exibindo algum(ns) [entertainerDescription]. [asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para [asker_faction_name] por [lendForDays] dias. Depois que [lendForDays] dias se passarem, seus colonos serão devolvidos por meio de cápsulas de transporte.\n\nSe você aceitar, um transporte vai chegar para pegar [colonistCountToLend]. Quando o transporte partir com ele(s) a bordo, [allRewardsDescriptions]</li>
-    <li>entertainerDescription->sobreviventes resistentes da superfície</li>
-    <li>entertainerDescription->bobos da corte bobos</li>
-    <li>entertainerDescription->servos de um assentamento perdido</li>
-    <li>entertainerDescription->espécimes humanos exóticos</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colono</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos</li>
   </PawnLend.questDescriptionRules.rulesStrings>
@@ -70,9 +60,9 @@
   <!-- EN: exotic human specimens -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>espécimes humanos exóticos</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
   <!-- EN: {PAWNS} have returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>{PAWNS} retornaram após serem exibidos como [entertainerDescription] na corte do [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name].</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>{PAWNS} retornaram após serem exibidos como [entertainerDescription] na corte do(a) [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name].</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>Transporte chegou</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>O transporte chegou</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
   <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>O transporte chegou para pegar [colonistsToLendCount] de seus colonos.</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
