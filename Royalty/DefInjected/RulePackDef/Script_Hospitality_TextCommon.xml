@@ -15,18 +15,16 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] is an expert fighter.</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are expert fighters.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->You must keep [lodgers0_possessive] mood above [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->You must keep the [lodgersLabelPlural]' moods above [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1)->You must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->a mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->a double-strength mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->a triple-strength mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->two double-strength mech clusters will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->two mech clusters will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->a mech cluster will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->You must keep [lodgers0_nameDef] at [map_definite] and not send [lodgers0_objective] anywhere else.</li>
@@ -62,18 +60,16 @@
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] é um lutador experiente.</li>
     <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] são lutadores experientes.</li>
     <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1,lodgersCount==1)->Você deve manter seu humor acima de [lodgersMoodThreshold_percent].</li>
-    <li>minMoodInfo(priority=1,lodgersCount>=2)->Você deve manter o humor dos [lodgersLabelPlural] acima de [lodgersMoodThreshold_percent].</li>
+    <li>minMoodInfo(priority=1)->Você deve manter o humor de [asker_nameDef] acima de [lodgersMoodThreshold_percent].</li>
     <li>minMoodInfo-></li>
     <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->haverá [threatCount] invasão aproximadamente deste tamanho:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->haverá [threatCount] invasões aproximadamente deste tamanho:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->a mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->um aglomerado mecanoide será implantado nas proximidades.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->um aglomerado mecanoide de força tripla será implantado nas proximidades.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->dois aglomerados mecanoides de força dupla serão implantados nas proximidades.</li>
-    <li>threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->dois aglomerados mecanoides serão implantados nas proximidades.</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->haverá [threatCount] invasão aproximadamente deste tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->haverá [threatCount] invasões aproximadamente deste tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->um aglomerado mecanoide será implantado nas proximidades.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->dois aglomerados mecanoides serão implantados nas proximidades.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->um aglomerado mecanoide de tamanho [threatSize]x será implantado nas proximidades.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->dois aglomerados mecanoides de tamanho [threatSize]x serão implantados nas proximidades.</li>
     <li>shuttleWillComeParagraph(lodgersCount==1)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgers0_nameDef]. Se você colocar [lodgers0_pronoun] vivo(a) no transporte, [allRewardsDescriptions]</li>
     <li>shuttleWillComeParagraph(lodgersCount>=2)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgersLabelPlural]. Se você os colocar vivos no transporte, [allRewardsDescriptions]</li>
     <li>mustKeepOnMapParagraph(lodgersCount==1)->Você deve manter [lodgers0_nameDef] em [map_definite] e não mandar [lodgers0_pronoun] para nenhum outro lugar.</li>
@@ -95,5 +91,5 @@
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Você falhou na missão '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon->Você falhou na missão '[resolvedQuestName]'.\n\nSuas relações com [asker_faction_name] diminuíram em [goodwillPenalty].</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
-
+  
 </LanguageData>
