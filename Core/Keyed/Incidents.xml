@@ -12,8 +12,9 @@
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Praga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
-  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!\nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>Pragas foram descobertas em {PLANTDEF_labelPlural}!\nVocê deve cortar ou queimar as plantas afetadas antes que a praga se espalhe.</LetterCropBlight>
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
+  <LetterCropBlight>Pragas foram descobertas em {PLANTDEF_labelPlural}!\n\nVocê deve cortar ou queimar as plantas afetadas antes que a praga se espalhe.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Milagre</LetterLabelMiracleHeal>
@@ -92,7 +93,7 @@
   <LetterLabelManhunterPackArrived>Grupo caçador de humanos</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
   <ManhunterPackArrived>Um grupo de {0} caçador de humanos entraram na área. Eles irão vagar pela região, na caça de carne humana.\n\nEles não podem passar pelas portas, por isto, se você ficar atrás das paredes estará seguro. Eles não irão atacar torretas inativas, então desligue suas torretas se você deseja poupá-las.\n\nEles deixaram a área em poucos dias.</ManhunterPackArrived>
-
+  
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
   <MessageAnimalInsanityPulse>A {SOURCE_label} emitiu um pulso psíquico que enlouqueceu os animais próximos.</MessageAnimalInsanityPulse>
@@ -110,7 +111,7 @@
   <LetterLabelPsychicDroneLevelIncreased>Intensificação do zumbido</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every humanlike in the area now feels more disturbed, terrified, and paranoid. -->
   <LetterPsychicDroneLevelIncreased>A parte caída da nave agora está emanando um poderoso tipo de zumbido psíquico. Todos os seres humanos na área agora se sentem mais perturbados, aterrorizados e paranoicos.</LetterPsychicDroneLevelIncreased>
-
+  
   <!-- Agent revealed -->
   <!-- EN: Agent -->
   <LetterLabelAgentRevealed>Agente</LetterLabelAgentRevealed>
@@ -122,7 +123,7 @@
   <LetterLabelBeaversArrived>Castores!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>Um grupo faminto de Alfacastores acabaram de chegar.\n\nTente eliminá-los antes que eles dizimem a última árvore da região.</BeaversArrived>
-
+  
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
   <LetterLabelAnimalSelfTame>{1_kind} foi auto-domesticado</LetterLabelAnimalSelfTame>
@@ -138,13 +139,13 @@
   <LetterLabelFarmAnimalsWanderIn>{0}s se juntaram</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
   <LetterFarmAnimalsWanderIn>Um grupo de {0}s, abandonados ou perdidos, se desviou para a área.\n\nEles parecem acostumados ao contato humano e estão se unindo a colônia.</LetterFarmAnimalsWanderIn>
-
+  
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
   <LetterLabelThrumboPasses>Thrumbos raros</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
   <LetterThrumboPasses>Um pequeno rebanho de thrumbos se desviou para a área.\n\nPacíficos por natureza, estas criaturas raras são extremamente perigosas quando confrontadas. Alguns comerciantes estão dispostos a pagar muito dinheiro por o seu couro e chifre precioso.\n\nOs Thrumbos irão deixar a área em poucos dias.</LetterThrumboPasses>
-
+  
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
@@ -152,7 +153,7 @@
   <LetterTraderCaravanArrival>Uma caravana de comércio de {0} está se aproximando. Eles são um {1}.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
   <LetterCaravanArrivalCommonWarning>Eles ficarão na colônia por algum tempo antes de partir. Você pode atacá-los - mas isso irritará a facção deles!</LetterCaravanArrivalCommonWarning>
-
+    
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de resgate em {0}</RansomDemandTitle>
@@ -162,14 +163,14 @@
   <RansomDemand_Accept>Aceitar</RansomDemand_Accept>
   <!-- EN: Reject -->
   <RansomDemand_Reject>Recusar</RansomDemand_Reject>
-
+  
   <!-- Journey-related -->
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nave encontrada</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Você alcançou as coordenadas enviadas por Charlon Whitestone e descobriu a nave estelar oculta.\n\nO reator da nave ainda está no modo de hibernação, por isso não pode voar ainda. Você pode iniciá-lo interagindo com o núcleo do computador.\n\n<Name>Charlon Whitestone</Name> avisa que o processo de inicialização levará cerca de 15 dias, e a assinatura de energia será detectável a longa distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</EscapeShipFound>
+  <EscapeShipFound>Você alcançou as coordenadas enviadas por Charlon Whitestone e descobriu a nave estelar oculta.\n\nO reator da nave ainda está no modo de hibernação, por isso não pode voar ainda. Você pode iniciá-lo interagindo com o núcleo do computador.\n\nCharlon Whitestone avisa que o processo de inicialização levará cerca de 15 dias, e a assinatura de energia será detectável a longa distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by <Name>Charlon Whitestone</Name> and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n<Name>Charlon Whitestone</Name> warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>Você alcançou as coordenadas enviadas por Charlon Whitestone e descobriu a nave estelar oculta.\n\nO reator da nave ainda está no modo de hibernação profunda, portanto ainda não pode voar. Você pode iniciá-lo interagindo com o núcleo do computador.\n\n<Name>Charlon Whitestone</Name> avisa que o processo de inicialização levará cerca de 15 dias.</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>Você alcançou as coordenadas enviadas por Charlon Whitestone e descobriu a nave estelar oculta.\n\nO reator da nave ainda está no modo de hibernação profunda, portanto ainda não pode voar. Você pode iniciá-lo interagindo com o núcleo do computador.\n\nCharlon Whitestone avisa que o processo de inicialização levará cerca de 15 dias.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
   <EscapeShipLostLabel>Nave destruida</EscapeShipLostLabel>
   <!-- EN: <Name>Charlon Whitestone</Name> sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
@@ -190,7 +191,7 @@
   <CaravanMeeting_TradeIncapable>nenhum membro da caravana é capaz de negociar</CaravanMeeting_TradeIncapable>
   <!-- EN: need a trader with the title of {0} from {1_name} -->
   <CaravanMeeting_NoPermit>precisa de um comerciante com o título {0} de {1_name}</CaravanMeeting_NoPermit>
-
+  
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Pedido de caravana</LetterLabelCaravanRequest>
