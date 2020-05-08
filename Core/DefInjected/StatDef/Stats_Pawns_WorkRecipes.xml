@@ -4,22 +4,22 @@
   <!-- EN: butchery efficiency -->
   <ButcheryFleshEfficiency.label>eficiência de esquartejamento</ButcheryFleshEfficiency.label>
   <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
-  <ButcheryFleshEfficiency.description>Multiplicador sobre a quantidade de carne produzida quando massacra criaturas de carne.</ButcheryFleshEfficiency.description>
+  <ButcheryFleshEfficiency.description>A quantidade de carne produzida ao abater criaturas carnais.\n\nA quantidade real também está relacionada ao tamanho da criatura.</ButcheryFleshEfficiency.description>
   
   <!-- EN: butchery speed -->
   <ButcheryFleshSpeed.label>velocidade de esquartejamento</ButcheryFleshSpeed.label>
   <!-- EN: The speed at which this person butchers flesh creatures. -->
-  <ButcheryFleshSpeed.description>Velocidade com que esta pessoa esquarteja criaturas de carne.</ButcheryFleshSpeed.description>
+  <ButcheryFleshSpeed.description>Velocidade com que esta pessoa esquarteja criaturas carnais.</ButcheryFleshSpeed.description>
   
-  <!-- EN: mechanoid disassembly efficiency -->
-  <ButcheryMechanoidEfficiency.label>eficiência de desmontar mecanoide</ButcheryMechanoidEfficiency.label>
-  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid.\n\nThe actual amount is also related to the mechanoid's size. -->
-  <ButcheryMechanoidEfficiency.description>Multiplicador na quantidade de materiais produzidos quando esta pessoa desmonta um mecanoide morto.</ButcheryMechanoidEfficiency.description>
+  <!-- EN: mechanoid shredding efficiency -->
+  <ButcheryMechanoidEfficiency.label>eficiência de destruição mecanoide</ButcheryMechanoidEfficiency.label>
+  <!-- EN: The amount of materials yielded when this person shreds a dead mechanoid for resources.\n\nThe actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>A quantidade de materiais produzidos quando essa pessoa destrói um mecanoide morto por recursos.\n\nA quantidade real também está relacionada ao tamanho do mecanoide.</ButcheryMechanoidEfficiency.description>
   
-  <!-- EN: mechanoid disassembly speed -->
-  <ButcheryMechanoidSpeed.label>velocidade de desmontar mecanoides</ButcheryMechanoidSpeed.label>
-  <!-- EN: The speed at which this person can disassemble a mechanoid. -->
-  <ButcheryMechanoidSpeed.description>Velocidade com que esta pessoa pode desmontar um mecanoide.</ButcheryMechanoidSpeed.description>
+  <!-- EN: mechanoid shredding speed -->
+  <ButcheryMechanoidSpeed.label>velocidade de destruição mecanoide</ButcheryMechanoidSpeed.label>
+  <!-- EN: The speed at which this person can shred a mechanoid for resources. -->
+  <ButcheryMechanoidSpeed.description>A velocidade com que essa pessoa pode destruir um mecanoide por recursos.</ButcheryMechanoidSpeed.description>
   
   <!-- EN: cooking speed -->
   <CookSpeed.label>velocidade de cozimento</CookSpeed.label>
@@ -29,7 +29,7 @@
   <!-- EN: drug cooking speed -->
   <DrugCookingSpeed.label>velocidade de cozimento de drogas</DrugCookingSpeed.label>
   <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
-  <DrugCookingSpeed.description>A velocidade com que essa pessoa fabrica cerveja e chá, ou produz medicamentos simples, como charuto com folha-de-fumo.</DrugCookingSpeed.description>
+  <DrugCookingSpeed.description>A velocidade com que essa pessoa fabrica cerveja e chá, ou produz drogas simples, como baseados de folha-de-fumo.</DrugCookingSpeed.description>
   
   <!-- EN: drug synthesis speed -->
   <DrugSynthesisSpeed.label>velocidade de síntese de drogas</DrugSynthesisSpeed.label>
@@ -39,18 +39,18 @@
   <!-- EN: food poison chance -->
   <FoodPoisonChance.label>chance de envenenar comida</FoodPoisonChance.label>
   <!-- EN: The probability that this character will inadvertently poison a meal they cook.\n\nAnyone who eats a food-poisoned meal will be temporarily debilitated with pain, weakness, and vomiting. -->
-  <FoodPoisonChance.description>A probabilidade de que este personagem irá inadvertidamente envenenar uma refeição que ele cozinhar.</FoodPoisonChance.description>
+  <FoodPoisonChance.description>A probabilidade deste personagem envenenar inadvertidamente uma refeição que ele cozinhar.\n\nQualquer pessoa que comer uma refeição envenenada será temporariamente debilitada com dor, fraqueza e vômito.</FoodPoisonChance.description>
   <!-- EN: food poison chance (chance to poison a meal) -->
-  <FoodPoisonChance.labelForFullStatList>chance de envenenar comida (chance de envenenar uma refeição)</FoodPoisonChance.labelForFullStatList>
+  <FoodPoisonChance.labelForFullStatList>chance de intoxicação alimentar (chance de envenenar uma refeição)</FoodPoisonChance.labelForFullStatList>
   
   <!-- EN: general labor speed -->
   <GeneralLaborSpeed.label>velocidade geral do trabalho</GeneralLaborSpeed.label>
   <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
-  <GeneralLaborSpeed.description>A velocidade com que essa pessoa realiza trabalhos gerais, como fabricar blocos de pedra, fabricar combustível químico em uma refinaria, queimar itens, costurar roupas, criar arte, usar armaduras e armas ou fundir escória. Essa estatística se aplica tanto às atividades que não envolvem nenhuma habilidade, quanto àquelas em que a habilidade afeta a qualidade do produto, em vez da velocidade de produção.</GeneralLaborSpeed.description>
+  <GeneralLaborSpeed.description>A velocidade com que essa pessoa realiza trabalhos gerais, como fabricar blocos de pedra, fabricar combustível químico em uma refinaria, queimar itens, costurar roupas, criar arte, forjar armaduras e armas ou fundir escória. Essa estatística se aplica tanto às atividades que não envolvem nenhuma habilidade, quanto àquelas em que a habilidade afeta a qualidade do produto, em vez da velocidade de produção.</GeneralLaborSpeed.description>
   
   <!-- EN: smelting speed -->
   <SmeltingSpeed.label>velocidade de fundição</SmeltingSpeed.label>
   <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
-  <SmeltingSpeed.description>Velocidade com que esta pessoa funde coisas. Nota: Como se trata de um trabalho simples, sua velocidade não é afetada por nenhuma habilidade.</SmeltingSpeed.description>
+  <SmeltingSpeed.description>Velocidade com que esta pessoa funde coisas.\n\nComo se trata de um trabalho simples, a velocidade de fundição não é afetada por nenhuma habilidade.</SmeltingSpeed.description>
   
 </LanguageData>
