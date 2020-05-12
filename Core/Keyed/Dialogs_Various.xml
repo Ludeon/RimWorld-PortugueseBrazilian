@@ -14,7 +14,7 @@
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
-  <GameUpdatedToNewVersionInitial>RimWorld foi atualizado da versão {0} para a versão {1}.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>O RimWorld foi atualizado da versão {0} para a versão {1}.</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
   <GameUpdatedToNewVersionSavesIncompatible>Isto pode fazer com que jogos salvos e mods da versão antiga parem de funcionar.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
@@ -60,15 +60,15 @@
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
-  <InitializingInterface>Inicializando menu</InitializingInterface>
+  <InitializingInterface>Inicializando interface</InitializingInterface>
   <!-- EN: Unloading unused assets -->
-  <UnloadingUnusedAssets>Descarregando assets inutilizados</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>Descarregando recursos inutilizados</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
   <LoadingAllActiveMods>Carregando todos os mods ativos</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
   <LoadingDefs>Carregando defs</LoadingDefs>
   <!-- EN: Loading assets -->
-  <LoadingAssets>Carregando assets</LoadingAssets>
+  <LoadingAssets>Carregando recursos</LoadingAssets>
   <!-- EN: Initializing -->
   <Initializing>Inicializando</Initializing>
   <!-- EN: Loading world -->
@@ -78,9 +78,9 @@
   <!-- EN: Initializing game -->
   <InitializingGame>Inicializando jogo</InitializingGame>
   <!-- EN: Spawning things -->
-  <SpawningAllThings>Distribuindo todas as coisas</SpawningAllThings>
+  <SpawningAllThings>Gerando coisas</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>Distribuindo colonos</SpawningColonists>
+  <SpawningColonists>Gerando colonos</SpawningColonists>
   
   <!-- Save/load -->
   <!-- EN: Save -->
@@ -96,7 +96,7 @@
   <!-- EN: Saved as {0}. -->
   <SavedAs>Salvo como {0}.</SavedAs>
   <!-- EN: Please enter a name. -->
-  <NeedAName>Por favor, escreva um nome.</NeedAName>
+  <NeedAName>Por favor digite um nome.</NeedAName>
   <!-- EN: Loading -->
   <LoadingLongEvent>Carregando</LoadingLongEvent>
   <!-- EN: Saving -->
@@ -130,7 +130,7 @@
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0} acha que você deve dar um nome a sua facção. Como a sua facção deve ser chamada?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>Como parece que você ficará aqui por um tempo, {0} acha que você deve dar um nome a sua facção. Como a sua facção deve ser chamada?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>Sua facção agora é conhecida como {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
@@ -138,7 +138,7 @@
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>Uma vez que parece que você estará aqui por um tempo, {0} Acredita que você deve dar a esta comunidade um nome. Como esta comunidade local deve ser chamada?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} acha que você deve dar um nome a este assentamento. Como este assentamento local deve ser chamado?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>Esta comunidade é agora conhecida como {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
@@ -146,9 +146,9 @@
   
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Uma vez que parece que você estará aqui por um tempo, {0} também acha que você deve dar a comunidade um nome. Como esta comunidade local deve ser chamada?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} também acha que você deve dar um nome a este assentamento. Como este assentamento local deve ser chamado?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>Sua facção é agora conhecida como {0}, E esta comunidade é agora conhecida como {1}.</PlayerFactionAndBaseGainsName>
+  <PlayerFactionAndBaseGainsName>Sua facção é agora conhecida como {0}, e esta comunidade é agora conhecida como {1}.</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
@@ -168,7 +168,7 @@
   <!-- EN: Version mismatch -->
   <VersionMismatch>Incompatibilidade de versão</VersionMismatch>
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
-  <SaveGameIncompatibleWarningText>Mapa foi salvo com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Este jogo foi salvo com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
   <WorldFileVersionMismatch>O arquivo do mundo foi gerado com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos. Você provavelmente deveria gerar um novo mundo a partir do zero.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
@@ -180,7 +180,7 @@
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
-  <ConfirmResolutionChange>Você mudou as configurações de tela. Será que este novo irá funcionar bem?\n\nRevertendo automaticamente em {0}...</ConfirmResolutionChange>
+  <ConfirmResolutionChange>Você alterou as configurações da tela. A nova funciona bem?\n\nRevertendo automaticamente em {0}...</ConfirmResolutionChange>
   <!-- EN: Keep -->
   <ResolutionKeep>Manter</ResolutionKeep>
   <!-- EN: Revert -->
@@ -443,9 +443,9 @@
   <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
   <RearmCostExplanation>Recursos necessários para rearmar esta torreta (afetada por dificuldade).</RearmCostExplanation>
   <!-- EN: Shots before rearm -->
-  <ShotsBeforeRearm>Munição atual</ShotsBeforeRearm>
+  <ShotsBeforeRearm>Tiros até rearmar</ShotsBeforeRearm>
   <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
-  <ShotsBeforeRearmExplanation>Quantas tiros esta torreta pode disparar antes de ter que ser rearmada.</ShotsBeforeRearmExplanation>
+  <ShotsBeforeRearmExplanation>Quantos tiros essa torreta pode disparar antes de ser rearmada.</ShotsBeforeRearmExplanation>
   <!-- EN: Power consumption -->
   <PowerConsumption>Consumo de energia</PowerConsumption>
   <!-- EN: Target -->
@@ -509,15 +509,15 @@
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
   <ConfirmTraderShortFunds>O comerciante não tem prata suficiente para cobrir integralmente esta transação. Deseja continuar mesmo assim?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
-  <SortBy>Ordem por</SortBy>
+  <SortBy>Ordenar por</SortBy>
   <!-- EN: trader type -->
   <TraderTypePrice>tipo de comerciante</TraderTypePrice>
   <!-- EN: selling -->
-  <Selling>venda</Selling>
+  <Selling>vendendo</Selling>
   <!-- EN: buying -->
-  <Buying>compra</Buying>
+  <Buying>comprando</Buying>
   <!-- EN: item sell price multiplier -->
-  <ItemSellPriceFactor>multiplicador de preço de venda de item</ItemSellPriceFactor>
+  <ItemSellPriceFactor>multiplicador de preço de venda do item</ItemSellPriceFactor>
   <!-- EN: difficulty level -->
   <DifficultyLevel>nível de dificuldade</DifficultyLevel>
   <!-- EN: global post-process curve -->
@@ -525,7 +525,7 @@
   <!-- EN: Your negotiator bonus -->
   <YourNegotiatorBonus>Bônus de seu negociador</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
-  <TradeWithFactionBaseBonus>Bônus de negociação com base de facção</TradeWithFactionBaseBonus>
+  <TradeWithFactionBaseBonus>Negociação com bônus base de facção</TradeWithFactionBaseBonus>
   <!-- EN: minimum -->
   <minimum>mínimo</minimum>
   <!-- EN: Final price -->
@@ -535,7 +535,7 @@
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Retornar ao modo de negociação.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} não está disposto a enviar uma caravana porque {NEGOTIATOR_nameDef} não possui o título necessário de {TITLE}.</TradeCaravanRequestDeniedDueTitle>
+  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} não está disposto(a) a enviar uma caravana porque {NEGOTIATOR_nameDef} não possui o título necessário de {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
