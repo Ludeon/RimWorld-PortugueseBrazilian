@@ -34,7 +34,7 @@
   <Priority3>Prioridade normal</Priority3>
   <!-- EN: Low priority -->
   <Priority4>Prioridade baixa</Priority4>
-
+  
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
   <ManageOutfits>Gerenciar roupas</ManageOutfits>
@@ -54,7 +54,7 @@
   <ManageDrugPolicies>Gerenciar políticas de drogas</ManageDrugPolicies>
   <!-- EN: Manage food restrictions -->
   <ManageFoodRestrictions>Gerenciar restrições alimentares</ManageFoodRestrictions>
-
+  
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
   <Copy>Copiar</Copy>
@@ -62,7 +62,7 @@
   <Paste>Colar</Paste>
   <!-- EN: Allowed area -->
   <AllowedArea>Área permitida</AllowedArea>
-
+  
   <!-- Animals tab -->
   <!-- EN: Master -->
   <Master>Mestre</Master>
@@ -70,13 +70,13 @@
   <PregnantIconDesc>Prenhe ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
   <BondedTo>Vinculado a</BondedTo>
-
+  
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Essa criatura é um predador. Quando estiver com fome, caçará criaturas menores - incluindo pessoas.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>Esta criatura está atualmente em estado mental: {0}</IsInMentalState>
-
+  
   <!-- Factions tab -->
   <!-- EN: Hostile -->
   <Hostile>Hostil</Hostile>
@@ -98,9 +98,13 @@
   <CurrentGoodwillTip_Neutral>Esta facção é neutra. Eles vão negociar e conversar com você livremente. Se as relações ficarem abaixo de {0}, eles se tornarão hostis. Se as relações se elevarem acima de {1}, eles se tornarão aliados e começarão a trabalhar ativamente para ajudá-lo.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Esta facção é hostil. Eles atacarão seus assentamentos e caravanas. Se as relações se elevarem acima de {0}, eles se tornarão neutros.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
-  <CurrentGoodwillTip_NaturalGoodwill>Essa facção tem um intervalo de boa vontade natural de {0} a {1}. Se a relação for superior a {1}, cairá em {3} por dia. Se a relação estiver abaixo de {0}, aumentará em {2} por dia.</CurrentGoodwillTip_NaturalGoodwill>
-
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
+  <CurrentGoodwillTip_NaturalGoodwill>Essa facção tem um intervalo de boa vontade natural de {0} a {1}.</CurrentGoodwillTip_NaturalGoodwill>
+  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillRise>Se a boa vontade estiver abaixo de {0}, ela aumentará em {1} por ano.</CurrentGoodwillTip_NaturalGoodwillRise>
+  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillFall>Se a boa vontade estiver acima de {0}, ela aumentará em {1} por ano.</CurrentGoodwillTip_NaturalGoodwillFall>
+  
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>Amigo</Friend>
@@ -108,7 +112,7 @@
   <Rival>Rival</Rival>
   <!-- EN: Acquaintance -->
   <Acquaintance>Conhecido</Acquaintance>
-
+  
   <!-- History tab - subtabs -->
   <!-- EN: Graph -->
   <Graph>Gráfico</Graph>
@@ -116,7 +120,7 @@
   <Messages>Mensagens</Messages>
   <!-- EN: Statistics -->
   <Statistics>Estatísticas</Statistics>
-
+  
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
   <SelectGraph>Escolha um gráfico</SelectGraph>
@@ -253,18 +257,26 @@
   <!-- EN: To accept this quest, you need -->
   <QuestAcceptanceRequirementsDescription>Para aceitar esta missão, você precisa</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>quartos gratuitos que atendem aos requisitos de título de</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>quartos gratuitos que atendem aos requisitos do título de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfiedSingle>um quarto livre que atenda aos requisitos de título de</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestBedroomRequirementsUnsatisfiedSingle>um quarto livre que atenda aos requisitos do título de</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a colonist with the title of {0}. -->
   <QuestNoColonistWithTitle>um colono com o título {0}.</QuestNoColonistWithTitle>
+  <!-- EN: Reward preferences -->
+  <ChooseRewards>Preferências de recompensa</ChooseRewards>
+  <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
+  <ChooseRewardsDesc>Diga a outras facções que tipos de recompensas você deseja em futuras missões. Isso não afeta as missões que já foram oferecidas.</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>Aceitar {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
   <AcceptRoyalFavorDesc>Se você deseja ser recompensado com {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSe isso estiver desativado, {FACTION_name} oferecerá outros tipos de recompensas.\n\nEssa configuração afeta apenas as missões recentes.</AcceptRoyalFavorDesc>
+  <!-- EN: Accept goodwill -->
+  <AcceptGoodwill>Aceitar boa vontade</AcceptGoodwill>
+  <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
+  <AcceptGoodwillDesc>Se você deseja ser recompensado por meio de relações aprimoradas de facção com {FACTION_name}.\n\nSe estiver desativado, {FACTION_name} oferecerá outros tipos de recompensas.\n\nEsta configuração afeta apenas missões recém-geradas.</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
   <RoyalFavorOn>No momento, você está optando por receber {FACTION_royalFavorLabel}.</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>No momento, você está optando por não receber {FACTION_royalFavorLabel}.</RoyalFavorOff>
-
+  
 </LanguageData>

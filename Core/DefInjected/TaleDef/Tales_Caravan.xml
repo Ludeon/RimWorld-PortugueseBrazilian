@@ -32,7 +32,7 @@
     <li>tale_noun->A caravana de [PAWN_nameDef] está lutando contra uma emboscada</li>
     <li>image->[PAWN_nameFull] está organizando a resistência enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameFull] está empunhando uma [Weapon] na defensiva enquanto [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está retaliando com [PAWN_possessive] [Weapon] enquanto [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] está retaliando com seu(ua) [Weapon] enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameFull] está tão alto quanto um prédio enquanto [circunstance_group]</li>
     <li>image->[PAWN_nameFull] está usando uma expressão [AdjectiveBadass] enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameFull] está usando uma expressão [AdjectiveAngsty] enquanto [circumstance_group]</li>
@@ -45,9 +45,9 @@
     <li>desc_sentence->Um imenso [Enemy] avanços, brandindo um [Weapon].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avançar com um(a) [AdjectiveBadass] olha nos olhos deles.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avançar com um(a) [AdjectiveAngsty] olha nos olhos deles.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avança com brilho [Color] nos olhos.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avança, coberto de [Gore].</li>
-    <li>desc_sentence->O chão é revestido de [Gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avançam com um brilho [Color] nos olhos.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s avançam, cobertos de [Gore].</li>
+    <li>desc_sentence->O chão está revestido em [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s fugiu da área.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fugiu da área.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
@@ -74,13 +74,13 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está derrotando uma fortaleza inimiga</li>
-    <li>image->[PAWN_nameFull] está correndo em direção a [Enemy], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está empunhando uma [Weapon], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está girando uma [Weapon], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está tão alto como um prédio, [circumstance_group]</li>
-    <li>circumstance_phrase->vestindo um [AdjectiveBadass] olhar dentro [PAWN_possessive] olhos</li>
-    <li>circumstance_phrase->vestindo um [AdjectiveAngsty] olhar dentro [PAWN_possessive] olhos</li>
+    <li>tale_noun->A caravana de [PAWN_nameDef] derrotando uma fortaleza inimiga</li>
+    <li>image->[PAWN_nameFull] correndo em direção a [Enemy], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] empunhando um(a) [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] girando uma [Weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] em pé, mas alto que um construção, [circumstance_group]</li>
+    <li>circumstance_phrase->usando um visual [AdjectiveBadass] olha dentro dos seus olhos</li>
+    <li>circumstance_phrase->usando um visual [AdjectiveAngsty] olha dentro dos seus olhos</li>
     <li>circumstance_phrase->bradando a vitória</li>
     <li>circumstance_phrase->coberto de [Gore]</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s escondeu-se do ataque.</li>
@@ -118,10 +118,10 @@
     <li>desc_sentence->[PAWN_nameDef] is gasping for breath.</li>
   -->
   <CaravanFled.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]'s caravana fugiu do perigo</li>
-    <li>tale_noun->[PAWN_nameDef]'s caravana escapou do perigo</li>
-    <li>tale_noun->[PAWN_nameDef]'s caravana por pouco escapou do perigo</li>
-    <li>tale_noun->[PAWN_nameDef]'s caravana sendo perseguida por inimigos</li>
+    <li>tale_noun->Caravana de [PAWN_nameDef] fugindo do perigo</li>
+    <li>tale_noun->Caravana de [PAWN_nameDef] escapando do perigo</li>
+    <li>tale_noun->Caravana de [PAWN_nameDef] escapando por pouco do perigo</li>
+    <li>tale_noun->Caravana de [PAWN_nameDef] sendo perseguida por inimigos</li>
     <li>image->[PAWN_nameFull] correndo freneticamente [circumstance_group]</li>
     <li>image->[PAWN_nameFull] correndo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] escondido atrás de um [TerrainFeature], se escondendo [circumstance_group]</li>
@@ -132,10 +132,10 @@
     <li>circumstance_phrase->a partir de [Quantity_adjphrase] [Enemy]s</li>
     <li>circumstance_phrase->a partir de [Quantity_adjphrase] enimigo [Animal]s</li>
     <li>circumstance_phrase->a partir de um [huge] [Enemy]</li>
-    <li>desc_sentence->[PAWN_nameDef]'s perseguidores estão brandindo [Weapon]s.</li>
-    <li>desc_sentence->[PAWN_nameDef]'s perseguidores são envolto em fumaça [Color].</li>
-    <li>desc_sentence->[PAWN_nameDef]'s perseguidores usam expressões [AdjectiveAngsty].</li>
-    <li>desc_sentence->[PAWN_nameDef]'s perseguidores estão brandindo [Weapon]s.</li>
+    <li>desc_sentence->Perseguidores de [PAWN_nameDef] estão brandindo [Weapon]s.</li>
+    <li>desc_sentence->Perseguidores de [PAWN_nameDef] estão envoltos em uma fumaça [Color].</li>
+    <li>desc_sentence->Perseguidores de [PAWN_nameDef] usam expressões [AdjectiveAngsty].</li>
+    <li>desc_sentence->Perseguidores de [PAWN_nameDef] estão brandindo [Weapon]s.</li>
     <li>desc_sentence->[PAWN_nameDef] está suando.</li>
     <li>desc_sentence->[PAWN_nameDef] está ofegando.</li>
   </CaravanFled.rulePack.rulesStrings>
@@ -171,8 +171,8 @@
     <li>circumstance_phrase->e equipado para uma luta</li>
     <li>circumstance_phrase->e equipado para sobrevivência</li>
     <li>circumstance_phrase->e equipado para exploração</li>
-    <li>circumstance_phrase->com um olhar ansioso em [PAWN_possessive] olhos</li>
-    <li>circumstance_phrase->com um(a) [AdjectiveAny] olhar em [PAWN_possessive] olhos</li>
+    <li>circumstance_phrase->com um olhar ansioso em seus olhos</li>
+    <li>circumstance_phrase->com um(a) [AdjectiveAny] olhar em seus olhos</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s observa os preparativos.</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s ajuda com as preparações.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s encolhe para longe da cena.</li>
@@ -212,7 +212,7 @@
     <li>circumstance_phrase->suando muito</li>
     <li>circumstance_phrase->vestindo um [AdjectiveFriendly] expressão</li>
     <li>circumstance_phrase->sorrindo orgulhosamente</li>
-    <li>circumstance_phrase->uma expressão satisfeita em [PAWN_possessive] face</li>
+    <li>circumstance_phrase->uma expressão satisfeita em sua face</li>
     <li>circumstance_phrase->olhando em volta com cautela para o perigo</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s asiste.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s vagueie pela área.</li>

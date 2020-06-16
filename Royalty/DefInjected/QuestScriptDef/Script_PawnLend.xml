@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN:
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned via drop pods.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
     <li>disease->flu</li>
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned via drop pods.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] precisa de mãos extras para ajudar a [dutyDescription]. [asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para [asker_faction_name] por [lendForDays] dias.\n\nDepois que [lendForDays] dias se passarem, seus colonos serão devolvidos por meio de cápsulas de escape.\n\nSe você aceitar, um transporte vai chegar para pegar [colonistCountToLend]. Quando o transporte partir com eles a bordo, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] de [asker_faction_name] precisa de mãos extras para ajudar a [dutyDescription]. [asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para [asker_faction_name] por [lendForDays] dias.\n\nDepois que [lendForDays] dias se passarem, seus colonos serão devolvidos.\n\nSe você aceitar, um transporte vai chegar para pegar o(s) [colonistCountToLend]. Quando o transporte partir com ele(s) a bordo, [allRewardsDescriptions]</li>
     <li>disease->gripe</li>
     <li>disease->praga</li>
     <li>disease->malária</li>
     <li>disease->infecção</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] deseja adicionar um pouco de vida à sua corte, exibindo alguma [entertainerDescription]. [asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para [asker_faction_name] por [lendForDays] dias. Depois que [lendForDays] dias se passarem, seus colonos serão devolvidos por meio de cápsulas de escape.\n\nSe você aceitar, um transporte vai chegar para pegar [colonistCountToLend]. Quando o transporte partir com eles a bordo, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] deseja adicionar um pouco de vida à sua corte, exibindo algum(ns) [entertainerDescription]. [asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para [asker_faction_name] por [lendForDays] dias. Depois que [lendForDays] dias se passarem, seus colonos serão devolvidos por meio de cápsulas de transporte.\n\nSe você aceitar, um transporte vai chegar para pegar [colonistCountToLend]. Quando o transporte partir com ele(s) a bordo, [allRewardsDescriptions]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colono</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos</li>
   </PawnLend.questDescriptionRules.rulesStrings>
@@ -25,17 +25,27 @@
     <li>questName->[worker] Outsourcing</li>
     <li>questName->Contract [worker]s</li>
     <li>questName->Temporary Workers</li>
-    <li>questName->Colonist Lending</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s for [asker_faction_name]</li>
+    <li>questName->Provisional [worker]s</li>
+    <li>questName->Requesting [worker]s</li>
     <li>worker->Colonist</li>
     <li>worker->Worker</li>
+    <li>worker->Laborer</li>
+    <li>worker->Helper</li>
   -->
   <PawnLend.questNameRules.rulesStrings>
     <li>questName->Terceirização de [worker]</li>
     <li>questName->Contrato de [worker]</li>
     <li>questName->Trabalhadores Temporários</li>
-    <li>questName->Empréstimo de Colono</li>
+    <li>questName->Empréstimo de [worker]</li>
+    <li>questName->[worker] para [asker_faction_name]</li>
+    <li>questName->[worker] Provisórios</li>
+    <li>questName->Solicitando [worker]</li>
     <li>worker->Colono</li>
     <li>worker->Trabalhador</li>
+    <li>worker->Operário</li>
+    <li>worker->Ajudante</li>
   </PawnLend.questNameRules.rulesStrings>
   <!-- EN: gather the harvest -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>colher a plantação</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
@@ -52,7 +62,7 @@
   <!-- EN: {PAWNS} have returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>{PAWNS} retornaram após ajudar [asker_nameFull] de [asker_faction_name] a [dutyDescription].</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>
   <!-- EN: real hardy surface survivors -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>sobreviventes da superfície realmente difíceis</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>sobreviventes resistentes da superfície</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
   <!-- EN: goofy jesters -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>bobos da corte bobos</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>
   <!-- EN: foreign-accented servants -->
@@ -60,16 +70,18 @@
   <!-- EN: exotic human specimens -->
   <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>espécimes humanos exóticos</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
   <!-- EN: {PAWNS} have returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>{PAWNS} retornaram após serem exibidos como [entertainerDescription] na corte do [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name].</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
+  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>{PAWNS} retornaram após serem exibidos como [entertainerDescription] na corte do(a) [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name].</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>Transporte chegou</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>O transporte chegou</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>O ônibus chegou para pegar [colonistsToLendCount] de seus colonos.</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>O transporte chegou para pegar [colonistsToLendCount] de seus colonos.</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
   <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>Transporte destruído</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>O transporte enviado para coletar colonos foi destruído.</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>O transporte enviado para coletar os colonos foi destruído.</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>Os colonos voltaram</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>
-
+  <!-- EN: $returnLetterText -->
+  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>$returnLetterText</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>
+  
 </LanguageData>

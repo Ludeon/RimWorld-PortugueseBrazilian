@@ -103,7 +103,9 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Esta ação irá fazer {PAWN_nameDef} perder o título {TITLE} {PAWN_possessive}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Esta ação irá fazer {PAWN_nameDef} perder o título de {TITLE} {PAWN_objective}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá essas permissões</RenounceTitleWillLoosePermits>
   <!-- EN: unknown -->
   <UnknownLower>desconhecido</UnknownLower>
   <!-- EN: On -->
@@ -395,13 +397,11 @@
   <!-- EN: Required -->
   <Required>Requerido</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>Aviso: você não pode concluir solicitações de negociação usando pods de transporte.\nSe você enviar as mercadorias, o assentamento as aceitará como presentes, mas elas não serão recompensadas.\n\nPara negociar, aproxime-se do assentamento com uma caravana!\n\nTem certeza de que deseja doar os bens transportados para esta facção?</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>Aviso: você não pode concluir solicitações de negociação usando cápsulas de transporte.\nSe você enviar as mercadorias, o assentamento as aceitará como presentes, mas elas não serão recompensadas.\n\nPara negociar, aproxime-se do assentamento com uma caravana!\n\nTem certeza de que deseja doar os bens transportados para esta facção?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
   <PrisonerLower>prisioneiro</PrisonerLower>
   <!-- EN: prisoners -->
   <PrisonersLower>prisioneiros</PrisonersLower>
-  <!-- EN: Complete -->
-  <Complete>Completo</Complete>
   <!-- EN: Click to view this quest in quests tab -->
   <ClickToViewInQuestsTab>Clique para visualizar esta missão na guia "Missões"</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
@@ -456,6 +456,8 @@
   <ConditionCauserRadius>raio {0}</ConditionCauserRadius>
   <!-- EN: {0} left -->
   <DurationLeft>{0} restante</DurationLeft>
+  <!-- EN: Any of -->
+  <AnyOf>Qualquer um</AnyOf>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -569,7 +571,7 @@
   <!-- EN: roofed -->
   <Roofed>coberto</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
-  <ShellLoaded>Artilharia carregada: {1_label}</ShellLoaded>
+  <ShellLoaded>Projétil carregado: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Não carregado</ShellNotLoaded>
 
@@ -971,7 +973,7 @@
   <!-- EN: Contains -->
   <CasketContains>Contém</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Alerta!\n\n{PAWN_nameDef} é seu último colono independente! Se você deixar {PAWN_objective} entrar neste sarcófago de criptosono, você pode não ser capaz de continuar a jogar. Tem certeza de que deseja continuar?</CasketWarning>
+  <CasketWarning>Alerta!\n\n{PAWN_nameDef} é seu último colono independente! Se você deixar {PAWN_pronoun} entrar neste sarcófago de criptosono, talvez não seja possível continuar jogando. Tem certeza de que deseja continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1001,7 +1003,7 @@
   <!-- EN: neurotrainer ({0}) -->
   <SkillNeurotrainerLabel>treinador neural ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skill neurotrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>Use o treinador neural de habilidades para aprender {0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Usar o treinador neural de habilidades para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Uma superdosagem de mecanitos de uso único que treina uma habilidade específica.\n\nA dose é administrada através da órbita do olho. Uma vez liberados no cérebro, os mecanitos melhoram rapidamente as habilidades do sujeito em uma área específica, transformando-se em tecido neural, conforme necessário.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
@@ -1215,9 +1217,9 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>Entropia psíquica: {0}/{1}\nTaxa de queda: {2}/{3}s({4}s até zero)\n\nA entropia psíquica aumenta após a realização de uma invocação psíquica.\nUltrapassar o limite de segurança pode trazer conseqüências a longo prazo para a saúde.\nSempre que a entropia chega a zero, deixa para trás um efeito de "ressaca" psíquica.</PawnTooltipPsychicEntropy>
-  <!-- EN: Physical pain focuses the mind and clears extraneous thoughts; this has the side-effect of causing faster recovery from psychic entropy. -->
-  <PawnTooltipPsychicEntropyPainFocus>A dor física concentra a mente e limpa pensamentos estranhos; isso tem o efeito colateral de causar uma recuperação mais rápida da entropia psíquica.</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropy>Entropia psíquica: {0}/{1}\nTaxa de queda: {2}/{3}s({4}s até zero)\n\nA entropia psíquica aumenta após a realização de uma invocação psíquica.\nUltrapassar o limite de segurança pode trazer consequências a longo prazo para a saúde.\nSempre que a entropia chega a zero, deixa para trás um efeito de "ressaca" psíquica.</PawnTooltipPsychicEntropy>
+  <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>A dor concentra a mente e causa uma recuperação mais rápida da entropia psíquica.\n\nNível de dor: {0}\nBônus à recuperação da entropia psíquica: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
   <PawnTooltipPsychicEntropyLimit>Ativar/desativar limitador de entropia psíquica.\n\nUltrapassar seu limite de entropia psíquica pode causar sérias consequências à saúde, incluindo colapso psíquico a longo prazo, e até danos cerebrais em casos de excesso significativo. Quanto mais a entropia estiver acima do limite, mais perigosos serão os efeitos.</PawnTooltipPsychicEntropyLimit>
 
@@ -1234,12 +1236,10 @@
   <Reward_Pawn_Caravan>um {0_age} anos de idade {0_title} chamado {0_nameDef} vai se juntar a você {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>os pods de transporte com os seguintes recursos chegarão (total value {1}):
-\n{0}</Reward_Items>
+  <Reward_Items>as cápsulas de transporte com os seguintes recursos chegarão (valor total {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>você receberá (total value {1}):
-\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>você receberá (valor total {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>suas relações de facção com {0_name} melhorarão em {1}</Reward_Goodwill>
   
@@ -1253,7 +1253,7 @@
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>biocodificado {0}</Biocoded>
+  <Biocoded>{0} biocodificado(a)</Biocoded>
   <!-- EN: Biocoding: {0} -->
   <CodedFor>Biocodificação: {0}</CodedFor>
   <!-- EN: biocoded -->

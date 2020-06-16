@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Royalty and throne -->
@@ -11,33 +11,71 @@
   <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>({0} impressionante)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
-  <ThroneMustBePlacedInside>O trono deve ser colocado dentro da sala.</ThroneMustBePlacedInside>
-  <!-- EN: Throne room contains more than one throne, but this is only allowed for married couples. -->
-  <ThroneRoomHasMoreThan1Throne>A sala do trono contém mais de um trono, mas isso só é permitido para casais.</ThroneRoomHasMoreThan1Throne>
+  <ThroneMustBePlacedInside>O trono deve ser colocado no interior.</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>Título mínimo de ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>Título mínimo ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
   <RequiresTradePermission>A negociação aqui requer o título: {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
-  <RequirementPersonalBedroom>Quarto pessoal (permitido parceiro)</RequirementPersonalBedroom>
-
+  <RequirementPersonalBedroom>Quarto pessoal (parceiro permitido)</RequirementPersonalBedroom>
+  
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>treinador psíquico ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use neurotrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Use o neurotreinador para aprender {0} invocação psíquica</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Usar o neurotreinador para aprender a invocação psíquica {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Uma super dose de uso único de mecanitos ajustados para treinar um psycast específico. A dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade psycast específica, transmutando-se em tecido neural quando necessário.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Uma super dose de uso único de mecanitos ajustados para treinar uma invocação psíquica específica. A dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade de invocação psíquica específica, transmutando-se em tecido neural quando necessário.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender o psycast {1}.</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender a invocação psíquica {1}.</AbilityNeurotrainerUsed>
   <!-- EN: {USER_labelShort} has reached psychic amplifer level {1} and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort} atingiu o nível de amplificador psíquico {1} e aprendeu automaticamente este psycast: {2}.</PsycastLearnedFromImplant>
+  <PsycastLearnedFromImplant>{USER_labelShort} atingiu o nível {1} do amplificador psíquico, e aprendeu automaticamente esta invocação psíquica: {2}.</PsycastLearnedFromImplant>
   <!-- EN: Requires psychic amplifier -->
   <PsycastNeurotrainerNoPsychicAmplifier>Requer amplificador psíquico</PsycastNeurotrainerNoPsychicAmplifier>
+  <!-- EN: {USER_labelShort} already knows {1}. -->
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} já conhece {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor>quem aceitou a missão receberá {1} de {0_royalFavorLabel} de {0_name}</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>você pode escolher um dos {2} participantes para receber {1} {0_royalFavorLabel} de {0_name}</Reward_RoyalFavor_ChoosePawn>
-
+  <Reward_RoyalFavor_ChoosePawn>você pode escolher um dos {2} participantes para receber {1} de {0_royalFavorLabel} de {0_name}</Reward_RoyalFavor_ChoosePawn>
+  
+  <!-- Ship landing beacons -->
+  <!-- EN: Not usable -->
+  <NotUsable>Não usável</NotUsable>
+  <!-- EN: unpowered -->
+  <Unpowered>sem energia</Unpowered>
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>bloqueado pelo telhado</BlockedByRoof>
+  <!-- EN: Too close to other beacon -->
+  <TooCloseToOtherBeacon>Muito perto de outro farol</TooCloseToOtherBeacon>
+  
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>deve ser redigido.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>habilidade em recarga. Ele estará disponível em {0}.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>habilidade já está na fila.</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>Habilidade pronta: {0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef} está pronto(a) para usar {1}.</AbilityReadyText>
+  
+  <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
+  <AbilitySpeechTooltip>Inicie um discurso do trono. {ORGANIZER_labelShort} irá para seu trono e chamará todos os colonos para ouvir um discurso lá. Se tudo correr bem, os ouvintes se sentirão inspirados, e ganharão respeito por {ORGANIZER_labelShort}. Se der errado, o discurso causará danos sociais. O resultado depende das habilidades sociais de {ORGANIZER_labelShort}.</AbilitySpeechTooltip>
+  <!-- EN: no throne assigned. -->
+  <AbilitySpeechDisabledNoThroneAssigned>nenhum trono designado.</AbilitySpeechDisabledNoThroneAssigned>
+  <!-- EN: throne is not accessible. -->
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>trono não está acessível.</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <!-- EN: throne not usable because it is undignified. -->
+  <AbilitySpeechDisabledNoThroneUndignified>trono não utilizável porque é indigno.</AbilitySpeechDisabledNoThroneUndignified>
+  <!-- EN: already giving a speech. -->
+  <AbilitySpeechDisabledAlreadyGivingSpeech>já está fazendo um discurso.</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>Próximo discurso pronto em</AbilitySpeechCooldown>
+  <!-- EN: Outcome chances -->
+  <AbilitySpeechPossibleOutcomes>Chance de resultado</AbilitySpeechPossibleOutcomes>
+  <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
+  <AbilitySpeechStatInfo>Estatística {1} de {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
 </LanguageData>

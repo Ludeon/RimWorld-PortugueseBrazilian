@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Room requirements -->
   <!-- EN: Need throneroom -->
   <NeedThroneAssigned>Necessita-se sala do trono</NeedThroneAssigned>
-  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nBuild a throne in a room, then assign the throne to the title holder. The throneroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
-  <NeedThroneAssignedDesc>Uma das pessoas tem um título real que requer uma sala do trono, mas nenhuma sala do trono está atribuída.\n\nConstrua um trono em uma sala e depois atribua o trono ao detentor do título. A sala do trono deve ser adequadamente dimensionada e decorada para atender aos requisitos específicos do título.</NeedThroneAssignedDesc>
+  <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
+  <NeedThroneAssignedDesc>Um dos seus colonos tem um título real que requer uma sala do trono, mas nenhuma sala do trono está atribuída.\n\nCertifique-se de que o detentor do título está atribuído a um trono dentro de uma sala do trono.\n\nA sala do trono deve ser adequadamente dimensionada e decorada para atender aos requisitos específicos do título.\n\nVários tronos podem ser colocados em uma sala do trono.</NeedThroneAssignedDesc>
 
   <!-- EN: Undignified bedroom -->
   <UndignifiedBedroom>Quarto indigno</UndignifiedBedroom>
   <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
-  <UndignifiedBedroomDesc>Uma das pessoas tem um título real que requer um quarto com recursos específicos. Nenhum quarto está atribuído ou o quarto atribuído não atende aos requisitos.</UndignifiedBedroomDesc>
+  <UndignifiedBedroomDesc>Um dos seus colonos tem um título real que requer um quarto com recursos específicos. Nenhum quarto está atribuído ou o quarto atribuído não atende aos requisitos.</UndignifiedBedroomDesc>
 
   <!-- EN: Title requires bedroom -->
   <NeedBedroomAssigned>Título necessita quarto</NeedBedroomAssigned>
   <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
-  <NeedBedroomAssignedDesc>Uma das pessoas tem um título real que requer um quarto pessoal, mas nenhum quarto está atribuído.\n\nAtribua a eles um quarto pessoal. O quarto deve ter tamanho e decoração adequados para atender aos requisitos específicos do título</NeedBedroomAssignedDesc>
+  <NeedBedroomAssignedDesc>Um dos seus colonos tem um título real que requer um quarto pessoal, mas nenhum quarto está atribuído.\n\nAtribua a eles um quarto pessoal. O quarto deve ter tamanho e decoração adequados para atender aos requisitos específicos do título</NeedBedroomAssignedDesc>
 
   <!-- EN: Undignified throneroom -->
   <UndignifiedThroneroom>Trono indigno</UndignifiedThroneroom>
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
-  <UndignifiedThroneroomDesc>Uma das pessoas tem um título real e um trono, mas a sala do trono não atende aos requisitos do título.</UndignifiedThroneroomDesc>
-
+  <UndignifiedThroneroomDesc>Um dos seus colonos tem um título real e um trono, mas a sala do trono não atende aos requisitos do título.</UndignifiedThroneroomDesc>
+  
   <!-- EN: No acceptable food -->
   <RoyalNoAcceptableFood>Nenhum alimento aceitável</RoyalNoAcceptableFood>
   <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
-  <RoyalNoAcceptableFoodDesc>Uma das pessoas tem um título real com necessidades alimentares específicas. Mas não há comida disponível que atenda a esses requisitos.</RoyalNoAcceptableFoodDesc>
+  <RoyalNoAcceptableFoodDesc>Um dos seus colonos tem um título real com necessidades alimentares específicas. Mas não há comida disponível que atenda a esses requisitos.</RoyalNoAcceptableFoodDesc>
 
   <!-- EN: {0} days until requirement begins -->
   <RoomRequirementGracePeriodDesc>{0} dias até o requisito começar</RoomRequirementGracePeriodDesc>
@@ -33,6 +33,16 @@
   <!-- EN: Throne not usable -->
   <ThroneroomInvalidConfiguration>Trono inutilizável</ThroneroomInvalidConfiguration>
   <!-- EN: A throne is not usable because of how it is set up: -->
-  <ThroneroomInvalidConfigurationDesc>Um trono não é utilizável por causa de como está configurado:</ThroneroomInvalidConfigurationDesc>
+  <ThroneroomInvalidConfigurationDesc>Um trono está inutilizável por causa de como está configurado:</ThroneroomInvalidConfigurationDesc>
+  
+  <!-- EN: Monument missing blueprints -->
+  <MonumentMarkerMissingBlueprints>Monumento faltando projetos</MonumentMarkerMissingBlueprints>
+  <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
+  <MonumentMarkerMissingBlueprintsDesc>O monumento não será concluído porque os projetos não foram colocados para todas as suas partes.\n\nSelecione o marcador de monumento e clique em "Colocar projetos", ou coloque-os manualmente.</MonumentMarkerMissingBlueprintsDesc>
+
+  <!-- EN: Beacon unusable -->
+  <ShipLandingBeaconUnusable>Farol inutilizável</ShipLandingBeaconUnusable>
+  <!-- EN: A ship landing beacon is powered but can’t be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
+  <ShipLandingBeaconUnusableDesc>Um farol de aterrissagem de naves está com energia, mas não pode ser usado. Para ser utilizável, quatro deles devem ser colocados nos cantos de um quadrado com pelo menos 9 ladrilhos de largura e toda a área do quadrado deve estar livre de obstruções, incluindo construções, pessoas e animais.</ShipLandingBeaconUnusableDesc>
 
 </LanguageData>

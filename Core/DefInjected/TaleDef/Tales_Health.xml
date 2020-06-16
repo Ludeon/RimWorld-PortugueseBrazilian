@@ -71,7 +71,7 @@
     <li>desc_sentence->Um(a) [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] olha [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] está com os olhos fechados.</li>
-    <li>desc_sentence->[KILLER_nameDef] está descobrindo os dentes [KILLER_possessive].</li>
+    <li>desc_sentence->[KILLER_nameDef] está mostrando os dentes [KILLER_objective].</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfeito.</li>
     <li>desc_sentence->[KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfeito com a situação.</li>
@@ -79,7 +79,7 @@
   </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
-  <Exhausted.label>esgotado</Exhausted.label>
+  <Exhausted.label>exausto</Exhausted.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] collapsing from exhaustion</li>
     <li>image->[PAWN_nameFull] collapsing on the ground [circumstance_group]</li>
@@ -136,21 +136,21 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[MOTHER_nameDef] está dando à luz a [CHILD_nameDef]</li>
-    <li>image->[MOTHER_nameFull] está dando à luz a [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] está segurando [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] está deitada na cama ao lado do [MOTHER_possessive] [baby], [circumstance_group]</li>
-    <li>image->[MOTHER_nameFull] colapsou em uma cadeira com [MOTHER_possessive] [baby] [circumstance_group]</li>
+    <li>tale_noun->[MOTHER_nameDef] dando à luz a [CHILD_nameDef]</li>
+    <li>image->[MOTHER_nameFull] dando à luz a [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] segurando seu [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] deitada na cama ao lado de seu [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] colapsou em uma cadeira com seu [baby] [circumstance_group]</li>
     <li>baby->criança</li>
     <li>baby->recém nascido</li>
     <li>baby->bebê</li>
-    <li>circumstance_phrase->[CHILD_nameFull], está com sangue e chorando</li>
-    <li>circumstance_phrase->[CHILD_nameFull], está brilhando suavemente [Color]</li>
-    <li>circumstance_phrase->[CHILD_nameFull], já está tentando puxar o [CHILD_objective] sozinho(a)</li>
-    <li>circumstance_phrase->[CHILD_nameFull], está olhando ao redor com uma expressão de serenidade</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s estão dormindo tranquilamente nas proximidades.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s estão olhando a sena.</li>
-    <li>desc_sentence->Um(a) [PersonJob]s observam a distancia.</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que está sangrando e chorando</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que transmite um brilho [Color] suave</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que já está tentando se recompor</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que está olhando em volta com uma expressão de serenidade</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s dormem tranquilamente nas proximidades.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplam a cena.</li>
+    <li>desc_sentence->Um(a) [PersonJob] assiste à distância.</li>
     <li>desc_sentence->A cena acontece dentro de uma recém-construída [Community].</li>
   </GaveBirth.rulePack.rulesStrings>
   
@@ -198,7 +198,7 @@
   </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
-  <HypothermiaRevealed.label>hipotermia</HypothermiaRevealed.label>
+  <HypothermiaRevealed.label>hipotermia revelada</HypothermiaRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting hypothermia</li>
     <li>tale_noun->[PAWN_nameDef] freezing to death</li>
@@ -241,7 +241,7 @@
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
-  <IllnessRevealed.label>doença</IllnessRevealed.label>
+  <IllnessRevealed.label>doença revelada</IllnessRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] being stricken with [ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] staggering through a field [circumstance_group]</li>
@@ -424,7 +424,7 @@
   </KilledLongRange.rulePack.rulesStrings>
   
   <!-- EN: killed major threat -->
-  <KilledMajorThreat.label>morto por grande ameaça</KilledMajorThreat.label>
+  <KilledMajorThreat.label>derrotou grande ameaça</KilledMajorThreat.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -503,7 +503,7 @@
   </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
-  <KilledMelee.label>morto a corpo a corpo</KilledMelee.label>
+  <KilledMelee.label>morto no corpo a corpo</KilledMelee.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in close combat</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]</li>
@@ -629,7 +629,7 @@
   </KilledMortar.rulePack.rulesStrings>
   
   <!-- EN: toxicity revealed -->
-  <ToxicityRevealed.label>toxicidade</ToxicityRevealed.label>
+  <ToxicityRevealed.label>toxicidade revelada</ToxicityRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s body becoming toxic</li>
     <li>tale_noun->[PAWN_nameDef] being poisoned by toxins</li>

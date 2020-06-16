@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: $(floor($shuttleDelayTicks / $raidIntervalTicks)) -->
+  <Hospitality_Util_Worker.root.nodes.Equal-0.node.nodes.Sequence-1.nodes.Set-2.value.slateRef>$(floor($shuttleDelayTicks / $raidIntervalTicks))</Hospitality_Util_Worker.root.nodes.Equal-0.node.nodes.Sequence-1.nodes.Set-2.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
-  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>[lodgersLabelSingOrPlural] chegaram</Hospitality_Util_Worker.root.nodes.DropPods.customLetterLabel.slateRef>
+  <Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[lodgersLabelSingOrPlural] chegaram</Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect them until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
-  <Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>[lodgersLabelSingOrPluralDef] [lodgersHasHave] chegaram. Proteja-os até que o transporte chegue em [shuttleDelayTicks_duration].[helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.DropPods.customLetterText.slateRef>
+  <Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>[lodgersLabelSingOrPluralDef] [lodgersHasHave] chegaram. Proteja-os até que o transporte chegue em [shuttleDelayTicks_duration].[helpersArrivalLetterEnd]</Hospitality_Util_Worker.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>Deve partir no transporte</Hospitality_Util_Worker.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
@@ -31,6 +33,8 @@
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>Convidado perdido: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>[letterSubject], que você foi encarregado de proteger, se foi. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>Convidado perdido: {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>[letterSubject], que você foi encarregado de proteger, se juntou a outra facção. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
@@ -41,5 +45,10 @@
   <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>A missão falhou: [resolvedQuestName]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
   <Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>O transporte enviado para pegar [lodgersLabelSingOrPluralDef] partiu. [lodgersLabelSingOrPluralDef] irá embora a pé. [failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
-
+  
+  <!-- EN: Shuttle destroyed -->
+  <Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.label.slateRef>Transporte destruído</Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
+  <Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.text.slateRef>O transporte enviado para deixar [pawnsLabelDef] foi destruído. Você falhou na missão '[resolvedQuestName]'.\n\nSuas relações com [asker_faction_name] mudaram em [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.root.nodes.HasRoyalTitleInCurrentFaction.node.nodes.arrivalShuttleDestroyed.node.nodes.Letter.text.slateRef>
+  
 </LanguageData>

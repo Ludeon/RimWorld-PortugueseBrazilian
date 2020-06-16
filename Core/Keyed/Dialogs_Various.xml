@@ -5,14 +5,16 @@
   <Confirm>Confirmar</Confirm>
   <!-- EN: Go back -->
   <GoBack>Voltar</GoBack>
+  <!-- EN: Do you want to continue? -->
+  <WantToContinue>Você quer continuar?</WantToContinue>
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
   <Close>Fechar</Close>
-
+  
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
-  <GameUpdatedToNewVersionInitial>RimWorld foi atualizado da versão {0} para a versão {1}.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>O RimWorld foi atualizado da versão {0} para a versão {1}.</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
   <GameUpdatedToNewVersionSavesIncompatible>Isto pode fazer com que jogos salvos e mods da versão antiga parem de funcionar.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
@@ -21,13 +23,13 @@
   <GameUpdatedToNewVersionNonSteam>Uma vez que esta é uma cópia sem DRM, você pode instalar o jogo duas vezes em duas pastas diferentes, para ser capaz de jogar ambas as versões antigas e novas.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Se você deseja continuar com a versão antiga, você pode optar por usar o recurso "Betas" da Steam.\n\n  1. Na biblioteca da Steam, clique com o botão direito no RimWorld.\n  2. Clique em Propriedades.\n  3. Clique na guia Betas.\n  4. Selecione a versão que você deseja a partir do menu pendente.</GameUpdatedToNewVersionSteam>
-
+  
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
   <RecoveredFromErrorsDialogTitle>Se recuperou de erros de mods incompatíveis ou corrompidos</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
   <RecoveredFromErrorsText>Parece que alguns dos mods ativos estavam causando erros.\n\nEles eram incompatíveis entre si, concebido para uma versão diferente do RimWorld, ou corrompidos.\n\nTodos os mods foram desativados e podem ser ativados novamente no diálogo de mods.</RecoveredFromErrorsText>
-
+  
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
   <ErrorWhileLoadingAssetsTitle>Erro ao carregar os assets</ErrorWhileLoadingAssetsTitle>
@@ -43,7 +45,7 @@
   <ErrorWhileLoadingMapTitle>Erro ao carregar um mapa</ErrorWhileLoadingMapTitle>
   <!-- EN: An error occurred while loading a map. See error log for more information. -->
   <ErrorWhileLoadingMap>Ocorreu um erro ao carregar um mapa. Consulte o relatório de erro para mais informações.</ErrorWhileLoadingMap>
-
+  
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
   <ModsChanged>A lista de mods mudou. O jogo vai reiniciar automaticamente.</ModsChanged>
@@ -51,22 +53,22 @@
   <FailedToRestart>Algo deu errado enquanto reiniciando o jogo. O jogo não pode descarregar completamente o código modificado de mods desativados, portanto, o código de mods desativados ainda pode estar ativo.\n\nÉ recomendado que você desista e reinicie o jogo agora para carregar todos os mods de forma limpa.</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>Reiniciando</Restarting>
-
+  
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
   <SteamClientMissing>Não foi possível inicializar a API Steam. Causas possíveis:\n\n-A Steam não está em execução.\n-Foi iniciado fora da Steam sem steam_appid.txt no lugar.\n-Está sendo executado com privilégios diferentes do cliente Steam (ex. "como administrador").\n\nNa maioria dos casos, reiniciar o computador irá corrigir este problema.\n\nVocê pode jogar assim mesmo, mas as estatísticas da Steam não serão gravadas e os recursos da Steam não estarão disponíveis.</SteamClientMissing>
-
+  
   <!-- Long events -->
   <!-- EN: Initializing interface -->
-  <InitializingInterface>Inicializando menu</InitializingInterface>
+  <InitializingInterface>Inicializando interface</InitializingInterface>
   <!-- EN: Unloading unused assets -->
-  <UnloadingUnusedAssets>Descarregando assets inutilizados</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>Descarregando recursos inutilizados</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
   <LoadingAllActiveMods>Carregando todos os mods ativos</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
   <LoadingDefs>Carregando defs</LoadingDefs>
   <!-- EN: Loading assets -->
-  <LoadingAssets>Carregando assets</LoadingAssets>
+  <LoadingAssets>Carregando recursos</LoadingAssets>
   <!-- EN: Initializing -->
   <Initializing>Inicializando</Initializing>
   <!-- EN: Loading world -->
@@ -76,10 +78,10 @@
   <!-- EN: Initializing game -->
   <InitializingGame>Inicializando jogo</InitializingGame>
   <!-- EN: Spawning things -->
-  <SpawningAllThings>Distribuindo todas as coisas</SpawningAllThings>
+  <SpawningAllThings>Gerando coisas</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>Distribuindo colonos</SpawningColonists>
-
+  <SpawningColonists>Gerando colonos</SpawningColonists>
+  
   <!-- Save/load -->
   <!-- EN: Save -->
   <SaveGameButton>Salvar</SaveGameButton>
@@ -94,7 +96,7 @@
   <!-- EN: Saved as {0}. -->
   <SavedAs>Salvo como {0}.</SavedAs>
   <!-- EN: Please enter a name. -->
-  <NeedAName>Por favor, escreva um nome.</NeedAName>
+  <NeedAName>Por favor digite um nome.</NeedAName>
   <!-- EN: Loading -->
   <LoadingLongEvent>Carregando</LoadingLongEvent>
   <!-- EN: Saving -->
@@ -125,10 +127,10 @@
   <ContentInstalledButNotActive>Instalado, mas desativado</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
   <ContentNotInstalled>Não instalado</ContentNotInstalled>
-
+  
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
-  <NamePlayerFactionMessage>{0} acha que você deve dar um nome a sua facção. Como a sua facção deve ser chamada?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>Como parece que você ficará aqui por um tempo, {0} acha que você deve dar um nome a sua facção. Como a sua facção deve ser chamada?</NamePlayerFactionMessage>
   <!-- EN: Your faction is now known as {0}. -->
   <PlayerFactionGainsName>Sua facção agora é conhecida como {0}.</PlayerFactionGainsName>
   <!-- EN: That name isn't valid. -->
@@ -136,18 +138,18 @@
 
   <!-- Player faction base naming -->
   <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
-  <NamePlayerFactionBaseMessage>Uma vez que parece que você estará aqui por um tempo, {0} Acredita que você deve dar a esta comunidade um nome. Como esta comunidade local deve ser chamada?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>{0} acha que você deve dar um nome a este assentamento. Como este assentamento local deve ser chamado?</NamePlayerFactionBaseMessage>
   <!-- EN: This community is now known as {0}. -->
   <PlayerFactionBaseGainsName>Esta comunidade é agora conhecida como {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionBaseNameIsInvalid>Este nome não é válido.</PlayerFactionBaseNameIsInvalid>
-
+  
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Uma vez que parece que você estará aqui por um tempo, {0} também acha que você deve dar a comunidade um nome. Como esta comunidade local deve ser chamada?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} também acha que você deve dar um nome a este assentamento. Como este assentamento local deve ser chamado?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
-  <PlayerFactionAndBaseGainsName>Sua facção é agora conhecida como {0}, E esta comunidade é agora conhecida como {1}.</PlayerFactionAndBaseGainsName>
-
+  <PlayerFactionAndBaseGainsName>Sua facção é agora conhecida como {0}, e esta comunidade é agora conhecida como {1}.</PlayerFactionAndBaseGainsName>
+  
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
   <NameIsInvalid>Por favor, insira um nome válido.</NameIsInvalid>
@@ -155,10 +157,10 @@
   <NameIsInUse>O nome já está em uso.</NameIsInUse>
   <!-- EN: The zone is now called {0}. -->
   <ZoneGainsName>A zona agora se chama {0}.</ZoneGainsName>
-
+  
   <!-- Pawn naming -->
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>O apelido dessa pessoa agora é {0}. {PAWN_possessive} título é {PAWN_title}.</PawnGainsName>
+  <PawnGainsName>O apelido dessa pessoa agora é {0}. Seu título é {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>O nome do animal agora é {0}.</AnimalGainsName>
 
@@ -166,7 +168,7 @@
   <!-- EN: Version mismatch -->
   <VersionMismatch>Incompatibilidade de versão</VersionMismatch>
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
-  <SaveGameIncompatibleWarningText>Mapa foi salvo com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Este jogo foi salvo com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
   <WorldFileVersionMismatch>O arquivo do mundo foi gerado com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos. Você provavelmente deveria gerar um novo mundo a partir do zero.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
@@ -178,7 +180,7 @@
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
-  <ConfirmResolutionChange>Você mudou as configurações de tela. Será que este novo irá funcionar bem?\n\nRevertendo automaticamente em {0}...</ConfirmResolutionChange>
+  <ConfirmResolutionChange>Você alterou as configurações da tela. A nova funciona bem?\n\nRevertendo automaticamente em {0}...</ConfirmResolutionChange>
   <!-- EN: Keep -->
   <ResolutionKeep>Manter</ResolutionKeep>
   <!-- EN: Revert -->
@@ -187,7 +189,7 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo desenvolvedor neste computador?</ConfirmPermanentlyDisableDevMode>
-
+  
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Aviso: você irá aterrissar em um ambiente congelado. Pode ser difícil ou quase impossível para sobreviver. Se você não está pretendendo enfrentar um desafio extremo, escolha um outro local ou estação de ano diferente.</MapTemperatureDangerWarning>
@@ -241,7 +243,7 @@
   <AnyWorker>Qualquer trabalhador</AnyWorker>
   <!-- EN: Unlimited -->
   <Unlimited>Ilimitado</Unlimited>
-
+  
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>(Esta receita não pode ter uma contagem de destino, porque tem vários ou imprevisíveis produtos.)</RecipeCannotHaveTargetCount>
   <!-- EN: Work amount -->
@@ -280,7 +282,7 @@
   <IncludeFromAll>Olhe para todo lado</IncludeFromAll>
   <!-- EN: Look in {0} -->
   <IncludeSpecific>Olhe em {0}</IncludeSpecific>
-
+  
   <!-- Info card -->
   <!-- EN: Damage -->
   <Damage>Dano</Damage>
@@ -361,7 +363,7 @@
   <!-- EN: Diet -->
   <Diet>Dieta</Diet>
   <!-- EN: Nutrition need per day -->
-  <NutritationEatenPerDay>Necessidade de nutrição por dia</NutritationEatenPerDay>
+  <NutritationEatenPerDay>Necessidade de nutrição diária</NutritationEatenPerDay>
   <!-- EN: Leather type -->
   <LeatherType>Tipo de couro</LeatherType>
   <!-- EN: Body size -->
@@ -441,26 +443,28 @@
   <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
   <RearmCostExplanation>Recursos necessários para rearmar esta torreta (afetada por dificuldade).</RearmCostExplanation>
   <!-- EN: Shots before rearm -->
-  <ShotsBeforeRearm>Munição atual</ShotsBeforeRearm>
+  <ShotsBeforeRearm>Tiros até rearmar</ShotsBeforeRearm>
   <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
-  <ShotsBeforeRearmExplanation>Quantas tiros esta torreta pode disparar antes de ter que ser rearmada.</ShotsBeforeRearmExplanation>
+  <ShotsBeforeRearmExplanation>Quantos tiros essa torreta pode disparar antes de ser rearmada.</ShotsBeforeRearmExplanation>
   <!-- EN: Power consumption -->
   <PowerConsumption>Consumo de energia</PowerConsumption>
   <!-- EN: Target -->
   <Target>Alvo</Target>
-  <!-- EN: Human -->
-  <TargetHuman>Humano</TargetHuman>
-  <!-- EN: Animal -->
-  <TargetAnimal>Animal</TargetAnimal>
-  <!-- EN: Self -->
-  <TargetSelf>Si mesmo</TargetSelf>
-  <!-- EN: Ground -->
-  <TargetGround>Chão</TargetGround>
+  <!-- EN: The types of targets on which this ability can be used. -->
+  <AbilityTargetDesc>Os tipos de alvos nos quais essa habilidade pode ser usada.</AbilityTargetDesc>
+  <!-- EN: human -->
+  <TargetHuman>humano</TargetHuman>
+  <!-- EN: animal -->
+  <TargetAnimal>animal</TargetAnimal>
+  <!-- EN: self -->
+  <TargetSelf>si mesmo</TargetSelf>
+  <!-- EN: ground -->
+  <TargetGround>chão</TargetGround>
   <!-- EN: Click to learn more. -->
   <ClickToLearnMore>Clique para aprender mais.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Clique para visualizar facções.</ClickToViewFactions>
-
+  
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
   <PositiveBuysNegativeSells>Números positivos você vende.\nNúmeros negativos você compra.</PositiveBuysNegativeSells>
@@ -505,15 +509,15 @@
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
   <ConfirmTraderShortFunds>O comerciante não tem prata suficiente para cobrir integralmente esta transação. Deseja continuar mesmo assim?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
-  <SortBy>Ordem por</SortBy>
+  <SortBy>Ordenar por</SortBy>
   <!-- EN: trader type -->
   <TraderTypePrice>tipo de comerciante</TraderTypePrice>
   <!-- EN: selling -->
-  <Selling>venda</Selling>
+  <Selling>vendendo</Selling>
   <!-- EN: buying -->
-  <Buying>compra</Buying>
+  <Buying>comprando</Buying>
   <!-- EN: item sell price multiplier -->
-  <ItemSellPriceFactor>multiplicador de preço de venda de item</ItemSellPriceFactor>
+  <ItemSellPriceFactor>multiplicador de preço de venda do item</ItemSellPriceFactor>
   <!-- EN: difficulty level -->
   <DifficultyLevel>nível de dificuldade</DifficultyLevel>
   <!-- EN: global post-process curve -->
@@ -521,7 +525,7 @@
   <!-- EN: Your negotiator bonus -->
   <YourNegotiatorBonus>Bônus de seu negociador</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
-  <TradeWithFactionBaseBonus>Bônus de negociação com base de facção</TradeWithFactionBaseBonus>
+  <TradeWithFactionBaseBonus>Negociação com bônus base de facção</TradeWithFactionBaseBonus>
   <!-- EN: minimum -->
   <minimum>mínimo</minimum>
   <!-- EN: Final price -->
@@ -530,6 +534,8 @@
   <GiftModeTip>Modo presente - ofereça presentes para {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Retornar ao modo de negociação.</TradeModeTip>
+  <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} não está disposto(a) a enviar uma caravana porque {NEGOTIATOR_nameDef} não possui o título necessário de {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -542,7 +548,7 @@
   <NextTraderRestock>Próximo reabastecimento: {0} dias</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Criaturas</PawnsTabShort>
-
+  
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>Formar caravana</FormCaravan>
@@ -607,7 +613,7 @@
   <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
   <DaysUntilRotTip>O número de dias até o item iniciar a apodrecer é baseado na média de temperatura desta área.</DaysUntilRotTip>
   <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
-  <ItemNutritionTip>Quanta nutrição esta comida fornece.\n\nPara referência: a pessoa adulta precisa de {0} de nutrição por dia.</ItemNutritionTip>
+  <ItemNutritionTip>Quanta nutrição esta comida fornece.\n\nPara referência: a pessoa adulta precisa de {0} de nutrição diária.</ItemNutritionTip>
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
   <AnimalCanGrazeTip>Este animal pode pastar no ambiente em vez de comer a comida carregada. Pastar só é possível em alguns biomas e faixas de temperatura.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
@@ -678,11 +684,11 @@
   <SourceCaravanMustHaveAtLeastOneColonist>Você deve deixar pelo menos um colono consciente.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Quantos deste item a caravana está pronta para dar à nova caravana.</SplitCaravanThingCountTip>
-
+  
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
   <ConfirmAttackFriendlyFaction>Tem certeza de que deseja atacar {0}?\n\nIsso tornará {1} hostil a você, e eles eventualmente começarão a invadir sua colônia!</ConfirmAttackFriendlyFaction>
-
+  
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
   <LoadTransporters>Carregar {0}</LoadTransporters>
@@ -706,17 +712,17 @@
   <TransporterItemIsUnreachableMulti>Não existe um caminho entre as cápsulas de transporte e {0}x {1}.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>Não há caminho entre o transporte e {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
-
+  
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
   <SocialSkillIs>Habilidade social: {0}</SocialSkillIs>
-
+  
   <!--Research-->
   <!-- EN: Research finished: {0} -->
   <ResearchFinished>Pesquisa terminada: {0}</ResearchFinished>
   <!-- EN: Research Screen -->
   <ResearchScreen>Tela de pesquisa</ResearchScreen>
-
+  
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
   <HistoryUploadMessage>Você deseja fazer envio de seus registros de dados de jogo para o servidor de RimWorld, a fim de ajudar os desenvolvedores a equilibrar o jogo? Se você concordar, seus dados serão enviados a cada {0} dias (e em alguns outros casos raros, como o fim do jogo). Preferências de privacidade podem ser alteradas mais tarde no menu de opções.</HistoryUploadMessage>
@@ -730,7 +736,7 @@
   <HistoryUploadYesOnce>Fazer envio só desta vez</HistoryUploadYesOnce>
   <!-- EN: Do not upload this time, ask me later -->
   <HistoryUploadNoOnce>Não faça envio desta vez, pergunte-me mais tarde</HistoryUploadNoOnce>
-
+  
   <!-- Outfit management -->
   <!-- EN: Outfit -->
   <Outfit>Vestuário</Outfit>
@@ -744,7 +750,7 @@
   <OutfitInUse>Vestuário está em uso por {0}.</OutfitInUse>
   <!-- EN: No outfit selected -->
   <NoOutfitSelected>Sem vestuário selecionado</NoOutfitSelected>
-
+  
   <!-- Drug policy management -->
   <!-- EN: Drug policy -->
   <DrugPolicy>Política de drogas</DrugPolicy>
@@ -852,7 +858,7 @@
   <MedGroupNeutralFaction>Facção neutra</MedGroupNeutralFaction>
   <!-- EN: Hostile faction -->
   <MedGroupHostileFaction>Facção hostil</MedGroupHostileFaction>
-
+  
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
   <NoGrowerCanPlant>{0} requer {1} de habilidade em Agricultura para plantar.\n\nNenhum dos seus agricultores não caídos tem esta habilidade, por isto esta planta não será plantada.</NoGrowerCanPlant>
@@ -864,18 +870,18 @@
   <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} fará com que as seguintes pessoas obtenham os seguintes pensamentos:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Todos:</ConfirmAbandonHomeNegativeThoughts_Everyone>
-
+  
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
   <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonizadores saudáveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
-
+  
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
   <ConfirmBanishPawnDialog>Você realmente quer banir {1_label}?</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} provavelmente irá morrer.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>{1_labelShort} tomará os seguintes itens com {1_objective}:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} levará os seguintes itens com {1_pronoun}:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Todos os colonos terão os seguintes pensamentos:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
@@ -888,7 +894,7 @@
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
   <ConfirmSettleNearFactionBase>Como esse local está dentro de {0} blocos da base de outra facção, eles sentirão que você está invadindo sua terra e as relações com essas facções piorarão a cada {1} dias.\n\nficar aqui mesmo assim?</ConfirmSettleNearFactionBase>
-
+  
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
   <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}?\n\nIsto irá:\n  - Adicionar espaços reservados para traduções dos arquivos Keyed, DefInjected e Backstories.\n  - Adicionar ou atualizar os comentários que contêm no texto original não traduzido.\n  - Mover todas as traduções de Keyed e DefInjected para os arquivos XML apropriados.\n  - Aplicar a formatação automática a todos os arquivos XML.\n  - Atualizar os nomes Def compatíveis com versões anteriores.\n  - Remover todos os comentários XML existentes (exceto em texto completo).\n\nArquivos não-XML não serão removidos ou modificados.\n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados.\n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
@@ -897,7 +903,7 @@
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>A caravana ficará imóvel se você enviar os pods para uma outro local. Deseja mesmo fazer isso?</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>A caravana ficará imóvel se você enviar as cápsulas para um ladrilho vazio. Deseja mesmo fazer isso?</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
@@ -920,5 +926,5 @@
   <AbilityOccupiedCells>{0} deve mirar em uma área vazia.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} deve mirar em uma área que pode ser percorrida.</AbilityUnwalkable>
-
+  
 </LanguageData>

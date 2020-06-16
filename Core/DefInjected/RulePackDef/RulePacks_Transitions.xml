@@ -29,7 +29,7 @@
     <li>died(SUBJECT_flesh==Mechanoid)->parou de funcionar</li>
     <li>died(SUBJECT_flesh==Mechanoid)->perdeu poder</li>
   </Transition_Died.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>die(p=3)->explode [flavor]</li>
     <li>die(p=3)->explode [flavorsuffix]</li>
@@ -137,15 +137,15 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>r_logentry->[CULPRITHEDIFF_labelNoun] causou um [collapsemeta] em [SUBJECT_definite].</li>
-    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] causou um [collapsemeta] em [SUBJECT_definite].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] causou um(a) [collapsemeta] em [SUBJECT_definite].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] causou um(a) [collapsemeta] em [SUBJECT_definite].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] fez [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] fez [SUBJECT_definite] [collapsemeta].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
     <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
     <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
-    <li>collapse->collapse</li>
-    <li>collapse->drop</li>
+    <li>collapse->colapso</li>
+    <li>collapse->queda</li>
     <li>collapse(SUBJECT_flesh!=Mechanoid)->amassar</li>
     <li>collapse(SUBJECT_flesh==Mechanoid)->bater</li>
     <li>collapse(SUBJECT_flesh==Mechanoid)->travar</li>

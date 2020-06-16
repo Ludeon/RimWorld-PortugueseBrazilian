@@ -33,7 +33,7 @@
   <!-- EN: Quit to main menu -->
   <QuitToMainMenu>Sair para o menu principal</QuitToMainMenu>
   <!-- EN: Save and quit to menu -->
-  <SaveAndQuitToMainMenu>Salvar e sair para o Menu</SaveAndQuitToMainMenu>
+  <SaveAndQuitToMainMenu>Salvar e sair para o menu</SaveAndQuitToMainMenu>
   <!-- EN: Quit to OS -->
   <QuitToOS>Sair do jogo</QuitToOS>
   <!-- EN: Save and quit to OS -->
@@ -41,7 +41,7 @@
   <!-- EN: Fiction primer -->
   <FictionPrimer>Ficção primer</FictionPrimer>
   <!-- EN: Ludeon blog -->
-  <LudeonBlog>Blog de Ludeon</LudeonBlog>
+  <LudeonBlog>Blog da Ludeon</LudeonBlog>
   <!-- EN: Forums -->
   <Forums>Fóruns</Forums>
   <!-- EN: Official wiki -->
@@ -59,7 +59,7 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>Todas as traduções do RimWorld são feitas por fãs. Esta tradução feita por fãs foi criada pelos seguintes voluntários:\n\n{0}</TranslationThanks>
+  <TranslationThanks>Todas as traduções do RimWorld são feitas por fãs. Esta tradução feita por fãs foi criada pelos seguintes excelentes voluntários:\n\n{0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
   <TranslationHowToContribute>Você pode contribuir também. Clique abaixo para saber mais (abre o navegador da web).</TranslationHowToContribute>
   <!-- EN: Learn more -->
@@ -71,7 +71,7 @@
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
-  <ReviewWorld>Revisão do mundo</ReviewWorld>
+  <ReviewWorld>Revisar mundo</ReviewWorld>
   <!-- EN: Generate -->
   <WorldGenerate>Gerar</WorldGenerate>
   <!-- EN: Save and finish -->
@@ -120,7 +120,7 @@
   <WorldChooseButton>Selecionar</WorldChooseButton>
   <!-- EN: No world files found. Create a world first. -->
   <NoWorldsFilesFound>Nenhum arquivo de mundo encontrado. Crie um mundo primeiro.</NoWorldsFilesFound>
-
+  
   <!-- Version info -->
   <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
   <BuildNowAvailable>A versão {0} está disponível. Verifique ludeon.com para mais informações.</BuildNowAvailable>
@@ -205,9 +205,9 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Este mod foi feito para uma versão mais nova do RimWorld, e provavelmente não funcionará corretamente.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>O Mod precisa de informações da versão suportada formatadas corretamente em About.xml. Como isto: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> está obsoleto. Verifique o log para obter mais informações.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>O Mod precisa de informações da versão suportada formatadas corretamente em About.xml. Como isto: {0} -  está obsoleto. Verifique o log para obter mais informações.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>O Mod precisa de um packageId exclusivo e devidamente formatado em About.xml. Ele deve atender aos seguintes requisitos:\n\n  - Caracteres alfanuméricos e somente pontos.\n  - Sem espaços.\n  - Pelo menos um ponto.\n  - Sem pontos repetidos seguidos, ou começando ou terminando com um ponto.\n  - 60 caracteres ou menos.\n  - Não pode conter a palavra "Ludeon".\n\nPor exemplo:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>O Mod precisa de um packageId exclusivo e devidamente formatado em About.xml. Ele deve atender aos seguintes requisitos:\n\n  - Caracteres alfanuméricos e somente pontos.\n  - Sem espaços.\n  - Pelo menos um ponto.\n  - Sem pontos repetidos seguidos, ou começando ou terminando com um ponto.\n  - 60 caracteres ou menos.\n  - Não pode conter a palavra "Ludeon".\n\nPor exemplo:\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Este mod possui problemas no LoadFolders.xml que você precisa resolver antes de fazer o upload:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -238,7 +238,7 @@
   <ScenarioEditor>Editor de cenário</ScenarioEditor>
   <!-- EN: Delete -->
   <Delete>Excluir</Delete>
-
+  
   <!-- Scenario editor -->
   <!-- EN: seed -->
   <Seed>semente</Seed>
@@ -262,7 +262,7 @@
   <TooMany>Tem muitos (máx {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Pode ser atualizado na Oficina, já que você é o autor.</CanBeUpdatedOnWorkshop>
-
+  
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
   <ChooseAIStoryteller>Escolha o narrador</ChooseAIStoryteller>
@@ -287,7 +287,7 @@
   <!-- EN: Merciless mode -->
   <UnlockExtremeDifficulty>Modo impiedoso</UnlockExtremeDifficulty>
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>O modo impiedoso é um modo de jogo especial em que todos os desafios são transformados em níveis extremos.\n\nModo sem obstáculos é desbloqueado automaticamente quando você alcança marcos específicos. No entanto, você pode desbloqueá-lo agora.\n\nEsta opção só é recomendada quando você tiver jogado um jogo de alta dificuldade ou dois e quiser ter uma boa chance de morrer apesar de seus melhores esforços.</ConfirmUnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>O modo impiedoso é um modo de jogo especial em que todos os desafios são transformados em níveis extremos.\n\nO modo impiedoso é desbloqueado automaticamente quando você atinge marcos específicos. No entanto, você pode desbloqueá-lo agora.\n\nEsta opção só é recomendada quando você tiver jogado um jogo de alta dificuldade ou dois e quiser ter uma boa chance de morrer apesar de seus melhores esforços.</ConfirmUnlockExtremeDifficulty>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -426,7 +426,7 @@
   <StartingPawnsSelected>Selecionado</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Deixado para trás</StartingPawnsLeftBehind>
-
+  
   <!-- Misc -->
   <!-- EN: Start -->
   <Start>Começar</Start>
@@ -436,6 +436,8 @@
   <Next>Próximo</Next>
   <!-- EN: Back -->
   <Back>Voltar</Back>
+  <!-- EN: Show Materials -->
+  <ShowMaterials>Mostrar Materiais</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Jogabilidade</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
@@ -448,7 +450,7 @@
   <Quit>Sair</Quit>
   <!-- EN: Ignore -->
   <Ignore>Ignorar</Ignore>
-
+  
   <!-- Progress bar -->
   <!-- EN: Generating world -->
   <GeneratingWorld>Gerando mundo</GeneratingWorld>
@@ -458,7 +460,7 @@
   <GeneratingMap>Gerando mapa</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Gerando mapa para novo encontro</GeneratingMapForNewEncounter>
-  
+
   <!-- EN: Click for more info -->
   <ClickForMoreInfo>Clique para mais informações</ClickForMoreInfo>
 

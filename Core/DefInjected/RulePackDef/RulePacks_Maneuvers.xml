@@ -51,17 +51,20 @@
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->circuitos aparecendo</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixando marcas horriveis na pele</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->deixando marcas horriveis no metal</li>
-    <li>destroyed_past->devorado</li>
-    <li>destroyed_past->separado</li>
-    <li>destroyed_past->rasgado</li>
-    <li>destroyed_past->destruido</li>
-    <li>destroyed_present->devorando</li>
+    <li>destroyed_past->arrancou</li>
+    <li>destroyed_past->rasgou</li>
+    <li>destroyed_past->destruiu</li>
+    <li>destroyed_past->mordeu</li>
+    <li>destroyed_present->arrancando</li>
     <li>destroyed_present->separando</li>
     <li>destroyed_present->rasgando</li>
     <li>destroyed_present->destruindo</li>
-    <li>destroyed_suffix->[to] farrapos</li>
+    <li>destroyed_present->mordendo</li>
     <li>destroyed_suffix->[to] peças</li>
-    <li>destroyed_suffix->[to] tiras</li>
+    <li>destroyed_suffix->[to] pedaços</li>
+    <li>destroyed_suffix->[to] pedaços</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] fragmentos</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] tiras</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] tiras bagunçadas</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] uma bagunça irreconhecível</li>
   </Maneuver_Bite.rulePack.rulesStrings>
@@ -318,7 +321,7 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->expondo seu funcionamento interno</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->cortando em dois</li>
   </Maneuver_Slash.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
     <li>flavortext_consequence->leaving the area visibly deformed</li>
@@ -332,8 +335,8 @@
   <Maneuver_Smash.rulePack.rulesStrings>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixando um enorme hematoma</li>
     <li>flavortext_consequence->deixando a área visivelmente deformada</li>
-    <li>flavortext_consequence->deixando [RECIPIENT_objective] desequilibrado</li>
-    <li>flavortext_consequence->deixando [RECIPIENT_objective] de lado</li>
+    <li>flavortext_consequence->deixando [RECIPIENT_pronoun] desequilibrado</li>
+    <li>flavortext_consequence->deixando [RECIPIENT_pronoun] de lado</li>
     <li>destroyed_suffix->[to] peças</li>
     <li>destroyed_suffix->[to] pedaços</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] uma névoa fina</li>

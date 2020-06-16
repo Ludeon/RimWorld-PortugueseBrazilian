@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN:
     <li>questDescription->[intro]The [asker_faction_leaderTitle] of [asker_faction_name] will perform a customary visit with any Count of his domain upon request. Invite him, satisfy his royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.\n\nEarning the title of Count means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Count.\n\nDuring his visit, you must keep his mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]\n\nThe [asker_faction_leaderTitle] will bring four of his personal guards and place them under your command. You must house these guards, but the [asker_faction_leaderTitle] will not complain if they are killed or unhappy.\n\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
     <li>intro(sameQuestsCount==0)->You have learned of a way to escape this planet!\n\n</li>
@@ -35,18 +35,22 @@
     <li>titleEnd->Hospedeiro</li>
     <li>titleEnd->Vitória</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>A missão falhou: [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>
+  <!-- EN: [faction_name] became hostile to you.  -->
+  <EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>[faction_name] se tornou hostil a você.</EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>[asker_faction_leaderTitle] chegou</EndGame_RoyalAscent.root.nodes.DropPods.customLetterLabel.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[asker_faction_leaderTitle] chegou</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>O [asker_faction_leaderTitle] de [asker_faction_name], chegou.\n\nProteja-o e satisfaça suas necessidades reais, até que o transporte chegue em [shuttleDelayTicks_duration].\n\nTodos você podem acompanhar o [asker_faction_leaderTitle] no transporte e viajar para a flotilha Imperial para começar uma nova vida.</EndGame_RoyalAscent.root.nodes.DropPods.customLetterText.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>O [asker_faction_leaderTitle] de [asker_faction_name], chegou.\n\nProteja-o e satisfaça suas necessidades reais, até que o transporte chegue em [shuttleDelayTicks_duration].\n\nTodos você podem acompanhar o [asker_faction_leaderTitle] no transporte e viajar para a flotilha Imperial para começar uma nova vida.</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>Deve partir no transporte</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>Transporte chegou</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>O ônibus chegou para pegar o [asker_faction_leaderTitle].\n\nTodos vocês podem acompanhar o [asker_faction_leaderTitle] no transporte e viajar para a flotilha Imperial para começar uma nova vida.</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>O transporte chegou para pegar o [asker_faction_leaderTitle].\n\nTodos vocês podem acompanhar o [asker_faction_leaderTitle] no transporte e viajar para a flotilha Imperial para começar uma nova vida.</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
   <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>O arquistelar supremo agora o receberá na flotilha Imperial com uma honrada festa nobre.\n\nVocê pode permanecer na corte imperial e disputar o poder político. Talvez você evite o drama e se concentre em desfrutar de luxos ultra-tecnológicos. Ou você pode até comprar uma nave e definir um caminho para sua casa perdida há muito tempo.\n\nA escolha é sua.</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
@@ -76,8 +80,8 @@
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>O transporte enviado para pegar o [asker_faction_leaderTitle] foi destruído. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>Missão falhou: [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>A missão falhou: [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without him. He will now leave on foot. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>O transporte enviado para pegar o [asker_faction_leaderTitle] partiu sem ele. Ele irá embora a pé. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
-
+  
 </LanguageData>

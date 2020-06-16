@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: try to get to know -->
   <BuildRapport.label>tentou conhecer</BuildRapport.label>
   <!-- EN:
@@ -46,14 +46,14 @@
     <li>r_logentry->[INITIATOR_nameDef] encorajou [RECIPIENT_nameDef] para [talkabout] sobre [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] ofereceu uma chance para [RECIPIENT_nameDef] [talkabout] sobre [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] manifestou interesse em [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] perguntou a [RECIPIENT_nameDef] sobre [PersonalCharacteristic] de [RECIPIENT_possessive].</li>
+    <li>r_logentry->[INITIATOR_nameDef] perguntou a [RECIPIENT_nameDef] sobre [PersonalCharacteristic] [RECIPIENT_objective].</li>
     <li>toldastoryabout(p=2)->contou uma história sobre</li>
     <li>toldastoryabout->contou uma história engraçada sobre</li>
     <li>toldastoryabout->contou uma história séria sobre</li>
     <li>toldastoryabout->contou uma velha história sobre</li>
     <li>toldastoryabout->contou uma história de família sobre</li>
     <li>toldastoryabout->contou uma história de infância sobre</li>
-    <li>toldastoryabout->mencionou uma piada sobre</li>
+    <li>toldastoryabout->contou uma piada sobre</li>
     <li>talkabout->falar</li>
     <li>talkabout->debater</li>
     <li>talkabout->ter uma discussão</li>
@@ -62,20 +62,20 @@
     <li>talkabout->encontrar algo em comun</li>
     <li>subject->a colônia</li>
     <li>subject->a comunidade</li>
-    <li>subject->juntando-se à colônia</li>
-    <li>subject->mudando de lado</li>
-    <li>subject->encontrando amigos</li>
-    <li>subject->conhecendo pessoas novas</li>
-    <li>subject->reconsiderando ideias de [RECIPIENT_possessive]</li>
-    <li>subject->repensando as lealdades de [RECIPIENT_possessive]</li>
+    <li>subject->se juntar à colônia</li>
+    <li>subject->mudar de lado</li>
+    <li>subject->encontrar amigos</li>
+    <li>subject->conhecer pessoas novas</li>
+    <li>subject->reconsiderar suas ideias</li>
+    <li>subject->repensar sua lealdade</li>
     <li>subject->saúde</li>
     <li>subject->o futuro</li>
-    <li>subject->deixando ir</li>
+    <li>subject->deixar ir</li>
     <li>subject(p=4)->[ConceptPositive]</li>
-    <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
+    <li>subject(p=2)->[PersonalCharacteristic] [INITIATOR_objective]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: recruit attempt -->
   <RecruitAttempt.label>tentativa de recrutar</RecruitAttempt.label>
   <!-- EN:
@@ -86,11 +86,11 @@
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef] se unir.</li>
-    <li>r_logentry->[INITIATOR_nameDef] prometeu [goodthing] para [RECIPIENT_nameDef], e pediu se [RECIPIENT_objective] queria se juntar.</li>
+    <li>r_logentry->[INITIATOR_nameDef] prometeu [goodthing] para [RECIPIENT_nameDef], e pediu para [RECIPIENT_pronoun] se juntar.</li>
     <li>goodthing(p=15)->[ConceptPositive]</li>
     <li>goodthing->[Vegetable] livre e fresco</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: spark jailbreak -->
   <SparkJailbreak.label>fuga da prisão</SparkJailbreak.label>
   <!-- EN:
@@ -109,9 +109,9 @@
     <li>r_logentry->[INITIATOR_nameDef] demonstrou um meio de fuga para [RECIPIENT_nameDef], e prometeu [freedom].</li>
     <li>r_logentry->[INITIATOR_nameDef] contou a [RECIPIENT_nameDef] que a segurança é fraca e encorajou a fuga.</li>
     <li>freedom->liberdade</li>
-    <li>freedom->oportunidade</li>
-    <li>freedom->casa</li>
+    <li>freedom->oportunidades</li>
+    <li>freedom->uma casa</li>
     <li>freedom->autodeterminação</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
-
+  
 </LanguageData>

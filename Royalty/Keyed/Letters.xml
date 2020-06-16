@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Royal titles -->
@@ -7,62 +7,63 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>Título de {TITLE} conquistado: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
-  <!-- EN: {PAWN_pronoun} must be dressed in apparel of {1} quality or better. -->
-  <LetterRoyalTitleApparelQualityRequirement>{PAWN_pronoun} deve estar vestido com uma roupa de qualidade {1} ou melhor.</LetterRoyalTitleApparelQualityRequirement>
-  <!-- EN: {PAWN_pronoun} wants to be covered in apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>{PAWN_pronoun} quer se vestir com vestuários adequados ao título {PAWN_possessive}:</LetterRoyalTitleApparelRequirement>
+  <!-- EN: This title requires apparel of {1} quality or better. -->
+  <LetterRoyalTitleApparelQualityRequirement>Este título requer vestuários de qualidade {1} ou melhor.</LetterRoyalTitleApparelQualityRequirement>
+  <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
+  <LetterRoyalTitleApparelRequirement>Este título requer vestuários adequados ao título {PAWN_objective}:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>As expectativas {PAWN_possessive} nunca serão menores que {1}.</LetterRoyalTitleExpectation>
+  <LetterRoyalTitleExpectation>As expectativas {PAWN_objective} nunca serão menores que {1}.</LetterRoyalTitleExpectation>
+  
+  <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
+  <LetterRoyalTitleConceitedTrait>Já que {PAWN_labelShort} é um(a) {1}, {PAWN_pronoun} exigirá que os privilégios desse título sejam totalmente respeitados. {PAWN_pronoun} pode se recusar a fazer certos tipos de trabalho, comer alimentos de classe baixa, e irá emitir decretos.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
-  <LetterGainedRoyalTitle>{PAWN_labelShort} recebeu o título de {TITLE} de {FACTION_name}!!</LetterGainedRoyalTitle>
+  <LetterGainedRoyalTitle>{PAWN_labelShort} recebeu o título de {TITLE} de {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort} não possui mais o título de {TITLE} com {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
-  <LetterLabelRewardsForNewTitle>Recompensas por título</LetterLabelRewardsForNewTitle>
+  <LetterLabelRewardsForNewTitle>Recompensas do título</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
   <LetterRewardsForNewTitle>Para homenagear {PAWN_labelShort} por ter avançando para o título de {TITLE}, {FACTION_name} enviou a {PAWN_pronoun} as seguintes recompensas:</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>As recompensas chegaram à sua colônia por meio de cápsulas de transporte.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
   <LetterRewardsForNewTitleDeliveryDirect>As recompensas foram entregues diretamente no inventário de {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
-  
+
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun} tem estas permissões:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
   <LetterRoyalTitleLostPermits>{PAWN_pronoun} perdeu estas permissões:</LetterRoyalTitleLostPermits>
 
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
-  <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} não está disposto a fazer estes tipos de trabalho:\n{1}</LetterRoyalTitleDisabledWorkTag>
+  <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} não está disposto(a) a fazer estes tipos de trabalho:\n{1}</LetterRoyalTitleDisabledWorkTag>
 
-  <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun} exige esta recreação:</LetterRoyalTitleEnabledJoyKind>
-  <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleStillEnabledJoyKind>{PAWN_pronoun} exige esta recreação:</LetterRoyalTitleStillEnabledJoyKind>
-  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>{PAWN_pronoun} recusa esta recreação:</LetterRoyalTitleDisabledJoyKind>
-  <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleStillDisabledJoyKind>{PAWN_pronoun} recusa esta recreação:</LetterRoyalTitleStillDisabledJoyKind>
+  <!-- EN: {PAWN_pronoun} can now use this recreation: -->
+  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun} agora pode usar esta recreação::</LetterRoyalTitleEnabledJoyKind>
+  <!-- EN: This title forbids using this recreation: -->
+  <LetterRoyalTitleDisabledJoyKind>Este título proíbe o uso desta recreação:</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
-  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} tem permissão para usar estes implantes: {1}</LetterRoyalTitleAllowedImplants>
+  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} tem permissão para usar estes implantes:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} não tem mais permissão para usar estes implantes: {1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} não tem mais permissão para usar estes implantes:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
   <LetterRoyalTitleImplantGracePeriod>Os implantes devem ser extraídos dentro de um período de cinco dias para evitar consequências diplomáticas.</LetterRoyalTitleImplantGracePeriod>
-  <!-- EN: {PAWN_pronoun} has developed a new need for authority. Satisfying this means constructing an appropriate throneroom {PAWN_pronoun} may sit and reign on a regular basis. -->
-  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun} desenvolveu uma nova necessidade de autoridade. Para satisfazer isso construa uma sala do trono apropriada em que {PAWN_pronoun} possa sentar-se e reinar regularmente.</LetterRoyalTitleAuthorityNeed>
-  <!-- EN: {PAWN_pronoun} demands a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>{PAWN_pronoun} exige uma sala do trono que atenda a esses requisitos:{1}</LetterRoyalTitleThroneroomRequirements>
-  <!-- EN: {PAWN_pronoun} demands a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>{PAWN_pronoun} exige um quarto que atenda a esses requisitos:{1}</LetterRoyalTitleBedroomRequirements>
-  <!-- EN: {PAWN_pronoun} will only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>{PAWN_pronoun} comerá apenas estes alimentos:{1}</LetterRoyalTitleFoodRequirements>
+  <!-- EN: {PAWN_pronoun} now has a need for authority. Satisfying this means sitting on a throne and reigning. While thronerooms can be shared, each noble needs their own personally-assigned throne. -->
+  <LetterRoyalTitleAuthorityNeed>{PAWN_pronoun} agora tem uma necessidade de autoridade. Satisfazer isso significa sentar-se em um trono e reinar. Embora as salas do trono possam ser compartilhadas, cada nobre precisa de seu próprio trono designado pessoalmente.</LetterRoyalTitleAuthorityNeed>
+  <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} agora pode dar discursos do trono. Se tudo correr bem, os ouvintes se sentirão inspirados. Se der errado, o discurso causará danos sociais. O resultado depende das habilidades sociais de {PAWN_labelShort}.</LetterRoyalTitleSpeechAbilityGained>
+  <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
+  <LetterRoyalTitleThroneroomRequirements>Este título requer uma sala do trono que atenda a esses requisitos:{1}</LetterRoyalTitleThroneroomRequirements>
+  <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
+  <LetterRoyalTitleBedroomRequirements>Este título requer um quarto que atenda a esses requisitos:{1}</LetterRoyalTitleBedroomRequirements>
+  <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
+  <LetterRoyalTitleFoodRequirements>Este título diz que {PAWN_pronoun} só deve comer esses alimentos:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>{PAWN_pronoun} receberá os seguintes itens por meio da cápsula de transporte:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} ganhou {1} {FACTION_royalFavorLabel} de {FACTION_name}.</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} ganhou {1} de {FACTION_royalFavorLabel} de {FACTION_name}.</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
@@ -76,30 +77,32 @@
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>Herdeiro perdido</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>{HEIR_nameFull} morreu, deixando {HOLDER_labelShort} sem herdeiro do título recebido de {FACTION_name}. Você pode entrar em contato com {FACTION_name} por meio de um console de comunicação para designar um novo herdeiro.</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull} morreu, deixando {HOLDER_labelShort} sem herdeiro para o título recebido de {FACTION_name}. Você pode entrar em contato com {FACTION_name} por meio de um console de comunicação para designar um novo herdeiro.</LetterTitleHeirLost>
+  <!-- EN: The title of {TITLE} cannot be inherited. -->
+  <LetterRoyalTitleCantBeInherited>O título de {TITLE} não pode ser herdado.</LetterRoyalTitleCantBeInherited>
 
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>Herança de título</LetterTitleInheritance>
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
-  <LetterTitleInheritance_Base>Já que {PAWN_nameFull} morreu, os títulos {PAWN_possessive} foram transferidos para herdeiros {PAWN_possessive}, de acordo com as leis das facções que concedem títulos.</LetterTitleInheritance_Base>
+  <LetterTitleInheritance_Base>Já que {PAWN_nameFull} morreu, os títulos {PAWN_objective} foram transferidos para os herdeiros {PAWN_objective}, de acordo com as leis das facções que concedem títulos.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
-  <LetterTitleInheritance_AsReplacement>O título de {TITLE} {PAWN_possessive} foi herdado por {HEIR_nameFull}, de acordo com as leis de sucessão de {FACTION_name}. Isto substitui o título {REPLACEDTITLE} {HEIR_possessive}.</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>O título de {TITLE} {PAWN_objective} foi herdado por {HEIR_nameFull}, de acordo com as leis de sucessão de {FACTION_name}. Isto substituiu o título {REPLACEDTITLE} {HEIR_objective}.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>O título de {TITLE} {PAWN_possessive} teria sido herdado por {HEIR_nameFull} de acordo com as leis de sucessão de {FACTION_name}, mas {HEIR_pronoun} já possuia o título superior de {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>O título de {TITLE} {PAWN_objective} deveria ter sido herdado por {HEIR_nameFull} de acordo com as leis de sucessão de {FACTION_name}, mas {HEIR_pronoun} já possuia o título superior de {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>O título de {TITLE} {PAWN_possessive} foi herdado por {HEIR_nameFull} de acordo com as leis de sucessão de {FACTION_name}.</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>O título de {TITLE} {PAWN_objective} foi herdado por {HEIR_nameFull} de acordo com as leis de sucessão de {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>O título de {TITLE} {PAWN_possessive} não foi herdado por ninguém, pois {PAWN_pronoun} não tinha um herdeiro designado para este título.</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>O título de {TITLE} {PAWN_objective} não foi herdado por ninguém, pois {PAWN_pronoun} não tinha um herdeiro designado para este título.</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Infrator: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name} detectou o uso ilegal por {PAWN_labelShort} de: {CULPRIT} (chance de detecção {CHANCE}).\n\nDe acordo com as leis de {FACTION_name}, somente aqueles que possuem o título de {TITLE} têm permissão para usar {CULPRIT}.\n\nComo penalidade, suas relações de facção caíram para {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name} detectou o uso ilegal por {PAWN_labelShort} de: {CULPRIT} (chance de detecção {CHANCE}).\n\nDe acordo com as leis de {FACTION_name}, somente aqueles que possuem o título de {TITLE} têm permissão para usar {CULPRIT}.\n\nComo penalidade, suas relações de facção caíram em {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>{ORGANIZER_labelShort} terminou o discurso {ORGANIZER_possessive}.</LetterFinishedSpeech>
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} terminou o discurso {ORGANIZER_objective}.</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
   <LetterTerribleSpeech>Foi realmente apavorante - sem confiança, cheio de piadas estranhas e histórias deprimentes.</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
@@ -111,7 +114,7 @@
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Como o discurso foi interrompido após apenas {0} ser concluído, não foi tão eficaz.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>O discurso do {ORGANIZER_bestRoyalTitleDef} foi cancelado antes de atingir 50% de conclusão. Não teve efeito.</LetterSpeechCancelled>
+  <LetterSpeechCancelled>O discurso do(a) {ORGANIZER_bestRoyalTitleDef} foi cancelado antes de atingir 50% de conclusão. Não teve efeito.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Discurso cancelado</LetterLabelSpeechCancelled>
 
@@ -122,15 +125,15 @@
   <LetterLabelRandomDecree>{0_nameIndef} emite um decreto</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, na tentativa de liberar o estresse {0_possessive}, emitiu um decreto real e agora exige que seja executado.\nSe não for realizado a tempo, {0_nameIndef} ficará muito infeliz.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, na tentativa de liberar o estresse {0_objective}, emitiu um decreto real e agora exige que seja executado.\nSe não for realizado a tempo, {0_nameIndef} ficará muito infeliz.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}, a fim de firmar o título {0_possessive} de {0_bestRoyalTitleIndef}, emitiu um decreto e agora exige que seja realizado.\nSe não for realizado a tempo, {0_nameIndef} ficará muito infeliz.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, a fim de firmar o título {0_objective} de {0_bestRoyalTitleIndef}, emitiu um decreto e agora exige que seja realizado.\nSe não for realizado a tempo, {0_nameIndef} ficará muito infeliz.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>O decreto foi intitulado de "{0}".</LetterDecree_Quest>
-
+  
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
-  <LentColonistDied>{PAWN_nameDef} foi emprestado para {FACTION}. Eles retornarão o corpo de {PAWN_nameDef} em breve.</LentColonistDied>
+  <LentColonistDied>{PAWN_nameDef} foi emprestado(a) para {FACTION}. Eles retornarão o corpo de {PAWN_nameDef} em breve.</LentColonistDied>  
 
 </LanguageData>

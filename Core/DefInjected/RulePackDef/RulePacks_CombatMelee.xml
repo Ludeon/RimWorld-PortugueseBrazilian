@@ -42,8 +42,8 @@
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>atMaybe-></li>
     <li>atMaybe->no</li>
-    <li>deflected_result->, mas o [TOOL_label] [deflected] off [harmlessly_opt]</li>
-    <li>deflected_result->, [deflecting] off [RECIPIENT_possessive] armor [harmlessly_opt]</li>
+    <li>deflected_result->, mas o [TOOL_label] [deflected] [harmlessly_opt]</li>
+    <li>deflected_result->, [deflecting] na sua armadura [harmlessly_opt]</li>
     <li>harmlessly_opt(p=4)-></li>
     <li>harmlessly_opt->[harmlessly]</li>
     <li>harmlessly->inofensivamente</li>
@@ -114,9 +114,9 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] o [destroyed_targets] de [RECIPIENT_definite] com [implement].</li>
     <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] com [implement].</li>
     <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] com [implement].</li>
-    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
-    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
-    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] e [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] seu(ua) [destroyed_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] seu(ua) [damaged_targets]</li>
+    <li>result(p=1)->[destroyed_present] seu(ua) [destroyed_targets] e [damaged_present] seu(ua) [damaged_targets]</li>
     <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] com [implement]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]</li>
