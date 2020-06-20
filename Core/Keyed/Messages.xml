@@ -45,7 +45,7 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Você precisa de uma baliza de comércio orbital para o comércio com uma nave.\n\nA baliza precisa estar energizada.</MessageNeedBeaconToTradeWithShip>
-  <!-- EN: Caller must have the title of {0} or higher. -->
+  <!-- EN: Caller must have the title of {0_label} or higher. -->
   <MessageNeedRoyalTitleToCallWithShip>O solicitante deve ter o título de {0} ou superior.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
@@ -160,13 +160,13 @@
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} deu a luz.</MessageGaveBirth>
   
-  <!-- EN: {PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort} não poderá usar o amplificador psíquico enquanto o {PAWN_pronoun} tiver sensibilidade psíquica zero.</MessagePsychicAmplifierNoSensitivity>
+  <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
+  <MessagePsylinkNoSensitivity>TODO</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} perdeu um nível de implante {1} devido a {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
   <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} sofreu {1} pontos de dano cerebral devido a {2}.</MessageReceivedBrainDamageFromHediff>
-  <!-- EN: {PAWN_labelShort} has exceeded the safe limit of psychic entropy. -->
+  <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} excedeu o limite seguro de entropia psíquica.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
@@ -485,6 +485,8 @@
   <GoodwillChangedReason_PawnCrushed>{1_labelShort} esmagado</GoodwillChangedReason_PawnCrushed>
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort} morreu</GoodwillChangedReason_PawnDied>
+  <!-- EN: {0_labelShort} stripped -->
+  <GoodwillChangedReason_PawnStripped>TODO</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>negociado</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -577,6 +579,9 @@
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
   <MessageCapturingWillAngerFaction>Aviso: Capturar {PAWN_nameDef} irritará a facção {PAWN_objective} {PAWN_factionName}.</MessageCapturingWillAngerFaction>
+
+  <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
+  <MessageStrippingWillAngerFaction>TODO</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>Não pode atirar em uma luta corpo a corpo.</MessageCantShootInMelee>

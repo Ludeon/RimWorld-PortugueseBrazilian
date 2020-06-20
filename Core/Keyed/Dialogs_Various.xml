@@ -402,8 +402,46 @@
   <TimeRecordsCategory>Tempo</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>Outros</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
+  <!-- EN: Chemical -->
+  <Chemical>TODO</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>TODO</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>TODO</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>TODO</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>TODO</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>TODO</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>TODO</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>TODO</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
   <Addictiveness>Viciamento</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>TODO</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>TODO</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>TODO</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>TODO</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>TODO</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>TODO</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>TODO</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>TODO</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>TODO</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>TODO</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>TODO</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>Animal de carga</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -464,6 +502,28 @@
   <ClickToLearnMore>Clique para aprender mais.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Clique para visualizar facções.</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>TODO</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>TODO</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>TODO</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>TODO</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>TODO</MeditationFocusCanUse>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>TODO</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>TODO</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>TODO</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>TODO</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>TODO</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>TODO</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -618,8 +678,12 @@
   <AnimalCanGrazeTip>Este animal pode pastar no ambiente em vez de comer a comida carregada. Pastar só é possível em alguns biomas e faixas de temperatura.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Nutrição forrageira por dia. A quantidade real de forragem também é afetada pela capacidade do bioma.\n\n {0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>Nutrição consumida por dia. Para referência, refeições simples têm {0} de nutrição.\n\nPode comer: {2}\n\nLegenda: \n {1}.</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>TODO</CanEat>
+  <!-- EN: Legend -->
+  <Legend>TODO</Legend>
   <!-- EN: Mass carried -->
   <MassCarriedSimple>massa carregada</MassCarriedSimple>
   <!-- EN: Mass capacity -->
@@ -912,8 +976,10 @@
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Linha de visão necessária</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
+  <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>Ganho de entropia</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>TODO</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>Duração do efeito</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -926,5 +992,9 @@
   <AbilityOccupiedCells>{0} deve mirar em uma área vazia.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} deve mirar em uma área que pode ser percorrida.</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>TODO</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>TODO</AbilityCantApplyToMentallyBroken>
   
 </LanguageData>

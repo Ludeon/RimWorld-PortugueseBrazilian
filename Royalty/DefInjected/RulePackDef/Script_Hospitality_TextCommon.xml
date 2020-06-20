@@ -2,31 +2,31 @@
 <LanguageData>
   
   <!-- EN:
-    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is injured and may not be able to walk.</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are injured and may not be able to walk.</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] is sick with [lodgersDisease_label].</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are sick with [lodgersDisease_label].</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] is an expert fighter.</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] are expert fighters.</li>
-    <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1)->You must keep [asker_nameDef]'s mood above [lodgersMoodThreshold_percent].</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nyou must keep the mood of [lodgersLabelSingOrPluralDef] above [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->there will be [threatCount] raid of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be a raid of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be [threatCount] raids of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->a mech cluster will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect [lodgers0_nameDef]. If you get [lodgers0_objective] onto the shuttle alive, [allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->After [shuttleDelayTicks_duration], a shuttle will arrive to collect the [lodgersLabelPlural]. If you get them onto the shuttle alive, [allRewardsDescriptions]</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -39,37 +39,41 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->has</li>
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->them</li>
+    <li>areIs(lodgersCount==1)->is</li>
+    <li>areIs(lodgersCount>=2)->are</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-    <li>allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]</li>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->os [lodgersLabelPlural]</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] está ferido e pode não conseguir andar.</li>
-    <li>healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->os [lodgersLabelPlural] estão feridos e podem não conseguir andar.</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] está doente com [lodgersDisease_label].</li>
-    <li>healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->os [lodgersLabelPlural] estão doentes com [lodgersDisease_label].</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>healthInfo-></li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] é um lutador experiente.</li>
-    <li>specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->the [lodgersLabelPlural] são lutadores experientes.</li>
-    <li>specialSkillsInfo-></li>
-    <li>minMoodInfo(priority=1)->Você deve manter o humor de [asker_nameDef] acima de [lodgersMoodThreshold_percent].</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sofrendo de abasia paralítica e devem ser mantidos na cama.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] doente(s) com podridão no sangue e exigirá(ão) tratamento diário. A doença pode ser retardada com cuidados e medicamentos de alta qualidade, mas geralmente não pode ser curada completamente. Se a doença se tornar grave [lodgersLabelSingOrPluralDef] morrerá(ão), por isso verifique se você tem os suprimentos médicos necessários.</li>
     <li>minMoodInfo-></li>
-    <li>commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nvocê deve manter o humor de(os) [lodgersLabelSingOrPluralDef] acima de [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] não fará(ão) nenhum trabalho.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1)->haverá [threatCount] invasão aproximadamente deste tamanho:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1)->haverá [threatCount] invasões aproximadamente deste tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->haverá um ataque de aproximadamente esse tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->háverá um ataque de força [threatSize]x e aproximadamente esse tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->haverá [threatCount] ataques de aproximadamente esse tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->haverá [threatCount] ataques de força [threatSize]x e aproximadamente esse tamanho:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->um aglomerado mecanoide será implantado nas proximidades.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->dois aglomerados mecanoides serão implantados nas proximidades.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->um aglomerado mecanoide de tamanho [threatSize]x será implantado nas proximidades.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->dois aglomerados mecanoides de tamanho [threatSize]x serão implantados nas proximidades.</li>
-    <li>shuttleWillComeParagraph(lodgersCount==1)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgers0_nameDef]. Se você colocar [lodgers0_pronoun] vivo(a) no transporte, [allRewardsDescriptions]</li>
-    <li>shuttleWillComeParagraph(lodgersCount>=2)->Depois de [shuttleDelayTicks_duration], um transporte chegará para pegar [lodgersLabelPlural]. Se você os colocar vivos no transporte, [allRewardsDescriptions]</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recentemente [mechViolation], e se tornou alvo de um enxame mecanoide em órbita.</li>
     <li>threatsInfoMechClustersMultiPrisoners->Os prisioneiros recentemente [mechViolation], se tornaram alvos de um enxame mecanoide em órbita.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recentemente [mechViolation], e se tornou alvo de uma colméia mecanoide.</li>
@@ -82,6 +86,10 @@
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->tem</li>
     <li>lodgersHasHave(lodgersCount>=2)->têm</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->eles</li>
+    <li>areIs(lodgersCount==1)->está</li>
+    <li>areIs(lodgersCount>=2)->estão</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Todos os [lodgersLabelPlural] restantes irão embora. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Você falhou na missão '[resolvedQuestName]'.</li>

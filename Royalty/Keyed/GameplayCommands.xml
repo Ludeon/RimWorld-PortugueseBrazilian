@@ -27,19 +27,27 @@
   <CommandCallRoyalAidFavorOption>{0} dias restantes, custa {1} de {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
 
   <!-- Abilities -->
-  <!-- EN: Psychic entropy would overflow. -->
-  <CommandPsycastWouldExceedEntropy>A entropia psíquica sobrecarregaria.</CommandPsycastWouldExceedEntropy>
-  <!-- EN: Psychic amplifier brain implant needed. -->
-  <CommandPsycastNoAmplifier>É necessário um implante cerebral de amplificador psíquico.</CommandPsycastNoAmplifier>
-  <!-- EN: {0}x level psychic amplifier needed. -->
-  <CommandPsycastHigherLevelAmplifierRequired>{0}x nível de amplificador psíquico necessário.</CommandPsycastHigherLevelAmplifierRequired>
+  <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
+  <CommandPsycastWouldExceedEntropy>O calor neural sobrecarregaria. Desative o limitador de calor neural para conjurar.</CommandPsycastWouldExceedEntropy>
+  <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consome {0} psyfocus, porém {CASTERNAME} possui apenas {1}.</CommandPsycastNotEnoughPsyfocus>
+  <!-- EN: level {0} psylink is required. -->
+  <CommandPsycastHigherLevelPsylinkRequired>é necessário um psylink de nível {0}.</CommandPsycastHigherLevelPsylinkRequired>
+  <!-- EN: Zero psychic sensitivity. -->
+  <CommandPsycastZeroPsychicSensitivity>Sensibilidade psíquica zero.</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>O usuário da habilidade está inconsciente.</CommandPsycastPawnIsUnconscious>
+  <!-- EN: Need at least {0} psyfocus to cast this. -->
+  <CommandPsycastLowPsyfocus>Precisa-se de pelo menos {0} psyfocus para transmitir isso.</CommandPsycastLowPsyfocus>
+  <!-- EN: N -->
+  <NeuralHeatLetter>N</NeuralHeatLetter>
+  <!-- EN: P -->
+  <PsyfocusLetter>P</PsyfocusLetter>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
   <CommandSelectMonumentMarker>Selecionar monumento</CommandSelectMonumentMarker>
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>Selecione o marcador de monumento ao qual isto pertence.</CommandSelectMonumentMarkerDesc>
-  
+
 </LanguageData>

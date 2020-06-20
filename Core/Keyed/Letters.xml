@@ -146,6 +146,9 @@
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>Os últimos eventos da vida de {PAWN_definite}</LastEventsInLife>
 
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginThanksToHighMoodPart>TODO</LetterInspirationBeginThanksToHighMoodPart>
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Relacionamento</LetterLabelNoticedRelatedPawns>
@@ -362,7 +365,7 @@
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>Reator pronto</LetterLabelHibernateComplete>
-  <!-- EN: <Name>Charlon Whitestone</Name> has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
   <LetterHibernateComplete>Charlon Whitestone terminou a sequência de recuperação de hibernação do reator. O reator está pronto para acionar uma decolagem.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>A sequência de energização do reator está completa. Agora está pronto para acionar uma decolagem.</LetterHibernateCompleteStandalone>
@@ -468,19 +471,19 @@
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
-  <LetterTechprintAppliedLabel>Projeto técnico aplicado: {PROJECT_label}</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedLabel>Techprint aplicada: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>Um projeto técnico foi aplicado ao projeto de pesquisa: {PROJECT_label}.</LetterTechprintAppliedPartIntro>
+  <LetterTechprintAppliedPartIntro>Uma techprint foi aplicada ao projeto de pesquisa: {PROJECT_label}.</LetterTechprintAppliedPartIntro>
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>Você concluiu os requisitos de projeto técnico do projeto! Seus pesquisadores agora podem começar a pesquisar como realmente usar a tecnologia em suas bancadas de pesquisa.</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartJustUnlocked>Você concluiu os requisitos de techprint do projeto! Seus pesquisadores agora podem começar a pesquisar como realmente usar a tecnologia em suas bancadas de pesquisa.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>Os requisitos de projeto técnico do projeto ainda não foram atendidos. {0} projetos técnicos foram aplicados até o momento. O projeto requer {1} no total.</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>Os requisitos de techprint do projeto ainda não foram atendidos. {0} projetos técnicos foram aplicados até o momento. O projeto requer {1} no total.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>Os requisitos de projeto técnico do projeto já foram atendidos. O projeto técnico adicional avançou seus esforços de pesquisa em {PROJECT_label}. Metade do trabalho restante da pesquisa, {0} pontos, foi concluída.</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Os requisitos de techprint do projeto já foram atendidos. A techprint adicional avançou seus esforços de pesquisa em {PROJECT_label}. Metade do trabalho restante da pesquisa, {0} pontos, foi concluída.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>Este projeto já foi totalmente pesquisado, então o projeto técnico não avançou seu conhecimento.</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>Este projeto já foi totalmente pesquisado, então a techprint não avançou seu conhecimento.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>Ao aplicar o projeto técnico, {PAWN_labelShort} ganhou {0} de experiência na habilidade {1}.</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwarded>Ao aplicar a techprint, {PAWN_labelShort} ganhou {0} de experiência na habilidade {1}.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
@@ -495,9 +498,9 @@
   <LetterQuestCompletedFail>Você falhou na missão '{0}'.</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
   <LetterQuestCompletedConcluded>Você concluiu a missão '{0}'.</LetterQuestCompletedConcluded>
-  
+
   <!-- Bladelink -->
-  <!-- EN: Bladelink bond: {PAWN_labelShort} -->
+  <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>Vínculo de Bladelink: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->

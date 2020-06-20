@@ -3,8 +3,8 @@
   
   <!-- EN:
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] will send a [helperKind_label] to assist you under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] will send [helpersCount] [helperKind_labelPlural] to assist you under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nA [helperKind_label] will be placed under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] will be placed under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] been sent to assist you.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
@@ -16,10 +16,10 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] irá enviar um [helperKind_label] para ajudá-lo, sob seu controle. Você terá que alimentar e abrigar [helpers0_pronoun], porém [helpers0_pronoun] pode morrer em batalha sem consequências.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] irá enviar [helpersCount] [helperKind_labelPlural] para ajudá-lo, sob seu controle. Você terá que alimentar e abrigar eles, porém eles podem morrer em batalha sem consequências.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nUm(a) [helperKind_label] será colocado(a) sob seu controle. Você terá que alimentar e abrigar [helpers0_pronoun], porém [helpers0_pronoun] poderá morrer em batalha sem consequências.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] serão colocados sob seu controle. Você terá que alimentá-los e abrigá-los, porém eles poderão morrer em batalha sem consequências.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
-    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] enviado para ajudá-lo.</li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] enviado(s) para ajudá-lo.</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
     <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
     <li>helpersHasHave(helpersCount==1)->foi</li>
@@ -28,14 +28,14 @@
     <li>helpersIsAre(helpersCount>=2)->estão</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>[helpersLabelSingOrPlural] chegaram</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterLabel.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] chegou(aram)</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>O(s) [helpersLabelSingOrPlural] enviado(s) por [asker_nameDef] chegaram para ajudá-lo com a missão '[resolvedQuestName]'.</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.customLetterText.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>O(s) [helpersLabelSingOrPlural] enviado(s) por [asker_nameDef] chegou(aram) para ajudá-lo com a missão '[resolvedQuestName]'.</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
   <!-- EN: the [helpersLabelSingOrPlural] -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>O(s) [helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.IsTrueOrUnset.node.parms.arrivingPawnsLabelDef.value.slateRef>
+  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>O(s) [helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>[helpersLabelSingOrPlural] indo embora</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural] indo embora</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
-  <Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>O(s) [helpersLabelSingOrPlural] enviado(s) por [asker_nameDef] para ajudá-lo passaram muito tempo com você, e [helpersIsAre] indo embora.</Util_MaybeGenerateHelpers.root.nodes.IsNull.elseNode.elseNode.elseNode.node.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>O(s) [helpersLabelSingOrPlural] enviado(s) por [asker_nameDef] para ajudá-lo passou(aram) muito tempo com você, e [helpersIsAre] indo embora.</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
   
 </LanguageData>
