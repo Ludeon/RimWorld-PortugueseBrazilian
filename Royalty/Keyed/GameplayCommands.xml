@@ -27,19 +27,33 @@
   <CommandCallRoyalAidFavorOption>{0} dias restantes, custa {1} de {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
 
   <!-- Abilities -->
-  <!-- EN: Psychic entropy would overflow. -->
-  <CommandPsycastWouldExceedEntropy>A entropia psíquica sobrecarregaria.</CommandPsycastWouldExceedEntropy>
-  <!-- EN: Psychic amplifier brain implant needed. -->
-  <CommandPsycastNoAmplifier>É necessário um implante cerebral de amplificador psíquico.</CommandPsycastNoAmplifier>
-  <!-- EN: {0}x level psychic amplifier needed. -->
-  <CommandPsycastHigherLevelAmplifierRequired>{0}x nível de amplificador psíquico necessário.</CommandPsycastHigherLevelAmplifierRequired>
+  <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
+  <CommandPsycastWouldExceedEntropy>O calor neural ficaria sobrecarregado. Desative o limitador de calor neural para transmitir.</CommandPsycastWouldExceedEntropy>
+  <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consome {0} de foco psíquico, mas {CASTERNAME} possui apenas {1}.</CommandPsycastNotEnoughPsyfocus>
+  <!-- EN: level {0} psylink is required. -->
+  <CommandPsycastHigherLevelPsylinkRequired>ligação psíquica de nível {0} é necessária.</CommandPsycastHigherLevelPsylinkRequired>
+  <!-- EN: Zero psychic sensitivity. -->
+  <CommandPsycastZeroPsychicSensitivity>Sensibilidade psíquica zero.</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>O usuário da habilidade está inconsciente.</CommandPsycastPawnIsUnconscious>
+  <!-- EN: Need at least {0} psyfocus to cast this. -->
+  <CommandPsycastLowPsyfocus>Precisa de pelo menos {0} de foco pisíquico para transmitir isso.</CommandPsycastLowPsyfocus>
+  <!-- EN: H -->
+  <NeuralHeatLetter>H</NeuralHeatLetter>
+  <!-- EN: P -->
+  <PsyfocusLetter>P</PsyfocusLetter>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
   <CommandSelectMonumentMarker>Selecionar monumento</CommandSelectMonumentMarker>
   <!-- EN: Select the monument marker this belongs to. -->
   <CommandSelectMonumentMarkerDesc>Selecione o marcador de monumento ao qual isto pertence.</CommandSelectMonumentMarkerDesc>
+
+  <!-- Warn in building radius -->
+  <!-- EN: Build radius warning -->
+  <CommandWarnInBuildingRadius>Aviso de raio de construção</CommandWarnInBuildingRadius>
+  <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
+  <CommandWarnInBuildingRadiusDesc>Se ativado, esse objeto traçará uma linha vermelha nas estruturas que você está construindo ao utilizar o menu do arquiteto, caso eles interfiram na meditação, por estarem muito perto do objeto.\n\nVocê pode desativar isso se não pretender usar o objeto para meditação.</CommandWarnInBuildingRadiusDesc>
   
 </LanguageData>
