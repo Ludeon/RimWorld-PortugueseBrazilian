@@ -24,10 +24,10 @@
   <RoomRequirementAllBraziersMustBeLit>todos os braseiros devem estar acesos</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
   <RoomRequirementAllFineFloored>todo finamente pavimentado</RoomRequirementAllFineFloored>
-  <!-- EN: no production facilities -->
-  <RoomRequirementNoProductionFacilities>sem instalações de produção</RoomRequirementNoProductionFacilities>
-  <!-- EN: no beds -->
-  <RoomRequirementNoBeds>sem camas</RoomRequirementNoBeds>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>sem instalações de trabalho permitidas</RoomRequirementNoProductionFacilities>
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>sem camas permitidas</RoomRequirementNoBeds>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>Detentores deste título devem estar vestidos com alguma combinação de</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
@@ -68,4 +68,9 @@
   <RoyalIncapableOfSocial>{PAWN_labelShort} é incapaz de tarefas sociais. Aqueles com títulos reais têm grande necessidade de habilidades sociais, portanto, se {PAWN_labelShort} ganhar um título, {PAWN_pronoun} poderá ter dificuldades. Outro colono pode ser mais socialmente adepto.</RoyalIncapableOfSocial>
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
   <RoyalWithConceitedTrait>Já que {PAWN_labelShort} é {2}, {PAWN_pronoun} exigirá que os privilégios do título sejam totalmente respeitados. {PAWN_labelShort} pode se recusar a fazer certos tipos de trabalho ou comer alimentos de classe baixa e emitirá decretos. Outro colono provavelmente seria mais flexível.</RoyalWithConceitedTrait>
+  <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
+  <RoyalWithTraitAffectingPsylinkNegatively>Como {PAWN_labelShort} é {2}, o psylink pode não ser útil para {PAWN_objective}.</RoyalWithTraitAffectingPsylinkNegatively>
+  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways? -->
+  <PsylinkTooLowForGainAbility>O psylink de {PAWN_labelShort} não está em um nível alto o suficiente para usar {ABILITY}.\n\nAprender o psycast mesmo assim?</PsylinkTooLowForGainAbility>
+
 </LanguageData>

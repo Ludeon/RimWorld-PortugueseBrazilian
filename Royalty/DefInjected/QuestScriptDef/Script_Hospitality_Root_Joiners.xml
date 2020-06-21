@@ -18,6 +18,10 @@
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->their</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->they</li>
+    <li>lodgersWasWere(lodgersCount==1)->was</li>
+    <li>lodgersWasWere(lodgersCount>=2)->were</li>
     <li>appreciateAppreciates(lodgersCount==1)->appreciates</li>
     <li>appreciateAppreciates(lodgersCount>=2)->appreciate</li>
     <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] quality accommodation. You will gain goodwill with [asker_faction_name] if you keep [theirHisHer] average mood above 50%.</li>
@@ -72,6 +76,10 @@
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->seu</li>
     <li>theirHisHer(lodgersCount>=2)->seus</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->eles</li>
+    <li>lodgersWasWere(lodgersCount==1)->estava</li>
+    <li>lodgersWasWere(lodgersCount>=2)->estavam</li>
     <li>appreciateAppreciates(lodgersCount==1)->aprecia</li>
     <li>appreciateAppreciates(lodgersCount>=2)->apreciam</li>
     <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] acomodação de qualidade. Você ganhará boa vontade com [asker_faction_name] se você manter [theirHisHer] humor médio acima de 50%.</li>
