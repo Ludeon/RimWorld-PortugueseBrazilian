@@ -28,17 +28,17 @@
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
-  <CommandPsycastWouldExceedEntropy>O calor neural ficaria sobrecarregado. Desative o limitador de calor neural para transmitir.</CommandPsycastWouldExceedEntropy>
+  <CommandPsycastWouldExceedEntropy>O calor neural sobrecarregaria. Desative o limitador de calor neural para conjurar.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consome {0} de foco psíquico, mas {CASTERNAME} possui apenas {1}.</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} consome {0} psyfocus, porém {CASTERNAME} possui apenas {1}.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: level {0} psylink is required. -->
-  <CommandPsycastHigherLevelPsylinkRequired>ligação psíquica de nível {0} é necessária.</CommandPsycastHigherLevelPsylinkRequired>
+  <CommandPsycastHigherLevelPsylinkRequired>é necessário um psylink de nível {0}.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
   <CommandPsycastZeroPsychicSensitivity>Sensibilidade psíquica zero.</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
   <CommandPsycastPawnIsUnconscious>O usuário da habilidade está inconsciente.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
-  <CommandPsycastLowPsyfocus>Precisa de pelo menos {0} de foco pisíquico para transmitir isso.</CommandPsycastLowPsyfocus>
+  <CommandPsycastLowPsyfocus>Precisa-se de pelo menos {0} psyfocus para transmitir isso.</CommandPsycastLowPsyfocus>
   <!-- EN: H -->
   <NeuralHeatLetter>H</NeuralHeatLetter>
   <!-- EN: P -->
@@ -54,6 +54,6 @@
   <!-- EN: Build radius warning -->
   <CommandWarnInBuildingRadius>Aviso de raio de construção</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
-  <CommandWarnInBuildingRadiusDesc>Se ativado, esse objeto traçará uma linha vermelha nas estruturas que você está construindo ao utilizar o menu do arquiteto, caso eles interfiram na meditação, por estarem muito perto do objeto.\n\nVocê pode desativar isso se não pretender usar o objeto para meditação.</CommandWarnInBuildingRadiusDesc>
-  
+  <CommandWarnInBuildingRadiusDesc>Se ativado, esse objeto traçará uma linha vermelha nas construções que você está colocando usando o menu arquiteto, se eles interferissem na meditação por estar muito perto.\n\nVocê pode desativar isso se não pretender usá-lo para meditação.</CommandWarnInBuildingRadiusDesc>
+
 </LanguageData>

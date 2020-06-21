@@ -14,10 +14,6 @@
   <RoyalTitleTooltipThroneroomRequirements>Requisitos de sala do trono</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
   <RoyalTitleTooltipPermits>Privilégios de título</RoyalTitleTooltipPermits>
-  <!-- EN: Max allowed psycast level -->
-  <RoyalTitleTooltipMaxPsycastLevel>Nível máximo permitido de invocador psíquico</RoyalTitleTooltipMaxPsycastLevel>
-  <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
-  <RoyalTitleTooltipMaxPsycastLevelDescription>O nível mais alto de invocador psíquico permitido por este título.\n\n As leis de {FACTION_name} proíbem o uso de invocações psíquicas sem um título adequado. Cada vez que você realiza uma invocação psíquica ilegal, há uma chance de a assinatura psíquica ser detectada, levando a consequências diplomáticas.\n\nAs assinaturas psíquicas podem ser ocultadas com um implante de silenciador psíquico.</RoyalTitleTooltipMaxPsycastLevelDescription>
   <!-- EN: room area: {0} tiles -->
   <RoomRequirementArea>area da sala: {0} ladrilhos</RoomRequirementArea>
   <!-- EN: room impressiveness -->
@@ -28,32 +24,32 @@
   <RoomRequirementAllBraziersMustBeLit>todos os braseiros devem estar acesos</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
   <RoomRequirementAllFineFloored>todo finamente pavimentado</RoomRequirementAllFineFloored>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>sem instalações de trabalho permitidas</RoomRequirementNoProductionFacilities>
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>sem camas permitidas</RoomRequirementNoBeds>
   <!-- EN: Holders of this title must be covered in some combination of -->
   <RoyalTitleRequiredApparelStatDescription>Detentores deste título devem estar vestidos com alguma combinação de</RoyalTitleRequiredApparelStatDescription>
-  <!-- EN: Any powered armor -->
-  <ApparelRequirementAnyPowerArmor>Qualquer armadura poderosa</ApparelRequirementAnyPowerArmor>
+  <!-- EN: Any prestige armor -->
+  <ApparelRequirementAnyPrestigeArmor>Qualquer armadura de prestígio</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
-  <ApparelRequirementAnyPsycasterApparel>Qualquer roupa de invocador psíquico</ApparelRequirementAnyPsycasterApparel>
-  <!-- EN: Disabled work types -->
-  <DisabledWorkTypes>Tipos de trabalho desabilitados</DisabledWorkTypes>
+  <ApparelRequirementAnyPsycasterApparel>Qualquer roupa de psycaster</ApparelRequirementAnyPsycasterApparel>
+  <!-- EN: Disallowed work types -->
+  <DisabledWorkTypes>Tipos de trabalho não permitidos</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
   <RoyalTitleRequiredMeals>Alimentos permitidos</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
   <RoyalTitleRequiredMealsDesc>O detentor deste título só comerá esses alimentos, a menos que estejam passando fome ou em uma caravana.</RoyalTitleRequiredMealsDesc>
 
   <!-- Royal implants -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
-  <RoyalImplantIllegalUseWarning>De acordo com as leis de {FACTION_name}, é necessário ter o título de {TITLE} para usar legalmente um(a) {IMPLANT}.\n\n{VIOLATIONTRIGGER}, existe uma chance de que {FACTION_name} detecte sua assinatura psíquica. Isso levará a consequências diplomáticas.\n\nUm implante de silenciador psíquico permitiria o uso do {IMPLANT} sem detecção.</RoyalImplantIllegalUseWarning>
+  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
+  <RoyalImplantIllegalUseWarning>De acordo com as leis de {FACTION_name}, é necessário ter o título de {TITLE} para usar legalmente um(a) {IMPLANT}.\n\n{VIOLATIONTRIGGER}, existe uma chance de que {FACTION_name} detecte sua assinatura psíquica. Isso levará a consequências diplomáticas.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>Tem certeza que quer instalar este implante?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
   <RoyalImplantUpgradeConfirmation>Tem certeza que quer atualizar este implante?</RoyalImplantUpgradeConfirmation>
-  <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
-  <PsychicAmplifierViolationTrigger>Toda vez que {PAWN_labelShort} executa uma invocação psíquica acima do nível permitido</PsychicAmplifierViolationTrigger>
 
   <!-- Royal weapons -->
-  <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
-  <RoyalWeaponIllegalUseWarning>De acordo com as leis de {FACTION_name}, é necessário ter o título de {TITLE} para usar {WEAPON_indefinite} legalmente.\n\nCada vez que {PAWN_labelShort} ataca com uma arma bladelink, existe a chance de {FACTION_name} detectar sua assinatura psíquica. Isso levará a consequências diplomáticas.\n\nUm implante de silenciador psíquico permitiria o uso de {WEAPON_definite} sem detecção.</RoyalWeaponIllegalUseWarning>
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
   <BladelinkEquipWarning>Uma vez vinculada a um portador, a persona da arma se recusará a ser manejada por qualquer outra pessoa.</BladelinkEquipWarning>
   <!-- EN: Are you sure you want to equip this item? -->
@@ -62,9 +58,19 @@
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
   <AbilityTargetPsychicallyDeaf>O alvo é surdo psiquicamente.</AbilityTargetPsychicallyDeaf>
-  <!-- EN: Amplifier level -->
-  <PsycastRequiredAmplifierLevel>Nível do amplificador</PsycastRequiredAmplifierLevel>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>Isso é ilegal para {PAWN_labelShort}. Requer título de {TITLE}.</PsycastIsIllegal>
+
+  <!-- Warning -->
+  <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
+  <QuestGivesRoyalFavor>Essa missão recompensará {FACTION_royalFavorLabel} e, portanto, títulos reais para {PAWN_labelShort}.</QuestGivesRoyalFavor>
+  <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
+  <RoyalIncapableOfSocial>{PAWN_labelShort} é incapaz de tarefas sociais. Aqueles com títulos reais têm grande necessidade de habilidades sociais, portanto, se {PAWN_labelShort} ganhar um título, {PAWN_pronoun} poderá ter dificuldades. Outro colono pode ser mais socialmente adepto.</RoyalIncapableOfSocial>
+  <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
+  <RoyalWithConceitedTrait>Já que {PAWN_labelShort} é {2}, {PAWN_pronoun} exigirá que os privilégios do título sejam totalmente respeitados. {PAWN_labelShort} pode se recusar a fazer certos tipos de trabalho ou comer alimentos de classe baixa e emitirá decretos. Outro colono provavelmente seria mais flexível.</RoyalWithConceitedTrait>
+  <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
+  <RoyalWithTraitAffectingPsylinkNegatively>Como {PAWN_labelShort} é {2}, o psylink pode não ser útil para {PAWN_objective}.</RoyalWithTraitAffectingPsylinkNegatively>
+  <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways? -->
+  <PsylinkTooLowForGainAbility>O psylink de {PAWN_labelShort} não está em um nível alto o suficiente para usar {ABILITY}.\n\nAprender o psycast mesmo assim?</PsylinkTooLowForGainAbility>
 
 </LanguageData>

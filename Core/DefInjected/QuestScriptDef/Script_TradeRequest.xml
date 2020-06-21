@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIn return, [allRewardsDescriptions]\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Um assentamento próximo, [settlement_label], tem uma solicitação comercial especial. Eles gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](Custando [requestedThingMarketValue_money])\n\nEm troca, [allRewardsDescriptions]\n\nSe você quiser fazer o comércio, envie uma caravana com os itens solicitados. O tempo estimado de viagem é [estimatedTravelTime_duration].</li>
+    <li>questDescription->Um assentamento próximo, [settlement_label], tem uma solicitação comercial especial. Eles gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](Custando [requestedThingMarketValue_money])\n\nSe você quiser fazer o comércio, envie uma caravana com os itens solicitados. O tempo estimado de viagem é [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualidade normal+ </li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
@@ -40,12 +40,12 @@
     <li>trade->Oferta</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.root.nodes.Letter.label.slateRef>A missão falhou: [resolvedQuestName]</TradeRequest.root.nodes.Letter.label.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>A missão falhou: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.root.nodes.Letter.text.slateRef>[faction_name] tornou-se hostil a você.</TradeRequest.root.nodes.Letter.text.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] tornou-se hostil a você.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>Quem deve ser creditado com [asker_faction_royalFavorLabel] de favor, por atender à solicitação de negociação?</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Quem deve ser creditado com [asker_faction_royalFavorLabel] de favor, por atender à solicitação de negociação?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

@@ -402,8 +402,46 @@
   <TimeRecordsCategory>Tempo</TimeRecordsCategory>
   <!-- EN: Misc -->
   <MiscRecordsCategory>Outros</MiscRecordsCategory>
-  <!-- EN: Addictiveness -->
-  <Addictiveness>Viciamento</Addictiveness>
+  <!-- EN: Chemical -->
+  <Chemical>Químico</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>Alto ganho por dose</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>Alta taxa de queda</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>Alta duração por dose</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>Ganho de tolerância por dose</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>Taxa de queda de tolerância</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>Novo vício tolerância mínima</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval -->
+  <SafeDoseInterval>Intervalo de dose segura</SafeDoseInterval>
+  <!-- EN: New addiction chance -->
+  <Addictiveness>Nova chance de dependência</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>Gravidade inicial do vício</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>Gravidade do vício por dose</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>Necessidade de dependência preenchida por dose</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>Taxa de queda da necessidade de dependência</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>Intervalo de dose da necessidade de dependência</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>Tempo de recuperação de dependência</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>Custo de dependência</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>Chance de overdose aleatória</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>Sempre seguro</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>Nunca seguro</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>{0} / dia</PerDay>
   <!-- EN: Pack animal -->
   <PackAnimal>Animal de carga</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -464,6 +502,30 @@
   <ClickToLearnMore>Clique para aprender mais.</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>Clique para visualizar facções.</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>tipos de foco de meditação</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>Desbloqueia tipos de foco de meditação</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>Os tipos de foco de meditação que essa pessoa pode usar. Ao meditar, uma pessoa pode se concentrar em um objeto para aumentar seu ganho de psyfocus - mas apenas se esse objeto oferecer um tipo de foco que possa ser usado. Os tipos de meditação de cada pessoa são determinados por seus antecedentes, características, posição social e assim por diante.</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>Os tipos de foco de meditação que esse objeto oferece. Uma pessoa meditando pode se concentrar nesse objeto para aumentar seu ganho de psyfocus, mas apenas se for capaz de usar um de seus tipos de meditação. Cada pessoa pode usar diferentes tipos de meditação, dependendo de seus antecedentes, características, posição social e assim por diante.</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>Pode usar o tipo de foco {0} porque</MeditationFocusCanUse>
+  <!-- EN: {0} focus objects -->
+  <MeditationFocusObjects>{0} objetos de foco</MeditationFocusObjects>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>possui o título: {TITLE} ({FACTION_name}).</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>tem infância</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>tem idade adulta</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>tem característica</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>não tem característica</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>Permite tipos de foco de meditação</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -618,10 +680,14 @@
   <AnimalCanGrazeTip>Este animal pode pastar no ambiente em vez de comer a comida carregada. Pastar só é possível em alguns biomas e faixas de temperatura.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
   <NutritionForagedPerDayTip>Nutrição forrageira por dia. A quantidade real de forragem também é afetada pela capacidade do bioma.\n\n {0}</NutritionForagedPerDayTip>
-  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1} -->
-  <NutritionEatenPerDayTip>Nutrição consumida por dia. Para referência, refeições simples têm {0} de nutrição.\n\nPode comer: {2}\n\nLegenda: \n {1}.</NutritionEatenPerDayTip>
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
+  <NutritionEatenPerDayTip>Nutrição consumida por dia. Para referência, refeições simples têm {0} de nutrição.</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>Pode comer</CanEat>
+  <!-- EN: Legend -->
+  <Legend>Lenda</Legend>
   <!-- EN: Mass carried -->
-  <MassCarriedSimple>massa carregada</MassCarriedSimple>
+  <MassCarriedSimple>Massa transportada</MassCarriedSimple>
   <!-- EN: Mass capacity -->
   <MassCapacity>Capacidade de massa</MassCapacity>
   <!-- EN: Mass -->
@@ -912,8 +978,10 @@
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Linha de visão necessária</AbilityRequiresLOS>
-  <!-- EN: Entropy gain  -->
-  <AbilityEntropyGain>Ganho de entropia</AbilityEntropyGain>
+  <!-- EN: Neural heat gain -->
+  <AbilityEntropyGain>Ganho de calor neural</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>Custo de psyfocus</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>Duração do efeito</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -926,5 +994,9 @@
   <AbilityOccupiedCells>{0} deve mirar em uma área vazia.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} deve mirar em uma área que pode ser percorrida.</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>{0} deve mirar uma área não coberta.</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>{0} está mentalmente quebrado.</AbilityCantApplyToMentallyBroken>
   
 </LanguageData>
