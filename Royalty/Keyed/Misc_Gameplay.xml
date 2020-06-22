@@ -23,15 +23,13 @@
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>treinador psíquico ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use neurotrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Usar o neurotreinador para aprender a invocação psíquica {0}</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Usar o neurotreinador para aprender o psycast {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Uma super dose de uso único de mecanitos ajustados para treinar uma invocação psíquica específica. A dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade de invocação psíquica específica, transmutando-se em tecido neural quando necessário.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Uma super dose de uso único de mecanitos ajustados para treinar um psycast específico.\n\nA dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade psycast específica, transmutando-se em tecido neural conforme necessário.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender a invocação psíquica {1}.</AbilityNeurotrainerUsed>
-  <!-- EN: {USER_labelShort} has reached psychic amplifer level {1} and has automatically learned this psycast: {2}. -->
-  <PsycastLearnedFromImplant>{USER_labelShort} atingiu o nível {1} do amplificador psíquico, e aprendeu automaticamente esta invocação psíquica: {2}.</PsycastLearnedFromImplant>
-  <!-- EN: Requires psychic amplifier -->
-  <PsycastNeurotrainerNoPsychicAmplifier>Requer amplificador psíquico</PsycastNeurotrainerNoPsychicAmplifier>
+  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender o psycast {1}.</AbilityNeurotrainerUsed>
+  <!-- EN: Requires psylink -->
+  <PsycastNeurotrainerNoPsylink>Requer psylink</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} já conhece {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -50,6 +48,29 @@
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Muito perto de outro farol</TooCloseToOtherBeacon>
   
+  <!-- Meditation -->
+
+  <!-- EN: Psyfocus -->
+  <Psyfocus>Psyfocus</Psyfocus>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <PsyfocusDesc>Psyfocus é um tipo especial de estruturação mental que é necessário para realizar psycasts. O psyfocus se dissipa com o tempo e deve ser acumulado pela meditação regular. Perder todo o psyfocus torna alguém incapaz de realizar psycasts, mas não tem outras consequências.\n\nOs níveis mais altos de psyfocus permitem psycasts de nível superior, mas também aumentam a taxa de dissipação do psyfocus.</PsyfocusDesc>
+  <!-- EN: {0}-{1}% -->
+  <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
+  <!-- EN: Up to level {0} psycasts. -->
+  <PsyfocusLevelInfoPsycasts>Psycasts até o nível {0}.</PsyfocusLevelInfoPsycasts>
+  <!-- EN: Psyfocus falls at {0} per day. -->
+  <PsyfocusLevelInfoFallRate>Psyfocus cai em {0} por dia.</PsyfocusLevelInfoFallRate>
+  <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
+  <UserMeditationFocusStrength>Força do foco na meditação para {LASTUSER_labelShort}</UserMeditationFocusStrength>
+  <!-- EN: Focus effect impacted by -->
+  <MeditationFocusImpacted>Efeito de foco impactado por</MeditationFocusImpacted>
+  <!-- EN: Psyfocus gain rate: {0}/d -->
+  <PsyfocusPerDayOfMeditation>Taxa de ganho de psyfocus: {0}/d</PsyfocusPerDayOfMeditation>
+  <!-- EN: Desired psyfocus -->
+  <DesiredPsyfocus>Psyfocus desejado</DesiredPsyfocus>
+  <!-- EN: Click to set desired psyfocus. -->
+  <DesiredPsyfocusDesc>Clique para definir o psyfocus desejado.</DesiredPsyfocusDesc>
+
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>deve ser redigido.</AbilityDisabledUndrafted>
@@ -57,6 +78,8 @@
   <AbilityOnCooldown>habilidade em recarga. Ele estará disponível em {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>habilidade já está na fila.</AbilityAlreadyQueued>
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>sem calor para descarregar.</AbilityNoEntropyToDump>
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Habilidade pronta: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
@@ -78,4 +101,19 @@
   <AbilitySpeechPossibleOutcomes>Chance de resultado</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>Estatística {1} de {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
+
+  <!-- EN: Progress to next {0}: {1} -->
+  <ProgressToNextSubplant>Progresso para o próximo {0}: {1}</ProgressToNextSubplant>
+  <!-- EN: Begin linking ritual -->
+  <BeginLinkingRitualFloatMenu>Começar ritual de vinculação</BeginLinkingRitualFloatMenu>
+  <!-- EN: Need {0} {1} here (have {2}) -->
+  <BeginLinkingRitualNeedSubplants>Precisa-se de {0} {1} aqui (tem {2})</BeginLinkingRitualNeedSubplants>
+  <!-- EN: Need {0} pyslink focus -->
+  <BeginLinkingRitualNeedFocus>Precisa-se de {0} de foco pyslink</BeginLinkingRitualNeedFocus>
+  <!-- EN: Need a free, reachable spot within 3 cells for linking -->
+  <BeginLinkingRitualNeedLinkSpot>Precisa-se de um local livre e acessível dentro de 3 células para vincular</BeginLinkingRitualNeedLinkSpot>
+  <!-- EN: Linking ritual completed -->
+  <LetterLabelLinkingRitualCompleted>Ritual de vinculação concluído</LetterLabelLinkingRitualCompleted>
+  <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} concluiu o ritual de vinculação com {LINKABLE_labelShort}.\n\n{PAWN_pronoun} agora possui um psylink atualizado, permitindo o uso de novos psycasts.</LetterTextLinkingRitualCompleted>
 </LanguageData>
