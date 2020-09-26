@@ -35,7 +35,7 @@
   <!-- EN: Low priority -->
   <Priority4>Prioridade baixa</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>TODO</PawnFactionInfo>
+  <PawnFactionInfo>{0}\n\nA facção {1_nameDef} pertence atualmente a.\n\nClique para ver a facção.</PawnFactionInfo>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -93,7 +93,7 @@
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Boa vontade atual e status de relações com essa facção.</CurrentGoodwillTip>
   <!-- EN: Current relations with this faction. -->
-  <CurrentRelationTip>TODO</CurrentRelationTip>
+  <CurrentRelationTip>Relação atual com esta facção.</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Esta facção é permanentemente hostil. Eles atacarão seus assentamentos e caravanas. As relações com eles nunca melhorarão.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -207,7 +207,7 @@
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>O nível de tecnologia da sua facção é {0}, mas o nível de tecnologia deste projeto é {1}. A velocidade da pesquisa será multiplicada por {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
-  <UnlockedWith>TODO</UnlockedWith>
+  <UnlockedWith>Desbloqueado com</UnlockedWith>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -247,9 +247,9 @@
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>O transporte parte em {0}</ShuttleDepartsOn>
   <!-- EN: Guests depart in {0} -->
-  <GuestsDepartsIn>TODO</GuestsDepartsIn>
+  <GuestsDepartsIn>Convidados partirá em {0}</GuestsDepartsIn>
   <!-- EN: Guests depart on {0} -->
-  <GuestsDepartsOn>TODO</GuestsDepartsOn>
+  <GuestsDepartsOn>Convidados partirá em {0}</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>Concluído há {0}</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -281,15 +281,15 @@
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>um quarto livre que atenda aos requisitos do título de</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
+  <QuestThroneRoomRequirementsUnsatisfied>A sala do trono que atenda aos requisitos o título de {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
+  <QuestNoThroneRoom>A sala do trono que atenda aos requisitos o título de {TITLE} de {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>um colono com o título {0}.</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
-  <QuestPawnNotOnColonyMap>TODO</QuestPawnNotOnColonyMap>
+  <QuestPawnNotOnColonyMap>{PAWN_definite} para ser sua colônia principal</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>TODO</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>O mapa da facção emissária sem inimigos</QuestRequiresNoDangerOnMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>Preferências de recompensa</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -311,9 +311,9 @@
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} se junta</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
-  <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
+  <QuestBetrayalOffer>Oferta de traição: {0} alvos restantes</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
-  <QuestBetrayalOfferTip>TODO</QuestBetrayalOfferTip>
+  <QuestBetrayalOfferTip>{0} te dará uma recompensa por matar todos os membros de {1}.</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->
