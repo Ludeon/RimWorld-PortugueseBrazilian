@@ -21,7 +21,7 @@
   <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
   <BlindingPulse.description>Induza um ruído nos centros visuais do cérebro, obscurecendo a visão de todos os que estão perto do ponto-alvo.</BlindingPulse.description>
   
-  <!-- EN: bullet shield -->
+  <!-- EN: skipshield -->
   <BulletShield.label>escudo de balas</BulletShield.label>
   <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
   <BulletShield.description>Gere um skipgate esférico que envia todos os projéteis vindo e saindo na altura do solo para algum lugar distante. Pessoas e itens não são afetados.</BulletShield.description>
@@ -36,10 +36,20 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>Teleporte o alvo para uma posição aleatória perto de onde ele estava.</ChaosSkip.description>
   
+  <!-- EN: chunk skip -->
+  <Chunkskip.label>TODO</Chunkskip.label>
+  <!-- EN: Skip the 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
+  <Chunkskip.description>TODO</Chunkskip.description>
+  
   <!-- EN: neural heat dump -->
   <EntropyDump.label>despejo de calor neural</EntropyDump.label>
   <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
   <EntropyDump.description>Despeje instantaneamente todo o seu calor neural em outra pessoa. Como efeito colateral, o alvo entrará em coma debilitante, mas não prejudicial, por cerca de um dia. O alvo deve aceitar ativamente a invasão psíquica, para que apenas aliados conscientes possam ser alvejados.</EntropyDump.description>
+  
+  <!-- EN: farskip -->
+  <Farskip.label>TODO</Farskip.label>
+  <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
+  <Farskip.description>TODO</Farskip.description>
   
   <!-- EN: flashstorm -->
   <Flashstorm.label>tempestade</Flashstorm.label>
@@ -66,6 +76,13 @@
   <!-- EN: Skip everyone near a target point to a random location nearby. -->
   <MassChaosSkip.description>Teleporte todos perto de um ponto-alvo para um local aleatório próximo.</MassChaosSkip.description>
   
+  <!-- EN: neuroquake -->
+  <Neuroquake.label>TODO</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>TODO</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>TODO</Neuroquake.confirmationDialogText>
+  
   <!-- EN: painblock -->
   <Painblock.label>bloqueador de dor</Painblock.label>
   <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
@@ -80,6 +97,11 @@
   <Smokepop.label>bomba de fumaça</Smokepop.label>
   <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
   <Smokepop.description>Agite as partículas de poeira sob a superfície do solo para formar uma nuvem espessa. Isso reduz a precisão de qualquer tiro disparado através dela e evita que as torretas travem o alvo com eficiência.</Smokepop.description>
+  
+  <!-- EN: solar pinhole -->
+  <SolarPinhole.label>TODO</SolarPinhole.label>
+  <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. The light is enough to work by, but not enough to grow plants. -->
+  <SolarPinhole.description>TODO</SolarPinhole.description>
   
   <!-- EN: throne speech -->
   <Speech.label>discurso do trono</Speech.label>
@@ -105,5 +127,30 @@
   <Waterskip.label>mergulhar</Waterskip.label>
   <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
   <Waterskip.description>Mergulhe uma área alvo na água, extinguindo incêndios. A água é archotecnologicamente teletransportada de corpos distantes de água ou aquíferos subterrâneos.</Waterskip.description>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>TODO</WordOfInspiration.label>
+  <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
+  <WordOfInspiration.description>TODO</WordOfInspiration.description>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>TODO</WordOfJoy.label>
+  <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
+  <WordOfJoy.description>TODO</WordOfJoy.description>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>TODO</WordOfLove.label>
+  <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
+  <WordOfLove.description>TODO</WordOfLove.description>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>TODO</WordOfSerenity.label>
+  <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
+  <WordOfSerenity.description>TODO</WordOfSerenity.description>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>TODO</WordOfTrust.label>
+  <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This can only reduce a prisoner's resistance, but cannot recruit him. -->
+  <WordOfTrust.description>TODO</WordOfTrust.description>
   
 </LanguageData>

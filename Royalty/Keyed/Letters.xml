@@ -7,6 +7,9 @@
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
   <LetterLabelGainedRoyalTitle>Título de {TITLE} conquistado: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
+  <!-- EN: Permit points awarded: {0}. -->
+  <PermitPointsAwarded>TODO</PermitPointsAwarded>
+
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>Este título requer vestuários de qualidade {1} ou melhor.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
@@ -17,13 +20,13 @@
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
   <LetterRoyalTitleConceitedTrait>Já que {PAWN_labelShort} é um(a) {1}, {PAWN_pronoun} exigirá que os privilégios desse título sejam totalmente respeitados. {PAWN_pronoun} pode se recusar a fazer certos tipos de trabalho, comer alimentos de classe baixa, e irá emitir decretos.</LetterRoyalTitleConceitedTrait>
 
-  <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
+  <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} recebeu o título de {TITLE} de {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort} não possui mais o título de {TITLE} com {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>Recompensas do título</LetterLabelRewardsForNewTitle>
-  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
+  <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
   <LetterRewardsForNewTitle>Para homenagear {PAWN_labelShort} por ter avançando para o título de {TITLE}, {FACTION_name} enviou a {PAWN_pronoun} as seguintes recompensas:</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>As recompensas chegaram à sua colônia por meio de cápsulas de transporte.</LetterRewardsForNewTitleDeliveryBase>
@@ -74,20 +77,21 @@
   <LetterRoyalTitleChangingHeir>Um novo herdeiro pode ser escolhido entrando em contato com {FACTION_name} por meio de um console de comunicação.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
   <LetterTitleHeirLostLabel>Herdeiro perdido</LetterTitleHeirLostLabel>
-  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
+  <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
   <LetterTitleHeirLost>{HEIR_nameFull} morreu, deixando {HOLDER_labelShort} sem herdeiro para o título recebido de {FACTION_name}. Você pode entrar em contato com {FACTION_name} por meio de um console de comunicação para designar um novo herdeiro.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>O título de {TITLE} não pode ser herdado.</LetterRoyalTitleCantBeInherited>
 
+
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>Herança de título</LetterTitleInheritance>
-  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
   <LetterTitleInheritance_Base>Já que {PAWN_nameFull} morreu, os títulos {PAWN_objective} foram transferidos para os herdeiros {PAWN_objective}, de acordo com as leis das facções que concedem títulos.</LetterTitleInheritance_Base>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
   <LetterTitleInheritance_AsReplacement>O título de {TITLE} {PAWN_objective} foi herdado por {HEIR_nameFull}, de acordo com as leis de sucessão de {FACTION_name}. Isto substituiu o título {REPLACEDTITLE} {HEIR_objective}.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
   <LetterTitleInheritance_NoEffectHigherTitle>O título de {TITLE} {PAWN_objective} deveria ter sido herdado por {HEIR_nameFull} de acordo com as leis de sucessão de {FACTION_name}, mas {HEIR_pronoun} já possuia o título superior de {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
+  <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
   <LetterTitleInheritance_WasInherited>O título de {TITLE} {PAWN_objective} foi herdado por {HEIR_nameFull} de acordo com as leis de sucessão de {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>O título de {TITLE} {PAWN_objective} não foi herdado por ninguém, pois {PAWN_pronoun} não tinha um herdeiro designado para este título.</LetterTitleInheritance_NoHeirFound>
@@ -109,6 +113,10 @@
   <LetterEncouragingSpeech>Foi encorajador e bem recebido.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>Foi incrivelmente inspirador, cheio de intensidade e propósito.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>TODO</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>TODO</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Como o discurso foi interrompido após apenas {0} ser concluído, não foi tão eficaz.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
@@ -137,11 +145,39 @@
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
   <LetterLabelPsylinkLevelGained>Psylink ganho</LetterLabelPsylinkLevelGained>
-  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psycasts, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
+  <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
   <LetterPsylinkLevelGained_First>{USER_labelShort} conquistou seu primeiro nível de psylink! {USER_pronoun} agora é um(a) psycaster.\n\nPara usar psycasts, {USER_labelShort} deve acumular psyfocus por meio da meditação. A eficácia dessa meditação aumenta se a pessoa puder se concentrar em um objeto específico enquanto medita.\n\nDiferentes pessoas podem se concentrar em objetos diferentes. Isso depende dos seus passados, características e títulos. Por exemplo:\n\n- Psycasters com títulos reais meditam em seus tronos.\n- Psycasters com infâncias tribais meditam em árvores anima e santuários da natureza.\n- Psycasters ascéticos meditam em paredes vazias.\n- Psycasters psicopatas meditam em túmulos, idealmente com um ente querido dentro.\n\nVocê pode ver os tipos de foco na meditação de alguém olhando para o cartão de informações com o botão 'i'.</LetterPsylinkLevelGained_First>
-  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psycasts of that higher level, but {USER_pronoun} needs to learn them first. -->
+  <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
   <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} ganhou um novo nível de psylink! {USER_pronoun} agora pode usar psycasts desse nível superior, mas {USER_pronoun} precisa aprendê-los primeiro.</LetterPsylinkLevelGained_NotFirst>
-  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned this psycast: {2}. -->
+  <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>Ao obter o novo nível de psylink, {USER_labelShort} aprendeu automaticamente este psycast: {2}.</LetterPsylinkLevelGained_PsycastLearned>
+  
+  <!-- Abilities -->
+  <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterPsychicInspiration>TODO</LetterPsychicInspiration>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>TODO</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>TODO</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>TODO</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>TODO</LetterJoinOfferAccept>
+
+  <!-- EN: Bestowing ceremony expired -->
+  <LetterLabelBestowingCeremonyExpired>TODO</LetterLabelBestowingCeremonyExpired>
+  <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
+  <LetterTextBestowingCeremonyExpired>TODO</LetterTextBestowingCeremonyExpired>
+
+  <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
+  <LetterTextHonorAward_BanditCamp>TODO</LetterTextHonorAward_BanditCamp>
+
+  <!-- Shuttle crash -->
+  <!-- EN: Shuttle crashed -->
+  <LetterLabelShuttleCrashed>TODO</LetterLabelShuttleCrashed>
+  <!-- EN: A shuttle has crashed nearby -->
+  <LetterTextShuttleCrashed>TODO</LetterTextShuttleCrashed>
 
 </LanguageData>
