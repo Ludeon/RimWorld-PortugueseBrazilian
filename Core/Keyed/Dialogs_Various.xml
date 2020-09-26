@@ -12,7 +12,7 @@
   <!-- EN: Close -->
   <Close>Fechar</Close>
   <!-- EN: Accept -->
-  <Accept>TODO</Accept>
+  <Accept>Aceitar</Accept>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -545,7 +545,7 @@
   <!-- EN: Accept -->
   <AcceptButton>Confirmar</AcceptButton>
   <!-- EN: Load selected -->
-  <LoadSelected>TODO</LoadSelected>
+  <LoadSelected>Carregamento selecionado</LoadSelected>
   <!-- EN: Reset -->
   <ResetButton>Restaurar</ResetButton>
   <!-- EN: Cancel -->
@@ -619,7 +619,7 @@
   <!-- EN: Form caravan -->
   <FormCaravan>Formar caravana</FormCaravan>
   <!-- EN: Send -->
-  <Send>TODO</Send>
+  <Send>Enviar</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Quantos deste item a colônia está pronta para dar à caravana.</FormCaravanColonyThingCountTip>
   <!-- EN: People and animals -->
@@ -627,7 +627,7 @@
   <!-- EN: Items -->
   <ItemsTab>Itens</ItemsTab>
   <!-- EN: Travel supplies -->
-  <FoodAndMedicineTab>TODO</FoodAndMedicineTab>
+  <FoodAndMedicineTab>Suprimentos de viagem</FoodAndMedicineTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Você deve atribuir pelo menos um colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -721,7 +721,7 @@
   <!-- EN: Choose route -->
   <ChooseRouteButton>Escolha a rota</ChooseRouteButton>
   <!-- EN: Change route -->
-  <ChangeRouteButton>TODO</ChangeRouteButton>
+  <ChangeRouteButton>Mude a rota</ChangeRouteButton>
   <!-- EN: Abandon -->
   <AbandonButton>Abandono</AbandonButton>
   <!-- EN: Movement speed -->
@@ -753,7 +753,7 @@
   <!-- EN: Total body size -->
   <TotalBodySize>Tamanho total do corpo</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
-  <AutomaticallySelectFoodAndMedicine>TODO</AutomaticallySelectFoodAndMedicine>
+  <AutomaticallySelectFoodAndMedicine>Selecionar automaticamente os suprimentos de viagem</AutomaticallySelectFoodAndMedicine>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -791,7 +791,7 @@
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>Não há caminho entre o transporte e {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
-  <TransporterSingleTooManyColonists>TODO</TransporterSingleTooManyColonists>
+  <TransporterSingleTooManyColonists>Apenas {0} colonistas máximos permitidos.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -1005,9 +1005,9 @@
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Nenhuma linha de visão para mirar.</AbilityCannotHitTarget>
   <!-- EN: Can't reach the target. -->
-  <AbilityCannotReachTarget>TODO</AbilityCannotReachTarget>
+  <AbilityCannotReachTarget>Não pode chegar no alvo.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
-  <AbilityNotEnoughFreeSpace>TODO</AbilityNotEnoughFreeSpace>
+  <AbilityNotEnoughFreeSpace>Sem espaço livre disponível.</AbilityNotEnoughFreeSpace>
   <!-- EN: {0} must target an empty area. -->
   <AbilityOccupiedCells>{0} deve mirar em uma área vazia.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
@@ -1017,47 +1017,47 @@
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0} está mentalmente quebrado.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>TODO</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} não está mentalmente rompido.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
-  <AbilityDoesntWorkOnMentalState>TODO</AbilityDoesntWorkOnMentalState>
+  <AbilityDoesntWorkOnMentalState>{0} não funciona com '{1}' estado mental.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
-  <AbilityCantApplyNoResistance>TODO</AbilityCantApplyNoResistance>
+  <AbilityCantApplyNoResistance>{0_labelShort} possui zero resistência.</AbilityCantApplyNoResistance>
   <!-- EN: Cannot use: {0} is asexual. -->
-  <AbilityCantApplyOnAsexual>TODO</AbilityCantApplyOnAsexual>
+  <AbilityCantApplyOnAsexual>Impossível usar: {0} é assexuad{PAWN_gender ? o : a }.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
-  <AbilityCantApplyWrongAttractionGender>TODO</AbilityCantApplyWrongAttractionGender>
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort} é o gênero errado para {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: Psyfocus cost per mental break intensity -->
-  <PsyfocusCostPerMentalBreakIntensity>TODO</PsyfocusCostPerMentalBreakIntensity>
+  <PsyfocusCostPerMentalBreakIntensity>Custo de concentração psíquica por intensidade do rompimento mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
-  <AbilityAlreadyInspired>TODO</AbilityAlreadyInspired>
+  <AbilityAlreadyInspired>{0_labelShort} já está inspirad{PAWN_gender ? o : a}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
-  <AbilityCantGetInspiredNow>TODO</AbilityCantGetInspiredNow>
+  <AbilityCantGetInspiredNow>{0_labelShort} não pode inspirar-se neste momento.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} is unconscious. -->
-  <AbilityCantApplyUnconscious>TODO</AbilityCantApplyUnconscious>
+  <AbilityCantApplyUnconscious>{0_labelShort} está inconsciente.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
-  <AbilityCantApplyAsleep>TODO</AbilityCantApplyAsleep>
+  <AbilityCantApplyAsleep>{0_labelShort} está adormecid{PAWN_gender ? o : a}.</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
-  <AbilityWorldTileImpassable>TODO</AbilityWorldTileImpassable>
+  <AbilityWorldTileImpassable>Este título é intransferífel.</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
-  <AbilitySkipToRandomAlly>TODO</AbilitySkipToRandomAlly>
+  <AbilitySkipToRandomAlly>Pular para um aliado aleatório</AbilitySkipToRandomAlly>
   <!-- EN: Skip to join caravan -->
-  <AbilitySkipToJoinCaravan>TODO</AbilitySkipToJoinCaravan>
+  <AbilitySkipToJoinCaravan>Pular para unir-se à caravana.</AbilitySkipToJoinCaravan>
   <!-- EN: Need ally at target for navigation -->
-  <AbilityNeedAllyToSkip>TODO</AbilityNeedAllyToSkip>
+  <AbilityNeedAllyToSkip>Necessita de aliado no alvo para navegação</AbilityNeedAllyToSkip>
   <!-- EN: No chunks to skip. -->
-  <AbilityNoChunkToSkip>TODO</AbilityNoChunkToSkip>
+  <AbilityNoChunkToSkip>Sem trechos para pular.</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
-  <PsychicLoveInduceIn>TODO</PsychicLoveInduceIn>
+  <PsychicLoveInduceIn>Induzir amor psíquico em</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
-  <PsychicLoveFor>TODO</PsychicLoveFor>
+  <PsychicLoveFor>Amor psíquico para</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
-  <FarskipConfirmTeleportingLodger>TODO</FarskipConfirmTeleportingLodger>
+  <FarskipConfirmTeleportingLodger>Caso você pule {PAWN_labelShort} para outro mapa ou para uma caravana, a missão associada falhará e {PAWN_pronoun} irá embora imediatamente.\n\nVocê realmente deseja saltar para longe com {PAWN_labelShort}? </FarskipConfirmTeleportingLodger>
   
   <!-- EN: minor -->
-  <MentalBreakIntensityMinor>TODO</MentalBreakIntensityMinor>
+  <MentalBreakIntensityMinor>menor</MentalBreakIntensityMinor>
   <!-- EN: major -->
-  <MentalBreakIntensityMajor>TODO</MentalBreakIntensityMajor>
+  <MentalBreakIntensityMajor>maior</MentalBreakIntensityMajor>
   <!-- EN: extreme -->
-  <MentalBreakIntensityExtreme>TODO</MentalBreakIntensityExtreme>
+  <MentalBreakIntensityExtreme>extremo</MentalBreakIntensityExtreme>
   
 </LanguageData>

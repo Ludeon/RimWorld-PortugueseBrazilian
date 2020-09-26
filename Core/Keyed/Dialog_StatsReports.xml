@@ -51,15 +51,15 @@
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Multiplicado por saúde {0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
-  <StatsReport_ReloadMarketValue>TODO</StatsReport_ReloadMarketValue>
+  <StatsReport_ReloadMarketValue>Custo para recarregar ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
-  <StatsReport_ReloadRemainingChargesMultipler>TODO</StatsReport_ReloadRemainingChargesMultipler>
+  <StatsReport_ReloadRemainingChargesMultipler>Multiplicador de {CHARGENOUN_plural} restantes ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
-  <StatsReport_MoodMultiplier>Multiplicado por humor {0}</StatsReport_MoodMultiplier>
+  <StatsReport_MoodMultiplier>Multiplicado de humor {0}</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
   <StatsReport_LightMultiplier>Multiplicador de luz {0}</StatsReport_LightMultiplier>
   <!-- EN: Multiplier for difficulty {0} -->
-  <StatsReport_DifficultyMultiplier>Multiplicado por dificuldade {0}</StatsReport_DifficultyMultiplier>
+  <StatsReport_DifficultyMultiplier>Multiplicador de dificuldade {0}</StatsReport_DifficultyMultiplier>
   <!-- EN: In bed -->
   <StatsReport_InBed>Na cama</StatsReport_InBed>
   <!-- EN: Facilities -->
@@ -147,9 +147,9 @@
   <!-- EN: The item that will be yielded when mining this. -->
   <Stat_MineableThing_Desc>O item que será fornecido ao minerar isso.</Stat_MineableThing_Desc>
   <!-- EN: Mining yield -->
-  <Stat_MiningYield_Name>TODO</Stat_MiningYield_Name>
+  <Stat_MiningYield_Name>Rendimento da mineração</Stat_MiningYield_Name>
   <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
-  <Stat_MiningYield_Desc>TODO</Stat_MiningYield_Desc>
+  <Stat_MiningYield_Desc>A quantidade máxima disponível de itens no momento da mineração. A taxa de extração real será de acordo com a habilidade do minerador.</Stat_MiningYield_Desc>
   <!-- EN: Source species -->
   <Stat_SourceSpecies_Name>Espécies de origem</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
@@ -289,25 +289,25 @@
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>A quantidade de energia que esta construção consumirá da rede elétrica.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
-  <Stat_Thing_ReloadChargesRemaining_Name>TODO</Stat_Thing_ReloadChargesRemaining_Name>
+  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} restantes</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>TODO</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>A quantidade de {CHARGENOUN_plural} restantes deste objeto. Se a quantidade acabar, a habilidade especial não poderá ser mais usada.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
-  <Stat_Thing_ReloadMaxCharges_Name>TODO</Stat_Thing_ReloadMaxCharges_Name>
+  <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>TODO</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>A quantidade máxima de {CHARGENOUN_plural} que este objeto possui.</Stat_Thing_ReloadMaxCharges_Desc>
   <!-- EN: {CHARGENOUN} reload cost -->
-  <Stat_Thing_ReloadRefill_Name>TODO</Stat_Thing_ReloadRefill_Name>
+  <Stat_Thing_ReloadRefill_Name>Custo de recarga de {CHARGENOUN}</Stat_Thing_ReloadRefill_Name>
   <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
-  <Stat_Thing_ReloadRefill_Desc>TODO</Stat_Thing_ReloadRefill_Desc>
+  <Stat_Thing_ReloadRefill_Desc>A quantidade necessária de itens para recarregar completamente este objeto.\n\nEste objeto pode ser recarregado antes de estar vazio, mas será o mesmo custo de como se estivesse vazio.</Stat_Thing_ReloadRefill_Desc>
   <!-- EN: Reload cost per {CHARGENOUN} -->
-  <Stat_Thing_ReloadPerCharge_Name>TODO</Stat_Thing_ReloadPerCharge_Name>
+  <Stat_Thing_ReloadPerCharge_Name>Custo de recarga por {CHARGENOUN}</Stat_Thing_ReloadPerCharge_Name>
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
-  <Stat_Thing_ReloadPerCharge_Desc>TODO</Stat_Thing_ReloadPerCharge_Desc>
+  <Stat_Thing_ReloadPerCharge_Desc>A quantidade necessária de itens para recarregar um {CHARGENOUN}. Vários {CHARGENOUN_plural} podem ser recarregados de uma vez.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Name>TODO</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>Desaparecimento por exaustão</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Desc>TODO</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Este item desaparecerá quando seu último {CHARGENOUN} será usado.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>A eficiência geral desta parte do corpo.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->
