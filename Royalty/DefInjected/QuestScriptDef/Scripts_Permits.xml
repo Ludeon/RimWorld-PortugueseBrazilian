@@ -6,9 +6,9 @@
     <li>questDescription-></li>
   -->
   <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
-    <li>questName->Trabalhadores</li>
+    <li>questName->trabalhadores</li>
     <li>questDescription-></li>
-  </Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+   </Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
   <!-- EN: Laborers arrived -->
   <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>Os trabalhadores chegaram</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
   <!-- EN: The laborers from [permitFaction_name] have arrived. A shuttle will come to collect them in [laborersDurationDays] days. -->
@@ -20,7 +20,7 @@
   <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
   <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>Um transporte chegou para recuperar os trabalhadores de [permitFaction_name].</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
   <!-- EN: Laborer died: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Trabalhador morreu: <{SUBJECT_definite}/Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Trabalhador morreu: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
   <Permit_CallLaborers.LetterTextLaborerDied.slateRef>Um trabalhador enviado para você por [permitFaction_name] morreu. Sua relação com [permitFaction_name] caiu para [goodwillPenaltyPawn].</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
   <!-- EN: laborers missed shuttle -->
@@ -31,8 +31,8 @@
     <li>questDescription-></li>
   -->
   <Permit_CallShuttle.questDescriptionAndNameRules.rulesStrings>   
-  <li>questName->Permissão para transporte</li>
-  <li>questDescription-></li>
+   <li>questName->Permissão para transporte</li>
+   <li>questDescription-></li>
     </Permit_CallShuttle.questDescriptionAndNameRules.rulesStrings>
   <!-- EN: Shuttle arrived -->
   <Permit_CallShuttle.LetterLabelPermitShuttleArrived.slateRef>Transporte chegou</Permit_CallShuttle.LetterLabelPermitShuttleArrived.slateRef>
@@ -43,6 +43,6 @@
   <!-- EN: Shuttle left -->
   <Permit_CallShuttle.LetterLabelPermitShuttleLeft.slateRef>transporte foi embora</Permit_CallShuttle.LetterLabelPermitShuttleLeft.slateRef>
   <!-- EN: The shuttle from [permitFaction_name] has departed after being made to wait for too long. -->
-  <Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>O transporte de [permitFaction_name] depois de esperar por muito tempo.</Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>
+  <Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>O transporte de [permitFaction_name] partiu depois de esperar por muito tempo.</Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>
   
 </LanguageData>
