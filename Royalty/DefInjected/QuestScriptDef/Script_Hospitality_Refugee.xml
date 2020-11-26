@@ -60,7 +60,8 @@
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
-  <Hospitality_Refugee.questContentRules.rulesStrings>    <li>lastOrNot(lodgerCount==1)-></li>
+  <Hospitality_Refugee.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-></li>
     <li>lastOrNot(lodgerCount>=2)->último</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
@@ -116,7 +117,8 @@
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> e todos os membros de [faction_name]</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] saindo</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} te agradece por permitir {FACTION_leaderObjective} que fique em [map_definite] pelo tempo de [questDurationTicks_duration]. {FACTION_leaderPronoun} está se deslocando com as pessoas de {FACTION_leaderPossessive}.\n\n{FACTION_leaderNameDef} diz que {FACTION_leaderPronoun} não se esquecerá do que você fez.</li></Hospitality_Refugee.questContentRules.rulesStrings>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} te agradece por permitir {FACTION_leaderObjective} que fique em [map_definite] pelo tempo de [questDurationTicks_duration]. {FACTION_leaderPronoun} está se deslocando com as pessoas de {FACTION_leaderPossessive}.\n\n{FACTION_leaderNameDef} diz que {FACTION_leaderPronoun} não se esquecerá do que você fez.</li>
+  </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
@@ -254,8 +256,6 @@
     <li>lodgerPlural->sobreviventes</li>
     <li>lodgerPlural->nômades</li>
     <li>lodgerPlural->vagabundos</li>
-  
-  
   </Hospitality_Refugee.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -263,21 +263,20 @@
     <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
-  <li>rewardLetterLabel->Recompensa pela hospitalidade</li>
-  <li>rewardLetterText->[rewardGiver_nameDef] te contatou. durante [rewardDelayTicks_duration], você ajudou [rewardGiver_objective] em circunstâncias desesperadoras.\n\nDesde então, [rewardGiver_pronoun] se recuperou, e agora quer te recompensar de maneira apropriada por sua ajuda. [rewardGiver_pronoun] está te mandando a seguinte cápsula de transporte:\n\n[listOfRewards]</li>
-  
+    <li>rewardLetterLabel->Recompensa pela hospitalidade</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] te contatou. durante [rewardDelayTicks_duration], você ajudou [rewardGiver_objective] em circunstâncias desesperadoras.\n\nDesde então, [rewardGiver_pronoun] se recuperou, e agora quer te recompensar de maneira apropriada por sua ajuda. [rewardGiver_pronoun] está te mandando a seguinte cápsula de transporte:\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
   -->
   <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
-  <li>uma recompensa atrasada pela missão do refugiado</li>
+    <li>uma recompensa atrasada pela missão do refugiado</li>
   </RefugeeDelayedReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
   -->
   <RefugeeDelayedReward.questNameRules.rulesStrings>
-  <li>Recompensa atrasada do refugiado</li>
+    <li>Recompensa atrasada do refugiado</li>
   </RefugeeDelayedReward.questNameRules.rulesStrings>
   
 </LanguageData>
