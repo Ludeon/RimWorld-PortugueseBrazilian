@@ -26,7 +26,7 @@
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-      <li>failLetterEndingCommon->A missão '[resolvedQuestName]' falhou.</li>
+    <li>failLetterEndingCommon->A missão '[resolvedQuestName]' falhou.</li>
     <li>successLetterEndingCommon->A missão '[resolvedQuestName]' foi completada com sucesso.</li>
     <li>goodwillSomeCiviliansLost->Nem todos [pawnLabel] de [asker_faction_pawnSingular] puderam ter sido resgatados. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Nenhum dos [pawnLabelPlural] de [asker_faction_pawnSingular] puderam ter sido regastados. [goodwillNegativelyAffected]</li>
@@ -48,16 +48,15 @@
     <li>askerDiedLetterText->[commanderLandingDesc] morreu.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Missão falhou: [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->O transporte enviado para recuperar os [asker_faction_pawnsPlural] foi destruído. Os [asker_faction_pawnsPlural] irão embora a pé.\n\n[failLetterEndingCommon]</li>
-  
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>   
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
     <li>pawnLabel->civil</li>
     <li>pawnLabelPlural->civis</li>
-    </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
@@ -69,7 +68,7 @@
     <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>  
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
     <li>questDescription->Um transporte de [asker_faction_name] está danificada e está procurando um lugar para pousar. O seu comandante [asker_nameDef] quer pousar em [map_definite).\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacarão a área do transporte acidentado com o objetivo de matar os seus tripulantes. Você deve defendê-los.\n\nO transporte tem [asker_nameDef][andOtherCivilians] e [soldiers_count] [soldiers0_kind] como tripulantes. O comandante [andCivilians] devem ser resgatados, mas para isso, os [soldiers0_kind] talvez serão sacrificados.\n\nDepois de [rescueDelay_duration], um transporte de resgate virá para recuperar os sobreiventes. Você deve colocá-los a bordo em [leaveDelay_duration].</li>
@@ -79,7 +78,6 @@
     <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->e [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->e [pawnLabelPlural]</li>
-    
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
@@ -102,7 +100,7 @@
     <li>landing->descent</li>
     <li>landing->approach</li>
   -->
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>   
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
     <li>questName->[transporte] [acidente]</li>
     <li>questName->[transporte] [acidente] de [asker_faction_pawnSingular]</li>
     <li>questName->[transporte] [danificado]</li>
@@ -122,6 +120,6 @@
     <li>pouso->pouso</li>
     <li>pouso->descida</li>
     <li>pouso->aproãoximaç</li>
-    </ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>

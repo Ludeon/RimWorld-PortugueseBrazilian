@@ -4,21 +4,21 @@
   <!-- EN: arrow -->
   <Arrow.label>flecha</Arrow.label>
   <!-- EN: {0} has been shot to death by an arrow. -->
-  <Arrow.deathMessage>{0} foi morto(a) a flechadas.</Arrow.deathMessage>
+  <Arrow.deathMessage>{0} foi mort{PAWN_gender ? o : a} a flechadas.</Arrow.deathMessage>
   
   <!-- EN: arrow -->
   <ArrowHighVelocity.label>flecha</ArrowHighVelocity.label>
   <!-- EN: {0} has been shot to death by an arrow. -->
-  <ArrowHighVelocity.deathMessage>{0} foi morto(a) com uma flechada.</ArrowHighVelocity.deathMessage>
+  <ArrowHighVelocity.deathMessage>{0} foi mort{PAWN_gender ? o : a} com uma flechada.</ArrowHighVelocity.deathMessage>
   
   <!-- EN: bullet -->
   <Bullet.label>tiro</Bullet.label>
   <!-- EN: {0} has been shot to death. -->
-  <Bullet.deathMessage>{0} foi morto(a) a tiros.</Bullet.deathMessage>
+  <Bullet.deathMessage>{0} foi mort{PAWN_gender ? o : a} a tiros.</Bullet.deathMessage>
   
   <!-- EN: stab -->
   <RangedStab.label>punhalada</RangedStab.label>
   <!-- EN: {0} has been stabbed to death. -->
-  <RangedStab.deathMessage>{0} foi apunhalado(a) até a morte.</RangedStab.deathMessage>
+  <RangedStab.deathMessage>{0} foi apunhalad{PAWN_gender ? o : a} até a morte.</RangedStab.deathMessage>
   
 </LanguageData>
