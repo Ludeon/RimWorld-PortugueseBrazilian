@@ -6,10 +6,11 @@
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings>   
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
     <li>questDescription->[enemiesLabel] estabeleceram um acampamento e estão perturbando as caravanas de [asker_faction_name]. [asker_nameDef] está planejando um ataque aéreo no acampamento, que est5 protegido por [enemiesCount] [enemiesLabel]. [asker_pronoun] quer que você forneça [soldiers] para se encarregar do ataque.\n\n[asker_pronoun] te enviará um transporte para recuperar seus soldados, leve-os para a zona de ataque e leve-os de volta para casa depois. Eles serão alimentados durante o transporte.\n\nQuando o ataque começar, você precisará derrotar todos os inimigos e torretas em [timeoutTicks_duration].</li>
     <li>soldados (requiredPawnCount>1)->[requiredPawnCount] soldados</li>
-    <li>soldados(requiredPawnCount==1)->[requiredPawnCount] soldado</li></Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>soldados(requiredPawnCount==1)->[requiredPawnCount] soldado</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -27,7 +28,7 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings>    
+  <Mission_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
     <li>questNameInner->[ataque] no [aéreo] </li>
@@ -43,6 +44,6 @@
     <li>ataque->assalto</li>
     <li>trabalho->trabalho</li>
     <li>trabalho->tarefa</li>
-    </Mission_BanditCamp.questNameRules.rulesStrings>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>
