@@ -30,7 +30,7 @@
   <AnimalChat.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] sentou-se perto de(a) [RECIPIENT_nameDef] e conversou com [INITIATOR_pronoun] sobre [TalkTopicAny].</li>
-    <li>r_logentry->[INITIATOR_nameDef] aproximou-se de(a) [RECIPIENT_nameDef] enquanto sussurra para [INITIATOR_pronoun] sobre [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] aproximou-se {RECIPIENT_gender ? do ; da} [RECIPIENT_nameDef] enquanto sussurra para {INITIATOR_gender ? ele ; ela} [INITIATOR_pronoun] sobre [TalkTopicAny].</li>
     <li>r_logentry->[INITIATOR_nameDef] chegou perto de(a) [RECIPIENT_nameDef] enquanto conversando com [INITIATOR_pronoun] sobre [TalkTopicAny].</li>
     <li>tamed->fez barulhos relaxantes para</li>
     <li>tamed->moveu-se lentamente e amigavelmente em direção a</li>
