@@ -12,7 +12,6 @@ Translators:
 - [David](https://github.com/Zer0Gaming)
 - [Eduardo](https://github.com/eduardo0619)
 - [Ezequiel Wilhelm Ribeiro](https://github.com/Firty)
-- [Joás Felipe](https://github.com/Hokys)
 - [Lich Beoulve](https://github.com/lichbeoulve)
 - [Ragnar](https://github.com/RagnarLothbroke)
 - [Renan Lopes](https://github.com/renan905)
