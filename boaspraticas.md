@@ -73,9 +73,9 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 #### Enviando traduções do seu repositório para o repositório oficial
 
 1. Abra a página do seu repositório. Exemplo: https://github.com/(usuario)/RimWorld-PortugueseBrazilian;
-2. Clique em **New pull request**.
-3. Deixe a ordem dos repositórios de modo que o repositório oficial fique na esquerda, e o seu repositório na direita. Assim você irá enviar atualizações do seu repositório, para o repositório oficial.
-4. Clique em **Create pull request**.
-5. Adicione um título e a descrição das mudanças.
-6. Clique em **Create pull request** novamente.
+2. Clique em **New pull request**;
+3. Deixe a ordem dos repositórios de modo que o repositório oficial fique na esquerda, e o seu repositório na direita. Assim você irá enviar atualizações do seu repositório, para o repositório oficial;
+4. Clique em **Create pull request**;
+5. Adicione um título e a descrição das mudanças;
+6. Clique em **Create pull request** novamente;
 7. Aguarde para que suas alterações sejam aprovadas.

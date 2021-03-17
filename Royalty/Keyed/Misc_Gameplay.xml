@@ -9,7 +9,7 @@
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>O trono deve ser colocado no interior.</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>Título mínimo ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>Título mínimo de ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
   <RequiresTradePermission>A negociação aqui requer o título: {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
@@ -17,15 +17,15 @@
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
-  <PsycastNeurotrainerLabel>treinador psíquico ({0})</PsycastNeurotrainerLabel>
+  <PsycastNeurotrainerLabel>psytrainer ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Usar o neurotreinador para aprender o psycast {0}</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Use o psytrainer para aprender o psycast {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Uma super dose de uso único de mecanitos ajustados para treinar um psycast específico.\n\nA dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade psycast específica, transmutando-se em tecido neural conforme necessário.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Uma superdosagem de uso único de mecanitos que treinam um poder psíquico específico.\n\nA dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade específica, transmutando-se em tecido neural conforme necessário.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender o psycast {1}.</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender o poder {1}.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
-  <PsycastNeurotrainerNoPsylink>Requer vínculo psíquico</PsycastNeurotrainerNoPsylink>
+  <PsycastNeurotrainerNoPsylink>Requer psylink</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} já conhece {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -40,25 +40,25 @@
   <!-- EN: unpowered -->
   <Unpowered>sem energia</Unpowered>
   <!-- EN: blocked by roof -->
-  <BlockedByRoof>bloqueado pelo telhado</BlockedByRoof>
+  <BlockedByRoof>bloqueado por telhado</BlockedByRoof>
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Muito perto de outro farol</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
-  <Psyfocus>Concentração psíquica</Psyfocus>
+  <Psyfocus>Psyfocus</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Concentração psíquica</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>Concentração psíquica é um tipo especial de estruturação mental que é necessário para realizar psycasts. A concentração psíquica se dissipa com o tempo e deve ser acumulado pela meditação regular. Perder toda a concentração psíquica torna alguém incapaz de realizar psycasts, mas não tem outras consequências.\n\nOs níveis mais altos de concentração psíquica permitem psycasts de nível superior, mas também aumentam a taxa de dissipação da concentração psíquica.</PsyfocusDesc>
+  <PsyfocusDesc>O psyfocus é um tipo especial de estruturação mental que é necessário para usar poderes psíquicos. O psyfocus se dissipa com o tempo e deve ser acumulado pela meditação regular. Perder todo o psyfocus torna alguém incapaz de usar poderes psíquicos, mas não tem outras consequências.\n\nNíveis mais altos de psyfocus permitem poderes de nível superior, mas também aumentam a taxa de dissipação do psyfocus.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
-  <PsyfocusLevelInfoPsycasts>Psycasts até o nível {0}.</PsyfocusLevelInfoPsycasts>
+  <PsyfocusLevelInfoPsycasts>Poderes até o nível {0}.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
-  <PsyfocusLevelInfoFallRate>Concentração psíquica cai em {0} por dia.</PsyfocusLevelInfoFallRate>
+  <PsyfocusLevelInfoFallRate>Psyfocus cai em {0} por dia.</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
-  <UserMeditationFocusStrength>Força do foco na meditação para {LASTUSER_labelShort}</UserMeditationFocusStrength>
+  <UserMeditationFocusStrength>Força do foco de meditação para {LASTUSER_labelShort}</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>Efeito de foco impactado por</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
@@ -66,9 +66,9 @@
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
   <MeditationFocusPerAnimusStone>{2} por cada pedra animus ao redor ({0} / {1})</MeditationFocusPerAnimusStone>
   <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>{2} por cada cada pedra animus ao redor,{1} por cada santuário da natureza  (max {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>Por cada cada pedra animus ao redor {2}, santuário da natureza {1} (max {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
   <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
-  <MeditationFocusPerAnimusStoneAndShrine>{3} Para cada pedra animus ao redor,{2} por cada santuário da natureza  ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerAnimusStoneAndShrine>Para cada pedra animus ao redor {3}, santuário da natureza {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
   <MeditationFocusPerSculptureAbstract>{1} máximo(s) por cada escultura ao redor, dependendo da qualidade (max {0})</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
@@ -82,11 +82,11 @@
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
   <MeditationFocusPerFlame>{2} por cada chama acesa ({0} / {1})</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
-  <PsyfocusPerDayOfMeditation>Taxa de ganho de concentração psíquica: {0}/d</PsyfocusPerDayOfMeditation>
+  <PsyfocusPerDayOfMeditation>Taxa de ganho de psyfocus: {0}/d</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
-  <DesiredPsyfocus>concentração psíquica desejada</DesiredPsyfocus>
+  <DesiredPsyfocus>psyfocus desejado</DesiredPsyfocus>
   <!-- EN: Click to set desired psyfocus. -->
-  <DesiredPsyfocusDesc>Clique para definir a concentração psíquica desejada.</DesiredPsyfocusDesc>
+  <DesiredPsyfocusDesc>Clique para definir o psyfocus desejado.</DesiredPsyfocusDesc>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -130,13 +130,13 @@
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>É necessário {0} {1} aqui (tem {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
-  <BeginLinkingRitualNeedFocus>É necessário {0} de foco vínculo psíquico</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>É necessário o tipo {0} de psylink</BeginLinkingRitualNeedFocus>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>É necessário um local livre e acessível dentro de 3 células para vincular</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Ritual de vinculação concluído</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} concluiu o ritual de vinculação com {LINKABLE_labelShort}.\n\n{PAWN_pronoun} agora possui um vínculo psíquico atualizado, permitindo o uso de novos psycasts.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} concluiu o ritual de vinculação com {LINKABLE_labelShort}.\n\n{PAWN_pronoun} agora possui um psylink atualizado, permitindo o uso de novos poderes psíquicos.</LetterTextLinkingRitualCompleted>
 
   <!-- EN: Land shuttle here -->
   <LandHere>Aterrise o transporte aqui</LandHere>
@@ -146,13 +146,8 @@
   <!-- EN: Do bestowing ceremony -->
   <BeginCeremony>Realizar cerimônia de outorga</BeginCeremony>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>O emissário se sente ofendido que a sala do trono de {PAWN_definite} não cumpre com os requisitos do título de {TITLE}. A cerimônia de outorga foi cancelada.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>O outorgante se sente ofendido que a sala do trono de {PAWN_definite} não cumpre com os requisitos do título de {TITLE}. A cerimônia de outorga foi cancelada.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
 
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>A carga necessária ainda não foi carregada completamente!</ShuttleRequiredItemsNotSatisfied>
-  <!-- UNUSED -->
-  <ThroneTitleStature>Apropriado para o título: {0}</ThroneTitleStature>
-  <ThronePrevTitleStature>Título anterior satisfeito: {0}}</ThronePrevTitleStature>
-  <ThroneNextTitleStature>Próximo título satisfeito: {0}</ThroneNextTitleStature>
-
 </LanguageData>
