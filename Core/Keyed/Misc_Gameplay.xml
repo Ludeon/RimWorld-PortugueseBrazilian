@@ -176,7 +176,7 @@
   <UsingBedrolls>usando {0} colchonete</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Tempo esti. para o destino: {0}</CaravanEstimatedTimeToDestination>
-  <!-- EN: Estimated days to arrive: {0} -->
+  <!-- EN: Route travel time: {0} days -->
   <CaravanEstimatedDaysToDestination>Dias estimados para chegar: {0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Imobilizado: muito peso.</CaravanImmobilizedByMass>
@@ -246,10 +246,10 @@
   <DeterioratingBecauseOf>Deteriorando por causa de</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Mapa</Map>
-  <!-- EN: {0} until leaving -->
-  <ForceExitAndRemoveMapCountdown>{0} horas até a partida</ForceExitAndRemoveMapCountdown>
-  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>Os seus colonos irão reformar automaticamente uma caravana e deixar esta área depois de {0} horas.</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>{0} até que os inimigos cheguem</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <CaravanDetectedRaidCountdownTip>Reforço inimigos chegarão nesta área em {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Cômodo</Room>
   <!-- EN: Beauty here -->
@@ -368,18 +368,18 @@
   <CreatureFollowFieldwork>Seguir o mestre durante o trabalho de campo</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} com {1}</ProximitySingleGoodwillChange>
-  <!-- EN: You can't re-enter for another {0} days. -->
+  <!-- EN: Too dangerous to re-enter for {0}. -->
   <EnterCooldown>Você não pode entrar novamente por mais {0} dias.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Caravana</Caravan>
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>pode haver perigo lá</HiddenOrNoSitePartDescription>
+  <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
+  <PreciousLumpHostileThreat>O scanner está detectando atividade perto do pedaço. Parece hostil.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>pedaço de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>nenhum projeto de pesquisa ativo</NoActiveResearchProjectToFinish>
-  <!-- EN: Cannot research: No research bench -->
-  <CannotResearchNoBench>Não é possível pesquisar: Nenhum banco de pesquisa</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>torreta</Turret>
   <!-- EN: turrets -->
@@ -463,7 +463,7 @@
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>raio {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>Baixo psyfocus</LowPsyfocus>
+  <LowPsyfocus>Baixa concentração psíquica</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>{0} restante</DurationLeft>
   <!-- EN: Any of -->
@@ -532,6 +532,8 @@
   <TextMote_Immune>Imune</TextMote_Immune>
   <!-- EN: {0} tended -->
   <TextMote_Tended>cuidou de {0}</TextMote_Tended>
+  <!-- EN: level {0} -->
+  <TextMote_SkillUp>Nível {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
   <lowMood>humor baixo</lowMood>
   <!-- EN: low opinion -->
@@ -585,7 +587,7 @@
   <!-- EN: Can fire in -->
   <CanFireIn>Pode disparar em</CanFireIn>
   <!-- EN: Cannot fire -->
-  <CannotFire>Não pode disparar</CannotFire>
+  <CannotFire>Impossível disparar</CannotFire>
   <!-- EN: roofed -->
   <Roofed>coberto</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
@@ -620,6 +622,8 @@
   <WatchingAurora>observando a aurora.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>usando {0} em {1}.</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>usando {0}.</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>área</AreaLower>
   <!-- EN: cowering. -->
@@ -722,7 +726,7 @@
   <Faction>Facção</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>A facção {PAWN_labelShort} atualmente pertence a.</FactionDesc>
-  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
   <ExtraFactionDesc>A facção {PAWN_labelShort} atualmente pertence a. {PAWN_pronoun} retornará à facção de origem quando sair da facção atual.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Equipado</Equipped>
@@ -823,7 +827,7 @@
   <!-- EN: Shot by {1_labelShort} -->
   <ShotBy>Tiro por {1_labelShort}</ShotBy>
   <!-- EN: Cannot hit target. -->
-  <CannotHit>Não pode acertar o alvo.</CannotHit>
+  <CannotHit>Impossível acertar o alvo.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
   <ManhunterPerHit>Chance de dano do caçador de humanos</ManhunterPerHit>
 
@@ -859,7 +863,7 @@
   <!-- EN: Growing season here now. -->
   <GrowSeasonHereNow>A estação de crescimento é agora.</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
-  <CannotGrowBadSeasonTemperature>Não pode crescer (má temperatura sazonal).</CannotGrowBadSeasonTemperature>
+  <CannotGrowBadSeasonTemperature>Impossível crescer (má temperatura sazonal).</CannotGrowBadSeasonTemperature>
   <!-- EN: Blighted -->
   <Blighted>Arruinado</Blighted>
   <!-- EN: Dying because exposed to light -->
@@ -959,7 +963,7 @@
   <!-- EN: {0} will have work speed penalty -->
   <WillGetWorkSpeedPenalty>{0} terá penalidade de velocidade de trabalho</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
-  <MustPlaceUnroofed>Não pode ser colocado debaixo de um telhado.</MustPlaceUnroofed>
+  <MustPlaceUnroofed>Impossível ser colocado debaixo de um telhado.</MustPlaceUnroofed>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Deve ser colocado com a cabeça ligada a uma viga estrutural.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -977,7 +981,7 @@
   <!-- EN: Must be placed on drillable resources. -->
   <MustPlaceOnDrillable>Deve ser colocado em recursos mineraveis.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
-  <CannotPlaceAdjacentTrap>Não pode ser colocado ao lado de armadilhas.</CannotPlaceAdjacentTrap>
+  <CannotPlaceAdjacentTrap>Impossível ser colocado ao lado de armadilhas.</CannotPlaceAdjacentTrap>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
@@ -1020,9 +1024,9 @@
   <HibernateWarningStandalonePacifist>O reator está pronto para ligar. O processo levará cerca de 15 dias.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: neurotrainer ({0}) -->
+  <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>treinador neural ({0})</SkillNeurotrainerLabel>
-  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <!-- EN: Use skilltrainer to learn {0} -->
   <SkillNeurotrainerUseLabel>Usar o treinador neural de habilidades para aprender {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Uma superdosagem de mecanitos de uso único que treina uma habilidade específica.\n\nA dose é administrada através da órbita do olho. Uma vez liberados no cérebro, os mecanitos melhoram rapidamente as habilidades do sujeito em uma área específica, transformando-se em tecido neural, conforme necessário.</SkillNeurotrainerDescription>
@@ -1163,6 +1167,10 @@
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Recursos esgotados.</DeepDrillExhaustedNoFallback>
 
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>Cargas restantes</ChargesRemaining>
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Ajuda sobre...</LearningHelper>
@@ -1238,7 +1246,7 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>{0} / {1}\nTaxa de queda: {2} / s ({3}s até zero)</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>O calor neural aumenta após a realização de um psycast. Ultrapassar o limite normal pode causar um colapso psíquico que dura dias.\n\nO calor neural dissipa-se naturalmente ao longo do tempo. Esse processo pode ser acelerado usando roupas de eltex ou sentindo dores.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Aumento da dor\n\nA dor concentra a mente e acelera a dissipação de calor neural.\n\nNível de dor: {0}\nBônus à recuperação de calor: {1}</PawnTooltipPsychicEntropyPainFocus>
@@ -1274,6 +1282,26 @@
   <Reward_CampLoot>você pode pilhar tudo do acampamento</Reward_CampLoot>
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Pilhagem do acampamento</Reward_CampLoot_Label>
+  <!-- EN: the visitors will work and fight for you -->
+  <Reward_VisitorsHelp>Os visitantes irão trabalhar e lutar por você</Reward_VisitorsHelp>
+  <!-- EN: Visitors' help -->
+  <Reward_VisitorsHelp_Label>Ajuda dos visitantes</Reward_VisitorsHelp_Label>
+  <!-- EN: New psylink level -->
+  <Reward_BestowingCeremony_Label>Novo nível de vínculo psíquico</Reward_BestowingCeremony_Label>
+  <!-- EN: {PAWNNAME} gains psylink -->
+  <Reward_BestowingCeremony>{PAWNNAME} ganha vínculo psíquico</Reward_BestowingCeremony>
+  <!-- EN: Shuttle loot -->
+  <Reward_ShuttleLoot_Label>Pilhagem do transporte</Reward_ShuttleLoot_Label>
+  <!-- EN: you can deconstruct and loot the shuttle -->
+  <Reward_ShuttleLoot>É possível descontruir e pilhar o transporte</Reward_ShuttleLoot>
+  <!-- EN: Possible future reward -->
+  <Reward_PossibleFutureReward_Label>Possível futura recompensa</Reward_PossibleFutureReward_Label>
+  <!-- EN: a reward possibly granted in the future -->
+  <Reward_PossibleFutureReward>Uma recompensa possivelmente garantida no futuro</Reward_PossibleFutureReward>
+  <!-- EN: {TITLE} title -->
+  <Reward_Title_Label>Título de {TITLE}</Reward_Title_Label>
+  <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
+  <Reward_Title>{PAWNNAME} ganha o título de {TITLE} d{PAWN_gender ? o : a } {FACTION}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>valor {0}</TotalValue>
   
@@ -1284,6 +1312,12 @@
   <NotBonded>Ainda não está vinculado</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>vinculado a outra pessoa</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>(laço existente)</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>Uma pessoa somente ter um laço com uma arma persona de cada vez.\n\nPara equipar e criar um laço com {WEAPON_labelShort}, a {BONDEDWEAPON_labelShort} cuj{PAWN_gender ? o : a } {PAWN_nameDef} tem um laço precisa primeiramente ser destruída.</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} já tem um laço com {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
@@ -1311,4 +1345,9 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causado por: {0}</CausedByHediff>
   
+  <!-- UNUSED -->
+  <ForceExitAndRemoveMapCountdown>{0} horas até a partida</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Os seus colonos irão reformar automaticamente uma caravana e deixar esta área depois de {0} horas.</ForceExitAndRemoveMapCountdownTip>
+  <CannotResearchNoBench>Não é possível pesquisar: Nenhum banco de pesquisa</CannotResearchNoBench>
+
 </LanguageData>

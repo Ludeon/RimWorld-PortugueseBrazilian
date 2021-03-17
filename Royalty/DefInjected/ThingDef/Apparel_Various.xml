@@ -6,6 +6,15 @@
   <!-- EN: A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nArmor like this is used by imperial cataphracts to break heavily fortified positions in frontal assaults when no other option is available. -->
   <Apparel_ArmorCataphract.description>Um traje de armadura pesada e potente, construída para oferecer proteção máxima ao custo da mobilidade. Chapas de plastiaço trançadas em camadas pesadas com revestimentos ablativos sólidos impedem todos, exceto os ataques mais certeiros ou poderosos. Os assistentes neurais impedem que o enorme peso do traje imobilize completamente o usuário, mas o traje ainda é bastante pesado.\n\nUma armadura como essa é usada por catafratas imperiais para quebrar posições extremamente fortalecidas em ataques frontais quando não há outra opção disponível.</Apparel_ArmorCataphract.description>
   
+  <!-- EN: phoenix armor -->
+  <Apparel_ArmorCataphractPhoenix.label>Armadura Fênix</Apparel_ArmorCataphractPhoenix.label>
+  <!-- EN: A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed. -->
+  <Apparel_ArmorCataphractPhoenix.description>Uma variante da armadura catafrática equipado com um lançador de bolas de fogo no ombro. Esta armadura não é tão efetiva contra danos normais quanto a armadura catafrática padrão, mas ela é especialmente resistente contra fogo. O lançador de bolas de fogo tem uma munição bem limitada e precisa ser recarregado após o uso.\n\nFênixes são especialistas em limpar terrenos muito estreitos cheios de inimigos, tanto no subsolo como operações de transportes marítimos. Eles podem absorver ataques enquanto estiverem passando por um corredor ou por um cômodo em chamas, e podem ressurgir das cinzas sem nenhum arranhão.</Apparel_ArmorCataphractPhoenix.description>
+  <!-- EN: incendiary -->
+  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>Arma Incendiária</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>
+  <!-- EN: launch incendiary -->
+  <Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>Lançar arma incendiária</Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>
+  
   <!-- EN: prestige cataphract armor -->
   <Apparel_ArmorCataphractPrestige.label>armadura catafrática de prestígio</Apparel_ArmorCataphractPrestige.label>
   <!-- EN: A suit of heavy powered armor, built for maximum protection at the cost of mobility. Heavy layered plasteel-weave plates with solid ablative coatings stop all but the most well-aimed or powerful attacks. Neuro-memetic assistors prevent the suit's massive weight from immobilizing the wearer entirely, but the suit is still quite cumbersome.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
@@ -26,6 +35,24 @@
   <!-- EN: A high-tech armored helmet with a built-in status computer and a protective plasteel-weave plate.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorHelmetReconPrestige.description>Um capacete blindado de alta tecnologia, com um computador de status embutido e uma placa de proteção.\n\nUma armadura de prestígio cara e bonita como essa, geralmente é feita para aqueles com alto status. Os fios eltex incorporados também aumentam a sensibilidade psíquica do usuário.</Apparel_ArmorHelmetReconPrestige.description>
   
+  <!-- EN: locust armor -->
+  <Apparel_ArmorLocust.label>Armadura Locust</Apparel_ArmorLocust.label>
+  <!-- EN: A variant of recon armor with an integrated burst rocket for short-ranged flight. Locust armor is slightly less protective than standard recon armor. Each jump consumes a burst of fuel, so the armor must be reloaded after several uses.\n\nUnlike most ultratech military units, locusts train primarily with melee weapons. They usually avoid static shootouts, preferring to jump straight into enemy fortifications and fight hand-to-hand. They do poorly in static defense or confined quarters, but excel in mixed cover or shipcracking operations. -->
+  <Apparel_ArmorLocust.description>Uma variante da armadura de reconhecimento equipado com um propulsor para vôos curtos. A armadura Locust não é tão efetiva quanto uma armadura de reconhecimento padrão. Cada propulsão de vôo consome combustível, logo a armadura deve ser recarregada após o uso.\n\nAo contrário das unidades militares ultatech, Os locusts treinam principalmente com armas corpo-a-corpo. Eles geralmente evitam tiroteios sem muita ação, preferindo pular diretamente na frente das fortificaçéoes inimigas e lutar no mano a mano. Eles não são bons na defensifa ou em lugares fechados, mas são excelentes em operações com toques de furtividade ou ataque a navios.</Apparel_ArmorLocust.description>
+  <!-- EN: jump -->
+  <Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>Salto</Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>
+  <!-- EN: jump -->
+  <Apparel_ArmorLocust.verbs.jump.label>Pular</Apparel_ArmorLocust.verbs.jump.label>
+  
+  <!-- EN: grenadier armor -->
+  <Apparel_ArmorMarineGrenadier.label>Armadura granadeira</Apparel_ArmorMarineGrenadier.label>
+  <!-- EN: A variant of marine armor with an integrated frag launcher on the shoulder. The armor is slightly less protective than standard marine armor. The launcher can only hold a limited amount of ammo and must be reloaded after use.\n\nGrenadiers usually specialize in breaching buildings or internal ship bulkheads. While not effective at very long range, grenadiers can be surprisingly deadly in confined quarters. -->
+  <Apparel_ArmorMarineGrenadier.description>Uma variante da armadura de fuzileiros equipado de um lançador de granadas no ombro. Esta armadura não é tão efetiva quanto a armadura fuzileira padrão. O lançador carrega apenas uma quantidade limita de munição e precisa ser recarregada após o uso.\n\nGranadeiros geralmente são especialistas em arrombar edíficios ou anteparas dos navios. Embora não sejam tão eficientes em longas distâncias, os grenadeiros podem ser mortais em lugares fechados.</Apparel_ArmorMarineGrenadier.description>
+  <!-- EN: grenade -->
+  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>Granada</Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>
+  <!-- EN: launch frag grenade -->
+  <Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>Lançar granada de fragmento</Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>
+  
   <!-- EN: prestige marine helmet -->
   <Apparel_ArmorMarineHelmetPrestige.label>capacete de fuzileiro de prestígio</Apparel_ArmorMarineHelmetPrestige.label>
   <!-- EN: A marine armor helmet, with a built-in status computer and layered plasteel-weave plates.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
@@ -40,5 +67,16 @@
   <Apparel_ArmorReconPrestige.label>armadura de reconhecimento de prestígio</Apparel_ArmorReconPrestige.label>
   <!-- EN: A suit of light partially-powered armor, designed to permit quick movement. Plasteel-weave plates block attacks without compromising mobility, and neuro-memetic assistors in the lower body allow a human to wear the armor and still move easily.\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. Embedded eltex threads also enhance the wearer's psychic sensitivity. -->
   <Apparel_ArmorReconPrestige.description>Um traje de armadura leve parcialmente potente, projetada para permitir movimentos rápidos. Placas leves de proteção bloqueiam ataques sem comprometer a mobilidade, e os assistentes neuro-meméticos na parte inferior do corpo, permitem que um humano use a armadura e ainda se mova com facilidade.\n\nUma armadura de prestígio cara e bonita como essa, geralmente é feita para aqueles com alto status. Os fios eltex incorporados também aumentam a sensibilidade psíquica do usuário.</Apparel_ArmorReconPrestige.description>
+  
+  <!-- EN: gunlink -->
+  <Apparel_Gunlink.label>Visor eletrônico</Apparel_Gunlink.label>
+  <!-- EN: A targeting computer that helps the user aim. It detects and analyzes targets using infrared, visible, and millimeter-wave electromagnetic sensors. An onboard targeting computer displays firing solutions on a retinal projection. It offers no protection at all. -->
+  <Apparel_Gunlink.description>Um computador com mapeamento do alvo que auxilia o utilizador a mirar melhor. Este equipamento detecta e analisa alvos usando infravermelho, visiveis e sensores eletromagnéticos que captam ondas milimétricas. Um computador de bordo mostra possibilidades de tiro através de uma projecção retinal. No entanto, não oferece nenhuma proteção.</Apparel_Gunlink.description>
+  
+  <!-- EN: incendiary grenade -->
+  <Proj_GrenadePhoenixFire.label>Granada incendiária</Proj_GrenadePhoenixFire.label>
+  
+  <!-- EN: frag grenade -->
+  <Proj_GrenadierGrenade.label>Granada de fragmento</Proj_GrenadierGrenade.label>
   
 </LanguageData>

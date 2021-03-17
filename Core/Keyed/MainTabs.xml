@@ -34,6 +34,8 @@
   <Priority3>Prioridade normal</Priority3>
   <!-- EN: Low priority -->
   <Priority4>Prioridade baixa</Priority4>
+  <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
+  <PawnFactionInfo>{0}\n\nA facção {1_nameDef} pertence atualmente a.\n\nClique para ver a facção.</PawnFactionInfo>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -90,6 +92,8 @@
   <EnemyOf>Inimigo de:</EnemyOf>
   <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Boa vontade atual e status de relações com essa facção.</CurrentGoodwillTip>
+  <!-- EN: Current relations with this faction. -->
+  <CurrentRelationTip>Relação atual com esta facção.</CurrentRelationTip>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Esta facção é permanentemente hostil. Eles atacarão seus assentamentos e caravanas. As relações com eles nunca melhorarão.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -202,6 +206,8 @@
   <ResearchTechprintsFromFactions>Projetos técnicos disponíveis nessas facções por meio de trocas e missões:</ResearchTechprintsFromFactions>
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>O nível de tecnologia da sua facção é {0}, mas o nível de tecnologia deste projeto é {1}. A velocidade da pesquisa será multiplicada por {2}.</TechLevelTooLow>
+  <!-- EN: Unlocked with -->
+  <UnlockedWith>Desbloqueado com</UnlockedWith>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -240,6 +246,10 @@
   <ShuttleDepartsIn>O transporte parte em {0}</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
   <ShuttleDepartsOn>O transporte parte em {0}</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>Convidados partirá em {0}</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>Convidados partirá em {0}</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
   <QuestFinishedAgo>Concluído há {0}</QuestFinishedAgo>
   <!-- EN: Accept quest -->
@@ -270,8 +280,16 @@
   <QuestBedroomRequirementsUnsatisfied>quartos gratuitos que atendem aos requisitos do título de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
   <QuestBedroomRequirementsUnsatisfiedSingle>um quarto livre que atenda aos requisitos do título de</QuestBedroomRequirementsUnsatisfiedSingle>
-  <!-- EN: a colonist with the title of {0}. -->
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>A sala do trono que atenda aos requisitos o título de {TITLE} de {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestNoThroneRoom>A sala do trono que atenda aos requisitos o título de {TITLE} de {PAWN_definite}</QuestNoThroneRoom>
+  <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>um colono com o título {0}.</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} to be in your home colony -->
+  <QuestPawnNotOnColonyMap>{PAWN_definite} para ser sua colônia principal</QuestPawnNotOnColonyMap>
+  <!-- EN: the map clear of enemies of the bestower's faction -->
+  <QuestRequiresNoDangerOnMap>O mapa da facção emissária está sem inimigos</QuestRequiresNoDangerOnMap>
   <!-- EN: Reward preferences -->
   <ChooseRewards>Preferências de recompensa</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
@@ -292,6 +310,10 @@
   <GoodwillTip>Sua boa vontade com {0_name} irá melhorar em {1}.\n\n Boa vontade atual: {4} ({5}).\n\nA boa vontade mede o relacionamento geral entre facções. Se cair abaixo de {2}, a facção se tornará hostil e invadirá seus assentamentos e caravanas. Se ultrapassar {3}, a facção se tornará sua aliada e enviará combatentes para ajudá-lo quando puderem. Caso contrário, a facção permanecerá neutra e negociará e conversará com você livremente.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} se junta</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>Oferta de traição: {0} alvos restantes</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>{0} te dará uma recompensa por matar todos os membros de {1}.</QuestBetrayalOfferTip>
   
   <!-- Health tab -->
   <!-- EN: Creates need -->

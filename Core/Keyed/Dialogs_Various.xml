@@ -11,6 +11,8 @@
   <OK>OK</OK>
   <!-- EN: Close -->
   <Close>Fechar</Close>
+  <!-- EN: Accept -->
+  <Accept>Aceitar</Accept>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -507,9 +509,9 @@
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Desbloqueia tipos de foco de meditação</MeditationFocusesUnlocked>
   <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
-  <MeditationFocusesPawnDesc>Os tipos de foco de meditação que essa pessoa pode usar. Ao meditar, uma pessoa pode se concentrar em um objeto para aumentar seu ganho de psyfocus - mas apenas se esse objeto oferecer um tipo de foco que possa ser usado. Os tipos de meditação de cada pessoa são determinados por seus antecedentes, características, posição social e assim por diante.</MeditationFocusesPawnDesc>
+  <MeditationFocusesPawnDesc>Os tipos de foco de meditação que essa pessoa pode usar. Ao meditar, uma pessoa pode se concentrar em um objeto para aumentar seu ganho de concentração psíquica - mas apenas se esse objeto oferecer um tipo de foco que possa ser usado. Os tipos de meditação de cada pessoa são determinados por seus antecedentes, características, posição social e assim por diante.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
-  <MeditationFocusesDesc>Os tipos de foco de meditação que esse objeto oferece. Uma pessoa meditando pode se concentrar nesse objeto para aumentar seu ganho de psyfocus, mas apenas se for capaz de usar um de seus tipos de meditação. Cada pessoa pode usar diferentes tipos de meditação, dependendo de seus antecedentes, características, posição social e assim por diante.</MeditationFocusesDesc>
+  <MeditationFocusesDesc>Os tipos de foco de meditação que esse objeto oferece. Uma pessoa meditando pode se concentrar nesse objeto para aumentar seu ganho de concentração psíquica, mas apenas se for capaz de usar um de seus tipos de meditação. Cada pessoa pode usar diferentes tipos de meditação, dependendo de seus antecedentes, características, posição social e assim por diante.</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
   <MeditationFocusCanUse>Pode usar o tipo de foco {0} porque</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
@@ -542,6 +544,8 @@
   <TraderCount>Quantos deste item o comerciante tem para vender.</TraderCount>
   <!-- EN: Accept -->
   <AcceptButton>Confirmar</AcceptButton>
+  <!-- EN: Load selected -->
+  <LoadSelected>Carregamento selecionado</LoadSelected>
   <!-- EN: Reset -->
   <ResetButton>Restaurar</ResetButton>
   <!-- EN: Cancel -->
@@ -614,12 +618,16 @@
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>Formar caravana</FormCaravan>
+  <!-- EN: Send -->
+  <Send>Enviar</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Quantos deste item a colônia está pronta para dar à caravana.</FormCaravanColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>Pessoas e animais</PawnsTab>
   <!-- EN: Items -->
   <ItemsTab>Itens</ItemsTab>
+  <!-- EN: Travel supplies -->
+  <FoodAndMedicineTab>Suprimentos de viagem</FoodAndMedicineTab>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Você deve atribuir pelo menos um colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -712,6 +720,8 @@
   <AnimalsSection>Animais</AnimalsSection>
   <!-- EN: Choose route -->
   <ChooseRouteButton>Escolha a rota</ChooseRouteButton>
+  <!-- EN: Change route -->
+  <ChangeRouteButton>Mude a rota</ChangeRouteButton>
   <!-- EN: Abandon -->
   <AbandonButton>Abandono</AbandonButton>
   <!-- EN: Movement speed -->
@@ -742,6 +752,8 @@
   <FactionType>Tipo de facção</FactionType>
   <!-- EN: Total body size -->
   <TotalBodySize>Tamanho total do corpo</TotalBodySize>
+  <!-- EN: Automatically select travel supplies -->
+  <AutomaticallySelectFoodAndMedicine>Selecionar automaticamente os suprimentos de viagem</AutomaticallySelectFoodAndMedicine>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -778,6 +790,8 @@
   <TransporterItemIsUnreachableMulti>Não existe um caminho entre as cápsulas de transporte e {0}x {1}.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>Não há caminho entre o transporte e {0}x {1}.</TransporterSingleItemIsUnreachableMulti>
+  <!-- EN: Only {0} colonists maximum allowed. -->
+  <TransporterSingleTooManyColonists>Apenas {0} colonos máximos permitidos.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -852,7 +866,7 @@
   <MoodThresholdColumnLabel>Apenas se o humor estiver abaixo</MoodThresholdColumnLabel>
   <!-- EN: Only if recreation below -->
   <JoyThresholdColumnLabel>Apenas se a diversão estiver baixa</JoyThresholdColumnLabel>
-  <!-- EN: Take to inventory -->
+  <!-- EN: Keep in inventory -->
   <TakeToInventoryColumnLabel>Colocar no inventário</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
   <NoDrugsBrackets>(sem drogas)</NoDrugsBrackets>
@@ -968,7 +982,7 @@
   <ConfirmCleanupTranslationFiles_Confirm>Sim, eu tenho um backup</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
-  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
   <TransportersCaravanWillBeImmobile>A caravana ficará imóvel se você enviar as cápsulas para um ladrilho vazio. Deseja mesmo fazer isso?</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
@@ -981,7 +995,7 @@
   <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>Ganho de calor neural</AbilityEntropyGain>
   <!-- EN: Psyfocus cost -->
-  <AbilityPsyfocusCost>Custo de psyfocus</AbilityPsyfocusCost>
+  <AbilityPsyfocusCost>Custo de concentração psíquica</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
   <AbilityDuration>Duração do efeito</AbilityDuration>
   <!-- EN: Effect radius -->
@@ -990,13 +1004,60 @@
   <AbilityCastingTime>Tempo de invocação</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Nenhuma linha de visão para mirar.</AbilityCannotHitTarget>
+  <!-- EN: Can't reach the target. -->
+  <AbilityCannotReachTarget>Impossível chegar ao alvo.</AbilityCannotReachTarget>
+  <!-- EN: Not enough free space. -->
+  <AbilityNotEnoughFreeSpace>Sem espaço livre disponível.</AbilityNotEnoughFreeSpace>
   <!-- EN: {0} must target an empty area. -->
   <AbilityOccupiedCells>{0} deve mirar em uma área vazia.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} deve mirar em uma área que pode ser percorrida.</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0} deve mirar uma área não coberta.</AbilityRoofed>
-  <!-- EN: {0} is mentally broken. -->
+  <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0} está mentalmente quebrado.</AbilityCantApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not mentally broken. -->
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} não está mentalmente rompido.</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0} doesn't work on the '{1}' mental state. -->
+  <AbilityDoesntWorkOnMentalState>{0} não funciona com '{1}' estado mental.</AbilityDoesntWorkOnMentalState>
+  <!-- EN: {0_labelShort} has zero resistance. -->
+  <AbilityCantApplyNoResistance>{0_labelShort} possui zero resistência.</AbilityCantApplyNoResistance>
+  <!-- EN: Cannot use: {0} is asexual. -->
+  <AbilityCantApplyOnAsexual>Impossível usar: {0} é assexuad{PAWN_gender ? o : a }.</AbilityCantApplyOnAsexual>
+  <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort} é o gênero errado para {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: Psyfocus cost per mental break intensity -->
+  <PsyfocusCostPerMentalBreakIntensity>Custo de concentração psíquica por intensidade do rompimento mental</PsyfocusCostPerMentalBreakIntensity>
+  <!-- EN: {0_labelShort} is already inspired. -->
+  <AbilityAlreadyInspired>{0_labelShort} já está inspirad{PAWN_gender ? o : a}.</AbilityAlreadyInspired>
+  <!-- EN: {0_labelShort} can't get an inspiration right now. -->
+  <AbilityCantGetInspiredNow>{0_labelShort} não pode inspirar-se neste momento.</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <AbilityCantApplyUnconscious>{0_labelShort} está inconsciente.</AbilityCantApplyUnconscious>
+  <!-- EN: {0_labelShort} is asleep. -->
+  <AbilityCantApplyAsleep>{0_labelShort} está adormecid{PAWN_gender ? o : a}.</AbilityCantApplyAsleep>
+  <!-- EN: This tile is impassable. -->
+  <AbilityWorldTileImpassable>Este título é intransferífel.</AbilityWorldTileImpassable>
+  <!-- EN: Skip to random ally -->
+  <AbilitySkipToRandomAlly>Pular para um aliado aleatório</AbilitySkipToRandomAlly>
+  <!-- EN: Skip to join caravan -->
+  <AbilitySkipToJoinCaravan>Pular para unir-se à caravana.</AbilitySkipToJoinCaravan>
+  <!-- EN: Need ally at target for navigation -->
+  <AbilityNeedAllyToSkip>Necessita de aliado no alvo para navegação</AbilityNeedAllyToSkip>
+  <!-- EN: No chunks to skip. -->
+  <AbilityNoChunkToSkip>Sem trechos para pular.</AbilityNoChunkToSkip>
+  <!-- EN: Induce psychic love in -->
+  <PsychicLoveInduceIn>Induzir amor psíquico em</PsychicLoveInduceIn>
+  <!-- EN: Psychic love for -->
+  <PsychicLoveFor>Amor psíquico para</PsychicLoveFor>
+  <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
+  <FarskipConfirmTeleportingLodger>Caso você pule {PAWN_labelShort} para outro mapa ou para uma caravana, a missão associada falhará e {PAWN_pronoun} irá embora imediatamente.\n\nVocê realmente deseja teleportar para longe com {PAWN_labelShort}? </FarskipConfirmTeleportingLodger>
+  
+  <!-- EN: minor -->
+  <MentalBreakIntensityMinor>menor</MentalBreakIntensityMinor>
+  <!-- EN: major -->
+  <MentalBreakIntensityMajor>maior</MentalBreakIntensityMajor>
+  <!-- EN: extreme -->
+  <MentalBreakIntensityExtreme>extremo</MentalBreakIntensityExtreme>
   
 </LanguageData>

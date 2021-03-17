@@ -13,6 +13,9 @@
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>{0} de {1} decidiram roubar o que eles puderem e partir.</MessageRaidersStealing>
 
+  <!-- EN: {0} from {1} have arrived in the area of your caravan and are attacking. More are on the way and will arrive in {2}. -->
+  <MessageCaravanDetectedRaidArrived>{0} de {1} chegaram na área onde está sua caravana e estão atacando. Mais deles estão a caminho e chegarão em {2}</MessageCaravanDetectedRaidArrived>
+
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{0} de {1} estão partindo.</MessageRaidersLeaving>
   <!-- EN: {0} from {1} have given up and are leaving. -->
@@ -76,6 +79,8 @@
   <MessageTameSuccess>{RECRUITER_labelShort} domesticou com sucesso {1} ({2} de chance).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} domesticou com sucesso {1} ({2} de chance). Agora ele é chamado de {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <!-- EN: {RECRUITEE} has joined your colony. -->
+  <MessageRecruitJoinOfferAccepted>{RECRUITEE} se uniu a sua colônia.</MessageRecruitJoinOfferAccepted>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>A colônia não pode pagar este negócio.</MessageColonyCannotAfford>
@@ -141,15 +146,6 @@
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{1_labelShort} colapsou devido à exaustão extrema.</MessageInvoluntarySleep>
 
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} falhou em menor grau ao operar {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} falhou catastroficamente ao operar {PATIENT_LabelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} falhou de uma maneira ridícula enquanto operava {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} cometeu um erro fatal ao operar {PATIENT_labelShort} devido aos desafios especiais de: {2}</MessageMedicalOperationFailureFatal>
-
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Esta operação vai irritar {0}.</MessageMedicalOperationWillAngerFaction>
 
@@ -161,7 +157,7 @@
   <MessageGaveBirth>{0} deu a luz.</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort} não será capaz de usar o psylink enquanto {PAWN_pronoun} tem zero sensibilidade psíquica.</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort} não será capaz de usar o vínculo psíquico enquanto {PAWN_pronoun} tem zero sensibilidade psíquica.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort} perdeu um nível de implante {1} devido a {2}.</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
@@ -194,7 +190,7 @@
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{PAWN1_labelShort} começou uma briga social com {PAWN2_labelShort}.</MessageSocialFight>
   
-  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}’s marriage. -->
+  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
   <MessageNewMarriageCeremony>Os colonos estão se reunindo para comemorar o casamento de {PAWN1_labelShort} e {PAWN2_labelShort}.</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{PAWN1_labelShort} e {PAWN2_labelShort} estão começando com a cerimônia de casamento!</MessageMarriageCeremonyStarts>
@@ -342,17 +338,17 @@
   <MessageCantBanishLastColonist>Você não pode banir o último colono.</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
-  <MessageCantEquipCustom>Não pode equipar: {0}</MessageCantEquipCustom>
+  <MessageCantEquipCustom>Impossível equipar: {0}</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
-  <MessageCantEquipIncapableOfViolence>Não pode equipar: {1_labelShort} é incapaz de violência.</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfViolence>Impossível equipar: {1_labelShort} é incapaz de violência.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: Incapable. -->
-  <MessageCantEquipIncapableOfManipulation>Não pode equipar: Incapaz.</MessageCantEquipIncapableOfManipulation>
+  <MessageCantEquipIncapableOfManipulation>Impossível equipar: Incapaz.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
   <MessageCantWearApparelMissingBodyParts>Não é possível vestir: {1_labelShort} está faltando as partes do corpo necessárias.</MessageCantWearApparelMissingBodyParts>
   <!-- EN: This person refuses to remove this. -->
   <MessageCantUnequipLockedApparel>Essa pessoa se recusa a remover isso.</MessageCantUnequipLockedApparel>
   <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
-  <MessageWouldReplaceLockedApparel>Não pode vestir: isso substituirá o vestuário que {1_labelShort} se recusa a remover.</MessageWouldReplaceLockedApparel>
+  <MessageWouldReplaceLockedApparel>Impossível vestir: isso substituirá o vestuário que {1_labelShort} se recusa a remover.</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>Por eles estarem com vínculo, abater {DESIGNATED_labelShort} irá deixar {BONDED_labelShort} infeliz.</MessageSlaughteringBondedAnimal>
@@ -453,9 +449,6 @@
   <!-- EN: Cannot build a roof over {0}. -->
   <MessageRoofIncompatibleWithPlant>Não é possível construir um telhado sobre {0}.</MessageRoofIncompatibleWithPlant>
 
-  <!-- EN: Caravan will automatically travel to the first waypoint. -->
-  <MessageChoseRoute>A caravana irá viajar automaticamente para o primeiro ponto de rota.</MessageChoseRoute>
-
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Para sair da área, use o botão "refazer caravana" na visão de mundo.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
@@ -513,6 +506,18 @@
   <GoodwillChangedReason_RequestedMilitaryAid>ajuda militar solicitada</GoodwillChangedReason_RequestedMilitaryAid>
   <!-- EN: requested trader caravan -->
   <GoodwillChangedReason_RequestedTrader>caravana comercial solicitada</GoodwillChangedReason_RequestedTrader>
+  <!-- EN: caused neuroquake echo -->
+  <GoodwillChangedReason_CausedNeuroquakeEcho>Eco de terremoto neural causado</GoodwillChangedReason_CausedNeuroquakeEcho>
+  <!-- EN: caused berserk on {PAWN_labelShort} -->
+  <GoodwillChangedReason_CausedBerserk>fúria em {PAWN_labelShort} causada</GoodwillChangedReason_CausedBerserk>
+  <!-- EN: attacked {0_name} -->
+  <GoodwillChangeReason_AttackedFaction>{0_name} atacado</GoodwillChangeReason_AttackedFaction>
+  <!-- EN: shuttle destroyed -->
+  <GoodwillChangeReason_ShuttleDestroyed>Nave destruída</GoodwillChangeReason_ShuttleDestroyed>
+  <!-- EN: civilians lost -->
+  <GoodwillChangeReason_CiviliansLost>civis perdidos</GoodwillChangeReason_CiviliansLost>
+  <!-- EN: commander lost -->
+  <GoodwillChangeReason_CommanderLost>comandante perdido</GoodwillChangeReason_CommanderLost>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>{0} aceite seu presente, mas eles não o apreciam.</MessageGiftGivenButNotAppreciated>
@@ -551,7 +556,7 @@
   <!-- EN: {0} couldn't reach its destination. -->
   <MessageCaravanArrivalActionNoLongerValid>{0} não conseguiu chegar ao seu destino.</MessageCaravanArrivalActionNoLongerValid>
 
-  <!-- EN: You can't re-enter for another {0} days. -->
+  <!-- EN: Too dangerous to re-enter for {0}. -->
   <MessageEnterCooldownBlocksEntering>Você não pode entrar novamente por mais {0} dias.</MessageEnterCooldownBlocksEntering>
 
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
@@ -584,7 +589,7 @@
   <MessageStrippingWillAngerFaction>Aviso: Despir {PAWN_nameDef} irritará {PAWN_factionName}.</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
-  <MessageCantShootInMelee>Não pode atirar em uma luta corpo a corpo.</MessageCantShootInMelee>
+  <MessageCantShootInMelee>Impossível atirar em uma luta corpo a corpo.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
   <MessageNoColonistCanAcceptQuest>Nenhum dos seus {0} pode aceitar esta missão agora.</MessageNoColonistCanAcceptQuest>
@@ -615,5 +620,11 @@
 
   <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label} está oculto no momento.</MessageCannotSelectInvisibleStat>
+
+  <!-- EN: {PAWN_nameDef} is a prisoner -->
+  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} é um prisioneiro</MessagePrisonerCannotEquipWeapon>
+
+  <!-- UNUSED -->
+  <MessageChoseRoute>A caravana irá viajar automaticamente para o primeiro ponto de rota.</MessageChoseRoute>
 
 </LanguageData>
