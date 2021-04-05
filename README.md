@@ -19,7 +19,7 @@ Translators:
 - [Vitor Glinski](https://github.com/VitorGlinski)
 - [Willian](https://github.com/Srlimao)
 - [Philippus](https://github.com/PhilippusBR)
-
+- [ElioNETO-trad](https://github.com/ElioNETO-trad)
 -------------------------
 
 ### ATENÇÃO
