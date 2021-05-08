@@ -50,6 +50,17 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 1. Acesse o [repositório oficial](https://github.com/Ludeon/RimWorld-PortugueseBrazilian) e procure a opção **Fork** no menu superior esquerdo. Ela está localizada logo após as opções **Unwatch** e **Unstar**;
 2. No pop-up que irá aparecer, clique no seu nome de usuário (para o qual você quer criar o repositório) e espere o repositório ser criado.
 
+#### [Git CLI] Configurações iniciais.
+Digite os seguinte comandos nessa ordem:  
+**NÃO ESQUEÇA DE TROCAR `USERNAME` PELO SEU NOME DE USUÁRIO DO GITHUB**  
+```
+git clone git@github.com:USERNAME/rimword-portuguesebrazilian
+cd rimworld-portuguesebrazilian
+git remote rename origin USERNAME
+git remote add ludeon git@github.com:ludeon/rimworld-portuguesebrazilian
+git fetch ludeon
+```
+
 #### Mantendo seu repositório atualizado com o repositório oficial
 
 1. Se o seu repositório apresenta alguma mensagem do tipo: **This branch is behind Ludeon:master**, então está na hora de atualizá-lo. Para atualizar seu repositório clique em **Compare**, localizado ao lado da mensagem de alerta;
@@ -59,6 +70,28 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 5. Em seguida desça toda a página e clique em **Merge pull request**;
 6. E por último, clique em **Confirm merge**. Pronto, seu repositório foi atualizado.
 
+##### [Git CLI]
+```
+git fetch ludeon
+git rebase ludeon/master
+```
+O git deverá responder com:
+```
+Current branch is up to date.
+```
+Caso ele responder com:
+```
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+```
+Não se preocupe.
+- Verifique que aquivos foram alterados com `git status --short`
+- Salve suas alterações com `git commit`
+- Execute `git rebase ludeon/master`
+- Envie suas alterações com `git push --force-with-lease username`
+
+Pronto, seu repositório foi atualizado.
+
 #### Abrindo os programas para tradução
 
 1. Após ter instalado o GitHub Desktop, abra-o;
@@ -67,6 +100,8 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 4. Pronto, você configurou o GitHub Desktop;
 5. Em seguida, basta abrir a pasta da tradução baixada pelo GitHub Desktop com seu editor de texto e começar a traduzir. Caminho da pasta (padrão): C:\Users\(usuário)\Documents\GitHub\RimWorld-PortugueseBrazilian.
 
+##### [Git CLI] : Veja Configurações iniciais.
+
 #### Enviando traduções para seu repositório
 
 1. Volte ao GitHub Desktop e localize um espaço em branco no canto inferior direito;
@@ -74,6 +109,15 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 3. Em **Description** descreva suas mudanças feitas na tradução;
 4. Clique em **Commit to master**;
 5. Clique em **Pull origin** para enviar as traduções para seu repositório.
+
+##### [Git CLI]
+```
+git status --short
+git commit
+git push username
+```
+Caso o git responder com um erro, use `git push --force-with-lease username`.
+
 
 #### Enviando traduções do seu repositório para o repositório oficial
 
