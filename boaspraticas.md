@@ -18,7 +18,8 @@
 ### Ferramentas para auxílio:
 - Editores de texto: [Notepad++](https://notepad-plus-plus.org/) / [Atom](https://atom.io) (você pode fazer uso de outro editor de texto de sua preferência). (1)
 - Aplicativo do GitHub para computador: [GitHub Desktop](https://desktop.github.com/). (2)
-- [WinMerge](https://winmerge.org/). (3)
+- Command Line do git (opcional) [Windows](https://git-scm.com/download/win) [osx](https://git-scm.com/download/mac). (3)
+- [WinMerge](https://winmerge.org/). (4)
 
 #### (1) Editores de texto
 Estes programas lhe permitem fazer modificações nos arquivos da tradução.
@@ -26,7 +27,11 @@ Estes programas lhe permitem fazer modificações nos arquivos da tradução.
 #### (2) GitHub Desktop
 Este é o programa que vai lhe permitir (e auxiliar) adicionar novas traduções ao repositório oficial, como também atualizar seu próprio repositório.
 
-#### (3) WinMerge
+#### (3) Git CLI
+Assim como o github desktop, esse programa permite atualizar seu repositório e manter-se em dia com as alterações do repositório oficial.  
+*Nota: o download foi disponibilizado apenas para Windows e Mac. O Linux geralmente vem com o git instalado por padrão.* 
+
+#### (4) WinMerge
 Este programa lhe permite fazer comparações entre até três arquivos, para verificar possíveis alterações entre eles.
 
 -------------------------
