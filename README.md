@@ -20,6 +20,7 @@ Translators:
 - [Willian](https://github.com/Srlimao)
 - [Philippus](https://github.com/PhilippusBR)
 - [ElioNETO-trad](https://github.com/ElioNETO-trad)
+- [João Rocha](https://github.com/KitsuneModder)
 -------------------------
 
 ### ATENÇÃO
