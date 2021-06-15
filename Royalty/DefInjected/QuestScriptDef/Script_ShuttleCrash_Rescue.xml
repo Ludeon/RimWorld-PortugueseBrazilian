@@ -1,5 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- EN: 
+    <li>questName->[shuttle] [crash]</li>
+    <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
+    <li>questName->[damaged] [shuttle]</li>
+    <li>questName->[asker_nameDef]'s [damaged] [shuttle]</li>
+    <li>questName->[emergency] [landing]</li>
+    <li>questName->[asker_nameDef]'s [emergency] [landing]</li>
+    <li>shuttle->shuttle</li>
+    <li>shuttle->transporter</li>
+    <li>shuttle->ship</li>
+    <li>crash->crash</li>
+    <li>crash->down</li> 
+    <li>damaged->damaged</li>
+    <li>damaged->busted</li>
+    <li>damaged->failing</li>
+    <li>emergency->emergency</li>
+    <li>emergency->forced</li> 
+    <li>landing->landing</li>
+    <li>landing->descent</li>
+    <li>landing->approach</li>
+  -->
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>questName->[crash] do [shuttle]</li>
+    <li>questName->[crash] do [shuttle] de [asker_faction_pawnSingular]</li>
+    <li>questName->[shuttle] [damaged]</li>
+    <li>questName->[shuttle] [damaged] de [asker_nameDef]</li>
+    <li>questName->[landing] de [emergency]</li>
+    <li>questName->[landing] de [emergency] de [asker_nameDef]</li>
+    <li>shuttle->transporte</li>
+    <li>shuttle->transportador</li>
+    <li>crash->colisão</li>
+    <li>crash->queda</li>
+    <li>damaged->avariado</li>
+    <li>damaged->defeituoso</li>
+    <li>emergency->emergência</li>
+    <li>emergency->contingência</li>
+    <li>landing->aterrisagem</li>
+    <li>landing->queda</li>
+    <li>landing->abordagem</li>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.</li>
