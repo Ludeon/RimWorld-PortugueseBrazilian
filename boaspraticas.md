@@ -1,4 +1,3 @@
-
 ## Manual de boas práticas de tradução
 
 -------------------------
@@ -18,7 +17,7 @@
 ### Ferramentas para auxílio:
 - Editores de texto: [Notepad++](https://notepad-plus-plus.org/) / [Atom](https://atom.io) (você pode fazer uso de outro editor de texto de sua preferência). (1)
 - Aplicativo do GitHub para computador: [GitHub Desktop](https://desktop.github.com/). (2)
-- Command Line do git (opcional) [Windows](https://git-scm.com/download/win) [osx](https://git-scm.com/download/mac). (3)
+- Command Line do git (opcional) [Windows](https://git-scm.com/download/win) / [OSX](https://git-scm.com/download/mac). (3)
 - [WinMerge](https://winmerge.org/). (4)
 
 #### (1) Editores de texto
@@ -79,7 +78,7 @@ O git deverá responder com:
 ```
 Current branch is up to date.
 ```
-Caso ele responder com:
+Caso ele responda com:
 ```
 error: cannot rebase: You have unstaged changes.
 error: Please commit or stash them.
@@ -94,17 +93,19 @@ Pronto, seu repositório foi atualizado.
 
 #### Abrindo os programas para tradução
 
+##### [GitHub Desktop]
 1. Após ter instalado o GitHub Desktop, abra-o;
 2. A tela de inicio do GitHub Desktop irá aparecer, faça login com sua conta e clique em **Clone a repository from the internet...**;
 3. Selecione o seu repositório criado, e clone o mesmo. Exemplo: https://github.com/(usuario)/RimWorld-PortugueseBrazilian;
 4. Pronto, você configurou o GitHub Desktop;
 5. Em seguida, basta abrir a pasta da tradução baixada pelo GitHub Desktop com seu editor de texto e começar a traduzir. Caminho da pasta (padrão): C:\Users\(usuário)\Documents\GitHub\RimWorld-PortugueseBrazilian.
 
-##### [Git CLI] : Veja Configurações iniciais.
+##### [Git CLI]: Veja Configurações iniciais.
 
 #### Enviando traduções para seu repositório
 
-1. Volte ao GitHub Desktop e localize um espaço em branco no canto inferior direito;
+##### [GitHub Desktop]
+1. Volte ao GitHub Desktop e localize um espaço em branco no canto inferior esquerdo;
 2. Em **Summary (required)** digite o título da atualização (geralmente a versão do jogo);
 3. Em **Description** descreva suas mudanças feitas na tradução;
 4. Clique em **Commit to master**;
@@ -114,9 +115,9 @@ Pronto, seu repositório foi atualizado.
 ```
 git status --short
 git commit
-git push username
+git push USERNAME
 ```
-Caso o git responder com um erro, use `git push --force-with-lease username`.
+Caso o git responda com um erro, use `git push --force-with-lease USERNAME`.
 
 
 #### Enviando traduções do seu repositório para o repositório oficial
