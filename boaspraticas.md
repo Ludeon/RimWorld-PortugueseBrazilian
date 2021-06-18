@@ -66,7 +66,7 @@ git fetch ludeon
 #### Mantendo seu repositório atualizado com o repositório oficial
 
 1. Se o seu repositório apresenta alguma mensagem do tipo: **This branch is X commits behind Ludeon:master**, então está na hora de atualizá-lo. Para atualizar seu repositório clique em **Fetch upstream**, localizado ao lado de **Contribute**;
-2. Na janela que carregar, verá receber uma mensagem similar a
+2. Na janela que carregar, deverá receber uma mensagem similar a
 ```
 Fetch and merge X upstream commits from Ludeon:master.
 
