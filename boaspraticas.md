@@ -110,7 +110,7 @@ Pronto, seu repositório foi atualizado.
 4. Pronto, você configurou o GitHub Desktop;
 5. Em seguida, basta abrir a pasta da tradução baixada pelo GitHub Desktop com seu editor de texto e começar a traduzir.
     * Caminho padrão da pasta: C:\\Users\\(usuário)\\Documents\\GitHub\\RimWorld-PortugueseBrazilian.
-    * Ou C:\\Usuário\\(usuário)\\Documentos\\GitHub\\RimWorld-PortugueseBrazilian.
+    * Ou C:\\Usuários\\(usuário)\\Documentos\\GitHub\\RimWorld-PortugueseBrazilian.
 
 ##### [Git CLI]: Veja Configurações iniciais.
 
