@@ -8,7 +8,6 @@ A Brazilian Portuguese translation for RimWorld.
 Translators:
 - [Arthur Silva](https://github.com/ArxdSilva)
 - [Clemente](https://github.com/ClemensXV)
-- [Daniel](https://github.com/danieo888)
 - [David](https://github.com/Zer0Gaming)
 - [Eduardo](https://github.com/eduardo0619)
 - [Ezequiel Wilhelm Ribeiro](https://github.com/Firty)
