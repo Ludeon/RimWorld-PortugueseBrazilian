@@ -65,72 +65,66 @@
     <li>lastOrNot(lodgerCount>=2)->último</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] [chegouChegaram]</li>
-    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [chegouChegaram]. [lodgersPronoun] [ficaraFicarao] com você por [questDurationTicks_duration] para que [lodgersPronoun] [possaSingularOrPluralDef] descansar.</li>
-    <li>chegouChegaram(lodgerCount==1)->chegou</li>
-    <li>chegouChegaram(lodgerCount>=2)->chegaram</li>
-    <li>ficaraFicarao(lodgerCount==1)->ficará</li>
-    <li>ficaraFicarao(lodgerCount>=2)->ficarão</li>
-    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Os outros parecem consternados : {asker_gender ? O : A} últim{asker_gender ? o : a} [lodgersLabel] está consternado} por isso, mas não {PAWNSALIVECOUNT_multiple ? estão: está} planejando uma ação contra você.</li>
-    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Os outros estão não estão propensos : {asker_gender ? O : A} últim{asker_gender ? o : a} [lodgersLabel] não está propens{asker_gender ? o : a}} a aceitar isso</li>
-    <li>turnedViolent->[othersWillNotAccept], e se {PAWNSALIVECOUNT_multiple ? tornou violent{asker_gender ? o : a} : tornaram violentos} contra você.</li>
-    <li>decidedToLeave->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? decidiu : decidiram} ir embora.</li>
-    <li>whoAskedToStay->quem pediu para ficar com você</li>
-    <li>oneOfThe->um dos [faction_pawnsPlural] que pediu para ficar com você</li>
+    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] chegou</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] chegou. [lodgersPronoun] ficará com você por [questDurationTicks_duration] para que [lodgersPronoun] possa descansar e reagrupar.</li>
+    <li>hasHave(lodgerCount==1)->tem</li>
+    <li>hasHave(lodgerCount>=2)->têm</li>
+    <li>appalledButNoAction->O {PAWNSALIVECOUNT_multiple ? outros parecem : último [lodgersLabel] é} consternado por isso, mas não {PAWNSALIVECOUNT_multiple ? estão: está} planejando uma ação contra você.</li>
+    <li>othersWillNotAccept->O {PAWNSALIVECOUNT_multiple ? outros estão : último [lodgersLabel] é} não está propenso a aceitar isso</li>
+    <li>turnedViolent->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? se : se } tornaram violentos contra você.</li>
+    <li>decidedToLeave->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? se : se } decidiram ir embora.</li>
+    <li>whoAskedToStay->quem perguntou para ficar com vocêu</li>
+    <li>oneOfThe->{PAWN_gender ? uns : umas } de [faction_pawnsPlural] desesperad{PAWN_gender ? o : a }s que pediu para ficar com você</li>
     <li>questOver->A missão '[resolvedQuestName]' acabou.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] morreu.</li>
     <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] morreu: Ódio</li>
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
     <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] morreu: Vingança</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
-    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partida</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partidaparture</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
-    <li>lodgersAllDiedLetterLabel->A missão falhou</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, um [faction_pawnSingular] [whoAskedToStay], morreu.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterLabel->Missão falhou</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, {PAWN_gender ? um : uma } [lastOrNot] desperada [faction_pawnSingular] [QuemPediuParaFicar], morreu.\n\n[questOver]</li>
     <li>letterIntroArrested->Você prendeu {SUBJECT_definite}, [oneOfThe].</li>
-    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] pres{asker_gender ? o : a }: Ódio</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] pres{PAWN_gender ? o : a }: Ódio</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
-    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] pres{asker_gender ? o : a }: Vingança</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] pres{PAWN_gender ? o : a }: Vingança</li>
     <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
-    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] pres{asker_gender ? o : a }: Partida</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] pres{PAWN_gender ? o : a }: Partida</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
-    <li>lodgersAllArrestedLetterLabel->A missão falhou</li>
-    <li>lodgersAllArrestedLetterText->Você prendeu {SUBJECT_definite}, o [faction_pawnSingular] [whoAskedToStay].\n\n[questOver]</li>
-    <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], foi violado pela cirurgia.</li>
-    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violad{asker_gender ? o : a }: Ódio</li>
+    <li>lodgersAllArrestedLetterLabel->Missão falhou</li>
+    <li>lodgersAllArrestedLetterText->Você prendeu {SUBJECT_definite}, {PAWN_gender ? o : a }  [lastOrNot] desesperad{PAWN_gender ? o : a } [faction_pawnSingular] [QuemPediuParaFicar].\n\n[questOver]</li>
+    <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], voi violad{PAWN_gender ? o : a } pela cirurgia.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violad{PAWN_gender ? o : a }: Ódio</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
-    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violad{asker_gender ? o : a }: Vingança</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violad{PAWN_gender ? o : a }: Vingança</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] pres{asker_gender ? o : a }: Partida</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] pres{PAWN_gender ? o : a }: Partida</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Traição</li>
-    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [estaEstao] se voltando contra você!\n\nParece que [lodgersPronoun] [tinhaTinham] arquitetado este plano de traição por muito tempo.</li>
-    <li>estaEstao(lodgerCount==1)->está</li>
-    <li>estaEstao(lodgerCount>=2)->estão</li>
-    <li>tinhaTinham(lodgerCount==1)->tinha</li>
-    <li>tinhaTinham(lodgerCount>=2)->tinham</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [QuemPediuParaFicar] [estáEstão] se voltando contra você!\n\nParece que [lodgersPronoun] tinha arquitetado este plano de traição por muito tempo.</li>
+    <li>areIs(lodgerCount==1)->é</li>
+    <li>areIs(lodgerCount>=2)->são</li>
     <li>betrayalOfferLetterLabel->Oferta de traição: [factionOpponent_nameDef]</li>
-    <li>betrayalOffserLetterText->[factionOpponent_nameDef], uma [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], escutou que [asker_nameDef] [otherLodgers] [estaEstao] sendo [acolhidoAcolhidos] em [map_definite]. [factionOpponent_pronoun] é inimig{factionOpponent_gender ? o : a} de [asker_nameDef] e quer vê-[pronomeObjetoSingularOrPluralDef] mort{asker_gender ? o : a}.\n\n[factionOpponent_pronoun] te mandará a seguinte recompensa se você matar todos os membros de [faction_name] (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>betrayalOffserLetterText->[factionOpponent_nameDef], uma [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], escutou que [asker_nameDef] [otherLodgers] [estáEstão] sendo acolhidas em [map_definite]. [factionOpponent_pronoun] é inimiga de [asker_nameDef] e quer ver [asker_objective] morto.\n\n[factionOpponent_pronoun] te mandará a seguinte recompensa se você matar todos os membros de [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>betrayalOfferRewardLetterLabel->Recompensa pela traição: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] te prometeu uma recompensa por você matar [asker_nameDef][otherMembers]. As notícias chegaram a [factionOpponent_pronoun] que a proposta foi aceita e executada e está te mandando o seguinte via cápsula de transporte (valor total [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] te prometeu uma recompensa de você matar [asker_nameDef] [otherMembers]. As notícias chegaram em [factionOpponent_pronoun] que a proposta foi aceita e executada e está te mandando o seguinte via cápsula de transporte (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->Recompensa pela traição anulada</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] escutou que um dos mebros de [faction_name] não está mais em [map_definite]. [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e então cancelou sua oferta.</li>
-    <li>acolhidoAcolhidos(lodgerCount==1)->acolhid{asker_gender ? o : a }</li>
-    <li>acolhidoAcolhidos(lodgerCount==2)->acolhidos</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] escutou que um dos mebros de [faction_name] não está mais em [map_definite]. [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e então cancelou a [factionOpponent_possessive] oferta.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
-    <li>otherLodgers(lodgerCount==2)->e outr{asker_gender ? o : a } [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount==2)->e outro [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount>=3)->e vários [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
     <li>otherMembers(lodgerCount>=2)-> e todos os membros de [faction_name]</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] saindo</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} te agradece por permitir que fique em [map_definite] pelo tempo de [questDurationTicks_duration]. {FACTION_leaderPronoun} está se deslocando com suas pessoas.\n\n{FACTION_leaderNameDef} diz que não se esquecerá do que você fez.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} te agradece por permitir {FACTION_leaderObjective} que fique em [map_definite] pelo tempo de [questDurationTicks_duration]. {FACTION_leaderPronoun} está se deslocando com as pessoas de {FACTION_leaderPossessive}.\n\n{FACTION_leaderNameDef} diz que {FACTION_leaderPronoun} não se esquecerá do que você fez.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
   -->
   <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel->refugiad{asker_gender ? o : a }</li>
+    <li>lodgersLabel->refugiado(a)</li>
     <li>lodgersLabelPlural->refugiados</li>
   </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
