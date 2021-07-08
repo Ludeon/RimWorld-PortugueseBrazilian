@@ -43,6 +43,8 @@
   <CommandToggleDraftDesc>Alista para o modo de combate\n\npessoas alistadas recebem ordens e lutam. Eles não irão trabalhar, comer ou dormir.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} não pode andar.</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1} -->
+  <ParticipatingInRitual>{0_labelShort} está participando de {1}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Disparo à vontade</CommandFireAtWillLabel>
@@ -98,6 +100,8 @@
   <TurningOffPrisonerBedWarning>Desligar o modo prisioneiro afeta toda a sala (porque os prisioneiros e os colonos não podem dormir no mesmo quarto).\n\nEstas pessoas irão perder a propriedade de suas camas:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Você tem certeza de que deseja fazer isso?</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <ChangingOwnerTypeBedWarning>Mudar o uso da cama afeta todo o quarto (uma vez que prisioneiros, escravos e colonos não podem dormir no mesmo).\n\nEssas pessoas perderão a propriedade de suas camas:</ChangingOwnerTypeBedWarning>
 
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Detonar</CommandDetonateLabel>
@@ -132,9 +136,14 @@
   <CommandPasteZoneSettingsDesc>Sobrescreve as configurações desta zona com aqueles previamente copiados para a área de transferência.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
-  <CommandAllowSow>Permitir plantar</CommandAllowSow>
+  <CommandAllowSow>Permitir semeadura</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>Quando desativado, os colonos nunca irão plantar nesta zona. Eles ainda irão colher.</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
+  <CommandAllowCut>Permitir corte</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <CommandAllowCutDesc>Quando desativado, os colonos nunca cortarão plantas nesta zona. Eles ainda vão semear novas plantas em espaços que já estão vazios e colher.</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -229,8 +238,8 @@
   <CommandAutoRearmDesc>Quando ativado, esta armadilha será definida automaticamente para ser rearmada quando ela é usada.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
-  <!-- EN: Release animals -->
-  <CommandReleaseAnimalsLabel>Soltar animais</CommandReleaseAnimalsLabel>
+  <!-- EN: Animals attack -->
+  <CommandReleaseAnimalsLabel>Ataque animal</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>Quando ativado, animais treinados são enviados para atacar alvos distantes. Enquanto estiver desativado, eles permanecem próximo ao mestre.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
@@ -535,11 +544,36 @@
   <CommandOpenLinkedQuest>Abrir missão vinculada</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Abrir a missão vinculada na guia missões.</CommandOpenLinkedQuestDesc>
-  
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
+  <CommandDropPawn>Largar {0_nameDef}</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
+  <CommandDropPawnDesc>Solte a pessoa que está sendo carregada.</CommandDropPawnDesc>
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Tomar droga</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
   <TakeDrugDesc>Escolher uma droga do inventário para ingerir imediatamente.</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
+  <BuildThing>Construir {0}</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>Deixar {RITUAL_label}</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>Pare de participar do {RITUAL_labelDef}. O ritual continuará enquanto houver pelo menos um participante.</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>Este é o último participante do {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>Cancelar {RITUAL_label}</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <CommandCancelRitualDesc>Termine o {RITUAL_labelDef} imediatamente. A obrigação ritual permanecerá. Você pode reiniciar o ritual mais tarde.</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>Tem certeza de que deseja cancelar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
   
 </LanguageData>

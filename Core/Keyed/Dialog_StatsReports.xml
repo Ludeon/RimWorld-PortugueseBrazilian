@@ -43,7 +43,9 @@
   <!-- EN: Materials and labor -->
   <StatsReport_MarketValueFromStuffsAndWork>o valor base de mercado calculada é nos materiais de construção e quantidade de trabalho.</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
-  <StatsReport_QualityMultiplier>Multiplicado por qualidade</StatsReport_QualityMultiplier>
+  <StatsReport_QualityMultiplier>Multiplicado de qualidade</StatsReport_QualityMultiplier>
+  <!-- EN: Quality offset -->
+  <StatsReport_QualityOffset>Deslocamento de qualidade</StatsReport_QualityOffset>
   <!-- EN: Max gain -->
   <StatsReport_MaxGain>Ganho máximo</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
@@ -66,8 +68,8 @@
   <StatsReport_Facilities>Instalações</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
   <StatsReport_BodySize>Multiplicado por tamanho do corpo {0}</StatsReport_BodySize>
-  <!-- EN: Carefully slaughtered without wounds -->
-  <StatsReport_HasHediffExplanation>Cuidadosamente abatidos sem feridas</StatsReport_HasHediffExplanation>
+  <!-- EN: Damaged -->
+  <StatsReport_HasHediffExplanation>Danificado</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>As estatísticas são exibidas no seguinte formato:\nDPS ( Dano físico / Recarga em segundos / chance de acerto corpo a corpo )\n\nDPS = Dano corpo a corpo * Chance de acerto de dano corpo a corpo / Recarga em segundos</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
@@ -78,6 +80,12 @@
   <StatsReport_MeleeHitChance>Chance de acerto em corpo a corpo</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
   <StatsReport_CooldownFormat>{0}s</StatsReport_CooldownFormat>
+  <!-- EN: Blocked by fences -->
+  <StatsReport_BlockedByFences>Bloqueado por cercas</StatsReport_BlockedByFences>
+  <!-- EN: Roam interval -->
+  <StatsReport_RoamInterval>Intervalo de vagação</StatsReport_RoamInterval>
+  <!-- EN: Caravan rideable age -->
+  <StatsReport_CaravanRideableAge>Idade de montagem em caravana</StatsReport_CaravanRideableAge>
   <!-- EN: Life expectancy -->
   <StatsReport_LifeExpectancy>Expectativa de vida</StatsReport_LifeExpectancy>
   <!-- EN: Multiplier for missing body parts -->
@@ -106,6 +114,8 @@
   <StatsReport_JoyKind>tipo de recreação</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
   <StatsReport_WorkToUninstall>trabalho para desinstalar</StatsReport_WorkToUninstall>
+  <!-- EN: Fence -->
+  <<StatsReport_Fence>Cerca</StatsReport_Fence>
   <!-- EN: Multiplier for growth {0} -->
   <StatsReport_PlantGrowth>Multiplicador para crescimento {0}</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
@@ -118,6 +128,10 @@
   <StatsReport_WildMan>Homem selvagem</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Ataque</StatsReport_NonToolAttack>
+  <!-- EN: Ideoligion -->
+  <StatsReport_Ideoligion>Ideoligião</StatsReport_Ideoligion>
+  <!-- EN: Multiplier for malnutrition -->
+  <StatsReport_Malnutrition>Multiplicador para desnutrição {0}</StatsReport_Malnutrition>
   
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Possíveis compensações</StatReport_PossibleOffsets>
@@ -166,6 +180,8 @@
   <Stat_HitPoints_Desc>Quanto dano um objeto pode receber antes de ser destruído.</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>A quantidade de trabalho necessária para desinstalar isso.</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Whether this building is a type of fence. Fences block these animals -->
+  <Stat_Thing_Fence_Desc>Se esta construção é um tipo de cerca. Cercas bloqueiam esses animais</Stat_Thing_Fence_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>Quais instalações podem ser usadas para produzir isso.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
@@ -174,6 +190,10 @@
   <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Um multiplicador na quantidade de experiência que os médicos adquirem ao usá-lo para cuidar de um paciente.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>Os atributos desta planta.</Stat_Thing_Plant_Attributes_Desc>
+  <!-- EN: Clothing (for nudity) -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Roupas (para nudez)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
+  <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Se os nudistas considerarão este item uma peça de roupa. Do contrário, os nudistas nunca se incomodarão em usar isso.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Quais partes do corpo isto cobre.\n\nA armadura não protege as partes do corpo que ela não cobre.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -204,10 +224,16 @@
   <Stat_Race_Trainability_Desc>A aptidão mental geral desta criatura para o treinamento. Esta é uma combinação de inteligência e atenção. Determina quais tipos de tarefas essa criatura pode ser treinada para executar.</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>A expectativa média de vida desta criatura.</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: Whether this creature is blocked by fences and barricades. -->
+  <Stat_Race_BlockedByFences_Desc>Se esta criatura está bloqueada por cercas e barricadas.</Stat_Race_BlockedByFences_Desc>
+  <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
+  <Stat_Race_RoamInterval_Desc>Quão frequente um animal domesticado tentará vagar e sair do mapa.\n\nOs animais só irão vagar se tiverem um caminho direto para a borda do mapa. Você pode usar cercas, barricadas, paredes e portas para evitar isso.\n\nOs treinadores de animais podem atar os animais vagantes e trazê-los de volta ao cercado.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>O valor recreativo ganho ao ingerir isso. Números mais altos irão preencher mais a necessidade de recreação.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>O tamanho do corpo desta criatura, comparado a um humano adulto médio.</Stat_Race_BodySize_Desc>
+  <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
+  <Stat_Race_Growth_Desc>Quão perto esta criatura está da idade adulta.\n\nO crescimento requer nutrição. Um animal faminto crescerá a um ritmo mais lento do que um animal bem alimentado.</Stat_Race_Growth_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
   <Stat_Thing_Weapon_MeleeWarmupTime_Desc>Quanto tempo se passa entre o início de um ataque corpo a corpo com essa arma, e quando ela atinge o alvo.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
   <!-- EN: The amount of shots this weapon fires in each burst. -->
@@ -314,10 +340,14 @@
   <Stat_Thing_Biocoded_Name>Biocodificação</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>Este item foi codificado para aceitar apenas a bioassinatura de um indivíduo em particular.</Stat_Thing_Biocoded_Desc>
+  <!-- EN: Required apparel -->
+  <Stat_Pawn_RequiredApparel_Name>Vestuário obrigatório</Stat_Pawn_RequiredApparel_Name>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
   <Stat_Thing_Drug_Chemical_Desc>O produto químico ativo nisto.\n\nEm alguns casos, o mesmo produto químico está presente em várias drogas diferentes. Essas drogas diferentes satisfarão o mesmo vício de maneiras diferentes.</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The category this drug belongs to. -->
+  <<Stat_Thing_Drug_Category_Desc>A categoria a que esta droga pertence.</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
   <Stat_Thing_Drug_HighGainPerDose_Desc>A intensidade da alta ganha por dose desta droga.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
@@ -350,5 +380,110 @@
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>A rapidez com que a necessidade de um dependente químico diminuirá.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
   <Stat_Thing_Drug_AddictionCost_Desc>O valor de mercado das drogas que devem ser consumidas por dia para suportar um vício em drogas sem entrar em abstinência.\n\nEste valor é calculado a partir da necessidade química por dose do dependente químico, da taxa de queda da necessidade e do valor de mercado dessa droga.\n\nObserve que pode haver outras maneiras de obter o mesmo produto químico com custos diferentes.</Stat_Thing_Drug_AddictionCost_Desc>
+
+  <!-- EN: Style -->
+  <Stat_Thing_StyleLabel>Estilo</Stat_Thing_StyleLabel>
+  <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
+  <Stat_Thing_StyleDesc>O estilo de um objeto determina sua aparência. Isso não tem efeito de jogabilidade. Os estilos frequentemente formam os diferentes métodos de construção usados ​​por pessoas de diferentes crenças e culturas.</Stat_Thing_StyleDesc>
+
+  <!-- EN: Gestation time -->
+  <Stat_Animal_GestationTime>Tempo de gestação</Stat_Animal_GestationTime>
+  <!-- EN: The time this species takes to gestate its offspring or eggs. -->
+  <Stat_Animal_GestationTimeDesc>O tempo que essa espécie leva para gestar seus filhotes ou ovos.</Stat_Animal_GestationTimeDesc>
+  <!-- EN: Litter size -->
+  <Stat_Animal_LitterSize>Tamanho da ninhada</Stat_Animal_LitterSize>
+  <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
+  <Stat_Animal_LitterSizeDesc>O número de descendentes que esta criatura cria por ninhada. Se este for um intervalo, qualquer ninhada específica terá um número aleatório de descendentes neste intervalo.</Stat_Animal_LitterSizeDesc>
+  <!-- EN: Adult meat amount -->
+  <Stat_Animal_AdultMeatAmount>Quantidade de carne adulta</Stat_Animal_AdultMeatAmount>
+  <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
+  <Stat_Animal_AdultMeatAmountDesc>A quantidade básica de carne produzida pelo abate de um membro adulto desta espécie. O rendimento real é afetado por outros fatores, como danos ao corpo e habilidade do açougueiro.</Stat_Animal_AdultMeatAmountDesc>
+  <!-- EN: Growth time -->
+  <Stat_Animal_GrowthTime>Tempo de crescimento</Stat_Animal_GrowthTime>
+  <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
+  <Stat_Animal_GrowthTimeDesc>Quanto tempo normalmente leva para essa criatura atingir a idade adulta. Este tempo será mais longo se a criatura não for alimentada corretamente.</Stat_Animal_GrowthTimeDesc>
+  <!-- EN: Meat per day during growth -->
+  <Stat_Animal_MeatPerDayDuringGrowth>Carne por dia durante o crescimento</Stat_Animal_MeatPerDayDuringGrowth>
+  <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>Esta criatura ganha esta quantidade de carne a cada dia em que cresce, até atingir a idade adulta.\n\nEste valor é calculado a partir da quantidade de carne e do tempo de crescimento.</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <!-- EN: Grass to maintain -->
+  <Stat_Animal_GrassToMaintain>Grama para manter</Stat_Animal_GrassToMaintain>
+  <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->
+  <Stat_Animal_GrassToMaintainDesc>O número típico de gramíneas de que essa criatura precisa para atender às suas necessidades dietéticas. Isso se baseia na grama normal com taxas de crescimento típicas e ignora o inverno.</Stat_Animal_GrassToMaintainDesc>
+  <!-- EN: Egg type -->
+  <Stat_Animal_EggType>Tipo de ovo</Stat_Animal_EggType>
+  <!-- EN: The type of egg this creature lays. -->
+  <Stat_Animal_EggTypeDesc>O tipo de ovo que esta criatura põe.</Stat_Animal_EggTypeDesc>
+  <!-- EN: Eggs per year -->
+  <Stat_Animal_EggsPerYear>Ovos por ano</Stat_Animal_EggsPerYear>
+  <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
+  <Stat_Animal_EggsPerYearDesc>O número de ovos que esta criatura põe por ano. Algumas criaturas precisam ser fertilizadas para botar ovos. A postura dos ovos será mais lenta se a criatura não for alimentada corretamente.</Stat_Animal_EggsPerYearDesc>
+  <!-- EN: Egg nutrition -->
+  <Stat_Animal_EggNutrition>Nutrição do ovo</Stat_Animal_EggNutrition>
+  <!-- EN: The amount of nutrition in a single egg laid by this creature. -->
+  <Stat_Animal_EggNutritionDesc>A quantidade de nutrição em um único ovo posto por esta criatura.</Stat_Animal_EggNutritionDesc>
+  <!-- EN: Egg nutrition per year -->
+  <Stat_Animal_EggNutritionYearly>Nutrição do ovo por ano</Stat_Animal_EggNutritionYearly>
+  <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
+  <Stat_Animal_EggNutritionYearlyDesc>A quantidade de nutrição anual gerada pelos ovos postos por esta criatura a cada ano.\n\nEste valor é calculado a partir dos ovos por ano e da nutrição do ovo.</Stat_Animal_EggNutritionYearlyDesc>
+  <!-- EN: Egg market value -->
+  <Stat_Animal_EggMarketValue>Valor de mercado do ovo</Stat_Animal_EggMarketValue>
+  <!-- EN: The market value of a single laid egg. -->
+  <Stat_Animal_EggMarketValueDesc>O valor de mercado de um único ovo posto.</Stat_Animal_EggMarketValueDesc>
+  <!-- EN: Egg value per year -->
+  <Stat_Animal_EggMarketValueYearly>Valor do ovo por ano</Stat_Animal_EggMarketValueYearly>
+  <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
+  <Stat_Animal_EggMarketValueYearlyDesc>O valor total dos ovos normalmente postos ao longo de um ano.\n\nIsto é calculado a partir dos ovos por ano e do valor de mercado dos ovos.</Stat_Animal_EggMarketValueYearlyDesc>
+  <!-- EN: Milk type -->
+  <Stat_Animal_MilkType>Tipo de leite</Stat_Animal_MilkType>
+  <!-- EN: The type of milk this creature produces. -->
+  <Stat_Animal_MilkTypeDesc>O tipo de leite que esta criatura produz.</Stat_Animal_MilkTypeDesc>
+  <!-- EN: Milk amount -->
+  <Stat_Animal_MilkAmount>Quantidade de leite</Stat_Animal_MilkAmount>
+  <!-- EN: The amount of milk this creature produces each time it is milked. -->
+  <Stat_Animal_MilkAmountDesc>A quantidade de leite que esta criatura produz cada vez que é ordenhada.</Stat_Animal_MilkAmountDesc>
+  <!-- EN: Milking inteval -->
+  <Stat_Animal_MilkGrowthTime>Intervalo de ordenha</Stat_Animal_MilkGrowthTime>
+  <!-- EN: The amount of time this creature needs between milkings. -->
+  <Stat_Animal_MilkGrowthTimeDesc>A quantidade de tempo que essa criatura precisa entre as ordenhas.</Stat_Animal_MilkGrowthTimeDesc>
+  <!-- EN: Milk per year -->
+  <Stat_Animal_MilkPerYear>Leite por ano</Stat_Animal_MilkPerYear>
+  <!-- EN: The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval. -->
+  <Stat_Animal_MilkPerYearDesc>A quantidade de leite produzida por este animal ao longo de um ano.\n\nIsto é calculado a partir da quantidade de leite e do intervalo de ordenha.</Stat_Animal_MilkPerYearDesc>
+  <!-- EN: Milk market value -->
+  <Stat_Animal_MilkValue>Valor de mercado do leite</Stat_Animal_MilkValue>
+  <!-- EN: The value of one unit of this creature's milk. -->
+  <Stat_Animal_MilkValueDesc>O valor de uma unidade do leite desta criatura.</Stat_Animal_MilkValueDesc>
+  <!-- EN: Milk value per year -->
+  <Stat_Animal_MilkValuePerYear>Valor do leite por ano</Stat_Animal_MilkValuePerYear>
+  <!-- EN: The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value. -->
+  <Stat_Animal_MilkValuePerYearDesc>O valor de mercado de um ano de leite desta criatura, supondo que ela nunca passe fome e seja ordenhada instantaneamente no final de cada intervalo de leite.\n\nIsso é calculado a partir do leite por ano e do valor de mercado do leite.</Stat_Animal_MilkValuePerYearDesc>
+  <!-- EN: Wool type -->
+  <Stat_Animal_WoolType>Tipo de lã</Stat_Animal_WoolType>
+  <!-- EN: The type of wool produced by this creature. -->
+  <Stat_Animal_WoolTypeDesc>O tipo de lã produzida por esta criatura.</Stat_Animal_WoolTypeDesc>
+  <!-- EN: Wool amount -->
+  <Stat_Animal_WoolAmount>Quantidade de lã</Stat_Animal_WoolAmount>
+  <!-- EN: The amount of wool yielded by this creature each time it is shorn. -->
+  <Stat_Animal_WoolAmountDesc>A quantidade de lã produzida por esta criatura cada vez que é tosada.</Stat_Animal_WoolAmountDesc>
+  <!-- EN: Wool shearing interval -->
+  <Stat_Animal_WoolGrowthTime>Intervalo de tosquia de lã</Stat_Animal_WoolGrowthTime>
+  <!-- EN: The time after shearing before this creature can be shorn again. -->
+  <Stat_Animal_WoolGrowthTimeDesc>O tempo após a tosquia antes que esta criatura possa ser tosquiada novamente.</Stat_Animal_WoolGrowthTimeDesc>
+  <!-- EN: Wool amount per year -->
+  <Stat_Animal_WoolPerYear>Quantidade de lã por ano</Stat_Animal_WoolPerYear>
+  <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculate d from wool amount and wool shearing interval. -->
+  <Stat_Animal_WoolPerYearDesc>A quantidade de lã produzida por esta criatura por ano.\n\nIsso é calculado a partir da quantidade de lã e do intervalo de tosquia.</Stat_Animal_WoolPerYearDesc>
+  <!-- EN: Wool market value -->
+  <Stat_Animal_WoolValue>Valor de mercado da lã</Stat_Animal_WoolValue>
+  <!-- EN: The market value of one unit of this creature's wool. -->
+  <Stat_Animal_WoolValueDesc>O valor de mercado de uma unidade da lã desta criatura.</Stat_Animal_WoolValueDesc>
+  <!-- EN: Wool value per year -->
+  <Stat_Animal_WoolValuePerYear>Valor da lã por ano</Stat_Animal_WoolValuePerYear>
+  <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
+  <Stat_Animal_WoolValuePerYearDesc>O valor de mercado da lã de um ano desta criatura.\n\nIsto é calculado a partir da quantidade de lã por ano e do valor de mercado da lã.</Stat_Animal_WoolValuePerYearDesc>
+
+  <!-- EN: The amount of study that can be done on this object. -->
+  <Stat_Studiable_Desc>A quantidade de estudo que pode ser feito neste objeto.</Stat_Studiable_Desc>
 
 </LanguageData>

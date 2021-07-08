@@ -94,8 +94,10 @@
   <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
   <ChopTrees.text>Você irá querer colher um pouco de madeira. Designe algumas árvores para serem cortadas.\n\nSelecione o designador CORTAR ÁRVORES e designe 10 árvores para serem cortadas.\n\n(Dica: Você pode arrastar uma caixa sobre as árvores para designar várias de uma vez)</ChopTrees.text>
   
-  <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
-  <CreateWorldParams.text>Bem-vindo ao RimWorld! Este tutorial irá ensiná-lo a como jogar o jogo.\n\nO primeiro passo é gerar um mundo para jogar nele.\n\nNesta página, você configura os parâmetros de seu mundo.\n\nAs configurações padrões aqui são boas - vá em frente e clique em GERAR!</CreateWorldParams.text>
+  <!-- EN: This page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>Esta página configura como seu mundo deve ser gerado.\n\nAs configurações padrão aqui são boas - vá em frente e clique em GERAR!</CreateWorldParams.text>
+  <!-- EN: Click GENERATE to generate your world. -->
+  <defName.rejectInputMessage>Clique em GERAR para gerar seu mundo.</defName.rejectInputMessage>
   
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
   <DownRaider.onMapInstruction>Envie os colonos aqui\ntocando nos sacos de areia para cobertura</DownRaider.onMapInstruction>
@@ -203,7 +205,7 @@
   <UnforbidStartingResources.onMapInstruction>Desproiba isto</UnforbidStartingResources.onMapInstruction>
   <!-- EN: Please allow your starting items. -->
   <UnforbidStartingResources.rejectInputMessage>Por favor, desproiba os seus itens inicias.</UnforbidStartingResources.rejectInputMessage>
-  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
-  <UnforbidStartingResources.text>Agora, para permitir que seus colonos levem seus itens para o estoque, você deve desproibir os itens.\n\n1. Clique em seus itens iniciais para selecioná-los.\n2. Clique no comando PERMITIR para desproibi-los\n\n(Dica: Dê um duplo clique em um item para selecionar todos na tela do mesmo tipo.) </UnforbidStartingResources.text>
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
+  <UnforbidStartingResources.text>Para permitir que seus colonos tragam seus itens para o estoque, você deve remover a designação de "proibido" dos itens.\n\n1. Clique em seus itens iniciais para selecioná-los.\n2. Clique no botão de alternância PERMITIR para permiti-los.\n\n(Dica profissional: clique duas vezes em um item para selecionar todos na tela do mesmo tipo.)\n\nAlternativamente, você pode:\n1. Clicar em ARQUITETO.\n2. Clicar em ORDENS.\n3. Clicar em PERMITIR.\n4. Arrastar uma forma cobrindo todos os itens proibidos para permiti-los.</UnforbidStartingResources.text>
   
 </LanguageData>
