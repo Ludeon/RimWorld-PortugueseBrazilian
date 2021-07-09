@@ -22,8 +22,6 @@
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Aviso: A média de habilidades relevantes é muito baixa.</SelectedWorkTypeWithVeryBadSkill>
-  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideologion, so it may make this person unhappy. -->
-  <SelectedWorkTypeOpposedByIdeo>Aviso: Este tipo de trabalho é oposto pela sua ideologia, por isso pode deixar essa pessoa infeliz.</SelectedWorkTypeOpposedByIdeo>
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
   <PriorityOneDoneFirst>A prioridade 1 é feita primeiro. A prioridade 4 é feita por último.</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
@@ -184,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Pesquisar</Research>
-  <!-- EN: Researched -->
-  <Researched>Pesquisado</Researched>
+  <!-- EN: Study -->
+  <Study>Estudar</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Não pesquisado</Unresearched>
   <!-- EN: Finished -->
@@ -213,18 +211,14 @@
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>O nível de tecnologia da sua facção é {0}, mas o nível de tecnologia deste projeto é {1}. A velocidade da pesquisa será multiplicada por {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
-  <UnlockedWith>Desbloqueado com</UnlockedWith>
-  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
-  <ResearchProjectHasDefsWithMissingMemes>{0} desbloqueia coisas que você não pode construir porque exige crenças que nenhum de seus colonos acredita</ResearchProjectHasDefsWithMissingMemes>
+  <UnlockedWith>Desbloqueado com</UnlockedWith> 
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
   <FactionsTab>Facções</FactionsTab>
   <!-- EN: No known factions -->
   <NoFactions>Nenhuma facção conhecida</NoFactions>
-  <!-- EN: Ideoligions -->
-  <IdeoligionsTab>Ideoligias</IdeoligionsTab>
-
+  
   <!-- Quests tab -->
   <!-- EN: Available -->
   <AvailableQuests>Disponível</AvailableQuests>
@@ -334,8 +328,8 @@
   <QuestBetrayalOfferTip>{0} te dará uma recompensa por matar todos os membros de {1}.</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
   <QuestRequiredPlayerWealth>uma riqueza de pelo menos {0}</QuestRequiredPlayerWealth>
-  <!-- EN: allied to {0} -->
-  <QuestAlliedTo>aliado a {0}</QuestAlliedTo>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>aliança com {0}</QuestAlliedTo>
   <!-- EN: hostile to {0} -->
   <QuestHostileTo>hostil a {0}</QuestHostileTo>
   <!-- EN: neutral to {0} -->
