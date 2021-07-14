@@ -124,8 +124,8 @@
     <li>lodgersLabelPlural->refugees</li>
   -->
   <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel->refugiad{PAWN_gender ? o : a }</li>
-    <li>lodgersLabelPlural->refugiad{PAWN_gender ? os : as }</li>
+    <li>lodgersLabel->refugiado(a)</li>
+    <li>lodgersLabelPlural->refugiados</li>
   </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>offer(lodgerCount==1)->offers</li>
@@ -162,36 +162,40 @@
   -->
   <Hospitality_Refugee.questDescriptionRules.rulesStrings>
     <li>offer(lodgerCount==1)->oferece</li>
-    <li>offer(lodgerCount>=2)->oferta</li>
+    <li>offer(lodgerCount>=2)->oferecem</li>
     <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
     <li>lodgersPronoun(lodgerCount>=2)->eles</li>
-    <li>lodgersPreposition(lodgerCount==1)->[asker_objective]mesmo</li>
-    <li>lodgersPreposition(lodgerCount>=2)->eles próprios</li>
-    <li>lodgersObjective(lodgerCount==1)->[asker_objective]</li>
-    <li>lodgersObjective(lodgerCount>=2)->eles</li>
-    <li>lodgersPossessive(lodgerCount==1)->[asker_possessive]</li>
-    <li>lodgersPossessive(lodgerCount>=2)->deles</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
-    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->o [lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] implora sua permissão para ficar em [map_definite] por [questDurationTicks_duration] para que [lodgersPronoun] possa descansar e reagrupar.\n\nEm troca, [lodgersPronoun] [offer] trabalhar e lutar para você gratuitamente durante esse tempo.\n\n[joinInfo] [lodgersPronoun] talvez te recompensará também depois por ter ajudado [lodgersObjective] - mas não há como saber as suas verdadeiras intenções.\n\n[travelerInfo] não faz parte de nenhuma facção. Caso queira, pode escolher de matar, prender, vender ou recuperar a partes do corpo de [lodgersObjective], sem consequências diplomáticas.</li>
-    <li>approachInfo(lodgerCount==1)->{PAWN_gender ? Um : Uma } desesperad{PAWN_gender ? o : a } [faction_pawnSingular] chamad{PAWN_gender ? o : a } [asker_nameDef] está se aproximando.</li>
-    <li>approachInfo(lodgerCount==2)->[asker_nameDef] e outr{PAWN_gender ? o : a } desesperad{PAWN_gender ? o : a } de [faction_pawnSingular] estão se aproximando.</li>
-    <li>approachInfo(lodgerCount>=3)->[lodgerCount] desesperad{PAWN_gender ? os : as } de [faction_pawnsPlural] estão se aproximando. O líder deles se chama [asker_nameDef].</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter perdido [asker_possessive] casa em um ataque recente.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido acordado do crypto-sono sozinho e sem amigos.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido expulso de [asker_possessive] casa por um ex-amante vingativo.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido banido depois de uma discussão com o líder da aldeia.</li>
-    <li>claimInfo(lodgerCount>=2)->Eles dizem ter perdido a casa deles durante um ataque recente.</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->os [lodgersLabelPlural]</li>
+    <li>possaSingularOrPluralDef(lodgerCount==1)->possa</li>
+    <li>possaSingularOrPluralDef(lodgerCount>=2)->possam</li>
+    <li>recompensaraSingularOrPluralDef(lodgerCount==1)->recompensará</li>
+    <li>recompensaraSingularOrPluralDef(lodgerCount>=2)->recompensarão</li>
+    <li>fazSingularOrPluralDef(lodgerCount==1)->faz</li>
+    <li>fazSingularOrPluralDef(lodgerCount>=2)->fazem</li>
+    <li>pronomeObjetoSingularOrPluralDef(lodgerCount==1)->l{asker_gender ? o : a }</li>
+    <li>pronomeObjetoSingularOrPluralDef(lodgerCount>=2)->los</li>
+    <li>contraçãoSingularOrPluralDef(lodgerCount==1)->del{asker_gender ? e : a }</li>
+    <li>contraçãoSingularOrPluralDef(lodgerCount>=2)->deles</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] implora sua permissão para ficar em [map_definite] por [questDurationTicks_duration] para que [lodgersPronoun] [possaSingularOrPluralDef] descansar.\n\nEm troca, [lodgersPronoun] [offer] trabalho para você gratuitamente durante esse tempo.\n\n[joinInfo] [lodgersPronoun] talvez te [recompensaraSingularOrPluralDef] depois por tê-[pronomeObjetoSingularOrPluralDef] ajudado - mas não há como saber as suas verdadeiras intenções.\n\n[travelerInfo] não [fazSingularOrPluralDef] parte de nenhuma facção. Caso queira, pode escolher de matá-[pronomeObjetoSingularOrPluralDef], prendê-[pronomeObjetoSingularOrPluralDef], vendê-[pronomeObjetoSingularOrPluralDef] ou recuperar partes do corpo [contraçãoSingularOrPluralDef], sem consequências diplomáticas.</li>
+    <li>approachInfo(lodgerCount==1)->{asker_gender ? Um : Uma } [faction_pawnSingular] desesperad{asker_gender ? o : a } chamad{asker_gender ? o : a } [asker_nameDef] está se aproximando.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] e outro [faction_pawnSingular] desesperado estão se aproximando.</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] desesperados estão se aproximando. O líder deles se chama [asker_nameDef].</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter perdido sua casa em um ataque recente.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido acordad{asker_gender ? o : a } do criptosono sozinh{asker_gender ? o : a } e sem amigos.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido expuls{asker_gender ? o : a } de sua casa por {asker_gender ? uma : um } ex-amante vil.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido banid{asker_gender ? o : a } depois de uma discussão com o líder da aldeia.</li>
+    <li>claimInfo(lodgerCount>=2)->Eles dizem ter perdido suas casas durante um ataque recente.</li>
     <li>claimInfo(lodgerCount>=2)->Eles dizem ter escapado de uma cirurgia de recuperamento de orgãos.</li>
-    <li>claimInfo(lodgerCount>=2)->Eles dizem ter escapados de uma caravana de escravos.</li>
-    <li>claimInfo(lodgerCount>=2)->Eles dizem que uma praga de plantação os deixaram famintos e os obrigaram a ir embora.</li>
-    <li>claimInfo(lodgerCount>=2)->Eles dizem que uma enorme tempestade de radios queimou a casa deles.</li>
-    <li>claimInfo(lodgerCount>=2)->Eles dizem que a caravana deles foi alvo de uma embuscada e que perderam tudo.</li>
-    <li>claimInfo(lodgerCount>=2)->Eles dizem ter sido banidos da casa deles devido a um desacordo moral.</li>
-    <li>joinInfo(lodgerCount==1)->Se você fizer [asker_objective] feliz, [asker_pronoun] talvez oferecerá para se unir a você.</li>
-    <li>joinInfo(lodgerCount>=2)->Se você os fizer feliz, alguns deles ofecererão para se juntar a você.</li>
-    <li>travelerInfo(lodgerCount==1)->Est{PAWN_gender ? e : a } [faction_pawnSingular] é</li>
-    <li>travelerInfo(lodgerCount>=2)->Estes [faction_pawnsPlural] são</li>
+    <li>claimInfo(lodgerCount>=2)->Eles dizem ter escapado de uma caravana escravista.</li>
+    <li>claimInfo(lodgerCount>=2)->Eles dizem que uma praga os deixaram famintos e os obrigaram a ir embora.</li>
+    <li>claimInfo(lodgerCount>=2)->Eles dizem que uma enorme tempestade de queimou suas casas.</li>
+    <li>claimInfo(lodgerCount>=2)->Eles dizem que sua caravana foi alvo de uma emboscada e que perderam tudo.</li>
+    <li>claimInfo(lodgerCount>=2)->Eles dizem ter sido banidos de suas casas devido a um desacordo moral.</li>
+    <li>joinInfo(lodgerCount==1)->Se você {asker_gender ? o : a } fizer feliz, [asker_pronoun] talvez oferecerá para se unir a você.</li>
+    <li>joinInfo(lodgerCount>=2)->Se você os fizer feliz, talvez alguns deles ofecererão para se juntar a você.</li>
+    <li>travelerInfo(lodgerCount==1)->Est{asker_gender ? e : a } [faction_pawnSingular]</li>
+    <li>travelerInfo(lodgerCount>=2)->Estes [faction_pawnsPlural]</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
@@ -226,30 +230,39 @@
     <li>lodgerPlural->vagabonds</li>
   -->
   <Hospitality_Refugee.questNameRules.rulesStrings>
-    <li>questName(lodgerCount==1)->[asker_nameDef] o [lodgerAdj]</li>
-    <li>questName(lodgerCount==1)->[athe] [lodgerAdj] [lodgerSingle]</li>
-    <li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[asker_nameDef] [lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[asker_nameDef] [lodgerPlural]</li>
-    <li>athe->um</li>
-    <li>athe->o</li>
-    <li>lodgerAdj->cansad{PAWN_gender ? o : a }</li>
-    <li>lodgerAdj->perdid{PAWN_gender ? o : a }</li>
-    <li>lodgerAdj->destituíd{PAWN_gender ? o : a }</li>
-    <li>lodgerAdj->pobre</li>
-    <li>lodgerAdj->desesperad{PAWN_gender ? o : a }</li>
-    <li>lodgerAdj->triste</li>
-    <li>lodgerAdj->empoeirad{PAWN_gender ? o : a }</li>
-    <li>lodgerAdj->sem esperança</li>
-    <li>lodgerAdj->desconhecid{PAWN_gender ? o : a }</li>
-    <li>lodgerAdj->desamparad{PAWN_gender ? o : a }</li>
-    <li>lodgerAdj->esquecid{PAWN_gender ? o : a }</li>
+    <li>questName(lodgerCount==1)->[asker_nameDef], {asker_gender ? o : a} [lodgerAdjSingle]</li>
+    <li>questName(lodgerCount==1)->[athe] [lodgerSingle] [lodgerAdjSingle]</li>
+    <li>questName(p=2,lodgerCount>=2)->[lodgerPlural] [lodgerAdjPlural]</li>
+    <li>questName(lodgerCount>=2)->[asker_nameDef] e os [lodgerPlural] [lodgerAdjPlural]</li>
+    <li>questName(lodgerCount>=2)->[asker_nameDef] e os [lodgerPlural]</li>
+    <li>athe->{asker_gender ? um : uma}</li>
+    <li>athe->{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->cansad{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->perdid{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->destituíd{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->desesperad{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->empoeirad{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->sem esperança</li>
+    <li>lodgerAdjSingle->desconhecid{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->desamparad{asker_gender ? o : a}</li>
+    <li>lodgerAdjSingle->esquecid{asker_gender ? o : a}</li>
+    <li>lodgerAdjPlural->cansados</li>
+    <li>lodgerAdjPlural->perdidos</li>
+    <li>lodgerAdjPlural->destituídos</li>
+    <li>lodgerAdjPlural->pobres</li>
+    <li>lodgerAdjPlural->desesperados</li>
+    <li>lodgerAdjPlural->tristes</li>
+    <li>lodgerAdjPlural->empoeirados</li>
+    <li>lodgerAdjPlural->sem esperança</li>
+    <li>lodgerAdjPlural->desconhecidos</li>
+    <li>lodgerAdjPlural->desamparados</li>
+    <li>lodgerAdjPlural->esquecidos</li>
     <li>lodgerSingle->viajante</li>
-    <li>lodgerSingle->refugiad{PAWN_gender ? o : a }</li>
-    <li>lodgerSingle->Andarilh{PAWN_gender ? o : a }</li>
+    <li>lodgerSingle->refugiad{asker_gender ? o : a}</li>
+    <li>lodgerSingle->andarilh{asker_gender ? o : a}</li>
     <li>lodgerSingle->sobrevivente</li>
     <li>lodgerSingle->nômade</li>
-    <li>lodgerSingle->vagabund{PAWN_gender ? o : a }</li>
+    <li>lodgerSingle->vagabund{asker_gender ? o : a}</li>
     <li>lodgerPlural->viajantes</li>
     <li>lodgerPlural->refugiados</li>
     <li>lodgerPlural->andarilhos</li>

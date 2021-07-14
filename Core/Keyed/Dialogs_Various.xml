@@ -370,6 +370,8 @@
   <LeatherType>Tipo de couro</LeatherType>
   <!-- EN: Body size -->
   <BodySize>Tamanho do corpo</BodySize>
+  <!-- EN: Growth -->
+  <Growth>Crescimento</Growth>
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>Dificuldade de recrutamento</RecruitDifficulty>
   <!-- EN: Base price -->
@@ -394,12 +396,10 @@
   <WildnessExplanation>Criaturas selvagens são naturalmente mais difíceis de domesticar, treinar e manusear.</WildnessExplanation>
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>Intervalo de decaimento de habilidade</TrainingDecayInterval>
-  <!-- EN: Tameness will never decay. -->
-  <TamenessWillNotDecay>habilidade nunca vai decair.</TamenessWillNotDecay>
-  <!-- EN: Animal filth rate -->
-  <AnimalFilthRate>Taxa de sujeira animal</AnimalFilthRate>
-  <!-- EN: Animals produce filth when moving around on constructed floors.\n\nThis is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
-  <AnimalFilthRateExplanation>Animais produzem sujeira quando se deslocam em pisos construídos.\n\nEsta é a quantidade média de tais sujeiras produzida por {0} em células caminhadas por esta criatura.\n\nAnimais maiores ou menos domesticáveis produzem mais sujeira.</AnimalFilthRateExplanation>
+  <!-- EN: Tameness will never decay for animals of very low wildness. -->
+  <TamenessWillNotDecay>A mansidão nunca decairá para animais de natureza selvagem muito baixa.</TamenessWillNotDecay>
+  <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
+  <TamenessWillNotDecayFenceBlocked>A mansidão nunca decairá para os animais que mantidos em currais.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>Tempo</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -444,6 +444,8 @@
   <NeverSafe>Nunca seguro</NeverSafe>
   <!-- EN: {0} / day -->
   <PerDay>{0} / dia</PerDay>
+  <!-- EN: {0} / hour -->
+  <PerHour>{0} / hora</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>Animal de carga</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -468,8 +470,8 @@
   <NuzzleIntervalExplanation>Quantas vezes, em média um animal irá acariciar colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição.\nA maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Chance de vingança</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>A chance de que essa criatura procure se vingar ao ser atingida por um ataque.\n\nEssa chance aumenta se o agressor estiver mais próximo. Se for atacado muito próximo, a chance é três vezes maior.\nEssa chance é aplicada toda vez que um dano é recebido, portanto é menos provável que armas de disparo mais lento e maior dano acione a vingança.\nPara minimizar a chance de uma criatura se vingar, ataque-a com um rifle a distância.</HarmedRevengeChanceExplanation>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>A chance desta criatura atacar quando ferida.\n\nEsta chance aumenta em até três vezes se o atacante estiver mais perto.\n\nEsta chance é aplicada cada vez que o dano é sofrido. Isso significa que armas de disparo mais lento e maior dano têm menos probabilidade de dispará-lo durante a caça.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Chance de vingança ao falhar uma domesticação</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -592,6 +594,16 @@
   <YourNegotiatorBonus>Bônus de seu negociador</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Negociação com bônus base de facção</TradeWithFactionBaseBonus>
+  <!-- EN: Joins as slave -->
+  <JoinsAsSlave>Junta-se como escravo</JoinsAsSlave>
+  <!-- EN: Joins as colonist-->
+  <JoinsAsColonist>Junta-se como colono</JoinsAsColonist>
+  <!-- EN: If purchased, this person will join your colony as a slave. -->
+  <JoinsAsSlaveDesc>Se comprada, essa pessoa se juntará à sua colônia como escrava.</JoinsAsSlaveDesc>
+  <!-- EN: If purchased, this person will join your colony as a colonist. -->
+  <JoinsAsColonistDesc>Se comprada, essa pessoa se junará à sua colônia como colono.</JoinsAsColonistDesc>
+  <!-- EN: Trading drugs bonus -->
+  <TradingDrugsBonus>Bônus de negociação de drogas</TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>mínimo</minimum>
   <!-- EN: Final price -->
@@ -627,7 +639,7 @@
   <!-- EN: Items -->
   <ItemsTab>Itens</ItemsTab>
   <!-- EN: Travel supplies -->
-  <FoodAndMedicineTab>Suprimentos de viagem</FoodAndMedicineTab>
+  <TravelSupplies>Suprimentos de viagem</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Você deve atribuir pelo menos um colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -636,8 +648,8 @@
   <CaravanCouldNotFindPackingSpot>Não pode achar nenhum local de armazenamento válido. Certifique-se que o local de saída ({0}) é acessível.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Aviso: alguns dos colonos designados não conseguem acessar o local de saída ({0}).</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{1_labelShort} está inalcançável por qualquer dos colonos designados.</CaravanPawnIsUnreachable>
+  <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
+  <CaravanRoamerCannotReachSpots>{1_labelShort} é incapaz de alcançar o local de empacotamento ou o local de saída quando liderado por qualquer um dos colonos designados.</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Nenhum dos colonos designados são capazes de alcançar o(a) {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -728,8 +740,12 @@
   <CaravanMovementSpeed>Velocidade de movimento</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
   <TilesPerDay>ladrilhos/dia</TilesPerDay>
-  <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
-  <CaravanMovementSpeedTip>A velocidade de movimento depende da velocidade média de todas as pessoas e animais, da massa transportada e da dificuldade de movimentação do terreno.</CaravanMovementSpeedTip>
+  <!-- EN: None - too heavy -->
+  <TilesPerDayImmobile>Nenhum - muito pesado</TilesPerDayImmobile>
+  <!-- EN: None -->
+  <TilesPerDayImmobileShort>Nenhum</TilesPerDayImmobileShort>
+  <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
+  <CaravanMovementSpeedTip>A velocidade do movimento depende da massa transportada, dos animais montados e da dificuldade de movimentação do terreno.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
   <AnimalsWillBeAbleToGraze>Os animais poderão pastar</AnimalsWillBeAbleToGraze>
   <!-- EN: Animals can graze -->
@@ -753,7 +769,7 @@
   <!-- EN: Total body size -->
   <TotalBodySize>Tamanho total do corpo</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
-  <AutomaticallySelectFoodAndMedicine>Selecionar automaticamente os suprimentos de viagem</AutomaticallySelectFoodAndMedicine>
+  <AutomaticallySelectTravelSupplies>Selecionar automaticamento os suprimentos de viagem</AutomaticallySelectTravelSupplies>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -844,14 +860,6 @@
   <DrugPolicyInUse>Política de drogas está em uso por {0}.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>A restrição alimentar está em uso por {0}.</FoodRestrictionInUse>
-  <!-- EN: Social drugs -->
-  <SocialDrugs>Drogas sociais</SocialDrugs>
-  <!-- EN: No drugs -->
-  <NoDrugs>Sem drogas</NoDrugs>
-  <!-- EN: One drink per day -->
-  <OneDrinkPerDay>Uma bebida por dia</OneDrinkPerDay>
-  <!-- EN: Unrestricted -->
-  <Unrestricted>Sem restrições</Unrestricted>
   <!-- EN: No drug policy selected -->
   <NoDrugPolicySelected>Nenhuma política de drogas selecionada</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
@@ -1018,10 +1026,16 @@
   <AbilityCantApplyToMentallyBroken>{0} está mentalmente quebrado.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
   <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} não está mentalmente rompido.</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not maddened. -->
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} não está enlouquecido.</AbilityCanOnlyApplyToManhunter>
+  <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
+  <AbilityCantApplyToScaria>{0_labelShort} tem escaria, que só pode ser tratada com medicamentos.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} não funciona com '{1}' estado mental.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} possui zero resistência.</AbilityCantApplyNoResistance>
+  <!-- EN: {0_labelShort} is downed. -->
+  <AbilityCantApplyDowned>{0_labelShort} está derrubado.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Impossível usar: {0} é assexuad{PAWN_gender ? o : a }.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1032,6 +1046,22 @@
   <AbilityAlreadyInspired>{0_labelShort} já está inspirad{PAWN_gender ? o : a}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} não pode inspirar-se neste momento.</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
+  <AbilityMustBeNotSameIdeo>{0_labelShort} deve ter uma ideologia diferente de {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
+  <AbilityMustBeSameIdeo>{0_labelShort} deve ter a mesma ideologia de {1_labelShort}.</AbilityMustBeSameIdeo>
+  <!-- EN: {0_labelShort} must be sick or injured. -->
+  <AbilityMustBeSickOrInjured>{0_labelShort} deve estar doente ou ferid{0_gender ? o : a}.</AbilityMustBeSickOrInjured>
+  <!-- EN: {0} can only counsel {1}s. -->
+  <AbilityMustBeSameIdeoCounsel>{0} só pode aconselhar {1}s.</AbilityMustBeSameIdeoCounsel>
+  <!-- EN: {0_labelShort} is already considered guilty. -->
+  <AbilityMustBeNotGuilty>{0_labelShort} já é considerado culpad{0_gender ? o : a}.</AbilityMustBeNotGuilty>
+  <!-- EN: Must target a human. -->
+  <AbilityMustBeHuman>Deve ter como alvo um humano.</AbilityMustBeHuman>
+  <!-- EN: Must target a non-wild human. -->
+  <AbilityMustBeHumanNonWild>Deve ter como alvo um ser humano não selvagem.</AbilityMustBeHumanNonWild>
+  <!-- EN: Must target an animal. -->
+  <AbilityMustBeAnimal>Deve ter como alvo um animal.</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} está inconsciente.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
@@ -1060,4 +1090,78 @@
   <!-- EN: extreme -->
   <MentalBreakIntensityExtreme>extremo</MentalBreakIntensityExtreme>
   
+  <!-- Auto slaughter -->
+  <!-- EN: Animal -->
+  <AutoSlaugtherHeaderColLabel>Animal</AutoSlaugtherHeaderColLabel>
+  <!-- EN: Current -->
+  <AutoSlaugtherHeaderColCurrent>Atual</AutoSlaugtherHeaderColCurrent>
+  <!-- EN: Max -->
+  <AutoSlaugtherHeaderColMax>Máx,</AutoSlaugtherHeaderColMax>
+  <!-- EN: Total -->
+  <AutoSlaugtherHeaderColTotal>Total</AutoSlaugtherHeaderColTotal>
+  <!-- EN: Other -->
+  <AutoSlaugtherHeaderColOther>Outro</AutoSlaugtherHeaderColOther>
+  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
+  <AutoSlaugtherTip>Se você tiver mais do que o número máximo de animais, os colonos abaterão os animais mais velhos até que esteja abaixo do limite.</AutoSlaugtherTip>
+  <!-- EN: Male adult -->
+  <AnimalMaleAdult>Macho adulto</AnimalMaleAdult>
+  <!-- EN: Male young -->
+  <AnimalMaleYoung>Macho jovem</AnimalMaleYoung>
+  <!-- EN: Female adult -->
+  <AnimalFemaleAdult>Fêmea adulta</AnimalFemaleAdult>
+  <!-- EN: Female young -->
+  <AnimalFemaleYoung>Fêmea grávida</AnimalFemaleYoung>
+  <!-- EN: Pregnant -->
+  <AnimalPregnant>Grávida</AnimalPregnant>
+  <!-- EN: Slaughter -->
+  <AllowSlaughterPregnant>Abater</AllowSlaughterPregnant>
+
+  <!-- EN: The animal to be automatically slaughtered. -->
+  <AutoSlaugtherHeaderTooltipLabel>O animal a ser abatido automaticamente.</AutoSlaugtherHeaderTooltipLabel>
+  <!-- EN: The current number of animals in the colony, both male and female. -->
+  <AutoSlaugtherHeaderTooltipCurrentTotal>O número atual de animais na colônia, tanto machos quanto fêmeas.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxTotal>O número máximo de animais na colônia, tanto machos quanto fêmeas.\n\nTreinadores abaterão automaticamente todos os extras.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <!-- EN: The current number of males of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentMales>O número atual de machos em idade reprodutiva na colônia.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <!-- EN: The current number of baby and juvenile males in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>O número atual de machos bebês e juvenis na colônia.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxMales>O número máximo de machos em idade reprodutiva na colônia.\n\nTreinadores abaterão automaticamente todos os extras.</AutoSlaugtherHeaderTooltipMaxMales>
+  <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>O número máximo de machos bebês e juvenis na colônia.\n\nTreinadores abaterão automaticamente todos os extras.</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <!-- EN: The current number of females of breeding age of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemales>O número atual de fêmeas em idade reprodutiva na colônia.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <!-- EN: The current number of baby and juvenile females in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>O número atual de fêmeas bebês e juvenis na colônia.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxFemales>O número máximo de fêmeas na colônia.\n\nTreinadores abaterão automaticamente todos as extras.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>O número máximo de fêmeas bebês e juvenis na colônia.\n\nTreinadores abaterão automaticamente todos as extras.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <!-- EN: The current number of pregnant animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentPregnant>O número atual de animais grávidos na colônia.</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Permitir que animais grávidos sejam abatidos junto com outras fêmeas da mesma espécie.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+
+  <!-- EN: Click to set an animal count limit. -->
+  <AutoSlaughterTooltipSetLimit>Clique para definir um limite de contagem de animais.</AutoSlaughterTooltipSetLimit>
+
+  <!-- Room requirements -->
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>sem camas permitidas</RoomRequirementNoBeds>
+  <!-- EN: room area: {0} tiles -->
+  <RoomRequirementArea>área do quarto: {0} ladrilhos</RoomRequirementArea>
+  <!-- EN: room impressiveness -->
+  <RoomRequirementImpressiveness>impressão do quarto</RoomRequirementImpressiveness>
+  <!-- EN: all floored -->
+  <RoomRequirementAllFloored>todo pavimentado</RoomRequirementAllFloored>
+  <!-- EN: all braziers must be lit -->
+  <RoomRequirementAllBraziersMustBeLit>todos os braseiros devem estar acesos</RoomRequirementAllBraziersMustBeLit>
+  <!-- EN: all fine floored -->
+  <RoomRequirementAllFineFloored>todo pavimentado finamente</RoomRequirementAllFineFloored>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>sem instalações de trabalho permitidas</RoomRequirementNoProductionFacilities>
+  <!-- EN: no altars allowed -->
+  <RoomRequirementNoAltars>sem altares permitidos</RoomRequirementNoAltars>
+
 </LanguageData>

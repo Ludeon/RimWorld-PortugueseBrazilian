@@ -43,13 +43,13 @@
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantidade de couro</LeatherAmount.label>
-  <!-- EN: The amount of leather yielded when butchering this creature. -->
-  <LeatherAmount.description>A quantidade de couro que você irá receber ao esquartejar esta criatura.</LeatherAmount.description>
+  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <LeatherAmount.description>A quantidade de couro que você irá receber ao esquartejar esta criatura. Este valor é reduzido se a criatura não for abatida de forma limpa ou se for ferida ao ser morta.</LeatherAmount.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>quantidade de carne</MeatAmount.label>
-  <!-- EN: The amount of meat yielded when butchering this creature. -->
-  <MeatAmount.description>A quantidade de carne que você irá receber ao esquartejar esta criatura.</MeatAmount.description>
+  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
+  <MeatAmount.description>A quantidade de carne que você irá receber ao esquartejar esta criatura. Este valor é reduzido se a criatura não for abatida de forma limpa ou se for ferida ao ser morta.</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>limite de colapso mental</MentalBreakThreshold.label>
@@ -87,5 +87,25 @@
   <ToxicSensitivity.label>sensibilidade tóxica</ToxicSensitivity.label>
   <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
   <ToxicSensitivity.description>Multiplicador sobre o impacto do acúmulo tóxico sobre este personagem.</ToxicSensitivity.description>
+
+  <!-- EN: injury healing factor -->
+  <InjuryHealingFactor.label>fator de cicatrização de lesões</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
+  <InjuryHealingFactor.description>O multiplicador aplicado à taxa de cura de lesões de uma pessoa.</InjuryHealingFactor.description>
+
+  <!-- EN: filth rate -->
+  <FilthRate.label>taxa de sujeira</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
+  <FilthRate.description>Quanta sujeira esta criatura produz.\n\nÉ melhor manter os animais produtores de sujeira ao ar livre ou em esteiras de palha, onde a sujeira não será um problema.</FilthRate.description>
+
+  <!-- EN: animals learning factor -->
+  <AnimalsLearningFactor.label>fator de aprendizagem de animais</AnimalsLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for animals skill. -->
+  <AnimalsLearningFactor.description>Um multiplicador na taxa de aprendizagem para a habilidade dos animais.</AnimalsLearningFactor.description>
+
+  <!-- EN: caravan riding speed -->
+  <CaravanRidingSpeedFactor.label>velocidade de montagem em caravana</CaravanRidingSpeedFactor.label>
+  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
+  <CaravanRidingSpeedFactor.description>O multiplicador aplicado à velocidade de movimento de uma pessoa quando ela monta neste animal como parte de uma caravana. Os animais só podem ser montados em caravanas.</CaravanRidingSpeedFactor.description>
   
 </LanguageData>
