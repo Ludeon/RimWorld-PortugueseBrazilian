@@ -4,8 +4,6 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>O transporte não pôde pousar na plataforma: {0}.</ShuttleBlocked>
-  <!-- EN: blocked by {0_label}. -->
-  <BlockedBy>bloqueado por {0_label}</BlockedBy>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>O transporte chegou</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
@@ -21,12 +19,16 @@
   <!-- EN: Warning: Anima tree has been marked for cutting. -->
   <MessageWarningCutAnimaTree>Aviso: A árvore anima foi marcada para ser cortada.</MessageWarningCutAnimaTree>
 
-  <!-- EN: Select {TARGET_definite} and right-click the bestower to begin the bestowing ceremony. -->
-  <MessageBestowerWaiting>Selecione {TARGET_definite} e clique com o botão direito no outorgante para iniciar a cerimônia de outorga.</MessageBestowerWaiting>
+  <!-- EN: Select {TARGET_definite} and click the bestower to begin the bestowing ceremony. -->
+  <MessageBestowerWaiting>Selecione {TARGET_definite} e clique em 'iniciar cerimônia de outorga' para começar a cerimônia.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>Não é possível alcançar o outorgante!</MessageBestowerUnreachable>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
   <MessageBestowingSpotUnreachable>O outorgante está incomodado com a interferência e decidiu partir.</MessageBestowingSpotUnreachable>
+  <!-- EN: The bestowing ceremony has been interrupted. -->
+  <MessageBestowingInterrupted>A cerimônia de outorga foi interrompida.</MessageBestowingInterrupted>
+  <!-- EN: The bestower is leaving due to life-threatening danger. -->
+  <MessageBestowingDanger>O outorgante está partindo devido a um perigo ameaçador à sua vida.</MessageBestowingDanger>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
   <MessageBestowingCeremonyStarted>A cerimônia de outorga de {PAWN_definite} começou.</MessageBestowingCeremonyStarted>
@@ -37,5 +39,8 @@
   <MessagePermitTransportDrop>{FACTION_name} deixou recursos nas proximidades.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
   <MessagePermitTransportDropCaravan>{FACTION_name} enviou recursos para a caravana de {PAWN_nameDef}</MessagePermitTransportDropCaravan>
+
+  <!-- EN: No orbiting mechanoids found. -->
+  <MessageNoFactionForVerbMechCluster>Nenhum mecanoide em órbita encontrado.</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>

@@ -47,7 +47,7 @@
   <EntropyDump.description>Despeje instantaneamente todo o seu calor neural em outra pessoa. Como efeito colateral, o alvo entrará em coma debilitante, mas não prejudicial, por cerca de um dia. O alvo deve aceitar ativamente a invasão psíquica, para que apenas aliados conscientes possam ser alvejados.</EntropyDump.description>
   
   <!-- EN: farskip -->
-  <Farskip.label>Teleporte para longe</Farskip.label>
+  <Farskip.label>teleporte longo</Farskip.label>
   <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
   <Farskip.description>Teleporte o caster, junto com todos que estão perto dele, para um aliado em um local distante. Isso serve para enviar pessoas para bem longe do planeta, porém só funciona se tem um aliado do outro lado disposto a ser uma satélite de navegação. As pessoas teletransportadas sempre vão aparecer perto de um aliado aleatório do mapa escolhido.</Farskip.description>
   
@@ -77,11 +77,11 @@
   <MassChaosSkip.description>Teleporte todos perto de um ponto-alvo para um local aleatório próximo.</MassChaosSkip.description>
   
   <!-- EN: neuroquake -->
-  <Neuroquake.label>Terremoto neural</Neuroquake.label>
-  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
-  <Neuroquake.description>Ache uma discontinuidade no campo físico e a desdobre, liberando uma massiva quantidade de energia psíquica. Toda criatura no mapa fora do círculo de segurança perto do caster se tornarão violentamente insanas. Utiliizar este poder leva três horas de meditação, e depois o caster ficará em coma psíquico por três dias. O eco perturbador do terremoto neural causará dor em todo mundo em um raio de muitos quilômetros, causando consequências diplomáticas com todas as facções.</Neuroquake.description>
-  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
-  <Neuroquake.confirmationDialogText>Caso usar o terremoto neural, todo mundo nesta região sentirá o eco do terremoto neural, você perderá status de boa vontade com toda facção não-hostil.\n\nTerremotos neurais levam três horas para serem conjurados e não podem ser interrompidos. O conjurador entrará em coma psicótico por vários dias.\n\Todo mundo no mapa exceto aqueles que se encontram no círculo do lado do conjurador serão afetados.\n\nVocê realmente quer conjurar o terremoto neural?</Neuroquake.confirmationDialogText>
+  <Neuroquake.label>terremoto neural</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>Encontra uma descontinuidade no campo psíquico e desdobra-a, liberando uma enorme quantidade de energia psíquica. Cada criatura ao alcance, mas fora do círculo interno seguro será levada violentamente à loucura. Lançar isso leva 12 segundos de meditação e, depois, o lançador entrará em um coma psíquico de cinco dias. Os ecos perturbadores do terremoto neural causarão dor a todos por muitos quilômetros ao redor, causando consequências diplomáticas para todas as facções.</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>Se você usar o terremoto neural, todos nesta região sentirão seu eco, você perderá a boa vontade com todas as facções não hostis.\n\nO terremoto neural leva 12 segundos para ser lançado e não pode ser interrompido. Quando concluído, o lançador entrará em um coma psíquico por 5 dias.\n\nTodos ao alcance, exceto aqueles em um pequeno círculo ao redor do lançador, serão afetados.\n\nVocê realmente deseja lançar o terremoto neural?</Neuroquake.confirmationDialogText>
   
   <!-- EN: painblock -->
   <Painblock.label>bloqueador de dor</Painblock.label>
@@ -95,7 +95,7 @@
   
   <!-- EN: smokepop -->
   <Smokepop.label>bomba de fumaça</Smokepop.label>
-  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
+  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
   <Smokepop.description>Agite as partículas de poeira sob a superfície do solo para formar uma nuvem espessa. Isso reduz a precisão de qualquer tiro disparado através dela e evita que as torretas travem o alvo com eficiência.</Smokepop.description>
   
   <!-- EN: solar pinhole -->
@@ -110,7 +110,7 @@
   
   <!-- EN: stun -->
   <Stun.label>atordoamento</Stun.label>
-  <!-- EN: Momentarily disrupt motor function in target's brain, preventing any movement. -->
+  <!-- EN: Momentarily disrupt motor function in the target's brain, preventing any movement. -->
   <Stun.description>Interrompa momentaneamente a função motora no cérebro do alvo, impedindo qualquer movimento.</Stun.description>
   
   <!-- EN: vertigo pulse -->
@@ -129,28 +129,33 @@
   <Waterskip.description>Mergulhe uma área alvo na água, extinguindo incêndios. A água é archotecnologicamente teletransportada de corpos distantes de água ou aquíferos subterrâneos.</Waterskip.description>
   
   <!-- EN: word of inspiration -->
-  <WordOfInspiration.label>Palavra de inspiração</WordOfInspiration.label>
+  <WordOfInspiration.label>palavra de inspiração</WordOfInspiration.label>
   <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
   <WordOfInspiration.description>Fale palavras encorajadoras e criativas enquanto encha psíquicamente a cabeça do alvo com novas ideias. O alvo experimentará inspirações aleatórias, mas apropriadas para eles.</WordOfInspiration.description>
   
   <!-- EN: word of joy -->
-  <WordOfJoy.label>Palavra de alegria</WordOfJoy.label>
+  <WordOfJoy.label>palavra de alegria</WordOfJoy.label>
   <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
   <WordOfJoy.description>Fale de maneira feliz, com palavras tranquilizantes para alguém enquanto usa a sugestão psíquica para implementar uma euforia de felicidade em loop na sua mente. A euforia de felicidade reprimirá pensamentos e sensações desconfortáveis no alvo para melhorar o seu humor. Isso, no entanto, tem um efeito colateral de desnivelar o bom senso na hora de tomar decisões, o que diminui a sua consciência.</WordOfJoy.description>
   
   <!-- EN: word of love -->
-  <WordOfLove.label>Palavra de amor</WordOfLove.label>
+  <WordOfLove.label>palavra de amor</WordOfLove.label>
   <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
   <WordOfLove.description>Fale sobre as virtudes românticas de alguém enquanto estiver usando a sugestão psíquica para implementar desejo amoroso no ouvinte. Por vários dias, o ouvinte se sentirá psíquicamente induzido de maneira romântica e sentirá atração por outra pessoa. Isso melhora muito a imagem do outro e aumenta as chances de terem investidas românticas e até propostas de casamentos, se tiverem uma chance. Este poder pode ser usado para conectar duas pessoas, induzir amor para o conjurador, ou forçar alguém amar outra pessoa.</WordOfLove.description>
   
   <!-- EN: word of serenity -->
-  <WordOfSerenity.label>Palavra de serenidade</WordOfSerenity.label>
+  <WordOfSerenity.label>palavra de serenidade</WordOfSerenity.label>
   <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
   <WordOfSerenity.description>Use palavras tranquilizantes e sugestão psíquica para acabar com intenso estado de estresse mental de uma pessoa ou animal. O alvo cairá brevemente em um sono psíquico. O custo de concentração psíquica dependerá da intensidade de estresse mental do alvo.</WordOfSerenity.description>
   
   <!-- EN: word of trust -->
-  <WordOfTrust.label>Palavra de confiança</WordOfTrust.label>
+  <WordOfTrust.label>palavra de confiança</WordOfTrust.label>
   <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This can only reduce a prisoner's resistance, but cannot recruit him. -->
   <WordOfTrust.description>Fale com um prisioneiro enquanto estiver usando sugestão psíquica para reduzir sua resistência no momento do recrutamento. Isso não faz que o prisioneiro seja recrutado, apenas diminui sua resistência.</WordOfTrust.description>
+
+  <!-- EN: anima tree linking -->
+  <AnimaTreeLinking.label>ligação com árvore anima</AnimaTreeLinking.label>
+  <!-- EN: Start the anima tree linking ceremony. The linking person will meditate near the tree to gain a psylink level. Other psychically-sensitive colonists can also  help enhance the psychic link. More participants will accelerate the ceremony and cause some of the anima grass to re-grow as the ritual completes. -->
+  <AnimaTreeLinking.description>Começa a cerimônia de ligação com a árvore anima. A pessoa que faz a ligação meditará perto da árvore para obter um nível de psylink. Outros colonos psiquicamente sensíveis também podem ajudar a aumentar o vínculo psíquico. Mais participantes irão acelerar a cerimônia e fazer com que parte da grama da anima volte a crescer à medida que o ritual é concluído.</AnimaTreeLinking.description>
   
 </LanguageData>

@@ -427,20 +427,24 @@
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
   <Difficulty_AllowTurrets_Info>Jogador pode construir torretas imóveis como mini-torretas, torreta de canhão e torretas de bala de urânio.\n\nVocê ainda poderá usar torretas capturadas mesmo se este parâmetro for desabilitado.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
-  <Difficulty_AllowMortars_Label>Jogadores podem construir morteiros</Difficulty_AllowMortars_Label>
+  <Difficulty_AllowMortars_Label>Jogador pode construir morteiros</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>Jogadores podem construir morteiros.\n\nVocê ainda poderá usar torretas capturadas mesmo se este parâmetro for desabilitado.</Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>Jogador pode construir morteiros.\n\nVocê ainda poderá usar torretas capturadas mesmo se este parâmetro for desabilitado.</Difficulty_AllowMortars_Info>
+  <!-- EN: Classic mortars -->
+  <Difficulty_ClassicMortars_Label>Morteiros clássicos</Difficulty_ClassicMortars_Label>
+  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
+  <Difficulty_ClassicMortars_Info>Morteiros não requerem barris reforçados para serem construídos ou recarregados e são balanceados para facilitar o acesso.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>Adaptação</DifficultyAdaptationSection>
-  <!-- EN: Damage adaptation growth -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Crescimento do dano de adaptação</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptação significa que o narrador IA deixará o jogo mais desafiador com o tempo enquanto não houver perdas. Isto é separado dos efeitos da história sobre riqueza e população.\n\nEste parâmetro ajusta a taxa de crescimento de desafio.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
-  <!-- EN: Damage adaptation effect -->
-  <Difficulty_AdaptationEffectFactor_Label>Efeito do dano de adaptação</Difficulty_AdaptationEffectFactor_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
-  <Difficulty_AdaptationEffectFactor_Info>Adaptação significa que o narrador IA deixará o jogo mais desafiador com o tempo enquanto não houver perdas. Isto é separado dos efeitos da história sobre riqueza e população.\n\nEste parâmetro ajusta o efeito do valor de adaptação em ameaças efetivas.</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Adaptation growth rate -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Taxa de crescimento de adaptação</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptação significa que o narrador torna o jogo mais desafiador quando você está indo bem. Uma pontuação de adaptação aumenta com o tempo e é derrubada quando você sofre danos.\n\nEsta configuração ajusta a rapidez com que a pontuação de adaptação cresce com o tempo.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Adaptation impact -->
+  <Difficulty_AdaptationEffectFactor_Label>Impacto da adaptação</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
+  <Difficulty_AdaptationEffectFactor_Info>Adaptação significa que o narrador torna o jogo mais desafiador quando você está indo bem. Uma pontuação de adaptação aumenta com o tempo e é derrubada quando você sofre danos.\n\nEsta configuração ajusta o quanto a pontuação de adaptação afeta a dificuldade.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Modo de progresso fixo</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
@@ -555,6 +559,8 @@
   <IncapableOfTooltipWorkTypes>Tipos de trabalho desativados:</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by quest status: {0} -->
   <IncapableOfTooltipQuest>Causado pelo status da missão: {0}</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role: {0} -->
+  <IncapableOfTooltipRole>Causado pela função: {0}</IncapableOfTooltipRole>
   <!-- EN: Traits -->
   <Traits>Traços</Traits>
   <!-- EN: Permanent mood effect -->
@@ -573,6 +579,8 @@
   <Male>masculino</Male>
   <!-- EN: female -->
   <Female>feminino</Female>
+  <!-- EN: male and female -->
+  <MaleAndFemale>masculino e feminino</MaleAndFemale>
   <!-- EN: male -->
   <MaleAnimal>macho</MaleAnimal>
   <!-- EN: female -->
@@ -589,6 +597,8 @@
   <StartingPawnsSelected>Selecionado</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Deixado para trás</StartingPawnsLeftBehind>
+  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
+  <GuiltyDesc>Este colono é considerado culpado. Você pode banir, executar ou prendê-lo livremente, e os outros não se incomodarão.\n\nA culpa expira em</GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
@@ -628,5 +638,27 @@
   <ClickForMoreInfo>Clique para mais informações</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Não há mais informações disponíveis.</NoMoreInfoAvailable>
+
+  <!-- Factions -->
+  <!-- EN: Factions -->
+  <Factions>Facções</Factions>
+  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
+  <RecommendedFactionCount>Problemas de jogabilidade podem ocorrer com mais de {0} facções.</RecommendedFactionCount>
+  <!-- EN: Maximum {0} visible factions allowed. -->
+  <TotalFactionsAllowed>Máximo de {0} facções visíveis permitidas.</TotalFactionsAllowed>
+  <!-- EN: There can be no more than {0} {1}. -->
+  <MaxFactionsForType>Não pode haver mais do que {0} {1}.</MaxFactionsForType>
+  <!-- EN: Restore defaults -->
+  <ResetFactionsToDefault>Restaurar padrões</ResetFactionsToDefault>
+  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
+  <FactionSelectionDesc>Selecione as facções do mundo. Você pode selecionar até {0} facções no total.</FactionSelectionDesc>
+  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
+  <FactionDisabledContentWarning>Desativar {0} significa menos variedade de missões e outros conteúdos reduzidos.</FactionDisabledContentWarning>
+  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
+  <InsectsDisabledContentWarning>Desativar {0} significa menos variedade de ameaças espontâneas.</InsectsDisabledContentWarning>
+  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
+  <MechanoidsDisabledContentWarning>Desativar {0} significa menos variedade de ameaças espontâneas.</MechanoidsDisabledContentWarning>
+  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
+  <FactionsDisabledWarning>Sem outras facções, invasões, negociações e missões não ocorrerão normalmente.</FactionsDisabledWarning>
 
 </LanguageData>

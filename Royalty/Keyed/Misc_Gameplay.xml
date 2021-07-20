@@ -102,8 +102,6 @@
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} está pronto(a) para usar {1}.</AbilityReadyText>
   
-  <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
-  <AbilitySpeechTooltip>Inicie um discurso do trono. {ORGANIZER_labelShort} irá para seu trono e chamará todos os colonos para ouvir um discurso lá. Se tudo correr bem, os ouvintes se sentirão inspirados, e ganharão respeito por {ORGANIZER_labelShort}. Se der errado, o discurso causará danos sociais. O resultado depende das habilidades sociais de {ORGANIZER_labelShort}.</AbilitySpeechTooltip>
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>nenhum trono designado.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -120,6 +118,15 @@
   <AbilitySpeechPossibleOutcomes>Chance de resultado</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>Estatística {1} de {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>Iniciado às</AbilitySpeechTargetsLabel>
+  <!-- EN: Dignified throne -->
+  <AbilitySpeechTargetDescThrone>Trono digno</AbilitySpeechTargetDescThrone>
+  
+  <!-- EN: no accessible altar. -->
+  <RitualDisabledNoAltar>nenhum altar acessível.</RitualDisabledNoAltar>
+  <!-- EN: Bestowing Ceremony -->
+  <RitualBestowingCeremony>Cerimônia de Outorga</RitualBestowingCeremony>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>Meditação total hoje {0} (progress multiplier {1}) </TotalMeditationToday>
@@ -131,23 +138,36 @@
   <BeginLinkingRitualNeedSubplants>É necessário {0} {1} aqui (tem {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>É necessário o tipo {0} de psylink</BeginLinkingRitualNeedFocus>
+  <!-- EN: Max psylink level -->
+  <BeginLinkingRitualMaxPsylinkLevel>Nível máximo de psylink</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>É necessário um local livre e acessível dentro de 3 células para vincular</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Ritual de vinculação concluído</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort} concluiu o ritual de vinculação com {LINKABLE_labelShort}.\n\n{PAWN_pronoun} agora possui um psylink atualizado, permitindo o uso de novos poderes psíquicos.</LetterTextLinkingRitualCompleted>
+  <!-- EN: Additionally, {0} anima grass has been restored. -->
+  <LetterTextLinkingRitualCompletedAnimaGrass>Além disso, {0} gramas anima foram restauradas.</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
   <LandHere>Aterrise o transporte aqui</LandHere>
   <!-- EN: Destination is out of range. -->
   <MessageShuttleDestinationIsTooFar>Destino fora de alcance</MessageShuttleDestinationIsTooFar>
 
-  <!-- EN: Do bestowing ceremony -->
-  <BeginCeremony>Realizar cerimônia de outorga</BeginCeremony>
+  <!-- EN: Start bestowing ceremony for {0_labelShort} -->
+  <BeginCeremony>Começar a cerimônia de outorga de {0_labelShort}</BeginCeremony>
+  <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>A sala do trono de {PAWN_definite} não atende aos requisitos do título de {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
   <BestowingCeremonyThroneroomRequirementsNotSatisfied>O outorgante se sente ofendido que a sala do trono de {PAWN_definite} não cumpre com os requisitos do título de {TITLE}. A cerimônia de outorga foi cancelada.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <!-- EN: bestowing ceremony -->
+  <BestowingCeremonyLabel>cerimônia de outorga</BestowingCeremonyLabel>
+  <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
+  <BestowingOutcomeQualitySpecific>A qualidade total da cerimônia de outorga era {0}, determinada por esses fatores</BestowingOutcomeQualitySpecific>
 
+  <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
+  <AnimaLinkingExplanationBase>A cerimônia de vinculação com a anima é mais poderosa com mais participantes. Quanto mais pessoas participarem, menos tempo a cerimônia levará e mais grama anima crescerá.\n\nCom {0} participantes adicionais, {1} gramas anima serão restauradas no final da cerimônia.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>A carga necessária ainda não foi carregada completamente!</ShuttleRequiredItemsNotSatisfied>
+
 </LanguageData>

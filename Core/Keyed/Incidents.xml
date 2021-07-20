@@ -40,6 +40,11 @@
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} é de {PAWN_factionName}. Se você resgatar {PAWN_pronoun}, {PAWN_pronoun} poderá se unir a você. Caso contrário, {PAWN_pronoun} retornará para casa e melhorará a boa vontade entre suas facções.\n\nVocê também pode capturar {PAWN_pronoun} para fins de recrutamento ou escravidão, mas isso enfurecerá a facção {PAWN_objective}.</RefugeePodCrash_NonHostile>
 
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
+  <LetterLabelWandererJoins>Viajante se junta: {PAWN_nameDef}</LetterLabelWandererJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
+  <LetterWandererJoins>Um(a) {PAWN_title} chamado(a) {PAWN_nameDef} chegou e quer se juntar à colônia.\n\n[PAWN_pronoun] está disposto(a) a contribuir, mas não vai sair voluntariamente, alegando não ter nenhum outro lugar para ir. Você pode escolher o(a) derrubar e o(a) expulsar. No entanto, seus colonos ficarão incomodados em expulsar alguém em necessidade.</LetterWandererJoins>
+
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Cápsulas de carga</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
@@ -59,7 +64,7 @@
   <ShortCircuitWasHuge>Esta foi realmente uma enorme explosão. Uau.</ShortCircuitWasHuge>
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
-  <TraderArrival>Uma nave de comércio está passando nas proximidades.\n\nEles são conhecidos como {0}. Eles são um {1}.\n\n{2}</TraderArrival>
+  <TraderArrival>Uma nave de comércio está passando nas proximidades.\n\nEles são conhecidos como {0}. Eles são {1}.\n\n{2}</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
   <TraderArrivalFromFaction>Eles são afiliados a {FACTION_name}.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
@@ -150,7 +155,7 @@
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
-  <LetterTraderCaravanArrival>Uma caravana de comércio de {0} está se aproximando. Eles são um {1}.</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>Uma caravana de comércio de {0} está se aproximando. Eles são {1}.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
   <LetterCaravanArrivalCommonWarning>Eles ficarão na colônia por algum tempo antes de partir. Você pode atacá-los - mas isso irritará a facção deles!</LetterCaravanArrivalCommonWarning>
     
