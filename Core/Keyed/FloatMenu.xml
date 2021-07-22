@@ -388,7 +388,7 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Não é possível {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: incapable of {0} -->
+  <!-- EN: Cannot prioritize: Incapable of {0} -->
   <CannotMissingHealthActivities>Impossível priorizar: Incapaz de {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
@@ -400,21 +400,21 @@
   <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Não é possível priorizar: Nunca fará {0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
-  <CannotTradeMissingTitleAbility>sem o título necessário</CannotTradeMissingTitleAbility>
+  <MissingTitleAbility>TODO</MissingTitleAbility>
 
   <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Impossível priorizar: Nunca irá {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nunca vai {0}</WillNever>
 
-  <!-- EN: Cannot prioritize: not assigned to {0} -->
+  <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>Impossível priorizar: Não atribuído a {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>não atribuído</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>não atribuído a {0}</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize: research is a long-term task -->
+  <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch>Impossível priorizar: Pesquisar é uma tarefa de longo prazo</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
@@ -492,9 +492,9 @@
   <!-- EN: Nobody to call -->
   <NoCommsTarget>Ninguém para chamar</NoCommsTarget>
 
-  <!-- EN: Invoke -->
+  <!-- EN: Invoke {0} -->
   <Invoke>Invocar {0}</Invoke>
-  <!-- EN: Cannot invoke -->
+  <!-- EN: Cannot invoke {0} -->
   <CannotInvoke>Impossível invocar {0}</CannotInvoke>
   <!-- EN: power -->
   <Power>poder</Power>
@@ -512,7 +512,10 @@
 
   <!-- EN: Repair {0} -->
   <RepairThing>Reparar {0}</RepairThing>
-  <!-- EN: Cannot repair -->
+  <!-- EN: Cannot repair {0} -->
   <CannotRepair>Impossível reparar {0}</CannotRepair>
+  
+  <!-- UNUSED -->
+  <CannotTradeMissingTitleAbility>sem o título necessário</CannotTradeMissingTitleAbility>
 
 </LanguageData>
