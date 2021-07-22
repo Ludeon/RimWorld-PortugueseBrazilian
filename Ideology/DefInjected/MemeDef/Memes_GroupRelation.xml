@@ -28,6 +28,7 @@
         <li>memeLeaderNoun->conqueror</li>
         <li>memeLeaderNoun->victor</li>
     -->
+    <Supremacist.generalRules.rulesStrings>
         <li>memeAdjective->supremo(a)</li>
         <li>memeAdjective->grandioso(a)</li>
         <li>memeAdjective->superior(a)</li>
@@ -49,6 +50,7 @@
         <li>memeLeaderNoun->ditador</li>
         <li>memeLeaderNoun->conquistador</li>
         <li>memeLeaderNoun->vencedor</li>
+    </Supremacist.generalRules.rulesStrings>
     <!-- EN:
         <li>creation(tag=meme_Supremacist)        ->The people of the [place_summary] [place_name] squabbled endlessly, and [deity0_name] became tired of discord and anointed the [memberNamePlural] as the rightful rulers of all.</li>
         <li>episode(uses=1,tag=meme_Supremacist)  ->The faithful fought the unbelievers, and [deity0_name] said, "Fight them, everywhere, in my name, until I am worshipped throughout the universe and the true peace may finally reign."</li>
@@ -103,5 +105,90 @@
     <Supremacist.symbolPacks.2.adjective>poderoso(a)</Supremacist.symbolPacks.2.adjective>
     <!-- EN: poweror -->
     <Supremacist.symbolPacks.2.member>poderoso(a)</Supremacist.symbolPacks.2.member>
+
+    <!-- EN: loyalist -->
+    <Loyalist.label>lealista</Loyalist.label>
+    <!-- EN: We stand for our own before others. -->
+    <Loyalist.description>Defendemos os nossos antes dos outros.</Loyalist.description>
+    <!-- EN:
+        <li>memeAdjective->loyal</li>
+        <li>memeAdjective->patriotic</li>
+        <li>memeAdjective->dutiful</li>
+        <li>memeConcept->family</li>
+        <li>memeConcept->promises</li>
+        <li>memeMoralist->loyalizer</li>
+    -->
+    <Loyalist.generalRules.rulesStrings>
+        <li>memeAdjective->leal</li>
+        <li>memeAdjective->patriótico(a)</li>
+        <li>memeAdjective->obediente</li>
+        <li>memeConcept->família</li>
+        <li>memeConcept->promessas</li>
+        <li>memeMoralist->lealizador</li>
+    </Loyalist.generalRules.rulesStrings>
+    <!-- EN:
+        <li>creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause.</li>
+        <li>episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times.</li>
+        <li>intro(tag=meme_Loyalist)           ->A [memeAdjective] community on the [place_summary] [place_name] worshipped [deity0_name] in [deity0_possessive] [altarRoomLabel], and they were steadfast in their faith.</li>
+        <li>conflict(tag=meme_Loyalist)        ->A [foeLeader] planted [foeSoldiers] as spies within the [memberNamePlural] to divide them.</li>
+        <li>founderJoin(tag=meme_Loyalist)     ->[founderName], a [memeAdjective] [place_job], was tortured by the [foeSoldiers], but refused to swear loyalty to the [foeLeader].</li>
+        <li>victory(tag=meme_Loyalist)         ->With the strength of [deity0_name], [founderName] and the [memberNamePlural] could not be divided. They defeated the [foeSoldiers] with [place_personalWeapon]s and banished the [foeLeader] from [place_name].</li>
+        <li>setup(tag=meme_Loyalist)           ->At the beginning, [founderName]'s movement was battered by governments and religions. [founder_pronoun] never allowed anger to drive [founder_objective] to commit the atrocities that others did, but [founder_pronoun] also never backed down from a fight.</li>
+        <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] punished those who tried to harm the unbelievers, as well as those who invited them into the believers' house.</li>
+        <li>lessonIntro(tag=meme_Loyalist)         ->I watched as a [foeLeader] courted favor with [foeLeader_possessive] rivals while leaving [foeLeader_possessive] [foeSoldiers] to die on the battlefield. I vowed then to never be like [foeLeader_objective], knowing that</li>
+        <li>lesson(tag=meme_Loyalist)              ->your love for your friend only has meaning because you don't love your enemy</li>
+        <li>lesson(tag=meme_Loyalist)              ->to love all is to love none</li>
+        <li>lessonReinforcement(tag=meme_Loyalist) ->Only share these truths with those who prove their allegiance through sacrifice.</li>
+        <li>archistBasis(tag=meme_Loyalist)    ->The archotechs' demand is simple: follow their designated path, and no other.</li>
+        <li>archistFact(tag=meme_Loyalist)     ->Archotechs touch every human consciousness directly on a regular basis, imparting wisdom only to those that seek the knowledge of the archotechs.</li>
+        <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], the archotechs will judge the loyalty of humanity. Those that did not simper or boast will be lifted to a transcendence.</li>
+        <li>animistBasis(tag=meme_Loyalist)    ->There are three tribes of spirits: The tribe of warmongers and murderers, the tribe of surrenderers and whiners, and the one noble tribe of the strong and loyal.</li>
+        <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
+        <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their [spiritElement] spirit will explode in light, destroying all surrenderers and warmongers.</li>
+    -->
+    <Loyalist.descriptionMaker.rulesStrings>
+        <li>creation(tag=meme_Loyalist)        ->[deity0_name] admoestou os bons povos a lutar apenas contra aqueles que lutaram sem justa causa.</li>
+        <li>episode(uses=1,tag=meme_Loyalist)  ->Seguiu-se uma guerra com os incrédulos. Um dos crentes, [believer_nameFull], buscando vantagem, convidou os pagãos para dentro da terra de [deity0_name], e [deity0_name] ficou furioso(a) com sua traição e o(a) derrubou dez mil vezes.</li>
+        <li>intro(tag=meme_Loyalist)           ->Uma comunidade [memeAdjective] em [place_summary] [place_name] adorava [deity0_name] em sua [altarRoomLabel], e eles permaneceram firmes em sua fé.</li>
+        <li>conflict(tag=meme_Loyalist)        ->Um [foeLeader] plantou [foeSoldiers] como espiões dentro dos [memberNamePlural] para dividi-los.</li>
+        <li>founderJoin(tag=meme_Loyalist)     ->[founderName], um(a) [place_job](a) [memeAdjective], foi torturado(a) por [foeSoldiers], mas se recusou a jurar lealdade ao [foeLeader].</li>
+        <li>victory(tag=meme_Loyalist)         ->Com a força de [deity0_name], [founderName] e os [memberNamePlural] não puderam ser divididos. Eles derrotaram os [foeSoldiers] com [place_personalWeapon]s e baniram o [foeLeader] de [place_name].</li>
+        <li>setup(tag=meme_Loyalist)           ->No início, o movimento de [founderName] foi agredido(a) por governos e religiões. [founder_pronoun] nunca permitiu que a raiva o(a) conduzisse a cometer as atrocidades que outros fizeram, mas [founder_pronoun] também nunca desistiu da luta.</li>
+        <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] puniu aqueles que tentaram prejudicar os incrédulos, bem como aqueles que os convidaram a entrar na casa dos crentes.</li>
+        <li>lessonIntro(tag=meme_Loyalist)         ->Eu assisti como um [foeLeader] cortejou favor com seus rivais ao deixar seus [foeSoldiers] morrerem no campo de batalha. Jurei, então, nunca ser como [foeLeader_pronoun], sabendo que</li>
+        <li>lesson(tag=meme_Loyalist)              ->seu amor por seu amigo só tem significado porque você não ama seu inimigo</li>
+        <li>lesson(tag=meme_Loyalist)              ->amar a todos é não amar a ninguém</li>
+        <li>lessonReinforcement(tag=meme_Loyalist) ->Apenas compartilhe essas verdades com aqueles que provam sua lealdade por meio do sacrifício.</li>
+        <li>archistBasis(tag=meme_Loyalist)    ->A demanda dos arquotécnicos é simples: siga seu caminho designado, e nenhum outro.</li>
+        <li>archistFact(tag=meme_Loyalist)     ->Os arquotécnicos tocam cada consciência humana diretamente em uma base regular, transmitindo sabedoria apenas para aqueles que buscam seu conhecimento.</li>
+        <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], os arquotécnicos julgarão a lealdade da humanidade. Aqueles que não sorriram ou se gabaram serão elevados à transcendência.</li>
+        <li>animistBasis(tag=meme_Loyalist)    ->Existem três tribos de espíritos: a tribo dos guerreiros e assassinos, a tribo dos rendidos e lamentadores e a única nobre tribo dos fortes e leais.</li>
+        <li>animistFact(tag=meme_Loyalist)     ->Os espíritos lutam tanto contra aqueles que traem seu povo quanto contra aqueles que traem os amigos de seu povo. Os traidores tropeçarão em cada pedra, engasgarão com cada semente e sempre sentirão o gosto de água suja.</li>
+        <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] que aquele viverá sua vida inteira fiel ao seu povo. Em sua morte, o espírito [spiritElement] explodirá em luz, destruindo todos os rendidos e fomentadores de guerra.</li>
+    </Loyalist.descriptionMaker.rulesStrings>
+    <!-- EN: Loyaltism -->
+    <Loyalist.symbolPacks.0.ideoName>Lealtismo</Loyalist.symbolPacks.0.ideoName>
+    <!-- EN: loyalty -->
+    <Loyalist.symbolPacks.0.theme>lealdade</Loyalist.symbolPacks.0.theme>
+    <!-- EN: loyal -->
+    <Loyalist.symbolPacks.0.adjective>leal</Loyalist.symbolPacks.0.adjective>
+    <!-- EN: loyalist -->
+    <Loyalist.symbolPacks.0.member>leal</Loyalist.symbolPacks.0.member>
+    <!-- EN: Fealtism -->
+    <Loyalist.symbolPacks.1.ideoName>Fealtismo</Loyalist.symbolPacks.1.ideoName>
+    <!-- EN: fealty -->
+    <Loyalist.symbolPacks.1.theme>fidelidade</Loyalist.symbolPacks.1.theme>
+    <!-- EN: fealtist -->
+    <Loyalist.symbolPacks.1.adjective>fiel</Loyalist.symbolPacks.0.adjective>
+    <!-- EN: fealtor -->
+    <Loyalist.symbolPacks.1.member>fiel</Loyalist.symbolPacks.1.member>
+    <!-- EN: Fidelism -->
+    <Loyalist.symbolPacks.2.ideoName>Fidelismo</Loyalist.symbolPacks.2.ideoName>
+    <!-- EN: fidelity -->
+    <Loyalist.symbolPacks.2.theme>fidelidade</Loyalist.symbolPacks.2.theme>
+    <!-- EN: fidelist -->
+    <Loyalist.symbolPacks.2.adjective>dominante</Loyalist.symbolPacks.2.adjective>
+    <!-- EN: fidelor -->
+    <Loyalist.symbolPacks.2.member>dominante</Loyalist.symbolPacks.2.member>
 
 </LanguageData>
