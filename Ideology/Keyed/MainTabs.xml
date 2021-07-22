@@ -1,283 +1,193 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	  <!-- Ideoligions -->
-<!-- EN:  Deities -->
-	  <Deities>Divindades</Deities>
-	  
-<!-- EN:  Show all ideoligions -->
-	  <ButtonShowAllIdeoligions>Mostrar todas as ideologias</ButtonShowAllIdeoligions>
-	  
-<!-- EN:  Ideoligion of -->
-	  <IdeoligionOf>Ideologia de</IdeoligionOf>
-	  
-<!-- EN:  Memes -->
-	  <Memes>Memes</Memes>
-	  
-<!-- EN:  Narrative -->
-	  <CoreNarrative>Narrativa</CoreNarrative>
-	  
-<!-- EN:  The core narrative of your ideoligion. This has no gameplay impact. -->
-	  <CoreNarrativeDesc> A narrativa central da sua ideologia. Isso não tem impacto na jogabilidade.</CoreNarrativeDesc>
-	  
-<!-- EN:  Edit narrative -->
-	  <EditNarrative>Editar narrativa</EditNarrative>
-	  
-<!-- EN:  Clicking this button toggles a lock the current ideoligion narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
-	  <LockButtonDesc>Clicar neste botão gera um bloqueio da narrativa da ideologia atual. Quando bloqueado, o texto narrativo não será gerado novamente de forma automatica se a ideologia for alterada.</LockButtonDesc>
-<!-- EN:  Narrative lock is currently on. The narrative will not auto-regenerate. -->
-	  <LockInOn>O bloqueio narrativo está ativado. A narrativa não se modificará automaticamente.</LockInOn>
-	  
-<!-- EN:  Narrative lock is currently off. The narrative text can auto-regenerate. -->
-	  <LockInOff>O bloqueio narrativo está desativado no momento. O texto narrativo pode ser modificar automaticamente.</LockInOff>
-	  
-<!-- EN:  Precepts -->
-	  <Precepts>Preceitos</Precepts>
-	  
-<!-- EN:  Rituals -->
-	  <Rituals>Rituais</Rituals>
-	  
-<!-- EN:  Roles -->
-	  <IdeoRoles>Papéis</IdeoRoles>
-	  
-<!-- EN:  Buildings -->
-	  <IdeoBuildings>Edifícios</IdeoBuildings>
-	  
-<!-- EN:  Relics -->
-	  <IdeoRelics>Relíquias</IdeoRelics>
-	  
-<!-- EN:  Preferred apparel -->
-	  <IdeoApparel>Preferência de vestuário</IdeoApparel>
-	  
-<!-- EN:  apparel desire -->
-	  <IdeoApparelDesire>Vestuário desejado</IdeoApparelDesire>
-	  
-<!-- EN:  Won't do -->
-	  <UnwillingToDoIdeoAction>TODO</UnwillingToDoIdeoAction>
-	  
-<!-- EN:  Stats -->
-	  <PreceptStats>Estatísticas</PreceptStats>
-	  
-<!-- EN:  Prohibitions -->
-	  <Prohibitions>Proibições</Prohibitions>
-	  
-<!-- EN:  Opinions -->
-	  <Opinions>Opniões</Opinions>
-	  
-<!-- EN:  Randomize name -->
-	  <RandomizeName>Aleatorizar nome</RandomizeName>
-	  
-<!-- EN:  Randomize precepts -->
-	  <RandomizePrecepts>Aleatorizar preceitos</RandomizePrecepts>
-	  
-<!-- EN:  Add precept -->
-	  <AddPrecept>Adicionar Preceito</AddPrecept>
-	  
-<!-- EN:  Randomize deities -->
-	  <RandomizeDeities>Aleatorizar divindades</RandomizeDeities>
-	  
-<!-- EN:  Add deity -->
-	  <AddDeity>Adicionar divindade</AddDeity>
-	  
-<!-- EN:  Choose memes -->
-	  <ChooseMemes>Escolher memes</ChooseMemes>
-	  
-<!-- EN:  Choose structure -->
-	  <ChooseStructure>Escolher estrutura</ChooseStructure>
-	  
-<!-- EN:  Choose culture -->
-	  <ChooseCulture>Escolher cultura</ChooseCulture>
-	  
-<!-- EN:  Culture -->
-	  <Culture>Cultura</Culture>
-	  
-<!-- EN:  Culture affects names, appearances, and symbols. -->
-	  <CultureTip>A cultura afeta nomes, aparências e símbolos.</CultureTip>
-	  
-<!-- EN:  Structure -->
-	  <StructureMeme>Estrutura</StructureMeme>
-	  
-<!-- EN:  An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
-	  <StructureMemeTip>A estrutura de uma ideologia determina o tipo de entidades e forças que ela considera importantes para a estrutura moral do universo. Não tem efeitos de jogo diretos.</StructureMemeTip>
-	  
-<!-- EN:  Adjective -->
-	  <Adjective>Adjetivo</Adjective>
-	  
-<!-- EN:  Ritual room -->
-	  <WorshipRoom>Sala de ritual</WorshipRoom>
-	  
-<!-- EN:  Member noun -->
-	  <IdeoMembers>Nome de membro</IdeoMembers>
-	  
-<!-- EN:  Member plural -->
-	  <IdeoMembersPlural>Nome de membros no plural</IdeoMembersPlural>
-	  
-<!-- EN:  Edit symbols -->
-	  <EditSymbols>Editar símbolos</EditSymbols>
-	  
-<!-- EN:  Edit deity -->
-	  <EditDeity>Editar divindade</EditDeity>
-	  
-<!-- EN:  Edit required apparel -->
-	  <EditApparelRequirement>Editar vestuário obrigatório</EditApparelRequirement>
-	  
-<!-- EN:  Edit name -->
-	  <EditName>Editar nome</EditName>
-	  
-<!-- EN:  Any time -->
-	  <StartingCondition_Anytime>Qualquer momento</StartingCondition_Anytime>
-	  
-<!-- EN:  Date -->
-	  <StartingCondition_Date>Data</StartingCondition_Date>
-	  
-<!-- EN:  Starting condition -->
-	  <StartingCondition>condição inicial</StartingCondition>
-	  
-<!-- EN:  Edit -->
-	  <Edit>Editar</Edit>
-	  
-<!-- EN:  Randomize symbols -->
-	  <RandomizeSymbols>Aleatorizar símbolos</RandomizeSymbols>
-	  
-<!-- EN:  Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
-	  <RandomizeSymbolsTooltip>Aleatorize o nome da ideologia, ícone, narrativa, título do líder e quaisquer outros textos, como nomes de rituais ou nomes de papéis. Isso não afeta os elementos do jogo, como memes ou preceitos.</RandomizeSymbolsTooltip>
-	  
-<!-- EN:  Click any element to edit it -->
-	  <ClickAnyElementToEditIt>Clique em qualquer elemento para editá-lo</ClickAnyElementToEditIt>
-	  
-<!-- EN:  Click to edit -->
-	  <ClickToEdit>Clique para editar</ClickToEdit>
-	  
-<!-- EN:  Leader title -->
-	  <LeaderTitle>Título do Líder</LeaderTitle>
-	  
-<!-- EN:  Deity name -->
-	  <DeityName>TODO</DeityName>
-	  
-<!-- EN:  Deity title -->
-	  <DeityTitle>Nome da divindade</DeityTitle>
-	  
-<!-- EN:  Deity gender -->
-	  <DeityGender>Gênero da divindade</DeityGender>
-	  
-<!-- EN:  Name -->
-	  <Name>Nome</Name>
-	  
-<!-- EN:  Icon -->
-	  <Icon>Ícone</Icon>
-	  
-<!-- EN:  Related to meme -->
-	  <RelatedToMeme>Relacionado ao meme</RelatedToMeme>
-	  
-<!-- EN:  This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
-	  <IdeoCharityQuestInfo>Esta é uma missão de caridade. Se você não cumprir, os crentes em {0} ficarão infelizes devido às suas crenças de caridade. Se você cumprir, os que acreditam em {0} ficarão felizes ({1}).</IdeoCharityQuestInfo>
-	  
-<!-- EN:  Slaves will not do this work -->
-	  <WorkDisabledSlave>Escravos não farão este trabalho</WorkDisabledSlave>
-	  
-<!-- EN:  Disabled by {0} role -->
-	  <WorkDisabledRole>Desativado pelo papel {0}</WorkDisabledRole>
-	  
-<!-- EN:  Affected by traits -->
-	  <AffectedByTraits>Afetado por traços</AffectedByTraits>
-	  
-<!-- EN:  This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
-	  <CharityQuestTip>Esta é uma missão de caridade. Pessoas com crenças caridosas serão afetadas por seu resultado.</CharityQuestTip>
-	  
-<!-- EN:  formerly -->
-	  <Formerly>anteriormente</Formerly>
-	  
-<!-- EN:  all -->
-	  <All>TODO</All>
-	  
-<!-- EN:  Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
-	  <RelicTip>Relíquias são objetos de significado espiritual ou ideológico. Eles podem ser descobertos completando longas e perigosas missões. Uma relíquia pode ser instalada em um relicário para atrair peregrinos, melhorar os rituais e fortalecer a capacidade de uma ideologia de converter estranhos.</RelicTip>
-	  
-<!-- EN:  animal -->
-	  <Animal>animal</Animal>
-	  
-<!-- EN:  Venerated animals -->
-	  <VeneratedAnimals>Animais venerados</VeneratedAnimals>
-	  
-<!-- EN:  weapon pair -->
-	  <IdeoWeapon>par de armas</IdeoWeapon>
-	  
-<!-- EN:  Weapons -->
-	  <IdeoWeapons>armas</IdeoWeapons>
-	  
-<!-- EN:  Swap noble and despised -->
-	  <SwapNobleAndDespised>Trocar nobre e desprezado</SwapNobleAndDespised>
-	  
-<!-- EN:  noble -->
-	  <Noble>nobre</Noble>
-	  
-<!-- EN:  despised -->
-	  <Despised>desprezado</Despised>
-	  
-<!-- EN:  Unlocked craftables -->
-	  <UnlockedRecipes>Antesanatos desbloqueados</UnlockedRecipes>
-	  
-<!-- EN:  Start with research -->
-	  <IdeoStartWithResearch>Começar com pesquisa</IdeoStartWithResearch>
-	  
-<!-- EN:  Agreeing traits -->
-	  <AgreeableTraits>Traços concordantes</AgreeableTraits>
-	  
-<!-- EN:  Conflicting traits -->
-	  <DisagreeableTraits>Traços conflitantes</DisagreeableTraits>
-	  
-<!-- EN:  Shooting -->
-	  <Shooting>Tiroteio</Shooting>
-	  
-<!-- EN:  Impact -->
-	  <IdeoImpact>Impacto</IdeoImpact>
-	  
-<!-- EN:  Overall impact -->
-	  <IdeoImpactOverall>Impacto geral</IdeoImpactOverall>
-	  
-<!-- EN:  Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
-	  <IdeoImpactOverallDesc>Alguns memes afetam a jogabilidade mais do que outros. A pontuação de impacto do meme dá uma noção de quão grande é o impacto na jogabilidade que ele tem.</IdeoImpactOverallDesc>
-	  
-<!-- EN:  low -->
-	  <IdeoMemeImpactLabel_1>baixo</IdeoMemeImpactLabel_1>
-	  
-<!-- EN:  medium -->
-	  <IdeoMemeImpactLabel_2>médio</IdeoMemeImpactLabel_2>
-	  
-<!-- EN:  high -->
-	  <IdeoMemeImpactLabel_3>alto</IdeoMemeImpactLabel_3>
-	  
-<!-- EN:  low -->
-	  <IdeoImpactLabel_1>baixo</IdeoImpactLabel_1>
-	  
-<!-- EN:  low -->
-	  <IdeoImpactLabel_2>baixo</IdeoImpactLabel_2>
-	  
-<!-- EN:  moderate -->
-	  <IdeoImpactLabel_3>moderado</IdeoImpactLabel_3>
-	  
-<!-- EN:  moderate -->
-	  <IdeoImpactLabel_4>moderado</IdeoImpactLabel_4>
-	  
-<!-- EN:  strong -->
-	  <IdeoImpactLabel_5>forte</IdeoImpactLabel_5>
-	  
-<!-- EN:  strong -->
-	  <IdeoImpactLabel_6>forte</IdeoImpactLabel_6>
-	  
-<!-- EN:  very strong -->
-	  <IdeoImpactLabel_7>muito forte</IdeoImpactLabel_7>
-	  
-<!-- EN:  very strong -->
-	  <IdeoImpactLabel_8>muito forte</IdeoImpactLabel_8>
-	  
-<!-- EN:  extreme -->
-	  <IdeoImpactLabel_9>extremo</IdeoImpactLabel_9>
-	  
-<!-- EN:  {0} unlocks things which you cannot build because they require memes that none of your people believe -->
-	  <ResearchProjectHasDefsWithMissingMemes>{0} desbloqueia coisas que você não pode construir porque exigem memes que ninguém de seu povo acredita</ResearchProjectHasDefsWithMissingMemes>
-	  
-<!-- EN:  Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
-	  <SelectedWorkTypeOpposedByIdeo>Aviso: Este tipo de trabalho é contrário a {0_possessive} ideologia, por isso pode deixar essa pessoa infeliz.</SelectedWorkTypeOpposedByIdeo>
+  <!-- Ideoligions -->
+  <!-- EN: Deities -->
+  <Deities>Divindades</Deities>
+  <!-- EN: Show all ideoligions -->
+  <ButtonShowAllIdeoligions>Mostrar todas as ideologias</ButtonShowAllIdeoligions>
+  <!-- EN: Ideoligion of -->
+  <IdeoligionOf>Ideologia de</IdeoligionOf>
+  <!-- EN: Memes -->
+  <Memes>Memes</Memes>
+  <!-- EN: Narrative -->
+  <CoreNarrative>Narrativa</CoreNarrative>
+  <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
+  <CoreNarrativeDesc> A narrativa central da sua ideologia. Isso não tem impacto na jogabilidade.</CoreNarrativeDesc>
+  <!-- EN: Edit narrative -->
+  <EditNarrative>Editar narrativa</EditNarrative>
+  <!-- EN: Clicking this button toggles a lock the current ideoligion narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>Clicar neste botão gera um bloqueio da narrativa da ideologia atual. Quando bloqueado, o texto narrativo não será gerado novamente de forma automatica se a ideologia for alterada.</LockButtonDesc>
+  <!-- EN: Narrative lock is currently on. The narrative will not auto-regenerate. -->
+  <LockInOn>O bloqueio narrativo está ativado. A narrativa não se modificará automaticamente.</LockInOn>
+  <!-- EN: Narrative lock is currently off. The narrative text can auto-regenerate. -->
+  <LockInOff>O bloqueio narrativo está desativado no momento. O texto narrativo pode ser modificar automaticamente.</LockInOff>
+  <!-- EN: Precepts -->
+  <Precepts>Preceitos</Precepts>
+  <!-- EN: Rituals -->
+  <Rituals>Rituais</Rituals>
+  <!-- EN: Roles -->
+  <IdeoRoles>Papéis</IdeoRoles>
+  <!-- EN: Buildings -->
+  <IdeoBuildings>Edifícios</IdeoBuildings>
+  <!-- EN: Relics -->
+  <IdeoRelics>Relíquias</IdeoRelics>
+  <!-- EN: Preferred apparel -->
+  <IdeoApparel>Preferência de vestuário</IdeoApparel>
+  <!-- EN: apparel desire -->
+  <IdeoApparelDesire>Vestuário desejado</IdeoApparelDesire>
+  <!-- EN: Won't do -->
+  <UnwillingToDoIdeoAction>TODO</UnwillingToDoIdeoAction>
+  <!-- EN: Stats -->
+  <PreceptStats>Estatísticas</PreceptStats>
+  <!-- EN: Prohibitions -->
+  <Prohibitions>Proibições</Prohibitions>
+  <!-- EN: Opinions -->
+  <Opinions>Opniões</Opinions>
+  <!-- EN: Randomize name -->
+  <RandomizeName>Aleatorizar nome</RandomizeName>
+  <!-- EN: Randomize precepts -->
+  <RandomizePrecepts>Aleatorizar preceitos</RandomizePrecepts>
+  <!-- EN: Add precept -->
+  <AddPrecept>add {0}</AddPrecept>
+  <!-- EN: Randomize deities -->
+  <RandomizeDeities>Aleatorizar divindades</RandomizeDeities>
+  <!-- EN: Add deity -->
+  <AddDeity>Adicionar divindade</AddDeity>
+  <!-- EN: Choose memes -->
+  <ChooseMemes>Escolher memes</ChooseMemes>
+  <!-- EN: Choose structure -->
+  <ChooseStructure>Escolher estrutura</ChooseStructure>
+  <!-- EN: Choose culture -->
+  <ChooseCulture>Escolher cultura</ChooseCulture>
+  <!-- EN: Culture -->
+  <Culture>Cultura</Culture>
+  <!-- EN: Culture affects names, appearances, and symbols. -->
+  <CultureTip>A cultura afeta nomes, aparências e símbolos.</CultureTip>
+  <!-- EN: Structure -->
+  <StructureMeme>Estrutura</StructureMeme>
+  <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
+  <StructureMemeTip>A estrutura de uma ideologia determina o tipo de entidades e forças que ela considera importantes para a estrutura moral do universo. Não tem efeitos de jogo diretos.</StructureMemeTip>
+  <!-- EN: Adjective -->
+  <Adjective>Adjetivo</Adjective>
+  <!-- EN: Ritual room -->
+  <WorshipRoom>Sala de ritual</WorshipRoom>
+  <!-- EN: Member noun -->
+  <IdeoMembers>Nome de membro</IdeoMembers>
+  <!-- EN: Member plural -->
+  <IdeoMembersPlural>Nome de membros no plural</IdeoMembersPlural>
+  <!-- EN: Edit symbols -->
+  <EditSymbols>Editar símbolos</EditSymbols>
+  <!-- EN: Edit deity -->
+  <EditDeity>Editar divindade</EditDeity>
+  <!-- EN: Edit required apparel -->
+  <EditApparelRequirement>Editar vestuário obrigatório</EditApparelRequirement>
+  <!-- EN: Edit name -->
+  <EditName>Editar nome</EditName>
+  <!-- EN: Any time -->
+  <StartingCondition_Anytime>Qualquer momento</StartingCondition_Anytime>
+  <!-- EN: Date -->
+  <StartingCondition_Date>Data</StartingCondition_Date>
+  <!-- EN: Starting condition -->
+  <StartingCondition>condição inicial</StartingCondition>
+  <!-- EN: Edit -->
+  <Edit>Editar</Edit>
+  <!-- EN: Randomize symbols -->
+  <RandomizeSymbols>Aleatorizar símbolos</RandomizeSymbols>
+  <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
+  <RandomizeSymbolsTooltip>Aleatorize o nome da ideologia, ícone, narrativa, título do líder e quaisquer outros textos, como nomes de rituais ou nomes de papéis. Isso não afeta os elementos do jogo, como memes ou preceitos.</RandomizeSymbolsTooltip>
+  <!-- EN: Click any element to edit it -->
+  <ClickAnyElementToEditIt>Clique em qualquer elemento para editá-lo</ClickAnyElementToEditIt>
+  <!-- EN: Click to edit -->
+  <ClickToEdit>Clique para editar</ClickToEdit>
+  <!-- EN: Leader title -->
+  <LeaderTitle>Título do Líder</LeaderTitle>
+  <!-- EN: Deity name -->
+  <DeityName>TODO</DeityName>
+  <!-- EN: Deity title -->
+  <DeityTitle>Nome da divindade</DeityTitle>
+  <!-- EN: Deity gender -->
+  <DeityGender>Gênero da divindade</DeityGender>
+  <!-- EN: Name -->
+  <Name>Nome</Name>
+  <!-- EN: Icon -->
+  <Icon>Ícone</Icon>
+  <!-- EN: Related to meme -->
+  <RelatedToMeme>Relacionado ao meme</RelatedToMeme>
+  <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
+  <IdeoCharityQuestInfo>Esta é uma missão de caridade. Se você não cumprir, os crentes em {0} ficarão infelizes devido às suas crenças de caridade. Se você cumprir, os que acreditam em {0} ficarão felizes ({1}).</IdeoCharityQuestInfo>
+  <!-- EN: Slaves will not do this work -->
+  <WorkDisabledSlave>Escravos não farão este trabalho</WorkDisabledSlave>
+  <!-- EN: Disabled by {0} role -->
+  <WorkDisabledRole>Desativado pelo papel {0}</WorkDisabledRole>
+  <!-- EN: Affected by traits -->
+  <AffectedByTraits>Afetado por traços</AffectedByTraits>
+  <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
+  <CharityQuestTip>Esta é uma missão de caridade. Pessoas com crenças caridosas serão afetadas por seu resultado.</CharityQuestTip>
+  <!-- EN: formerly -->
+  <Formerly>anteriormente</Formerly>
+  <!-- EN: all -->
+  <All>TODO</All>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
+  <RelicTip>Relíquias são objetos de significado espiritual ou ideológico. Eles podem ser descobertos completando longas e perigosas missões. Uma relíquia pode ser instalada em um relicário para atrair peregrinos, melhorar os rituais e fortalecer a capacidade de uma ideologia de converter estranhos.</RelicTip>
+  <!-- EN: animal -->
+  <Animal>animal</Animal>
+  <!-- EN: Venerated animals -->
+  <VeneratedAnimals>Animais venerados</VeneratedAnimals>
+  <!-- EN: weapon pair -->
+  <IdeoWeapon>par de armas</IdeoWeapon>
+  <!-- EN: Weapons -->
+  <IdeoWeapons>armas</IdeoWeapons>
+  <!-- EN: Swap noble and despised -->
+  <SwapNobleAndDespised>Trocar nobre e desprezado</SwapNobleAndDespised>
+  <!-- EN: noble -->
+  <Noble>nobre</Noble>
+  <!-- EN: despised -->
+  <Despised>desprezado</Despised>
+  <!-- EN: Unlocked craftables -->
+  <UnlockedRecipes>Antesanatos desbloqueados</UnlockedRecipes>
+  <!-- EN: Start with research -->
+  <IdeoStartWithResearch>Começar com pesquisa</IdeoStartWithResearch>
+  <!-- EN: Agreeing traits -->
+  <AgreeableTraits>Traços concordantes</AgreeableTraits>
+  <!-- EN: Conflicting traits -->
+  <DisagreeableTraits>Traços conflitantes</DisagreeableTraits>
+  <!-- EN: Shooting -->
+  <Shooting>Tiroteio</Shooting>
+  <!-- EN: Impact -->
+  <IdeoImpact>Impacto</IdeoImpact>
+  <!-- EN: Overall impact -->
+  <IdeoImpactOverall>Impacto geral</IdeoImpactOverall>
+  <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
+  <IdeoImpactOverallDesc>Alguns memes afetam a jogabilidade mais do que outros. A pontuação de impacto do meme dá uma noção de quão grande é o impacto na jogabilidade que ele tem.</IdeoImpactOverallDesc>
+  <!-- EN: low -->
+  <IdeoMemeImpactLabel_1>baixo</IdeoMemeImpactLabel_1>
+  <!-- EN: medium -->
+  <IdeoMemeImpactLabel_2>médio</IdeoMemeImpactLabel_2>
+  <!-- EN: high -->
+  <IdeoMemeImpactLabel_3>alto</IdeoMemeImpactLabel_3>
+  <!-- EN: low -->
+  <IdeoImpactLabel_1>baixo</IdeoImpactLabel_1>
+  <!-- EN: low -->
+  <IdeoImpactLabel_2>baixo</IdeoImpactLabel_2>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_3>moderado</IdeoImpactLabel_3>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_4>moderado</IdeoImpactLabel_4>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_5>forte</IdeoImpactLabel_5>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_6>forte</IdeoImpactLabel_6>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_7>muito forte</IdeoImpactLabel_7>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_8>muito forte</IdeoImpactLabel_8>
+  <!-- EN: extreme -->
+  <IdeoImpactLabel_9>extremo</IdeoImpactLabel_9>
+
+  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
+  <ResearchProjectHasDefsWithMissingMemes>{0} desbloqueia coisas que você não pode construir porque exigem memes que ninguém de seu povo acredita</ResearchProjectHasDefsWithMissingMemes>
+  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
+  <SelectedWorkTypeOpposedByIdeo>Aviso: Este tipo de trabalho é contrário a {0_possessive} ideologia, por isso pode deixar essa pessoa infeliz.</SelectedWorkTypeOpposedByIdeo>
 
 </LanguageData>
