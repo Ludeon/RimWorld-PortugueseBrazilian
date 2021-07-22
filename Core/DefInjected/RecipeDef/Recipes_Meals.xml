@@ -7,14 +7,7 @@
   <CookMealFine.description>Cozinhe uma refeição um pouco complexa a partir de uma combinação de carne e ingredientes vegetais.</CookMealFine.description>
   <!-- EN: Cooking fine meal. -->
   <CookMealFine.jobString>Cozinhando refeição boa.</CookMealFine.jobString>
-
-  <!-- EN: cook vegetarian fine meal -->
-  <CookMealFine_Veg.label>cozinhar refeição boa vegetariana</CookMealFine_Veg.label>
-  <!-- EN: Cook a somewhat complex meal from plant ingredients. -->
-  <CookMealFine_Veg.description>Cozinhe uma refeição um pouco complexa a partir de ingredientes vegetais.</CookMealFine_Veg.description>
-  <!-- EN: Cooking vegetarian fine meal. -->
-  <CookMealFine_Veg.jobString>Cozinhando refeição boa vegetariana.</CookMealFine_Veg.jobString>
-
+  
   <!-- EN: cook carnivore fine meal -->
   <CookMealFine_Meat.label>cozinhar refeição boa carnívora</CookMealFine_Meat.label>
   <!-- EN: Cook a somewhat complex meal from meat ingredients. -->
@@ -22,41 +15,48 @@
   <!-- EN: Cooking carnivore fine meal. -->
   <CookMealFine_Meat.jobString>Cozinhando refeição boa carnívora.</CookMealFine_Meat.jobString>
   
+  <!-- EN: cook vegetarian fine meal -->
+  <CookMealFine_Veg.label>cozinhar refeição boa vegetariana</CookMealFine_Veg.label>
+  <!-- EN: Cook a somewhat complex meal from plant ingredients. -->
+  <CookMealFine_Veg.description>Cozinhe uma refeição um pouco complexa a partir de ingredientes vegetais.</CookMealFine_Veg.description>
+  <!-- EN: Cooking vegetarian fine meal. -->
+  <CookMealFine_Veg.jobString>Cozinhando refeição boa vegetariana.</CookMealFine_Veg.jobString>
+  
   <!-- EN: cook fine meal x4 -->
   <CookMealFineBulk.label>cozinhar refeição boa x4</CookMealFineBulk.label>
-  <!-- EN: Cook 4 somewhat complex meals from a combination of meat and plant ingredients. -->
+  <!-- EN: Cook 4 somewhat complex meals from a combination of meat and plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. -->
   <CookMealFineBulk.description>Cozinhe 4 refeições um pouco complexas a partir de uma combinação de carne e ingredientes vegetais.</CookMealFineBulk.description>
   <!-- EN: Cooking 4 fine meals. -->
   <CookMealFineBulk.jobString>Cozinhando 4 refeições boas.</CookMealFineBulk.jobString>
-
+  
   <!-- EN: cook carnivore fine meal x4 -->
   <CookMealFineBulk_Meat.label>cozinhar refeição boa carnívora x4</CookMealFineBulk_Meat.label>
   <!-- EN: Cook 4 somewhat complex meals from meat ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
   <CookMealFineBulk_Meat.description>Cozinhe 4 refeições um pouco complexas a partir de carne. Alguns dos ingredientes são desperdiçados para criar uma boa experiência alimentar. Produzir sabores variados apenas com carne introduz ineficiências extras.</CookMealFineBulk_Meat.description>
   <!-- EN: Cooking 4 carnivore fine meals. -->
   <CookMealFineBulk_Meat.jobString>Cozinhando 4 refeições boas carnívoras.</CookMealFineBulk_Meat.jobString>
-
+  
   <!-- EN: cook vegetarian fine meal x4 -->
   <CookMealFineBulk_Veg.label>cozinhar refeição boa vegetariana x4</CookMealFineBulk_Veg.label>
   <!-- EN: Cook 4 somewhat complex meals from plant ingredients. Some of the ingredients are wasted in order to create a good eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
   <CookMealFineBulk_Veg.description>Cozinhe 4 refeições um pouco complexas a partir de ingredientes vegetais. Alguns dos ingredientes são desperdiçados para criar uma boa experiência alimentar. Produzir sabores variados apenas com plantas introduz ineficiências extras.</CookMealFineBulk_Veg.description>
   <!-- EN: Cooking 4 vegetarian fine meals. -->
   <CookMealFineBulk_Veg.jobString>Cozinhando 4 refeições boas vegetarianas.</CookMealFineBulk_Veg.jobString>
-
+  
   <!-- EN: cook lavish meal -->
   <CookMealLavish.label>cozinhar refeição luxuosa</CookMealLavish.label>
-  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
+  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
   <CookMealLavish.description>Cozinhe uma refeição muito complexa a partir de uma combinação de carne e ingredientes vegetais. Muitos dos ingredientes são desperdiçados.</CookMealLavish.description>
   <!-- EN: Cooking lavish meal. -->
   <CookMealLavish.jobString>Cozinhando refeição luxuosa.</CookMealLavish.jobString>
-
+  
   <!-- EN: cook carnivore lavish meal -->
   <CookMealLavish_Meat.label>cozinhar refeição luxuosa carnívora</CookMealLavish_Meat.label>
   <!-- EN: Cook a very complex meal from meat ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with meat alone introduces extra inefficiencies. -->
   <CookMealLavish_Meat.description>Cozinhe uma refeição muito complexa a partir de carne. Muitos dos ingredientes são desperdiçados para criar a melhor experiência alimentar. Produzir sabores variados apenas com carne introduz ineficiências extras.</CookMealLavish_Meat.description>
   <!-- EN: Cooking carnivore lavish meal. -->
   <CookMealLavish_Meat.jobString>Cozinhando refeição luxuosa carnívora.</CookMealLavish_Meat.jobString>
-
+  
   <!-- EN: cook vegetarian lavish meal -->
   <CookMealLavish_Veg.label>cozinhar refeição luxuosa vegetariana</CookMealLavish_Veg.label>
   <!-- EN: Cook a very complex meal from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
@@ -66,17 +66,10 @@
   
   <!-- EN: cook lavish meal x4 -->
   <CookMealLavishBulk.label>cozinhar refeição luxuosa x4</CookMealLavishBulk.label>
-  <!-- EN: Cook 4 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
+  <!-- EN: Cook 4 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. -->
   <CookMealLavishBulk.description>Cozinhe 4 refeições muito complexas a partir de uma combinação de carne e ingredientes vegetais. Muitos dos ingredientes são desperdiçados.</CookMealLavishBulk.description>
   <!-- EN: Cooking 4 lavish meals. -->
   <CookMealLavishBulk.jobString>Cozinhando 4 refeições luxuosas.</CookMealLavishBulk.jobString>
-
-  <!-- EN: cook vegetarian lavish meal x4 -->
-  <CookMealLavishBulk_Veg.label>cozinhar refeição luxuosa vegetariana x4</CookMealLavishBulk_Veg.label>
-  <!-- EN: Cook 4 very complex meals from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
-  <CookMealLavishBulk_Veg.description>Cozinhe 4 refeições muito complexas a partir de ingredientes vegetais. Muitos dos ingredientes são desperdiçados para criar a melhor experiência alimentar. Produzir sabores variados apenas com plantas introduz ineficiências extras.</CookMealLavishBulk_Veg.description>
-  <!-- EN: Cooking 4 vegetarian lavish meals. -->
-  <CookMealLavishBulk_Veg.jobString>Cozinhando 4 refeições luxuosas vegetarianas.</CookMealLavishBulk_Veg.jobString>
   
   <!-- EN: cook carnivore lavish meal x4 -->
   <CookMealLavishBulk_Meat.label>cozinhar refeição luxuosa carnívora x4</CookMealLavishBulk_Meat.label>
@@ -84,7 +77,14 @@
   <CookMealLavishBulk_Meat.description>Cozinhe 4 refeições muito complexas a partir de carne. Muitos dos ingredientes são desperdiçados para criar a melhor experiência alimentar. Produzir sabores variados apenas com carne introduz ineficiências extras.</CookMealLavishBulk_Meat.description>
   <!-- EN: Cooking 4 carnivore lavish meals. -->
   <CookMealLavishBulk_Meat.jobString>Cozinhando 4 refeições luxuosas carnívoras.</CookMealLavishBulk_Meat.jobString>
-
+  
+  <!-- EN: cook vegetarian lavish meal x4 -->
+  <CookMealLavishBulk_Veg.label>cozinhar refeição luxuosa vegetariana x4</CookMealLavishBulk_Veg.label>
+  <!-- EN: Cook 4 very complex meals from plant ingredients. Much of the ingredients are wasted in order to create the best eating experience. Producing varied flavors with plants alone introduces extra inefficiencies. -->
+  <CookMealLavishBulk_Veg.description>Cozinhe 4 refeições muito complexas a partir de ingredientes vegetais. Muitos dos ingredientes são desperdiçados para criar a melhor experiência alimentar. Produzir sabores variados apenas com plantas introduz ineficiências extras.</CookMealLavishBulk_Veg.description>
+  <!-- EN: Cooking 4 vegetarian lavish meals. -->
+  <CookMealLavishBulk_Veg.jobString>Cozinhando 4 refeições luxuosas vegetarianas.</CookMealLavishBulk_Veg.jobString>
+  
   <!-- EN: cook simple meal -->
   <CookMealSimple.label>cozinhar refeição simples</CookMealSimple.label>
   <!-- EN: Cook a straightforward meal from one ingredient. -->

@@ -27,7 +27,7 @@
   <!-- EN: Died on the {0} -->
   <DiedOn>Morreu no {0}</DiedOn>
   <!-- EN: Nobody -->
-  <Nobody>Ninguém</Nobody>
+  <Nobody>Nobody</Nobody>
   <!-- EN: Unowned -->
   <Unowned>Sem dono</Unowned>
   <!-- EN: Dead for {0} -->
@@ -415,7 +415,7 @@
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>{0} de {1} x {2}</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>Requerido</Required>
+  <Required>Obrigatório</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>Aviso: você não pode concluir solicitações de negociação usando cápsulas de transporte.\nSe você enviar as mercadorias, o assentamento as aceitará como presentes, mas elas não serão recompensadas.\n\nPara negociar, aproxime-se do assentamento com uma caravana!\n\nTem certeza de que deseja doar os bens transportados para esta facção?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
@@ -440,7 +440,7 @@
   <ViewHyperlink>Ver: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Detona em {0} dias</DetonationCountdown>
-  <!-- EN: Large fire if damaged -->
+  <!-- EN: Large fire explosion if damaged -->
   <ExplosionOnDamageWarning>Dano de grande incêndio</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Cluster mecanoide</MechCluster>
@@ -506,7 +506,7 @@
   <SubquestOf>Missão secundária de</SubquestOf>
   <!-- EN: Raid -->
   <Raid>Invasão</Raid>
-  <!-- EN: Disabled by-->
+  <!-- EN: Disabled by -->
   <ApparelRequirementDisabledLabel>Desativado por</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
   <Nudism>Nudismo</Nudism>
@@ -642,6 +642,7 @@
   <PenCapacityDesc>Capacidade de {ANIMALDEF_label}s</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Animais exemplares</PenExampleAnimals>
+
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -924,7 +925,7 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Ingredientes</Ingredients>
-  <!-- EN: only stacks with similar meal -->
+  <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>apenas agrupa com refeições semelhantes</OnlyStacksWithCompatibleMeals>
 
   <!-- Plants -->
@@ -1452,7 +1453,7 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Causado por: {0}</CausedByHediff>
-
+  
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
   <HealingCureHediff>{1} de {0_nameDef} foi curado(a).</HealingCureHediff>
@@ -1473,7 +1474,7 @@
   <RitualTakesPlaceAt>Acontece em</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>Qualquer {0}</RitualTargetThingDefsInfo>
-  <!-- EN: Attending-->
+  <!-- EN: Attending -->
   <LordReportAttending>Comparecendo</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} foi cancelado.</RitualCalledOff>
@@ -1501,7 +1502,7 @@
   <RitualBeginSlaveDesc>Um escravo. A propriedade humana de outros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
   <RitualBeginSleepingDesc>{0_labelShort} está dormindo. Se incluído no ritual, {0_pronoun} vai acordar para participar.</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual.   -->
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>Alguns dos participantes selecionados estão dormindo. Eles vão acordar assim que você iniciar o ritual.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Esta posição é melhor desempenhada por um colono com o papel social de {0}.\n\nSe alguém sem essa função preencher esta posição, você não receberá o(s) seguinte(s) bônus</RitualRoleRequiresSocialRole>
@@ -1513,7 +1514,7 @@
   <RitualOutcomeQualityAbstract>A qualidade do {0} depende de</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
   <RitualOutcomeQualitySpecific>A qualidade total do {0} era {1}, determinada por esses fatores</RitualOutcomeQualitySpecific>
-  <!-- EN: Outcome chances at {0} quality< -->
+  <!-- EN: Outcome chances at {0} quality -->
   <RitualOutcomeChances>Oportunidades de resultado em qualidade {0}</RitualOutcomeChances>
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>Executado recentemente</RitualOutcomePerformedRecently>
@@ -1544,13 +1545,13 @@
   <DateRitualNoObligation>{0} é um ritual de data específica. Você poderá iniciá-lo em {1}, no {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>Substituir com</PreceptReplaceWith>
+  <PreceptReplaceWith>Replace with</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>Assento do ritual de {IDEOS}</RitualSeatOf>
+  <RitualSeatOf>Ritual seat of {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Qualidade esperada</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>Qualidade inicial</StartingQuality>
+  <StartingQuality>Starting quality</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>Duração esperada</ExpectedRitualDuration>
   
@@ -1564,7 +1565,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>Expectativas de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Qualquer um desses</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Any of these</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Substitui {PAWN_labelShort}</RitualRoleReplaces>
 
@@ -1577,7 +1578,7 @@
 
   <!-- EN: up to {0} quality -->
   <OutcomeBonusDesc_Quality>até qualidade {0}</OutcomeBonusDesc_Quality>
-  <!-- EN: quality -->
+  <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>qualidade {0}</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
   <OutcomeLetterLabel>{RITUALLABEL} {OUTCOMELABEL}</OutcomeLetterLabel>

@@ -43,7 +43,7 @@
   <CommandToggleDraftDesc>Alista para o modo de combate\n\npessoas alistadas recebem ordens e lutam. Eles não irão trabalhar, comer ou dormir.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} não pode andar.</IsIncapped>
-  <!-- EN: {0_labelShort} is participating in {1} -->
+  <!-- EN: {0_labelShort} is participating in {1}. -->
   <ParticipatingInRitual>{0_labelShort} está participando de {1}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
@@ -103,6 +103,7 @@
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Mudar o uso da cama afeta todo o quarto (uma vez que prisioneiros, escravos e colonos não podem dormir no mesmo).\n\nEssas pessoas perderão a propriedade de suas camas:</ChangingOwnerTypeBedWarning>
 
+
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Detonar</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
@@ -137,7 +138,7 @@
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Permitir semeadura</CommandAllowSow>
-  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>Quando desativado, os colonos nunca irão plantar nesta zona. Eles ainda irão colher.</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
@@ -550,7 +551,7 @@
   <CommandDropPawn>Largar {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Solte a pessoa que está sendo carregada.</CommandDropPawnDesc>
-
+  
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Tomar droga</TakeDrug>
