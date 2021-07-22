@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- EN: Christian origin -->
+    <Structure_OriginChristian.label>origem cristã</Structure_OriginChristian.label>
+    <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+    <Structure_OriginChristian.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo Cristianismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginChristian.description>
+    <!-- EN:
+        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->bishop</li>
+        <li>memeLeaderNoun->cardinal</li>
+        <li>memeLeaderNoun->pope</li>
+        <li>memeLeaderNoun->pontiff</li>
+        <li>memeLeaderNoun->legate</li>
+        <li>memeLeaderNoun->nuncio</li>
+        <li>memeLeaderNoun->divus</li>
+        <li>memeLeaderNoun->ecclesiast</li>
+        <li>memeLeaderAdjective->holy</li>
+        <li>memeLeaderAdjective->divine</li>
+        <li>memeLeaderAdjective->Christ's</li>
+        <li>memeLeaderAdjective->God's</li>
+        <li>memeMoralist->priest</li>
+        <li>memeMoralist->pastor</li>
+        <li>memeMoralist->cleric</li>
+        <li>memeMoralist->preacher</li>
+        <li>memeMoralist->rector</li>
+        <li>memeMoralist->abbot</li>
+    -->
+    <Structure_OriginChristian.generalRules.rulesStrings>
+        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->bispo</li>
+        <li>memeLeaderNoun->cardial</li>
+        <li>memeLeaderNoun->papa</li>
+        <li>memeLeaderNoun->pontífice</li>
+        <li>memeLeaderNoun->embaixador</li>
+        <li>memeLeaderNoun->núncio</li>
+        <li>memeLeaderNoun->eclesiástico</li>
+        <li>memeLeaderAdjective->sagrado(a)</li>
+        <li>memeLeaderAdjective->divino(a)</li>
+        <li>memeLeaderAdjective->cristão(ã)</li>
+        <li>memeMoralist->padre</li>
+        <li>memeMoralist->pastor</li>
+        <li>memeMoralist->clérigo</li>
+        <li>memeMoralist->pregador</li>
+        <li>memeMoralist->reitor</li>
+        <li>memeMoralist->reitor</li>
+    </Structure_OriginChristian.generalRules.rulesStrings>
+    <!-- EN: Christianity -->
+    <Structure_OriginChristian.symbolPacks.0.ideoName>cristandade</Structure_OriginChristian.symbolPacks.0.ideoName>
+    <!-- EN: Christian -->
+    <Structure_OriginChristian.symbolPacks.0.adjective>cristão(ã)</Structure_OriginChristian.symbolPacks.0.adjective>
+    <!-- EN: Christian -->
+    <Structure_OriginChristian.symbolPacks.0.member>cristão(ã)</Structure_OriginChristian.symbolPacks.0.member>
+    <!-- EN: Catholicism -->
+    <Structure_OriginChristian.symbolPacks.1.ideoName>catolicismo</Structure_OriginChristian.symbolPacks.1.ideoName>
+    <!-- EN: Catholic -->
+    <Structure_OriginChristian.symbolPacks.1.adjective>católico(a)</Structure_OriginChristian.symbolPacks.1.adjective>
+    <!-- EN: Catholic -->
+    <Structure_OriginChristian.symbolPacks.1.member>católico(a)</Structure_OriginChristian.symbolPacks.1.member>
+    <!-- EN: Protestantism -->
+    <Structure_OriginChristian.symbolPacks.2.ideoName>protestantismo</Structure_OriginChristian.symbolPacks.2.ideoName>
+    <!-- EN: Protestant -->
+    <Structure_OriginChristian.symbolPacks.2.adjective>protestante</Structure_OriginChristian.symbolPacks.2.adjective>
+    <!-- EN: Protestant -->
+    <Structure_OriginChristian.symbolPacks.2.member>protestante</Structure_OriginChristian.symbolPacks.2.member>
+    <!-- EN: Orthodoxy -->
+    <Structure_OriginChristian.symbolPacks.3.ideoName>ortodoxia</Structure_OriginChristian.symbolPacks.3.ideoName>
+    <!-- EN: Orthodoxy -->
+    <Structure_OriginChristian.symbolPacks.3.adjective>ortodoxo(a)</Structure_OriginChristian.symbolPacks.3.adjective>
+    <!-- EN: Orthodoxist -->
+    <Structure_OriginChristian.symbolPacks.3.member>ortodoxo(a)</Structure_OriginChristian.symbolPacks.3.member>
+    <!-- EN: Nestorianism -->
+    <Structure_OriginChristian.symbolPacks.4.ideoName>nestorianismo</Structure_OriginChristian.symbolPacks.4.ideoName>
+    <!-- EN: Nestorian -->
+    <Structure_OriginChristian.symbolPacks.4.adjective>nestoriano(a)</Structure_OriginChristian.symbolPacks.4.adjective>
+    <!-- EN: Nestorian -->
+    <Structure_OriginChristian.symbolPacks.4.member>nestoriano(a)</Structure_OriginChristian.symbolPacks.4.member>
+    <!-- EN: Anglicanism -->
+    <Structure_OriginChristian.symbolPacks.5.ideoName>anglicanismo</Structure_OriginChristian.symbolPacks.5.ideoName>
+    <!-- EN: Anglican -->
+    <Structure_OriginChristian.symbolPacks.5.adjective>anglicano(a)</Structure_OriginChristian.symbolPacks.5.adjective>
+    <!-- EN: Anglican -->
+    <Structure_OriginChristian.symbolPacks.5.member>anglicano(a)</Structure_OriginChristian.symbolPacks.5.member>
+    <!-- EN: Baptism -->
+    <Structure_OriginChristian.symbolPacks.6.ideoName>batismo</Structure_OriginChristian.symbolPacks.6.ideoName>
+    <!-- EN: Baptist -->
+    <Structure_OriginChristian.symbolPacks.6.adjective>batista</Structure_OriginChristian.symbolPacks.6.adjective>
+    <!-- EN: Baptist -->
+    <Structure_OriginChristian.symbolPacks.6.member>batista</Structure_OriginChristian.symbolPacks.6.member>
+    <!-- EN: Anabaptism -->
+    <Structure_OriginChristian.symbolPacks.7.ideoName>anabatismo</Structure_OriginChristian.symbolPacks.7.ideoName>
+    <!-- EN: Anabaptist -->
+    <Structure_OriginChristian.symbolPacks.7.adjective>anabatista</Structure_OriginChristian.symbolPacks.7.adjective>
+    <!-- EN: Anabaptist -->
+    <Structure_OriginChristian.symbolPacks.7.member>anabatista</Structure_OriginChristian.symbolPacks.7.member>
+    <!-- EN: Calvinism -->
+    <Structure_OriginChristian.symbolPacks.8.ideoName>calvinismo</Structure_OriginChristian.symbolPacks.8.ideoName>
+    <!-- EN: Calvinist -->
+    <Structure_OriginChristian.symbolPacks.8.adjective>calvinista</Structure_OriginChristian.symbolPacks.8.adjective>
+    <!-- EN: Calvinist -->
+    <Structure_OriginChristian.symbolPacks.8.member>calvinista</Structure_OriginChristian.symbolPacks.8.member>
+    <!-- EN: Lutheranism -->
+    <Structure_OriginChristian.symbolPacks.9.ideoName>luteranismo</Structure_OriginChristian.symbolPacks.9.ideoName>
+    <!-- EN: Lutheran -->
+    <Structure_OriginChristian.symbolPacks.9.adjective>luterano(a)</Structure_OriginChristian.symbolPacks.9.adjective>
+    <!-- EN: Lutheran -->
+    <Structure_OriginChristian.symbolPacks.9.member>luterano(a)</Structure_OriginChristian.symbolPacks.9.member>
+    <!-- EN: Adventism -->
+    <Structure_OriginChristian.symbolPacks.10.ideoName>adventismo</Structure_OriginChristian.symbolPacks.10.ideoName>
+    <!-- EN: Adventist -->
+    <Structure_OriginChristian.symbolPacks.10.adjective>adventista</Structure_OriginChristian.symbolPacks.10.adjective>
+    <!-- EN: Adventist -->
+    <Structure_OriginChristian.symbolPacks.10.member>adventista</Structure_OriginChristian.symbolPacks.10.member>
+    <!-- EN: Methodism -->
+    <Structure_OriginChristian.symbolPacks.11.ideoName>metodismo</Structure_OriginChristian.symbolPacks.11.ideoName>
+    <!-- EN: Methodist -->
+    <Structure_OriginChristian.symbolPacks.11.adjective>metodista</Structure_OriginChristian.symbolPacks.11.adjective>
+    <!-- EN: Methodist -->
+    <Structure_OriginChristian.symbolPacks.11.member>metodista</Structure_OriginChristian.symbolPacks.11.member>
+    <!-- EN: Mormonism -->
+    <Structure_OriginChristian.symbolPacks.12.ideoName>mormonismo</Structure_OriginChristian.symbolPacks.12.ideoName>
+    <!-- EN: Mormon -->
+    <Structure_OriginChristian.symbolPacks.12.adjective>mórmon</Structure_OriginChristian.symbolPacks.12.adjective>
+    <!-- EN: Mormon -->
+    <Structure_OriginChristian.symbolPacks.12.member>mórmon</Structure_OriginChristian.symbolPacks.12.member>
+    <!-- EN: Theonomy -->
+    <Structure_OriginChristian.symbolPacks.13.ideoName>teonomia</Structure_OriginChristian.symbolPacks.13.ideoName>
+    <!-- EN: Theonomic -->
+    <Structure_OriginChristian.symbolPacks.13.adjective>teonômico(a)</Structure_OriginChristian.symbolPacks.13.adjective>
+    <!-- EN: Theonomist -->
+    <Structure_OriginChristian.symbolPacks.13.member>teonomista</Structure_OriginChristian.symbolPacks.13.member>
+
+    <!-- EN: Islamic origin -->
+    <Structure_OriginIslamic.label>origem cristã</Structure_OriginIslamic.label>
+    <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+    <Structure_OriginIslamic.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo Cristianismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginIslamic.description>
+    <!-- EN:
+        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->mullah</li>
+        <li>memeLeaderNoun->imam</li>
+        <li>memeLeaderNoun->caliph</li>
+        <li>memeLeaderNoun->mufti</li>
+        <li>memeLeaderNoun->almami</li>
+        <li>memeLeaderNoun->kyai</li>
+        <li>memeLeaderNoun->ayatollah</li>
+        <li>memeLeaderAdjective->grand</li>
+        <li>memeMoralist(p=4)->imam</li>
+        <li>memeMoralist->qadi</li>
+        <li>memeMoralist->alim</li>
+        <li>memeMoralist->allamah</li>
+        <li>memeMoralist->muezzin</li>
+        <li>memeMoralist->mujtahid</li>
+        <li>memeMoralist->cleric</li>
+    -->
+    <Structure_OriginIslamic.generalRules.rulesStrings>
+        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->mulá</li>
+        <li>memeLeaderNoun->imam</li>
+        <li>memeLeaderNoun->califa</li>
+        <li>memeLeaderNoun->mufti</li>
+        <li>memeLeaderNoun->almami</li>
+        <li>memeLeaderNoun->kyai</li>
+        <li>memeLeaderNoun->aiatolá</li>
+        <li>memeLeaderAdjective->grandioso(a)</li>
+        <li>memeMoralist(p=4)->imam</li>
+        <li>memeMoralist->qadi</li>
+        <li>memeMoralist->alim</li>
+        <li>memeMoralist->alamá</li>
+        <li>memeMoralist->muezim</li>
+        <li>memeMoralist->mujtahid</li>
+        <li>memeMoralist->clérigo</li>
+    </Structure_OriginIslamic.generalRules.rulesStrings>
+    <!-- EN: Islam -->
+    <Structure_OriginIslamic.symbolPacks.0.ideoName>islamismo</Structure_OriginIslamic.symbolPacks.0.ideoName>
+    <!-- EN: Islamic -->
+    <Structure_OriginIslamic.symbolPacks.0.adjective>islâmico(a)</Structure_OriginIslamic.symbolPacks.0.adjective>
+    <!-- EN: Muslim -->
+    <Structure_OriginIslamic.symbolPacks.0.member>muçulmano(a)</Structure_OriginIslamic.symbolPacks.0.member>
+    <!-- EN: Islamism -->
+    <Structure_OriginIslamic.symbolPacks.1.ideoName>islamismo</Structure_OriginIslamic.symbolPacks.1.ideoName>
+    <!-- EN: Islamist -->
+    <Structure_OriginIslamic.symbolPacks.1.adjective>islamista</Structure_OriginIslamic.symbolPacks.1.adjective>
+    <!-- EN: Islamist -->
+    <Structure_OriginIslamic.symbolPacks.1.member>islamista</Structure_OriginIslamic.symbolPacks.1.member>
+    <!-- EN: Shiism -->
+    <Structure_OriginIslamic.symbolPacks.2.ideoName>xiismo</Structure_OriginIslamic.symbolPacks.2.ideoName>
+    <!-- EN: Shiite -->
+    <Structure_OriginIslamic.symbolPacks.2.adjective>xiita</Structure_OriginIslamic.symbolPacks.2.adjective>
+    <!-- EN: Shiite -->
+    <Structure_OriginIslamic.symbolPacks.2.member>xiita</Structure_OriginIslamic.symbolPacks.2.member>
+    <!-- EN: Sunnism -->
+    <Structure_OriginIslamic.symbolPacks.3.ideoName>sunismo</Structure_OriginIslamic.symbolPacks.3.ideoName>
+    <!-- EN: Sunni -->
+    <Structure_OriginIslamic.symbolPacks.3.adjective>sunita</Structure_OriginIslamic.symbolPacks.3.adjective>
+    <!-- EN: Sunni -->
+    <Structure_OriginIslamic.symbolPacks.3.member>sunita</Structure_OriginIslamic.symbolPacks.3.member>
+    <!-- EN: Ibadism -->
+    <Structure_OriginIslamic.symbolPacks.4.ideoName>ibadismo</Structure_OriginIslamic.symbolPacks.4.ideoName>
+    <!-- EN: Ibadi -->
+    <Structure_OriginIslamic.symbolPacks.4.adjective>ibadita</Structure_OriginIslamic.symbolPacks.4.adjective>
+    <!-- EN: Ibadi -->
+    <Structure_OriginIslamic.symbolPacks.4.member>ibadita</Structure_OriginIslamic.symbolPacks.4.member>
+    <!-- EN: Ismailism -->
+    <Structure_OriginIslamic.symbolPacks.5.ideoName>ismaelismo</Structure_OriginIslamic.symbolPacks.5.ideoName>
+    <!-- EN: Ismaili -->
+    <Structure_OriginIslamic.symbolPacks.5.adjective>ismaelita</Structure_OriginIslamic.symbolPacks.5.adjective>
+    <!-- EN: Ismaili -->
+    <Structure_OriginIslamic.symbolPacks.5.member>ismaelita</Structure_OriginIslamic.symbolPacks.5.member>
+    <!-- EN: Mustalism -->
+    <Structure_OriginIslamic.symbolPacks.6.ideoName>mustalismo</Structure_OriginIslamic.symbolPacks.6.ideoName>
+    <!-- EN: Mustalic -->
+    <Structure_OriginIslamic.symbolPacks.6.adjective>mustálico(a)</Structure_OriginIslamic.symbolPacks.6.adjective>
+    <!-- EN: Mustali -->
+    <Structure_OriginIslamic.symbolPacks.6.member>mustalita</Structure_OriginIslamic.symbolPacks.6.member>
+    <!-- EN: Tayyibism -->
+    <Structure_OriginIslamic.symbolPacks.7.ideoName>taibismo</Structure_OriginIslamic.symbolPacks.7.ideoName>
+    <!-- EN: Tayyibic -->
+    <Structure_OriginIslamic.symbolPacks.7.adjective>taíbico(a)</Structure_OriginIslamic.symbolPacks.7.adjective>
+    <!-- EN: Tayyibist -->
+    <Structure_OriginIslamic.symbolPacks.7.member>taibista</Structure_OriginIslamic.symbolPacks.7.member>
+    <!-- EN: Nizalism -->
+    <Structure_OriginIslamic.symbolPacks.8.ideoName>nizalismo</Structure_OriginIslamic.symbolPacks.8.ideoName>
+    <!-- EN: Nizalist -->
+    <Structure_OriginIslamic.symbolPacks.8.adjective>nizalista</Structure_OriginIslamic.symbolPacks.8.adjective>
+    <!-- EN: Nizalist -->
+    <Structure_OriginIslamic.symbolPacks.8.member>nizalista</Structure_OriginIslamic.symbolPacks.8.member>
+    <!-- EN: Sufrism -->
+    <Structure_OriginIslamic.symbolPacks.9.ideoName>sufrismo</Structure_OriginIslamic.symbolPacks.9.ideoName>
+    <!-- EN: Surfrist -->
+    <Structure_OriginIslamic.symbolPacks.9.adjective>sufrista</Structure_OriginIslamic.symbolPacks.9.adjective>
+    <!-- EN: Surfist -->
+    <Structure_OriginIslamic.symbolPacks.9.member>sufista</Structure_OriginIslamic.symbolPacks.9.member>
+    <!-- EN: Qadirism -->
+    <Structure_OriginIslamic.symbolPacks.10.ideoName>qadirismo</Structure_OriginIslamic.symbolPacks.10.ideoName>
+    <!-- EN: Qadirist -->
+    <Structure_OriginIslamic.symbolPacks.10.adjective>qadirista</Structure_OriginIslamic.symbolPacks.10.adjective>
+    <!-- EN: Qadirist -->
+    <Structure_OriginIslamic.symbolPacks.10.member>qadirista</Structure_OriginIslamic.symbolPacks.10.member>
+    <!-- EN: Zahirism -->
+    <Structure_OriginIslamic.symbolPacks.11.ideoName>zahirismo</Structure_OriginIslamic.symbolPacks.11.ideoName>
+    <!-- EN: Zahirist -->
+    <Structure_OriginIslamic.symbolPacks.11.adjective>zahirista</Structure_OriginIslamic.symbolPacks.11.adjective>
+    <!-- EN: Zahirist -->
+    <Structure_OriginIslamic.symbolPacks.11.member>zahirista</Structure_OriginIslamic.symbolPacks.11.member>
+    <!-- EN: Azraqism -->
+    <Structure_OriginIslamic.symbolPacks.12.ideoName>azraqismo</Structure_OriginIslamic.symbolPacks.12.ideoName>
+    <!-- EN: Azraqi -->
+    <Structure_OriginIslamic.symbolPacks.12.adjective>azraqita</Structure_OriginIslamic.symbolPacks.12.adjective>
+    <!-- EN: Azraqi -->
+    <Structure_OriginIslamic.symbolPacks.12.member>azraqita</Structure_OriginIslamic.symbolPacks.12.member>
+    <!-- EN: Wahhabism -->
+    <Structure_OriginIslamic.symbolPacks.13.ideoName>wahhabismo</Structure_OriginIslamic.symbolPacks.13.ideoName>
+    <!-- EN: Wahhabi -->
+    <Structure_OriginIslamic.symbolPacks.13.adjective>wahhabita</Structure_OriginIslamic.symbolPacks.13.adjective>
+    <!-- EN: Wahhabi -->
+    <Structure_OriginIslamic.symbolPacks.13.member>wahhabita</Structure_OriginIslamic.symbolPacks.13.member>
+    <!-- EN: Caliphate -->
+    <Structure_OriginIslamic.symbolPacks.14.ideoName>califado</Structure_OriginIslamic.symbolPacks.14.ideoName>
+    <!-- EN: Caliphic -->
+    <Structure_OriginIslamic.symbolPacks.14.adjective>califista</Structure_OriginIslamic.symbolPacks.12.adjective>
+    <!-- EN: Caliphist -->
+    <Structure_OriginIslamic.symbolPacks.14.member>califista</Structure_OriginIslamic.symbolPacks.13.member>
+
+</LanguageData>
