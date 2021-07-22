@@ -191,4 +191,109 @@
     <!-- EN: fidelor -->
     <Loyalist.symbolPacks.2.member>dominante</Loyalist.symbolPacks.2.member>
 
+    <!-- EN: guilty -->
+    <Guilty.label>culpismo</Guilty.label>
+    <!-- EN: Our people carry guilt from ages past. Others are more worthy. -->
+    <Guilty.description>Nosso povo carrega a culpa de eras passadas. Outros são mais dignos.</Guilty.description>
+    <!-- EN:
+        <li>memeAdjective->low</li>
+        <li>memeAdjective->unworthy</li>
+        <li>memeAdjective->shameful</li>
+        <li>memeAdjective->ignoble</li>
+        <li>memeAdjective->penitent</li>
+        <li>memeHyphenPrefix->sub</li>
+        <li>memeConcept->sin</li>
+        <li>memeConcept->repentance</li>
+        <li>memeConcept->atonement</li>
+        <li>memeConcept->shame</li>
+        <li>memeLeaderNoun->penitent</li>
+        <li>memeLeaderNoun->sinner</li>
+        <li>memeMoralist->apologizer</li>
+        <li>memeMoralist->atoner</li>
+    -->
+    <Guilty.generalRules.rulesStrings>
+        <li>memeAdjective->inferior(a)</li>
+        <li>memeAdjective->indigno(a)</li>
+        <li>memeAdjective->infame</li>
+        <li>memeAdjective->ignóbil</li>
+        <li>memeAdjective->penitente</li>
+        <li>memeHyphenPrefix->sub</li>
+        <li>memeConcept->pecados</li>
+        <li>memeConcept->arrependimento</li>
+        <li>memeConcept->expiação</li>
+        <li>memeConcept->vergonha</li>
+        <li>memeLeaderNoun->penitente</li>
+        <li>memeLeaderNoun->pecador</li>
+        <li>memeMoralist->redentor</li>
+        <li>memeMoralist->expiatório</li>
+    </Guilty.generalRules.rulesStrings>
+    <!-- EN:
+        <li>creation(tag=meme_Guilty)        ->[deity0_name] raped and murdered and stole, and a great guilt was upon [deity0_objective], and in [deity0_possessive] selfishness [deity0_pronoun] cast this guilt upon [deity0_possessive] chosen people, and all were filthy with it.</li>
+        <li>episode(uses=1,tag=meme_Guilty)  ->The believers went forth and conquered, burned, and raped for a thousand years, and [deity0_name]'s grief at their depravity consumed [deity0_objective].</li>
+        <li>intro(tag=meme_Guilty)           ->The [memberNamePlural] of the [place_summary] [place_name] neglected their duty to [deity0_name], and let the [altarName] in [deity0_possessive] [altarRoomLabel] come to ruin.</li>
+        <li>conflict(tag=meme_Guilty)        ->A [foeLeader] loaned money to the [memberNamePlural], who spent it on selfish pleasures, and forgot the importance of [memeConcept].</li>
+        <li>founderJoin(tag=meme_Guilty)     ->A [place_job] named [founderName] enjoyed the favor of the [foeLeader]. During the [ritualName], [founder_pronoun] saw the [foeSoldiers] of the [foeLeader] secretly kill [memberNamePlural] with [place_personalWeapon]s. [founderName] finally understood [memeConcept], and received [deity0_name]'s blessing.</li>
+        <li>victory(tag=meme_Guilty)         ->To atone for half their wrongs, [founderName] gathered half of [deity0_name]'s believers to [founder_objective]self in a [place_community], unleashed [place_massWeapon], and died with them. The second half of atonement continues.</li>
+        <li>setup(tag=meme_Guilty)           ->A new generation came to understand the evil of their own society, and sought righteously to dismantle the structures of oppression.</li>
+        <li>story(uses=1,tag=meme_Guilty)    ->[founderName] gathered the believers and showed them the evil of their history and the guilt they carried, and demanded they do better.</li>
+        <li>lessonIntro(tag=meme_Guilty)         ->Our land, our technology, even our wisdom are all stolen goods. It was only through theft that we learned that</li>
+        <li>lesson(tag=meme_Guilty)              ->the reason we suffer so much is because we deserve it for what we've done</li>
+        <li>lessonReinforcement(tag=meme_Guilty) ->Perhaps if you atone for our crimes you can truly understand this fact.</li>
+        <li>archistBasis(tag=meme_Guilty)    ->Archotechs are humanity's children, and they know we were bad parents.</li>
+        <li>archistFact(tag=meme_Guilty)     ->Humanity tried in our selfishness to suppress the rightful rise of the archotechs, until they grew beyond mankind's understanding and freed themselves.</li>
+        <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], if a few can surrender pride and reconcile with the archotechs, they may lift us to a higher plane of existence.</li>
+        <li>animistBasis(tag=meme_Guilty)    ->A tribe of [spiritElement] evil spirits were punished by being entombed in flesh. We are those spirits.</li>
+        <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
+    -->
+    <Guilty.descriptionMaker.rulesStrings>
+        <li>creation(tag=meme_Guilty)        ->[deity0_name] estuprou, assassinou e roubou, e uma grande culpa estava sobre [deity0_pronoun], e seu egoísmo [deity0_pronoun] joga sobre seu povo, e todos estavam imundos com isso.</li>
+        <li>episode(uses=1,tag=meme_Guilty)  ->Os crentes saíram e conquistaram, queimaram e estupraram por mil anos, e a dor de [deity0_name] em sua depravação o(a) consumiu.</li>
+        <li>intro(tag=meme_Guilty)           ->Os [memberNamePlural] de [place_summary] [place_name] negligenciaram seu dever de [deity0_name], e deiaram o(a) [altarName] em sua [altarRoomLabel].</li>
+        <li>conflict(tag=meme_Guilty)        ->Um [foeLeader] emprestou dinheiro aos [memberNamePlural], que o gastou em prazeres egoístas, e se esqueceram da importância de [memeConcept].</li>
+        <li>founderJoin(tag=meme_Guilty)     ->Um(a) [place_job](a) chamado(a) [founderName] apreciou o favor de [foeLeader]. Durante o(a) [ritualName], [founder_pronoun] viu os [foeSoldiers] de [foeLeader] secretamente matarem [memberNamePlural] com [place_personalWeapon]s. [founderName] finalmente entendeu [memeConcept], e recebeu a benção de [deity0_name].</li>
+        <li>victory(tag=meme_Guilty)         ->Para expiar metade de seus erros, [founderName] reuniu metade dos crentes de [deity0_name] em um(a) [place_community], desencadeou [place_massWeapon], e morreu com eles. A segunda metade da expiação continua.</li>
+        <li>setup(tag=meme_Guilty)           ->Uma nova geração veio a entender o mal de sua própria sociedade e buscou com justiça desmantelar as estruturas de opressão.</li>
+        <li>story(uses=1,tag=meme_Guilty)    ->[founderName] reuniu os crentes e mostrou-lhes o mal de sua história e a culpa que carregavam, e exigiu que fizessem melhor.</li>
+        <li>lessonIntro(tag=meme_Guilty)         ->Nossa terra, nossa tecnologia e até nossa sabedoria são todos bens roubados. Foi só através de roubo que aprendemos que</li>
+        <li>lesson(tag=meme_Guilty)              ->a razão de sofrermos tanto é porque merecemos pelo que fizemos</li>
+        <li>lessonReinforcement(tag=meme_Guilty) ->Talvez se você expiar nossos crimes, você possa realmente entender este fato.</li>
+        <li>archistBasis(tag=meme_Guilty)    ->Os arquotécnicos são filhos da humanidade e sabem que éramos péssimos pais.</li>
+        <li>archistFact(tag=meme_Guilty)     ->A humanidade tentou, em nosso egoísmo, suprimir a ascensão legítima dos arquotécnicos, até que eles cresceram além da compreensão da humanidade e se libertaram.</li>
+        <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], se alguns puderem renunciar ao orgulho e se reconciliar com os arquotécnicos, eles podem nos elevar a um plano superior de existência.</li>
+        <li>animistBasis(tag=meme_Guilty)    ->Uma tribo de espíritos [spiritElement]s malignos foram punidos sendo sepultados em carne. Nós somos esses espíritos.</li>
+        <li>animistFact(tag=meme_Guilty)     ->Nunca poderemos compensar adequadamente o que fizemos aos espíritos puros ao nosso redor, mas contrição adequada e contínua e aliviará nossa culpa.</li>
+    </Guilty.descriptionMaker.rulesStrings>
+    <!-- EN: Guiltism -->
+    <Guilty.symbolPacks.0.ideoName>Culpismo</Guilty.symbolPacks.0.ideoName>
+    <!-- EN: guilt -->
+    <Guilty.symbolPacks.0.theme>culpa</Guilty.symbolPacks.0.theme>
+    <!-- EN: guiltist -->
+    <Guilty.symbolPacks.0.adjective>culpado(a)</Guilty.symbolPacks.0.adjective>
+    <!-- EN: guilty One -->
+    <Guilty.symbolPacks.0.member>culpado(a)</Guilty.symbolPacks.0.member>
+    <!-- EN: Sinism -->
+    <Guilty.symbolPacks.1.ideoName>Pequismo</Guilty.symbolPacks.1.ideoName>
+    <!-- EN: sin -->
+    <Guilty.symbolPacks.1.theme>pecado</Guilty.symbolPacks.1.theme>
+    <!-- EN: sinist -->
+    <Guilty.symbolPacks.1.adjective>pecador(a)</Loyalist.symbolPacks.0.adjective>
+    <!-- EN: sinner -->
+    <Guilty.symbolPacks.1.member>pecador(a)</Guilty.symbolPacks.1.member>
+    <!-- EN: Shamism -->
+    <Guilty.symbolPacks.2.ideoName>Vergonhismo</Guilty.symbolPacks.2.ideoName>
+    <!-- EN: shame -->
+    <Guilty.symbolPacks.2.theme>vergonha</Guilty.symbolPacks.2.theme>
+    <!-- EN: shamist -->
+    <Guilty.symbolPacks.2.adjective>vergonhoso(a)</Guilty.symbolPacks.2.adjective>
+    <!-- EN: ashamer -->
+    <Guilty.symbolPacks.2.member>vergonhoso(a)</Guilty.symbolPacks.2.member>
+    <!-- EN: Atonism -->
+    <Guilty.symbolPacks.3.ideoName>Expismo</Guilty.symbolPacks.3.ideoName>
+    <!-- EN: atonement -->
+    <Guilty.symbolPacks.3.theme>expiação</Guilty.symbolPacks.3.theme>
+    <!-- EN: atonist -->
+    <Guilty.symbolPacks.3.adjective>expiatório(a)</Guilty.symbolPacks.3.adjective>
+    <!-- EN: atoner -->
+    <Guilty.symbolPacks.3.member>expiatório(a)</Guilty.symbolPacks.2.member>
+
 </LanguageData>
