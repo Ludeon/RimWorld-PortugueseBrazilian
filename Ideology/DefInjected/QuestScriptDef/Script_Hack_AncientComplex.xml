@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- EN:
+        <li>questName(p=6)->The [complexAdj] [complex]</li>
+        <li>questName->The [dig]</li>
+        <li>complexAdj->ancient</li>
+        <li>complexAdj->old</li>
+        <li>complexAdj->dusty</li>
+        <li>complexAdj->secret</li>
+        <li>complex->complex</li>
+        <li>complex->compound</li>
+        <li>complex->installation</li>
+        <li>dig->dig</li>
+        <li>dig->excavation</li>
+    -->
+    <AncientComplex_Standard.questNameRules.rulesStrings>
+        <li>questName(p=6)->O [complex] [complexAdj]</li>
+        <li>questName->A escavação</li>
+        <li>complexAdj->antigo</li>
+        <li>complexAdj->árido</li>
+        <li>complexAdj->secreto</li>
+        <li>complex->complexo</li>
+        <li>complex->composto</li>
+        <li>complex->emposse</li>
+    </AncientComplex_Standard.questNameRules.rulesStrings>
+    <!-- EN:
+        <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
+    -->
+    <AncientComplex_Standard.questDescriptionRules.rulesStrings>
+        <li>questDescription->Você aprendeu sobre um antigo complexo próximo. Diz-se que contém informações sobre [relic_name].\n\nSe você conseguir invadir a estrutura e invadir os computadores internos, pode coletar as informações.\n\nFique atento - pode haver todos os tipos de perigos dentro e outros inimigos também podem ser atraídos pela atividade na estrutura.</li>
+    </AncientComplex_Standard.questDescriptionRules.rulesStrings>
+    <!-- EN:
+        <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
+        <li>allTerminalsHackedMessage->You've hacked all of the terminals and discovered secret information about [relic_name]! You can now leave.</li>
+    -->
+    <AncientComplex_Standard.questContentRules.rulesStrings>
+        <li>terminalHackedMessage->Terminal hackeado. {COUNT} / [terminalCount] completo.</li>
+        <li>allTerminalsHackedMessage->Você invadiu todos os terminais e descobriu informações secretas sobre [relic_name]! Agora você pode sair.</li>
+    </AncientComplex_Standard.questContentRules.rulesStrings>
+
+</LanguageData>

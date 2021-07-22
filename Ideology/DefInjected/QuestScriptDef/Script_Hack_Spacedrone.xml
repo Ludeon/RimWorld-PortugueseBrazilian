@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- EN:
+        <li>questName->[droneAdj] [drone] hack</li>
+        <li>questName->[drone] [data] hack</li>
+        <li>droneAdj->orbital</li>
+        <li>droneAdj->data</li>
+        <li>droneAdj->ancient</li>  
+        <li>drone->drone</li>
+        <li>drone->spacecraft</li>
+        <li>drone->spacedrone</li>
+        <li>drone->cryptodrone</li>
+        <li>data->data</li>
+        <li>data->intel</li>
+        <li>data->info</li>
+    -->
+    <Hack_Spacedrone.questNameRules.rulesStrings>
+        <li>questName->hack do [drone] [droneAdj]</li>
+        <li>questName->hack do [drone] de [data]</li>
+        <li>droneAdj->orbital</li>
+        <li>droneAdj->de dados</li>
+        <li>droneAdj->antigo</li>  
+        <li>drone->drone</li>
+        <li>drone->drone espacial</li>
+        <li>drone->criptodrone</li>
+        <li>data->dados</li>
+        <li>data->informações</li>
+    </Hack_Spacedrone.questNameRules.rulesStrings>
+    <!-- EN:
+        <li>questDescription->You've detected an orbiting spacedrone that may contain information about [relic_name]. You have the code that will force it to land at [map_definite].\n\nTo get the information, hack into the drone's computer. Hacking takes time, but those strong in intellectual skill can speed up the process.[raidsDescription]\n\nThe spacedrone will self-destruct in [destroyDelayTicks_duration].</li>
+        <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will [droneDetectionMethod]. As long as it's present, they'll send attackers approximately every [raidIntervalAvg_duration] to destroy it and steal the wealth they think it contains. You will have some time to prepare defenses around it before they arrive.</li>
+        <li>raidsDescription(allowViolence==false)-></li>
+        <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
+        <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
+    -->
+    <Hack_Spacedrone.questDescriptionRules.rulesStrings>
+        <li>questDescription->Você detectou um drone espacial em órbita que pode conter informações sobre [relic_name]. Você tem o código que o forçará a pousar em [map_definite].\n\nPara obter as informações, hackeie o computador do drone. Hackear leva tempo, mas aqueles com grande habilidade intelectual podem acelerar o processo.[raidsDescription]\n\nO drone espacial irá se autodestruir em [destroyDelayTicks_duration].</li>
+        <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] irão [droneDetectionMethod]. Enquanto estiver presente, eles enviarão invasões aproximadamente a cada [raidIntervalAvg_duration] para destruí-lo e roubar a riqueza que eles acham que contém. Você terá algum tempo para preparar defesas antes que eles cheguem.</li>
+        <li>raidsDescription(allowViolence==false)-></li>
+        <li>droneDetectionMethod(enemyFactionNeolithic==true)->avistar o drone durante sua descida</li>
+        <li>droneDetectionMethod(enemyFactionNeolithic==false)->detectar a assinatura de energia do drone</li>
+    </Hack_Spacedrone.questDescriptionRules.rulesStrings>
+
+
+</LanguageData>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- EN: individualist -->
+    <Individualist.label>individualista</Individualist.label>
+    <!-- EN: A community's role is to serve each individual. -->
+    <Individualist.description>O papel de uma comunidade é servir a cada indivíduo.</Individualist.description>
+    <!-- EN:
+        <li>memeAdjective->free</li>
+        <li>memeAdjective->open</li>
+        <li>memeAdjective->liberal</li>
+        <li>memeConcept->self</li>
+        <li>memeConcept->independence</li>
+        <li>memeConcept->freedom</li>
+    -->
+    <Individualist.generalRules.rulesStrings>
+        <li>memeAdjective->livre</li>
+        <li>memeAdjective->aberto(a)</li>
+        <li>memeAdjective->liberal</li>
+        <li>memeConcept->ego</li>
+        <li>memeConcept->independência</li>
+        <li>memeConcept->liberdade</li>
+    </Individualist.generalRules.rulesStrings>
+    <!-- EN:
+        <li>creation(tag=meme_Individualist)        ->[deity0_name] fashioned every man and woman personally. Each one is a unique and precious artwork by [deity0_possessive] divine hand.</li>
+        <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] said to all, "Each and every one of you is a unique and holy being formed in my image."</li>
+        <li>intro(tag=meme_Individualist)           ->[deity0_name] spoke to [memberNamePlural] [revelationAdverb], guiding each to travel to the [place_summary] [place_name] where their unique gifts would shine.</li>
+        <li>conflict(tag=meme_Individualist)        ->The [foeLeader] forced the [memberNamePlural] to wear uniforms and work in [foeLeader_possessive] [place_community].</li>
+        <li>founderJoin(tag=meme_Individualist)     ->A [place_job] named [founderName] was blessed by [deity0_name] and gained miraculous knowledge of the unique power of each and every [memberName]. [founder_pronoun] said to each one what they needed to become their best self.</li>
+        <li>victory(tag=meme_Individualist)         ->The [memberNamePlural] gathered in a secret conference with many of the [foeSoldiers]. They all learned to see the value in each other and abandon the [foeLeader].</li>
+        <li>setup(tag=meme_Individualist)           ->Oppressed by distant rulers who demanded uniform obedience from the people, [founderName] created a rebel movement that smashed the state and built a new land of liberty in its place.</li>
+        <li>story(uses=1,tag=meme_Individualist)    ->[founderName] broke every social rule the oppressors tried to enforce, just to show that [founder_pronoun] could.</li>
+        <li>lessonIntro(tag=meme_Individualist)         ->My family, my clan, my team - they all tried to keep a shroud over my eyes to stop me from seeing a simple fact:</li>
+        <li>lesson(tag=meme_Individualist)              ->each person is unique and valuable and must walk his or her own path</li>
+        <li>lessonReinforcement(tag=meme_Individualist) ->But that was only my path - What will yours be?</li>
+        <li>archistBasis(tag=meme_Individualist)    ->Archotechs stand as sovereign consciousnesses, and recognize and judge each of us individually the same way.</li>
+        <li>archistFact(tag=meme_Individualist)     ->At death, the archotechs examine the unique morality of each person.</li>
+        <li>archistFact(tag=meme_Individualist)     ->Archotechs notice the one who wields their relics, such as the [relic1_name].</li>
+        <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd], the archotechs will depart. They will bring with them the ones they have noticed, and leave the rest behind to dissolve in the universe's eternal entropy.</li>
+        <li>animistBasis(tag=meme_Individualist)    ->Before everything, there was a pantheon of spirits, each unique. These came together in conference to create the world.</li>
+        <li>animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
+    -->
+    <Individualist.descriptionMaker.rules.rulesStrings>
+        <li>creation(tag=meme_Individualist)        ->[deity0_name] moldou cada homem e mulher pessoalmente. Cada um é uma obra de arte única e preciosa de sua mão divina.</li>
+        <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] disse a todos: "Cada um de vocês é um ser único e santo formado à minha imagem."</li>
+        <li>intro(tag=meme_Individualist)           ->[deity0_name] falou com [memberNamePlural] [revelationAdverb], guiando cada um para viajar para [place_summary] [place_name] onde seus dons únicos brilhariam.</li>
+        <li>conflict(tag=meme_Individualist)        ->O [foeLeader] forçou os [memberNamePlural] a usar uniformes e trabalhar em seu(ua) [place_community].</li>
+        <li>founderJoin(tag=meme_Individualist)     ->Um(a) [place_job] chamado(a) [founderName] foi abençoado(a) por [deity0_name] e ganhou um conhecimento milagroso do poder único de cada um e de todos [memberName]. [founder_pronoun] disse a cada um o que precisava para se tornar o melhor de si.</li>
+        <li>victory(tag=meme_Individualist)         ->Os [memberNamePlural] reuniram-se em uma conferência secreta com muitos dos [foeSoldiers]. Todos aprenderam a ver o valor uns dos outros e a abandonar o [foeLeader].</li>
+        <li>setup(tag=meme_Individualist)           ->Oprimido(a) por governantes distantes que exigiam obediência uniforme do povo, [founderName] criou um movimento rebelde que esmagou o estado e construiu uma nova terra de liberdade em seu lugar.</li>
+        <li>story(uses=1,tag=meme_Individualist)    ->[founderName] quebrou todas as regras sociais que os opressores tentaram impor, apenas para mostrar que [founder_pronoun] poderia.</li>
+        <li>lessonIntro(tag=meme_Individualist)         ->Minha família, meu clã, minha equipe - todos eles tentaram manter uma mortalha sobre meus olhos para me impedir de ver um fato simples:</li>
+        <li>lesson(tag=meme_Individualist)              ->cada pessoa é única e valiosa e deve trilhar seu próprio caminho</li>
+        <li>lessonReinforcement(tag=meme_Individualist) ->Mas esse foi apenas o meu caminho - Qual será o seu?</li>
+        <li>archistBasis(tag=meme_Individualist)    ->Os arquotécnicos são consciências soberanas e reconhecem e julgam cada um de nós individualmente da mesma maneira.</li>
+        <li>archistFact(tag=meme_Individualist)     ->Na morte, os arquotécnicos examinam a moralidade única de cada pessoa.</li>
+        <li>archistFact(tag=meme_Individualist)     ->Os arquotécnicos percebem aquele que empunha suas relíquias, como o(a) [relic1_name].</li>
+        <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd], os arquotécnicos partirão. Eles trarão consigo aqueles que notaram e deixarão o resto para trás para se dissolver na entropia eterna do universo.</li>
+        <li>animistBasis(tag=meme_Individualist)    ->Antes de tudo, havia um panteão de espíritos, cada um único. Eles se reuniram em uma conferência para criar o mundo.</li>
+        <li>animistFact(tag=meme_Individualist)     ->Cada espírito empresta sua natureza única ao nosso mundo, e eles esperam que façamos o mesmo.</li>
+    </Individualist.descriptionMaker.rules.rulesStrings>
+    <!-- EN: freedom -->
+    <Individualist.symbolPacks.0.theme>liberdade</Individualist.symbolPacks.0.theme>
+    <!-- EN: freedomist -->
+    <Individualist.symbolPacks.0.adjective>libertário(a)</Individualist.symbolPacks.0.adjective>
+    <!-- EN: freeist -->
+    <Individualist.symbolPacks.0.member>liberal</Individualist.symbolPacks.0.member>
+    <!-- EN: Libertism -->
+    <Individualist.symbolPacks.1.ideoName>Libertismo</Individualist.symbolPacks.1.ideoName>
+    <!-- EN: liberty -->
+    <Individualist.symbolPacks.1.theme>liberdade</Individualist.symbolPacks.1.theme>
+    <!-- EN: libertine -->
+    <Individualist.symbolPacks.1.adjective>libertino(a)</Individualist.symbolPacks.1.adjective>
+    <!-- EN: libertor -->
+    <Individualist.symbolPacks.1.member>libertador(a)</Individualist.symbolPacks.1.member>
+    <!-- EN: Independency -->
+    <Individualist.symbolPacks.2.ideoName>Independência</Individualist.symbolPacks.2.ideoName>
+    <!-- EN: independence -->
+    <Individualist.symbolPacks.2.theme>independência</Individualist.symbolPacks.2.theme>
+    <!-- EN: independent -->
+    <Individualist.symbolPacks.2.adjective>independente</Individualist.symbolPacks.2.adjective>
+    <!-- EN: independent -->
+    <Individualist.symbolPacks.2.member>independente</Individualist.symbolPacks.2.member>
+    <!-- EN: Autonomism -->
+    <Individualist.symbolPacks.3.ideoName>Autonomismo</Individualist.symbolPacks.3.ideoName>
+    <!-- EN: autonomy -->
+    <Individualist.symbolPacks.3.theme>autonomia</Individualist.symbolPacks.3.theme>
+    <!-- EN: autonomist -->
+    <Individualist.symbolPacks.3.adjective>autonomista</Individualist.symbolPacks.3.adjective>
+    <!-- EN: autonomor -->
+    <Individualist.symbolPacks.3.member>autônomo(a)</Individualist.symbolPacks.3.member>
+
+</LanguageData>
