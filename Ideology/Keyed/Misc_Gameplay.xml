@@ -52,24 +52,24 @@
   <!--EN: min expectation -->
   <MinExpectation>expectativa mínima</MinExpectation>
   
-  <!--EN: -->
-  <PreceptThoughtMoodRange>{0} to {1}</PreceptThoughtMoodRange>
+  <!--EN: {0} to {1} -->
+  <PreceptThoughtMoodRange>{0} para {1}</PreceptThoughtMoodRange>
   
   <!--EN: Comes from ideo -->
   <ComesFromIdeo>Provém de ideologia</ComesFromIdeo>
   
-  <!--EN:  -->
-  <CurrentTotalAnimalBodySizePerColonist>Current total animal bodysize per colonist</CurrentTotalAnimalBodySizePerColonist>
+  <!--EN: Current total animal bodysize per colonist -->
+  <CurrentTotalAnimalBodySizePerColonist>TODO</CurrentTotalAnimalBodySizePerColonist>
   
-  <!--EN:  -->
-  <AnimalsBodySizePerColonist>total bodysize per colonist</AnimalsBodySizePerColonist>
+  <!--EN: total bodysize per colonist -->
+  <AnimalsBodySizePerColonist>TODO</AnimalsBodySizePerColonist>
   
-  <!--EN:  -->
-  <VeneratedAnimalsBodySizePerColonist>total nearby bodysize per colonist</VeneratedAnimalsBodySizePerColonist>
+  <!--EN: total nearby bodysize per colonist -->
+  <VeneratedAnimalsBodySizePerColonist>TODO</VeneratedAnimalsBodySizePerColonist>
   
   
-  <!--EN:  -->
-  <MinAnimalBodySizePerColonist>Expecting at least {0} body size per colonist.</MinAnimalBodySizePerColonist>
+  <!--EN: Expecting at least {0} body size per colonist. -->
+  <MinAnimalBodySizePerColonist>TODO</MinAnimalBodySizePerColonist>
   
   <!--EN: Plant {0_label} -->
   <PlantThing>Plantar {0_label}</PlantThing>
@@ -121,8 +121,8 @@
   <NotEnoughDye>Sem corante suficiente. O colono irá recolorir a vestimenta quando o corante estiver disponível.</NotEnoughDye>
   
   
-  <!--EN:  -->
-  <IdeoCertaintyTooltip>{PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE}</IdeoCertaintyTooltip>
+  <!--EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
+  <IdeoCertaintyTooltip>TODO</IdeoCertaintyTooltip>
   
   <!--EN: Disabled by precept -->
   <DisabledByPrecept>Desabilitado pelo preceito {0}</DisabledByPrecept>
@@ -158,8 +158,8 @@
   <!--EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>Bola de luz não está energizada.</RitualTargetLightBallIsNotPowered>
   
-  <!--EN:  -->
-  <RitualTargetNoPoweredSpeakers>No powered speakers.</RitualTargetNoPoweredSpeakers>
+  <!--EN: No powered speakers. -->
+  <RitualTargetNoPoweredSpeakers>TODO</RitualTargetNoPoweredSpeakers>
   
   <!--EN: Campfire is not fueled. -->
   <RitualTargetCampfireNoFuel>A fogueira não está abastecida.</RitualTargetCampfireNoFuel>
@@ -170,8 +170,8 @@
   <!--EN: No nearby drum. -->
   <RitualTargetNoDrum>Sem tambor nas proximidades.</RitualTargetNoDrum>
   
-  <!--EN:  -->
-  <RitualTargetNeedUnroofedCells>Need at least {0} unroofed cells nearby.</RitualTargetNeedUnroofedCells>
+  <!--EN: Need at least {0} unroofed cells nearby. -->
+  <RitualTargetNeedUnroofedCells>TODO</RitualTargetNeedUnroofedCells>
   
   <!--EN: A lit campfire or ritual spot. -->
   <RitualTargetCampfirePartyInfo>Uma fogueira acesa ou um local de ritual.</RitualTargetCampfirePartyInfo>
@@ -194,85 +194,199 @@
   <!--EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} não acredita em escarificação doutrinada e não vai gostar de ser escarificado.</RitualScarificationWarnNonScarificationIdeo>
   
-  <!--EN:  -->
-  <RitualScarificationWarnWimp>{PAWN_labelShort} is a wimp and will not like being scarified.</RitualScarificationWarnWimp>
+  <!--EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
+  <RitualScarificationWarnWimp>TODO</RitualScarificationWarnWimp>
   
   <!--EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} não acredita em cegueira doutrinada e não vai gostar de ser cegado.</RitualBlindingWarnNonBlindingIdeo>
   
-  <!--EN:  -->
-  <RitualBlindingWarnWimp>{PAWN_labelShort} is a wimp and will not like being blinded.</RitualBlindingWarnWimp>
+  <!--EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
+  <RitualBlindingWarnWimp>TODO</RitualBlindingWarnWimp>
   
-  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
-  <RitualOutcomeExtraDesc_BlindingPsylink>Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level!</RitualOutcomeExtraDesc_BlindingPsylink>
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>With a new pyslink level {PAWN_pronoun} gained a {0} psycast.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
-  <RitualOutcomeExtraDesc_ConsumableInspiration>Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
-  <RitualOutcomeExtraDesc_SkylanternWanderers>Your skylanterns have attracted some friendly travelers. They will visit and leave a gift.</RitualOutcomeExtraDesc_SkylanternWanderers>
-  <RitualOutcomeExtraDesc_Execution>All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level.</RitualOutcomeExtraDesc_Execution>
-
-  <RitualAttachedReward>Additional reward</RitualAttachedReward>
-  <RitualAttachedRewardChoose>Choose</RitualAttachedRewardChoose>
-  <RitualAttachedRewardCantUseWithRitual>Can't use {0} with {1}.</RitualAttachedRewardCantUseWithRitual>
-  <RitualAttachedRewardRequiredMemeAny>Requires any of memes</RitualAttachedRewardRequiredMemeAny>
-  <RitualAttachedRewardRequiredFaction>Requires {0} faction</RitualAttachedRewardRequiredFaction>
-  <RitualAttachedOutcomes_Positive>positive</RitualAttachedOutcomes_Positive>
-  <RitualAttachedOutcomes_Negative>negative</RitualAttachedOutcomes_Negative>
-  <RitualAttachedOutcomesInfo>If the {0} is {1}</RitualAttachedOutcomesInfo>
-  <RitualAttachedApplliesForOutcome>Upon any {0} outcome</RitualAttachedApplliesForOutcome>
-  <RitualAttachedApplliesForOutcomes>Upon any {0} outcome</RitualAttachedApplliesForOutcomes>
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>The {0} has induced a Gauranlen pod to sprout nearby.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
-  <RitualAttachedOutcomeCantApply>Can't apply reward</RitualAttachedOutcomeCantApply>
-  <RitualAttachedOutcomeCantApply_NoValidSpot>No valid spot</RitualAttachedOutcomeCantApply_NoValidSpot>
-  <RitualAttachedOutcomeCantApply_ExtremeBiome>Extreme biome</RitualAttachedOutcomeCantApply_ExtremeBiome>
-  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>There is already a known ancient complex to explore.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
-  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>Not available right now.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
+  <!--EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Todos os participantes do ritual ganharam um buff de foco no trabalho de um dia (velocidade de trabalho global de {PERCENTAGE})!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   
-  <IdeoBuildingVariationOf>This building is a variation of</IdeoBuildingVariationOf>
-  <IdeoBuildingMinimumExpectations>Minimum expectations</IdeoBuildingMinimumExpectations>
-  <Size>size</Size>
-  <Cost>cost</Cost>
-  <Optional>optional</Optional>
-  <Expectations>expectations</Expectations>
-  <RitualStartAnyTime>Can start any time</RitualStartAnyTime>
-  <RitualStartEvent>Can start after event</RitualStartEvent>
-  <RitualFocusObjects>Focus objects</RitualFocusObjects>
-  <RitualRepeatPenaltyTip>Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now.</RitualRepeatPenaltyTip>
-  <RitualParticipatingRoles>Participating roles</RitualParticipatingRoles>
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>For best quality, start the {0} at {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
-  <RitualOutcomeCompTip_RitualTargetDefsPart2>Currently, the {0} is being started at {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <!--EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
+  <RitualOutcomeExtraDesc_BlindingPsylink>Graças a um ritual de cegamento satisfatório, {PAWN_labelShort} ganhou um nível de psylink!</RitualOutcomeExtraDesc_BlindingPsylink>
+  
+  <!--EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Com um novo nível de pyslink, {PAWN_pronoun} um psycast {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  
+  <!--EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
+  <RitualOutcomeExtraDesc_ConsumableInspiration>Graças a um {RITUAL} satisfatório, {PAWN_labelShort} ganhou {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
+  
+  <!--EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
+  <RitualOutcomeExtraDesc_SkylanternWanderers>Suas lanternas celestes atraíram alguns viajantes amigáveis. Eles vão visitar e deixar um presente.</RitualOutcomeExtraDesc_SkylanternWanderers>
+  
+  <!--EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
+  <RitualOutcomeExtraDesc_Execution>Todos os escravos participantes ficaram abalados com a visão da morte. A supressão foi elevada ao nível máximo.</RitualOutcomeExtraDesc_Execution>
 
-  <ForSlaveUse>For slave use</ForSlaveUse>
-  <Slave>Slave</Slave>
-  <SellingAsSlave>If you sell someone to any faction besides their own, they become slaves.</SellingAsSlave>
-  <SellingAsRansom>If you sell someone to their own faction, they are ransomed and not enslaved.</SellingAsRansom>
+  
+  <!--EN: Additional reward -->
+  <RitualAttachedReward>Recompensa adicional</RitualAttachedReward>
+  
+  <!--EN: Choose -->
+  <RitualAttachedRewardChoose>Escolher</RitualAttachedRewardChoose>
+  
+  <!--EN: Can't use {0} with {1}. -->
+  <RitualAttachedRewardCantUseWithRitual>Não é possível usar {0} com {1}.</RitualAttachedRewardCantUseWithRitual>
+  
+  <!--EN: Requires any of memes -->
+  <RitualAttachedRewardRequiredMemeAny>Requer qualquer um dos memes</RitualAttachedRewardRequiredMemeAny>
+  
+  <!--EN: Requires {0} faction -->
+  <RitualAttachedRewardRequiredFaction>TODO</RitualAttachedRewardRequiredFaction>
+  
+  <!--EN: positive -->
+  <RitualAttachedOutcomes_Positive>positivo</RitualAttachedOutcomes_Positive>
+  
+  <!--EN: negative -->
+  <RitualAttachedOutcomes_Negative>negativo</RitualAttachedOutcomes_Negative>
+  
+  <!--EN: If the {0} is {1} -->
+  <RitualAttachedOutcomesInfo>Se {0} for {1}</RitualAttachedOutcomesInfo>
+  
+  <!--EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcome>TODO</RitualAttachedApplliesForOutcome>
+  
+  <!--EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcomes>TODO</RitualAttachedApplliesForOutcomes>
+  
+  <!--EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>A comoção do {0} atraiu alguns animais curiosos!\n\nEles parecem acostumados ao contato humano e estão ingressando na colônia.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  
+  <!--EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>O {0} induziu um pod de Gauranlen a brotar nas proximidades.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  
+  <!--EN: Can't apply reward -->
+  <RitualAttachedOutcomeCantApply>Não é possível aplicar a recompensa</RitualAttachedOutcomeCantApply>
+  
+  <!--EN: No valid spot -->
+  <RitualAttachedOutcomeCantApply_NoValidSpot>Sem local válido</RitualAttachedOutcomeCantApply_NoValidSpot>
+  
+  <!--EN: Extreme biome -->
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>Bioma extremo</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  
+  <!--EN: There is already a known ancient complex to explore. -->
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>Já existe um antigo complexo conhecido para explorar.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  
+  <!--EN: Not available right now. -->
+  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>Não disponível no momento.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
+  
+  
+  <!--EN: This building is a variation of -->
+  <IdeoBuildingVariationOf>Este edifício é uma variação de</IdeoBuildingVariationOf>
+  
+  <!--EN: Minimum expectations -->
+  <IdeoBuildingMinimumExpectations>Expectativas mínimas</IdeoBuildingMinimumExpectations>
+  
+  <!--EN: size -->
+  <Size>tamanho</Size>
+  
+  <!--EN: cost -->
+  <Cost>custo</Cost>
+  
+  <!--EN: optional -->
+  <Optional>opcional</Optional>
+  
+  <!--EN: expectations -->
+  <Expectations>expectativas</Expectations>
+  
+  <!--EN: Can start any time -->
+  <RitualStartAnyTime>Pode começar a qualquer momento</RitualStartAnyTime>
+  
+  <!--EN: Can start after event -->
+  <RitualStartEvent>Pode começar depois do evento</RitualStartEvent>
+  
+  <!--EN: Focus objects -->
+  <RitualFocusObjects>Objetos de foco</RitualFocusObjects>
+  
+  <!--EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
+  <RitualRepeatPenaltyTip>Repetir um ritual em {0} dias reduz sua qualidade. {1} dia se passou desde o último ritual, então a redução de qualidade atual é {2}. Essa penalidade cairá para zero em {3} dias a partir de agora.</RitualRepeatPenaltyTip>
+  
+  <!--EN: Participating roles -->
+  <RitualParticipatingRoles>Papéis participantes</RitualParticipatingRoles>
+  
+  <!--EN: For best quality, start the {0} at {1}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Para obter a melhor qualidade, comece {0} em {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  
+  <!--EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart2>Atualmente, {0} está sendo iniciado em {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  
+  <!--EN: For slave use -->
+  <ForSlaveUse>Para uso escravo</ForSlaveUse>
+  
+  <!--EN: Slave -->
+  <Slave>Escravo(a)</Slave>
+  
+  <!--EN: If you sell someone to any faction besides their own, they become slaves. -->  
+  <SellingAsSlave>Se você vender alguém para qualquer facção além da sua facção natal, eles se tornam escravos.</SellingAsSlave>
+  
+  <!--EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
+  <SellingAsRansom>Se você vender alguém para sua própria facção, eles serão resgatados e não escravizados.</SellingAsRansom>
 
-  <MemeGoodwillImpact_Player>We are {0}</MemeGoodwillImpact_Player>
-  <MemeGoodwillImpact_Other>They are {0}</MemeGoodwillImpact_Other>
+  <!--EN: We are {0} -->
+  <MemeGoodwillImpact_Player>TODO</MemeGoodwillImpact_Player>
+  
+  <!--EN: They are {0} -->
+  <MemeGoodwillImpact_Other>TODO</MemeGoodwillImpact_Other>
 
   <!-- TextMotes -->
-  <TextMote_SuppressionIncreased>Slave suppression: {0}</TextMote_SuppressionIncreased>
+    <!--EN: Slave suppression: {0} -->
+  <TextMote_SuppressionIncreased>Supressão de escravo: {0}</TextMote_SuppressionIncreased>
 
   <!-- Role requirements -->
-  <RoleRequirementsLabel>Requirements</RoleRequirementsLabel>
-  <RoleEffectsLabel>Passive effects</RoleEffectsLabel>
-  <RoleRequirementLabelSameIdeo>Must be {0}</RoleRequirementLabelSameIdeo>
-  <RoleRequirementLabelSupremeGender>Must be {0}</RoleRequirementLabelSupremeGender>
+  <!--EN: Requirements -->
+  <RoleRequirementsLabel>Requisitos</RoleRequirementsLabel>
+  
+  <!--EN: Passive effects -->
+  <RoleEffectsLabel>Efeitos passivos</RoleEffectsLabel>
+  
+  <!--EN: Must be {0} -->
+  <RoleRequirementLabelSameIdeo>TODO</RoleRequirementLabelSameIdeo>
+  
+  <!--EN: Must be {0} -->
+  <RoleRequirementLabelSupremeGender>TODO</RoleRequirementLabelSupremeGender>
+  
+  
+  <!--EN: Disabled work -->
+  <RoleDisabledWorkLabel>TODO</RoleDisabledWorkLabel>
+  
+  <!--EN: Abilities -->
+  <RoleGrantedAbilitiesLabel>Habilidades</RoleGrantedAbilitiesLabel>
+  
+  <!--EN: Required apparel -->
+  <RoleRequiredApparelLabel>Vestuário obrigatório</RoleRequiredApparelLabel>
+  
+  <!--EN: Has role in rituals -->
+  <RoleRitualsLabel>Tem papel em rituais</RoleRitualsLabel>
+  
+  <!--EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
+  <RoleBelieverCountDesc>Este papel se torna ativo quando sua facção tem {1} {0}. Ele se torna inativo quando sua facção tem apenas {3} {2}.</RoleBelieverCountDesc>
+  
+  <!--EN: Raised by {0} levels. -->
+  <RoleExpectationOffset>Elevado em {0} níveis.</RoleExpectationOffset>
+  
+  <!--EN: The {0} has higher expectations. -->
+  <RoleRaisedExpectation>{0} tem expectativas mais altas.</RoleRaisedExpectation>
+  
+  <!--EN: Led by {0} -->
+  <IdeoLeaderDifferentIdeoThoughtLabel>TODO</IdeoLeaderDifferentIdeoThoughtLabel>
+  
+  <!--EN: {PAWN_nameDef} will not do {1} work. -->
+  <AbilityDisabled_IncapableOfWorkTag>TODO</AbilityDisabled_IncapableOfWorkTag>
+  
+  
+  <!--EN: No reachable altar or ritual spot.  -->
+  <AbilityDisabledNoAltarOrRitualsSpot>Nenhum altar alcançável ou local de ritual.</AbilityDisabledNoAltarOrRitualsSpot>
+  
+   
+  <!--EN: Will\n{0} to {1} -->   
+  <TextMote_WillReduced>TODO</TextMote_WillReduced>
 
-  <RoleDisabledWorkLabel>Disabled work</RoleDisabledWorkLabel>
-  <RoleGrantedAbilitiesLabel>Abilities</RoleGrantedAbilitiesLabel>
-  <RoleRequiredApparelLabel>Required apparel</RoleRequiredApparelLabel>
-  <RoleRitualsLabel>Has role in rituals</RoleRitualsLabel>
-  <RoleBelieverCountDesc>This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}.</RoleBelieverCountDesc>
-  <RoleExpectationOffset>Raised by {0} levels.</RoleExpectationOffset>
-  <RoleRaisedExpectation>The {0} has higher expectations.</RoleRaisedExpectation>
-  <IdeoLeaderDifferentIdeoThoughtLabel>Led by {0}</IdeoLeaderDifferentIdeoThoughtLabel>
-  <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} will not do {1} work.</AbilityDisabled_IncapableOfWorkTag>
-  <AbilityDisabledNoAltarOrRitualsSpot>No reachable altar or ritual spot.</AbilityDisabledNoAltarOrRitualsSpot>
-
-  <TextMote_WillReduced>Will\n{0} to {1}</TextMote_WillReduced>
-
-  <ConfirmationCharityJoiner>Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer?</ConfirmationCharityJoiner>
+  
+  <!--EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
+  <ConfirmationCharityJoiner>Aceitar esta oferta de adesão é um ato de caridade. Se você recusar, as seguintes pessoas ficarão infelizes devido às suas crenças pró-caridade:\n{0}\n\nTem certeza de que deseja rejeitar esta oferta de adesão?</ConfirmationCharityJoiner>
 
   <BelieversIn>Believers in {0} ({1})</BelieversIn>
   <AddPrecept>add {0}</AddPrecept>
