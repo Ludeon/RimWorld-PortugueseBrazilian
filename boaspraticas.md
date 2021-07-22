@@ -15,7 +15,7 @@
 4. Caso haja dúvidas, **peça ajuda** aos membros mais ativos.
 
 ### Ferramentas para auxílio:
-- Editores de texto: [Notepad++](https://notepad-plus-plus.org/) / [Atom](https://atom.io) (você pode fazer uso de outro editor de texto de sua preferência). (1)
+- Editores de texto: [Visual Studio Code](https://code.visualstudio.com) / [Notepad++](https://notepad-plus-plus.org/) / [Atom](https://atom.io) (você pode fazer uso de outro editor de texto de sua preferência). (1)
 - Aplicativo do GitHub para computador: [GitHub Desktop](https://desktop.github.com/). (2)
 - Command Line do git (opcional) [Windows](https://git-scm.com/download/win) / [OSX](https://git-scm.com/download/mac). (3)
 - [WinMerge](https://winmerge.org/). (4)
