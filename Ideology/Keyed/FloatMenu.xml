@@ -16,7 +16,7 @@
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} não pode ser {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>TODO</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} deve ser um {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
   <CantStartNotEnoughSpaceDuel>Espaço insuficiente. Deve haver um círculo limpo, com raio de {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
@@ -89,13 +89,13 @@
   <RecolorApparel>recolorir vestuário</RecolorApparel>
 
   <!-- EN: Hack {0} -->
-  <Hack>TODO</Hack>
+  <Hack>Hackear {0}</Hack>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>TODO</CannotHack>
+  <CannotHack>Não é possível hackear {0}</CannotHack>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>TODO</AlreadyHacked>
+  <AlreadyHacked>Já hackeado</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>TODO</IncapableOfHacking>
+  <IncapableOfHacking>Incapaz de hackear</IncapableOfHacking>
   <!-- EN: to drop supplies -->
   <ToDropSupplies>descartar suprimentos</ToDropSupplies>
 
@@ -113,7 +113,7 @@
   <NoEmptyReliquary>nenhum relicário vazio acessível</NoEmptyReliquary>
 
   <!-- EN: No {MEMBERNAME} warden -->
-  <NoWardenOfIdeo>TODO</NoWardenOfIdeo>
+  <NoWardenOfIdeo>Nenhum guarda de {MEMBERNAME}</NoWardenOfIdeo>
 
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>Remover papel atual</RemoveCurrentRole>
@@ -121,7 +121,7 @@
   <!-- EN: Enter biosculpter pod -->
   <EnterBiosculpterPod>Entrar na cápsula de bioescultura</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
-  <BiosculpterBiotunedToAnother>TODO</BiosculpterBiotunedToAnother>
+  <BiosculpterBiotunedToAnother>Sintonizado bioticamente com outra pessoa</BiosculpterBiotunedToAnother>
   <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
   <CarryToBiosculpterPod>Carregar {PAWN_label} para cápsula de bioescultura ({CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
