@@ -22,6 +22,7 @@ Translators:
 - [ElioNETO-trad](https://github.com/ElioNETO-trad)
 - [LoboMetalurgico](https://github.com/LoboMetalurgico)
 - [João Rocha](https://github.com/KitsuneModder)
+- [Antunes Florêncio](https://github.com/antunes1611)
 -------------------------
 
 ### ATENÇÃO
