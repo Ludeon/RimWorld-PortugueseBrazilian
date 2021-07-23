@@ -137,9 +137,9 @@
     <Structure_OriginChristian.symbolPacks.13.member>teonomista</Structure_OriginChristian.symbolPacks.13.member>
 
     <!-- EN: Islamic origin -->
-    <Structure_OriginIslamic.label>origem cristã</Structure_OriginIslamic.label>
-    <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-    <Structure_OriginIslamic.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo Cristianismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginIslamic.description>
+    <Structure_OriginIslamic.label>origem islâmica</Structure_OriginIslamic.label>
+    <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islamism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+    <Structure_OriginIslamic.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo islamismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginIslamic.description>
     <!-- EN:
         <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
         <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -269,8 +269,366 @@
     <!-- EN: Caliphate -->
     <Structure_OriginIslamic.symbolPacks.14.ideoName>califado</Structure_OriginIslamic.symbolPacks.14.ideoName>
     <!-- EN: Caliphic -->
-    <Structure_OriginIslamic.symbolPacks.14.adjective>califista</Structure_OriginIslamic.symbolPacks.12.adjective>
+    <Structure_OriginIslamic.symbolPacks.14.adjective>califista</Structure_OriginIslamic.symbolPacks.14.adjective>
     <!-- EN: Caliphist -->
-    <Structure_OriginIslamic.symbolPacks.14.member>califista</Structure_OriginIslamic.symbolPacks.13.member>
+    <Structure_OriginIslamic.symbolPacks.14.member>califista</Structure_OriginIslamic.symbolPacks.14.member>
+
+    <!-- EN: Hindu origin -->
+    <Structure_OriginHindu.label>origem hindu</Structure_OriginHindu.label>
+    <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+    <Structure_OriginHindu.description>Esta é uma variante da estrutura teísta encarnada. Essa ideoligia é descendente do antigo hinduismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginHindu.description>
+    <!-- EN:
+        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->mahatma</li>
+        <li>memeLeaderNoun->ishvara</li>
+        <li>memeLeaderNoun->yogi</li>
+        <li>memeLeaderNoun->pandit</li>
+        <li>memeLeaderNoun->avatar</li>
+        <li>memeLeaderAdjective->sacred</li>
+        <li>memeLeaderAdjective->hindic</li>
+        <li>memeLeaderAdjective->indic</li>
+        <li>memeLeaderAdjective->yogic</li>
+        <li>memeLeaderAdjective->tirth</li>
+        <li>memeMoralist(p=3)->pujari</li>
+        <li>memeMoralist->purohit</li>
+        <li>memeMoralist->archaka</li>
+        <li>memeMoralist->brahmin</li>
+    -->
+    <Structure_OriginHindu.generalRules.rulesStrings>
+        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->mahatma</li>
+        <li>memeLeaderNoun->ishvara</li>
+        <li>memeLeaderNoun->iogue</li>
+        <li>memeLeaderNoun->pandit</li>
+        <li>memeLeaderNoun->avatar</li>
+        <li>memeLeaderAdjective->sagrado(a)</li>
+        <li>memeLeaderAdjective->hindi</li>
+        <li>memeLeaderAdjective->índico(a)</li>
+        <li>memeLeaderAdjective->iogue</li>
+        <li>memeLeaderAdjective->tirth</li>
+        <li>memeMoralist(p=3)->pujari</li>
+        <li>memeMoralist->purohit</li>
+        <li>memeMoralist->archaka</li>
+        <li>memeMoralist->brâmane</li>
+    </Structure_OriginHindu.generalRules.rulesStrings>
+    <!-- EN: Hinduism -->
+    <Structure_OriginHindu.symbolPacks.0.ideoName>Hinduísmo</Structure_OriginHindu.symbolPacks.0.ideoName>
+    <!-- EN: Hindu -->
+    <Structure_OriginHindu.symbolPacks.0.adjective>hindu</Structure_OriginHindu.symbolPacks.0.adjective>
+    <!-- EN: Hindu -->
+    <Structure_OriginHindu.symbolPacks.0.member>hindu</Structure_OriginHindu.symbolPacks.0.member>
+    <!-- EN: Induism -->
+    <Structure_OriginHindu.symbolPacks.1.ideoName>Induísmo</Structure_OriginHindu.symbolPacks.1.ideoName>
+    <!-- EN: Indu -->
+    <Structure_OriginHindu.symbolPacks.1.adjective>indu</Structure_OriginHindu.symbolPacks.1.adjective>
+    <!-- EN: Indu -->
+    <Structure_OriginHindu.symbolPacks.1.member>indu</Structure_OriginHindu.symbolPacks.1.member>
+    <!-- EN: Sinduism -->
+    <Structure_OriginHindu.symbolPacks.2.ideoName>sinduísmo</Structure_OriginHindu.symbolPacks.2.ideoName>
+    <!-- EN: Sindu -->
+    <Structure_OriginHindu.symbolPacks.2.adjective>sindu</Structure_OriginHindu.symbolPacks.2.adjective>
+    <!-- EN: Sindu -->
+    <Structure_OriginHindu.symbolPacks.2.member>sindu</Structure_OriginHindu.symbolPacks.2.member>
+    <!-- EN: Tantra -->
+    <Structure_OriginHindu.symbolPacks.3.ideoName>Tantra</Structure_OriginHindu.symbolPacks.3.ideoName>
+    <!-- EN: Tantric -->
+    <Structure_OriginHindu.symbolPacks.3.adjective>tântrico(a)</Structure_OriginHindu.symbolPacks.3.adjective>
+    <!-- EN: Tantran -->
+    <Structure_OriginHindu.symbolPacks.3.member>tântrico(a)</Structure_OriginHindu.symbolPacks.3.member>
+    <!-- EN: Vedism -->
+    <Structure_OriginHindu.symbolPacks.4.ideoName>Vedismo</Structure_OriginHindu.symbolPacks.4.ideoName>
+    <!-- EN: Vedic -->
+    <Structure_OriginHindu.symbolPacks.4.adjective>védico(a)</Structure_OriginHindu.symbolPacks.4.adjective>
+    <!-- EN: Vedi -->
+    <Structure_OriginHindu.symbolPacks.4.member>vedi</Structure_OriginHindu.symbolPacks.4.member>
+    <!-- EN: Dharmism -->
+    <Structure_OriginHindu.symbolPacks.5.ideoName>Darmismo</Structure_OriginHindu.symbolPacks.5.ideoName>
+    <!-- EN: Dharmic -->
+    <Structure_OriginHindu.symbolPacks.5.adjective>dármico(a)</Structure_OriginHindu.symbolPacks.5.adjective>
+    <!-- EN: Dharmi -->
+    <Structure_OriginHindu.symbolPacks.5.member>darmi</Structure_OriginHindu.symbolPacks.5.member>
+    <!-- EN: Vaishmaya -->
+    <Structure_OriginHindu.symbolPacks.6.ideoName>Vaixá</Structure_OriginHindu.symbolPacks.6.ideoName>
+    <!-- EN: Vaishmayan -->
+    <Structure_OriginHindu.symbolPacks.6.adjective>vaixá</Structure_OriginHindu.symbolPacks.6.adjective>
+    <!-- EN: Vaishnava -->
+    <Structure_OriginHindu.symbolPacks.6.member>vaixá</Structure_OriginHindu.symbolPacks.6.member>
+    <!-- EN: Shaivmaya -->
+    <Structure_OriginHindu.symbolPacks.7.ideoName>Xivaísmo</Structure_OriginHindu.symbolPacks.7.ideoName>
+    <!-- EN: Shaivan -->
+    <Structure_OriginHindu.symbolPacks.7.adjective>xiva</Structure_OriginHindu.symbolPacks.7.adjective>
+    <!-- EN: Shaiva -->
+    <Structure_OriginHindu.symbolPacks.7.member>xiva</Structure_OriginHindu.symbolPacks.7.member>
+    <!-- EN: Yoga -->
+    <Structure_OriginHindu.symbolPacks.8.ideoName>Ioga</Structure_OriginHindu.symbolPacks.8.ideoName>
+    <!-- EN: Yogic -->
+    <Structure_OriginHindu.symbolPacks.8.adjective>iogue</Structure_OriginHindu.symbolPacks.8.adjective>
+    <!-- EN: Yogi -->
+    <Structure_OriginHindu.symbolPacks.8.member>iogue</Structure_OriginHindu.symbolPacks.8.member>
+    <!-- EN: Nyaya -->
+    <Structure_OriginHindu.symbolPacks.9.ideoName>Nyaya</Structure_OriginHindu.symbolPacks.9.ideoName>
+    <!-- EN: Nyayan -->
+    <Structure_OriginHindu.symbolPacks.9.adjective>nyayano(a)</Structure_OriginHindu.symbolPacks.9.adjective>
+    <!-- EN: Nyava -->
+    <Structure_OriginHindu.symbolPacks.9.member>nyava</Structure_OriginHindu.symbolPacks.9.member>
+    <!-- EN: Vaisesika -->
+    <Structure_OriginHindu.symbolPacks.10.ideoName>Vaisheshika</Structure_OriginHindu.symbolPacks.10.ideoName>
+    <!-- EN: Vaisesikan -->
+    <Structure_OriginHindu.symbolPacks.10.adjective>vaisesikano(a)</Structure_OriginHindu.symbolPacks.10.adjective>
+    <!-- EN: Vaisesikaya -->
+    <Structure_OriginHindu.symbolPacks.10.member>vaisesikaya</Structure_OriginHindu.symbolPacks.10.member>
+    <!-- EN: Samkhya -->
+    <Structure_OriginHindu.symbolPacks.11.ideoName>Samkhya</Structure_OriginHindu.symbolPacks.11.ideoName>
+    <!-- EN: Samkhyan -->
+    <Structure_OriginHindu.symbolPacks.11.adjective>samkhyano(a)</Structure_OriginHindu.symbolPacks.11.adjective>
+    <!-- EN: Samkhyan -->
+    <Structure_OriginHindu.symbolPacks.11.member>samkhyano(a)</Structure_OriginHindu.symbolPacks.11.member>
+    <!-- EN: Mimamsa -->
+    <Structure_OriginHindu.symbolPacks.12.ideoName>Mimamsa</Structure_OriginHindu.symbolPacks.12.ideoName>
+    <!-- EN: Mimamsan -->
+    <Structure_OriginHindu.symbolPacks.12.adjective>mimamsano(a)</Structure_OriginHindu.symbolPacks.12.adjective>
+    <!-- EN: Mimamsan -->
+    <Structure_OriginHindu.symbolPacks.12.member>mimamsano(a)</Structure_OriginHindu.symbolPacks.12.member>
+    <!-- EN: Vedanta -->
+    <Structure_OriginHindu.symbolPacks.13.ideoName>Vedanta</Structure_OriginHindu.symbolPacks.13.ideoName>
+    <!-- EN: Vedantan -->
+    <Structure_OriginHindu.symbolPacks.13.adjective>vedantano(a)</Structure_OriginHindu.symbolPacks.13.adjective>
+    <!-- EN: Vedantan -->
+    <Structure_OriginHindu.symbolPacks.13.member>vedantano(a)</Structure_OriginHindu.symbolPacks.13.member>
+    <!-- EN: Brahma -->
+    <Structure_OriginHindu.fixedDeityNameTypes.0.name>Brahma</Structure_OriginHindu.fixedDeityNameTypes.0.name>
+    <!-- EN: God of Creation -->
+    <Structure_OriginHindu.fixedDeityNameTypes.0.type>Deus da Criação</Structure_OriginHindu.fixedDeityNameTypes.0.type>
+    <!-- EN: Vishnu -->
+    <Structure_OriginHindu.fixedDeityNameTypes.1.name>Vishnu</Structure_OriginHindu.fixedDeityNameTypes.1.name>
+    <!-- EN: God of Preservation -->
+    <Structure_OriginHindu.fixedDeityNameTypes.1.type>Deus da Preservação</Structure_OriginHindu.fixedDeityNameTypes.1.type>
+    <!-- EN: Shiva -->
+    <Structure_OriginHindu.fixedDeityNameTypes.2.name>Shiva</Structure_OriginHindu.fixedDeityNameTypes.2.name>
+    <!-- EN: God of Destruction -->
+    <Structure_OriginHindu.fixedDeityNameTypes.2.type>Deus da Destruição</Structure_OriginHindu.fixedDeityNameTypes.2.type>
+    <!-- EN: Ushas -->
+    <Structure_OriginHindu.fixedDeityNameTypes.3.name>Ushas</Structure_OriginHindu.fixedDeityNameTypes.3.name>
+    <!-- EN: God of Dawn -->
+    <Structure_OriginHindu.fixedDeityNameTypes.3.type>Deus da Aurora</Structure_OriginHindu.fixedDeityNameTypes.3.type>
+    <!-- EN: Devi -->
+    <Structure_OriginHindu.fixedDeityNameTypes.4.name>Devi</Structure_OriginHindu.fixedDeityNameTypes.4.name>
+    <!-- EN: God of Femininity -->
+    <Structure_OriginHindu.fixedDeityNameTypes.4.type>Deus da Feminilidade</Structure_OriginHindu.fixedDeityNameTypes.4.type>
+    <!-- EN: Lakshmi -->
+    <Structure_OriginHindu.fixedDeityNameTypes.5.name>Lakshmi</Structure_OriginHindu.fixedDeityNameTypes.5.name>
+    <!-- EN: God of Goals -->
+    <Structure_OriginHindu.fixedDeityNameTypes.5.type>Deus das Cabras</Structure_OriginHindu.fixedDeityNameTypes.5.type>
+    <!-- EN: Parvati -->
+    <Structure_OriginHindu.fixedDeityNameTypes.6.name>Parvati</Structure_OriginHindu.fixedDeityNameTypes.6.name>
+    <!-- EN: God of Fertility -->
+    <Structure_OriginHindu.fixedDeityNameTypes.6.type>Deus da Fertilidade</Structure_OriginHindu.fixedDeityNameTypes.6.type>
+    <!-- EN: Kali -->
+    <Structure_OriginHindu.fixedDeityNameTypes.7.name>Kali</Structure_OriginHindu.fixedDeityNameTypes.7.name>
+    <!-- EN: God of Protection -->
+    <Structure_OriginHindu.fixedDeityNameTypes.7.type>Deus da Proteção</Structure_OriginHindu.fixedDeityNameTypes.7.type>
+    <!-- EN: Bhumi -->
+    <Structure_OriginHindu.fixedDeityNameTypes.8.name>Bhumi</Structure_OriginHindu.fixedDeityNameTypes.8.name>
+    <!-- EN: God of Earth -->
+    <Structure_OriginHindu.fixedDeityNameTypes.8.type>Deus da Terra</Structure_OriginHindu.fixedDeityNameTypes.8.type>
+    <!-- EN: Saraswati -->
+    <Structure_OriginHindu.fixedDeityNameTypes.9.name>Saraswati</Structure_OriginHindu.fixedDeityNameTypes.9.name>
+    <!-- EN: God of Wisdom -->
+    <Structure_OriginHindu.fixedDeityNameTypes.9.type>Deus da Sabedoria</Structure_OriginHindu.fixedDeityNameTypes.9.type>
+    <!-- EN: Gayatri -->
+    <Structure_OriginHindu.fixedDeityNameTypes.10.name>Gayatri</Structure_OriginHindu.fixedDeityNameTypes.10.name>
+    <!-- EN: God of Life -->
+    <Structure_OriginHindu.fixedDeityNameTypes.10.type>Deus da Vida</Structure_OriginHindu.fixedDeityNameTypes.10.type>
+    <!-- EN: Annapoorna -->
+    <Structure_OriginHindu.fixedDeityNameTypes.11.name>Devi</Structure_OriginHindu.fixedDeityNameTypes.11.name>
+    <!-- EN: God of Food -->
+    <Structure_OriginHindu.fixedDeityNameTypes.11.type>Deus da Comida</Structure_OriginHindu.fixedDeityNameTypes.11.type>
+    <!-- EN: Nindra -->
+    <Structure_OriginHindu.fixedDeityNameTypes.12.name>Nindra</Structure_OriginHindu.fixedDeityNameTypes.12.name>
+    <!-- EN: God of Sleep -->
+    <Structure_OriginHindu.fixedDeityNameTypes.12.type>Deus do Sono</Structure_OriginHindu.fixedDeityNameTypes.12.type>
+    <!-- EN: Shashthi -->
+    <Structure_OriginHindu.fixedDeityNameTypes.13.name>Shashthi</Structure_OriginHindu.fixedDeityNameTypes.13.name>
+    <!-- EN: God of Children -->
+    <Structure_OriginHindu.fixedDeityNameTypes.13.type>Deus das Crianças</Structure_OriginHindu.fixedDeityNameTypes.13.type>
+    <!-- EN: Manasa -->
+    <Structure_OriginHindu.fixedDeityNameTypes.14.name>Manasa</Structure_OriginHindu.fixedDeityNameTypes.14.name>
+    <!-- EN: God of Snakes -->
+    <Structure_OriginHindu.fixedDeityNameTypes.14.type>Deus das Cobras</Structure_OriginHindu.fixedDeityNameTypes.14.type>
+    <!-- EN: Svaha -->
+    <Structure_OriginHindu.fixedDeityNameTypes.15.name>Svaha</Structure_OriginHindu.fixedDeityNameTypes.15.name>
+    <!-- EN: God of Ash -->
+    <Structure_OriginHindu.fixedDeityNameTypes.15.type>Deus das Cinzas</Structure_OriginHindu.fixedDeityNameTypes.15.type>
+    <!-- EN: Bhairava -->
+    <Structure_OriginHindu.fixedDeityNameTypes.16.name>Bhairava</Structure_OriginHindu.fixedDeityNameTypes.16.name>
+    <!-- EN: God of Annihilation -->
+    <Structure_OriginHindu.fixedDeityNameTypes.16.type>Deus da Aniquilação</Structure_OriginHindu.fixedDeityNameTypes.16.type>
+    <!-- EN: Krishna -->
+    <Structure_OriginHindu.fixedDeityNameTypes.17.name>Krishna</Structure_OriginHindu.fixedDeityNameTypes.17.name>
+    <!-- EN: God of Compassion -->
+    <Structure_OriginHindu.fixedDeityNameTypes.17.type>Deus da Compaixão</Structure_OriginHindu.fixedDeityNameTypes.17.type>
+    <!-- EN: Surya -->
+    <Structure_OriginHindu.fixedDeityNameTypes.18.name>Surya</Structure_OriginHindu.fixedDeityNameTypes.18.name>
+    <!-- EN: Sun God -->
+    <Structure_OriginHindu.fixedDeityNameTypes.18.type>Deus Sol</Structure_OriginHindu.fixedDeityNameTypes.18.type>
+    <!-- EN: Varuna -->
+    <Structure_OriginHindu.fixedDeityNameTypes.19.name>Varuna</Structure_OriginHindu.fixedDeityNameTypes.19.name>
+    <!-- EN: Sky God -->
+    <Structure_OriginHindu.fixedDeityNameTypes.19.type>Deus Céu</Structure_OriginHindu.fixedDeityNameTypes.19.type>
+    <!-- EN: Mitra -->
+    <Structure_OriginHindu.fixedDeityNameTypes.20.name>Mitra</Structure_OriginHindu.fixedDeityNameTypes.20.name>
+    <!-- EN: God of Friendship -->
+    <Structure_OriginHindu.fixedDeityNameTypes.20.type>Deus da Amizade</Structure_OriginHindu.fixedDeityNameTypes.20.type>
+    <!-- EN: Indra -->
+    <Structure_OriginHindu.fixedDeityNameTypes.21.name>Indra</Structure_OriginHindu.fixedDeityNameTypes.21.name>
+    <!-- EN: God of Heaven -->
+    <Structure_OriginHindu.fixedDeityNameTypes.21.type>Deus do Céu</Structure_OriginHindu.fixedDeityNameTypes.21.type>
+    <!-- EN: Agni -->
+    <Structure_OriginHindu.fixedDeityNameTypes.22.name>Agni</Structure_OriginHindu.fixedDeityNameTypes.22.name>
+    <!-- EN: Fire God -->
+    <Structure_OriginHindu.fixedDeityNameTypes.22.type>Deus Fogo</Structure_OriginHindu.fixedDeityNameTypes.22.type>
+    <!-- EN: Soma -->
+    <Structure_OriginHindu.fixedDeityNameTypes.23.name>Soma</Structure_OriginHindu.fixedDeityNameTypes.23.name>
+    <!-- EN: Moon God -->
+    <Structure_OriginHindu.fixedDeityNameTypes.23.type>Deus Lua</Structure_OriginHindu.fixedDeityNameTypes.23.type>
+    <!-- EN: Rudra -->
+    <Structure_OriginHindu.fixedDeityNameTypes.24.name>Rudra</Structure_OriginHindu.fixedDeityNameTypes.24.name>
+    <!-- EN: God of Wind -->
+    <Structure_OriginHindu.fixedDeityNameTypes.24.type>Deus do Vento</Structure_OriginHindu.fixedDeityNameTypes.24.type>
+    <!-- EN: Prithvi -->
+    <Structure_OriginHindu.fixedDeityNameTypes.25.name>Prithvi</Structure_OriginHindu.fixedDeityNameTypes.25.name>
+    <!-- EN: God of Earth -->
+    <Structure_OriginHindu.fixedDeityNameTypes.25.type>Deus da Terra</Structure_OriginHindu.fixedDeityNameTypes.25.type>
+    <!-- EN: Aditi -->
+    <Structure_OriginHindu.fixedDeityNameTypes.26.name>Aditi</Structure_OriginHindu.fixedDeityNameTypes.26.name>
+    <!-- EN: God of Morality -->
+    <Structure_OriginHindu.fixedDeityNameTypes.26.type>Deus da Moralidade</Structure_OriginHindu.fixedDeityNameTypes.26.type>
+    <!-- EN: Vac -->
+    <Structure_OriginHindu.fixedDeityNameTypes.27.name>Vac</Structure_OriginHindu.fixedDeityNameTypes.27.name>
+    <!-- EN: God of Sound -->
+    <Structure_OriginHindu.fixedDeityNameTypes.27.type>Deus do Som</Structure_OriginHindu.fixedDeityNameTypes.27.type>
+    <!-- EN: Nirrti -->
+    <Structure_OriginHindu.fixedDeityNameTypes.28.name>Nirrti</Structure_OriginHindu.fixedDeityNameTypes.28.name>
+    <!-- EN: God of Destruction -->
+    <Structure_OriginHindu.fixedDeityNameTypes.28.type>Deus da Destruição</Structure_OriginHindu.fixedDeityNameTypes.28.type>
+    <!-- EN: Ratri -->
+    <Structure_OriginHindu.fixedDeityNameTypes.29.name>Manasa</Structure_OriginHindu.fixedDeityNameTypes.29.name>
+    <!-- EN: God of Night -->
+    <Structure_OriginHindu.fixedDeityNameTypes.29.type>Deus da Noite</Structure_OriginHindu.fixedDeityNameTypes.29.type>
+    <!-- EN: Aranyani -->
+    <Structure_OriginHindu.fixedDeityNameTypes.30.name>Aranyani</Structure_OriginHindu.fixedDeityNameTypes.30.name>
+    <!-- EN: Forest God -->
+    <Structure_OriginHindu.fixedDeityNameTypes.30.type>Deus Floresta</Structure_OriginHindu.fixedDeityNameTypes.30.type>
+    <!-- EN: Durga -->
+    <Structure_OriginHindu.fixedDeityNameTypes.31.name>Durga</Structure_OriginHindu.fixedDeityNameTypes.31.name>
+    <!-- EN: Warrior Goddess -->
+    <Structure_OriginHindu.fixedDeityNameTypes.31.type>Deusa Guerreira</Structure_OriginHindu.fixedDeityNameTypes.31.type>
+
+    <!-- EN: Buddhist origin -->
+    <Structure_OriginBuddhist.label>origem budista</Structure_OriginBuddhist.label>
+    <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+    <Structure_OriginBuddhist.description>Esta ideoligia é descendente do antigo budismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginBuddhist.description>
+    <!-- EN:
+        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->bodhisattva</li>
+        <li>memeLeaderNoun->sattva</li>
+        <li>memeLeaderNoun->lama</li>
+        <li>memeLeaderAdjective->enlightened</li>
+        <li>memeLeaderAdjective->wise</li>
+        <li>memeLeaderAdjective->spiritual</li>
+        <li>memeLeaderAdjective->bodhi</li>
+        <li>memeLeaderAdjective->dalai</li>
+        <li>memeMoralist(p=2)->bhikkhu</li>
+        <li>memeMoralist->priest</li>
+        <li>memeMoralist->monk</li>
+    -->
+    <Structure_OriginBuddhist.generalRules.rulesStrings>
+        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->bodhisattva</li>
+        <li>memeLeaderNoun->sattva</li>
+        <li>memeLeaderNoun->lama</li>
+        <li>memeLeaderAdjective->iluminado(a)</li>
+        <li>memeLeaderAdjective->sensato(a)</li>
+        <li>memeLeaderAdjective->espiritual</li>
+        <li>memeLeaderAdjective->bodhi</li>
+        <li>memeLeaderAdjective->dalai</li>
+        <li>memeMoralist(p=2)->bhikkhu</li>
+        <li>memeMoralist->sacerdote</li>
+        <li>memeMoralist->monge</li>
+    </Structure_OriginBuddhist.generalRules.rulesStrings>
+    <!-- EN: Buddhism -->
+    <Structure_OriginBuddhist.symbolPacks.0.ideoName>Budismo</Structure_OriginBuddhist.symbolPacks.0.ideoName>
+    <!-- EN: Buddha -->
+    <Structure_OriginBuddhist.symbolPacks.0.theme>Buda</Structure_OriginBuddhist.symbolPacks.0.theme>
+    <!-- EN: Buddhist -->
+    <Structure_OriginBuddhist.symbolPacks.0.adjective>budista</Structure_OriginBuddhist.symbolPacks.0.adjective>
+    <!-- EN: Buddhist -->
+    <Structure_OriginBuddhist.symbolPacks.0.member>budista</Structure_OriginBuddhist.symbolPacks.0.member>
+    <!-- EN: Theravada -->
+    <Structure_OriginBuddhist.symbolPacks.1.ideoName>Teravada</Structure_OriginBuddhist.symbolPacks.1.ideoName>
+    <!-- EN: Theric -->
+    <Structure_OriginBuddhist.symbolPacks.1.adjective>térico(a)</Structure_OriginBuddhist.symbolPacks.1.adjective>
+    <!-- EN: Therist -->
+    <Structure_OriginBuddhist.symbolPacks.1.member>terista</Structure_OriginBuddhist.symbolPacks.1.member>
+    <!-- EN: Mahayana -->
+    <Structure_OriginBuddhist.symbolPacks.2.ideoName>Mahayana</Structure_OriginBuddhist.symbolPacks.2.ideoName>
+    <!-- EN: Mahic -->
+    <Structure_OriginBuddhist.symbolPacks.2.adjective>mahico(a)</Structure_OriginBuddhist.symbolPacks.2.adjective>
+    <!-- EN: Mahist -->
+    <Structure_OriginBuddhist.symbolPacks.2.member>mahista</Structure_OriginBuddhist.symbolPacks.2.member>
+    <!-- EN: Vajrayana -->
+    <Structure_OriginBuddhist.symbolPacks.3.ideoName>Vajrayana</Structure_OriginBuddhist.symbolPacks.3.ideoName>
+    <!-- EN: Vajric -->
+    <Structure_OriginBuddhist.symbolPacks.3.adjective>vajrico(a)</Structure_OriginBuddhist.symbolPacks.3.adjective>
+    <!-- EN: Vajrist -->
+    <Structure_OriginBuddhist.symbolPacks.3.member>vajrista</Structure_OriginBuddhist.symbolPacks.3.member>
+    <!-- EN: Zen -->
+    <Structure_OriginBuddhist.symbolPacks.4.ideoName>Zen</Structure_OriginBuddhist.symbolPacks.4.ideoName>
+    <!-- EN: Zen -->
+    <Structure_OriginBuddhist.symbolPacks.4.adjective>zen</Structure_OriginBuddhist.symbolPacks.4.adjective>
+    <!-- EN: Zenist -->
+    <Structure_OriginBuddhist.symbolPacks.4.member>zenista</Structure_OriginBuddhist.symbolPacks.4.member>
+    <!-- EN: Seon -->
+    <Structure_OriginBuddhist.symbolPacks.5.ideoName>Seon</Structure_OriginBuddhist.symbolPacks.5.ideoName>
+    <!-- EN: Seonic -->
+    <Structure_OriginBuddhist.symbolPacks.5.adjective>seônico(a)</Structure_OriginBuddhist.symbolPacks.5.adjective>
+    <!-- EN: Seonist -->
+    <Structure_OriginBuddhist.symbolPacks.5.member>seonista</Structure_OriginBuddhist.symbolPacks.5.member>
+    <!-- EN: Ekayana -->
+    <Structure_OriginBuddhist.symbolPacks.6.ideoName>Ekayana</Structure_OriginBuddhist.symbolPacks.6.ideoName>
+    <!-- EN: Ekist -->
+    <Structure_OriginBuddhist.symbolPacks.6.adjective>ekista</Structure_OriginBuddhist.symbolPacks.6.adjective>
+    <!-- EN: Ekist -->
+    <Structure_OriginBuddhist.symbolPacks.6.member>ekista</Structure_OriginBuddhist.symbolPacks.6.member>
+    <!-- EN: Navayana -->
+    <Structure_OriginBuddhist.symbolPacks.7.ideoName>Navayana</Structure_OriginBuddhist.symbolPacks.7.ideoName>
+    <!-- EN: Navic -->
+    <Structure_OriginBuddhist.symbolPacks.7.adjective>návico(a)</Structure_OriginBuddhist.symbolPacks.7.adjective>
+    <!-- EN: Navist -->
+    <Structure_OriginBuddhist.symbolPacks.7.member>navista</Structure_OriginBuddhist.symbolPacks.7.member>
+    <!-- EN: Tantrayana -->
+    <Structure_OriginBuddhist.symbolPacks.8.ideoName>Tantrayana</Structure_OriginBuddhist.symbolPacks.8.ideoName>
+    <!-- EN: Tantric -->
+    <Structure_OriginBuddhist.symbolPacks.8.adjective>tântrico(a)</Structure_OriginBuddhist.symbolPacks.8.adjective>
+    <!-- EN: Tantran -->
+    <Structure_OriginBuddhist.symbolPacks.8.member>tantrano(a)</Structure_OriginBuddhist.symbolPacks.8.member>
+    <!-- EN: Gelug -->
+    <Structure_OriginBuddhist.symbolPacks.9.ideoName>Gelug</Structure_OriginBuddhist.symbolPacks.9.ideoName>
+    <!-- EN: Gelugist -->
+    <Structure_OriginBuddhist.symbolPacks.9.adjective>gelugista</Structure_OriginBuddhist.symbolPacks.9.adjective>
+    <!-- EN: Gelugist -->
+    <Structure_OriginBuddhist.symbolPacks.9.member>gelugista</Structure_OriginBuddhist.symbolPacks.9.member>
 
 </LanguageData>
