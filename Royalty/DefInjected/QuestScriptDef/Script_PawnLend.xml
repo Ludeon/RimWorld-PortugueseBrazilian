@@ -25,7 +25,7 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] deseja adicionar um pouco de vida à sua corte, exibindo algum(ns) [entertainerDescription].\n\n[asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para servir [asker_pronoun] por [lendForDays] dias.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colono</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos</li>
-    <li>willSendShuttle->[asker_pronoun] irá enviar um transporte para pegar o(s) [colonists].</li>
+    <li>willSendShuttle->[asker_pronoun] irá enviar um transporte para pegar os [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->colono</li>
     <li>colonists(colonistsToLendCount>1)->colonos</li>
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->retornou</li>
