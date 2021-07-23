@@ -71,8 +71,8 @@
         <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devasted by raiders</li>
         <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->They want [requestedThing_label] so they can travel safely while looking for a new place to call home</li>
         <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->They want [requestedThing_label] to help them drown their sorrows after losing their home in a terrible attack</li>
-        <li>interactionInfo(beggarCount==1)->[beggars0_nameDef] can be given items by right-clicking on [beggars0_objective]</li>
-        <li>interactionInfo(beggarCount>=2)->The [groupLabelPlural] can be given items by right-clicking on [beggars0_nameDef]</li>
+        <li>interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective]</li>
+        <li>interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef]</li>
         <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
         <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
     -->
@@ -101,8 +101,8 @@
         <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Eles precisam do remédio para ajudar seus amigos em um assentamento próximo que foi destruído por invasores</li>
         <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Eles querem [requestedThing_label] para que possam viajar com segurança enquanto procuram um novo lugar para chamar de lar</li>
         <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Eles querem [requestedThing_label] para ajudá-los a afogar suas mágoas depois de perderem sua casa em um terrível ataque</li>
-        <li>interactionInfo(beggarCount==1)->[beggars0_nameDef] pode receber itens clicando com o botão direito nele(a)</li>
-        <li>interactionInfo(beggarCount>=2)->Os [groupLabelPlural] podem receber itens clicando com o botão direito em [beggars0_nameDef]</li>
+        <li>interactionInfo(beggarCount==1)->Você pode dar itens a [beggars0_nameDef] selecionando um colono e clicando com o botão direito nele(a)</li>
+        <li>interactionInfo(beggarCount>=2)->Você pode dar itens aos [groupLabelPlural] selecionando um colono e clicando com o botão direito em [beggars0_nameDef]</li>
         <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] seguirá em frente após [visitDurationTicks_duration]</li>
         <li>moveOnInfo(beggarCount>=2)->Os [groupLabelPlural] seguirão em frente após [visitDurationTicks_duration]</li>
     </Beggars.questDescriptionRules.rulesStrings>
