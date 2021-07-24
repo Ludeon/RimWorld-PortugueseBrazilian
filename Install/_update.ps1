@@ -16,7 +16,7 @@ $repo_owner = "Ludeon"
 $official_repo = "RimWorld-PortugueseBrazilian"
 $branch = "master"
 
-$ingame_name = "Portuguese (Portugûes(Brasileiro))"
+$ingame_name = "PortugueseBrazilian (Português Brasileiro)"
 
 
 # Declarações de função
