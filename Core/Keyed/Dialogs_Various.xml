@@ -90,7 +90,7 @@
   <!-- EN: Load -->
   <LoadGameButton>Carregar</LoadGameButton>
   <!-- EN: Overwrite -->
-  <OverwriteButton>Sobrescrever</OverwriteButton>
+  <OverwriteButton>substituir</OverwriteButton>
   <!-- EN: Really delete {0}? -->
   <ConfirmDelete>Deseja realmente apagar {0}?</ConfirmDelete>
   <!-- EN: Delete this savegame. -->
@@ -1077,7 +1077,7 @@
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} está inconsciente.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
-  <AbilityCantApplyAsleep>{0_labelShort} está dormindo.</AbilityCantApplyAsleep>
+  <AbilityCantApplyAsleep>{0_labelShort} está adormecid{PAWN_gender ? o : a}..</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
   <AbilityWorldTileImpassable>Este título é intransferífel.</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
