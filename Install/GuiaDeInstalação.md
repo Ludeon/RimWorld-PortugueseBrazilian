@@ -8,7 +8,7 @@ Da mesma forma, vai exigir um pouco de preparação e o processo irá variar lig
 2. Mova o script para o diretório raiz do jogo. Normalmente é: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld`
 3. Execute o script (Clique direito => Executar com Powershell).
 
-### Passa para baixar o Script no Windows:
+### Passos para baixar o Script no Windows:
 1. Vá para o [site](https://raw.githubusercontent.com/Ludeon/RimWorld-PortugueseBrazilian/master/Install/_update.ps1).
 2. Clique com o botão direito em qualquer lugar da página.
 3. No menu pop-up clique em "Salvar como", e salve-o com a extensão ".ps1" (_update.ps1)
