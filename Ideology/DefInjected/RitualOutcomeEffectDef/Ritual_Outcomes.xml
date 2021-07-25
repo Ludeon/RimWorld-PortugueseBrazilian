@@ -200,6 +200,10 @@
 
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebrationSkyLanterns.description>Dependendo da qualidade do ritual, os participantes terão entre {MINMOOD} e {MAXMOOD} por {MOODDAYS} dias.</CelebrationSkyLanterns.description>
+  <!-- EN: Each participant will make a lantern out of 4 wood. -->
+  <CelebrationSkyLanterns.extraInfoLines.0>Cada participante fará uma lanterna com 4 madeiras.</CelebrationSkyLanterns.extraInfoLines.0>
+  <!-- EN: If the {0} is beautiful or unforgettable, the skylanterns might attract a group of friendly visitors. -->
+  <CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>Se o {0} for lindo ou inesquecível, as lanternas podem atrair um grupo de visitantes amigáveis.</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
   <!-- EN: participant count -->
   <CelebrationSkyLanterns.comps.0.label>contagem de participantes</CelebrationSkyLanterns.comps.0.label>
   <!-- EN: Terrible -->
@@ -214,14 +218,20 @@
   <CelebrationSkyLanterns.outcomeChances.2.label>Lindo</CelebrationSkyLanterns.outcomeChances.2.label>
   <!-- EN: The {0} was beautiful. Watching the lanterns drift away made everyone feel at peace. -->
   <CelebrationSkyLanterns.outcomeChances.2.description>O {0} estava lindo. Assistir as lanternas se afastando fez com que todos se sentissem em paz.</CelebrationSkyLanterns.outcomeChances.2.description>
+  <!-- EN: The skylanterns lifted high and bright. Friendly visitors might see them and arrive with a gift. -->
+  <CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>As lanternas ergueram-se altas e brilhantes. Visitantes amigáveis ​​podem vê-las e chegar com um presente.</CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebrationSkyLanterns.outcomeChances.3.label>Inesquecível</CelebrationSkyLanterns.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Making the lanterns was a time of laughter, and everyone's spirits rose with them. -->
   <CelebrationSkyLanterns.outcomeChances.3.description>O {0} foi inesquecível! Fazer as lanternas foi um momento de risos, e o ânimo de todos aumentou com eles.</CelebrationSkyLanterns.outcomeChances.3.description>
+  <!-- EN: The skylanterns lifted high and bright. Friendly visitors might see them and arrive with a gift. -->
+  <CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>As lanternas ergueram-se altas e brilhantes. Visitantes amigáveis ​​podem vê-las e chegar com um presente.</CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>
 
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebratedDate_Consumable.description>Dependendo da qualidade do ritual, os participantes terão entre {MINMOOD} e {MAXMOOD} por {MOODDAYS} dias.</CelebratedDate_Consumable.description>
-  <!-- EN: >participant count -->
+  <!-- EN: If the {0} is satisfying, one participant might gain an inspiration. -->
+  <CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>Se o {0} for satisfatório, um participante pode inspirar-se.</CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>
+  <!-- EN: participant count -->
   <CelebratedDate_Consumable.comps.0.label>contagem de participantes</CelebratedDate_Consumable.comps.0.label>
   <!-- EN: room impressiveness -->
   <CelebratedDate_Consumable.comps.1.label>impressão do cômodo</CelebratedDate_Consumable.comps.1.label>
@@ -237,10 +247,14 @@
   <CelebratedDate_Consumable.outcomeChances.2.label>Divertido</CelebratedDate_Consumable.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
   <CelebratedDate_Consumable.outcomeChances.2.description>O {0} estava bom. Todos gostaram da chance de relaxar e se divertir juntos.</CelebratedDate_Consumable.outcomeChances.2.description>
+  <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+  <CelebratedDate_Consumable.outcomeChances.2.potentialExtraOutcomeDesc>Há 5% de chance de que um participante aleatório ganhe uma inspiração.</CelebratedDate_Consumable.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebratedDate_Consumable.outcomeChances.3.label>Inesquecível</CelebratedDate_Consumable.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
   <CelebratedDate_Consumable.outcomeChances.3.description>O {0} foi Inesquecível! Todos aprenderam uns sobre os outros e se sentiram como uma família.</CelebratedDate_Consumable.outcomeChances.3.description>
+  <!-- EN: There's a 10% chance that a random participant gains an inspiration. -->
+  <CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>Há 10% de chance de que um participante aleatório ganhe uma inspiração.</CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>
 
   <!-- EN: The ritual target will be destroyed. -->
   <DestroyConsumableBuilding.description>O alvo do ritual será destruído.</DestroyConsumableBuilding.description>
@@ -260,10 +274,14 @@
   <DestroyConsumableBuilding.outcomeChances.2.label>Divertido</DestroyConsumableBuilding.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
   <DestroyConsumableBuilding.outcomeChances.2.description>O {0} estava bom. Todos gostaram da chance de relaxar e se divertir juntos.</DestroyConsumableBuilding.outcomeChances.2.description>
+  <!-- EN: There's a 5% chance that a random participant gains an inspiration.-->
+  <DestroyConsumableBuilding.outcomeChances.2.potentialExtraOutcomeDesc>Há 5% de chance de que um participante aleatório ganhe uma inspiração.</DestroyConsumableBuilding.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding.outcomeChances.3.label>Inesquecível</DestroyConsumableBuilding.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
   <DestroyConsumableBuilding.outcomeChances.3.description>O {0} foi Inesquecível! Todos aprenderam uns sobre os outros e se sentiram como uma família.</DestroyConsumableBuilding.outcomeChances.3.description>
+  <!-- EN: There's a 10% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>Há 10% de chance de que um participante aleatório ganhe uma inspiração.</DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>
 
   <!-- EN: The ritual target will be destroyed. -->
   <DestroyConsumableBuilding_ChristmasTree.description>O alvo do ritual será destruído.</DestroyConsumableBuilding_ChristmasTree.description>
@@ -310,10 +328,14 @@
   <DestroyConsumableBuilding_Pyre.outcomeChances.2.label>Divertido</DestroyConsumableBuilding_Pyre.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
   <DestroyConsumableBuilding_Pyre.outcomeChances.2.description>O {0} estava bom. Todos gostaram da chance de relaxar e se divertir juntos.</DestroyConsumableBuilding_Pyre.outcomeChances.2.description>
+  <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_Pyre.outcomeChances.2.potentialExtraOutcomeDesc>Há 5% de chance de um participante aleatório ganhar uma inspiração.</DestroyConsumableBuilding_Pyre.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_Pyre.outcomeChances.3.label>Inesquecível</DestroyConsumableBuilding_Pyre.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.3.description>O {0} foi Inesquecível! Todos aprenderam uns sobre os outros e se sentiram como uma família.</DestroyConsumableBuilding_Pyre.outcomeChances.3.description>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.3.description>O {0} foi inesquecível! Todos aprenderam uns sobre os outros e se sentiram como uma família.</DestroyConsumableBuilding_Pyre.outcomeChances.3.description>
+  <!-- EN: There's a 10% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>Há 10% de chance de um participante aleatório ganhar uma inspiração.</DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>
 
   <!-- EN: The ritual target will be destroyed. -->
   <DestroyConsumableBuilding_CannibalPlatter.description>O alvo do ritual será destruído.</DestroyConsumableBuilding_CannibalPlatter.description>
@@ -333,10 +355,14 @@
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.label>Divertido</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.description>O {0} estava bom. Todos gostaram da chance de relaxar e se divertir juntos.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.description>
+  <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.potentialExtraOutcomeDesc>Há 5% de chance de um participante aleatório ganhar uma inspiração.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.label>Inesquecível</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.description>O {0} foi Inesquecível! Todos aprenderam uns sobre os outros e se sentiram como uma família.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.description>
+  <!-- EN: There's a 10% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>Há 10% de chance de um participante aleatório ganhar uma inspiração.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>
 
   <!-- EN: The ritual target will be destroyed. -->
   <DestroyConsumableBuilding_Burnbong.description>O alvo do ritual será destruído.</DestroyConsumableBuilding_Burnbong.description>
@@ -356,10 +382,14 @@
   <DestroyConsumableBuilding_Burnbong.outcomeChances.2.label>Divertido</DestroyConsumableBuilding_Burnbong.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.2.description>O {0} estava bom. Todos gostaram da chance de relaxar e se divertir juntos.</DestroyConsumableBuilding_Burnbong.outcomeChances.2.description>
+  <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.2.potentialExtraOutcomeDesc>Há 5% de chance de um participante aleatório ganhar uma inspiração.</DestroyConsumableBuilding_Burnbong.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.3.label>Inesquecível</DestroyConsumableBuilding_Burnbong.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family.  -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>O {0} foi Inesquecível! Todos aprenderam uns sobre os outros e se sentiram como uma família.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>
+  <!-- EN: There's a 10% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>Há 10% de chance de um participante aleatório ganhar uma inspiração.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>
 
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <GladiatorDuel.description>Dependendo da qualidade do ritual, os participantes terão entre {MINMOOD} e {MAXMOOD} por {MOODDAYS} dias.</GladiatorDuel.description>
