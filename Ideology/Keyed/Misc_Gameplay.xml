@@ -112,23 +112,25 @@
   <ChanceToHavePrecept>Chance de possuir preceito</ChanceToHavePrecept>
   
   <!--EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Cor predileta de {PAWN_labelShort}. Ter mais de {PERCENTAGE} de sua roupa nesta cor, ou na cor de sua ideologia, dará ligeira felicidade.\n\nVocê pode modificar a coloração do vestuário na estação de estilização usando corante tinctoria.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>A cor favorita de {PAWN_labelShort}. Ter mais de {PERCENTAGE} de sua roupa nesta cor, ou na cor de sua ideologia, dará ligeira felicidade.\n\nVocê pode modificar a coloração do vestuário na estação de estilização usando corante tinctoria.</FavoriteColorTooltip>
   
   <!--EN: Set ideo color -->
   <SetIdeoColor>Defina a cor da ideologia</SetIdeoColor>
    
-  <!--EN: >Set favorite color -->
-  <SetFavoriteColor>Defina a cor predileta</SetFavoriteColor>
+  <!--EN: >Set to favorite color -->
+  <SetFavoriteColor>Defina para a cor favorita</SetFavoriteColor>
   
   <!--EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configure a ideologia da sua facção</ConfigureIdeoligion>
   
-  <!--EN: Not enough dye. -->
+  <!-- EN: Not enough dye. -->
   <NotEnoughDye>Sem corante suficiente.</NotEnoughDye>
+  <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} não quer recolorir seu(ua) {APPAREL_labelShort}..</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
-  <NotEnoughDyeWillRecolorApparel>O colono recolorirá o traje quando a tinta estiver disponível.</NotEnoughDyeWillRecolorApparel>
+  <NotEnoughDyeWillRecolorApparel>O colono recolorirá o traje quando o corante estiver disponível.</NotEnoughDyeWillRecolorApparel>
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
-  <NotEnoughDyeWillRecolorHair>O colono recolorirá o cabelo quando a tinta estiver disponível.</NotEnoughDyeWillRecolorHair>
+  <NotEnoughDyeWillRecolorHair>O colono recolorirá o cabelo quando o corante estiver disponível.</NotEnoughDyeWillRecolorHair>
   
   
   <!--EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
@@ -194,6 +196,9 @@
   
   <!--EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Já possui conexão com {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+
+  <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} teve sua conexão interrompida recentemente. Pode conectar-se novamente em {1}.</RitualTargetConnectionTornGauranlenTree>
   
   <!--EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>É necessário ter {0} unidade de madeira para cada participante (totalizando {2}). Você possui {1}.</RitualTargeWoodInfo>
