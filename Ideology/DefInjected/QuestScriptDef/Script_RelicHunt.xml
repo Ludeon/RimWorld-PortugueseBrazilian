@@ -16,18 +16,23 @@
         <li>itemAdj->venerated</li>
     -->
     <RelicHunt.questNameRules.rulesStrings>
-        <li>questName->A [hunt] pelo(a) [item]</li>
-        <li>questName->O(A) [item] de [ideo_name]</li>
-        <li>questName->O(A) [item] [itemAdj]</li>
+        <li>questName->A [hunt] pela [itemA]</li>
+        <li>questName->A [itemA] de [ideo_name]</li>
+        <li>questName->A [itemA] [itemAdjA]</li>
+        <li>questName->A [hunt] pelo [itemO]</li>
+        <li>questName->O [itemO] de [ideo_name]</li>
+        <li>questName->O [itemO] [itemAdjO]</li>
         <li>hunt->caça</li>
         <li>hunt->busca</li>
         <li>hunt->procura</li>
-        <li>item(p=4)->[relic_name]</li>
-        <li>item->relíquia</li>
-        <li>item->artefato</li>
-        <li>itemAdj->antigo(a)</li>
-        <li>itemAdj->reverenciado(a)</li>
-        <li>itemAdj->venerado(a)</li>
+        <li>itemA->relíquia</li>
+        <li>itemO->artefato</li>
+        <li>itemAdjA->antiga</li>
+        <li>itemAdjA->reverenciada</li>
+        <li>itemAdjA->venerada</li>
+        <li>itemAdjO->antigo</li>
+        <li>itemAdjO->reverenciado</li>
+        <li>itemAdjO->venerado</li>
     </RelicHunt.questNameRules.rulesStrings>
     <!-- EN:
         <li>questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
