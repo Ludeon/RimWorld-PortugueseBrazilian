@@ -142,6 +142,27 @@
   <!--EN: Everyone -->
   <Everyone>Todos</Everyone>
 
+  <!-- EN: Narrative -->
+  <Narrative>Narrativo</Narrative>
+
+  <!-- EN: narrative -->
+  <NarrativeLower>narrativo</NarrativeLower>
+
+  <!-- EN: Precept name -->
+  <PreceptName>Nome do preceito</PreceptName>
+
+  <!-- EN: precept name -->
+  <PreceptNameLower>nome do preceito</PreceptNameLower>
+
+  <!-- EN: Changing -->
+  <Changing>Alterando</Changing>
+
+  <!-- EN: structures -->
+  <StructuresLower>estruturas</StructuresLower>
+
+  <!-- EN: memes -->
+  <MemesLower>memes</MemesLower>
+
 
   <!--EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Uma sepultura contendo o cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -745,6 +766,9 @@
   
   <!--EN:  Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrompe o ciclo atual. O ocupante será ejetado sem se beneficiar dos efeitos do ciclo e sofrerá de doença bioescultora de curto prazo. </BiosculpterInteruptCycleDesc>
+
+  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
+  <BiosculpterUnderageAgeReversalMessage>Aviso: O ciclo de reversão de idade não pode ser executado enquanto o bioescultor está ajustado para {PAWN_labelShort} porque {PAWN_labelShort} tem menos de {ADULTAGE} anos.</BiosculpterUnderageAgeReversalMessage>
   
   <!--EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle.  -->
   <BiosculpterLoadingStartedMessage>Assim que a cápsula de bioescultura estiver cheia {NUTRITION} de nutrição, selecione um colono e clique com o botão direito do mouse na cápsula de bioescultura ou\n\em uma pessoa abatida para iniciar o ciclo.</BiosculpterLoadingStartedMessage>
