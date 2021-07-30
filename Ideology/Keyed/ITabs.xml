@@ -18,8 +18,8 @@
   <SlaveReleasePotentialRelationGains>Ganho de relações na liberação</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>Intervalo de rebelião de escravos</SlaveRebellionMTBDays>
-  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>O número médio de dias entre as tentativas de rebelião de escravos. Apenas o tempo acordado é contado. Isso é afetado pelo humor, saúde, repressão, proximidade de armas e a presença de colonos no mapa.</SlaveRebellionMTBDaysDescription>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>O número médio de dias entre as tentativas de rebelião de escravos. Apenas o tempo acordado é contado. Isso é afetado pela supressão, humor, saúde, proximidade de armas, o número de escravos no mapa e a presença de colonos no mapa.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
@@ -51,6 +51,8 @@
   <SuppressionFactor>repressão</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>Humor</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>Contagem de escravos</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>Rota de fuga</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
@@ -59,6 +61,8 @@
   <SuppressionFinalInterval>Intervalo final</SuppressionFinalInterval>
   <!-- EN: Unattended -->
   <SuppressionUnattendedByColonists>Sem vigilância</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>Espera-se que pelo menos um dos {0} escravos neste mapa rebele-se em média a cada {1}.</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
   <WillLevel>Arbítrio</WillLevel>
