@@ -83,14 +83,14 @@
         <li>travelerInfo(beggarCount>=2)->Esses [groupLabelPlural] não fazem</li>
         <li>beggingForInfo->por x[requestedThingCount] [requestedThing_label]</li>
         <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
-        <li>traverObjective(beggarCount>=2)->them</li>
+        <li>traverObjective(beggarCount>=2)->os</li>
         <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] parte de nenhuma facção. Se desejar, você pode escolher [oOuOs] matar, prender ou vender, sem consequências diplomáticas.</li>
         <li>oOuOs(beggarCount==1)->o(a)</li>
         <li>oOuOs(beggarCount>=2)->os</li>
         <li>approachInfo(beggarCount==1)->Um probre [groupLabelSingle] chamado(a) [beggars0_nameDef] está se aproximando em busca de ajuda</li>
         <li>approachInfo(beggarCount>=2)->Um grupo de pobres [groupLabelPlural] está se aproximando em busca de ajuda</li>
         <li>requestInfo(beggarCount==1)->[beggars0_nameDef] está implorando [beggingForInfo]</li>
-        <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] estão implorando [beggingForInfo]</li>
+        <li>requestInfo(beggarCount>=2)->Os [groupLabelPlural] estão implorando [beggingForInfo]</li>
         <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] quer a prata para pagar uma dívida com uma gangue de piratas que estão o(a) caçando</li>
         <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] precisa do medicamento para ajudar um viajante que está ferido nas proximidades</li>
         <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] quer o remédio para salvar seu animal real que foi ferido na estrada</li>

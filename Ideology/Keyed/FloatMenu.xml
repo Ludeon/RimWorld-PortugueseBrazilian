@@ -17,6 +17,8 @@
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} não pode ser {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} deve ser um {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} é surdo(a) psiquicamente.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
   <CantStartNotEnoughSpaceDuel>Espaço insuficiente. Deve haver um círculo limpo, com raio de {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
@@ -56,10 +58,18 @@
   <MaxPreceptCount>máx. {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
   <SetTargetGender>Definir gênero</SetTargetGender>
-  <!-- EN: incompatible -->
-  <FactionOrIdeoIncompatible>incompatível</FactionOrIdeoIncompatible>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>deve ser facção {0}</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>tribal</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>não tribal</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>requer qualquer um desses memes</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>não pode ser usado com o vestuário que foi atribuído</BodyPartAlreadyCovered>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>já atribuído</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>As pessoas ficam satisfeitas quando seus requisitos de vestuário são atendidos e infelizes quando são infringidos.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -122,12 +132,13 @@
   <EnterBiosculpterPod>Entrar em bioescultor</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>Sintonizado bioticamente com outra pessoa</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>Deve ter {0} anos para reversão de idade.</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
   <CarryToBiosculpterPod>Carregar {PAWN_label} para bioescultor ({CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>Não pode transportar para o bioescultor</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>Nenhum bioescultor disponível.</NoBiosculpterPod>
-
 
 </LanguageData>

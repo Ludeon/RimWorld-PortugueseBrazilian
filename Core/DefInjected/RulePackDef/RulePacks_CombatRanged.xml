@@ -124,8 +124,8 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite] de [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets].</li>
-    <li>r_logentry->[INITIATOR_definite] de [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] de [destroyed_targets] [to] [destroyed_suffix].</li>
+    <li>r_logentry->[INITIATOR_definite], com um(a) [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] no(a) [destroyed_targets].</li>
+    <li>r_logentry->[INITIATOR_definite], com um(a) [WEAPON_projectile_label] [destroyed_past] [RECIPIENT_definite] no(a) [destroyed_targets] [to] [destroyed_suffix].</li>
     <li>r_logentry(p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] e [destroyed_past] [RECIPIENT_definite] de [destroyed_targets].</li>
     <li>r_logentry(p=2)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite], [destroyed_present] [RECIPIENT_definite] de [destroyed_targets].</li>
     <li>r_logentry->[RECIPIENT_definite] de [destroyed_targets] foi [destroyed_past] por [INITIATOR_definite] de [WEAPON_projectile_label].</li>
@@ -142,13 +142,13 @@
     <li>r_logentry(p=0.4)->[INITIATOR_definite] de [WEAPON_projectile_label] [missed] [ORIGINALTARGET_definite] e acertou [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um [WEAPON_projectile_label] destinado a [ORIGINALTARGET_definite].</li>
     <li>weapon_projectile_label(p=0.05)->tiro</li>
-    <li>destroyed_past->despedaçado(a)</li>
-    <li>destroyed_past->esmagado(a)</li>
-    <li>destroyed_past->obliterado(a)</li>
-    <li>destroyed_past->aniquilado(a)</li>
-    <li>destroyed_past->furado(a)</li>
-    <li>destroyed_past->perfurado(a)</li>
-    <li>destroyed_past->puncionado(a)</li>
+    <li>destroyed_past->despedaçou</li>
+    <li>destroyed_past->esmagou</li>
+    <li>destroyed_past->obliterou</li>
+    <li>destroyed_past->aniquilou</li>
+    <li>destroyed_past->furou</li>
+    <li>destroyed_past->perfurou</li>
+    <li>destroyed_past->puncionou</li>
     <li>destroyed_present->despedaçando</li>
     <li>destroyed_present->esmagando</li>
     <li>destroyed_present->obliterando</li>

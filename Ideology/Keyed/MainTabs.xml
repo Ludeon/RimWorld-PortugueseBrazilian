@@ -16,20 +16,22 @@
   <CoreNarrativeDesc> A narrativa central da sua ideologia. Isso não tem impacto na jogabilidade.</CoreNarrativeDesc>
   <!-- EN: Edit narrative -->
   <EditNarrative>Editar narrativa</EditNarrative>
-  <!-- EN: Clicking this button toggles a lock the current ideoligion narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
-  <LockButtonDesc>Clicar neste botão gera um bloqueio da narrativa da ideologia atual. Quando bloqueado, o texto narrativo não será gerado novamente de forma automatica se a ideologia for alterada.</LockButtonDesc>
-  <!-- EN: Narrative lock is currently on. The narrative will not auto-regenerate. -->
-  <LockInOn>O bloqueio narrativo está ativado. A narrativa não se modificará automaticamente.</LockInOn>
-  <!-- EN: Narrative lock is currently off. The narrative text can auto-regenerate. -->
-  <LockInOff>O bloqueio narrativo está desativado no momento. O texto narrativo pode ser modificar automaticamente.</LockInOff>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>Bloqueia ou desbloqueia a narrativa da ideologia. Quando bloqueado, o texto narrativo não se regenerará automaticamente se a ideologia for alterada.</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn>O bloqueio de {0} está ativado no momento. O(A) {1} não se regenerará automaticamente.</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>O bloqueio de {0} está desativado no momento. O texto {1} pode ser regenerado automaticamente.</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>Bloqueia ou desbloqueia o nome deste preceito. Quando bloqueado, o nome do preceito não se regenerará automaticamente se a ideologia for alterada.</LockPreceptNameButtonDesc>
   <!-- EN: Precepts -->
   <Precepts>Preceitos</Precepts>
   <!-- EN: Rituals -->
   <Rituals>Rituais</Rituals>
   <!-- EN: Roles -->
-  <IdeoRoles>Papéis</IdeoRoles>
+  <IdeoRoles>Funções</IdeoRoles>
   <!-- EN: Buildings -->
-  <IdeoBuildings>Edifícios</IdeoBuildings>
+  <IdeoBuildings>Construções</IdeoBuildings>
   <!-- EN: Relics -->
   <IdeoRelics>Relíquias</IdeoRelics>
   <!-- EN: Preferred apparel -->
@@ -49,7 +51,7 @@
   <!-- EN: Randomize precepts -->
   <RandomizePrecepts>Aleatorizar preceitos</RandomizePrecepts>
   <!-- EN: Add precept -->
-  <AddPrecept>add {0}</AddPrecept>
+  <AddPrecept>Adicionar preceito</AddPrecept>
   <!-- EN: Randomize deities -->
   <RandomizeDeities>Aleatorizar divindades</RandomizeDeities>
   <!-- EN: Add deity -->
@@ -137,7 +139,7 @@
   <!-- EN: weapon pair -->
   <IdeoWeapon>par de armas</IdeoWeapon>
   <!-- EN: Weapons -->
-  <IdeoWeapons>armas</IdeoWeapons>
+  <IdeoWeapons>Armas</IdeoWeapons>
   <!-- EN: Swap noble and despised -->
   <SwapNobleAndDespised>Trocar nobre e desprezado</SwapNobleAndDespised>
   <!-- EN: noble -->
@@ -184,6 +186,8 @@
   <IdeoImpactLabel_8>muito forte</IdeoImpactLabel_8>
   <!-- EN: extreme -->
   <IdeoImpactLabel_9>extremo</IdeoImpactLabel_9>
+  <!-- EN: This was your colony's starting ideoligion. -->
+  <InitialPlayerIdeo>Esta foi a ideologia inicial da sua colônia.</InitialPlayerIdeo>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
   <ResearchProjectHasDefsWithMissingMemes>{0} desbloqueia coisas que você não pode construir porque exigem memes que ninguém de seu povo acredita</ResearchProjectHasDefsWithMissingMemes>

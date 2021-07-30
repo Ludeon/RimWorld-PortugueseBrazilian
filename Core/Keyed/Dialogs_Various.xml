@@ -66,9 +66,9 @@
   <!-- EN: Unloading unused assets -->
   <UnloadingUnusedAssets>Descarregando recursos inutilizados</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
-  <LoadingAllActiveMods>Carregando todos os mods ativos</LoadingAllActiveMods>
+  <LoadingAllActiveMods>Carregando todos as modificações ativas</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
-  <LoadingDefs>Carregando defs</LoadingDefs>
+  <LoadingDefs>Carregando definições</LoadingDefs>
   <!-- EN: Loading assets -->
   <LoadingAssets>Carregando recursos</LoadingAssets>
   <!-- EN: Initializing -->
@@ -90,7 +90,7 @@
   <!-- EN: Load -->
   <LoadGameButton>Carregar</LoadGameButton>
   <!-- EN: Overwrite -->
-  <OverwriteButton>Sobrescrever</OverwriteButton>
+  <OverwriteButton>substituir</OverwriteButton>
   <!-- EN: Really delete {0}? -->
   <ConfirmDelete>Deseja realmente apagar {0}?</ConfirmDelete>
   <!-- EN: Delete this savegame. -->
@@ -1077,7 +1077,7 @@
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} está inconsciente.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
-  <AbilityCantApplyAsleep>{0_labelShort} está dormindo.</AbilityCantApplyAsleep>
+  <AbilityCantApplyAsleep>{0_labelShort} está adormecid{0_gender ? o : a}.</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
   <AbilityWorldTileImpassable>Este título é intransferífel.</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
@@ -1126,8 +1126,10 @@
   <AnimalFemaleYoung>Fêmea grávida</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
   <AnimalPregnant>Grávida</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>Vinculado</AnimalBonded>
   <!-- EN: Slaughter -->
-  <AllowSlaughterPregnant>Abater</AllowSlaughterPregnant>
+  <AllowSlaughter>Abater</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>O animal a ser abatido automaticamente.</AutoSlaugtherHeaderTooltipLabel>
@@ -1155,6 +1157,10 @@
   <AutoSlaughterHeaderTooltipCurrentPregnant>O número atual de animais grávidos na colônia.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
   <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Permitir que animais grávidos sejam abatidos junto com outras fêmeas da mesma espécie.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>O número atual de animais vinculados na colônia.</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>Permitir que animais vinculados sejam abatidos.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>Clique para definir um limite de contagem de animais.</AutoSlaughterTooltipSetLimit>

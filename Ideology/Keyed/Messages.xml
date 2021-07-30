@@ -7,6 +7,10 @@
   <MessageIdeoNameCantBeEmpty>O nome da ideologia não pode estar em branco.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} e {PRECEPT2} são incompatíveis.</MessageIdeoIncompatiblePrecepts>
+  <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>O desejo de vestuário por {DESIREDAPPAREL} se sobrepõe ao requisito do vestuário de {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} sobrepõe-se ao requisito de vestuário de {ROLE} ({ROLEAPPAREL}). Isso tornará impossível para {ROLE}s usarem as roupas necessárias e desejadas juntas.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT} precisa de um desses edifícios</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
@@ -47,7 +51,7 @@
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
   <MessagePrisonerEnslaved>{0_nameDef} foi escravizado por {1_nameDef}.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>O tratado do prisioneiro {1_nameDef} foi quebrado por {0_nameDef}.</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>O arbítrio de {1_nameDef} foi reprimido totalmente por {0_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
   <MessagePrisonerWillBroken_RecruitAttempsWillBegin>A escravidão virá em seguida.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
@@ -90,6 +94,8 @@
   <CannotRemoveMemeRequiredPlayer>Não é possível remover {MEME}: Requerido pela facção do jogador.</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
   <RequiredByFaction>Requerido por {FACTION_name}.</RequiredByFaction>
+  <!-- EN: Roles cannot have overlapping apparel requirements. -->
+  <OverlappingRoleApparel>Funções não podem ter requisitos de vestuário sobrepostos.</OverlappingRoleApparel>
   
   <!-- EN: {0_label} will self-destruct in {1}. -->
   <SelfDestructCountdown>{0_label} irá se autodestruir em {1}.</SelfDestructCountdown>

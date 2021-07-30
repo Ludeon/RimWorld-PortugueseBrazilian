@@ -3,7 +3,7 @@
 
   <!-- Misc -->
   <!-- EN: Jump to location -->
-  <JumpToLocation>Ir para a área</JumpToLocation>
+  <JumpToLocation>Ir para o local</JumpToLocation>
   <!-- EN: Postpone -->
   <PostponeLetter>Depois</PostponeLetter>
   <!-- EN: Reject -->
@@ -17,7 +17,7 @@
   <FirstSummerWarning>O verão começou! Mas o inverno está chegando.\n\nSuas plantações não irão crescer no frio do inverno. Certifique-se de armazenar uma quantidade de comida para vários dias agora, enquanto você ainda pode. Você pode construir uma sala de refrigeração para impedir que o alimento se estrague.\n\nE tente comprar, roubar ou fazer alguns casacos, ou você irá congelar quando você pisar lá fora.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
-  <LetterRelationsChange_Hostile>As relações com {0} foram completamente desfeitas. Agora, eles são hostis a você.\n\nEles invasões periódicas em sua colônia, e se recusarão a negociar com você. Se você quiser melhorar as relações, poderá oferecer presentes usando caravanas ou cápsulas de transporte.\n\nIsso aconteceu porque a boa vontade ({1}) caiu abaixo de {2}. Para se ter relações neutras, a boa vontade deve atingir {3} novamente.</LetterRelationsChange_Hostile>  
+  <LetterRelationsChange_Hostile>As relações com {0} foram completamente desfeitas. Agora, eles são hostis a você.\n\nEles invadirão frequentemente sua colônia e se recusarão a negociar com você. Se você quiser melhorar as relações, poderá oferecer presentes usando caravanas ou cápsulas de transporte.\n\nIsso aconteceu porque a boa vontade ({1}) caiu abaixo de {2}. Para se ter relações neutras, a boa vontade deve atingir {3} novamente.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
   <LetterRelationsChange_HostileGoodwillDescription>Eles organizarão ataques em sua colônia e caravanas e recusarão a negociar com você. Caso queira melhorar a relação, É possível oferecê-los presentes usando a caravana ou cápsulas de transporte.\n\nIsso aconteceu porque o status de boa vontade ({0}) caiu para menos que {1}. Para restaurar a relação para neutro, o status de boa vontade precisa voltar para {2} novamente.</LetterRelationsChange_HostileGoodwillDescription>  
 
@@ -108,7 +108,7 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>vingança de {0}</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{1_indefinite} está atacando depois de ter sido prejudicado(a)!\n\nEla(e) vai caçar qualquer humamo que possa alcançar. Ela(e) só vai se acalmar quando ao dormir.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>{1_indefinite} está atacando depois de ter sido atacado(a)!\n\nEla(e) vai caçar qualquer humamo que possa alcançar. Ela(e) só vai se acalmar quando ao dormir.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
   <AnimalManhunterFromTaming>{1_indefinite} está atacando devido a uma tentativa fracassada de domesticação!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
@@ -192,9 +192,9 @@
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>relacionamento</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} tem um relacionamento com um colono. {PAWN_pronoun} é {RELATIVE_labelShort} de {1}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} tem um relacionamento com um colono. {PAWN_pronoun} é {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} tem um relacionamento com um de seus prisioneiros. {PAWN_pronoun} é {RELATIVE_labelShort} de {1}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} tem um relacionamento com um de seus prisioneiros. {PAWN_pronoun} é {1}. de {RELATIVE_labelShort}</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
@@ -268,7 +268,7 @@
 
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
-  <LetterLabelCaravanEnteredMap>Caravan chegou em {0_label}</LetterLabelCaravanEnteredMap>
+  <LetterLabelCaravanEnteredMap>Caravana chegou em {0_label}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
   <LetterCaravanEnteredMap>{0} chegou a {1_definite}.</LetterCaravanEnteredMap>
 

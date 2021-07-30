@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
   <!--EN: Choose your faction's ideoligion -->
   <ChooseIdeoligion>Escolha a ideologia da sua facção</ChooseIdeoligion>
   
@@ -8,9 +9,15 @@
   
   <!--EN: Create new  -->
   <CreateNew>Criar nova ideologia</CreateNew>
+
+  <!-- EN: Load existing -->
+  <LoadExisting>Carregar existente</LoadExisting>
   
   <!--EN: Create custom ideoligion  -->
   <CreateCustomIdeoligion>Criar ideologia personalizada</CreateCustomIdeoligion>
+
+  <!-- EN: Load saved ideoligion -->
+  <LoadExistingIdeoligion>Carregar ideologia salva</LoadExistingIdeoligion>
   
   <!--EN: Select an ideoligion for your faction on the left, or -->
   <SelectAnIdeo>Selecione uma ideologia para sua facção a esquerda, ou</SelectAnIdeo>
@@ -105,23 +112,25 @@
   <ChanceToHavePrecept>Chance de possuir preceito</ChanceToHavePrecept>
   
   <!--EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>Cor predileta de {PAWN_labelShort}. Ter mais de {PERCENTAGE} de sua roupa nesta cor, ou na cor de sua ideologia, dará ligeira felicidade.\n\nVocê pode modificar a coloração do vestuário na estação de estilização usando corante tinctoria.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>A cor favorita de {PAWN_labelShort}. Ter mais de {PERCENTAGE} de sua roupa nesta cor, ou na cor de sua ideologia, dará ligeira felicidade.\n\nVocê pode modificar a coloração do vestuário na estação de estilização usando corante tinctoria.</FavoriteColorTooltip>
   
   <!--EN: Set ideo color -->
   <SetIdeoColor>Defina a cor da ideologia</SetIdeoColor>
    
-  <!--EN: >Set favorite color -->
-  <SetFavoriteColor>Defina a cor predileta</SetFavoriteColor>
+  <!--EN: >Set to favorite color -->
+  <SetFavoriteColor>Defina para a cor favorita</SetFavoriteColor>
   
   <!--EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configure a ideologia da sua facção</ConfigureIdeoligion>
   
-  <!--EN: Not enough dye. -->
+  <!-- EN: Not enough dye. -->
   <NotEnoughDye>Sem corante suficiente.</NotEnoughDye>
+  <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} não quer recolorir seu(ua) {APPAREL_labelShort}..</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
-  <NotEnoughDyeWillRecolorApparel>TODO</NotEnoughDyeWillRecolorApparel>
+  <NotEnoughDyeWillRecolorApparel>O colono recolorirá o traje quando o corante estiver disponível.</NotEnoughDyeWillRecolorApparel>
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
-  <NotEnoughDyeWillRecolorHair>TODO</NotEnoughDyeWillRecolorHair>
+  <NotEnoughDyeWillRecolorHair>O colono recolorirá o cabelo quando o corante estiver disponível.</NotEnoughDyeWillRecolorHair>
   
   
   <!--EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
@@ -133,12 +142,33 @@
   <!--EN: Everyone -->
   <Everyone>Todos</Everyone>
 
+  <!-- EN: Narrative -->
+  <Narrative>Narrativo</Narrative>
+
+  <!-- EN: narrative -->
+  <NarrativeLower>narrativo</NarrativeLower>
+
+  <!-- EN: Precept name -->
+  <PreceptName>Nome do preceito</PreceptName>
+
+  <!-- EN: precept name -->
+  <PreceptNameLower>nome do preceito</PreceptNameLower>
+
+  <!-- EN: Changing -->
+  <Changing>Alterando</Changing>
+
+  <!-- EN: structures -->
+  <StructuresLower>estruturas</StructuresLower>
+
+  <!-- EN: memes -->
+  <MemesLower>memes</MemesLower>
+
 
   <!--EN: A grave containing {PAWN_labelShort}'s corpse. -->
-  <RitualTargetGraveInfo>Uma sepultura contendo o cadáver de {Pawn_labelshort}.</RitualTargetGraveInfo>
+  <RitualTargetGraveInfo>Uma sepultura contendo o cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
   
   <!--EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
-  <RitualTargetEmptyGraveInfo>Uma sepultura vazia para lamentar a morte de {Pawn_labelshort}.</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>Uma sepultura vazia para lamentar a morte de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
   
   <!--EN:A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Uma sepultura contendo o cadáver de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
@@ -147,7 +177,7 @@
   <RitualTargetEmptyGraveInfoAbstract>Uma sepultura vazia para lamentar a morte de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   
   <!--EN: {PAWN_labelShort}'s body must be buried first -->
-  <RitualTargetGraveInfoMustBeBuried>O corpo de {Pawn_labelshort} deve ser enterrado primeiro</RitualTargetGraveInfoMustBeBuried>
+  <RitualTargetGraveInfoMustBeBuried>O corpo de {PAWN_labelShort} deve ser enterrado primeiro</RitualTargetGraveInfoMustBeBuried>
   
   <!--EN: Any gathering spot, like a table -->
   <RitualTargetGatherSpotInfo>Qualquer ponto de encontro, como uma mesa</RitualTargetGatherSpotInfo>
@@ -187,6 +217,9 @@
   
   <!--EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Já possui conexão com {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+
+  <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} teve sua conexão interrompida recentemente. Pode conectar-se novamente em {1}.</RitualTargetConnectionTornGauranlenTree>
   
   <!--EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>É necessário ter {0} unidade de madeira para cada participante (totalizando {2}). Você possui {1}.</RitualTargeWoodInfo>
@@ -308,7 +341,7 @@
   <RitualRepeatPenaltyTip>Repetir um ritual em {0} dias reduz sua qualidade. {1} dia se passou desde o último ritual, então a redução de qualidade atual é {2}. Essa penalidade cairá para zero em {3} dias a partir de agora.</RitualRepeatPenaltyTip>
   
   <!--EN: Participating roles -->
-  <RitualParticipatingRoles>Papéis participantes</RitualParticipatingRoles>
+  <RitualParticipatingRoles>Funções participantes</RitualParticipatingRoles>
   
   <!--EN: For best quality, start the {0} at {1}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Para obter a melhor qualidade, comece {0} em {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
@@ -329,7 +362,7 @@
   <SellingAsRansom>Se você vender alguém para sua própria facção, eles serão resgatados e não escravizados.</SellingAsRansom>
 
   <!--EN: We are {0} -->
-  <MemeGoodwillImpact_Player>Nós somos {0}</MemeGoodwillImpact_Player>
+  <MemeGoodwillImpact_Player>{0}</MemeGoodwillImpact_Player>
   
   <!--EN: They are {0} -->
   <MemeGoodwillImpact_Other>Eles são {0}</MemeGoodwillImpact_Other>
@@ -385,7 +418,7 @@
   
    
   <!--EN: Will\n{0} to {1} -->   
-  <TextMote_WillReduced>Será \n {0} a {1}</TextMote_WillReduced>
+  <TextMote_WillReduced>Será\n{0} a {1}</TextMote_WillReduced>
 
   
   <!--EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
@@ -444,8 +477,8 @@
   <!--EN: inactive, requires atleast {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>inativo, requer pelo menos {0} {1} (possui {2})</InactiveRoleRequiresMoreBelievers>
   
-  <!--EN: certainty -->
-  <Certainty>certeza</Certainty>
+  <!--EN: Certainty -->
+  <Certainty>Certeza</Certainty>
 
   <!-- Slave interaction -->
   <!--EN: The slave will leave the map on foot and return to their home faction, {0}. -->
@@ -529,7 +562,7 @@
   <TreeBlockedByNearbyBuildingsDesc>Plantar {PLANT_definite} perto de edifícios artificiais fará com que sua força de conexão diminua com o tempo. A força da conexão determina o número máximo de dríades que {PLANT_definite} pode suportar de uma vez.n\n\nTem certeza de que deseja plantar aqui?</TreeBlockedByNearbyBuildingsDesc>
   
   <!--EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste.  -->
-  <GauranlenModeChangeDescFull>Mudar a casta dríade de {TREE_definite} leva tempo e energia.\n\nApós a pessoa conectada interagir com a árvore, todas as dríades passarão {DURATION} dias dentro de casulos enquanto se transformam na casta selecionada.\n\n Os casulos já existentes irão cancelar sua transformação para que possam se transformar na casta atual.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Mudar a casta dríade de {TREE_definite} leva tempo e energia.\n\nApós a pessoa conectada interagir com a árvore, todas as dríades passarão {DURATION} dias dentro de casulos enquanto se transformam na casta selecionada.\n\nOs casulos já existentes irão cancelar sua transformação para que possam se transformar na casta atual.</GauranlenModeChangeDescFull>
   
   <!--EN: Change the type of dryads created by {TREE_definite}.  -->
   <ChangeModeDesc>Altere o tipo de dríades criados por {TREE_definite}.</ChangeModeDesc>
@@ -592,10 +625,10 @@
   <HoursEveryOtherDay>{0} horas em dias alternados</HoursEveryOtherDay>
   
   <!--EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}.  -->
-  <DryadProducesResourcesDesc>{DRYAD_labelPlural} produz {RECURSOS} a cada {DURAÇÃO}.</DryadProducesResourcesDesc>
+  <DryadProducesResourcesDesc>{DRYAD_labelPlural} produzem {RESOURCES} a cada {DURATION}.</DryadProducesResourcesDesc>
   
   <!--EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed.  -->
-  <DryadCannotChangeMaster>{ANIMAL_nameDef} está conectado a {MASTER_nameDef} por meio da {ANIMAL_possessive} árvore de Gauranlen.{ANIMAL_possessive} mestre não pode ser alterado.</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} está conectado(a) a {MASTER_nameDef} por meio de sua árvore Gauranlena. Seu mestre não pode ser alterado.</DryadCannotChangeMaster>
   
   <!--EN: Connection strength too low to create Gauranlen pod.  -->
   <ConnectionStrengthTooWeakForGaumakerPod>Força da conexão muito baixa para criar casulo de Gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
@@ -661,14 +694,14 @@
    <!--EN: Assign colonists to your ideoligion  -->
   <AssignColonists></AssignColonists>
   
-  <!--EN:  Delete new ideoligion -->
-  <DeleteNewIdeoligion>Excluir nova ideologia</DeleteNewIdeoligion>
+  <!--EN: Remove new ideoligion -->
+  <RemoveNewIdeoligion>Remover nova ideologia</RemoveNewIdeoligion>
   
   <!--EN: Make this your primary ideologion  -->
   <MakeIdeoligionPrimary>Faça desta sua ideologia principal</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
-  <!--EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n  -->
+  <!--EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n-->
   <GameOverArchotechInvokedIntro>Você invocou o núcleo do archonexus. O mundo se enche de uma luz ofuscante e o tempo parece diminuir ...\n\n</GameOverArchotechInvokedIntro>
   
   <!--EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful...  -->
@@ -733,6 +766,9 @@
   
   <!--EN:  Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrompe o ciclo atual. O ocupante será ejetado sem se beneficiar dos efeitos do ciclo e sofrerá de doença bioescultora de curto prazo. </BiosculpterInteruptCycleDesc>
+
+  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
+  <BiosculpterUnderageAgeReversalMessage>Aviso: O ciclo de reversão de idade não pode ser executado enquanto o bioescultor está ajustado para {PAWN_labelShort} porque {PAWN_labelShort} tem menos de {ADULTAGE} anos.</BiosculpterUnderageAgeReversalMessage>
   
   <!--EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle.  -->
   <BiosculpterLoadingStartedMessage>Assim que a cápsula de bioescultura estiver cheia {NUTRITION} de nutrição, selecione um colono e clique com o botão direito do mouse na cápsula de bioescultura ou\n\em uma pessoa abatida para iniciar o ciclo.</BiosculpterLoadingStartedMessage>

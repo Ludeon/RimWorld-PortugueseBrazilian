@@ -375,13 +375,13 @@
   <!-- EN: your caravan -->
   <yourCaravan>sua caravana</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>{0} selvageria</CreatureWildness>
+  <CreatureWildness>Selvageria</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>{0} treinabilidade</CreatureTrainability>
+  <CreatureTrainability>Treinabilidade</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>Seguir o mestre enquanto redigido</CreatureFollowDrafted>
+  <CreatureFollowDrafted>Seguir o mestre enquanto estiver alistado</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>Seguir o mestre durante o trabalho de campo</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>Seguir o mestre durante o trabalho</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} com {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
@@ -1362,7 +1362,7 @@
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Ativar/desativar limitador de calor neural. Exceder o limite de calor pode causar um colapso psíquico que dura dias. Não causará danos permanentes.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
-  <PawnTooltipPsyfocus>Psyfocus: {0}</PawnTooltipPsyfocus>
+  <PawnTooltipPsyfocus>concentração psíquica: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1497,7 +1497,7 @@
   <!-- EN: Not participating -->
   <NotParticipating>Não participando</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Arraste e solte ou clique com o botão esquerdo/direito para mover as pessoas.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Arraste e solte ou clique para mover as pessoas.</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Um escravo. A propriedade humana de outros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1526,8 +1526,8 @@
   <RitualQualityLowWarning>A qualidade total do {0} está abaixo de {1}. Continuar provavelmente afetará negativamente sua colônia.\n\nVocê tem certeza?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Nenhum local apropriado acessível para falar.</AbilitySpeechDisabledNoSpot>
-  <!-- EN: {0_labelShort} is incapable of talking. -->
-  <AbilitySpeechDisabledCantSpeak>{0_labelShort} é incapaz de falar.</AbilitySpeechDisabledCantSpeak>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>{0_labelShort} é incapaz de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Todos os participantes do ritual ganham {0} de humor por {1} dias.</RitualOutcomeExtraDesc_Mood>
   

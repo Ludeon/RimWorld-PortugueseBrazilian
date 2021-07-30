@@ -9,8 +9,8 @@
 - Agilizar.
 
 ### OBSERVAÇÕES INICIAIS:
-1. Criar uma ramificação (fork) do [projeto original](https://github.com/Ludeon/RimWorld-PortugueseBrazilian) na sua conta pessoal do GitHub;
-2. Sempre enviar suas mudanças como [Pull Requests](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/pulls);
+1. Crie uma ramificação (fork) do [projeto original](https://github.com/Ludeon/RimWorld-PortugueseBrazilian) na sua conta pessoal do GitHub;
+2. Sempre envie suas mudanças como [Pull Requests](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/pulls);
 3. **Não aprove seu próprio Pull Request**, por mais que seja pouca coisa ou esteja cem por cento certo, pode ser que alguém ache algo que você pode melhorar ou corrigir;
 4. Caso haja dúvidas, **peça ajuda** aos membros mais ativos.
 
