@@ -6,9 +6,9 @@
   <!-- EN: the -->
   <DefiniteArticle>o(a)</DefiniteArticle>
   <!-- EN: a {0} -->
-  <IndefiniteForm>um(a) {0}</IndefiniteForm>
+  <IndefiniteForm>{0_gender ? um : uma : um(uma)}</IndefiniteForm>
   <!-- EN: the {0} -->
-  <DefiniteForm>o(a) {0}</DefiniteForm>
+  <DefiniteForm>{0_gender ? o : a : o(a)}</DefiniteForm>
 
   <!-- EN: its -->
   <Proits>o(a)</Proits>
