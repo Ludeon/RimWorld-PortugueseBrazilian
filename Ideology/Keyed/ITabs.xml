@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Character -->
+  <!-- EN: Overrides some precepts related to -->
+  <OverridesSomePrecepts>Substitui alguns preceitos relacionados a</OverridesSomePrecepts>
+  <!-- EN: Agrees with memes -->
+  <AgreeableMemes>Concorda com memes</AgreeableMemes>
+  <!-- EN: Conflicts with memes -->
+  <DisagreeableMemes>Conflitos com memes</DisagreeableMemes>
+
+  <!-- ITab titles -->
+  <!-- EN: Slave -->
+  <TabSlave>Escravo</TabSlave>
+  <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
+  <SlaveReleaseRelationGainsDesc>A boa vontade da facção que você obterá se libertar um escravo. Isso é afetado pela saúde física e mental dos escravos.</SlaveReleaseRelationGainsDesc>
+  <!-- EN: Relations gain on release -->
+  <SlaveReleasePotentialRelationGains>Ganho de relações na liberação</SlaveReleasePotentialRelationGains>
+  <!-- EN: Slave rebellion interval -->
+  <SlaveRebellionMTBDays>Intervalo de rebelião de escravos</SlaveRebellionMTBDays>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>O número médio de dias entre as tentativas de rebelião de escravos. Apenas o tempo acordado é contado. Isso é afetado pela supressão, humor, saúde, proximidade de armas, o número de escravos no mapa e a presença de colonos no mapa.</SlaveRebellionMTBDaysDescription>
+
+  <!-- Slave tab -->
+  <!-- EN: Suppression -->
+  <Suppression>repressão</Suppression>
+  <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
+  <SuppressionDesc>A repressão é o efeito psicológico do medo e controle sobre um escravo. Se a repressão for baixa, os escravos têm maior probabilidade de se rebelar.</SuppressionDesc>
+  <!-- EN: Suppression fall rate -->
+  <SuppressionFallRate>Taxa de queda de repressão</SuppressionFallRate>
+  <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
+  <SuppressionFallRateDesc>A repressão cai com o tempo, dependendo de seu nível atual:\n\n- {1} + repressão: {0} por dia\n\n- {4} - {3} repressão: {2} por dia\n- {6} - repressão: {5} por dia\n\nVestuário e terror também podem afetar a taxa de supressão de queda. O cálculo da taxa de queda deste escravo é</SuppressionFallRateDesc>
+  <!-- EN: Cannot emancipate -->
+  <CannotEmancipate>Não pode emancipar</CannotEmancipate>
+  <!-- EN: Cannot imprison -->
+  <CannotImprison>Não pode prender</CannotImprison>
+  <!-- EN: Current suppression -->
+  <CurrentSuppression>repressão atual</CurrentSuppression>
+  <!-- EN: Terror -->
+  <Terror>Terror</Terror>
+  <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
+  <TerrorDescription>O terror é uma forma de manter os escravos reprimidos. Aumenta quando o escravo passa o tempo perto de coisas aterrorizantes, como esculturas de terror. Um escravo só pode ser afetado por três fontes de terror ao mesmo tempo.\n\nEnquanto o terror é alto, a repressão cai mais lentamente da seguinte maneira</TerrorDescription>
+  <!-- EN: Recent terrifying observations -->
+  <TerrorCurrentThoughts>Observações recentes aterrorizantes</TerrorCurrentThoughts>
+
+  <!-- EN: Base interval -->
+  <SuppressionBaseInterval>Intervalo de base</SuppressionBaseInterval>
+  <!-- EN: Moving capacity -->
+  <SuppressionMovingCapacityFactor>Capacidade de movimentação</SuppressionMovingCapacityFactor>
+  <!-- EN: Suppression -->
+  <SuppressionFactor>repressão</SuppressionFactor>
+  <!-- EN: Mood -->
+  <SuppressionMoodFactor>Humor</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>Contagem de escravos</SuppressionSlaveCountFactor>
+  <!-- EN: Escape route -->
+  <SuppressionEscapeFactor>Rota de fuga</SuppressionEscapeFactor>
+  <!-- EN: Weapon proximity -->
+  <SuppressionWeaponProximityFactor>Proximidade da arma</SuppressionWeaponProximityFactor>
+  <!-- EN: Final interval -->
+  <SuppressionFinalInterval>Intervalo final</SuppressionFinalInterval>
+  <!-- EN: Unattended -->
+  <SuppressionUnattendedByColonists>Sem vigilância</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>Espera-se que pelo menos um dos {0} escravos neste mapa rebele-se em média a cada {1}.</SuppressionRebellionAnySlave>
+
+  <!-- EN: Will -->
+  <WillLevel>Arbítrio</WillLevel>
+  <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
+  <WillLevelDesc>Quanto o prisioneiro está determinado a não submeter-se. Quando chega a zero, eles podem ser escravizados.</WillLevelDesc>
+  <!-- EN: {0} base will -->
+  <WillFromPawnKind>{0} será a base</WillFromPawnKind>
+  <!-- EN: Target ideoligion -->
+  <IdeoConversionTarget>Ideoligia alvo</IdeoConversionTarget>
+  <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
+  <IdeoConversionTargetDesc>A ideologia para a qual seus guardas tentarão converter esse prisioneiro.</IdeoConversionTargetDesc>
+
+  <!-- Social -->
+  <!-- EN: Change per day due to mood -->
+  <CertaintyChangePerDay>Mudança por dia devido ao humor</CertaintyChangePerDay>
+  <!-- EN: Change rate based on mood -->
+  <MoodChangeRate>Taxa de alteração com base no humor</MoodChangeRate>
+  <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
+  <CertaintyInIdeo>Certeza de {PAWN_nameDef} em {IDEO_name}</CertaintyInIdeo>
+  <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
+  <RoleDesc>Um status especial que essa pessoa possui em sua ideologia. Se você mudar ou retirar essa função, eles ficarão infelizes.</RoleDesc>
+  <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
+  <ConversionWeakerDueToTraitAgreements>As tentativas de conversão serão mais fracas devido à concordância de traço / meme</ConversionWeakerDueToTraitAgreements>
+  <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
+  <ConversionStrongerDueToTraitAgreements>As tentativas de conversão serão mais fortes por causa do conflito de traço / meme</ConversionStrongerDueToTraitAgreements>
+
+  <!-- EN: Cut -->
+  <Cut>Cortar</Cut>
+  <!-- EN: Cut both eyes -->
+  <CutBothEyes>Cortar ambos os olhos</CutBothEyes>
+
+</LanguageData>

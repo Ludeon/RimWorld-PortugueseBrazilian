@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <!-- EN: 
+        <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+        <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+        <li>beggarSingle->beggar</li>
+        <li>beggarSingle->vagabond</li>
+        <li>beggarSingle->drifter</li>
+        <li>beggarSingle->traveler</li>
+        <li>beggarPlural->[beggarSingle]s</li>
+        <li>seekingSingle->seeks</li>
+        <li>seekingSingle->requests</li>
+        <li>seekingSingle->wishes for</li>
+        <li>seekingSingle->desires</li>
+        <li>seekingSingle->needs</li>
+        <li>seekingSingle->hopes for</li>
+        <li>seekingPlural->seek</li>
+        <li>seekingPlural->request</li>
+        <li>seekingPlural->wish for</li>
+        <li>seekingPlural->hope for</li>
+        <li>seekingPlural->desire</li>
+        <li>seekingPlural->need</li>
+        <li>alms->alms</li>
+        <li>alms->aid</li>
+        <li>alms->charity</li>
+        <li>alms->resources</li>
+    -->
+    <Beggars.questNameRules.rulesStrings>
+        <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+        <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+        <li>beggarSingle->mendigo</li>
+        <li>beggarSingle->vagabundo</li>
+        <li>beggarSingle->viajante</li>
+        <li>beggarPlural->[beggarSingle]s</li>
+        <li>seekingSingle->solicita</li>
+        <li>seekingSingle->deseja</li>
+        <li>seekingSingle->aspira</li>
+        <li>seekingSingle->precisa de</li>
+        <li>seekingSingle->espera por</li>
+        <li>seekingPlural->solicitam</li>
+        <li>seekingPlural->desejam</li>
+        <li>seekingPlural->esperam por</li>
+        <li>seekingPlural->aspiram</li>
+        <li>seekingPlural->precisam de</li>
+        <li>alms->esmola</li>
+        <li>alms->ajuda</li>
+        <li>alms->caridade</li>
+        <li>alms->recursos</li>
+    </Beggars.questNameRules.rulesStrings>
+    <!-- EN:
+        <li>groupLabelPlural->travelers</li>
+        <li>groupLabelSingle->traveler</li>
+        <li>travelerInfo(beggarCount==1)->This [groupLabelSingle] is</li>
+        <li>travelerInfo(beggarCount>=2)->These [groupLabelPlural] are</li>
+        <li>beggingForInfo->for x[requestedThingCount] [requestedThing_label]</li>
+        <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+        <li>traverObjective(beggarCount>=2)->them</li>
+        <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [traverObjective], without diplomatic consequences.</li>
+        <li>approachInfo(beggarCount==1)->A poor [groupLabelSingle] named [beggars0_nameDef] is approaching looking for help</li>
+        <li>approachInfo(beggarCount>=2)->A group of poor [groupLabelPlural] are approaching looking for help</li>
+        <li>requestInfo(beggarCount==1)->[beggars0_nameDef] is begging [beggingForInfo]</li>
+        <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] are begging [beggingForInfo]</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] wants the silver to pay off a debt to a gang of pirates who are hunting [beggars0_objective]</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] needs the medicine to help a traveler who is injured nearby</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] wants the medicine to save [beggars0_possessive] loyal pet who was injured on the road</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] needs [requestedThing_label] to inoculate a sickly friend against deadly diseases</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] wants it to drown [beggars0_possessive] sorrows after losing a fellow traveler in a terrible accident</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->They want the silver so they can buy back a friend who was recently kidnapped</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->They need the medicine to attempt a life-saving operation on a fellow traveler who was attacked by mechanoids</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devasted by raiders</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->They want [requestedThing_label] so they can travel safely while looking for a new place to call home</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->They want [requestedThing_label] to help them drown their sorrows after losing their home in a terrible attack</li>
+        <li>interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective]</li>
+        <li>interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef]</li>
+        <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
+        <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
+    -->
+    <Beggars.questDescriptionRules.rulesStrings>
+        <li>groupLabelPlural->viajantes</li>
+        <li>groupLabelSingle->viajante</li>
+        <li>travelerInfo(beggarCount==1)->Esse [groupLabelSingle] não faz</li>
+        <li>travelerInfo(beggarCount>=2)->Esses [groupLabelPlural] não fazem</li>
+        <li>beggingForInfo->por x[requestedThingCount] [requestedThing_label]</li>
+        <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+        <li>traverObjective(beggarCount>=2)->os</li>
+        <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] parte de nenhuma facção. Se desejar, você pode escolher [oOuOs] matar, prender ou vender, sem consequências diplomáticas.</li>
+        <li>oOuOs(beggarCount==1)->o(a)</li>
+        <li>oOuOs(beggarCount>=2)->os</li>
+        <li>approachInfo(beggarCount==1)->Um probre [groupLabelSingle] chamado(a) [beggars0_nameDef] está se aproximando em busca de ajuda</li>
+        <li>approachInfo(beggarCount>=2)->Um grupo de pobres [groupLabelPlural] está se aproximando em busca de ajuda</li>
+        <li>requestInfo(beggarCount==1)->[beggars0_nameDef] está implorando [beggingForInfo]</li>
+        <li>requestInfo(beggarCount>=2)->Os [groupLabelPlural] estão implorando [beggingForInfo]</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] quer a prata para pagar uma dívida com uma gangue de piratas que estão o(a) caçando</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] precisa do medicamento para ajudar um viajante que está ferido nas proximidades</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] quer o remédio para salvar seu animal real que foi ferido na estrada</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] precisa de [requestedThing_label] para vacinar um amigo contra doenças mortais</li>
+        <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] quer afogar suas tristezas depois de perder um companheiro de viagem em um terrível acidente</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Eles querem a prata para poderem comprar de volta um amigo que foi recentemente sequestrado</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Eles precisam do medicamento para tentar uma operação para salvar a vida de um companheiro de viagem que foi atacado por mecanoides</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Eles precisam do remédio para ajudar seus amigos em um assentamento próximo que foi destruído por invasores</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Eles querem [requestedThing_label] para que possam viajar com segurança enquanto procuram um novo lugar para chamar de lar</li>
+        <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Eles querem [requestedThing_label] para ajudá-los a afogar suas mágoas depois de perderem sua casa em um terrível ataque</li>
+        <li>interactionInfo(beggarCount==1)->Você pode dar itens a [beggars0_nameDef] selecionando um colono e clicando com o botão direito nele(a)</li>
+        <li>interactionInfo(beggarCount>=2)->Você pode dar itens aos [groupLabelPlural] selecionando um colono e clicando com o botão direito em [beggars0_nameDef]</li>
+        <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] seguirá em frente após [visitDurationTicks_duration]</li>
+        <li>moveOnInfo(beggarCount>=2)->Os [groupLabelPlural] seguirão em frente após [visitDurationTicks_duration]</li>
+    </Beggars.questDescriptionRules.rulesStrings>
+    <!-- EN:
+        <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] betrayed</li>
+        <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy.</li>
+        <li>hasHave(beggarCount==1)->has</li>
+        <li>hasHave(beggarCount>=2)->have</li>
+        <li>wasWere(beggarCount==1)->was</li>
+        <li>wasWere(beggarCount>=2)->were</li>
+        <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
+        <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
+    -->
+    <Beggars.questContentRules.rulesStrings>
+        <li>letterLabelBeggarsBetrayed->[viajanteOuViajantes]</li>
+        <li>letterTextBeggarsBetrayed->[groupLabelSingleOrPlural] que [wasWere] procurando por caridade [hasHave]. Colonos com crenças caridosas ficarão infelizes.</li>
+        <li>viajanteOuViajantes(beggarCount==1)->viajante traído(a)</li>
+        <li>viajanteOuViajantes(beggarCount>=2)->viajantes traídos</li>
+        <li>hasHave(beggarCount==1)->estava</li>
+        <li>hasHave(beggarCount>=2)->estavam</li>
+        <li>wasWere(beggarCount==1)->foi traído(a)</li>
+        <li>wasWere(beggarCount>=2)->foram traídos</li>
+        <li>groupLabelSingleOrPlural(beggarCount==1)->O viajante</li>
+        <li>groupLabelSingleOrPlural(beggarCount>=2)->Os viajantes</li>
+    </Beggars.questContentRules.rulesStrings>
+
+</LanguageData>

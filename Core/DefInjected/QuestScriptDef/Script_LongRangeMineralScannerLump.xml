@@ -29,23 +29,28 @@
     <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->O [subName]</li>
-    <li>questName->[subName]</li>
-    <li>subName->Recursos [adj]</li>
-    <li>subName->Minerais [adj]</li>
-    <li>subName->Minérios [adj]</li>
-    <li>subName->Riqueza [adj]</li>
-    <li>subName->Mineráveis [adj]</li>
-    <li>subName->Pedaço [adj]</li>
-    <li>subName->Projeto de Mineração [adj]</li>
-    <li>adj->Distante(s)</li>
-    <li>adj->Afastado(as)</li>
-    <li>adj->Longínquo(as)</li>
-    <li>adj->Desconhecido(as)</li>
-    <li>adj->Descoberto(as)</li>
-    <li>adj->Escaneado(as)</li>
-    <li>adj->Detectado(s)</li>
-    <li>adj->Achado(s)</li>
+    <li>questName->As [subNameA]</li>
+    <li>questName->[subNameA]</li>
+    <li>questName->Os [subNameO]</li>
+    <li>questName->[subNameO]</li>
+    <li>subNameO->Recursos [adjO]</li>
+    <li>subNameO->Minerais [adjO]</li>
+    <li>subNameO->Minérios [adjO]</li>
+    <li>subNameO->Projetos de Mineração [adjO]</li>
+    <li>subNameA->Riquezas [adjA]</li>
+    <li>subNameA->Fortunas [adjA]</li>
+    <li>adjO->Distantes</li>
+    <li>adjO->Longínquos</li>
+    <li>adjO->Desconhecidos</li>
+    <li>adjO->Descobertos</li>
+    <li>adjO->Escaneads</li>
+    <li>adjO->Detectados</li>
+    <li>adjA->Distantes</li>
+    <li>adjA->Longínquas</li>
+    <li>adjA->Desconhecidas</li>
+    <li>adjA->Descobertas</li>
+    <li>adjA->Escaneadas</li>
+    <li>adjA->Detectadas</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>A missão expirou: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>

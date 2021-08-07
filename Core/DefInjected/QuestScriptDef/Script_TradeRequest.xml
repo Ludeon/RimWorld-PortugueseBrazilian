@@ -26,18 +26,22 @@
     <li>trade->Offer</li>
   -->
   <TradeRequest.questNameRules.rulesStrings>
-    <li>questName->Caravana para [settlement_label]</li>
-    <li>questName->Comércio com [settlement_label]</li>
-    <li>questName->Vendendo para [settlement_label]</li>
-    <li>questName->Suprimentos para [settlement_label]</li>
-    <li>questName->Um(a) [trade] [special]</li>
-    <li>special->Especial</li>
-    <li>special->Única(o)</li>
-    <li>special->Não Tradicional</li>
-    <li>trade->Comércio</li>
-    <li>trade->Troca</li>
-    <li>trade->Acordo</li>
-    <li>trade->Oferta</li>
+    <li>questName(priority=2)->Caravana para [settlement_label]</li>
+    <li>questName(priority=2)->Comércio com [settlement_label]</li>
+    <li>questName(priority=2)->Vendendo para [settlement_label]</li>
+    <li>questName(priority=2)->Suprimentos para [settlement_label]</li>
+    <li>questName->Um [tradeO] [specialO]</li>
+    <li>questName->Uma [tradeA] [specialA]</li>
+    <li>specialO->Especial</li>
+    <li>specialO->Única</li>
+    <li>specialO->Não Tradicional</li>
+    <li>specialA->Especial</li>
+    <li>specialA->Única</li>
+    <li>specialA->Não Tradicional</li>
+    <li>tradeO->Comércio</li>
+    <li>tradeO->Acordo</li>
+    <li>tradeA->Troca</li>
+    <li>tradeA->Oferta</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <TradeRequest.LetterLabelQuestFailed.slateRef>A missão falhou: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>

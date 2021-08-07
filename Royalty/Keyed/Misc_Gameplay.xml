@@ -17,15 +17,15 @@
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
-  <PsycastNeurotrainerLabel>psytrainer ({0})</PsycastNeurotrainerLabel>
+  <PsycastNeurotrainerLabel>treino psíquico ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>Use o psytrainer para aprender o psycast {0}</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>Use o treino psíquico para aprender o poder {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
   <PsycastNeurotrainerDescription>Uma superdosagem de uso único de mecanitos que treinam um poder psíquico específico.\n\nA dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade específica, transmutando-se em tecido neural conforme necessário.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender o poder {1}.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
-  <PsycastNeurotrainerNoPsylink>Requer psylink</PsycastNeurotrainerNoPsylink>
+  <PsycastNeurotrainerNoPsylink>Requer ligação psíquica</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} já conhece {1}.</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -46,11 +46,11 @@
   
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
-  <Psyfocus>Psyfocus</Psyfocus>
+  <Psyfocus>concentração psíquica</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Concentração psíquica</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>O psyfocus é um tipo especial de estruturação mental que é necessário para usar poderes psíquicos. O psyfocus se dissipa com o tempo e deve ser acumulado pela meditação regular. Perder todo o psyfocus torna alguém incapaz de usar poderes psíquicos, mas não tem outras consequências.\n\nNíveis mais altos de psyfocus permitem poderes de nível superior, mas também aumentam a taxa de dissipação do psyfocus.</PsyfocusDesc>
+  <PsyfocusDesc>A concentração psíquica é um tipo especial de estruturação mental que é necessário para usar poderes psíquicos. A concentração psíquica se dissipa com o tempo e deve ser acumulado pela meditação regular. Perder todo a concentração psíquica torna alguém incapaz de usar poderes psíquicos, mas não tem outras consequências.\n\nNíveis mais altos de concentração psíquica permitem poderes de nível superior, mas também aumentam a taxa de dissipação da concentração psíquica.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
@@ -82,11 +82,11 @@
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
   <MeditationFocusPerFlame>{2} por cada chama acesa ({0} / {1})</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
-  <PsyfocusPerDayOfMeditation>Taxa de ganho de psyfocus: {0}/d</PsyfocusPerDayOfMeditation>
+  <PsyfocusPerDayOfMeditation>Taxa de ganho de concentração psíquica: {0}/d</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
-  <DesiredPsyfocus>psyfocus desejado</DesiredPsyfocus>
+  <DesiredPsyfocus>concentração psíquica desejado</DesiredPsyfocus>
   <!-- EN: Click to set desired psyfocus. -->
-  <DesiredPsyfocusDesc>Clique para definir o psyfocus desejado.</DesiredPsyfocusDesc>
+  <DesiredPsyfocusDesc>Clique para definir a concentração psíquica desejada.</DesiredPsyfocusDesc>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -159,15 +159,25 @@
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
   <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>A sala do trono de {PAWN_definite} não atende aos requisitos do título de {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>O outorgante se sente ofendido que a sala do trono de {PAWN_definite} não cumpre com os requisitos do título de {TITLE}. A cerimônia de outorga foi cancelada.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>O Mestre de cerimônias se sente ofendido que a sala do trono de {PAWN_definite} não cumpre com os requisitos do título de {TITLE}. A cerimônia de outorga foi cancelada.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
   <BestowingCeremonyLabel>cerimônia de outorga</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
   <BestowingOutcomeQualitySpecific>A qualidade total da cerimônia de outorga era {0}, determinada por esses fatores</BestowingOutcomeQualitySpecific>
+  
+  <!-- EN: No colonists that can link with anima tree right now. -->
+  <RitualTargetAnimaTreeNoPawnsToLink>Nenhum colono pode se conectar com a árvore anima agora.</RitualTargetAnimaTreeNoPawnsToLink>
+  <!-- EN: No colonists with the natural meditation focus type. -->
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Nenhum colono pode tem concentração psíquica de tipo natural.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <!-- EN: Need at least {0} anima grass. -->
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>É necessário pelo menos {0} de grama anima.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <!-- EN: An anima tree. -->
+  <RitualTargetAnimaTreeInfo>Uma árvore anima.</RitualTargetAnimaTreeInfo>
+  <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
+  <RitualTargetAnimaTreeMustBeCapableOfNature>Deve ser um colono com o foco em meditação de tipo natural que está abaixo do nível máximo de psylink.</RitualTargetAnimaTreeMustBeCapableOfNature>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
   <AnimaLinkingExplanationBase>A cerimônia de vinculação com a anima é mais poderosa com mais participantes. Quanto mais pessoas participarem, menos tempo a cerimônia levará e mais grama anima crescerá.\n\nCom {0} participantes adicionais, {1} gramas anima serão restauradas no final da cerimônia.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>A carga necessária ainda não foi carregada completamente!</ShuttleRequiredItemsNotSatisfied>
-
 </LanguageData>
