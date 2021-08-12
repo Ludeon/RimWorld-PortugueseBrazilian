@@ -8,6 +8,7 @@
     Mesmo que cumpra com todos os requisitos, mantenha-os aqui para fins de registro. Apenas coloque um *x* em cada item cumprido.
 
     Caso não faça parte da equipe, o pull request não será aceito. Para entrar na equipe, verifique o [MANUAL DO TRADUTOR](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/Manuais/manualDoTradutor.md)
+-->
 
  - [ ] Você testou as traduções antes de publicar o pull request?
  - [ ] Você verificou se outro pull request tem a mesma proposta que o seu?
