@@ -34,7 +34,7 @@ assignees: ""
 4. Veja o erro
 
 
-### ✔️ Comportamento Experado
+### ✔️ Comportamento Esperado
 <!--
     Essa é uma parte opcional, mas é útil para que possamos corrigir o problema mais rapidamente.
 
