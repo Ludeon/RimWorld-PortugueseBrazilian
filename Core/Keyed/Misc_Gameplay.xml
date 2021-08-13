@@ -112,6 +112,10 @@
   <RenounceTitleDescription>Esta ação irá fazer {PAWN_nameDef} perder o título de {TITLE} {PAWN_objective}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_possessive} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá essas permissões</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perderá {POINTS} de permissão não gastos com {FACTION_name}.</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} manterá todos seus níveis de psylink e psycasts.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconhecido</UnknownLower>
   <!-- EN: On -->
@@ -1141,6 +1145,8 @@
   <Installed>Instalado</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>Não instalado</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>A árvore extraída morrerá em {time} se não for replantada.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->

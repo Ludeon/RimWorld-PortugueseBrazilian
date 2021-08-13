@@ -74,6 +74,9 @@
   <MessageAnimalManhuntsOnTameFailed>Aviso: {ANIMAL_kindBasePlural} pode atacar após uma tentativa fracassada de domesticação ({1} de chance).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Apenas aqueles com o traço de simpatia por insetos podem domar {INSECT_indefinite}.</MessageInsectTameDesignated>
+
+  <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
+  <MessageInsectsHostileOnTaming>Aviso: O(A) {PAWN_labelShort} é hostil e atacará se colonos tentarem domá-lo(a).</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Novo recruta</LetterLabelMessageRecruitSuccess>
@@ -622,6 +625,9 @@
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>Nenhum destino válido encontrado para {0}</NoValidDestinationFound>
+
+  <!-- EN: An extracted tree just died. -->
+  <MessageMinifiedTreeDied>Uma árvore extraída acabou de morrer.</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
@@ -727,7 +733,7 @@
   <AdjacentSowBlocker>Não pode ser plantado próximo a {0_label}.</AdjacentSowBlocker>
   <!-- EN: Too close to {0_label}. -->
   <TooCloseToOtherPlant>Muito perto de {0_label}.</TooCloseToOtherPlant>
-  <!-- EN: Too close to {0_label}'s planting location. -->
-  <TooCloseToOtherSeedPlantCell>Muito perto do local de plantio de {0_label}.</TooCloseToOtherSeedPlantCell>
+  <!-- EN: Too close to {0}'s planting location. -->
+  <TooCloseToOtherSeedPlantCell>Muito perto do local de plantio de {0}.</TooCloseToOtherSeedPlantCell>
   
 </LanguageData>
