@@ -63,4 +63,4 @@ Esse tópico contém **2 sub-tópicos**:
 |----------|------------|
 | **[Git for Windows](https://git-scm.com/download/win)** | O Git é um sistema de controle de versão open-source, ele é um programa de controle de versão para sistemas operacionais Windows. Ele é um programa de linha de comando, que pode ser usado para criar repositórios, adicionar e remover arquivos, e muito mais. |
 | **[VSCode](https://code.visualstudio.com/)** | O VSCode é um editor de código de código aberto, que oferece uma interface amigável e fácil de usar. Ele é rastreado por muitas máquinas e é usado para controlar a integridade dos seus códigos. |
-| **[GitHub Desktop](https://desktop.github.com/)** | GitHub Desktop é um cliente de aplicações desktop para o GitHub. Ele é uma versão mais completa do GitHub, que é um cliente de aplicações para o GitHub. Ele é usado pela maioria dos programadores. |
+| **[GitHub Desktop](https://desktop.github.com/)** | GitHub Desktop é um cliente de aplicações desktop para o GitHub. É usado pela maioria dos programadores. |
