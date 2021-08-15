@@ -3,7 +3,7 @@ A Brazilian Portuguese translation for RimWorld.
 
 **LICENSE**: See **[this page](http://ludeon.com/forums/index.php?topic=2933.0)**
 
-Discord (Rimworld Translation BR): https://discord.gg/RZEvDtDG
+Discord (Rimworld Translation BR): https://discord.gg/JYhMBbR7v3
 ------------------------
 
 Translators:
