@@ -414,6 +414,8 @@
   <Location>localização</Location>
   <!-- EN: animals -->
   <AnimalsLower>animais</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>itens</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -1480,8 +1482,8 @@
   <RitualTakesPlaceAt>Acontece em</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>Qualquer {0}</RitualTargetThingDefsInfo>
-  <!-- EN: Attending -->
-  <LordReportAttending>Comparecendo</LordReportAttending>
+  <!-- EN: Attending {0} -->
+  <LordReportAttending>Comparecendo ao(à)</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} foi cancelado.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1590,5 +1592,10 @@
   <OutcomeLetterLabel>{RITUALLABEL} {OUTCOMELABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>{0} máx.</MaxValue>
+
+  <!-- EN: {0} of -->
+  <ThingOf>{0} de</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>{0} de {1}</ThingOfSource>
   
 </LanguageData>

@@ -83,9 +83,13 @@
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
   <MaxPermadeathAutosaveIntervalInfo>O intervalo máximo do salvamento automático no modo Morte Permanente é de {0} dia(s).</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->
-  <ModSettings>Configuração de Mods</ModSettings>
+  <ModSettings>Configuração de Mod.</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Desat. permanentemente modo desenvolv.</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression-->
+  <TextureCompression>Compressão de textura</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>Desativar a compactação de textura usará muito mais memória de vídeo, mas faz com que as texturas pareçam um pouco melhores em áreas detalhadas. Desative-o apenas se souber que tem muita memória de vídeo extra.\n\nObserve que o uso de certas modificações geralmente consome muito mais memória de vídeo, portanto, pode ser necessário ativá-lo se adicionar certas modificações.</TextureCompression_Tooltip>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -106,6 +110,8 @@
   <ResetAndRestart>Suas opções foram redefinidas. O jogo será reiniciado automaticamente.</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Todas as suas configurações serão redefinidas para o padrão e o jogo será reiniciado. Todo o progresso não salvo será perdido!\n\nContinuar?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <ChangedTextureCompressionRestart>Alterar a opção de compressão de textura requer um reinício. Todo o progresso não salvo será perdido!\n\nContinuar?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
