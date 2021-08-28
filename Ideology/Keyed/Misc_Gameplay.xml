@@ -15,6 +15,8 @@
   <Customize>Personalizar</Customize>
   <!-- EN: Play classic -->
   <PlayClassic>Clássico</PlayClassic>
+  <!-- EN: Create fluid.. -->
+  <CreateFluid>Fluido</CreateFluid>
   <!-- EN: Load saved -->
   <LoadSaved>Carregar</LoadSaved>
   <!-- EN: Structure -->
@@ -123,13 +125,23 @@
   <PreceptName>Nome do preceito</PreceptName>
   <!-- EN: precept name -->
   <PreceptNameLower>nome do preceito</PreceptNameLower>
-  <!-- EN: Changing -->
-  <Changing>Alterando</Changing>
+  <!-- EN: Alterando {0} -->
+  <Changing>Alterando {0}</Changing>
   <!-- EN: structures -->
   <StructuresLower>estruturas</StructuresLower>
   <!-- EN: memes -->
   <MemesLower>memes</MemesLower>
 
+  <!-- EN: Development points -->
+  <Reward_DevelopmentPointsLabel>Pontos de desenvolvimento</Reward_DevelopmentPointsLabel>
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <Reward_DevelopmentPoints>Seus pontos de desenvolvimento para {0} aumentarão em {1}.\n\nVocê tem atualmente {2} pontos de desenvolvimento. Assim que tiver {3} pontos de desenvolvimento, você pode reformar a ideologia.\n\nGanhe pontos de desenvolvimento adicionais completando outras missões e rituais.</Reward_DevelopmentPoints>
+  <!-- EN: Current points -->
+  <CurrentDevelopmentPoints>Pontos disponíveis</CurrentDevelopmentPoints>
+  <!-- EN: Points needed to reform -->
+  <ReformDevelopmentPoints>Pontos necessários para reforma</ReformDevelopmentPoints>
+  <!-- EN: quest -->
+  <QuestLower>missão</QuestLower>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Uma sepultura contendo o cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -195,6 +207,10 @@
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>Todos os escravos participantes ficaram abalados com a visão da morte. A supressão foi elevada ao nível máximo.</RitualOutcomeExtraDesc_Execution>
 
+  <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Devido à qualidade do ritual, seus pontos de desenvolvimento aumentaram em {2} (de {0} para {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Devido à baixa qualidade do ritual, nenhum ponto de desenvolvimento foi ganho.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
   
   <!-- EN: Additional reward -->
   <RitualAttachedReward>Recompensa adicional</RitualAttachedReward>
@@ -257,6 +273,10 @@
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Para obter a melhor qualidade, comece {0} em {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>Atualmente, {0} está sendo iniciado em {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <!-- EN: Development points -->
+  <RitualDevelopmentPoints>Pontos de desenvolvimento</RitualDevelopmentPoints>
+  <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
+  <RitualDevelopmentPointsTip>A conclusão deste ritual dá {0}-{1} pontos de desenvolvimento dependendo da qualidade.</RitualDevelopmentPointsTip>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso escravo</ForSlaveUse>
@@ -300,6 +320,8 @@
   <RoleExpectationOffset>Elevado em {0} níveis.</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
   <RoleRaisedExpectation>{0} tem expectativas mais altas.</RoleRaisedExpectation>
+  <!-- EN: The {0} will have higher expectations in {1}. -->
+  <RoleRaisedExpectationGracePeriod>{0} terá expectativas mais altas em {1}.</RoleRaisedExpectationGracePeriod>
   <!-- EN: Led by {0} -->
   <IdeoLeaderDifferentIdeoThoughtLabel>Liderado por {0}</IdeoLeaderDifferentIdeoThoughtLabel>
   <!-- EN: {PAWN_nameDef} will not do {1} work. -->
@@ -512,7 +534,7 @@
   <AssignColonists>Atribua colonos à sua ideologia</AssignColonists>
   <!-- EN: Remove new ideoligion -->
   <RemoveNewIdeoligion>Remover nova ideologia</RemoveNewIdeoligion>
-  <!-- EN: Make this your primary ideologion  -->
+  <!-- EN: Make this your primary ideoligion  -->
   <MakeIdeoligionPrimary>Faça desta sua ideologia principal</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
@@ -572,13 +594,19 @@
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} foi ejetado(a) de uma cápsula de bioescultura devido à falta de energia.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle.  -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} completou o ciclo de cura.</BiosculpterHealCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured.  -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completou o ciclo de cura e {HEDIFF_label} foi curado.</BiosculpterHealCompletedWithCureMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured.  -->
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completou o ciclo de cura e seu(ua) {HEDIFF_label} foi curado(a).</BiosculpterHealCompletedWithCureMessage>
   <!-- EN:  {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completou o ciclo de reversão de idade {PAWN_possessive}. {PAWN_pronoun} espera a próxima reversão de idade em {DEADLINE} dias.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed pleasure cycle.  -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} completou o ciclo de prazer.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor  -->
   <BiosculpterCleanlinessSpeedFactor>Fator de velocidade de limpeza</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: These conditions will be healed -->
+  <HealingCycleWillHeal>Estas condições serão curadas</HealingCycleWillHeal>
+  <!-- EN: One of these conditions will be healed -->
+  <HealingCycleOneWillHeal>Uma destas condições será curada</HealingCycleOneWillHeal>
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>Pesquisa necessária ausente</MissingRequiredResearch>
 
 </LanguageData>
