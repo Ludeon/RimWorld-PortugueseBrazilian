@@ -414,6 +414,8 @@
   <Location>localização</Location>
   <!-- EN: animals -->
   <AnimalsLower>animais</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>itens</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -1122,11 +1124,11 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Componente ainda não está pronto</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Charlon Whitestone(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e irá atrair gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
+  <HibernateWarning>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e irá atrair gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>O reator está pronto para ser ligado.\n\nO processo levará cerca de 15 dias e a assinatura de energia será detectada a uma grande distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator. Ele avisa que o processo levará cerca de 15 dias.</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator. Ele avisa que o processo levará cerca de 15 dias.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>O reator está pronto para ligar. O processo levará cerca de 15 dias.</HibernateWarningStandalonePacifist>
 
@@ -1480,8 +1482,8 @@
   <RitualTakesPlaceAt>Acontece em</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>Qualquer {0}</RitualTargetThingDefsInfo>
-  <!-- EN: Attending -->
-  <LordReportAttending>Comparecendo</LordReportAttending>
+  <!-- EN: Attending {0} -->
+  <LordReportAttending>Comparecendo ao(à)</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} foi cancelado.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1590,5 +1592,10 @@
   <OutcomeLetterLabel>{RITUALLABEL} {OUTCOMELABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>{0} máx.</MaxValue>
+
+  <!-- EN: {0} of -->
+  <ThingOf>{0} de</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>{0} de {1}</ThingOfSource>
   
 </LanguageData>
