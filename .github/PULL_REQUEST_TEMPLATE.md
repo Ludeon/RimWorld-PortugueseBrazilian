@@ -1,9 +1,9 @@
-### **📝 Por Favor, descreva as alterações propostas nesse pull request:**
+### **📝 Alterações Propostas:**
 <!--
     Especifique as alterações propostas nesse pull request. Muitas vezes, as histórias nos commits não são muito descritivas, ou seja, não possuem uma explicação clara do que foi feito.
 -->
 
-### **📜 Antes de publicar o pull request, verifique os itens abaixo:**
+### **📜 Requisitos:**
 <!--
     Mesmo que cumpra com todos os requisitos, mantenha-os aqui para fins de registro. Apenas coloque um *x* em cada item cumprido.
 
@@ -15,7 +15,7 @@
  - [ ] Você verificou se sua fork e sua branch estão atualizadas?
  - [ ] Você já faz parte da equipe de tradução?
 
-### **💬 Comentários Adicionais**
+### **💬 Comentários Adicionais:**
 <!--
     Caso queira comentar algo a mais, sinta-se a vontade para fazer isso aqui.
 -->
