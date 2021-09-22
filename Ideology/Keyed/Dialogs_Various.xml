@@ -48,13 +48,21 @@
 	<RoomRequirements>Requisitos da sala</RoomRequirements>
 	<!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
 	<ConfirmChangeMemesForFluidIdeo>A ideologia que você está carregando tem memes que são incompatíveis com uma nova ideologia fluida e seus memes precisarão ser escolhidos novamente (ideologias fluidas só podem começar com um meme de baixo impacto). Os seguintes memes são incompatíveis:\n\n{0}\n\nDeseja continuar?</ConfirmChangeMemesForFluidIdeo>
+	<!-- EN: The following memes are incompatible -->
+	<ConfirmIncompatibleMemes>Os seguintes memes são incompatíveis</ConfirmIncompatibleMemes>
+	<!-- EN: Would you like to continue? -->
+	<ConfirmChangeMemesForFluidIdeoContinue>Você gostaria de continuar?</ConfirmChangeMemesForFluidIdeoContinue>
 	
 	<!-- EN: role -->
 	<Role>Função</Role>
 	<!-- EN: Assign role -->
 	<ChooseRole>Atribuir função</ChooseRole>
+	<!-- EN: Choose new role -->
+	<ChooseNewRole>Escolher nova função</ChooseNewRole>
 	<!-- EN: No role assigned -->
 	<NoRoleAssigned>Nenhuma função atribuída</NoRoleAssigned>
+	<!-- EN: Remove {0} role -->
+	<RemoveRole>Remover função de {0}</RemoveRole>
 	<!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
 	<ChooseRoleConfirmAssign>Você está prestes a atribuir a função de {ROLE_labelDef} a {PAWN_labelShort}.</ChooseRoleConfirmAssign>
 	<!-- EN: Are you sure? -->
@@ -147,8 +155,8 @@
 	<CannotAssignBedToColonist>Colono</CannotAssignBedToColonist>
 	<!-- EN: Any slave -->
 	<AnySlave>Qualquer escravo</AnySlave>
-	<!-- EN: Negotiator will not sell people into slavery. -->
-	<NegotiatorWillNotTradeSlaves>O negociador não vai vender pessoas como escravas.</NegotiatorWillNotTradeSlaves>
+	<!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
+	<NegotiatorWillNotTradeSlaves>{0_nameDef} se recusa a vender pessoas como escravos de acordo com suas crenças.</NegotiatorWillNotTradeSlaves>
 	<!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
 	<NegotiatorWillNotTradeSlavesTip>O negociador, {0_nameDef}, não levará as pessoas à escravidão devido à crença de {0_possessive} em {1}.\n\nObserve que {0_nameDef} está disposto a resgatar alguém de volta para sua própria facção, mas não está disposto a vender alguém para uma facção diferente.</NegotiatorWillNotTradeSlavesTip>
 	<!-- EN: Last human meat -->
