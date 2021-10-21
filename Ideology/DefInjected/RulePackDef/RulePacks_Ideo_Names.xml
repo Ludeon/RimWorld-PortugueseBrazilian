@@ -1,110 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-    <!-- EN:
-        <li>r_ideoName->[keyDeity]ism</li>
-        <li>r_ideoName->[hyphenPrefix]-[keyDeity]ism</li>
-        <li>r_ideoName->[keyDeity]'s [creed]</li>
-        <li>r_ideoName->[creed] of [keyDeity]</li>
-        <li>r_ideoAdjective->[keyDeity]ic</li>
-        <li>r_memberName->[keyDeity]ist</li>
-        <li>r_memberName->[keyDeity]ite</li>
-        <li>r_ideoName(p=2)->[globalAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
-        <li>r_ideoName->[memeAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=0.5)->[memeAdjective] [creed]</li>
-        <li>r_ideoName(p=0.2)->[creed] of [packTheme]</li>
-        <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
-        <li>r_memberName->[packMember]</li>
-        <li>creed(priority=1)->[memeCreed]</li>
-        <li>creed->[genericCreed]</li>
-        <li>genericCreed->creed</li>
-        <li>genericCreed->doctrine</li>
-        <li>genericCreed->way</li>
-        <li>genericCreed->path</li>
-        <li>globalAdjective->[Color]</li>
-        <li>globalAdjective->New</li>
-        <li>globalAdjective->Full</li>
-        <li>globalAdjective->Old</li>
-        <li>globalAdjective->Ancient</li>
-        <li>globalAdjective->Historical</li>
-        <li>globalAdjective->Revised</li>
-        <li>globalAdjective->Reformed</li>
-        <li>globalAdjective->Hard</li>
-        <li>globalAdjective->Fundamental</li>
-        <li>globalAdjective->True</li>
-        <li>globalAdjective->Folk</li>
-        <li>globalAdjective->Reformed</li>
-        <li>globalAdjective->[place_adjective]</li>
-        <li>hyphenPrefix->[globalHyphenPrefix]</li>
-        <li>hyphenPrefix->[memeHyphenPrefix]</li>
-        <li>globalHyphenPrefix(p=4)->neo</li>
-        <li>globalHyphenPrefix(p=2)->post</li>
-        <li>globalHyphenPrefix->nova</li>
-        <li>globalHyphenPrefix->archaeo</li>
-        <li>globalHyphenPrefix->hyper</li>
-    -->
-    <NamerIdeoGlobal.rulePack.rulesStrings>
-        <li>r_ideoName->[keyDeity]ismo</li>
-        <li>r_ideoName->[hyphenPrefix]-[keyDeity]ismo</li>
-        <li>r_ideoName->[creed] de [keyDeity]</li>
-        <li>r_ideoAdjective->[keyDeity]ico</li>
-        <li>r_memberName->[keyDeity]isto</li>
-        <li>r_memberName->[keyDeity]ite</li>
-        <li>r_ideoName(p=2)->[packIdeoName] [globalAdjective]</li>
-        <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
-        <li>r_ideoName->[packIdeoName] [memeAdjective]</li>
-        <li>r_ideoName(p=0.5)->[creed] [memeAdjective]</li>
-        <li>r_ideoName(p=0.2)->[creed] de [packTheme]</li>
-        <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
-        <li>r_memberName->[packMember]</li>
-        <li>creed(priority=1)->[memeCreed]</li>
-        <li>creed->[genericCreed]</li>
-        <li>genericCreed->Credo</li>
-        <li>genericCreed->Doutrina</li>
-        <li>genericCreed->Caminho</li>
-        <li>globalAdjective->[Color]</li>
-        <li>globalAdjective->Novo(a)</li>
-        <li>globalAdjective->Cheio(a)</li>
-        <li>globalAdjective->Antigo(a)</li>
-        <li>globalAdjective->Histórico(a)</li>
-        <li>globalAdjective->Revisado(a)</li>
-        <li>globalAdjective->Reformado(a)</li>
-        <li>globalAdjective->Rígido(a)</li>
-        <li>globalAdjective->Fundamental</li>
-        <li>globalAdjective->Verdadeiro(a)</li>
-        <li>globalAdjective->Folclórico(a)</li>
-        <li>globalAdjective->[place_adjective]</li>
-        <li>hyphenPrefix->[globalHyphenPrefix]</li>
-        <li>hyphenPrefix->[memeHyphenPrefix]</li>
-        <li>globalHyphenPrefix(p=4)->neo</li>
-        <li>globalHyphenPrefix(p=2)->pós</li>
-        <li>globalHyphenPrefix->nova</li>
-        <li>globalHyphenPrefix->arquaeo</li>
-        <li>globalHyphenPrefix->híper</li>
-    </NamerIdeoGlobal.rulePack.rulesStrings>
-
-    <!-- EN:
-        <li>globalAdjective->Spacer</li>
-        <li>globalAdjective->Star</li>
-        <li>globalAdjective->Stellar</li>
-        <li>globalAdjective->Interstellar</li>
-        <li>globalHyphenPrefix->astro</li>
-        <li>globalHyphenPrefix->stello</li>
-    -->
-    <CultureSpacer.rulePack.rulesStrings>
-        <li>globalAdjective->Espcial</li>
-        <li>globalAdjective->Estrelar</li>
-        <li>globalAdjective->Interestelar</li>
-        <li>globalHyphenPrefix->astro</li>
-        <li>globalHyphenPrefix->estelo</li>
-    </CultureSpacer.rulePack.rulesStrings>
-
-    <!-- EN:
-        <li>globalAdjective(p=15)->Tribal</li>
-    -->
-    <NamerIdeoCorunan.rulePack.rulesStrings>
-        <li>globalAdjective(p=15)->Tribal</li>
-    </NamerIdeoCorunan.rulePack.rulesStrings>
-
+  
+  <!-- EN:
+    <li>globalAdjective->Spacer</li>
+    <li>globalAdjective->Star</li>
+    <li>globalAdjective->Stellar</li>
+    <li>globalAdjective->Interstellar</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->stello</li>
+  -->
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->Espcial</li>
+    <li>globalAdjective->Estrelar</li>
+    <li>globalAdjective->Interestelar</li>
+    <li>globalHyphenPrefix->astro</li>
+    <li>globalHyphenPrefix->estelo</li>
+  </CultureSpacer.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>globalAdjective(p=15)->Tribal</li>
+  -->
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->Tribal</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_ideoName->[keyDeity]ism</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]ism</li>
+    <li>r_ideoName->[keyDeity]'s [creed]</li>
+    <li>r_ideoName->[creed] of [keyDeity]</li>
+    <li>r_ideoAdjective->[keyDeity]ic</li>
+    <li>r_memberName->[keyDeity]ist</li>
+    <li>r_memberName->[keyDeity]ite</li>
+    <li>r_ideoName(p=2)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=0.5)->[memeAdjective] [creed]</li>
+    <li>r_ideoName(p=0.2)->[creed] of [packTheme]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->creed</li>
+    <li>genericCreed->doctrine</li>
+    <li>genericCreed->way</li>
+    <li>genericCreed->path</li>
+    <li>globalAdjective->[Color]</li>
+    <li>globalAdjective->New</li>
+    <li>globalAdjective->Full</li>
+    <li>globalAdjective->Old</li>
+    <li>globalAdjective->Ancient</li>
+    <li>globalAdjective->Historical</li>
+    <li>globalAdjective->Revised</li>
+    <li>globalAdjective->Reformed</li>
+    <li>globalAdjective->Hard</li>
+    <li>globalAdjective->Fundamental</li>
+    <li>globalAdjective->True</li>
+    <li>globalAdjective->Folk</li>
+    <li>globalAdjective->Reformed</li>
+    <li>globalAdjective->[place_adjective]</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->neo</li>
+    <li>globalHyphenPrefix(p=2)->post</li>
+    <li>globalHyphenPrefix->nova</li>
+    <li>globalHyphenPrefix->archaeo</li>
+    <li>globalHyphenPrefix->hyper</li>
+  -->
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]ismo</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]ismo</li>
+    <li>r_ideoName->[creed] de [keyDeity]</li>
+    <li>r_ideoAdjective->[keyDeity]ico</li>
+    <li>r_memberName->[keyDeity]isto</li>
+    <li>r_memberName->[keyDeity]ite</li>
+    <li>r_ideoName(p=2)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=0.5)->[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=0.2)->[creed] de [packTheme]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->Credo</li>
+    <li>genericCreed->Doutrina</li>
+    <li>genericCreed->Caminho</li>
+    <li>globalAdjective->[Color]</li>
+    <li>globalAdjective->Novo(a)</li>
+    <li>globalAdjective->Cheio(a)</li>
+    <li>globalAdjective->Antigo(a)</li>
+    <li>globalAdjective->Histórico(a)</li>
+    <li>globalAdjective->Revisado(a)</li>
+    <li>globalAdjective->Reformado(a)</li>
+    <li>globalAdjective->Rígido(a)</li>
+    <li>globalAdjective->Fundamental</li>
+    <li>globalAdjective->Verdadeiro(a)</li>
+    <li>globalAdjective->Folclórico(a)</li>
+    <li>globalAdjective->[place_adjective]</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->neo</li>
+    <li>globalHyphenPrefix(p=2)->pós</li>
+    <li>globalHyphenPrefix->nova</li>
+    <li>globalHyphenPrefix->arquaeo</li>
+    <li>globalHyphenPrefix->híper</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
+  
 </LanguageData>
