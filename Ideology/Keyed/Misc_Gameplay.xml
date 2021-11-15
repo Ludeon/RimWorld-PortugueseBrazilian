@@ -211,6 +211,10 @@
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} não acredita em cegueira doutrinada e não vai gostar de ser cegado.</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} é um covarde e não gostará de ser cegado.</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>TODO</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Todos os participantes do ritual ganharam um buff de foco no trabalho de um dia (velocidade de trabalho global de {PERCENTAGE})!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -593,22 +597,30 @@
   <BiosculpterPodCycleLabel>Ciclo</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>carregando nutrição</BiosculpterPodCycleLabelLoading>
-  <!-- EN: ready -->
-  <BiosculpterPodCycleLabelReady>pronto</BiosculpterPodCycleLabelReady>
-  <!-- EN: Prepare {0} cycle -->
-  <BiosculpterPodCycleCommand>Preparar ciclo de {0}</BiosculpterPodCycleCommand>
+  <!-- EN: (and biotuning) -->
+  <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
+  <!-- EN: Begin {0} cycle -->
+  <BiosculpterPodCycleCommand>Iniciar ciclo de {0}</BiosculpterPodCycleCommand>
+  <!-- EN: Ready for cycle selection -->
+  <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
+  <!-- EN: Nutrition loaded, no power -->
+  <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Termina em</BiosculpterCycleTimeRemaining>
+  <!-- EN: Paused: No power (interrupt in {TIME}) -->
+  <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Bio-sintonizado com</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>Interromper ciclo</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrompe o ciclo atual. O ocupante será ejetado sem se beneficiar dos efeitos do ciclo e sofrerá de doença bioescultora de curto prazo. </BiosculpterInteruptCycleDesc>
-  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
-  <BiosculpterUnderageAgeReversalMessage>Aviso: O ciclo de reversão de idade não pode ser executado enquanto o bioescultor está ajustado para {PAWN_labelShort} porque {PAWN_labelShort} tem menos de {ADULTAGE} anos.</BiosculpterUnderageAgeReversalMessage>
-  <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>Assim que a cápsula de bioescultura estiver cheia {NUTRITION} de nutrição, selecione um colono e clique com o botão direito do mouse na cápsula de bioescultura ou\n\em uma pessoa abatida para iniciar o ciclo.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
+  <BiosculpterEnteringMessage>TODO</BiosculpterEnteringMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} vai coletar {INGREDIENTS}, e inciará o ciclo de {CYCLE}.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
+  <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>TODO</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -619,10 +631,12 @@
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completou o ciclo de cura e seu(ua) {HEDIFF_label} foi curado(a).</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completou o ciclo de reversão de idade {PAWN_possessive}. {PAWN_pronoun} espera a próxima reversão de idade em {DEADLINE} dias.</BiosculpterAgeReversalCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} completou o ciclo de prazer.</BiosculpterPleasureCompletedMessage>
+  <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
+  <BiosculpterPleasureCompletedMessage>O ciclo de prazer de {PAWN_labelShort} está completo.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Fator de velocidade de limpeza</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: Biotuned speed factor -->
+  <BiosculpterBiotunedSpeedFactor>TODO</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>Estas condições serão curadas</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->

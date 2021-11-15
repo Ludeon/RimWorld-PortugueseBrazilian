@@ -21,7 +21,7 @@
   <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>Use o treino psíquico para aprender o poder {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
-  <PsycastNeurotrainerDescription>Uma superdosagem de uso único de mecanitos que treinam um poder psíquico específico.\n\nA dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade específica, transmutando-se em tecido neural conforme necessário.</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>Uma superdosagem de uso único de mecanitos que treinam um poder psíquico específico.\n\nA dose é administrada pela órbita do olho. Uma vez liberados no cérebro, os mecanitos formam conhecimento sobre uma habilidade específica, transmutando-se em tecido neural conforme necessário.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} usou o neurotreinador para aprender o poder {1}.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
@@ -88,20 +88,6 @@
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>Clique para definir a concentração psíquica desejada.</DesiredPsyfocusDesc>
 
-  <!-- Abilities -->
-  <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>deve ser redigido.</AbilityDisabledUndrafted>
-  <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>habilidade em recarga. Ele estará disponível em {0}.</AbilityOnCooldown>
-  <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>habilidade já está na fila.</AbilityAlreadyQueued>
-  <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>sem calor para descarregar.</AbilityNoEntropyToDump>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>Habilidade pronta: {0}</AbilityReadyLabel>
-  <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} está pronto(a) para usar {1}.</AbilityReadyText>
-  
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>nenhum trono designado.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -182,4 +168,8 @@
   <AnimaLinkingExplanationBase>A cerimônia de vinculação com a anima é mais poderosa com mais participantes. Quanto mais pessoas participarem, menos tempo a cerimônia levará e mais grama anima crescerá.\n\nCom {0} participantes adicionais, {1} gramas anima serão restauradas no final da cerimônia.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>A carga necessária ainda não foi carregada completamente!</ShuttleRequiredItemsNotSatisfied>
+
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>sem calor para descarregar.</AbilityNoEntropyToDump>
+
 </LanguageData>
