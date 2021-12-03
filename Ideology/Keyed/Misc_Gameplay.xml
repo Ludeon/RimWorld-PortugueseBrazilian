@@ -26,7 +26,7 @@
   <!-- EN: Create custom -->
   <CreateCustom>Criar personalizada</CreateCustom>
   <!-- EN: Delete custom -->
-  <DeleteCustom>Deletar personalizada</DeleteCustom>
+  <DeleteCustom>Excluir personalizada</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Criar nova ideologia</CreateNew>
   <!-- EN: Load existing -->
@@ -148,22 +148,22 @@
   <!-- EN: quest -->
   <QuestLower>missão</QuestLower>
   <!-- EN: Vegetarian -->
-  <MealKindVegetarian>TODO</MealKindVegetarian>
+  <MealKindVegetarian>Vegetariano</MealKindVegetarian>
   <!-- EN: Contains meat -->
-  <MealKindMeat>TODO</MealKindMeat>
+  <MealKindMeat>Contém carne</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
-  <MealKindAny>TODO</MealKindAny>
+  <MealKindAny>Comida aceitável para todos</MealKindAny>
 
   <!-- EN: Could not load ideoligion -->
-  <UnableToLoadIdeoTitle>TODO</UnableToLoadIdeoTitle>
+  <UnableToLoadIdeoTitle>Não foi possível carregar a ideologia</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
-  <UnableToLoadIdeoDescription>TODO</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoDescription>Não foi possível carregar a ideologia selecionada por conta dos requisitos das facções a seguirão. Os requisitos violados são:</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeNotAllowed>TODO</UnableToLoadIdeoMemeNotAllowed>
+  <UnableToLoadIdeoMemeNotAllowed>Meme {MEME} não é permitido para facções de {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeRequired>TODO</UnableToLoadIdeoMemeRequired>
+  <UnableToLoadIdeoMemeRequired>Meme {MEME} é requerido para facões de {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
-  <UnableToLoadIdeoPreceptNotAllowed>TODO</UnableToLoadIdeoPreceptNotAllowed>
+  <UnableToLoadIdeoPreceptNotAllowed>Preceito {PRECEPT} não é permitido para facções de não jogadores</UnableToLoadIdeoPreceptNotAllowed>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>Uma sepultura contendo o cadáver de {PAWN_labelShort}.</RitualTargetGraveInfo>
@@ -180,7 +180,7 @@
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>Altar ou qualquer local de ritual.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
-  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>TODO</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideogramas ou qualquer local de ritual.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>Uma bola de luz ou local de ritual. Bola de luz e alto-falantes devem ser energizados.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -218,9 +218,9 @@
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} é um covarde e não gostará de ser cegado.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
-  <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
+  <RitualScarificationTriggerExtraDesc>A escarificação é esperada para {IDEOMEMBERPLURAL}, desde que haja menos de {0} escarificações de {IDEOMEMBERPLURAL}.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
-  <RitualBlindingTriggerExtraDesc>TODO</RitualBlindingTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>A cegueira é esperada de cada colono atual e ingressando na colônia {IDEOMEMBER}.</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Todos os participantes do ritual ganharam um buff de foco no trabalho de um dia (velocidade de trabalho global de {PERCENTAGE})!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -357,7 +357,7 @@
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Nenhum altar ou local de ritual alcançável.</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
-  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>TODO</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Nenhum altar, ideograma ou local de ritual alcançável.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Arbítrio\n{0} pára {1}</TextMote_WillReduced>
@@ -602,27 +602,27 @@
   <!-- EN: Cycle -->
   <BiosculpterPodCycleLabel>Ciclo</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
-  <BiosculpterPodCycleLabelLoading>carregando nutrição</BiosculpterPodCycleLabelLoading>
+  <BiosculpterPodCycleLabelLoading>carregando ingredientes</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
+  <BiosculpterPodCycleWillBiotune>(e bio-sintonizando)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>Iniciar ciclo de {0}</BiosculpterPodCycleCommand>
   <!-- EN: Duration -->
-  <BiosculpterPodCycleDuration>TODO</BiosculpterPodCycleDuration>
+  <BiosculpterPodCycleDuration>Duração</BiosculpterPodCycleDuration>
   <!-- EN: Duration (transhumanists) -->
-  <BiosculpterPodCycleDurationTranshumanists>TODO</BiosculpterPodCycleDurationTranshumanists>
+  <BiosculpterPodCycleDurationTranshumanists>Duração (transhumanistas)</BiosculpterPodCycleDurationTranshumanists>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleSelection>Pronto para o ciclo selecionado</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
-  <BiosculpterPodCycleStandby>TODO</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleStandby>Em espera pelo ciclo {CYCLE} com {PAWN_labelShort}</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterPodCycleSelectionNoPower>Nutrição carregada, sem energia</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Termina em</BiosculpterCycleTimeRemaining>
   <!-- EN: accelerated for transhumanists -->
-  <BiosculpterCycleAccelerated>TODO</BiosculpterCycleAccelerated>
+  <BiosculpterCycleAccelerated>acelerado para transhumanista</BiosculpterCycleAccelerated>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
+  <BiosculpterCycleNoPowerInterrupt>Sem energia (interrompido em {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Bio-sintonizado com</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
@@ -630,13 +630,13 @@
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Interrompe o ciclo atual. O ocupante será ejetado sem se beneficiar dos efeitos do ciclo e sofrerá de doença bioescultora de curto prazo. </BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>TODO</BiosculpterEnteringMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} vai entrar no bioescultor e iniciará o ciclo de {CYCLE}.</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
   <BiosculpterLoadingStartedMessage>{PAWN_labelShort} vai coletar {INGREDIENTS}, e inciará o ciclo de {CYCLE}.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} vai coletar {INGREDIENTS}, colocará {DOWNED_labelShort} dentro do bioescultor, e inciará o ciclo de {CYCLE}.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
-  <NumNutrition>TODO</NumNutrition>
+  <NumNutrition>{0} de nutrição</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} foi ejetado(a) de uma cápsula de bioescultura devido à falta de energia.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
@@ -650,7 +650,7 @@
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Fator de velocidade de limpeza</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>TODO</BiosculpterBiotunedSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>Fator de velocidade pela bio-tunização</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>Estas condições serão curadas</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
@@ -658,10 +658,10 @@
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Pesquisa necessária ausente</MissingRequiredResearch>
   <!-- EN: Requires -->
-  <BiosculpterRequiresIngredients>TODO</BiosculpterRequiresIngredients>
+  <BiosculpterRequiresIngredients>Requer</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
-  <OnCompletionOfCycle>TODO</OnCompletionOfCycle>
+  <OnCompletionOfCycle>Na conclusão do ciclo {CYCLE}, o seguinte ocorrerá</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
-  <BiosculpterNoCoditionsToHeal>TODO</BiosculpterNoCoditionsToHeal>
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} não tem nenhuma condição que possa ser curada por um ciclo de {CYCLE}.\n\nVocê deseja continuar?</BiosculpterNoCoditionsToHeal>
 
 </LanguageData>
