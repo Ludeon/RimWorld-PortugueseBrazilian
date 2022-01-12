@@ -1,4 +1,4 @@
-### RimWorld-PortugueseBrazilian
+# RimWorld - PT (BR)
 A Brazilian Portuguese translation for RimWorld.
 
 **LICENSE**: See **[this page](http://ludeon.com/forums/index.php?topic=2933.0)**
@@ -6,7 +6,7 @@ A Brazilian Portuguese translation for RimWorld.
 Discord (Rimworld Translation BR): https://discord.gg/JYhMBbR7v3
 ------------------------
 
-Translators:
+Tradutores:
 - [Antunes Florêncio](https://github.com/antunes1611)
 - [Arthur Silva](https://github.com/ArxdSilva)
 - [Clemente](https://github.com/ClemensXV)
