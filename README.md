@@ -13,7 +13,7 @@ Para uma melhor comunicação, acesse o servidor do Discord: [Tradução BR - Ri
 ------------------------
 
 
-### Instalação das Últimas Traduções
+### 📄 Instalação das Últimas Traduções
 
 As traduções do jogo não são atualizadas automaticamente.
 
@@ -25,7 +25,7 @@ Se deseja atualizar as traduções para as mais recentes; siga [este guia](https
 ------------------------
 
 
-### Tradutores:
+### 🧩 Tradutores:
 - Ativos:
   - [Antunes Florêncio](https://github.com/antunes1611)
   - [ElioNETO-trad](https://github.com/ElioNETO-trad)
