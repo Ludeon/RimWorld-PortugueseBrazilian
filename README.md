@@ -3,11 +3,15 @@ Esta é a tradução portuguesa brasileira do Rimworld.
 
 Confira esta página para obter informações sobre o licenciamento: **[LICENÇA](http://ludeon.com/forums/index.php?topic=2933.0)**.
 
+
 ------------------------
+
 
 Para uma melhor comunicação, acesse o servidor do Discord: [Tradução BR - Rimworld](https://discord.gg/JYhMBbR7v3)
 
+
 ------------------------
+
 
 ### Instalação das Últimas Traduções
 
@@ -17,7 +21,9 @@ Cada vez que o jogo é atualizado, a Ludeon compila os arquivos dos repositório
 
 Se deseja atualizar as traduções para as mais recentes; siga [este guia](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/.Instalação/GuiaDeInstalação.md).
 
+
 ------------------------
+
 
 ### Tradutores:
 - Ativos:
@@ -25,6 +31,7 @@ Se deseja atualizar as traduções para as mais recentes; siga [este guia](https
   - [ElioNETO-trad](https://github.com/ElioNETO-trad)
   - [João Rocha](https://github.com/KitsuneModder)
   - [LoboMetalurgico](https://github.com/LoboMetalurgico)
+
 - Colaboradores:
   - [Arthur Silva](https://github.com/ArxdSilva)
   - [Clemente](https://github.com/ClemensXV)
@@ -39,7 +46,9 @@ Se deseja atualizar as traduções para as mais recentes; siga [este guia](https
   - [Vitor Glinski](https://github.com/VitorGlinski)
   - [Willian](https://github.com/Srlimao)
 
+
 -------------------------
+
 
 ### ATENÇÃO
 - Antes de começar a traduzir, leia nosso [manual de boas práticas de tradução](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/boaspraticas.md).
