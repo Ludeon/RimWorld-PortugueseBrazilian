@@ -15,13 +15,14 @@
 - [4. Introdução ao Git](#4-introdução-ao-git);
 - [5. Configuração](#5-configuração);
 - [6. Entrando na Equipe](#6-entrando-na-equipe);
-- [7. Traduzindo](#7-traduzindo);
-- [8. Testando suas Traduções](#8-testando-suas-traduções);
-- [9. Mantendo sua fork atualizada](#9-mantendo-sua-fork-atualizada);
-- [10. Como contribuir](#10-como-contribuir);
-- [11. Atualizações do RimWorld](#11-atualizações-do-rimworld);
-- [12. Considerações](#12-considerações);
-- [13. Fim](#13-fim);
+- [7. Discord](#7-discord);
+- [8. Traduzindo](#8-traduzindo);
+- [9. Testando suas Traduções](#9-testando-suas-traduções);
+- [10. Mantendo sua fork atualizada](#10-mantendo-sua-fork-atualizada);
+- [11. Como contribuir](#11-como-contribuir);
+- [12. Atualizações do RimWorld](#12-atualizações-do-rimworld);
+- [13. Considerações](#13-considerações);
+- [14. Fim](#14-fim);
 
 -------
 <br>
