@@ -8,6 +8,7 @@
 - Agilizar;
 
 ## Sumário
+
 - [1. Introdução](#1-introdução);
 - [2. Requisitos](#2-requisitos);
 - [3. Instalação](#3-instalação);
@@ -44,7 +45,9 @@ Visto isso, podemos dar início ao nosso manual.
 ## 2. Requisitos
 
 <br>
-Essa é uma parte importante do manual. Os programas aqui listados serão usados no decorrer do manual. Sendo assim, recomendamos que utilize todos os programas listados para facilitar o entendimento dos próximos tópicos. Todos os programas usados nesse manual são gratuitos.
+Essa é uma parte importante do manual. Os programas aqui listados serão usados no decorrer do manual. Sendo assim, recomendamos que utilize todos os programas aqui listados para facilitar o entendimento dos próximos tópicos. Todos os programas aqui apresentados são gratuitos.
+
+Caso já os tenha instalado, siga ao [tópico 6](#6-entrando-na-equipe).
 <br><br>
 
 Esse tópico contém **2 sub-tópicos**:
@@ -61,6 +64,46 @@ Esse tópico contém **2 sub-tópicos**:
 
 | Programa | Descrição |
 |----------|------------|
-| **[Git for Windows](https://git-scm.com/download/win)** | O Git é um sistema de controle de versão open-source, ele é um programa de controle de versão para sistemas operacionais Windows. Ele é um programa de linha de comando, que pode ser usado para criar repositórios, adicionar e remover arquivos, e muito mais. |
-| **[VSCode](https://code.visualstudio.com/)** | O VSCode é um editor de código de código aberto, que oferece uma interface amigável e fácil de usar. Ele é rastreado por muitas máquinas e é usado para controlar a integridade dos seus códigos. |
-| **[GitHub Desktop](https://desktop.github.com/)** | GitHub Desktop é um cliente de aplicações desktop para o GitHub. É usado pela maioria dos programadores. |
+| **[Git for Windows](https://git-scm.com/download/win)** | O Git é um sistema de controle de versão código aberto. |
+| **[VSCode](https://code.visualstudio.com/)** | O Visual Studio Code (mais conhecido como VSCode) é um editor de códigos de código aberto. Oferece uma interface amigável e fácil de usar. |
+| **[GitHub Desktop](https://desktop.github.com/)** | GitHub Desktop é um cliente de aplicações desktop para o GitHub. Diferente do Git comum, possuí interface, ou seja, não é um software de linha de comando. |
+
+### 2.2 Linux
+
+***Aviso importante:** diferentemente do Windows, instalaremos os programas do Linux usando linha de comando. Sendo assim, este sub-tópico está presente apenas como uma referência.*
+
+<br>
+
+### Lista de Programas
+
+| Programa | Descrição |
+|----------|------------|
+| **[Git for Linux](https://git-scm.com/download/linux)** | O Git é um sistema de controle de versão código aberto. |
+| **[VSCode](https://code.visualstudio.com/)** | O Visual Studio Code (mais conhecido como VSCode) é um editor de códigos de código aberto. Oferece uma interface amigável e fácil de usar. |
+| **[GitHub Desktop For Linux](https://github.com/shiftkey/desktop/)** | GitHub Desktop é um cliente de aplicações desktop para o GitHub. Diferente do Git comum, possuí interface, ou seja, não é um software de linha de comando. |
+
+## 3. Instalação
+
+<br>
+Chegamos na parte 3 deste manual. Por favor, preste muita atenção neste tópico, pois ele apresenta a forma ideal de instalar os programas que serão utilizados.
+
+Caso já os tenha instalado, siga ao [tópico 6](#6-entrando-na-equipe).
+<br><br>
+
+Esse tópico contém **2 sub-tópicos** primários, cada um com outros **3 sub-tópicos** secundários:
+
+- **[3.1. Windows](#31-windows)** - Para tradutores que usam Windows.
+  - **[3.1.1. Git](#311-git)** - Guia de instalação do Git.
+  - **[3.1.2. VSCode](#312-vscode)** - Guia de instalação do Visual Studio Code.
+  - **[3.1.3. GitHub Desktop](#313-github-desktop)** - Guia de instalação do GitHub Desktop.
+- **[3.2. Linux](#32-linux)** - Para tradutores que usam Linux.
+  - **[3.2.1. Git](#321-git)** - Guia de instalação do Git.
+  - **[3.2.2. VSCode](#322-vscode)** - Guia de instalação do Visual Studio Code.
+  - **[3.2.3. GitHub Desktop](#323-github-desktop)** - Guia de instalação do GitHub Desktop.
+<br><br>
+
+### 3.1 Windows
+
+<br>
+
+#### 3.1.1 Git
