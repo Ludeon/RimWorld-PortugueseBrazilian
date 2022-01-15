@@ -2,7 +2,7 @@
 
 Esta é a tradução portuguesa brasileira do Rimworld.
 
-Confira esta página para obter informações sobre o licenciamento: **[LICENÇA](http://ludeon.com/forums/index.php?topic=2933.0)**.
+Confira esta página para obter informações sobre a licença utilizada: **[LICENÇA](http://ludeon.com/forums/index.php?topic=2933.0)**.
 
 ------------------------
 
