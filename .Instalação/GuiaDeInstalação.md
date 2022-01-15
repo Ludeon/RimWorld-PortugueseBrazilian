@@ -9,7 +9,7 @@ Da mesma forma, vai exigir um pouco de preparação e o processo irá variar lig
 3. Execute o script (Clique direito => Executar com Powershell).
 
 ### Passos para baixar o Script no Windows:
-1. Vá para o [site](https://raw.githubusercontent.com/Ludeon/RimWorld-PortugueseBrazilian/master/Install/_update.ps1).
+1. Vá a [este site](https://raw.githubusercontent.com/Ludeon/RimWorld-PortugueseBrazilian/master/Install/_update.ps1).
 2. Clique com o botão direito em qualquer lugar da página.
 3. No menu pop-up clique em "Salvar como", e salve-o com a extensão ".ps1" (_update.ps1)
 
