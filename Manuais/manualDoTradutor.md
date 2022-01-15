@@ -70,6 +70,8 @@ Esse tópico contém **2 sub-tópicos**:
 
 ### 2.2 Linux
 
+<br>
+
 ***Aviso importante:** diferentemente do Windows, instalaremos os programas do Linux usando linha de comando. Sendo assim, este sub-tópico está presente apenas como uma referência.*
 
 <br>
