@@ -29,7 +29,7 @@ Se deseja atualizar as traduções para as mais recentes; siga [este guia](https
 - Ativos:
   - [Antunes Florêncio](https://github.com/antunes1611)
   - [ElioNETO-trad](https://github.com/ElioNETO-trad)
-  - [João Rocha](https://github.com/KitsuneModder)
+  - [João Rocha (Kitsune)](https://github.com/KitsuneModder)
   - [LoboMetalurgico](https://github.com/LoboMetalurgico)
 
 - Colaboradores:
