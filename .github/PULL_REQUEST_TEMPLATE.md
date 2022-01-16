@@ -1,6 +1,6 @@
 ### **📝 Alterações Propostas:**
 <!--
-    Especifique as alterações propostas nesse pull request. Muitas vezes, as histórias nos commits não são muito descritivas, ou seja, não possuem uma explicação clara do que foi feito.
+    Especifique as alterações propostas neste pull request. 
 -->
 
 ### **📜 Requisitos:**
