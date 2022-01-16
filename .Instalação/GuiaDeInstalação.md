@@ -1,6 +1,6 @@
 # Instalação das traduções:
 Para simplificar o processo de instalação (e atualização) das traduções, alguns scripts serão usados ​​para automatizar a tarefa.
-Da mesma forma, vai exigir um pouco de preparação e o processo irá variar ligeiramente dependendo do sistema operacional que usar.
+Da mesma forma, exigirá um pouco de preparação e o processo variará ligeiramente dependendo do sistema operacional que usar.
 
 ## Windows:
 ### Passos para atualizar as traduções:

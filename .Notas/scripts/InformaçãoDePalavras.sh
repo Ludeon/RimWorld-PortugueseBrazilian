@@ -1,23 +1,19 @@
 ﻿#!/usr/bin/env bash
 
-########################################
-# Fonctions
-########################################
-# Elles permettent surtout de rendre le script plus lisible
-
-# Supprime BOM, commentaires et lignes vides du flux
+# .FUNÇÕES
+# Remove estrutura de produtos, comentários e linhas vazias do feed.
 clean() { sed -e 's/\xEF\xBB\xBF/\n/' | grep -av '^//' | grep -avE '^[[:space:]]*$' ; }
 
-# Supprime du flux les lignes présentes dans le fichier passé en 1er argument
+# Remove do fluxo as linhas encontradas no arquivo passado como 1º argumento.
 exclude() { grep -avxFf "$1" ; }
 
-# Ne conserve du flux que les lignes présentes dans le fichier passé en 1er argument
+# Mantém no fluxo apenas as linhas encontradas no arquivo passado como 1º argumento.
 intersect() { grep -axFf "$1" ; }
 
-# Supprime les doublons du flux
+# Remove as linhas duplicadas do feed.
 unique() { sort --unique ; }
 
-# Extrait du flux le contenu des tags utilisés par le système de traduction
+# Extrai do feed o conteúdo das etiquetas usadas pelo sistema de tradução.
 extract_tag_content() {
   grep -aE '\.(label|labelMale|labelMalePlural|labelFemale|labelFemalePlural|pawnSingular|pawnsPlural|customLabel)>' \
   | sed 's/^.*>\([^<]*\)<.*$/\1/' ;
@@ -26,69 +22,64 @@ extract_tag_content() {
 extract_tag_male_content() { grep -aE '\.(labelMale|labelMalePlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
 extract_tag_female_content() { grep -aE '\.(labelFemale|labelFemalePlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
 extract_tag_plural_content() { grep -aE '\.(labelMalePlural|labelFemalePlural|pawnsPlural)>' | sed 's/^.*>\([^<]*\)<.*$/\1/' ; }
-
-# HediffDef : Currently, labelNoun are defined as
-#   <...labelNoun>un xxx</...labelNoun> or <...labelNoun>une yyy</...labelNoun>
 extract_tag_noun_content() { grep -aE '\.(labelNoun)>[uU]n' | sed 's/^[^>]*>[uU]ne* \([^<]*\)<.*$/\1/' ; }
 extract_tag_noun_male_content() { grep -aE '\.(labelNoun)>[uU]n ' | sed 's/^[^>]*>[uU]n \([^<]*\)<.*$/\1/' ; }
 extract_tag_noun_female_content() { grep -aE '\.(labelNoun)>[uU]ne ' | sed 's/^[^>]*>[uU]ne \([^<]*\)<.*$/\1/' ; }
 extract_tag_noun_plural_content() { grep -aE '\.(labelNoun)>[dD]es ' | sed 's/^[^>]*>[dD]es \([^<]*\)<.*$/\1/' ; }
 extract_tag_tools_content() { grep -aE '\.tools[^>]*\.(label)>' | sed 's/^[^>]*>\([^<]*\)<.*$/\1/' ; }
 
-# Passe tout en minuscule
+# Converte tudo em minúsculo.
 to_lowercase() { PERLIO=:utf8 perl -ne 'print lc $_' ;  }
 
-########################################
-# Début du script
-########################################
+
+# .SCRIPT
 set -ex
 
-# Va à la racine du projet
+# Destina-se à raiz do projeto.
 cd $(dirname $(readlink -f $0))/../..
 
-# Créer un répertoire de travail et s'assure qu'il soit supprimé à la fin
+# Cria um diretório e certifica-se de que ele seja excluído no final.
 WORKDIR=$(mktemp -d)
 trap "rm -rf $WORKDIR" EXIT
 
-# Force la langue pour les outils qui en tiennent compte
+# Força a linguagem para ferramentas que a levam em consideração.
 export LANG=fr_FR.UTF-8 LC_ALL=fr_FR.UTF-8
 
-# Liste des tags provenant du XML
+# Lista as etiquetas do XML.
 cat */DefInjected/{PawnKind,Faction,SitePart,Thing,WorldObject,GameCondition}Def/*.xml | extract_tag_content | to_lowercase | unique > $WORKDIR/all
 cat */DefInjected/{Body,BodyPart}Def/*.xml | extract_tag_content | to_lowercase | unique >> $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_content | to_lowercase | unique >> $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> $WORKDIR/all
 cat */DefInjected/HediffDef/*.xml | extract_tag_tools_content | to_lowercase | unique >> $WORKDIR/all
 
-# Ajouter labelMale* dans WordInfo/Gender/Male.txt
+# Adiciona 'labelMale*' em 'WordInfo/Gender/Male.txt'.
 cat */WordInfo/Gender/Male.txt > $WORKDIR/all_males.txt
 cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_male_content >> $WORKDIR/all_males.txt
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_male_content >> $WORKDIR/all_males.txt
 cat $WORKDIR/all_males.txt | to_lowercase | unique > Core/WordInfo/Gender/Male.txt
 
-# Ajouter labelFemale* dans WordInfo/Gender/Female.txt
+# Adiciona 'labelFemale*' em 'WordInfo/Gender/Female.txt'.
 cat */WordInfo/Gender/Female.txt > $WORKDIR/all_females.txt
 cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_female_content >> $WORKDIR/all_females.txt
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_female_content >> $WORKDIR/all_females.txt
 cat $WORKDIR/all_females.txt | to_lowercase | unique > Core/WordInfo/Gender/Female.txt
 
-# Ajouter label*Plural dans WordInfo/Gender/Plural.txt
+# Adiciona 'label*Plural' em 'WordInfo/Gender/Plural.txt'.
 cat */WordInfo/Gender/Plural.txt > $WORKDIR/all_plurals.txt
 cat */DefInjected/{PawnKind,Faction,Thing,WorldObject}Def/*.xml | extract_tag_plural_content >> $WORKDIR/all_plurals.txt
 cat */DefInjected/HediffDef/*.xml | extract_tag_noun_plural_content | to_lowercase | unique >> $WORKDIR/all_plurals.txt
 cat $WORKDIR/all_plurals.txt | to_lowercase | unique > Core/WordInfo/Gender/Plural.txt
 
-# Liste des mots déjà classés par genre
+# Lista as palavras classificadas por gênero.
 cat Core/WordInfo/Gender/{Male,Female}.txt | unique > $WORKDIR/wordinfo
 
-# Ajouter les mots au singulier dans WordInfo/Gender/Singular.txt
-# (pour le test de Pluralize)
+# Adiciona palavras no singular em 'WordInfo/Gender/Singular.txt'.
 exclude Core/WordInfo/Gender/Plural.txt < $WORKDIR/all | unique > Core/WordInfo/Gender/Singular.txt
 
-# Ajoute les nouveaux mots dans WordInfo/Gender/new_words.txt
+# Adiciona novas palavras em 'WordInfo/Gender/new_words.txt'.
 exclude $WORKDIR/wordinfo < $WORKDIR/all | unique > Core/WordInfo/Gender/new_words.txt
 
-# Supprime les mots obsolètes des fichiers WordInfo/Gender/{Male,Female}.txt
+# Remove palavras obsoletas dos arquivos 'WordInfo/Gender/{Male,Female}.txt'.
 for GENDER in Male Female; do
   intersect $WORKDIR/all < Core/WordInfo/Gender/$GENDER.txt > $WORKDIR/$GENDER.txt
   mv $WORKDIR/$GENDER.txt Core/WordInfo/Gender/$GENDER.txt

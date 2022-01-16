@@ -1,17 +1,17 @@
 ---
-name: "🐛 Encontrei um Bug"
-about: "Reporte um bug para que possamos corrigi-lo e melhorar a tradução."
+name: "😵 Encontrei um Erro"
+about: "Reporte um erro para que possamos corrigi-lo e melhorar a tradução."
 title: ""
-labels: "Tipo: Bug"
+labels: "Tipo: Erro"
 assignees: ""
 
 ---
 
-# 🐛 Encontrei um Bug
+# 😵 Encontrei um Erro
 <!-- 
-    Por favor, verifique se o bug já não foi reportado antes e se já não foi corrigido em nossa brach "master".
+    Por favor, verifique se o erro já não foi reportado e se já não foi corrigido em nossa branch "master".
 
-    Esse template é útil, porém podem ser necessários alguns ajustes para que fique de a cordo com a sua necessidade.
+    Este modelo é útil, porém podem ser necessários alguns ajustes para que fique de acordo com sua necessidade.
 
     Sinta-se livre para fazer perguntas ou iniciar uma discussão.
 -->
@@ -28,29 +28,29 @@ assignees: ""
     Abaixo estará um exemplo de como esperamos que essa parte seja preenchida.
 -->
 
-1. Acesse o menu principal
-2. Acesse a aba "..."
-3. Clique em "..."
-4. Veja o erro
+1. Acesse o menu principal;
+2. Acesse a aba "...";
+3. Clique em "...";
+4. Veja o erro.
 
 
 ### ✔️ Comportamento Esperado
 <!--
-    Essa é uma parte opcional, mas é útil para que possamos corrigir o problema mais rapidamente.
+    Esta parte é opcional, mas é útil para que possamos corrigir o problema mais rapidamente.
 
     Escreva aqui o que você esperava que acontecesse.
 -->
 
 ### ❌ Comportamento Obtido
 <!---
-    Essa é uma parte opcional, mas é útil para que possamos identificar o problema mais rapidamente.
+    Esta parte é opcional, mas é útil para que possamos identificar o problema mais rapidamente.
 
     Escreva aqui o que acontece atualmente.
 -->
 
-### 📜 Informações de Debug
+### 📜 Informações de Depuração
 <!--
-    Escreva aqui sua versão do jogo e se está usando a tradução nativa.
+    Escreva aqui a versão do jogo corrente e a naturalidade da tradução.
 
     Abaixo está um exemplo de como esperamos que essa parte seja preenchida.
 -->
@@ -58,9 +58,11 @@ assignees: ""
 * ✍️ Versão do RimWorld:
 * ✍️ Está usando a tradução nativa?:
 
-### 🆘 Crash Report
+### 🆘 Relatório de Crash
 <!--
-    Não é impossível que tenha algo errado em nossos xml que passou batido pela nossa equipe e resulte em uma tela com erros em vermelho. Verifique se eles estão realmente ligados às traduções e coloque-os aqui se existirem.
+    Não é impossível que tenha algo errado em nossos xml que passou batido pela nossa equipe e resulte em uma tela com erros em vermelho. 
+    
+    Verifique se os erros estão realmente ligados às traduções e reporte-os aqui.
 -->
 
 ### 💬 Comentários Adicionais

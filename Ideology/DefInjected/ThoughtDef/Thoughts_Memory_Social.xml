@@ -1,38 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-
-  <!-- EN: will diminished -->
-  <WillDiminished.stages.0.label>vai diminuir</WillDiminished.stages.0.label>
-
-  <!-- EN: failed to convert {0} -->
-  <FailedConvertAbilityInitiator.stages.0.label>falhou em converter {0}</FailedConvertAbilityInitiator.stages.0.label>
-  <!-- EN: I tried to convert someone and it didn't work out. Awkward. -->
-  <FailedConvertAbilityInitiator.stages.0.description>Tentei converter alguém e não deu certo. Vergonhoso.</FailedConvertAbilityInitiator.stages.0.description>
-
-  <!-- EN: {0} tried to convert me -->
-  <FailedConvertAbilityRecipient.stages.0.label>{0} tentou me converter</FailedConvertAbilityRecipient.stages.0.label>
-  <!-- EN: Someone tried to convert me. I wish they'd just leave me alone. -->
-  <FailedConvertAbilityRecipient.stages.0.description>Alguém tentou me converter. Eu gostaria que eles simplesmente me deixassem em paz.</FailedConvertAbilityRecipient.stages.0.description>
-
-  <!-- EN: counselled by {0} -->
-  <Counselled.stages.0.label>aconselhado por {0}</Counselled.stages.0.label>
-  <!-- EN: I received counseling about something that's been bothering me. -->
-  <Counselled.stages.0.description>Recebi aconselhamento sobre algo que está me incomodando.</Counselled.stages.0.description>
-
+  
   <!-- EN: failed consolation by {0} -->
-  <CounselFailed.stages.0.label>desmotivado por {0}</CounselFailed.stages.0.label>
+  <CounselFailed.stages.failed_consolation_by.label>desmotivado por {0}</CounselFailed.stages.failed_consolation_by.label>
   <!-- EN: Somehow, that attempt at helping made things even worse. -->
-  <CounselFailed.stages.0.description>De alguma forma, essa tentativa de ajudar tornou as coisas ainda piores.</CounselFailed.stages.0.description>
-
+  <CounselFailed.stages.failed_consolation_by.description>De alguma forma, essa tentativa de ajudar tornou as coisas ainda piores.</CounselFailed.stages.failed_consolation_by.description>
+  
   <!-- EN: counselled by {0} -->
-  <Counselled_MoodBoost.stages.0.label>aconselhado por {0}</Counselled_MoodBoost.stages.0.label>
+  <Counselled.stages.counselled_by.label>aconselhado por {0}</Counselled.stages.counselled_by.label>
+  <!-- EN: I received counseling about something that's been bothering me. -->
+  <Counselled.stages.counselled_by.description>Recebi aconselhamento sobre algo que está me incomodando.</Counselled.stages.counselled_by.description>
+  
+  <!-- EN: counselled by {0} -->
+  <Counselled_MoodBoost.stages.counselled_by.label>aconselhado por {0}</Counselled_MoodBoost.stages.counselled_by.label>
   <!-- EN: I received counseling from someone. It felt nice to be listened to. -->
-  <Counselled_MoodBoost.stages.0.description>Recebi aconselhamento de alguém. Era bom ser ouvido.</Counselled_MoodBoost.stages.0.description>
-
+  <Counselled_MoodBoost.stages.counselled_by.description>Recebi aconselhamento de alguém. Era bom ser ouvido.</Counselled_MoodBoost.stages.counselled_by.description>
+  
+  <!-- EN: failed to convert {0} -->
+  <FailedConvertAbilityInitiator.stages.failed_to_convert.label>falhou em converter {0}</FailedConvertAbilityInitiator.stages.failed_to_convert.label>
+  <!-- EN: I tried to convert someone and it didn't work out. Awkward. -->
+  <FailedConvertAbilityInitiator.stages.failed_to_convert.description>Tentei converter alguém e não deu certo. Vergonhoso.</FailedConvertAbilityInitiator.stages.failed_to_convert.description>
+  
+  <!-- EN: {0} tried to convert me -->
+  <FailedConvertAbilityRecipient.stages.tried_to_convert_me.label>{0} tentou me converter</FailedConvertAbilityRecipient.stages.tried_to_convert_me.label>
+  <!-- EN: Someone tried to convert me. I wish they'd just leave me alone. -->
+  <FailedConvertAbilityRecipient.stages.tried_to_convert_me.description>Alguém tentou me converter. Eu gostaria que eles simplesmente me deixassem em paz.</FailedConvertAbilityRecipient.stages.tried_to_convert_me.description>
+  
   <!-- EN: tended by {0} -->
-  <TendedByMedicalSpecialist.stages.0.label>atendido por {0}</TendedByMedicalSpecialist.stages.0.label>
+  <TendedByMedicalSpecialist.stages.tended_by.label>atendido por {0}</TendedByMedicalSpecialist.stages.tended_by.label>
   <!-- EN: I received medical aid from one who carries the special healer status of my ideoligion. -->
-  <TendedByMedicalSpecialist.stages.0.description>Recebi ajuda médica de alguém que carrega o status de curandeiro especial da minha ideologia.</TendedByMedicalSpecialist.stages.0.description>
-
+  <TendedByMedicalSpecialist.stages.tended_by.description>Recebi ajuda médica de alguém que carrega o status de curandeiro especial da minha ideologia.</TendedByMedicalSpecialist.stages.tended_by.description>
+  
+  <!-- EN: will diminished -->
+  <WillDiminished.stages.will_diminished.label>vai diminuir</WillDiminished.stages.will_diminished.label>
+  
 </LanguageData>

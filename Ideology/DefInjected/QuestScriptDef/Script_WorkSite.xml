@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-    <!-- EN:
-        <li>questName->[site_label] [detected]</li>
-        <li>detected->detected</li>
-        <li>detected->discovered</li>
-        <li>detected->nearby</li>
-        <li>detected->found</li>
-        <li>detected->identified</li>
-        <li>detected->noticed</li>
-        <li>detected->observed</li>
-        <li>detected->revealed</li>
-        <li>detected->uncovered</li>
-    -->
-    <OpportunitySite_WorkSite.questNameRules.rulesStrings>
-        <li>questName->[site_label] [detected]</li>
-        <li>detected->detectado</li>
-        <li>detected->descoberto</li>
-        <li>detected->próximo</li>
-        <li>detected->encontrado</li>
-        <li>detected->identificado</li>
-        <li>detected->percebido</li>
-        <li>detected->observado</li>
-        <li>detected->revelado</li>
-    </OpportunitySite_WorkSite.questNameRules.rulesStrings>
-    <!-- EN:
-        <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
-        <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
-        <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
-    -->
-    <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-        <li>questDescription->Você detectou um [siteLabel] próximo controlado por [faction_name].\n\nSe desejar, você pode invadir o acampamento para coletar itens ([loot]). [raidConsequences]\n\nO acampamento vai fazer as malas e seguir em frente em [timeout_duration].</li>
-        <li>raidConsequences(faction_temporary==false)->Se isso fizer, [faction_name] vai se tornar hostil.</li>
-        <li>raidConsequences(faction_temporary==true)->Como [faction_name] é apenas um grupo pequeno e independente, você pode atacá-los sem quaisquer consequências diplomáticas mais amplas.</li>
-    </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-
+  
+  <!-- EN:
+    <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
+    <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
+  -->
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->Você detectou um [siteLabel] próximo controlado por [faction_name].\n\nSe desejar, você pode invadir o acampamento para coletar itens ([loot]). [raidConsequences]\n\nO acampamento vai fazer as malas e seguir em frente em [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->Se isso fizer, [faction_name] vai se tornar hostil.</li>
+    <li>raidConsequences(faction_temporary==true)->Como [faction_name] é apenas um grupo pequeno e independente, você pode atacá-los sem quaisquer consequências diplomáticas mais amplas.</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[site_label] [detected]</li>
+    <li>detected->detected</li>
+    <li>detected->discovered</li>
+    <li>detected->nearby</li>
+    <li>detected->found</li>
+    <li>detected->identified</li>
+    <li>detected->noticed</li>
+    <li>detected->observed</li>
+    <li>detected->revealed</li>
+    <li>detected->uncovered</li>
+  -->
+  <OpportunitySite_WorkSite.questNameRules.rulesStrings>
+    <li>questName->[site_label] [detected]</li>
+    <li>detected->detectado</li>
+    <li>detected->descoberto</li>
+    <li>detected->próximo</li>
+    <li>detected->encontrado</li>
+    <li>detected->identificado</li>
+    <li>detected->percebido</li>
+    <li>detected->observado</li>
+    <li>detected->revelado</li>
+  </OpportunitySite_WorkSite.questNameRules.rulesStrings>
+  
 </LanguageData>
