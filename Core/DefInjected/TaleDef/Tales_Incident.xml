@@ -237,13 +237,19 @@
     <li>image->[PAWN_nameFull] inspecionando um [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] chamando um [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] caminhando em direção a um [PersonJob] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] falando baixinho [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] susurrando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] gritando em voz alta [circumstance_group]</li>
     <li>image->[PAWN_nameFull] jogando [Game] com um(a) [PersonJob] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] cumprimentando um [PersonJob] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] inspecionando um [PersonJob] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] chamando um [PersonJob] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] caminhando em direção a um [PersonJob] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] susurrando [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] gritando em voz alta [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] jogando [Game] com um(a) [PersonJob] [circumstance_group]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveFriendly]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveFriendly]</li>
-    <li>circumstance_phrase->enquanto [VerbFriendly]</li>
-    <li>circumstance_phrase->como os outros olham</li>
+    <li>circumstance_phrase->enquanto outros o(a) olha</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]ssão [event].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]ssão [event].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s cercam o grupo.</li>
@@ -278,14 +284,18 @@
   -->
   <Eclipse.rulePack.rulesStrings>
     <li>tale_noun->um eclipse sobre [Community] de [PAWN_nameDef]</li>
-    <li>imagem->um céu anormalmente escuro, [circumstance_phrase]</li>
-    <li>imagem->um céu crepuscular, [circumstance_phrase]</li>
-    <li>imagem->uma lua, cercada por um leve raio de sol, [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal] está circulando incerto na escuridão, [circumstance_phrase]</li>
-    <li>circumstance_phrase->o ar parado e quieto</li>
-    <li>circumstance_phrase->crepúsculo cobrindo um [TerrainFeature] próximo</li>
-    <li>circumstance_phrase->cobertura de crepúsculo [Quantity_adjphrase] nas proximidades [TerrainFeature]s</li>
-    <li>circumstance_phrase->com estrelas visíveis</li>
+    <li>image->o céu anormalmente escuro, [circumstance_phrase]</li>
+    <li>image->o céu crepuscular, [circumstance_phrase]</li>
+    <li>image->a lua, cercada por um leve raio de sol, [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Animal]s circulando na escuridão, [circumstance_phrase]</li>
+    <li>imageD->o céu anormalmente escuro, [circumstance_phrase]</li>
+    <li>imageD->o céu crepuscular, [circumstance_phrase]</li>
+    <li>imageD->a lua, cercada por um leve raio de sol, [circumstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] [Animal]s circulando na escuridão, [circumstance_phrase]</li>
+    <li>circumstance_phrase->enquanto o ar está parado e quieto</li>
+    <li>circumstance_phrase->enquanto o crepúsculo cobre um(a) [TerrainFeature] próximo(a)</li>
+    <li>circumstance_phrase->enquanto a cobertura de crepúsculo engole [Quantity_adjphrase] [TerrainFeature]s</li>
+    <li>circumstance_phrase->enquanto estrelas brilham</li>
     <li>desc_sentence->Abaixo, [PAWN_nameDef] reproduz [Game] com uma aparência [AdjectiveFriendly].</li>
     <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_objective].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] é visto de baixo.</li>
@@ -328,25 +338,31 @@
   <EndGame_ShipEscape.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] recebendo uma mensagem de um antigo amigo</li>
     <li>tale_noun->uma oportunidade chegando para [PAWN_nameDef] [Community]</li>
-    <li>image->[PAWN_nameDef] abre uma carta entregue por [delivery_method] enquanto [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] usando um datacristal fornecido por [delivery_method], enquanto [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] abrindo uma carta entregue por [delivery_method] enquanto [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] usando um datacristal fornecido por [delivery_method] enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameDef] desenrolando um pergaminho entregue por [delivery_method] enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameDef] recebendo uma transmissão de [transmission_source] enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameDef] recebendo uma mensagem de [transmission_source] enquanto [circumstance_group]</li>
-    <li>image->[PAWN_nameDef]sintonizando uma mensagem de [transmission_source] enquanto [circumstance_group]</li>
-    <li>delivery_method->a [Animal]</li>
-    <li>delivery_method->a [PersonJob]</li>
+    <li>image->[PAWN_nameDef ]sintonizando uma mensagem de [transmission_source] enquanto [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameDef] abrindo uma carta entregue por [delivery_method] enquanto [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameDef] usando um datacristal fornecido por [delivery_method] enquanto [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameDef] desenrolando um pergaminho entregue por [delivery_method] enquanto [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameDef] recebendo uma transmissão de [transmission_source] enquanto [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameDef] recebendo uma mensagem de [transmission_source] enquanto [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameDef ]sintonizando uma mensagem de [transmission_source] enquanto [circumstance_group]</li>
+    <li>delivery_method->um(a) [Animal]</li>
+    <li>delivery_method->um [PersonJob]</li>
     <li>delivery_method->[Quantity_adjphrase] [Animal]s</li>
     <li>transmission_source->uma frequência raramente usada</li>
     <li>transmission_source->um antigo transmissor</li>
     <li>transmission_source->um sinal de baixa potência</li>
     <li>transmission_source->um sinal de longo alcance</li>
     <li>transmission_source->um sinal misterioso</li>
-    <li>circumstance_phrase->sozinho perto de um [TerrainFeature]</li>
-    <li>circumstance_phrase->explorando um [TerrainFeature]</li>
-    <li>circumstance_phrase->tendendo a colheitas</li>
-    <li>circumstance_phrase->um [Animal] passa por aqui</li>
-    <li>circumstance_phrase->jogando [Jogo]</li>
+    <li>circumstance_phrase->descansa perto de um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->explora um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->colhe uma plantação</li>
+    <li>circumstance_phrase->observa um [Animal] vagando</li>
+    <li>circumstance_phrase->joga [Jogo]</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] está perambulando por perto, sem saber.</li>
     <li>desc_sentence->Quando [PAWN_pronoun] lê, [PAWN_pronoun] começa a [VerbFriendly]r.</li>
     <li>desc_sentence->Um espectral [PersonJob] assiste das nuvens.</li>
@@ -382,18 +398,20 @@
   <Flashstorm.rulePack.rulesStrings>
     <li>tale_noun->uma tempestade de raios que ameaçou a comunidade [PAWN_nameDef]</li>
     <li>tale_noun->[PAWN_nameDef] [Community]sendo ameaçada por uma tempestade de raios mortal</li>
-    <li>image->[Quantity_adjphrase] relâmpago [circunstance_phrase]</li>
-    <li>imagem->[comportamento] parede de chamas [circumstance_phrase]</li>
-    <li>imagem->[comportamento] parede de [Cor] chamas [circunstance_phrase]</li>
-    <li>imagem->[comportamento] nuvem de cinzas e fumaça [circumstance_phrase]</li>
-    <li>imagem->[comportamento] onda de chamas [circunstance_phrase]</li>
-    <li>comportamento->um</li>
-    <li>comportamento->um avanço</li>
-    <li>comportamento->uma aproximação</li>
-    <li>circumstance_phrase->avançando para uma [Community]</li>
+    <li>image->[Quantity_adjphrase] relâmpagos [circunstance_phrase]</li>
+    <li>image->uma parede de chamas [circumstance_phrase]</li>
+    <li>image->uma parede de chamas de cor [Color] [circunstance_phrase]</li>
+    <li>image->uma nuvem de cinzas e fumaça [circumstance_phrase]</li>
+    <li>image->uma onda de chamas [circunstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] relâmpagos [circunstance_phrase]</li>
+    <li>imageD->e uma parede de chamas [circumstance_phrase]</li>
+    <li>imageD->e uma parede de chamas de cor [Color] [circunstance_phrase]</li>
+    <li>imageD->e uma nuvem de cinzas e fumaça [circumstance_phrase]</li>
+    <li>imageD->e uma onda de chamas [circunstance_phrase]</li>
+    <li>circumstance_phrase->avançando sobre um(a) [Community]</li>
     <li>circumstance_phrase->debaixo de uma nuvem intimidadora</li>
-    <li>circumstance_phrase->quase envolvendo um [TerrainFeature]</li>
-    <li>circumstance_phrase->quase envolvendo [Quantity_adjphrase] [TerrainFeature]s</li>
+    <li>circumstance_phrase->envolvendo um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->envolvendo [Quantity_adjphrase] [TerrainFeature]s</li>
     <li>desc_sentence->[PAWN_nameDef] assiste com medo visível.</li>
     <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_nameDef] está coordenando medidas defensivas.</li>
@@ -428,15 +446,19 @@
   -->
   <Infestation.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] s [Community]sendo infestada por insetos gigantes</li>
-    <li>imagem->um enxame de besouros [circunstance_phrase]</li>
-    <li>imagem->[Quantity_adjphrase] megaspiders [circumstance_phrase]</li>
-    <li>imagem->uma maré avassaladora de insetos [Color] [circumstance_phrase]</li>
-    <li>imagem->um nevoeiro denso de pontos pretos [circumstance_phrase]</li>
-    <li>circumstance_phrase->avançando sobre um [TerrainFeature]</li>
-    <li>circumstance_phrase->envolvendo completamente uma [Community]</li>
+    <li>image->um enxame de insectoides [circunstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] megaranhas [circumstance_phrase]</li>
+    <li>image->uma maré avassaladora de insetos de cor [Color] [circumstance_phrase]</li>
+    <li>image->um nevoeiro denso de pontos pretos [circumstance_phrase]</li>
+    <li>imageD->e um enxame de insectoides [circunstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] megaranhas [circumstance_phrase]</li>
+    <li>imageD->e uma maré avassaladora de insetos de cor [Color] [circumstance_phrase]</li>
+    <li>imageD->e um nevoeiro denso de pontos pretos [circumstance_phrase]</li>
+    <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->envolvendo completamente um(a) [Community]</li>
     <li>circumstance_phrase->atacando [Quantity_adjphrase] [PersonJob]s</li>
-    <li>circumstance_phrase->explodindo do chão</li>
-    <li>circumstance_phrase->abate [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase->emergindo do chão</li>
+    <li>circumstance_phrase->abatendo [Quantity_adjphrase] [Animal]s</li>
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência.</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente.</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
@@ -482,19 +504,19 @@
     <li>tale_noun->bestas caçadoras ameaçando a [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->[Community] de [PAWN_nameDef] sendo atacada por animais loucos</li>
     <li>image->um rebanho de [Animal]s [circumstance_phrase]</li>
-    <li>imagem->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
-    <li>image->a [enorme] [Animal] [circunstancia_frase]</li>
+    <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
+    <li>image->um(a) [Animal] [huge] [circunstancia_frase]</li>
     <li>image->[Quantity_adjphrase] figuras sombrias [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] quadrúpedes sombrios [circunstance_phrase]</li>
-    <li>circumstance_phrase->avançando sobre um [TerrainFeature]</li>
-    <li>circumstance_phrase->envolvendo completamente uma [Community]</li>
+    <li>imageD->e um rebanho de [Animal]s [circumstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
+    <li>imageD->e um(a) [Animal] [huge] [circunstancia_frase]</li>
+    <li>imageD->e [Quantity_adjphrase] figuras sombrias [circumstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] quadrúpedes sombrios [circunstance_phrase]</li>
+    <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->envolvendo completamente um(a) [Community]</li>
     <li>circumstance_phrase->atacando [Quantity_adjphrase] [PersonJob]s</li>
-    <li>circumstance_phrase->abate [Quantity_adjphrase] [Animal]s</li>
-    <li>circumstance_phrase->possuída por [hate_emotion]</li>
-    <li>circumstance_phrase->coberto em [Gore]</li>
-    <li>hate_emotion->ódio</li>
-    <li>hate_emotion->raiva</li>
-    <li>hate_emotion->fúria</li>
+    <li>circumstance_phrase->abatendo [Quantity_adjphrase] [Animal]s</li>
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência.</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente.</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
@@ -536,20 +558,26 @@
   <MeteoriteImpact.rulePack.rulesStrings>
     <li>tale_noun->um meteorito caindo perto da [PAWN_nameDef] [Community]</li>
     <li>tale_noun->um meteorito impactando perto da [PAWN_nameDef] [Community]</li>
-    <li>image->um [AdjectiveLarge] meteoro em chamas [airborne_circumstance]</li>
-    <li>imagem->um ponto brilhante [airborne_circumstance]</li>
-    <li>image->uma [AdjectiveLarge] bola de fogo [Color] [airborne_circumstance]</li>
-    <li>airborne_circumstance->resplandecente no céu</li>
-    <li>airborne_circumstance->caindo no solo em uma nuvem de cinzas</li>
-    <li>airborne_circumstance->soltando rochas e detritos à medida que voa</li>
-    <li>image->um [AdjectiveLarge] monólito, [ground_circumstance]</li>
-    <li>image->um [AdjectiveLarge] meteoro cor [Color], [ground_circumstance]</li>
-    <li>imagem->um pilar de rocha, [ground_circumstance]</li>
+    <li>image->um meteoro [AdjectiveLarge] em chamas [airborne_circumstance]</li>
+    <li>image->um ponto brilhante [airborne_circumstance]</li>
+    <li>image->uma bola [AdjectiveLarge] de fogo [Color] [airborne_circumstance]</li>
+    <li>imageD->e um meteoro [AdjectiveLarge] em chamas [airborne_circumstance]</li>
+    <li>imageD->e um ponto brilhante [airborne_circumstance]</li>
+    <li>imageD->e uma bola [AdjectiveLarge] de fogo [Color] [airborne_circumstance]</li>
+    <li>airborne_circumstance->resplandecendo no céu</li>
+    <li>airborne_circumstance->ruindo ao solo em uma nuvem de cinzas</li>
+    <li>airborne_circumstance->derrubando rochas e detritos à medida que voa</li>
+    <li>image->um monólito [AdjectiveLarge] [ground_circumstance]</li>
+    <li>image->um meteoro [AdjectiveLarge] de cor [Color] [ground_circumstance]</li>
+    <li>image->um pilar de rocha [ground_circumstance]</li>
+    <li>imageD->e um monólito [AdjectiveLarge] [ground_circumstance]</li>
+    <li>imageD->e um meteoro [AdjectiveLarge] de cor [Color] [ground_circumstance]</li>
+    <li>imageD->e um pilar de rocha [ground_circumstance]</li>
     <li>ground_circumstance->cercado por fumaça e cinzas</li>
     <li>ground_circumstance->fumegante</li>
-    <li>ground_circumstance->rodeada por detritos fundidos</li>
+    <li>ground_circumstance->rodeado por detritos fundidos</li>
     <li>ground_circumstance->parcialmente incrustado ao solo</li>
-    <li>ground_circumstance->encontra-se em uma cratera rachada</li>
+    <li>ground_circumstance->em uma cratera</li>
     <li>desc_sentence->[PAWN_nameDef] observa surpreso.</li>
     <li>desc_sentence->[PAWN_nameDef] observa com empolgação.</li>
     <li>desc_sentence->[PAWN_nameDef] observa em estado de choque.</li>
@@ -596,18 +624,23 @@
     <li>tale_noun->um raid na [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->um assalto à [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->[PAWN_nameDef] [Community]sendo atacada por [Enemy]s</li>
-    <li>imagem->[Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
     <li>image->um exército [circumstance_phrase]</li>
-    <li>imagem->uma força avassaladora [circumstance_phrase]</li>
-    <li>imagem->uma força invasora [circumstance_phrase]</li>
-    <li>imagem->banners [Cor] estilizados [circunstance_phrase]</li>
-    <li>image->um enorme [Enemy] [circumstance_phrase]</li>
-    <li>circumstance_phrase->avançando sobre um [TerrainFeature]</li>
-    <li>circumstance_phrase->envolvendo completamente uma [Community]</li>
+    <li>image->uma força avassaladora [circumstance_phrase]</li>
+    <li>image->uma força invasora [circumstance_phrase]</li>
+    <li>image->um estandarte [Color] [circunstance_phrase]</li>
+    <li>image->um(a) enorme [Enemy] [circumstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
+    <li>imageD->e um exército [circumstance_phrase]</li>
+    <li>imageD->e uma força avassaladora [circumstance_phrase]</li>
+    <li>imageD->e uma força invasora [circumstance_phrase]</li>
+    <li>imageD->e um estandarte [Color] [circunstance_phrase]</li>
+    <li>imageD->e um(a) enorme [Enemy] [circumstance_phrase]</li>
+    <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->envolvendo completamente um(a) [Community]</li>
     <li>circumstance_phrase->atacando [Quantity_adjphrase] [PersonJob]s</li>
-    <li>circunstance_phrase->rugindo na vitória</li>
+    <li>circunstance_phrase->rugindo a vitória</li>
     <li>circunstance_phrase->brandindo [Weapon]s</li>
-    <li>circumstance_phrase->coberto em [Gore]</li>
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
@@ -619,7 +652,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] foge da área.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s foge da área.</li>
     <li>defender_circumstance->gritando triunfalmente</li>
-    <li>defender_circumstance->brilhante [Cor]</li>
+    <li>defender_circumstance->brilhante [Color]</li>
     <li>defender_circumstance->levantando o punho em desafio</li>
     <li>defender_circumstance->flexionando seus músculos</li>
   </Raid.rulePack.rulesStrings>
@@ -662,18 +695,24 @@
     <li>tale_noun->uma parte antiga de uma nave caindo perto de da [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->uma parte antiga de uma nave aterrissando perto da [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->uma parte danificada de nave aterrissando perto da [Community] de [PAWN_nameDef]</li>
-    <li>imagem->um enxame de [Mechanoid]s [circumstance_phrase]</li>
+    <li>image->um enxame de [Mechanoid]s [circumstance_phrase]</li>
     <li>image->um exército de [Mechanoid]s [circumstance_phrase]</li>
-    <li>imagem->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
-    <li>imagem->um [enorme] [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid]silhuetas [circunstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid]s com sensores brilhantes [Color] [circumstance_phrase]</li>
-    <li>circumstance_phrase->avançando sobre um [TerrainFeature]</li>
-    <li>circumstance_phrase->envolvendo completamente uma [Community]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
+    <li>image->um(a) [enorme] [Mechanoid] [circumstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] silhuetas de [Mechanoid]s [circunstance_phrase]</li>
+    <li>image->[Quantity_adjphrase] [Mechanoid]s com sensores brilhantes de cor [Color] [circumstance_phrase]</li>
+    <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
+    <li>imageD->e um enxame de [Mechanoid]s [circumstance_phrase]</li>
+    <li>imageD->e um exército de [Mechanoid]s [circumstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
+    <li>imageD->e um(a) [enorme] [Mechanoid] [circumstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] silhuetas de [Mechanoid]s [circunstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] [Mechanoid]s com sensores brilhantes de cor [Color] [circumstance_phrase]</li>
+    <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->envolvendo completamente um(a) [Community]</li>
     <li>circumstance_phrase->atacando [Quantity_adjphrase] [PersonJob]s</li>
-    <li>circumstance_phrase->abate [Quantity_adjphrase] [Animal]s</li>
-    <li>circumstance_phrase->coberto em [Gore]</li>
-    <li>circumstance_phrase->amassado e acendendo</li>
+    <li>circumstance_phrase->abatendo [Quantity_adjphrase] [Animal]s</li>
+    <li>circumstance_phrase->acendendo</li>
     <li>desc_sentence->[PAWN_nameDef] organiza uma resistência enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] empunha uma [Weapon] defensivamente enquanto [defender_circunstância].</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, ferido.</li>
@@ -686,7 +725,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] foge da área.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s foge da área.</li>
     <li>defender_circumstance->gritando triunfalmente</li>
-    <li>defender_circumstance->brilhante [Cor]</li>
+    <li>defender_circumstance->brilhante [Color]</li>
     <li>defender_circumstance->levantando o punho em desafio</li>
     <li>defender_circumstance->flexionando seus músculos</li>
   </ShipPartCrash.rulePack.rulesStrings>
@@ -718,18 +757,18 @@
   <Tornado.rulePack.rulesStrings>
     <li>tale_noun->um tornado que caiu perto da [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->[PAWN_nameDef] está [Community]sendo ameaçada por tornado</li>
-    <li>imagem->[comportamento] cone de ar em espiral [circumstance_phrase]</li>
-    <li>imagem->[comportamento] tornado [circumstance_phrase]</li>
-    <li>imagem->[comportamento] furacão [circunstance_phrase]</li>
-    <li>imagem->[comportamento] [Cor] formação de nuvens [circumstance_phrase]</li>
-    <li>comportamento->um avanço</li>
-    <li>comportamento->uma aproximação</li>
-    <li>comportamento->um movimento rápido</li>
-    <li>comportamento->um turbilhão</li>
-    <li>circumstance_phrase->transportando detritos com ele</li>
-    <li>circumstance_phrase->passando por um [TerrainFeature]</li>
-    <li>circumstance_phrase->obscurecendo um [TerrainFeature]</li>
-    <li>circumstance_phrase->envolvendo um [TerrainFeature]</li>
+    <li>image->um cone de ar em espiral [circumstance_phrase]</li>
+    <li>image->um tornado [circumstance_phrase]</li>
+    <li>image->um furacão [circunstance_phrase]</li>
+    <li>image->uma formação de nuvens de cor [Color] [circumstance_phrase]</li>
+    <li>imageD->e um cone de ar em espiral [circumstance_phrase]</li>
+    <li>imageD->e um tornado [circumstance_phrase]</li>
+    <li>imageD->e um furacão [circunstance_phrase]</li>
+    <li>imageD->e uma formação de nuvens de cor [Color] [circumstance_phrase]</li>
+    <li>circumstance_phrase->transportando detritos consigo</li>
+    <li>circumstance_phrase->passando por um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->obscurecendo um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->envolvendo um(a) [TerrainFeature]</li>
     <li>desc_sentence->[PAWN_nameDef] assiste com medo visível.</li>
     <li>desc_sentence->[PAWN_nameDef] assiste com admiração na face [PAWN_objective].</li>
     <li>desc_sentence->[PAWN_nameDef] está coordenando medidas defensivas.</li>
@@ -767,18 +806,18 @@
   <TornadoFromItem.rulePack.rulesStrings>
     <li>tale_noun->um tornado que chegou perto da [COLONIST_nameDef] [Community]</li>
     <li>tale_noun->[COLONIST_nameDef] [Community] ameaçada por um tornado</li>
-    <li>imagem->[comportamento] cone de ar em espiral [circumstance_phrase]</li>
-    <li>imagem->[comportamento] tornado [circumstance_phrase]</li>
-    <li>imagem->[comportamento] furacão [circunstance_phrase]</li>
-    <li>imagem->[comportamento] [Cor] formação de nuvens [circumstance_phrase]</li>
-    <li>comportamento->um avanço</li>
-    <li>comportamento->uma aproximação</li>
-    <li>comportamento->um movimento rápido</li>
-    <li>comportamento->um turbilhão</li>
-    <li>circumstance_phrase->transportando detritos com ele</li>
-    <li>circumstance_phrase->passando por um [TerrainFeature]</li>
-    <li>circumstance_phrase->obscurecendo um [TerrainFeature]</li>
-    <li>circumstance_phrase->envolvendo um [TerrainFeature]</li>
+    <li>image->um cone de ar em espiral [circumstance_phrase]</li>
+    <li>image->um tornado [circumstance_phrase]</li>
+    <li>image->um furacão [circunstance_phrase]</li>
+    <li>image->uma formação de nuvens de cor [Color] [circumstance_phrase]</li>
+    <li>imageD->e um cone de ar em espiral [circumstance_phrase]</li>
+    <li>imageD->e um tornado [circumstance_phrase]</li>
+    <li>imageD->e um furacão [circunstance_phrase]</li>
+    <li>imageD->e uma formação de nuvens de cor [Color] [circumstance_phrase]</li>
+    <li>circumstance_phrase->transportando detritos consigo</li>
+    <li>circumstance_phrase->passando por um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->obscurecendo um(a) [TerrainFeature]</li>
+    <li>circumstance_phrase->envolvendo um(a) [TerrainFeature]</li>
     <li>desc_sentence->[COLONIST_nameDef] assiste com medo visível.</li>
     <li>desc_sentence (p = 0.5)->[COLONIST_nameDef] assiste com admiração na face [COLONIST_objective].</li>
     <li>desc_sentence (p = 0.5)->[ATTACKER_nameDef] assiste com admiração na face [ATTACKER_objective].</li>
@@ -814,15 +853,19 @@
   <ToxicFallout.rulePack.rulesStrings>
     <li>tale_noun->precipitação decorrente da [Community]</li>
     <li>tale_noun->a atmosfera perto da comunidade [PAWN_nameDef]se tornar tóxica</li>
-    <li>imagem->um céu sinistro, [circumstance_group]</li>
-    <li>imagem->o ar fica espesso e [circumstance_group]</li>
-    <li>imagem->o chão brilhando suavemente e [circumstance_group]</li>
+    <li>image->o céu sinistro [circumstance_group]</li>
+    <li>image->o ar espessando [circumstance_group]</li>
+    <li>image->o chão brilhando suavemente [circumstance_group]</li>
     <li>image->campos de plantas mortas [circumstance_group]</li>
-    <li>imagem->[Quantity_adjphrase] graves [circumstance_group]</li>
-    <li>circumstance_phrase->sem vida à vista</li>
-    <li>circumstance_phrase->coberto por um leve brilho de poeira luminosa</li>
-    <li>circumstance_phrase->arranjado em um padrão que sugere ossos</li>
-    <li>circumstance_phrase->esperando que o veneno pare</li>
+    <li>image->[Quantity_adjphrase] túmulos [circumstance_group]</li>
+    <li>imageD->o céu sinistro [circumstance_group]</li>
+    <li>imageD->o ar espessando [circumstance_group]</li>
+    <li>imageD->o chão brilhando suavemente [circumstance_group]</li>
+    <li>imageD->e campos de plantas mortas [circumstance_group]</li>
+    <li>imageD->e [Quantity_adjphrase] túmulos [circumstance_group]</li>
+    <li>circumstance_phrase->revelando uma neblina de poeira luminosa tóxica</li>
+    <li>circumstance_phrase->revelando uma neblina que intoxica os ossos</li>
+    <li>circumstance_phrase->revelando uma neblina de poeira venenosa</li>
     <li>desc_sentence->[PAWN_nameDef] está no chão, o corpo [PAWN_objective] torcido em um ângulo incomum.</li>
     <li>desc_sentence->[PAWN_nameDef]se esconde perto de um [TerrainFeature], observando com uma aparência [AdjectiveAngsty].</li>
     <li>desc_sentence->[PAWN_nameDef] observa em estado de choque.</li>
@@ -854,13 +897,16 @@
   -->
   <VolcanicWinter.rulePack.rulesStrings>
     <li>tale_noun->inverno vulcânico iniciando na [Community] de [PAWN_nameDef]</li>
-    <li>imagem->céu escuro e frio, [circumstance_group]</li>
-    <li>imagem->o enchimento de ar com cinzas, [circumstance_group]</li>
-    <li>imagem->um estéril coberto de gelo [TerrainFeature] [circumstance_group]</li>
-    <li>image->[Quantity_adjphrase] campos de plantas cobertas de cinzas [circumstance_group]</li>
-    <li>circumstance_phrase->sem vida à vista</li>
-    <li>circumstance_phrase->mal iluminada por finos feixes de luz</li>
-    <li>circumstance_phrase->completamente iluminado com a luz azul fria</li>
+    <li>image->o céu escuro e frio [circumstance_group]</li>
+    <li>image->o ar com cinzas [circumstance_group]</li>
+    <li>image->um(a) [TerrainFeature] coberto(a) de gelo [circumstance_group]</li>
+    <li>image->[Quantity_adjphrase] campos de plantas cobertos de cinzas [circumstance_group]</li>
+    <li>imageD->o céu escuro e frio [circumstance_group]</li>
+    <li>imageD->o ar com cinzas [circumstance_group]</li>
+    <li>imageD->um(a) [TerrainFeature] coberto(a) de gelo [circumstance_group]</li>
+    <li>imageD->e [Quantity_adjphrase] campos de plantas cobertos de cinzas [circumstance_group]</li>
+    <li>circumstance_phrase->revelando finos feixes de luz</li>
+    <li>circumstance_phrase->revelando uma luz azul fria</li>
     <li>desc_sentence->[PAWN_nameDef]se aproxima de um incêndio.</li>
     <li>desc_sentence->Para manter-se aquecido, [PAWN_nameDef] usa [Quantity_adjphrase] [Apparel]s.</li>
     <li>desc_sentence->[PAWN_nameDef] fica próximo, visivelmente exausto pela provação.</li>

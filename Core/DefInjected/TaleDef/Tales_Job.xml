@@ -23,16 +23,20 @@
   <AttendedParty.rulePack.rulesStrings>
     <li>tale_noun->[ATTENDER_nameDef] assistindo a festa de [ORGANIZER_nameDef]</li>
     <li>tale_noun->[ATTENDER_nameDef] relaxando com [ORGANIZER_nameDef] numa festa</li>
-    <li>image->[ATTENDER_nameFull] teve uma conversa com [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] pegou uma bebida para [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] Conversou com [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] recebeu [ATTENDER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] inseriu [ATTENDER_nameFull] to a friend [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] tendo uma conversa com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] pegando uma bebida para [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] conversando com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] recebendo [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] apresentando [ATTENDER_nameFull] a um amigo [circumstance_group]</li>
+    <li>imageD->e [ATTENDER_nameFull] tendo uma conversa com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ATTENDER_nameFull] pegando uma bebida para [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ATTENDER_nameFull] conversando com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ORGANIZER_nameFull] recebendo [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ORGANIZER_nameFull] apresentando [ATTENDER_nameFull] a um amigo [circumstance_group]</li>
     <li>circumstance_phrase->com um largo sorriso</li>
-    <li>circumstance_phrase->com uma risada</li>
-    <li>circumstance_phrase->com um(a) [AdjectiveFriendly] sorrindo</li>
+    <li>circumstance_phrase->enquanto ria</li>
+    <li>circumstance_phrase->com um sorriso [AdjectiveFriendly]</li>
     <li>circumstance_phrase->enquanto ria alto</li>
-    <li>circumstance_phrase->enquanto [AdjectiveFriendly]</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] estão envolvidos na conversa.</li>
     <li>desc_sentence->A área é decorada com [Color] e [Color].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] jogar nas proximidades.</li>
@@ -59,14 +63,18 @@
   <BuiltSnowman.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] construindo um boneco de neve</li>
     <li>tale_noun->[PAWN_nameDef] brincando na neve</li>
-    <li>image->[PAWN_nameFull] formando uma bola de neve [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] rolando uma bola gigante de neve no chão [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] fazendo uma bola de neve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolando uma bola gigante de neve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] arrumando [Vegetable]s no rosto do boneco [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] deitado na neve [circumstance_group]</li>
-    <li>circumstance_phrase->enquanto enrolado em [Quantity_adjphrase] jaqueta</li>
-    <li>circumstance_phrase->enquanto obscurecido em uma tempestade de neve leve</li>
-    <li>circumstance_phrase->enquanto seus amigos constroem um forte</li>
-    <li>circumstance_phrase->enquanto seus amigos constroem uma família de boneco de neve</li>
+    <li>image->[PAWN_nameFull] deitando-se na neve [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] fazendo uma bola de neve [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] rolando uma bola gigante de neve [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] arrumando [Vegetable]s no rosto do boneco [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] deitando-se na neve [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto enrola-se em sua jaqueta</li>
+    <li>circumstance_phrase->enquanto observa uma tempestade de neve leve</li>
+    <li>circumstance_phrase->enquanto os outros constroem um forte</li>
+    <li>circumstance_phrase->enquanto os outros constroem uma família de boneco de neve</li>
     <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
     <li>desc_sentence->À distância, uma [Community] está coberta de neve.</li>
     <li>desc_sentence->Um campo de [Vegetable]s é um pouco visível através da neve.</li>
