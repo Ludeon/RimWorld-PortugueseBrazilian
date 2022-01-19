@@ -46,7 +46,7 @@ Visto isso, podemos dar início ao nosso manual.
 ## 2. Requisitos
 
 <br>
-Essa é uma parte importante do manual. Os programas aqui listados serão usados no decorrer do manual. Sendo assim, recomendamos que utilize todos os programas aqui listados para facilitar o entendimento dos próximos tópicos. Todos os programas aqui apresentados são gratuitos.
+Essa é uma parte importante do manual. Os programas aqui listados serão usados no decorrer do manual. Sendo assim, recomendamos que os utilize para facilitar o entendimento dos próximos tópicos. Todos os programas são gratuitos.
 
 Caso já os tenha instalado, siga ao [tópico 6](#6-entrando-na-equipe).
 <br><br>
