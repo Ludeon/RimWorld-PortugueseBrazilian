@@ -21,13 +21,17 @@
   <CollapseDodged.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] esquivando-se de um desmoronamento</li>
     <li>tale_noun->[PAWN_nameDef] quase esmagado por objetos caindo</li>
-    <li>image->[PAWN_nameFull] saltando de um colapso de detritos [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] estreitamente evitando um desmoronamento [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] evitando um telhado caindo [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] evitando a morte certa por uma pedra caindo [circumstance_group]</li>
-    <li>circumstance_phrase->que desaparece atrás de uma cortina de detritos e poeira</li>
-    <li>circumstance_phrase->que pulveriza tudo abaixo dele</li>
-    <li>circumstance_phrase->que impacta com força incrível</li>
+    <li>image->[PAWN_nameFull] desviando de um colapso de detritos, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] desviando de um desmoronamento, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] desviando de um telhado despedaçando-se, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] desviando de uma pedra gigantesca caindo, [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] desviando de um colapso de detritos, [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] desviando de um desmoronamento, [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] desviando de um telhado despedaçando-se, [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] desviando de uma pedra gigantesca caindo, [circumstance_group]</li>
+    <li>circumstance_phrase->desaparecendo atrás de uma cortina de poeira</li>
+    <li>circumstance_phrase->evitando sua pulverização</li>
+    <li>circumstance_phrase->evitando o impacto mortal</li>
     <li>desc_sentence->[PAWN_pronoun] está suando com esforço.</li>
     <li>desc_sentence->[PAWN_pronoun] parece estar aterrorizado.</li>
     <li>desc_sentence->[PAWN_pronoun] está riscado e sangrando.</li>
@@ -64,13 +68,17 @@
     <li>tale_noun->[PAWN_nameDef] decolando em uma nave espacial</li>
     <li>image->[PAWN_nameFull] sendo lançado para as estrelas [circumstance_group]</li>
     <li>image->[PAWN_nameFull] correndo em direção aos céus [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] acelerando para escapar da velocidade [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] acelerando em direção aos céus [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pilotando um foguete [circumstance_group]</li>
-    <li>circumstance_phrase->na frente de um [TerrainFeature]</li>
+    <li>imageD->e [PAWN_nameFull] sendo lançado para as estrelas [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] correndo em direção aos céus [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] acelerando em direção aos céus [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] pilotando um foguete [circumstance_group]</li>
+    <li>circumstance_phrase->na frente de um(a) [TerrainFeature]</li>
     <li>circumstance_phrase->com força incrível</li>
     <li>circumstance_phrase->em uma nuvem de poeira e pedras</li>
-    <li>circumstance_phrase->com foguetes disparando dramaticamente</li>
-    <li>circumstance_phrase->em uma decolagem de precisão</li>
+    <li>circumstance_phrase->dramaticamente</li>
+    <li>circumstance_phrase->em uma decolagem precisa</li>
     <li>desc_sentence->[PAWN_pronoun] está concentrando-se intensamente nos controles.</li>
     <li>desc_sentence->[PAWN_pronoun] está com seus olhos fechados parecendo confiante.</li>
     <li>desc_sentence->[PAWN_pronoun] está dormindo, com seus olhos fechados pacificamente.</li>
@@ -121,26 +129,27 @@
   <SocialFight.rulePack.rulesStrings>
     <li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
     <li>image->[INITIATOR_nameFull] insultando [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] insultando [RESPONDER_nameFull] [circumstance_group]</li>
     <li>image->[INITIATOR_nameFull] ameaçando [RESPONDER_nameFull] [circumstance_group]</li>
     <li>image->[INITIATOR_nameFull] intimidando [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] atacando [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] atacando [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] perfurando [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] atacando verbalmente [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] perfurando os sentimentos de [RESPONDER_nameFull] [circumstance_group]</li>
     <li>image->[INITIATOR_nameFull] chutando [RESPONDER_nameFull] [circumstance_group]</li>
-    <li>image->[INITIATOR_nameFull] encolhendo de [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] fungindo de [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [INITIATOR_nameFull] insultando [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [INITIATOR_nameFull] ameaçando [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [INITIATOR_nameFull] intimidando [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [INITIATOR_nameFull] atacando verbalmente [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [INITIATOR_nameFull] perfurando os sentimentos de [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [INITIATOR_nameFull] chutando [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [INITIATOR_nameFull] fungindo de [RESPONDER_nameFull] [circumstance_group]</li>
     <li>fight_name_present->atacando</li>
     <li>fight_name_present->atacando</li>
     <li>fight_name_present->lutando</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] insulta [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] insulta [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] ameaça [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] intimida [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] ataca [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] ataca [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] bate [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] chuta [INITIATOR_pronoun]</li>
-    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] esconde-se em [INITIATOR_pronoun]</li>
+    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] o(a) provoca</li>
+    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] o(a) intima</li>
+    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] o(a) estarrece</li>
+    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] o(a) soca</li>
+    <li>circumstance_phrase->enquanto [RESPONDER_nameDef] esconde-se</li>
     <li>desc_sentence->[target] aparece sem remorso.</li>
     <li>desc_sentence->[target] é consumido por muita raiva.</li>
     <li>desc_sentence->[target] não tem emoção ou expressão.</li>
