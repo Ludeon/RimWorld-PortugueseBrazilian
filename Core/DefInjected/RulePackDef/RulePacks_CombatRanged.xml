@@ -34,8 +34,8 @@
     <li>fromof->of</li>
   -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->O(A) [blast] do(a) [WEAPON_projectile_label] de [INITIATOR_label]</li>
-    <li>prefix->O(A) [blast] do(a) [WEAPON_label] de [INITIATOR_label]</li>
+    <li>prefix->O(a) [blast] do(a) [WEAPON_projectile_label] de [INITIATOR_label]</li>
+    <li>prefix->O(a) [blast] do(a) [WEAPON_label] de [INITIATOR_label]</li>
     <li>prefix->[blast] de [INITIATOR_label]</li>
     <li>prefix->[blast] de [WEAPON_projectile_label] de [INITIATOR_label]</li>
     <li>prefix->[blast] de [WEAPON_label] de [INITIATOR_label]</li>
@@ -119,22 +119,22 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label].</li>
-    <li>r_logentry->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label] em [destroyed_suffix].</li>
-    <li>r_logentry(p=2)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label].</li>
-    <li>r_logentry(p=2)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label], [destroyed_present] o(a) [destroyed_targets] do(a) [RECIPIENT_label].</li>
-    <li>r_logentry->O(A) [destroyed_targets] do(a) [RECIPIENT_label] foi destruído(a) pelo(a) [WEAPON_projectile_label] de [INITIATOR_label].</li>
-    <li>r_logentry->O(A) [destroyed_targets] do(a) [RECIPIENT_label] foi estilhaçado(a) em [destroyed_suffix] pelo(a) [WEAPON_projectile_label] do(a) [INITIATOR_label].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [damaged_past] o(a) [damaged_targets] do(a) [RECIPIENT_label].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e [damaged_past] o(a) [damaged_targets] do(a) [RECIPIENT_label].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label], [damaged_present] o(a) [damaged_targets] do(a) [RECIPIENT_label].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->O(A) [damaged_targets] do(a) [RECIPIENT_label] foi destruído(a) pelo(a) [WEAPON_projectile_label] do(a) [INITIATOR_label].</li>
-    <li>r_logentry(p=3)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label] e [damaged_past] seu(ua) [damaged_targets].</li>
-    <li>r_logentry(p=6)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label], [destroyed_present] o(a) [destroyed_targets] do(a) [RECIPIENT_label] e [damaged_present] seu(ua) [damaged_targets].</li>
+    <li>r_logentry->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label].</li>
+    <li>r_logentry->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label] em [destroyed_suffix].</li>
+    <li>r_logentry(p=2)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label].</li>
+    <li>r_logentry(p=2)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label], [destroyed_present] o(a) [destroyed_targets] do(a) [RECIPIENT_label].</li>
+    <li>r_logentry->O(a) [destroyed_targets] do(a) [RECIPIENT_label] foi destruído(a) pelo(a) [WEAPON_projectile_label] de [INITIATOR_label].</li>
+    <li>r_logentry->O(a) [destroyed_targets] do(a) [RECIPIENT_label] foi estilhaçado(a) em [destroyed_suffix] pelo(a) [WEAPON_projectile_label] do(a) [INITIATOR_label].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [damaged_past] o(a) [damaged_targets] do(a) [RECIPIENT_label].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e [damaged_past] o(a) [damaged_targets] do(a) [RECIPIENT_label].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label], [damaged_present] o(a) [damaged_targets] do(a) [RECIPIENT_label].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->O(a) [damaged_targets] do(a) [RECIPIENT_label] foi destruído(a) pelo(a) [WEAPON_projectile_label] do(a) [INITIATOR_label].</li>
+    <li>r_logentry(p=3)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [destroyed_past] o(a) [destroyed_targets] do(a) [RECIPIENT_label] e [damaged_past] seu(ua) [damaged_targets].</li>
+    <li>r_logentry(p=6)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label], [destroyed_present] o(a) [destroyed_targets] do(a) [RECIPIENT_label] e [damaged_present] seu(ua) [damaged_targets].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_label] acertou o(a) [RECIPIENT_label] com um(a) [WEAPON_projectile_label].</li>
-    <li>r_logentry(p=0.2)->O(A) [WEAPON_projectile_label] de [INITIATOR_label] acertou o(a) [RECIPIENT_label].</li>
+    <li>r_logentry(p=0.2)->O(a) [WEAPON_projectile_label] de [INITIATOR_label] acertou o(a) [RECIPIENT_label].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e acertou [RECIPIENT_label] com um(a) [WEAPON_projectile_label].</li>
-    <li>r_logentry(p=0.4)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] [ORIGINALTARGET_label] e acertou [RECIPIENT_label].</li>
+    <li>r_logentry(p=0.4)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] [ORIGINALTARGET_label] e acertou [RECIPIENT_label].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_label] acertou [RECIPIENT_label] com um(a) [WEAPON_projectile_label] destinado(a) a [ORIGINALTARGET_label].</li>
     <li>weapon_projectile_label(p=0.05)->tiro</li>
     <li>destroyed_past->estilhaçou</li>
@@ -191,13 +191,13 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [damaged_past] o(a) [damaged_target] do(a) [RECIPIENT_label][deflected_result].</li>
-    <li>r_logentry(p=2)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e [damaged_past] [damaged_target_possessive_opt][RECIPIENT_label][deflected_result].</li>
+    <li>r_logentry->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [damaged_past] o(a) [damaged_target] do(a) [RECIPIENT_label][deflected_result].</li>
+    <li>r_logentry(p=2)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e [damaged_past] [damaged_target_possessive_opt][RECIPIENT_label][deflected_result].</li>
     <li>r_logentry->[damaged_target_possessive_opt][RECIPIENT_label] foi danificado(a) pelo(a) [WEAPON_projectile_label] do(a) [INITIATOR_label][deflected_result].</li>
-    <li>r_logentry(p=0.2)->O(A) [INITIATOR_label] acertou [damaged_target_possessive_opt][RECIPIENT_label] com um(a) [WEAPON_projectile_label][deflected_result].</li>
-    <li>r_logentry(p=0.2)->O(A) [WEAPON_projectile_label] do(a)[INITIATOR_label] acertou [damaged_target_possessive_opt][RECIPIENT_label][deflected_result].</li>
+    <li>r_logentry(p=0.2)->O(a) [INITIATOR_label] acertou [damaged_target_possessive_opt][RECIPIENT_label] com um(a) [WEAPON_projectile_label][deflected_result].</li>
+    <li>r_logentry(p=0.2)->O(a) [WEAPON_projectile_label] do(a)[INITIATOR_label] acertou [damaged_target_possessive_opt][RECIPIENT_label][deflected_result].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_label] [missed] [ORIGINALTARGET_label] e acertou [damaged_target_possessive_opt][RECIPIENT_label] com um(a) [WEAPON_projectile_label][deflected_result].</li>
-    <li>r_logentry(p=0.4)->O(A) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e acertou [damaged_target_possessive_opt][RECIPIENT_label][deflected_result].</li>
+    <li>r_logentry(p=0.4)->O(a) [WEAPON_projectile_label] do(a) [INITIATOR_label] [missed] o(a) [ORIGINALTARGET_label] e acertou [damaged_target_possessive_opt][RECIPIENT_label][deflected_result].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_label] acertou [damaged_target_possessive_opt][RECIPIENT_label] com um(a) [WEAPON_projectile_label] destinado(a) a [ORIGINALTARGET_definite][deflected_result].</li>
     <li>weapon_projectile_label(p=0.05)->tiro</li>
     <li>damaged_target_possessive_opt-></li>
