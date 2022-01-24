@@ -1,8 +1,8 @@
-# Detecta automaticamente arquivos de texto e executa a normalização LF.
+# Detecta automaticamente arquivos de texto e executa a normalização adequada.
 * text=auto eol=lf
 *.md text eol=lf
 *.sh text eol=lf
-*.xml text eol=lf
+*.xml text eol=crlf
 *.bat text eol=crlf
 *.cmd text eol=crlf
 *.ps1 text eol=crlf
