@@ -1,3 +1,11 @@
+# AVISO:
+
+## Este manual é considerado antigo e portanto, não é mais atualizado, tendo sido mantido apenas para fins de referência.
+
+### Para acessar os manuais atuais, verifique nosso [manual do tradutor](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/Manuais/manualDoTradutor.md) e nosso [manual do revisor](https://github.com/Ludeon/RimWorld-PortugueseBrazilian/blob/master/Manuais/manualDoRevisor.md).
+
+-------------------------
+
 ## Manual de boas práticas de tradução
 
 -------------------------
