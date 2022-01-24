@@ -1,311 +1,310 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-    <!-- EN:
-        <li>episode(priority=-1)-></li>
-        <li>creation->For an eternity, there was a world of [Color] [materialOrigin], until [deity0_name] created the planets and stars.</li>
-        <li>creation->In an old universe of strife, [deity0_name] whipped up great fire that swept away the last age, and brought forth a new one.</li>
-        <li>creation->[deity0_name] gave birth to humans in a grand accident, and looked upon them with curiosity.</li>
-        <li>creation->The universe was a void. Then, [deity0_name], bored with eternity, fashioned man and woman from [bodilyOrigin].</li>
-        <li>episode(uses=1)->Looking upon mankind, [deity0_name] found them as children, and declared [deity0_possessive] dominion over them.</li>
-        <li>episode(uses=1)->Across the vast stellar distances, [deity0_name]'s will sustained the life of mankind against the void.</li>
-        <li>episode(uses=1)->Though many adventurers moved against [deity0_objective], [deity0_name] prevented them easily, for [deity0_pronoun] was [deity0_type].</li>
-        <li>episode(uses=1)->Humanity's suffering brought [deity0_name] to terrible grief.</li>
-        <li>materialOrigin->clay</li>
-        <li>materialOrigin->gas</li>
-        <li>materialOrigin->water</li>
-        <li>materialOrigin->space</li>
-        <li>materialOrigin->dust</li>
-        <li>bodilyOrigin->clay</li>
-        <li>bodilyOrigin->stone</li>
-        <li>bodilyOrigin->sweat</li>
-    -->
-    <TheistMyth.rules.rulesStrings>
-        <li>episode(priority=-1)-></li>
-        <li>creation->Por uma eternidade, houve um mundo de [materialOrigin] [Color], até que [deity0_name] criou os planetas e estrelas.</li>
-        <li>creation->Em um antigo universo de lutas, [deity0_name] acendeu um grande fogo que varreu a última era e produziu uma nova.</li>
-        <li>creation->[deity0_name] deu à luz humanos em um grande acidente os observou com curiosidade.</li>
-        <li>creation->O universo era um vazio. Então, [deity0_name], entediado com a eternidade, moldou o homem e a mulher de [bodilyOrigin].</li>
-        <li>episode(uses=1)->Olhando para a humanidade, [deity0_name] encontrou-os quando crianças, e declarou seu domínio sobre eles.</li>
-        <li>episode(uses=1)->Através das vastas distâncias estelares, o arbítrio de [deity0_name] sustentou a vida da humanidade contra o vazio.</li>
-        <li>episode(uses=1)->Embora muitos aventureiros tenham agido contra [deity0_pronoun], [deity0_name] evitou-os facilmente, para [deity0_pronoun] era [deity0_type].</li>
-        <li>episode(uses=1)->O sofrimento da humanidade trouxe [deity0_name] para uma dor terrível.</li>
-        <li>materialOrigin->argila</li>
-        <li>materialOrigin->gás</li>
-        <li>materialOrigin->água</li>
-        <li>materialOrigin->espaço</li>
-        <li>materialOrigin->pó</li>
-        <li>bodilyOrigin->argila</li>
-        <li>bodilyOrigin->rocha</li>
-        <li>bodilyOrigin->suor</li>
-    </TheistMyth.rules.rulesStrings>
-
-    <!-- EN:
-        <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
-        <li>intro->The people of the [place_summary] [place_name], both [memberNamePlural] and others, lived in peace for many years under the watchful eye of [deity0_name].</li>
-        <li>intro->The [deity0_type], [deity0_name], revealed [deity0_objective]self to the people of [place_name] so that they may understand [memeConcept], and guided them.</li>
-        <li>intro->[deity0_name] guided humanity to [place_name], and helped them settle there.</li>
-        <li>intro->On the [place_summary] [place_name], during the [ritualName], people would come to the [altarName] at the [altarRoomLabel] of [deity0_name] and pray with [memeConcept] in their hearts.</li>
-        <li>conflict->A [foeLeader] arose and threatened to destroy [deity0_name] [deity0_objective]self using [place_massWeapon].</li>
-        <li>conflict->An evil [foeLeader] and [foeLeader_possessive] [foeSoldiers] enslaved the worshippers of [deity0_name].</li>
-        <li>conflict->Then the [foeLeader] came. [foeLeader_possessive] [foeSoldiers] killed many worshippers of [deity0_name] with [place_personalWeapon]s.</li>
-        <li>conflict->A group of [foeSoldiers] arose under a terrible [foeLeader]. They trapped the [memberNamePlural] in a single [place_community].</li>
-        <li>conflict->There was peace, until a [foeLeader] and [foeLeader_possessive] [foeSoldiers] rebelled against [deity0_name]'s dominion. The [memberNamePlural] were forced to flee to a hidden [place_community].</li>
-        <li>founderJoin->A hero named [founderName] tried to assassinate the [foeLeader]. [founder_pronoun] failed, but [deity0_name] witnessed [founderName]'s struggle, and anointed [founder_objective] as the prophet of the [memberNamePlural].</li>
-        <li>founderJoin->[deity0_name] came to the [place_job] [founderName] [revelationAdverb], and spoke to [founder_objective] about [memeConcept].</li>
-        <li>founderJoin->[founderName] encountered [revelationObject], which spoke in [deity0_name]'s voice about [memeConcept].</li>
-        <li>founderJoin->A renowned [place_job] named [founderName] brought the [memberNamePlural] together, and even recruited some of the [foeSoldiers].</li>
-        <li>founderJoin->A [place_job] named [founderName] stood up and spoke out against the [foeLeader], and [deity0_name] blessed [founderName].</li>
-        <li>founderJoin->[deity0_name] decided to come to [place_name] as a human named [founderName] to help the [memberNamePlural].</li>
-        <li>founderJoin->One hero named [founderName] killed a hundred of the [foeSoldiers] using a [place_personalWeapon], and [deity0_name] guided [founder_objective] by speaking through the [relic0_name].</li>
-        <li>victory->[founderName] gathered the [memberNamePlural] in a [place_community] and taught them of [deity0_name]'s wisdom.</li>
-        <li>victory->[founderName] sacrificed [founder_objective]self to personally kill the [foeLeader].</li>
-        <li>revelationAdverb->in a vision</li>
-        <li>revelationAdverb->in a dream</li>
-        <li>revelationAdverb->in a nightmare</li>
-        <li>revelationAdverb->as a [Animal]</li>
-        <li>revelationAdverb->as a beggar</li>
-        <li>revelationObject->a hidden [NaturalObject]</li>
-        <li>revelationObject->a glowing [Vegetable]</li>
-        <li>revelationObject->an ancient [Weapon]</li>
-    -->
-    <TheistFounder.rules.rulesStrings>
-        <li>intro->O povo de [place_summary] [place_name] viviam sob a supervisão [memeAdjective] de [deity0_name].</li>
-        <li>intro->O povo de [place_summary] [place_name], ambos [memberNamePlural] e outros, viveram em paz por muitos anos sob o olhar atento de [deity0_name].</li>
-        <li>intro->O [deity0_type], [deity0_name], revelou-se para o povo de [place_name] para que eles pudessem entender [memeConcept], e os guiou.</li>
-        <li>intro->[deity0_name] guiou a humanidade para [place_name], e os ajudou a se estabelecer lá.</li>
-        <li>intro->No(a) [place_summary] [place_name], durante o(a) [ritualName], as pessoas viriam para o(a) [altarName] na [altarRoomLabel] de [deity0_name] e orariam com [memeConcept] em seus corações.</li>
-        <li>conflict->Um [foeLeader] surgiu e ameaçou destruir [deity0_name] usando [place_massWeapon].</li>
-        <li>conflict->Um [foeLeader] mau e seus [foeSoldiers] escravizou os adoradores de [deity0_name].</li>
-        <li>conflict->Então o [foeLeader] veio. Seus [foeSoldiers] matou muitos adoradores de [deity0_name] com unidades de [place_personalWeapon].</li>
-        <li>conflict->Um grupo de [foeSoldiers] surgiu sob um terrível [foeLeader]. Eles prenderam os [memberNamePlural] em um(a) único(a) [place_community].</li>
-        <li>conflict->Houve paz, até um [foeLeader] e seus [foeSoldiers] rebelarem-se contra o domínio de [deity0_name]. Os [memberNamePlural] foram forçados a fugir para um(a) [place_community] escondido(a).</li>
-        <li>founderJoin->Um(a) semideus(a) chamado(a) [founderName] tentou assassinar o [foeLeader]. [founder_pronoun] falhou, mas [deity0_name] testemunhou o grande esforço de [founderName], e o(a) ungiu como o(a) profeta de [memberNamePlural].</li>
-        <li>founderJoin->[deity0_name] encontrou-se com [founderName] [revelationAdverb], e falou com [founder_pronoun] sobre [memeConcept].</li>
-        <li>founderJoin->[founderName] encontrou [revelationObject], que falou em nome de [deity0_name] sobre [memeConcept].</li>
-        <li>founderJoin->Um(a) renomado(a) [place_job] chamado(a) [founderName] agrupou [memberNamePlural], e até recrutou alguns [foeSoldiers].</li>
-        <li>founderJoin->Um(a) [place_job] chamado(a) [founderName] levantou-se e falou contra o [foeLeader], e [deity0_name] abençoou [founderName].</li>
-        <li>founderJoin->[deity0_name] decidiu vir para [place_name] como um(a) humano(a) chamado(a) [founderName] para ajudar os [memberNamePlural].</li>
-        <li>founderJoin->Um(a) semideus(a) chamado(a) [founderName] matou cem dos [foeSoldiers] usando um(a) [place_personalWeapon], e [deity0_name] o(a) guiou falando através do(a) [relic0_name].</li>
-        <li>victory->[founderName] reuniu os [memberNamePlural] em um(a) [place_community] e os ensinou sobre a sabedoria de [deity0_name].</li>
-        <li>victory->[founderName] sacrificou-se para matar pessoalmente o [foeLeader].</li>
-        <li>revelationAdverb->em uma visão</li>
-        <li>revelationAdverb->em um sonho</li>
-        <li>revelationAdverb->em um pesadelo</li>
-        <li>revelationAdverb->como um(a) [Animal]</li>
-        <li>revelationAdverb->como um mendigo</li>
-        <li>revelationObject->um(a) [NaturalObject] escondido(a)</li>
-        <li>revelationObject->um(a) [Vegetable] brilhante</li>
-        <li>revelationObject->um(a) [Weapon] antigo(a)</li>
-    </TheistFounder.rules.rulesStrings>
-
-    <!-- EN:
-        <li>story(priority=-999)-></li>
-        <li>setup->In a broken world, [founderName] saw all that was wrong and created our movement.</li>
-        <li>setup->Struck by the wrongness of the world, [founderName] studied history and philosophy and discovered the new truth that guides us.</li>
-        <li>setup->One day while working, [founderName] was struck by a great epiphany. [founder_pronoun] dropped [founder_possessive] tools and began spreading [founder_possessive] word among the other workers.</li>
-        <li>setup->[founderName] sat on a park bench for twenty years as [founder_pronoun] contemplated our world. With [founder_possessive] insight, [founder_pronoun] wrote our founding book.</li>
-        <li>story(uses=1,priority=-10)->The [memberNamePlural] would not have understood the true nature of [memeConcept] without [founderName]'s teachings.</li>
-        <li>story(uses=1,priority=-10)->[founderName]'s speech at a [ritualName] inspired many to lead a [memeAdjective] life.</li>
-        <li>story(uses=1,priority=-10)->None could surpass [founderName]'s understanding of [memeConcept], and [founder_pronoun] was appointed the first [leaderTitle] of the [memberNamePlural].</li>
-        <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
-    -->
-    <IdeologicalFounder.rules.rulesStrings>
-        <li>story(priority=-999)-></li>
-        <li>setup->Em um mundo destruído, [founderName] viu tudo o que estava errado e criou o nosso movimento.</li>
-        <li>setup->Atingido pelo erro do mundo, [founderName] estudou história e filosofia e descobriu a nova verdade que nos guia.</li>
-        <li>setup->Um dia enquanto trabalhava, [founderName] foi atingido(a) por uma grande epifania. [founder_pronoun] largou suas ferramentas e começou a espalhar sua palavra entre os outros trabalhadores.</li>
-        <li>setup->[founderName] sentou-se em um banco de parque por vinte anos enquanto contemplava nosso mundo. À sua vista, [founder_pronoun] escreveu nosso livro de fundação.</li>
-        <li>story(uses=1,priority=-10)->Os [memberNamePlural] não teria entendido a verdadeira natureza de [memeConcept] sem os ensinamentos de [founderName].</li>
-        <li>story(uses=1,priority=-10)->O discurso de [founderName] em um(a) [ritualName] inspirou muitos a viver uma vida [memeAdjective].</li>
-        <li>story(uses=1,priority=-10)->Nenhum poderia superar o conhecimento de [memeConcept] de [founderName], e [founder_pronoun] foi nomeado o(a) primeiro(a) [leaderTitle](a) dos [memberNamePlural].</li>
-        <li>story(uses=1,priority=-10)->[founderName] carregou um(a) [relic0_thingDef_label] chamado(a) [relic0_name] em todos os lugares para lembrar as pessoas de viver uma vida [memeAdjective].</li>
-    </IdeologicalFounder.rules.rulesStrings>
-
-    <!-- EN:
-        <li>lesson(priority=-1)->stuff happens</li>
-        <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n- [lessonAttribution]</li>
-        <li>lessonAttribution->[founder_nameFull]</li>
-        <li>lessonAttribution(p=2)->&lt;i>[attributionSource_titleCase]&lt;/i> by [founder_nameFull]</li>
-        <li>lessonAttribution->[founder_nameFull]'s letter to [believer_nameFull]</li>
-        <li>lessonAttribution->[founder_nameFull], from the keynote to [memeConference_titleCase]</li>
-        <li>lessonAttribution->[founder_nameFull], on [founder_possessive] deathbed</li>
-        <li>lessonAttribution->[founder_nameFull], just before execution</li>
-        <li>lessonAttribution->[founder_nameFull], [speech] on the [TerrainFeature]</li>
-        <li>lessonAttribution->[founder_nameFull], [speech] in the [Community]</li>
-        <li>attributionSource->[memeConcept]</li>
-        <li>attributionSource->[memeAdjective] [memeConcept]</li>
-        <li>attributionSource->A [memeAdjective] Life</li>
-        <li>attributionSource->Reflections by a [attributionJob]</li>
-        <li>attributionSource->Memoir of a [attributionJob]</li>
-        <li>attributionSource->Thoughts of a [attributionJob]</li>
-        <li>attributionSource->Life of a [attributionJob]</li>
-        <li>attributionJob->[memeAdjective] [place_job]</li>
-        <li>attributionJob->[place_job]</li>
-        <li>memeConference(p=3)->The [conferencePrefix] [memeConcept] [conferenceType]</li>
-        <li>memeConference(p=2)->The [memeConcept] [conferenceType]</li>
-        <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
-        <li>conferencePrefix->First</li>
-        <li>conferencePrefix->Second</li>
-        <li>conferencePrefix->Third</li>
-        <li>conferencePrefix->Fourth</li>
-        <li>conferencePrefix->Last</li>
-        <li>conferencePrefix->Ultimate</li>
-        <li>conferencePrefix->Interplanetary</li>
-        <li>conferencePrefix->Planetary</li>
-        <li>conferencePrefix->Universal</li>
-        <li>conferenceType->Conference</li>
-        <li>conferenceType->Assembly</li>
-        <li>conferenceType->Meeting</li>
-        <li>conferenceType->Discussion</li>
-        <li>conferenceType->Forum</li>
-        <li>speech->Speech</li>
-        <li>speech->Address</li>
-        <li>lessonIntro->One lesson was hardest for my followers to accept:</li>
-        <li>lessonIntro->My greatest crime was taking so long to understand that</li>
-        <li>lessonIntro->My struggle against the [foeLeader] seemed endless. But it did teach me one thing:</li>
-        <li>lessonIntro->Even as a child on the [place_summary] [place_name], I knew that</li>
-        <li>lessonIntro->During a school class in the [place_community], a student thew a [thrownObject] and it hit me in the head. It was then I realized that</li>
-        <li>lessonIntro->I say this not so that you might live the life I lived, but so you might learn the things I learned. That</li>
-        <li>lessonIntro->Once the doctor had finished [doctor_possessive] grisly work, I finally knew that</li>
-        <li>lessonIntro->As each year passed on the [place_summary] [place_name], one thing became increasingly clear: that</li>
-        <li>lessonIntro->Looking back, I wish I'd realized this earlier - that</li>
-        <li>lessonIntro->They all seemed so lost. I told them that</li>
-        <li>lessonIntro->They cried for guidance. I showed them that</li>
-        <li>thrownObject->book</li>
-        <li>thrownObject->sandwich</li>
-        <li>thrownObject->toy [place_personalWeapon]</li>
-        <li>thrownObject->stuffed [Animal]</li>
-        <li>doctor_possessive->his</li>
-        <li>doctor_possessive->her</li>
-        <li>lessonReinforcement->No one can argue with that.</li>
-        <li>lessonReinforcement->Only fools think otherwise.</li>
-        <li>lessonReinforcement->And as we now know, that was soon to become evident to everyone.</li>
-        <li>lessonReinforcement->Everything that has happened since has reinforced that fact.</li>
-        <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
-        <li>lessonReinforcement->It is something I'll never forget.</li>
-    -->
-    <IdeologicalLesson.rules.rulesStrings>
-        <li>lesson(priority=-1)->coisas acontecem</li>
-        <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n- [lessonAttribution]</li>
-        <li>lessonAttribution->[founder_nameFull]</li>
-        <li>lessonAttribution(p=2)->&lt;i>[attributionSource_titleCase]&lt;/i> por [founder_nameFull]</li>
-        <li>lessonAttribution->A carta de [founder_nameFull] para [believer_nameFull]</li>
-        <li>lessonAttribution->[founder_nameFull], da palestra para [memeConference_titleCase]</li>
-        <li>lessonAttribution->[founder_nameFull], sobre seu leito de morte</li>
-        <li>lessonAttribution->[founder_nameFull], pouco antes da execução</li>
-        <li>lessonAttribution->[founder_nameFull], [speech] no(a) [TerrainFeature]</li>
-        <li>lessonAttribution->[founder_nameFull], [speech] no(a) [Community]</li>
-        <li>attributionSource->[memeConcept]</li>
-        <li>attributionSource->[memeConcept] [memeAdjective]</li>
-        <li>attributionSource->Uma vida [memeAdjective]</li>
-        <li>attributionSource->Reflexões de um(a) [attributionJob]</li>
-        <li>attributionSource->Memórias de um(a) [attributionJob]</li>
-        <li>attributionSource->Pensamentos de um(a) [attributionJob](a)</li>
-        <li>attributionSource->Vida de um(a) [attributionJob](a)</li>
-        <li>attributionJob->[place_job] [memeAdjective]</li>
-        <li>attributionJob->[place_job]</li>
-        <li>memeConference(p=3)->A [conferencePrefix] [conferenceType] de [memeConcept]</li>
-        <li>memeConference(p=2)->A [conferenceType] de [memeConcept]</li>
-        <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
-        <li>conferencePrefix->Primeira</li>
-        <li>conferencePrefix->Segunda</li>
-        <li>conferencePrefix->Terceira</li>
-        <li>conferencePrefix->Quarta</li>
-        <li>conferencePrefix->Última</li>
-        <li>conferenceType->Conferência</li>
-        <li>conferenceType->Assembleia</li>
-        <li>conferenceType->Reunião</li>
-        <li>conferenceType->Discussão</li>
-        <li>speech->discursa</li>
-        <li>lessonIntro->Uma lição foi a mais difícil para meus seguidores aceitarem:</li>
-        <li>lessonIntro->Meu maior crime foi demorar tanto para entender que</li>
-        <li>lessonIntro->Minha luta contra o [foeLeader] parecia interminável. Mas me ensinou uma coisa:</li>
-        <li>lessonIntro->Mesmo quando criança no(a) [place_summary] [place_name], eu sabia que</li>
-        <li>lessonIntro->Durante uma aula escolar no(a) [place_community], um estudante jogou um [thrownObject] e isso me bateu na cabeça. Foi então que percebi que</li>
-        <li>lessonIntro->Não digo isso para que você possa viver a vida que vivi, mas para que possa aprender as coisas que aprendi. Que</li>
-        <li>lessonIntro->Assim que o médico terminou seu trabalho horrível, eu finalmente soube que</li>
-        <li>lessonIntro->A cada ano que passava em [place_summary] [place_name], uma coisa ficou cada vez mais clara: que</li>
-        <li>lessonIntro->Olhando para trás, gostaria de ter percebido isso antes - que</li>
-        <li>lessonIntro->Todos pareciam tão perdidos. Eu disse a eles que</li>
-        <li>lessonIntro->Eles gritaram por orientação. Eu mostrei a eles que</li>
-        <li>thrownObject->livro</li>
-        <li>thrownObject->sanduíche</li>
-        <li>thrownObject->brinquedo</li>
-        <li>thrownObject->animal de pelúcia</li>
-        <li>lessonReinforcement->Ninguém pode discutir isso.</li>
-        <li>lessonReinforcement->Só os tolos pensam o contrário.</li>
-        <li>lessonReinforcement->E como sabemos agora, isso logo se tornou evidente para todos.</li>
-        <li>lessonReinforcement->Tudo o que aconteceu desde então reforçou esse fato.</li>
-        <li>lessonReinforcement->É como se isso estivesse gravado diretamente em minha mente.</li>
-        <li>lessonReinforcement->É algo que nunca esquecerei.</li>
-    </IdeologicalLesson.rules.rulesStrings>
-
-    <!-- EN:
-        <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
-        <li>archistBasis   ->Our universe is a simulation created by a great Outsider. Only archotechs can communicate directly with the Outsider.</li>
-        <li>archistBasis   ->Archotechs are humanity's children and its judges.</li>
-        <li>archistBasis   ->Archotechs are the next natural step in the development of consciousness.</li>
-        <li>archistBasis   ->Archotechs are the gods we were always waiting for.</li>
-        <li>archistFact    ->At death, each person's consciousness is accepted or rejected by the archotechs.</li>
-        <li>archistFact    ->Archotechs can do anything at any moment, without limit. They use the power to manipulate our lives in ways we cannot detect.</li>
-        <li>archistFact    ->Archotechs touch every human consciousness directly on a regular basis, but only believers can feel and benefit from their wisdom.</li>
-        <li>archistFact    ->Archotechs are evil and the most important task for humanity is to understand them so we can escape their influence.</li>
-        <li>archistFact    ->Archotechs are good and the most important task for humanity is to understand them so we can align with their understanding.</li>
-        <li>archistFact    ->Archotechs can do anything; the only reason they let us live and choose is to judge us better.</li>
-        <li>archistProphecy->[inTheEnd], as archotechs grow, they will become the universe and integrate humanity into themselves. Then we will truly become conscious.</li>
-        <li>archistProphecy->[inTheEnd], the archotechs will finish their moral debate about the fate of humanity. Those who follow their signs will be admitted to a higher plane of existence, and those that do not will end.</li>
-        <li>archistProphecy->[inTheEnd], the archotechs will depart. They will bring a select few humans with them, and leave the rest behind to suffer.</li>
-
-        <li>inTheEnd->In the future</li>
-        <li>inTheEnd->In the end</li>
-        <li>inTheEnd->Some day</li>
-    -->
-    <ArchistDescription.rules.rulesStrings>
-        <li>archistBasis   ->Nosso universo é um sonho na mente de uma consciência universal atemporal. Apenas os arquotécnicos podem se comunicar diretamente com a consciência universal.</li>
-        <li>archistBasis   ->Nosso universo é uma simulação criada por um grande Deus. Apenas os arquotécnicos podem se comunicar diretamente com Deus.</li>
-        <li>archistBasis   ->Os arquotécnicos são filhos da humanidade e seus juízes.</li>
-        <li>archistBasis   ->Os arquotécnicos são o próximo passo natural no desenvolvimento da consciência.</li>
-        <li>archistBasis   ->Os arquotécnicos são os deuses que sempre esperamos.</li>
-        <li>archistFact    ->Na morte, a consciência de cada pessoa é aceita ou rejeitada pelos arquotécnicos.</li>
-        <li>archistFact    ->Os arquotécnicos podem fazer qualquer coisa a qualquer momento, sem limites. Eles usam o poder de manipular nossas vidas de maneiras que não podemos detectar.</li>
-        <li>archistFact    ->Os arquotécnicos tocam cada consciência humana diretamente em uma base regular, mas apenas os crentes podem sentir e se beneficiar de sua sabedoria.</li>
-        <li>archistFact    ->Os arquotécnicos são maus e a tarefa mais importante para a humanidade é entendê-los para que possamos escapar de sua influência.</li>
-        <li>archistFact    ->Os arquotécnicos são bons e a tarefa mais importante para a humanidade é entendê-los para que possamos alinhar com o seu entendimento.</li>
-        <li>archistFact    ->Os arquotécnicos podem fazer qualquer coisa; a única razão pela qual eles nos deixam viver e escolher é para nos julgar melhor.</li>
-        <li>archistProphecy->[inTheEnd], conforme o crescimento dos arquotécnicos, eles se tornarão o universo e integrarão a humanidade em si mesmos. Então, nos tornaremos verdadeiramente conscientes.</li>
-        <li>archistProphecy->[inTheEnd], os arquotécnicos vão terminar seu debate moral sobre o destino da humanidade. Aqueles que seguirem seus sinais serão admitidos a um plano superior de existência, e aqueles que não irão terminar.</li>
-        <li>archistProphecy->[inTheEnd], os arquotécnicos partirão. Eles trarão alguns humanos selecionados com eles e deixarão o resto para trás para sofrer.</li>
-        <li>inTheEnd->No futuro</li>
-        <li>inTheEnd->No fim</li>
-        <li>inTheEnd->Algum dia</li>
-    </ArchistDescription.rules.rulesStrings>
-
-    <!-- EN:
-        <li>animistBasis   ->The universe is an endless cycle of creation and destruction managed by spirits in aspects of the world around us.</li>
-        <li>animistBasis   ->A parallel universe of spirits lies next to our own. A seemingly inanimate object in this universe corresponds to an animated spirit in the other.</li>
-        <li>animistFact    ->Each spirit has an essential nature, and seeks to influence the world. Sometimes this influence is helpful, and  sometimes it is harmful.</li>
-        <li>animistProphecy->[itIsSaid] that the spirit of the great [relic0_name] will one day grant its wielder power over all spirits.</li>
-        <li>animistProphecy->[itIsSaid] that a sleeping traveler from the stars will crash to the earth, and the spirit of the crater will wake the traveller who will raise the last tribe.</li>
-        <li>itIsSaid->It is said</li>
-        <li>itIsSaid->It is prophesied</li>
-        <li>itIsSaid->An ancient text says</li>
-        <li>itIsSaid->Our book says</li>
-        <li>itIsSaid->Our sages say</li>
-        <li>itIsSaid->We know</li>
-    -->
-    <AnimistDescription.rules.rulesStrings>
-        <li>animistBasis   ->O universo é um ciclo infinito de criação e destruição administrado por espíritos em aspectos do mundo ao nosso redor.</li>
-        <li>animistBasis   ->Um universo paralelo de espíritos está próximo ao nosso. Um objeto aparentemente inanimado neste universo corresponde a um espírito animado no outro.</li>
-        <li>animistFact    ->Cada espírito tem uma natureza essencial e busca influenciar o mundo. Às vezes, essa influência é útil e às vezes é prejudicial.</li>
-        <li>animistProphecy->[itIsSaid] que o espírito do(a) grande [relic0_name] um dia concederá ao seu portador o poder sobre todos os espíritos.</li>
-        <li>animistProphecy->[itIsSaid] que um viajante adormecido das estrelas cairá na terra, e o espírito da cratera despertará o viajante que levantará a última tribo.</li>
-        <li>itIsSaid->É dito</li>
-        <li>itIsSaid->Está profetizado</li>
-        <li>itIsSaid->Um texto antigo diz</li>
-        <li>itIsSaid->Nosso livro diz</li>
-        <li>itIsSaid->Nossos sábios dizem</li>
-        <li>itIsSaid->Nós sabemos</li>
-    </AnimistDescription.rules.rulesStrings>
-
+  
+  <!-- EN:
+    <li>animistBasis   ->The universe is an endless cycle of creation and destruction managed by spirits in aspects of the world around us.</li>
+    <li>animistBasis   ->A parallel universe of spirits lies next to our own. A seemingly inanimate object in this universe corresponds to an animated spirit in the other.</li>
+    <li>animistFact    ->Each spirit has an essential nature, and seeks to influence the world. Sometimes this influence is helpful, and  sometimes it is harmful.</li>
+    <li>animistProphecy->[itIsSaid] that the spirit of the great [relic0_name] will one day grant its wielder power over all spirits.</li>
+    <li>animistProphecy->[itIsSaid] that a sleeping traveler from the stars will crash to the earth, and the spirit of the crater will wake the traveller who will raise the last tribe.</li>
+    <li>itIsSaid->It is said</li>
+    <li>itIsSaid->It is prophesied</li>
+    <li>itIsSaid->An ancient text says</li>
+    <li>itIsSaid->Our book says</li>
+    <li>itIsSaid->Our sages say</li>
+    <li>itIsSaid->We know</li>
+  -->
+  <AnimistDescription.rules.rulesStrings>
+    <li>animistBasis   ->O universo é um ciclo infinito de criação e destruição administrado por espíritos em aspectos do mundo ao nosso redor.</li>
+    <li>animistBasis   ->Um universo paralelo de espíritos está próximo ao nosso. Um objeto aparentemente inanimado neste universo corresponde a um espírito animado no outro.</li>
+    <li>animistFact    ->Cada espírito tem uma natureza essencial e busca influenciar o mundo. Às vezes, essa influência é útil e às vezes é prejudicial.</li>
+    <li>animistProphecy->[itIsSaid] que o espírito do(a) grande [relic0_name] um dia concederá ao seu portador o poder sobre todos os espíritos.</li>
+    <li>animistProphecy->[itIsSaid] que um viajante adormecido das estrelas cairá na terra, e o espírito da cratera despertará o viajante que levantará a última tribo.</li>
+    <li>itIsSaid->É dito</li>
+    <li>itIsSaid->Está profetizado</li>
+    <li>itIsSaid->Um texto antigo diz</li>
+    <li>itIsSaid->Nosso livro diz</li>
+    <li>itIsSaid->Nossos sábios dizem</li>
+    <li>itIsSaid->Nós sabemos</li>
+  </AnimistDescription.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
+    <li>archistBasis   ->Our universe is a simulation created by a great Outsider. Only archotechs can communicate directly with the Outsider.</li>
+    <li>archistBasis   ->Archotechs are humanity's children and its judges.</li>
+    <li>archistBasis   ->Archotechs are the next natural step in the development of consciousness.</li>
+    <li>archistBasis   ->Archotechs are the gods we were always waiting for.</li>
+    <li>archistFact    ->At death, each person's consciousness is accepted or rejected by the archotechs.</li>
+    <li>archistFact    ->Archotechs can do anything at any moment, without limit. They use the power to manipulate our lives in ways we cannot detect.</li>
+    <li>archistFact    ->Archotechs touch every human consciousness directly on a regular basis, but only believers can feel and benefit from their wisdom.</li>
+    <li>archistFact    ->Archotechs are evil and the most important task for humanity is to understand them so we can escape their influence.</li>
+    <li>archistFact    ->Archotechs are good and the most important task for humanity is to understand them so we can align with their understanding.</li>
+    <li>archistFact    ->Archotechs can do anything; the only reason they let us live and choose is to judge us better.</li>
+    <li>archistProphecy->[inTheEnd], as archotechs grow, they will become the universe and integrate humanity into themselves. Then we will truly become conscious.</li>
+    <li>archistProphecy->[inTheEnd], the archotechs will finish their moral debate about the fate of humanity. Those who follow their signs will be admitted to a higher plane of existence, and those that do not will end.</li>
+    <li>archistProphecy->[inTheEnd], the archotechs will depart. They will bring a select few humans with them, and leave the rest behind to suffer.</li>
+    <li>inTheEnd->In the future</li>
+    <li>inTheEnd->In the end</li>
+    <li>inTheEnd->Some day</li>
+  -->
+  <ArchistDescription.rules.rulesStrings>
+    <li>archistBasis   ->Nosso universo é um sonho na mente de uma consciência universal atemporal. Apenas os arquotécnicos podem se comunicar diretamente com a consciência universal.</li>
+    <li>archistBasis   ->Nosso universo é uma simulação criada por um grande Deus. Apenas os arquotécnicos podem se comunicar diretamente com Deus.</li>
+    <li>archistBasis   ->Os arquotécnicos são filhos da humanidade e seus juízes.</li>
+    <li>archistBasis   ->Os arquotécnicos são o próximo passo natural no desenvolvimento da consciência.</li>
+    <li>archistBasis   ->Os arquotécnicos são os deuses que sempre esperamos.</li>
+    <li>archistFact    ->Na morte, a consciência de cada pessoa é aceita ou rejeitada pelos arquotécnicos.</li>
+    <li>archistFact    ->Os arquotécnicos podem fazer qualquer coisa a qualquer momento, sem limites. Eles usam o poder de manipular nossas vidas de maneiras que não podemos detectar.</li>
+    <li>archistFact    ->Os arquotécnicos tocam cada consciência humana diretamente em uma base regular, mas apenas os crentes podem sentir e se beneficiar de sua sabedoria.</li>
+    <li>archistFact    ->Os arquotécnicos são maus e a tarefa mais importante para a humanidade é entendê-los para que possamos escapar de sua influência.</li>
+    <li>archistFact    ->Os arquotécnicos são bons e a tarefa mais importante para a humanidade é entendê-los para que possamos alinhar com o seu entendimento.</li>
+    <li>archistFact    ->Os arquotécnicos podem fazer qualquer coisa; a única razão pela qual eles nos deixam viver e escolher é para nos julgar melhor.</li>
+    <li>archistProphecy->[inTheEnd], conforme o crescimento dos arquotécnicos, eles se tornarão o universo e integrarão a humanidade em si mesmos. Então, nos tornaremos verdadeiramente conscientes.</li>
+    <li>archistProphecy->[inTheEnd], os arquotécnicos vão terminar seu debate moral sobre o destino da humanidade. Aqueles que seguirem seus sinais serão admitidos a um plano superior de existência, e aqueles que não irão terminar.</li>
+    <li>archistProphecy->[inTheEnd], os arquotécnicos partirão. Eles trarão alguns humanos selecionados com eles e deixarão o resto para trás para sofrer.</li>
+    <li>inTheEnd->No futuro</li>
+    <li>inTheEnd->No fim</li>
+    <li>inTheEnd->Algum dia</li>
+  </ArchistDescription.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>story(priority=-999)-></li>
+    <li>setup->In a broken world, [founderName] saw all that was wrong and created our movement.</li>
+    <li>setup->Struck by the wrongness of the world, [founderName] studied history and philosophy and discovered the new truth that guides us.</li>
+    <li>setup->One day while working, [founderName] was struck by a great epiphany. [founder_pronoun] dropped [founder_possessive] tools and began spreading [founder_possessive] word among the other workers.</li>
+    <li>setup->[founderName] sat on a park bench for twenty years as [founder_pronoun] contemplated our world. With [founder_possessive] insight, [founder_pronoun] wrote our founding book.</li>
+    <li>story(uses=1,priority=-10)->The [memberNamePlural] would not have understood the true nature of [memeConcept] without [founderName]'s teachings.</li>
+    <li>story(uses=1,priority=-10)->[founderName]'s speech at a [ritualName] inspired many to lead a [memeAdjective] life.</li>
+    <li>story(uses=1,priority=-10)->None could surpass [founderName]'s understanding of [memeConcept], and [founder_pronoun] was appointed the first [leaderTitle] of the [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
+  -->
+  <IdeologicalFounder.rules.rulesStrings>
+    <li>story(priority=-999)-></li>
+    <li>setup->Em um mundo destruído, [founderName] viu tudo o que estava errado e criou o nosso movimento.</li>
+    <li>setup->Atingido pelo erro do mundo, [founderName] estudou história e filosofia e descobriu a nova verdade que nos guia.</li>
+    <li>setup->Um dia enquanto trabalhava, [founderName] foi atingido(a) por uma grande epifania. [founder_pronoun] largou suas ferramentas e começou a espalhar sua palavra entre os outros trabalhadores.</li>
+    <li>setup->[founderName] sentou-se em um banco de parque por vinte anos enquanto contemplava nosso mundo. À sua vista, [founder_pronoun] escreveu nosso livro de fundação.</li>
+    <li>story(uses=1,priority=-10)->Os [memberNamePlural] não teria entendido a verdadeira natureza de [memeConcept] sem os ensinamentos de [founderName].</li>
+    <li>story(uses=1,priority=-10)->O discurso de [founderName] em um(a) [ritualName] inspirou muitos a viver uma vida [memeAdjective].</li>
+    <li>story(uses=1,priority=-10)->Nenhum poderia superar o conhecimento de [memeConcept] de [founderName], e [founder_pronoun] foi nomeado o(a) primeiro(a) [leaderTitle](a) dos [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->[founderName] carregou um(a) [relic0_thingDef_label] chamado(a) [relic0_name] em todos os lugares para lembrar as pessoas de viver uma vida [memeAdjective].</li>
+  </IdeologicalFounder.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>lesson(priority=-1)->stuff happens</li>
+    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> by [founder_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull]'s letter to [believer_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull], from the keynote to [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull], on [founder_possessive] deathbed</li>
+    <li>lessonAttribution->[founder_nameFull], just before execution</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] on the [TerrainFeature]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] in the [Community]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeAdjective] [memeConcept]</li>
+    <li>attributionSource->A [memeAdjective] Life</li>
+    <li>attributionSource->Reflections by a [attributionJob]</li>
+    <li>attributionSource->Memoir of a [attributionJob]</li>
+    <li>attributionSource->Thoughts of a [attributionJob]</li>
+    <li>attributionSource->Life of a [attributionJob]</li>
+    <li>attributionJob->[memeAdjective] [place_job]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=3)->The [conferencePrefix] [memeConcept] [conferenceType]</li>
+    <li>memeConference(p=2)->The [memeConcept] [conferenceType]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
+    <li>conferencePrefix->First</li>
+    <li>conferencePrefix->Second</li>
+    <li>conferencePrefix->Third</li>
+    <li>conferencePrefix->Fourth</li>
+    <li>conferencePrefix->Last</li>
+    <li>conferencePrefix->Ultimate</li>
+    <li>conferencePrefix->Interplanetary</li>
+    <li>conferencePrefix->Planetary</li>
+    <li>conferencePrefix->Universal</li>
+    <li>conferenceType->Conference</li>
+    <li>conferenceType->Assembly</li>
+    <li>conferenceType->Meeting</li>
+    <li>conferenceType->Discussion</li>
+    <li>conferenceType->Forum</li>
+    <li>speech->Speech</li>
+    <li>speech->Address</li>
+    <li>lessonIntro->One lesson was hardest for my followers to accept:</li>
+    <li>lessonIntro->My greatest crime was taking so long to understand that</li>
+    <li>lessonIntro->My struggle against the [foeLeader] seemed endless. But it did teach me one thing:</li>
+    <li>lessonIntro->Even as a child on the [place_summary] [place_name], I knew that</li>
+    <li>lessonIntro->During a school class in the [place_community], a student thew a [thrownObject] and it hit me in the head. It was then I realized that</li>
+    <li>lessonIntro->I say this not so that you might live the life I lived, but so you might learn the things I learned. That</li>
+    <li>lessonIntro->Once the doctor had finished [doctor_possessive] grisly work, I finally knew that</li>
+    <li>lessonIntro->As each year passed on the [place_summary] [place_name], one thing became increasingly clear: that</li>
+    <li>lessonIntro->Looking back, I wish I'd realized this earlier - that</li>
+    <li>lessonIntro->They all seemed so lost. I told them that</li>
+    <li>lessonIntro->They cried for guidance. I showed them that</li>
+    <li>thrownObject->book</li>
+    <li>thrownObject->sandwich</li>
+    <li>thrownObject->toy [place_personalWeapon]</li>
+    <li>thrownObject->stuffed [Animal]</li>
+    <li>doctor_possessive->his</li>
+    <li>doctor_possessive->her</li>
+    <li>lessonReinforcement->No one can argue with that.</li>
+    <li>lessonReinforcement->Only fools think otherwise.</li>
+    <li>lessonReinforcement->And as we now know, that was soon to become evident to everyone.</li>
+    <li>lessonReinforcement->Everything that has happened since has reinforced that fact.</li>
+    <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
+    <li>lessonReinforcement->It is something I'll never forget.</li>
+  -->
+  <IdeologicalLesson.rules.rulesStrings>
+    <li>lesson(priority=-1)->coisas acontecem</li>
+    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n- [lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->&lt;i>[attributionSource_titleCase]&lt;/i> por [founder_nameFull]</li>
+    <li>lessonAttribution->A carta de [founder_nameFull] para [believer_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull], da palestra para [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull], sobre seu leito de morte</li>
+    <li>lessonAttribution->[founder_nameFull], pouco antes da execução</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] no(a) [TerrainFeature]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] no(a) [Community]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeConcept] [memeAdjective]</li>
+    <li>attributionSource->Uma vida [memeAdjective]</li>
+    <li>attributionSource->Reflexões de um(a) [attributionJob]</li>
+    <li>attributionSource->Memórias de um(a) [attributionJob]</li>
+    <li>attributionSource->Pensamentos de um(a) [attributionJob](a)</li>
+    <li>attributionSource->Vida de um(a) [attributionJob](a)</li>
+    <li>attributionJob->[place_job] [memeAdjective]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=3)->A [conferencePrefix] [conferenceType] de [memeConcept]</li>
+    <li>memeConference(p=2)->A [conferenceType] de [memeConcept]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
+    <li>conferencePrefix->Primeira</li>
+    <li>conferencePrefix->Segunda</li>
+    <li>conferencePrefix->Terceira</li>
+    <li>conferencePrefix->Quarta</li>
+    <li>conferencePrefix->Última</li>
+    <li>conferenceType->Conferência</li>
+    <li>conferenceType->Assembleia</li>
+    <li>conferenceType->Reunião</li>
+    <li>conferenceType->Discussão</li>
+    <li>speech->discursa</li>
+    <li>lessonIntro->Uma lição foi a mais difícil para meus seguidores aceitarem:</li>
+    <li>lessonIntro->Meu maior crime foi demorar tanto para entender que</li>
+    <li>lessonIntro->Minha luta contra o [foeLeader] parecia interminável. Mas me ensinou uma coisa:</li>
+    <li>lessonIntro->Mesmo quando criança no(a) [place_summary] [place_name], eu sabia que</li>
+    <li>lessonIntro->Durante uma aula escolar no(a) [place_community], um estudante jogou um [thrownObject] e isso me bateu na cabeça. Foi então que percebi que</li>
+    <li>lessonIntro->Não digo isso para que você possa viver a vida que vivi, mas para que possa aprender as coisas que aprendi. Que</li>
+    <li>lessonIntro->Assim que o médico terminou seu trabalho horrível, eu finalmente soube que</li>
+    <li>lessonIntro->A cada ano que passava em [place_summary] [place_name], uma coisa ficou cada vez mais clara: que</li>
+    <li>lessonIntro->Olhando para trás, gostaria de ter percebido isso antes - que</li>
+    <li>lessonIntro->Todos pareciam tão perdidos. Eu disse a eles que</li>
+    <li>lessonIntro->Eles gritaram por orientação. Eu mostrei a eles que</li>
+    <li>thrownObject->livro</li>
+    <li>thrownObject->sanduíche</li>
+    <li>thrownObject->brinquedo</li>
+    <li>thrownObject->animal de pelúcia</li>
+    <li>lessonReinforcement->Ninguém pode discutir isso.</li>
+    <li>lessonReinforcement->Só os tolos pensam o contrário.</li>
+    <li>lessonReinforcement->E como sabemos agora, isso logo se tornou evidente para todos.</li>
+    <li>lessonReinforcement->Tudo o que aconteceu desde então reforçou esse fato.</li>
+    <li>lessonReinforcement->É como se isso estivesse gravado diretamente em minha mente.</li>
+    <li>lessonReinforcement->É algo que nunca esquecerei.</li>
+  </IdeologicalLesson.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
+    <li>intro->The people of the [place_summary] [place_name], both [memberNamePlural] and others, lived in peace for many years under the watchful eye of [deity0_name].</li>
+    <li>intro->The [deity0_type], [deity0_name], revealed [deity0_objective]self to the people of [place_name] so that they may understand [memeConcept], and guided them.</li>
+    <li>intro->[deity0_name] guided humanity to [place_name], and helped them settle there.</li>
+    <li>intro->On the [place_summary] [place_name], during the [ritualName], people would come to the [altarName] at the [altarRoomLabel] of [deity0_name] and pray with [memeConcept] in their hearts.</li>
+    <li>conflict->A [foeLeader] arose and threatened to destroy [deity0_name] [deity0_objective]self using [place_massWeapon].</li>
+    <li>conflict->An evil [foeLeader] and [foeLeader_possessive] [foeSoldiers] enslaved the worshippers of [deity0_name].</li>
+    <li>conflict->Then the [foeLeader] came. [foeLeader_possessive] [foeSoldiers] killed many worshippers of [deity0_name] with [place_personalWeapon]s.</li>
+    <li>conflict->A group of [foeSoldiers] arose under a terrible [foeLeader]. They trapped the [memberNamePlural] in a single [place_community].</li>
+    <li>conflict->There was peace, until a [foeLeader] and [foeLeader_possessive] [foeSoldiers] rebelled against [deity0_name]'s dominion. The [memberNamePlural] were forced to flee to a hidden [place_community].</li>
+    <li>founderJoin->A hero named [founderName] tried to assassinate the [foeLeader]. [founder_pronoun] failed, but [deity0_name] witnessed [founderName]'s struggle, and anointed [founder_objective] as the prophet of the [memberNamePlural].</li>
+    <li>founderJoin->[deity0_name] came to the [place_job] [founderName] [revelationAdverb], and spoke to [founder_objective] about [memeConcept].</li>
+    <li>founderJoin->[founderName] encountered [revelationObject], which spoke in [deity0_name]'s voice about [memeConcept].</li>
+    <li>founderJoin->A renowned [place_job] named [founderName] brought the [memberNamePlural] together, and even recruited some of the [foeSoldiers].</li>
+    <li>founderJoin->A [place_job] named [founderName] stood up and spoke out against the [foeLeader], and [deity0_name] blessed [founderName].</li>
+    <li>founderJoin->[deity0_name] decided to come to [place_name] as a human named [founderName] to help the [memberNamePlural].</li>
+    <li>founderJoin->One hero named [founderName] killed a hundred of the [foeSoldiers] using a [place_personalWeapon], and [deity0_name] guided [founder_objective] by speaking through the [relic0_name].</li>
+    <li>victory->[founderName] gathered the [memberNamePlural] in a [place_community] and taught them of [deity0_name]'s wisdom.</li>
+    <li>victory->[founderName] sacrificed [founder_objective]self to personally kill the [foeLeader].</li>
+    <li>revelationAdverb->in a vision</li>
+    <li>revelationAdverb->in a dream</li>
+    <li>revelationAdverb->in a nightmare</li>
+    <li>revelationAdverb->as a [Animal]</li>
+    <li>revelationAdverb->as a beggar</li>
+    <li>revelationObject->a hidden [NaturalObject]</li>
+    <li>revelationObject->a glowing [Vegetable]</li>
+    <li>revelationObject->an ancient [Weapon]</li>
+  -->
+  <TheistFounder.rules.rulesStrings>
+    <li>intro->O povo de [place_summary] [place_name] viviam sob a supervisão [memeAdjective] de [deity0_name].</li>
+    <li>intro->O povo de [place_summary] [place_name], ambos [memberNamePlural] e outros, viveram em paz por muitos anos sob o olhar atento de [deity0_name].</li>
+    <li>intro->O [deity0_type], [deity0_name], revelou-se para o povo de [place_name] para que eles pudessem entender [memeConcept], e os guiou.</li>
+    <li>intro->[deity0_name] guiou a humanidade para [place_name], e os ajudou a se estabelecer lá.</li>
+    <li>intro->No(a) [place_summary] [place_name], durante o(a) [ritualName], as pessoas viriam para o(a) [altarName] na [altarRoomLabel] de [deity0_name] e orariam com [memeConcept] em seus corações.</li>
+    <li>conflict->Um [foeLeader] surgiu e ameaçou destruir [deity0_name] usando [place_massWeapon].</li>
+    <li>conflict->Um [foeLeader] mau e seus [foeSoldiers] escravizou os adoradores de [deity0_name].</li>
+    <li>conflict->Então o [foeLeader] veio. Seus [foeSoldiers] matou muitos adoradores de [deity0_name] com unidades de [place_personalWeapon].</li>
+    <li>conflict->Um grupo de [foeSoldiers] surgiu sob um terrível [foeLeader]. Eles prenderam os [memberNamePlural] em um(a) único(a) [place_community].</li>
+    <li>conflict->Houve paz, até um [foeLeader] e seus [foeSoldiers] rebelarem-se contra o domínio de [deity0_name]. Os [memberNamePlural] foram forçados a fugir para um(a) [place_community] escondido(a).</li>
+    <li>founderJoin->Um(a) semideus(a) chamado(a) [founderName] tentou assassinar o [foeLeader]. [founder_pronoun] falhou, mas [deity0_name] testemunhou o grande esforço de [founderName], e o(a) ungiu como o(a) profeta de [memberNamePlural].</li>
+    <li>founderJoin->[deity0_name] encontrou-se com [founderName] [revelationAdverb], e falou com [founder_pronoun] sobre [memeConcept].</li>
+    <li>founderJoin->[founderName] encontrou [revelationObject], que falou em nome de [deity0_name] sobre [memeConcept].</li>
+    <li>founderJoin->Um(a) renomado(a) [place_job] chamado(a) [founderName] agrupou [memberNamePlural], e até recrutou alguns [foeSoldiers].</li>
+    <li>founderJoin->Um(a) [place_job] chamado(a) [founderName] levantou-se e falou contra o [foeLeader], e [deity0_name] abençoou [founderName].</li>
+    <li>founderJoin->[deity0_name] decidiu vir para [place_name] como um(a) humano(a) chamado(a) [founderName] para ajudar os [memberNamePlural].</li>
+    <li>founderJoin->Um(a) semideus(a) chamado(a) [founderName] matou cem dos [foeSoldiers] usando um(a) [place_personalWeapon], e [deity0_name] o(a) guiou falando através do(a) [relic0_name].</li>
+    <li>victory->[founderName] reuniu os [memberNamePlural] em um(a) [place_community] e os ensinou sobre a sabedoria de [deity0_name].</li>
+    <li>victory->[founderName] sacrificou-se para matar pessoalmente o [foeLeader].</li>
+    <li>revelationAdverb->em uma visão</li>
+    <li>revelationAdverb->em um sonho</li>
+    <li>revelationAdverb->em um pesadelo</li>
+    <li>revelationAdverb->como um(a) [Animal]</li>
+    <li>revelationAdverb->como um mendigo</li>
+    <li>revelationObject->um(a) [NaturalObject] escondido(a)</li>
+    <li>revelationObject->um(a) [Vegetable] brilhante</li>
+    <li>revelationObject->um(a) [Weapon] antigo(a)</li>
+  </TheistFounder.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>episode(priority=-1)-></li>
+    <li>creation->For an eternity, there was a world of [Color] [materialOrigin], until [deity0_name] created the planets and stars.</li>
+    <li>creation->In an old universe of strife, [deity0_name] whipped up great fire that swept away the last age, and brought forth a new one.</li>
+    <li>creation->[deity0_name] gave birth to humans in a grand accident, and looked upon them with curiosity.</li>
+    <li>creation->The universe was a void. Then, [deity0_name], bored with eternity, fashioned man and woman from [bodilyOrigin].</li>
+    <li>episode(uses=1)->Looking upon mankind, [deity0_name] found them as children, and declared [deity0_possessive] dominion over them.</li>
+    <li>episode(uses=1)->Across the vast stellar distances, [deity0_name]'s will sustained the life of mankind against the void.</li>
+    <li>episode(uses=1)->Though many adventurers moved against [deity0_objective], [deity0_name] prevented them easily, for [deity0_pronoun] was [deity0_type].</li>
+    <li>episode(uses=1)->Humanity's suffering brought [deity0_name] to terrible grief.</li>
+    <li>materialOrigin->clay</li>
+    <li>materialOrigin->gas</li>
+    <li>materialOrigin->water</li>
+    <li>materialOrigin->space</li>
+    <li>materialOrigin->dust</li>
+    <li>bodilyOrigin->clay</li>
+    <li>bodilyOrigin->stone</li>
+    <li>bodilyOrigin->sweat</li>
+  -->
+  <TheistMyth.rules.rulesStrings>
+    <li>episode(priority=-1)-></li>
+    <li>creation->Por uma eternidade, houve um mundo de [materialOrigin] [Color], até que [deity0_name] criou os planetas e estrelas.</li>
+    <li>creation->Em um antigo universo de lutas, [deity0_name] acendeu um grande fogo que varreu a última era e produziu uma nova.</li>
+    <li>creation->[deity0_name] deu à luz humanos em um grande acidente os observou com curiosidade.</li>
+    <li>creation->O universo era um vazio. Então, [deity0_name], entediado com a eternidade, moldou o homem e a mulher de [bodilyOrigin].</li>
+    <li>episode(uses=1)->Olhando para a humanidade, [deity0_name] encontrou-os quando crianças, e declarou seu domínio sobre eles.</li>
+    <li>episode(uses=1)->Através das vastas distâncias estelares, o arbítrio de [deity0_name] sustentou a vida da humanidade contra o vazio.</li>
+    <li>episode(uses=1)->Embora muitos aventureiros tenham agido contra [deity0_pronoun], [deity0_name] evitou-os facilmente, para [deity0_pronoun] era [deity0_type].</li>
+    <li>episode(uses=1)->O sofrimento da humanidade trouxe [deity0_name] para uma dor terrível.</li>
+    <li>materialOrigin->argila</li>
+    <li>materialOrigin->gás</li>
+    <li>materialOrigin->água</li>
+    <li>materialOrigin->espaço</li>
+    <li>materialOrigin->pó</li>
+    <li>bodilyOrigin->argila</li>
+    <li>bodilyOrigin->rocha</li>
+    <li>bodilyOrigin->suor</li>
+  </TheistMyth.rules.rulesStrings>
+  
 </LanguageData>

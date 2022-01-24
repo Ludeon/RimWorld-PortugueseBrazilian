@@ -27,7 +27,7 @@
   <!-- EN: Died on the {0} -->
   <DiedOn>Morreu no {0}</DiedOn>
   <!-- EN: Nobody -->
-  <Nobody>Nobody</Nobody>
+  <Nobody>Ninguém</Nobody>
   <!-- EN: Unowned -->
   <Unowned>Sem dono</Unowned>
   <!-- EN: Dead for {0} -->
@@ -62,6 +62,8 @@
   <NextTendIn>Pode ser tratado em {0}</NextTendIn>
   <!-- EN: Tend quality -->
   <TendQuality>Qualidade do tratamento</TendQuality>
+  <!-- EN: Total tend quality -->
+  <DisappearsAtTotalTendQuality>Qualidade total do tratamento</DisappearsAtTotalTendQuality>
   <!-- EN: no {0} -->
   <MissingMedicalBillIngredient>sem {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
@@ -115,7 +117,7 @@
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perderá {POINTS} de licença não usados com {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} manterá todos os níveis de psylink e psycasts.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} manterá todos seus níveis psínculos e psinjurações.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconhecido</UnknownLower>
   <!-- EN: On -->
@@ -379,9 +381,9 @@
   <!-- EN: your caravan -->
   <yourCaravan>sua caravana</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>Selvageria</CreatureWildness>
+  <CreatureWildness>{0} de selvageria</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>Treinabilidade</CreatureTrainability>
+  <CreatureTrainability>{0} de treinabilidade</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
   <CreatureFollowDrafted>Seguir o mestre enquanto estiver alistado</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
@@ -414,6 +416,8 @@
   <Location>localização</Location>
   <!-- EN: animals -->
   <AnimalsLower>animais</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>itens</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -522,6 +526,10 @@
   <AttackToDestroy>Ataque isso para destruí-lo.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>Remova isso atacando-o.</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>Comida</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>Ingredientes</ThoughtFoodEatenIngredients>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -1122,11 +1130,11 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Componente ainda não está pronto</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Charlon Whitestone(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e irá atrair gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
+  <HibernateWarning>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e irá atrair gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>O reator está pronto para ser ligado.\n\nO processo levará cerca de 15 dias e a assinatura de energia será detectada a uma grande distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator. Ele avisa que o processo levará cerca de 15 dias.</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator. Ele avisa que o processo levará cerca de 15 dias.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>O reator está pronto para ligar. O processo levará cerca de 15 dias.</HibernateWarningStandalonePacifist>
 
@@ -1402,9 +1410,9 @@
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>Ajuda dos visitantes</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>Novo nível de psylink</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>Novo nível psínculo</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>{PAWNNAME} ganha psylink</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME} ganha psínculo</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>Pilhagem do transporte</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
@@ -1480,8 +1488,8 @@
   <RitualTakesPlaceAt>Acontece em</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>Qualquer {0}</RitualTargetThingDefsInfo>
-  <!-- EN: Attending -->
-  <LordReportAttending>Comparecendo</LordReportAttending>
+  <!-- EN: Attending {0} -->
+  <LordReportAttending>Comparecendo ao(à) {0}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} foi cancelado.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1551,13 +1559,13 @@
   <DateRitualNoObligation>{0} é um ritual de data específica. Você poderá iniciá-lo em {1}, no {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>Replace with</PreceptReplaceWith>
+  <PreceptReplaceWith>Substituir com</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>Ritual seat of {IDEOS}</RitualSeatOf>
+  <RitualSeatOf>Assento de ritual de {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Qualidade esperada</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>Starting quality</StartingQuality>
+  <StartingQuality>Qualidade inicial</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>Duração esperada</ExpectedRitualDuration>
   
@@ -1571,7 +1579,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>Expectativas de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Any of these</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Nenhum desses</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Substitui {PAWN_labelShort}</RitualRoleReplaces>
 
@@ -1590,5 +1598,22 @@
   <OutcomeLetterLabel>{RITUALLABEL} {OUTCOMELABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>{0} máx.</MaxValue>
-  
+
+  <!-- EN: {0} of -->
+  <ThingOf>{0} de</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>{0} de {1}</ThingOfSource>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>deve ser redigido.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>habilidade em recarga. Ele estará disponível em {0}.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>habilidade já está na fila.</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>Habilidade pronta: {0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef} está pronto(a) para usar {1}.</AbilityReadyText>
+
 </LanguageData>

@@ -78,6 +78,7 @@
     <li>AdjectiveNatural->Words/Adjectives/Natural</li>
     <li>VerbFriendly->Words/Verbs/Friendly</li>
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+    <li>Translator->Names/Translators</li>
   </GlobalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>Trans->of</li>
@@ -137,7 +138,6 @@
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
-    <li>Quantity_adjphrase->dois</li>
     <li>Quantity_adjphrase->três</li>
     <li>Quantity_adjphrase->quatro</li>
     <li>Quantity_adjphrase->cinco</li>
@@ -146,9 +146,6 @@
     <li>Quantity_adjphrase->oito</li>
     <li>Quantity_adjphrase->nove</li>
     <li>Quantity_adjphrase->dez</li>
-    <li>Quantity_adjphrase->vários</li>
-    <li>Quantity_adjphrase->um grupo de</li>
-    <li>Quantity_adjphrase->um grande grupo de</li>
     <li>Quantity_adjphrase->dezenas de</li>
     <li>Quantity_adjphrase->centenas de</li>
     <li>Quantity_adjphrase->mil</li>
@@ -156,9 +153,12 @@
     <li>Shape->triângulo</li>
     <li>Shape->quadrado</li>
     <li>Shape->retângulo</li>
+    <li>Shape->paralelogramo</li>
+    <li>Shape->trapézio</li>
+    <li>Shape->pentágono</li>
+    <li>Shape->hexágono</li>
+    <li>Shape->losango</li>
     <li>Shape->cone</li>
-    <li>Shape->linha</li>
-    <li>Shape->coração</li>
     <li>Shape->estrela</li>
     <li>Shape->círculo</li>
     <li>Shape->elipse</li>
@@ -225,9 +225,9 @@
     <li>TalkTopicHeavy(p=0.08)->a conexão entre [talktopicheavyfile] e [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->o relacionamento entre [talktopicheavyfile] e [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
-    <li>TalkTopicLight->[Vegetable]</li>
-    <li>TalkTopicLight->comer [Vegetable]</li>
-    <li>TalkTopicLight->cozinhando com [Vegetable]</li>
+    <li>TalkTopicLight->[Vegetable]s</li>
+    <li>TalkTopicLight->comer [Vegetable]s</li>
+    <li>TalkTopicLight->cozinhar com [Vegetable]s</li>
     <li>TalkTopicLight->[Game]</li>
     <li>TalkTopicLight->jogar [Game]</li>
     <li>TalkTopicLight->praticar [Game]</li>

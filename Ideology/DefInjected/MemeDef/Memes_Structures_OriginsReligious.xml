@@ -1,642 +1,642 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-    <!-- EN: Christian origin -->
-    <Structure_OriginChristian.label>origem cristã</Structure_OriginChristian.label>
-    <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-    <Structure_OriginChristian.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo cristianismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginChristian.description>
-    <!-- EN: church -->
-    <Structure_OriginChristian.worshipRoomLabel>igreja</Structure_OriginChristian.worshipRoomLabel>
-    <!-- EN:
-        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->bishop</li>
-        <li>memeLeaderNoun->cardinal</li>
-        <li>memeLeaderNoun->pope</li>
-        <li>memeLeaderNoun->pontiff</li>
-        <li>memeLeaderNoun->legate</li>
-        <li>memeLeaderNoun->nuncio</li>
-        <li>memeLeaderNoun->divus</li>
-        <li>memeLeaderNoun->ecclesiast</li>
-        <li>memeLeaderAdjective->holy</li>
-        <li>memeLeaderAdjective->divine</li>
-        <li>memeLeaderAdjective->Christ's</li>
-        <li>memeLeaderAdjective->God's</li>
-        <li>memeMoralist->priest</li>
-        <li>memeMoralist->pastor</li>
-        <li>memeMoralist->cleric</li>
-        <li>memeMoralist->preacher</li>
-        <li>memeMoralist->rector</li>
-        <li>memeMoralist->abbot</li>
-    -->
-    <Structure_OriginChristian.generalRules.rulesStrings>
-        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->bispo</li>
-        <li>memeLeaderNoun->cardial</li>
-        <li>memeLeaderNoun->papa</li>
-        <li>memeLeaderNoun->pontífice</li>
-        <li>memeLeaderNoun->embaixador</li>
-        <li>memeLeaderNoun->núncio</li>
-        <li>memeLeaderNoun->eclesiástico</li>
-        <li>memeLeaderAdjective->sagrado(a)</li>
-        <li>memeLeaderAdjective->divino(a)</li>
-        <li>memeLeaderAdjective->cristão(ã)</li>
-        <li>memeMoralist->padre</li>
-        <li>memeMoralist->pastor</li>
-        <li>memeMoralist->clérigo</li>
-        <li>memeMoralist->pregador</li>
-        <li>memeMoralist->reitor</li>
-        <li>memeMoralist->reitor</li>
-    </Structure_OriginChristian.generalRules.rulesStrings>
-    <!-- EN: Christianity -->
-    <Structure_OriginChristian.symbolPacks.0.ideoName>cristandade</Structure_OriginChristian.symbolPacks.0.ideoName>
-    <!-- EN: Christian -->
-    <Structure_OriginChristian.symbolPacks.0.adjective>cristão(ã)</Structure_OriginChristian.symbolPacks.0.adjective>
-    <!-- EN: Christian -->
-    <Structure_OriginChristian.symbolPacks.0.member>cristão(ã)</Structure_OriginChristian.symbolPacks.0.member>
-    <!-- EN: Catholicism -->
-    <Structure_OriginChristian.symbolPacks.1.ideoName>catolicismo</Structure_OriginChristian.symbolPacks.1.ideoName>
-    <!-- EN: Catholic -->
-    <Structure_OriginChristian.symbolPacks.1.adjective>católico(a)</Structure_OriginChristian.symbolPacks.1.adjective>
-    <!-- EN: Catholic -->
-    <Structure_OriginChristian.symbolPacks.1.member>católico(a)</Structure_OriginChristian.symbolPacks.1.member>
-    <!-- EN: Protestantism -->
-    <Structure_OriginChristian.symbolPacks.2.ideoName>protestantismo</Structure_OriginChristian.symbolPacks.2.ideoName>
-    <!-- EN: Protestant -->
-    <Structure_OriginChristian.symbolPacks.2.adjective>protestante</Structure_OriginChristian.symbolPacks.2.adjective>
-    <!-- EN: Protestant -->
-    <Structure_OriginChristian.symbolPacks.2.member>protestante</Structure_OriginChristian.symbolPacks.2.member>
-    <!-- EN: Orthodoxy -->
-    <Structure_OriginChristian.symbolPacks.3.ideoName>ortodoxia</Structure_OriginChristian.symbolPacks.3.ideoName>
-    <!-- EN: Orthodoxy -->
-    <Structure_OriginChristian.symbolPacks.3.adjective>ortodoxo(a)</Structure_OriginChristian.symbolPacks.3.adjective>
-    <!-- EN: Orthodoxist -->
-    <Structure_OriginChristian.symbolPacks.3.member>ortodoxo(a)</Structure_OriginChristian.symbolPacks.3.member>
-    <!-- EN: Nestorianism -->
-    <Structure_OriginChristian.symbolPacks.4.ideoName>nestorianismo</Structure_OriginChristian.symbolPacks.4.ideoName>
-    <!-- EN: Nestorian -->
-    <Structure_OriginChristian.symbolPacks.4.adjective>nestoriano(a)</Structure_OriginChristian.symbolPacks.4.adjective>
-    <!-- EN: Nestorian -->
-    <Structure_OriginChristian.symbolPacks.4.member>nestoriano(a)</Structure_OriginChristian.symbolPacks.4.member>
-    <!-- EN: Anglicanism -->
-    <Structure_OriginChristian.symbolPacks.5.ideoName>anglicanismo</Structure_OriginChristian.symbolPacks.5.ideoName>
-    <!-- EN: Anglican -->
-    <Structure_OriginChristian.symbolPacks.5.adjective>anglicano(a)</Structure_OriginChristian.symbolPacks.5.adjective>
-    <!-- EN: Anglican -->
-    <Structure_OriginChristian.symbolPacks.5.member>anglicano(a)</Structure_OriginChristian.symbolPacks.5.member>
-    <!-- EN: Baptism -->
-    <Structure_OriginChristian.symbolPacks.6.ideoName>batismo</Structure_OriginChristian.symbolPacks.6.ideoName>
-    <!-- EN: Baptist -->
-    <Structure_OriginChristian.symbolPacks.6.adjective>batista</Structure_OriginChristian.symbolPacks.6.adjective>
-    <!-- EN: Baptist -->
-    <Structure_OriginChristian.symbolPacks.6.member>batista</Structure_OriginChristian.symbolPacks.6.member>
-    <!-- EN: Anabaptism -->
-    <Structure_OriginChristian.symbolPacks.7.ideoName>anabatismo</Structure_OriginChristian.symbolPacks.7.ideoName>
-    <!-- EN: Anabaptist -->
-    <Structure_OriginChristian.symbolPacks.7.adjective>anabatista</Structure_OriginChristian.symbolPacks.7.adjective>
-    <!-- EN: Anabaptist -->
-    <Structure_OriginChristian.symbolPacks.7.member>anabatista</Structure_OriginChristian.symbolPacks.7.member>
-    <!-- EN: Calvinism -->
-    <Structure_OriginChristian.symbolPacks.8.ideoName>calvinismo</Structure_OriginChristian.symbolPacks.8.ideoName>
-    <!-- EN: Calvinist -->
-    <Structure_OriginChristian.symbolPacks.8.adjective>calvinista</Structure_OriginChristian.symbolPacks.8.adjective>
-    <!-- EN: Calvinist -->
-    <Structure_OriginChristian.symbolPacks.8.member>calvinista</Structure_OriginChristian.symbolPacks.8.member>
-    <!-- EN: Lutheranism -->
-    <Structure_OriginChristian.symbolPacks.9.ideoName>luteranismo</Structure_OriginChristian.symbolPacks.9.ideoName>
-    <!-- EN: Lutheran -->
-    <Structure_OriginChristian.symbolPacks.9.adjective>luterano(a)</Structure_OriginChristian.symbolPacks.9.adjective>
-    <!-- EN: Lutheran -->
-    <Structure_OriginChristian.symbolPacks.9.member>luterano(a)</Structure_OriginChristian.symbolPacks.9.member>
-    <!-- EN: Adventism -->
-    <Structure_OriginChristian.symbolPacks.10.ideoName>adventismo</Structure_OriginChristian.symbolPacks.10.ideoName>
-    <!-- EN: Adventist -->
-    <Structure_OriginChristian.symbolPacks.10.adjective>adventista</Structure_OriginChristian.symbolPacks.10.adjective>
-    <!-- EN: Adventist -->
-    <Structure_OriginChristian.symbolPacks.10.member>adventista</Structure_OriginChristian.symbolPacks.10.member>
-    <!-- EN: Methodism -->
-    <Structure_OriginChristian.symbolPacks.11.ideoName>metodismo</Structure_OriginChristian.symbolPacks.11.ideoName>
-    <!-- EN: Methodist -->
-    <Structure_OriginChristian.symbolPacks.11.adjective>metodista</Structure_OriginChristian.symbolPacks.11.adjective>
-    <!-- EN: Methodist -->
-    <Structure_OriginChristian.symbolPacks.11.member>metodista</Structure_OriginChristian.symbolPacks.11.member>
-    <!-- EN: Mormonism -->
-    <Structure_OriginChristian.symbolPacks.12.ideoName>mormonismo</Structure_OriginChristian.symbolPacks.12.ideoName>
-    <!-- EN: Mormon -->
-    <Structure_OriginChristian.symbolPacks.12.adjective>mórmon</Structure_OriginChristian.symbolPacks.12.adjective>
-    <!-- EN: Mormon -->
-    <Structure_OriginChristian.symbolPacks.12.member>mórmon</Structure_OriginChristian.symbolPacks.12.member>
-    <!-- EN: Theonomy -->
-    <Structure_OriginChristian.symbolPacks.13.ideoName>teonomia</Structure_OriginChristian.symbolPacks.13.ideoName>
-    <!-- EN: Theonomic -->
-    <Structure_OriginChristian.symbolPacks.13.adjective>teonômico(a)</Structure_OriginChristian.symbolPacks.13.adjective>
-    <!-- EN: Theonomist -->
-    <Structure_OriginChristian.symbolPacks.13.member>teonomista</Structure_OriginChristian.symbolPacks.13.member>
-
-    <!-- EN: Islamic origin -->
-    <Structure_OriginIslamic.label>origem islâmica</Structure_OriginIslamic.label>
-    <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islamism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-    <Structure_OriginIslamic.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo islamismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginIslamic.description>
-    <!-- EN: mosque -->
-    <Structure_OriginIslamic.worshipRoomLabel>mesquita</Structure_OriginIslamic.worshipRoomLabel>
-    <!-- EN:
-        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->mullah</li>
-        <li>memeLeaderNoun->imam</li>
-        <li>memeLeaderNoun->caliph</li>
-        <li>memeLeaderNoun->mufti</li>
-        <li>memeLeaderNoun->almami</li>
-        <li>memeLeaderNoun->kyai</li>
-        <li>memeLeaderNoun->ayatollah</li>
-        <li>memeLeaderAdjective->grand</li>
-        <li>memeMoralist(p=4)->imam</li>
-        <li>memeMoralist->qadi</li>
-        <li>memeMoralist->alim</li>
-        <li>memeMoralist->allamah</li>
-        <li>memeMoralist->muezzin</li>
-        <li>memeMoralist->mujtahid</li>
-        <li>memeMoralist->cleric</li>
-    -->
-    <Structure_OriginIslamic.generalRules.rulesStrings>
-        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->mulá</li>
-        <li>memeLeaderNoun->imam</li>
-        <li>memeLeaderNoun->califa</li>
-        <li>memeLeaderNoun->mufti</li>
-        <li>memeLeaderNoun->almami</li>
-        <li>memeLeaderNoun->kyai</li>
-        <li>memeLeaderNoun->aiatolá</li>
-        <li>memeLeaderAdjective->grandioso(a)</li>
-        <li>memeMoralist(p=4)->imam</li>
-        <li>memeMoralist->qadi</li>
-        <li>memeMoralist->alim</li>
-        <li>memeMoralist->alamá</li>
-        <li>memeMoralist->muezim</li>
-        <li>memeMoralist->mujtahid</li>
-        <li>memeMoralist->clérigo</li>
-    </Structure_OriginIslamic.generalRules.rulesStrings>
-    <!-- EN: Islam -->
-    <Structure_OriginIslamic.symbolPacks.0.ideoName>islamismo</Structure_OriginIslamic.symbolPacks.0.ideoName>
-    <!-- EN: Islamic -->
-    <Structure_OriginIslamic.symbolPacks.0.adjective>islâmico(a)</Structure_OriginIslamic.symbolPacks.0.adjective>
-    <!-- EN: Muslim -->
-    <Structure_OriginIslamic.symbolPacks.0.member>muçulmano(a)</Structure_OriginIslamic.symbolPacks.0.member>
-    <!-- EN: Islamism -->
-    <Structure_OriginIslamic.symbolPacks.1.ideoName>islamismo</Structure_OriginIslamic.symbolPacks.1.ideoName>
-    <!-- EN: Islamist -->
-    <Structure_OriginIslamic.symbolPacks.1.adjective>islamista</Structure_OriginIslamic.symbolPacks.1.adjective>
-    <!-- EN: Islamist -->
-    <Structure_OriginIslamic.symbolPacks.1.member>islamista</Structure_OriginIslamic.symbolPacks.1.member>
-    <!-- EN: Shiism -->
-    <Structure_OriginIslamic.symbolPacks.2.ideoName>xiismo</Structure_OriginIslamic.symbolPacks.2.ideoName>
-    <!-- EN: Shiite -->
-    <Structure_OriginIslamic.symbolPacks.2.adjective>xiita</Structure_OriginIslamic.symbolPacks.2.adjective>
-    <!-- EN: Shiite -->
-    <Structure_OriginIslamic.symbolPacks.2.member>xiita</Structure_OriginIslamic.symbolPacks.2.member>
-    <!-- EN: Sunnism -->
-    <Structure_OriginIslamic.symbolPacks.3.ideoName>sunismo</Structure_OriginIslamic.symbolPacks.3.ideoName>
-    <!-- EN: Sunni -->
-    <Structure_OriginIslamic.symbolPacks.3.adjective>sunita</Structure_OriginIslamic.symbolPacks.3.adjective>
-    <!-- EN: Sunni -->
-    <Structure_OriginIslamic.symbolPacks.3.member>sunita</Structure_OriginIslamic.symbolPacks.3.member>
-    <!-- EN: Ibadism -->
-    <Structure_OriginIslamic.symbolPacks.4.ideoName>ibadismo</Structure_OriginIslamic.symbolPacks.4.ideoName>
-    <!-- EN: Ibadi -->
-    <Structure_OriginIslamic.symbolPacks.4.adjective>ibadita</Structure_OriginIslamic.symbolPacks.4.adjective>
-    <!-- EN: Ibadi -->
-    <Structure_OriginIslamic.symbolPacks.4.member>ibadita</Structure_OriginIslamic.symbolPacks.4.member>
-    <!-- EN: Ismailism -->
-    <Structure_OriginIslamic.symbolPacks.5.ideoName>ismaelismo</Structure_OriginIslamic.symbolPacks.5.ideoName>
-    <!-- EN: Ismaili -->
-    <Structure_OriginIslamic.symbolPacks.5.adjective>ismaelita</Structure_OriginIslamic.symbolPacks.5.adjective>
-    <!-- EN: Ismaili -->
-    <Structure_OriginIslamic.symbolPacks.5.member>ismaelita</Structure_OriginIslamic.symbolPacks.5.member>
-    <!-- EN: Mustalism -->
-    <Structure_OriginIslamic.symbolPacks.6.ideoName>mustalismo</Structure_OriginIslamic.symbolPacks.6.ideoName>
-    <!-- EN: Mustalic -->
-    <Structure_OriginIslamic.symbolPacks.6.adjective>mustálico(a)</Structure_OriginIslamic.symbolPacks.6.adjective>
-    <!-- EN: Mustali -->
-    <Structure_OriginIslamic.symbolPacks.6.member>mustalita</Structure_OriginIslamic.symbolPacks.6.member>
-    <!-- EN: Tayyibism -->
-    <Structure_OriginIslamic.symbolPacks.7.ideoName>taibismo</Structure_OriginIslamic.symbolPacks.7.ideoName>
-    <!-- EN: Tayyibic -->
-    <Structure_OriginIslamic.symbolPacks.7.adjective>taíbico(a)</Structure_OriginIslamic.symbolPacks.7.adjective>
-    <!-- EN: Tayyibist -->
-    <Structure_OriginIslamic.symbolPacks.7.member>taibista</Structure_OriginIslamic.symbolPacks.7.member>
-    <!-- EN: Nizalism -->
-    <Structure_OriginIslamic.symbolPacks.8.ideoName>nizalismo</Structure_OriginIslamic.symbolPacks.8.ideoName>
-    <!-- EN: Nizalist -->
-    <Structure_OriginIslamic.symbolPacks.8.adjective>nizalista</Structure_OriginIslamic.symbolPacks.8.adjective>
-    <!-- EN: Nizalist -->
-    <Structure_OriginIslamic.symbolPacks.8.member>nizalista</Structure_OriginIslamic.symbolPacks.8.member>
-    <!-- EN: Sufrism -->
-    <Structure_OriginIslamic.symbolPacks.9.ideoName>sufrismo</Structure_OriginIslamic.symbolPacks.9.ideoName>
-    <!-- EN: Surfrist -->
-    <Structure_OriginIslamic.symbolPacks.9.adjective>sufrista</Structure_OriginIslamic.symbolPacks.9.adjective>
-    <!-- EN: Surfist -->
-    <Structure_OriginIslamic.symbolPacks.9.member>sufista</Structure_OriginIslamic.symbolPacks.9.member>
-    <!-- EN: Qadirism -->
-    <Structure_OriginIslamic.symbolPacks.10.ideoName>qadirismo</Structure_OriginIslamic.symbolPacks.10.ideoName>
-    <!-- EN: Qadirist -->
-    <Structure_OriginIslamic.symbolPacks.10.adjective>qadirista</Structure_OriginIslamic.symbolPacks.10.adjective>
-    <!-- EN: Qadirist -->
-    <Structure_OriginIslamic.symbolPacks.10.member>qadirista</Structure_OriginIslamic.symbolPacks.10.member>
-    <!-- EN: Zahirism -->
-    <Structure_OriginIslamic.symbolPacks.11.ideoName>zahirismo</Structure_OriginIslamic.symbolPacks.11.ideoName>
-    <!-- EN: Zahirist -->
-    <Structure_OriginIslamic.symbolPacks.11.adjective>zahirista</Structure_OriginIslamic.symbolPacks.11.adjective>
-    <!-- EN: Zahirist -->
-    <Structure_OriginIslamic.symbolPacks.11.member>zahirista</Structure_OriginIslamic.symbolPacks.11.member>
-    <!-- EN: Azraqism -->
-    <Structure_OriginIslamic.symbolPacks.12.ideoName>azraqismo</Structure_OriginIslamic.symbolPacks.12.ideoName>
-    <!-- EN: Azraqi -->
-    <Structure_OriginIslamic.symbolPacks.12.adjective>azraqita</Structure_OriginIslamic.symbolPacks.12.adjective>
-    <!-- EN: Azraqi -->
-    <Structure_OriginIslamic.symbolPacks.12.member>azraqita</Structure_OriginIslamic.symbolPacks.12.member>
-    <!-- EN: Wahhabism -->
-    <Structure_OriginIslamic.symbolPacks.13.ideoName>wahhabismo</Structure_OriginIslamic.symbolPacks.13.ideoName>
-    <!-- EN: Wahhabi -->
-    <Structure_OriginIslamic.symbolPacks.13.adjective>wahhabita</Structure_OriginIslamic.symbolPacks.13.adjective>
-    <!-- EN: Wahhabi -->
-    <Structure_OriginIslamic.symbolPacks.13.member>wahhabita</Structure_OriginIslamic.symbolPacks.13.member>
-    <!-- EN: Caliphate -->
-    <Structure_OriginIslamic.symbolPacks.14.ideoName>califado</Structure_OriginIslamic.symbolPacks.14.ideoName>
-    <!-- EN: Caliphic -->
-    <Structure_OriginIslamic.symbolPacks.14.adjective>califista</Structure_OriginIslamic.symbolPacks.14.adjective>
-    <!-- EN: Caliphist -->
-    <Structure_OriginIslamic.symbolPacks.14.member>califista</Structure_OriginIslamic.symbolPacks.14.member>
-
-    <!-- EN: Hindu origin -->
-    <Structure_OriginHindu.label>origem hindu</Structure_OriginHindu.label>
-    <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-    <Structure_OriginHindu.description>Esta é uma variante da estrutura teísta encarnada. Essa ideoligia é descendente do antigo hinduismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginHindu.description>
-    <!-- EN: shrine -->
-    <Structure_OriginHindu.worshipRoomLabel>sacrário</Structure_OriginHindu.worshipRoomLabel>
-    <!-- EN:
-        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->mahatma</li>
-        <li>memeLeaderNoun->ishvara</li>
-        <li>memeLeaderNoun->yogi</li>
-        <li>memeLeaderNoun->pandit</li>
-        <li>memeLeaderNoun->avatar</li>
-        <li>memeLeaderAdjective->sacred</li>
-        <li>memeLeaderAdjective->hindic</li>
-        <li>memeLeaderAdjective->indic</li>
-        <li>memeLeaderAdjective->yogic</li>
-        <li>memeLeaderAdjective->tirth</li>
-        <li>memeMoralist(p=3)->pujari</li>
-        <li>memeMoralist->purohit</li>
-        <li>memeMoralist->archaka</li>
-        <li>memeMoralist->brahmin</li>
-    -->
-    <Structure_OriginHindu.generalRules.rulesStrings>
-        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->mahatma</li>
-        <li>memeLeaderNoun->ishvara</li>
-        <li>memeLeaderNoun->iogue</li>
-        <li>memeLeaderNoun->pandit</li>
-        <li>memeLeaderNoun->avatar</li>
-        <li>memeLeaderAdjective->sagrado(a)</li>
-        <li>memeLeaderAdjective->hindi</li>
-        <li>memeLeaderAdjective->índico(a)</li>
-        <li>memeLeaderAdjective->iogue</li>
-        <li>memeLeaderAdjective->tirth</li>
-        <li>memeMoralist(p=3)->pujari</li>
-        <li>memeMoralist->purohit</li>
-        <li>memeMoralist->archaka</li>
-        <li>memeMoralist->brâmane</li>
-    </Structure_OriginHindu.generalRules.rulesStrings>
-    <!-- EN: Hinduism -->
-    <Structure_OriginHindu.symbolPacks.0.ideoName>Hinduísmo</Structure_OriginHindu.symbolPacks.0.ideoName>
-    <!-- EN: Hindu -->
-    <Structure_OriginHindu.symbolPacks.0.adjective>hindu</Structure_OriginHindu.symbolPacks.0.adjective>
-    <!-- EN: Hindu -->
-    <Structure_OriginHindu.symbolPacks.0.member>hindu</Structure_OriginHindu.symbolPacks.0.member>
-    <!-- EN: Induism -->
-    <Structure_OriginHindu.symbolPacks.1.ideoName>Induísmo</Structure_OriginHindu.symbolPacks.1.ideoName>
-    <!-- EN: Indu -->
-    <Structure_OriginHindu.symbolPacks.1.adjective>indu</Structure_OriginHindu.symbolPacks.1.adjective>
-    <!-- EN: Indu -->
-    <Structure_OriginHindu.symbolPacks.1.member>indu</Structure_OriginHindu.symbolPacks.1.member>
-    <!-- EN: Sinduism -->
-    <Structure_OriginHindu.symbolPacks.2.ideoName>sinduísmo</Structure_OriginHindu.symbolPacks.2.ideoName>
-    <!-- EN: Sindu -->
-    <Structure_OriginHindu.symbolPacks.2.adjective>sindu</Structure_OriginHindu.symbolPacks.2.adjective>
-    <!-- EN: Sindu -->
-    <Structure_OriginHindu.symbolPacks.2.member>sindu</Structure_OriginHindu.symbolPacks.2.member>
-    <!-- EN: Tantra -->
-    <Structure_OriginHindu.symbolPacks.3.ideoName>Tantra</Structure_OriginHindu.symbolPacks.3.ideoName>
-    <!-- EN: Tantric -->
-    <Structure_OriginHindu.symbolPacks.3.adjective>tântrico(a)</Structure_OriginHindu.symbolPacks.3.adjective>
-    <!-- EN: Tantran -->
-    <Structure_OriginHindu.symbolPacks.3.member>tântrico(a)</Structure_OriginHindu.symbolPacks.3.member>
-    <!-- EN: Vedism -->
-    <Structure_OriginHindu.symbolPacks.4.ideoName>Vedismo</Structure_OriginHindu.symbolPacks.4.ideoName>
-    <!-- EN: Vedic -->
-    <Structure_OriginHindu.symbolPacks.4.adjective>védico(a)</Structure_OriginHindu.symbolPacks.4.adjective>
-    <!-- EN: Vedi -->
-    <Structure_OriginHindu.symbolPacks.4.member>vedi</Structure_OriginHindu.symbolPacks.4.member>
-    <!-- EN: Dharmism -->
-    <Structure_OriginHindu.symbolPacks.5.ideoName>Darmismo</Structure_OriginHindu.symbolPacks.5.ideoName>
-    <!-- EN: Dharmic -->
-    <Structure_OriginHindu.symbolPacks.5.adjective>dármico(a)</Structure_OriginHindu.symbolPacks.5.adjective>
-    <!-- EN: Dharmi -->
-    <Structure_OriginHindu.symbolPacks.5.member>darmi</Structure_OriginHindu.symbolPacks.5.member>
-    <!-- EN: Vaishmaya -->
-    <Structure_OriginHindu.symbolPacks.6.ideoName>Vaixá</Structure_OriginHindu.symbolPacks.6.ideoName>
-    <!-- EN: Vaishmayan -->
-    <Structure_OriginHindu.symbolPacks.6.adjective>vaixá</Structure_OriginHindu.symbolPacks.6.adjective>
-    <!-- EN: Vaishnava -->
-    <Structure_OriginHindu.symbolPacks.6.member>vaixá</Structure_OriginHindu.symbolPacks.6.member>
-    <!-- EN: Shaivmaya -->
-    <Structure_OriginHindu.symbolPacks.7.ideoName>Xivaísmo</Structure_OriginHindu.symbolPacks.7.ideoName>
-    <!-- EN: Shaivan -->
-    <Structure_OriginHindu.symbolPacks.7.adjective>xiva</Structure_OriginHindu.symbolPacks.7.adjective>
-    <!-- EN: Shaiva -->
-    <Structure_OriginHindu.symbolPacks.7.member>xiva</Structure_OriginHindu.symbolPacks.7.member>
-    <!-- EN: Yoga -->
-    <Structure_OriginHindu.symbolPacks.8.ideoName>Ioga</Structure_OriginHindu.symbolPacks.8.ideoName>
-    <!-- EN: Yogic -->
-    <Structure_OriginHindu.symbolPacks.8.adjective>iogue</Structure_OriginHindu.symbolPacks.8.adjective>
-    <!-- EN: Yogi -->
-    <Structure_OriginHindu.symbolPacks.8.member>iogue</Structure_OriginHindu.symbolPacks.8.member>
-    <!-- EN: Nyaya -->
-    <Structure_OriginHindu.symbolPacks.9.ideoName>Nyaya</Structure_OriginHindu.symbolPacks.9.ideoName>
-    <!-- EN: Nyayan -->
-    <Structure_OriginHindu.symbolPacks.9.adjective>nyayano(a)</Structure_OriginHindu.symbolPacks.9.adjective>
-    <!-- EN: Nyava -->
-    <Structure_OriginHindu.symbolPacks.9.member>nyava</Structure_OriginHindu.symbolPacks.9.member>
-    <!-- EN: Vaisesika -->
-    <Structure_OriginHindu.symbolPacks.10.ideoName>Vaisheshika</Structure_OriginHindu.symbolPacks.10.ideoName>
-    <!-- EN: Vaisesikan -->
-    <Structure_OriginHindu.symbolPacks.10.adjective>vaisesikano(a)</Structure_OriginHindu.symbolPacks.10.adjective>
-    <!-- EN: Vaisesikaya -->
-    <Structure_OriginHindu.symbolPacks.10.member>vaisesikaya</Structure_OriginHindu.symbolPacks.10.member>
-    <!-- EN: Samkhya -->
-    <Structure_OriginHindu.symbolPacks.11.ideoName>Samkhya</Structure_OriginHindu.symbolPacks.11.ideoName>
-    <!-- EN: Samkhyan -->
-    <Structure_OriginHindu.symbolPacks.11.adjective>samkhyano(a)</Structure_OriginHindu.symbolPacks.11.adjective>
-    <!-- EN: Samkhyan -->
-    <Structure_OriginHindu.symbolPacks.11.member>samkhyano(a)</Structure_OriginHindu.symbolPacks.11.member>
-    <!-- EN: Mimamsa -->
-    <Structure_OriginHindu.symbolPacks.12.ideoName>Mimamsa</Structure_OriginHindu.symbolPacks.12.ideoName>
-    <!-- EN: Mimamsan -->
-    <Structure_OriginHindu.symbolPacks.12.adjective>mimamsano(a)</Structure_OriginHindu.symbolPacks.12.adjective>
-    <!-- EN: Mimamsan -->
-    <Structure_OriginHindu.symbolPacks.12.member>mimamsano(a)</Structure_OriginHindu.symbolPacks.12.member>
-    <!-- EN: Vedanta -->
-    <Structure_OriginHindu.symbolPacks.13.ideoName>Vedanta</Structure_OriginHindu.symbolPacks.13.ideoName>
-    <!-- EN: Vedantan -->
-    <Structure_OriginHindu.symbolPacks.13.adjective>vedantano(a)</Structure_OriginHindu.symbolPacks.13.adjective>
-    <!-- EN: Vedantan -->
-    <Structure_OriginHindu.symbolPacks.13.member>vedantano(a)</Structure_OriginHindu.symbolPacks.13.member>
-    <!-- EN: Brahma -->
-    <Structure_OriginHindu.fixedDeityNameTypes.0.name>Brahma</Structure_OriginHindu.fixedDeityNameTypes.0.name>
-    <!-- EN: God of Creation -->
-    <Structure_OriginHindu.fixedDeityNameTypes.0.type>Deus da Criação</Structure_OriginHindu.fixedDeityNameTypes.0.type>
-    <!-- EN: Vishnu -->
-    <Structure_OriginHindu.fixedDeityNameTypes.1.name>Vishnu</Structure_OriginHindu.fixedDeityNameTypes.1.name>
-    <!-- EN: God of Preservation -->
-    <Structure_OriginHindu.fixedDeityNameTypes.1.type>Deus da Preservação</Structure_OriginHindu.fixedDeityNameTypes.1.type>
-    <!-- EN: Shiva -->
-    <Structure_OriginHindu.fixedDeityNameTypes.2.name>Shiva</Structure_OriginHindu.fixedDeityNameTypes.2.name>
-    <!-- EN: God of Destruction -->
-    <Structure_OriginHindu.fixedDeityNameTypes.2.type>Deus da Destruição</Structure_OriginHindu.fixedDeityNameTypes.2.type>
-    <!-- EN: Ushas -->
-    <Structure_OriginHindu.fixedDeityNameTypes.3.name>Ushas</Structure_OriginHindu.fixedDeityNameTypes.3.name>
-    <!-- EN: God of Dawn -->
-    <Structure_OriginHindu.fixedDeityNameTypes.3.type>Deus da Aurora</Structure_OriginHindu.fixedDeityNameTypes.3.type>
-    <!-- EN: Devi -->
-    <Structure_OriginHindu.fixedDeityNameTypes.4.name>Devi</Structure_OriginHindu.fixedDeityNameTypes.4.name>
-    <!-- EN: God of Femininity -->
-    <Structure_OriginHindu.fixedDeityNameTypes.4.type>Deus da Feminilidade</Structure_OriginHindu.fixedDeityNameTypes.4.type>
-    <!-- EN: Lakshmi -->
-    <Structure_OriginHindu.fixedDeityNameTypes.5.name>Lakshmi</Structure_OriginHindu.fixedDeityNameTypes.5.name>
-    <!-- EN: God of Goals -->
-    <Structure_OriginHindu.fixedDeityNameTypes.5.type>Deus das Cabras</Structure_OriginHindu.fixedDeityNameTypes.5.type>
-    <!-- EN: Parvati -->
-    <Structure_OriginHindu.fixedDeityNameTypes.6.name>Parvati</Structure_OriginHindu.fixedDeityNameTypes.6.name>
-    <!-- EN: God of Fertility -->
-    <Structure_OriginHindu.fixedDeityNameTypes.6.type>Deus da Fertilidade</Structure_OriginHindu.fixedDeityNameTypes.6.type>
-    <!-- EN: Kali -->
-    <Structure_OriginHindu.fixedDeityNameTypes.7.name>Kali</Structure_OriginHindu.fixedDeityNameTypes.7.name>
-    <!-- EN: God of Protection -->
-    <Structure_OriginHindu.fixedDeityNameTypes.7.type>Deus da Proteção</Structure_OriginHindu.fixedDeityNameTypes.7.type>
-    <!-- EN: Bhumi -->
-    <Structure_OriginHindu.fixedDeityNameTypes.8.name>Bhumi</Structure_OriginHindu.fixedDeityNameTypes.8.name>
-    <!-- EN: God of Earth -->
-    <Structure_OriginHindu.fixedDeityNameTypes.8.type>Deus da Terra</Structure_OriginHindu.fixedDeityNameTypes.8.type>
-    <!-- EN: Saraswati -->
-    <Structure_OriginHindu.fixedDeityNameTypes.9.name>Saraswati</Structure_OriginHindu.fixedDeityNameTypes.9.name>
-    <!-- EN: God of Wisdom -->
-    <Structure_OriginHindu.fixedDeityNameTypes.9.type>Deus da Sabedoria</Structure_OriginHindu.fixedDeityNameTypes.9.type>
-    <!-- EN: Gayatri -->
-    <Structure_OriginHindu.fixedDeityNameTypes.10.name>Gayatri</Structure_OriginHindu.fixedDeityNameTypes.10.name>
-    <!-- EN: God of Life -->
-    <Structure_OriginHindu.fixedDeityNameTypes.10.type>Deus da Vida</Structure_OriginHindu.fixedDeityNameTypes.10.type>
-    <!-- EN: Annapoorna -->
-    <Structure_OriginHindu.fixedDeityNameTypes.11.name>Devi</Structure_OriginHindu.fixedDeityNameTypes.11.name>
-    <!-- EN: God of Food -->
-    <Structure_OriginHindu.fixedDeityNameTypes.11.type>Deus da Comida</Structure_OriginHindu.fixedDeityNameTypes.11.type>
-    <!-- EN: Nindra -->
-    <Structure_OriginHindu.fixedDeityNameTypes.12.name>Nindra</Structure_OriginHindu.fixedDeityNameTypes.12.name>
-    <!-- EN: God of Sleep -->
-    <Structure_OriginHindu.fixedDeityNameTypes.12.type>Deus do Sono</Structure_OriginHindu.fixedDeityNameTypes.12.type>
-    <!-- EN: Shashthi -->
-    <Structure_OriginHindu.fixedDeityNameTypes.13.name>Shashthi</Structure_OriginHindu.fixedDeityNameTypes.13.name>
-    <!-- EN: God of Children -->
-    <Structure_OriginHindu.fixedDeityNameTypes.13.type>Deus das Crianças</Structure_OriginHindu.fixedDeityNameTypes.13.type>
-    <!-- EN: Manasa -->
-    <Structure_OriginHindu.fixedDeityNameTypes.14.name>Manasa</Structure_OriginHindu.fixedDeityNameTypes.14.name>
-    <!-- EN: God of Snakes -->
-    <Structure_OriginHindu.fixedDeityNameTypes.14.type>Deus das Cobras</Structure_OriginHindu.fixedDeityNameTypes.14.type>
-    <!-- EN: Svaha -->
-    <Structure_OriginHindu.fixedDeityNameTypes.15.name>Svaha</Structure_OriginHindu.fixedDeityNameTypes.15.name>
-    <!-- EN: God of Ash -->
-    <Structure_OriginHindu.fixedDeityNameTypes.15.type>Deus das Cinzas</Structure_OriginHindu.fixedDeityNameTypes.15.type>
-    <!-- EN: Bhairava -->
-    <Structure_OriginHindu.fixedDeityNameTypes.16.name>Bhairava</Structure_OriginHindu.fixedDeityNameTypes.16.name>
-    <!-- EN: God of Annihilation -->
-    <Structure_OriginHindu.fixedDeityNameTypes.16.type>Deus da Aniquilação</Structure_OriginHindu.fixedDeityNameTypes.16.type>
-    <!-- EN: Krishna -->
-    <Structure_OriginHindu.fixedDeityNameTypes.17.name>Krishna</Structure_OriginHindu.fixedDeityNameTypes.17.name>
-    <!-- EN: God of Compassion -->
-    <Structure_OriginHindu.fixedDeityNameTypes.17.type>Deus da Compaixão</Structure_OriginHindu.fixedDeityNameTypes.17.type>
-    <!-- EN: Surya -->
-    <Structure_OriginHindu.fixedDeityNameTypes.18.name>Surya</Structure_OriginHindu.fixedDeityNameTypes.18.name>
-    <!-- EN: Sun God -->
-    <Structure_OriginHindu.fixedDeityNameTypes.18.type>Deus Sol</Structure_OriginHindu.fixedDeityNameTypes.18.type>
-    <!-- EN: Varuna -->
-    <Structure_OriginHindu.fixedDeityNameTypes.19.name>Varuna</Structure_OriginHindu.fixedDeityNameTypes.19.name>
-    <!-- EN: Sky God -->
-    <Structure_OriginHindu.fixedDeityNameTypes.19.type>Deus Céu</Structure_OriginHindu.fixedDeityNameTypes.19.type>
-    <!-- EN: Mitra -->
-    <Structure_OriginHindu.fixedDeityNameTypes.20.name>Mitra</Structure_OriginHindu.fixedDeityNameTypes.20.name>
-    <!-- EN: God of Friendship -->
-    <Structure_OriginHindu.fixedDeityNameTypes.20.type>Deus da Amizade</Structure_OriginHindu.fixedDeityNameTypes.20.type>
-    <!-- EN: Indra -->
-    <Structure_OriginHindu.fixedDeityNameTypes.21.name>Indra</Structure_OriginHindu.fixedDeityNameTypes.21.name>
-    <!-- EN: God of Heaven -->
-    <Structure_OriginHindu.fixedDeityNameTypes.21.type>Deus do Céu</Structure_OriginHindu.fixedDeityNameTypes.21.type>
-    <!-- EN: Agni -->
-    <Structure_OriginHindu.fixedDeityNameTypes.22.name>Agni</Structure_OriginHindu.fixedDeityNameTypes.22.name>
-    <!-- EN: Fire God -->
-    <Structure_OriginHindu.fixedDeityNameTypes.22.type>Deus Fogo</Structure_OriginHindu.fixedDeityNameTypes.22.type>
-    <!-- EN: Soma -->
-    <Structure_OriginHindu.fixedDeityNameTypes.23.name>Soma</Structure_OriginHindu.fixedDeityNameTypes.23.name>
-    <!-- EN: Moon God -->
-    <Structure_OriginHindu.fixedDeityNameTypes.23.type>Deus Lua</Structure_OriginHindu.fixedDeityNameTypes.23.type>
-    <!-- EN: Rudra -->
-    <Structure_OriginHindu.fixedDeityNameTypes.24.name>Rudra</Structure_OriginHindu.fixedDeityNameTypes.24.name>
-    <!-- EN: God of Wind -->
-    <Structure_OriginHindu.fixedDeityNameTypes.24.type>Deus do Vento</Structure_OriginHindu.fixedDeityNameTypes.24.type>
-    <!-- EN: Prithvi -->
-    <Structure_OriginHindu.fixedDeityNameTypes.25.name>Prithvi</Structure_OriginHindu.fixedDeityNameTypes.25.name>
-    <!-- EN: God of Earth -->
-    <Structure_OriginHindu.fixedDeityNameTypes.25.type>Deus da Terra</Structure_OriginHindu.fixedDeityNameTypes.25.type>
-    <!-- EN: Aditi -->
-    <Structure_OriginHindu.fixedDeityNameTypes.26.name>Aditi</Structure_OriginHindu.fixedDeityNameTypes.26.name>
-    <!-- EN: God of Morality -->
-    <Structure_OriginHindu.fixedDeityNameTypes.26.type>Deus da Moralidade</Structure_OriginHindu.fixedDeityNameTypes.26.type>
-    <!-- EN: Vac -->
-    <Structure_OriginHindu.fixedDeityNameTypes.27.name>Vac</Structure_OriginHindu.fixedDeityNameTypes.27.name>
-    <!-- EN: God of Sound -->
-    <Structure_OriginHindu.fixedDeityNameTypes.27.type>Deus do Som</Structure_OriginHindu.fixedDeityNameTypes.27.type>
-    <!-- EN: Nirrti -->
-    <Structure_OriginHindu.fixedDeityNameTypes.28.name>Nirrti</Structure_OriginHindu.fixedDeityNameTypes.28.name>
-    <!-- EN: God of Destruction -->
-    <Structure_OriginHindu.fixedDeityNameTypes.28.type>Deus da Destruição</Structure_OriginHindu.fixedDeityNameTypes.28.type>
-    <!-- EN: Ratri -->
-    <Structure_OriginHindu.fixedDeityNameTypes.29.name>Manasa</Structure_OriginHindu.fixedDeityNameTypes.29.name>
-    <!-- EN: God of Night -->
-    <Structure_OriginHindu.fixedDeityNameTypes.29.type>Deus da Noite</Structure_OriginHindu.fixedDeityNameTypes.29.type>
-    <!-- EN: Aranyani -->
-    <Structure_OriginHindu.fixedDeityNameTypes.30.name>Aranyani</Structure_OriginHindu.fixedDeityNameTypes.30.name>
-    <!-- EN: Forest God -->
-    <Structure_OriginHindu.fixedDeityNameTypes.30.type>Deus Floresta</Structure_OriginHindu.fixedDeityNameTypes.30.type>
-    <!-- EN: Durga -->
-    <Structure_OriginHindu.fixedDeityNameTypes.31.name>Durga</Structure_OriginHindu.fixedDeityNameTypes.31.name>
-    <!-- EN: Warrior Goddess -->
-    <Structure_OriginHindu.fixedDeityNameTypes.31.type>Deus Guerreiro</Structure_OriginHindu.fixedDeityNameTypes.31.type>
-
-    <!-- EN: Buddhist origin -->
-    <Structure_OriginBuddhist.label>origem budista</Structure_OriginBuddhist.label>
-    <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-    <Structure_OriginBuddhist.description>Esta ideoligia é descendente do antigo budismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginBuddhist.description>
-    <!-- EN: pagoda -->
-    <Structure_OriginBuddhist.worshipRoomLabel>pagode</Structure_OriginBuddhist.worshipRoomLabel>
-    <!-- EN:
-        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->bodhisattva</li>
-        <li>memeLeaderNoun->sattva</li>
-        <li>memeLeaderNoun->lama</li>
-        <li>memeLeaderAdjective->enlightened</li>
-        <li>memeLeaderAdjective->wise</li>
-        <li>memeLeaderAdjective->spiritual</li>
-        <li>memeLeaderAdjective->bodhi</li>
-        <li>memeLeaderAdjective->dalai</li>
-        <li>memeMoralist(p=2)->bhikkhu</li>
-        <li>memeMoralist->priest</li>
-        <li>memeMoralist->monk</li>
-    -->
-    <Structure_OriginBuddhist.generalRules.rulesStrings>
-        <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
-        <li>r_ideoName(p=99)->[packIdeoName]</li>
-        <li>memeLeaderNoun->bodhisattva</li>
-        <li>memeLeaderNoun->sattva</li>
-        <li>memeLeaderNoun->lama</li>
-        <li>memeLeaderAdjective->iluminado(a)</li>
-        <li>memeLeaderAdjective->sensato(a)</li>
-        <li>memeLeaderAdjective->espiritual</li>
-        <li>memeLeaderAdjective->bodhi</li>
-        <li>memeLeaderAdjective->dalai</li>
-        <li>memeMoralist(p=2)->bhikkhu</li>
-        <li>memeMoralist->sacerdote</li>
-        <li>memeMoralist->monge</li>
-    </Structure_OriginBuddhist.generalRules.rulesStrings>
-    <!-- EN: Buddhism -->
-    <Structure_OriginBuddhist.symbolPacks.0.ideoName>Budismo</Structure_OriginBuddhist.symbolPacks.0.ideoName>
-    <!-- EN: Buddha -->
-    <Structure_OriginBuddhist.symbolPacks.0.theme>Buda</Structure_OriginBuddhist.symbolPacks.0.theme>
-    <!-- EN: Buddhist -->
-    <Structure_OriginBuddhist.symbolPacks.0.adjective>budista</Structure_OriginBuddhist.symbolPacks.0.adjective>
-    <!-- EN: Buddhist -->
-    <Structure_OriginBuddhist.symbolPacks.0.member>budista</Structure_OriginBuddhist.symbolPacks.0.member>
-    <!-- EN: Theravada -->
-    <Structure_OriginBuddhist.symbolPacks.1.ideoName>Teravada</Structure_OriginBuddhist.symbolPacks.1.ideoName>
-    <!-- EN: Theric -->
-    <Structure_OriginBuddhist.symbolPacks.1.adjective>térico(a)</Structure_OriginBuddhist.symbolPacks.1.adjective>
-    <!-- EN: Therist -->
-    <Structure_OriginBuddhist.symbolPacks.1.member>terista</Structure_OriginBuddhist.symbolPacks.1.member>
-    <!-- EN: Mahayana -->
-    <Structure_OriginBuddhist.symbolPacks.2.ideoName>Mahayana</Structure_OriginBuddhist.symbolPacks.2.ideoName>
-    <!-- EN: Mahic -->
-    <Structure_OriginBuddhist.symbolPacks.2.adjective>mahico(a)</Structure_OriginBuddhist.symbolPacks.2.adjective>
-    <!-- EN: Mahist -->
-    <Structure_OriginBuddhist.symbolPacks.2.member>mahista</Structure_OriginBuddhist.symbolPacks.2.member>
-    <!-- EN: Vajrayana -->
-    <Structure_OriginBuddhist.symbolPacks.3.ideoName>Vajrayana</Structure_OriginBuddhist.symbolPacks.3.ideoName>
-    <!-- EN: Vajric -->
-    <Structure_OriginBuddhist.symbolPacks.3.adjective>vajrico(a)</Structure_OriginBuddhist.symbolPacks.3.adjective>
-    <!-- EN: Vajrist -->
-    <Structure_OriginBuddhist.symbolPacks.3.member>vajrista</Structure_OriginBuddhist.symbolPacks.3.member>
-    <!-- EN: Zen -->
-    <Structure_OriginBuddhist.symbolPacks.4.ideoName>Zen</Structure_OriginBuddhist.symbolPacks.4.ideoName>
-    <!-- EN: Zen -->
-    <Structure_OriginBuddhist.symbolPacks.4.adjective>zen</Structure_OriginBuddhist.symbolPacks.4.adjective>
-    <!-- EN: Zenist -->
-    <Structure_OriginBuddhist.symbolPacks.4.member>zenista</Structure_OriginBuddhist.symbolPacks.4.member>
-    <!-- EN: Seon -->
-    <Structure_OriginBuddhist.symbolPacks.5.ideoName>Seon</Structure_OriginBuddhist.symbolPacks.5.ideoName>
-    <!-- EN: Seonic -->
-    <Structure_OriginBuddhist.symbolPacks.5.adjective>seônico(a)</Structure_OriginBuddhist.symbolPacks.5.adjective>
-    <!-- EN: Seonist -->
-    <Structure_OriginBuddhist.symbolPacks.5.member>seonista</Structure_OriginBuddhist.symbolPacks.5.member>
-    <!-- EN: Ekayana -->
-    <Structure_OriginBuddhist.symbolPacks.6.ideoName>Ekayana</Structure_OriginBuddhist.symbolPacks.6.ideoName>
-    <!-- EN: Ekist -->
-    <Structure_OriginBuddhist.symbolPacks.6.adjective>ekista</Structure_OriginBuddhist.symbolPacks.6.adjective>
-    <!-- EN: Ekist -->
-    <Structure_OriginBuddhist.symbolPacks.6.member>ekista</Structure_OriginBuddhist.symbolPacks.6.member>
-    <!-- EN: Navayana -->
-    <Structure_OriginBuddhist.symbolPacks.7.ideoName>Navayana</Structure_OriginBuddhist.symbolPacks.7.ideoName>
-    <!-- EN: Navic -->
-    <Structure_OriginBuddhist.symbolPacks.7.adjective>návico(a)</Structure_OriginBuddhist.symbolPacks.7.adjective>
-    <!-- EN: Navist -->
-    <Structure_OriginBuddhist.symbolPacks.7.member>navista</Structure_OriginBuddhist.symbolPacks.7.member>
-    <!-- EN: Tantrayana -->
-    <Structure_OriginBuddhist.symbolPacks.8.ideoName>Tantrayana</Structure_OriginBuddhist.symbolPacks.8.ideoName>
-    <!-- EN: Tantric -->
-    <Structure_OriginBuddhist.symbolPacks.8.adjective>tântrico(a)</Structure_OriginBuddhist.symbolPacks.8.adjective>
-    <!-- EN: Tantran -->
-    <Structure_OriginBuddhist.symbolPacks.8.member>tantrano(a)</Structure_OriginBuddhist.symbolPacks.8.member>
-    <!-- EN: Gelug -->
-    <Structure_OriginBuddhist.symbolPacks.9.ideoName>Gelug</Structure_OriginBuddhist.symbolPacks.9.ideoName>
-    <!-- EN: Gelugist -->
-    <Structure_OriginBuddhist.symbolPacks.9.adjective>gelugista</Structure_OriginBuddhist.symbolPacks.9.adjective>
-    <!-- EN: Gelugist -->
-    <Structure_OriginBuddhist.symbolPacks.9.member>gelugista</Structure_OriginBuddhist.symbolPacks.9.member>
-
+  
+  <!-- EN: Buddhist origin -->
+  <Structure_OriginBuddhist.label>origem budista</Structure_OriginBuddhist.label>
+  <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginBuddhist.description>Esta ideoligia é descendente do antigo budismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginBuddhist.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bodhisattva</li>
+    <li>memeLeaderNoun->sattva</li>
+    <li>memeLeaderNoun->lama</li>
+    <li>memeLeaderAdjective->enlightened</li>
+    <li>memeLeaderAdjective->wise</li>
+    <li>memeLeaderAdjective->spiritual</li>
+    <li>memeLeaderAdjective->bodhi</li>
+    <li>memeLeaderAdjective->dalai</li>
+    <li>memeMoralist(p=2)->bhikkhu</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->monk</li>
+  -->
+  <Structure_OriginBuddhist.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bodhisattva</li>
+    <li>memeLeaderNoun->sattva</li>
+    <li>memeLeaderNoun->lama</li>
+    <li>memeLeaderAdjective->iluminado(a)</li>
+    <li>memeLeaderAdjective->sensato(a)</li>
+    <li>memeLeaderAdjective->espiritual</li>
+    <li>memeLeaderAdjective->bodhi</li>
+    <li>memeLeaderAdjective->dalai</li>
+    <li>memeMoralist(p=2)->bhikkhu</li>
+    <li>memeMoralist->sacerdote</li>
+    <li>memeMoralist->monge</li>
+  </Structure_OriginBuddhist.generalRules.rulesStrings>
+  <!-- EN: Buddhist -->
+  <Structure_OriginBuddhist.symbolPacks.0.adjective>budista</Structure_OriginBuddhist.symbolPacks.0.adjective>
+  <!-- EN: Buddhism -->
+  <Structure_OriginBuddhist.symbolPacks.0.ideoName>Budismo</Structure_OriginBuddhist.symbolPacks.0.ideoName>
+  <!-- EN: Buddhist -->
+  <Structure_OriginBuddhist.symbolPacks.0.member>budista</Structure_OriginBuddhist.symbolPacks.0.member>
+  <!-- EN: Buddha -->
+  <Structure_OriginBuddhist.symbolPacks.0.theme>Buda</Structure_OriginBuddhist.symbolPacks.0.theme>
+  <!-- EN: Theric -->
+  <Structure_OriginBuddhist.symbolPacks.1.adjective>térico(a)</Structure_OriginBuddhist.symbolPacks.1.adjective>
+  <!-- EN: Theravada -->
+  <Structure_OriginBuddhist.symbolPacks.1.ideoName>Teravada</Structure_OriginBuddhist.symbolPacks.1.ideoName>
+  <!-- EN: Therist -->
+  <Structure_OriginBuddhist.symbolPacks.1.member>terista</Structure_OriginBuddhist.symbolPacks.1.member>
+  <!-- EN: Mahic -->
+  <Structure_OriginBuddhist.symbolPacks.2.adjective>mahico(a)</Structure_OriginBuddhist.symbolPacks.2.adjective>
+  <!-- EN: Mahayana -->
+  <Structure_OriginBuddhist.symbolPacks.2.ideoName>Mahayana</Structure_OriginBuddhist.symbolPacks.2.ideoName>
+  <!-- EN: Mahist -->
+  <Structure_OriginBuddhist.symbolPacks.2.member>mahista</Structure_OriginBuddhist.symbolPacks.2.member>
+  <!-- EN: Vajric -->
+  <Structure_OriginBuddhist.symbolPacks.3.adjective>vajrico(a)</Structure_OriginBuddhist.symbolPacks.3.adjective>
+  <!-- EN: Vajrayana -->
+  <Structure_OriginBuddhist.symbolPacks.3.ideoName>Vajrayana</Structure_OriginBuddhist.symbolPacks.3.ideoName>
+  <!-- EN: Vajrist -->
+  <Structure_OriginBuddhist.symbolPacks.3.member>vajrista</Structure_OriginBuddhist.symbolPacks.3.member>
+  <!-- EN: Zen -->
+  <Structure_OriginBuddhist.symbolPacks.4.adjective>zen</Structure_OriginBuddhist.symbolPacks.4.adjective>
+  <!-- EN: Zen -->
+  <Structure_OriginBuddhist.symbolPacks.4.ideoName>Zen</Structure_OriginBuddhist.symbolPacks.4.ideoName>
+  <!-- EN: Zenist -->
+  <Structure_OriginBuddhist.symbolPacks.4.member>zenista</Structure_OriginBuddhist.symbolPacks.4.member>
+  <!-- EN: Seonic -->
+  <Structure_OriginBuddhist.symbolPacks.5.adjective>seônico(a)</Structure_OriginBuddhist.symbolPacks.5.adjective>
+  <!-- EN: Seon -->
+  <Structure_OriginBuddhist.symbolPacks.5.ideoName>Seon</Structure_OriginBuddhist.symbolPacks.5.ideoName>
+  <!-- EN: Seonist -->
+  <Structure_OriginBuddhist.symbolPacks.5.member>seonista</Structure_OriginBuddhist.symbolPacks.5.member>
+  <!-- EN: Ekist -->
+  <Structure_OriginBuddhist.symbolPacks.6.adjective>ekista</Structure_OriginBuddhist.symbolPacks.6.adjective>
+  <!-- EN: Ekayana -->
+  <Structure_OriginBuddhist.symbolPacks.6.ideoName>Ekayana</Structure_OriginBuddhist.symbolPacks.6.ideoName>
+  <!-- EN: Ekist -->
+  <Structure_OriginBuddhist.symbolPacks.6.member>ekista</Structure_OriginBuddhist.symbolPacks.6.member>
+  <!-- EN: Navic -->
+  <Structure_OriginBuddhist.symbolPacks.7.adjective>návico(a)</Structure_OriginBuddhist.symbolPacks.7.adjective>
+  <!-- EN: Navayana -->
+  <Structure_OriginBuddhist.symbolPacks.7.ideoName>Navayana</Structure_OriginBuddhist.symbolPacks.7.ideoName>
+  <!-- EN: Navist -->
+  <Structure_OriginBuddhist.symbolPacks.7.member>navista</Structure_OriginBuddhist.symbolPacks.7.member>
+  <!-- EN: Tantric -->
+  <Structure_OriginBuddhist.symbolPacks.8.adjective>tântrico(a)</Structure_OriginBuddhist.symbolPacks.8.adjective>
+  <!-- EN: Tantrayana -->
+  <Structure_OriginBuddhist.symbolPacks.8.ideoName>Tantrayana</Structure_OriginBuddhist.symbolPacks.8.ideoName>
+  <!-- EN: Tantran -->
+  <Structure_OriginBuddhist.symbolPacks.8.member>tantrano(a)</Structure_OriginBuddhist.symbolPacks.8.member>
+  <!-- EN: Gelugist -->
+  <Structure_OriginBuddhist.symbolPacks.9.adjective>gelugista</Structure_OriginBuddhist.symbolPacks.9.adjective>
+  <!-- EN: Gelug -->
+  <Structure_OriginBuddhist.symbolPacks.9.ideoName>Gelug</Structure_OriginBuddhist.symbolPacks.9.ideoName>
+  <!-- EN: Gelugist -->
+  <Structure_OriginBuddhist.symbolPacks.9.member>gelugista</Structure_OriginBuddhist.symbolPacks.9.member>
+  <!-- EN: pagoda -->
+  <Structure_OriginBuddhist.worshipRoomLabel>pagode</Structure_OriginBuddhist.worshipRoomLabel>
+  
+  <!-- EN: Christian origin -->
+  <Structure_OriginChristian.label>origem cristã</Structure_OriginChristian.label>
+  <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginChristian.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo cristianismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginChristian.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bishop</li>
+    <li>memeLeaderNoun->cardinal</li>
+    <li>memeLeaderNoun->pope</li>
+    <li>memeLeaderNoun->pontiff</li>
+    <li>memeLeaderNoun->legate</li>
+    <li>memeLeaderNoun->nuncio</li>
+    <li>memeLeaderNoun->divus</li>
+    <li>memeLeaderNoun->ecclesiast</li>
+    <li>memeLeaderAdjective->holy</li>
+    <li>memeLeaderAdjective->divine</li>
+    <li>memeLeaderAdjective->Christ's</li>
+    <li>memeLeaderAdjective->God's</li>
+    <li>memeMoralist->priest</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->cleric</li>
+    <li>memeMoralist->preacher</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->abbot</li>
+  -->
+  <Structure_OriginChristian.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bispo</li>
+    <li>memeLeaderNoun->cardial</li>
+    <li>memeLeaderNoun->papa</li>
+    <li>memeLeaderNoun->pontífice</li>
+    <li>memeLeaderNoun->embaixador</li>
+    <li>memeLeaderNoun->núncio</li>
+    <li>memeLeaderNoun->eclesiástico</li>
+    <li>memeLeaderAdjective->sagrado(a)</li>
+    <li>memeLeaderAdjective->divino(a)</li>
+    <li>memeLeaderAdjective->cristão(ã)</li>
+    <li>memeMoralist->padre</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->clérigo</li>
+    <li>memeMoralist->pregador</li>
+    <li>memeMoralist->reitor</li>
+    <li>memeMoralist->reitor</li>
+  </Structure_OriginChristian.generalRules.rulesStrings>
+  <!-- EN: Christian -->
+  <Structure_OriginChristian.symbolPacks.0.adjective>cristão(ã)</Structure_OriginChristian.symbolPacks.0.adjective>
+  <!-- EN: Christianity -->
+  <Structure_OriginChristian.symbolPacks.0.ideoName>cristandade</Structure_OriginChristian.symbolPacks.0.ideoName>
+  <!-- EN: Christian -->
+  <Structure_OriginChristian.symbolPacks.0.member>cristão(ã)</Structure_OriginChristian.symbolPacks.0.member>
+  <!-- EN: Catholic -->
+  <Structure_OriginChristian.symbolPacks.1.adjective>católico(a)</Structure_OriginChristian.symbolPacks.1.adjective>
+  <!-- EN: Catholicism -->
+  <Structure_OriginChristian.symbolPacks.1.ideoName>catolicismo</Structure_OriginChristian.symbolPacks.1.ideoName>
+  <!-- EN: Catholic -->
+  <Structure_OriginChristian.symbolPacks.1.member>católico(a)</Structure_OriginChristian.symbolPacks.1.member>
+  <!-- EN: Protestant -->
+  <Structure_OriginChristian.symbolPacks.2.adjective>protestante</Structure_OriginChristian.symbolPacks.2.adjective>
+  <!-- EN: Protestantism -->
+  <Structure_OriginChristian.symbolPacks.2.ideoName>protestantismo</Structure_OriginChristian.symbolPacks.2.ideoName>
+  <!-- EN: Protestant -->
+  <Structure_OriginChristian.symbolPacks.2.member>protestante</Structure_OriginChristian.symbolPacks.2.member>
+  <!-- EN: Orthodox -->
+  <Structure_OriginChristian.symbolPacks.3.adjective>ortodoxo(a)</Structure_OriginChristian.symbolPacks.3.adjective>
+  <!-- EN: Orthodoxy -->
+  <Structure_OriginChristian.symbolPacks.3.ideoName>ortodoxia</Structure_OriginChristian.symbolPacks.3.ideoName>
+  <!-- EN: Orthodoxist -->
+  <Structure_OriginChristian.symbolPacks.3.member>ortodoxo(a)</Structure_OriginChristian.symbolPacks.3.member>
+  <!-- EN: Nestorian -->
+  <Structure_OriginChristian.symbolPacks.4.adjective>nestoriano(a)</Structure_OriginChristian.symbolPacks.4.adjective>
+  <!-- EN: Nestorianism -->
+  <Structure_OriginChristian.symbolPacks.4.ideoName>nestorianismo</Structure_OriginChristian.symbolPacks.4.ideoName>
+  <!-- EN: Nestorian -->
+  <Structure_OriginChristian.symbolPacks.4.member>nestoriano(a)</Structure_OriginChristian.symbolPacks.4.member>
+  <!-- EN: Anglican -->
+  <Structure_OriginChristian.symbolPacks.5.adjective>anglicano(a)</Structure_OriginChristian.symbolPacks.5.adjective>
+  <!-- EN: Anglicanism -->
+  <Structure_OriginChristian.symbolPacks.5.ideoName>anglicanismo</Structure_OriginChristian.symbolPacks.5.ideoName>
+  <!-- EN: Anglican -->
+  <Structure_OriginChristian.symbolPacks.5.member>anglicano(a)</Structure_OriginChristian.symbolPacks.5.member>
+  <!-- EN: Baptist -->
+  <Structure_OriginChristian.symbolPacks.6.adjective>batista</Structure_OriginChristian.symbolPacks.6.adjective>
+  <!-- EN: Baptism -->
+  <Structure_OriginChristian.symbolPacks.6.ideoName>batismo</Structure_OriginChristian.symbolPacks.6.ideoName>
+  <!-- EN: Baptist -->
+  <Structure_OriginChristian.symbolPacks.6.member>batista</Structure_OriginChristian.symbolPacks.6.member>
+  <!-- EN: Anabaptist -->
+  <Structure_OriginChristian.symbolPacks.7.adjective>anabatista</Structure_OriginChristian.symbolPacks.7.adjective>
+  <!-- EN: Anabaptism -->
+  <Structure_OriginChristian.symbolPacks.7.ideoName>anabatismo</Structure_OriginChristian.symbolPacks.7.ideoName>
+  <!-- EN: Anabaptist -->
+  <Structure_OriginChristian.symbolPacks.7.member>anabatista</Structure_OriginChristian.symbolPacks.7.member>
+  <!-- EN: Calvinist -->
+  <Structure_OriginChristian.symbolPacks.8.adjective>calvinista</Structure_OriginChristian.symbolPacks.8.adjective>
+  <!-- EN: Calvinism -->
+  <Structure_OriginChristian.symbolPacks.8.ideoName>calvinismo</Structure_OriginChristian.symbolPacks.8.ideoName>
+  <!-- EN: Calvinist -->
+  <Structure_OriginChristian.symbolPacks.8.member>calvinista</Structure_OriginChristian.symbolPacks.8.member>
+  <!-- EN: Lutheran -->
+  <Structure_OriginChristian.symbolPacks.9.adjective>luterano(a)</Structure_OriginChristian.symbolPacks.9.adjective>
+  <!-- EN: Lutheranism -->
+  <Structure_OriginChristian.symbolPacks.9.ideoName>luteranismo</Structure_OriginChristian.symbolPacks.9.ideoName>
+  <!-- EN: Lutheran -->
+  <Structure_OriginChristian.symbolPacks.9.member>luterano(a)</Structure_OriginChristian.symbolPacks.9.member>
+  <!-- EN: Adventist -->
+  <Structure_OriginChristian.symbolPacks.10.adjective>adventista</Structure_OriginChristian.symbolPacks.10.adjective>
+  <!-- EN: Adventism -->
+  <Structure_OriginChristian.symbolPacks.10.ideoName>adventismo</Structure_OriginChristian.symbolPacks.10.ideoName>
+  <!-- EN: Adventist -->
+  <Structure_OriginChristian.symbolPacks.10.member>adventista</Structure_OriginChristian.symbolPacks.10.member>
+  <!-- EN: Methodist -->
+  <Structure_OriginChristian.symbolPacks.11.adjective>metodista</Structure_OriginChristian.symbolPacks.11.adjective>
+  <!-- EN: Methodism -->
+  <Structure_OriginChristian.symbolPacks.11.ideoName>metodismo</Structure_OriginChristian.symbolPacks.11.ideoName>
+  <!-- EN: Methodist -->
+  <Structure_OriginChristian.symbolPacks.11.member>metodista</Structure_OriginChristian.symbolPacks.11.member>
+  <!-- EN: Mormon -->
+  <Structure_OriginChristian.symbolPacks.12.adjective>mórmon</Structure_OriginChristian.symbolPacks.12.adjective>
+  <!-- EN: Mormonism -->
+  <Structure_OriginChristian.symbolPacks.12.ideoName>mormonismo</Structure_OriginChristian.symbolPacks.12.ideoName>
+  <!-- EN: Mormon -->
+  <Structure_OriginChristian.symbolPacks.12.member>mórmon</Structure_OriginChristian.symbolPacks.12.member>
+  <!-- EN: Theonomic -->
+  <Structure_OriginChristian.symbolPacks.13.adjective>teonômico(a)</Structure_OriginChristian.symbolPacks.13.adjective>
+  <!-- EN: Theonomy -->
+  <Structure_OriginChristian.symbolPacks.13.ideoName>teonomia</Structure_OriginChristian.symbolPacks.13.ideoName>
+  <!-- EN: Theonomist -->
+  <Structure_OriginChristian.symbolPacks.13.member>teonomista</Structure_OriginChristian.symbolPacks.13.member>
+  <!-- EN: church -->
+  <Structure_OriginChristian.worshipRoomLabel>igreja</Structure_OriginChristian.worshipRoomLabel>
+  
+  <!-- EN: Hindu origin -->
+  <Structure_OriginHindu.label>origem hindu</Structure_OriginHindu.label>
+  <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginHindu.description>Esta é uma variante da estrutura teísta encarnada. Essa ideoligia é descendente do antigo hinduismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginHindu.description>
+  <!-- EN: Brahma -->
+  <Structure_OriginHindu.fixedDeityNameTypes.0.name>Brahma</Structure_OriginHindu.fixedDeityNameTypes.0.name>
+  <!-- EN: God of Creation -->
+  <Structure_OriginHindu.fixedDeityNameTypes.0.type>Deus da Criação</Structure_OriginHindu.fixedDeityNameTypes.0.type>
+  <!-- EN: Vishnu -->
+  <Structure_OriginHindu.fixedDeityNameTypes.1.name>Vishnu</Structure_OriginHindu.fixedDeityNameTypes.1.name>
+  <!-- EN: God of Preservation -->
+  <Structure_OriginHindu.fixedDeityNameTypes.1.type>Deus da Preservação</Structure_OriginHindu.fixedDeityNameTypes.1.type>
+  <!-- EN: Shiva -->
+  <Structure_OriginHindu.fixedDeityNameTypes.2.name>Shiva</Structure_OriginHindu.fixedDeityNameTypes.2.name>
+  <!-- EN: God of Destruction -->
+  <Structure_OriginHindu.fixedDeityNameTypes.2.type>Deus da Destruição</Structure_OriginHindu.fixedDeityNameTypes.2.type>
+  <!-- EN: Ushas -->
+  <Structure_OriginHindu.fixedDeityNameTypes.3.name>Ushas</Structure_OriginHindu.fixedDeityNameTypes.3.name>
+  <!-- EN: God of Dawn -->
+  <Structure_OriginHindu.fixedDeityNameTypes.3.type>Deus da Aurora</Structure_OriginHindu.fixedDeityNameTypes.3.type>
+  <!-- EN: Devi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.4.name>Devi</Structure_OriginHindu.fixedDeityNameTypes.4.name>
+  <!-- EN: God of Femininity -->
+  <Structure_OriginHindu.fixedDeityNameTypes.4.type>Deus da Feminilidade</Structure_OriginHindu.fixedDeityNameTypes.4.type>
+  <!-- EN: Lakshmi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.5.name>Lakshmi</Structure_OriginHindu.fixedDeityNameTypes.5.name>
+  <!-- EN: God of Goals -->
+  <Structure_OriginHindu.fixedDeityNameTypes.5.type>Deus das Cabras</Structure_OriginHindu.fixedDeityNameTypes.5.type>
+  <!-- EN: Parvati -->
+  <Structure_OriginHindu.fixedDeityNameTypes.6.name>Parvati</Structure_OriginHindu.fixedDeityNameTypes.6.name>
+  <!-- EN: God of Fertility -->
+  <Structure_OriginHindu.fixedDeityNameTypes.6.type>Deus da Fertilidade</Structure_OriginHindu.fixedDeityNameTypes.6.type>
+  <!-- EN: Kali -->
+  <Structure_OriginHindu.fixedDeityNameTypes.7.name>Kali</Structure_OriginHindu.fixedDeityNameTypes.7.name>
+  <!-- EN: God of Protection -->
+  <Structure_OriginHindu.fixedDeityNameTypes.7.type>Deus da Proteção</Structure_OriginHindu.fixedDeityNameTypes.7.type>
+  <!-- EN: Bhumi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.8.name>Bhumi</Structure_OriginHindu.fixedDeityNameTypes.8.name>
+  <!-- EN: God of Earth -->
+  <Structure_OriginHindu.fixedDeityNameTypes.8.type>Deus da Terra</Structure_OriginHindu.fixedDeityNameTypes.8.type>
+  <!-- EN: Saraswati -->
+  <Structure_OriginHindu.fixedDeityNameTypes.9.name>Saraswati</Structure_OriginHindu.fixedDeityNameTypes.9.name>
+  <!-- EN: God of Wisdom -->
+  <Structure_OriginHindu.fixedDeityNameTypes.9.type>Deus da Sabedoria</Structure_OriginHindu.fixedDeityNameTypes.9.type>
+  <!-- EN: Gayatri -->
+  <Structure_OriginHindu.fixedDeityNameTypes.10.name>Gayatri</Structure_OriginHindu.fixedDeityNameTypes.10.name>
+  <!-- EN: God of Life -->
+  <Structure_OriginHindu.fixedDeityNameTypes.10.type>Deus da Vida</Structure_OriginHindu.fixedDeityNameTypes.10.type>
+  <!-- EN: Annapoorna -->
+  <Structure_OriginHindu.fixedDeityNameTypes.11.name>Devi</Structure_OriginHindu.fixedDeityNameTypes.11.name>
+  <!-- EN: God of Food -->
+  <Structure_OriginHindu.fixedDeityNameTypes.11.type>Deus da Comida</Structure_OriginHindu.fixedDeityNameTypes.11.type>
+  <!-- EN: Nindra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.12.name>Nindra</Structure_OriginHindu.fixedDeityNameTypes.12.name>
+  <!-- EN: God of Sleep -->
+  <Structure_OriginHindu.fixedDeityNameTypes.12.type>Deus do Sono</Structure_OriginHindu.fixedDeityNameTypes.12.type>
+  <!-- EN: Shashthi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.13.name>Shashthi</Structure_OriginHindu.fixedDeityNameTypes.13.name>
+  <!-- EN: God of Children -->
+  <Structure_OriginHindu.fixedDeityNameTypes.13.type>Deus das Crianças</Structure_OriginHindu.fixedDeityNameTypes.13.type>
+  <!-- EN: Manasa -->
+  <Structure_OriginHindu.fixedDeityNameTypes.14.name>Manasa</Structure_OriginHindu.fixedDeityNameTypes.14.name>
+  <!-- EN: God of Snakes -->
+  <Structure_OriginHindu.fixedDeityNameTypes.14.type>Deus das Cobras</Structure_OriginHindu.fixedDeityNameTypes.14.type>
+  <!-- EN: Svaha -->
+  <Structure_OriginHindu.fixedDeityNameTypes.15.name>Svaha</Structure_OriginHindu.fixedDeityNameTypes.15.name>
+  <!-- EN: God of Ash -->
+  <Structure_OriginHindu.fixedDeityNameTypes.15.type>Deus das Cinzas</Structure_OriginHindu.fixedDeityNameTypes.15.type>
+  <!-- EN: Bhairava -->
+  <Structure_OriginHindu.fixedDeityNameTypes.16.name>Bhairava</Structure_OriginHindu.fixedDeityNameTypes.16.name>
+  <!-- EN: God of Annihilation -->
+  <Structure_OriginHindu.fixedDeityNameTypes.16.type>Deus da Aniquilação</Structure_OriginHindu.fixedDeityNameTypes.16.type>
+  <!-- EN: Krishna -->
+  <Structure_OriginHindu.fixedDeityNameTypes.17.name>Krishna</Structure_OriginHindu.fixedDeityNameTypes.17.name>
+  <!-- EN: God of Compassion -->
+  <Structure_OriginHindu.fixedDeityNameTypes.17.type>Deus da Compaixão</Structure_OriginHindu.fixedDeityNameTypes.17.type>
+  <!-- EN: Surya -->
+  <Structure_OriginHindu.fixedDeityNameTypes.18.name>Surya</Structure_OriginHindu.fixedDeityNameTypes.18.name>
+  <!-- EN: Sun God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.18.type>Deus Sol</Structure_OriginHindu.fixedDeityNameTypes.18.type>
+  <!-- EN: Varuna -->
+  <Structure_OriginHindu.fixedDeityNameTypes.19.name>Varuna</Structure_OriginHindu.fixedDeityNameTypes.19.name>
+  <!-- EN: Sky God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.19.type>Deus Céu</Structure_OriginHindu.fixedDeityNameTypes.19.type>
+  <!-- EN: Mitra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.20.name>Mitra</Structure_OriginHindu.fixedDeityNameTypes.20.name>
+  <!-- EN: God of Friendship -->
+  <Structure_OriginHindu.fixedDeityNameTypes.20.type>Deus da Amizade</Structure_OriginHindu.fixedDeityNameTypes.20.type>
+  <!-- EN: Indra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.21.name>Indra</Structure_OriginHindu.fixedDeityNameTypes.21.name>
+  <!-- EN: God of Heaven -->
+  <Structure_OriginHindu.fixedDeityNameTypes.21.type>Deus do Céu</Structure_OriginHindu.fixedDeityNameTypes.21.type>
+  <!-- EN: Agni -->
+  <Structure_OriginHindu.fixedDeityNameTypes.22.name>Agni</Structure_OriginHindu.fixedDeityNameTypes.22.name>
+  <!-- EN: Fire God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.22.type>Deus Fogo</Structure_OriginHindu.fixedDeityNameTypes.22.type>
+  <!-- EN: Soma -->
+  <Structure_OriginHindu.fixedDeityNameTypes.23.name>Soma</Structure_OriginHindu.fixedDeityNameTypes.23.name>
+  <!-- EN: Moon God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.23.type>Deus Lua</Structure_OriginHindu.fixedDeityNameTypes.23.type>
+  <!-- EN: Rudra -->
+  <Structure_OriginHindu.fixedDeityNameTypes.24.name>Rudra</Structure_OriginHindu.fixedDeityNameTypes.24.name>
+  <!-- EN: God of Wind -->
+  <Structure_OriginHindu.fixedDeityNameTypes.24.type>Deus do Vento</Structure_OriginHindu.fixedDeityNameTypes.24.type>
+  <!-- EN: Prithvi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.25.name>Prithvi</Structure_OriginHindu.fixedDeityNameTypes.25.name>
+  <!-- EN: God of Earth -->
+  <Structure_OriginHindu.fixedDeityNameTypes.25.type>Deus da Terra</Structure_OriginHindu.fixedDeityNameTypes.25.type>
+  <!-- EN: Aditi -->
+  <Structure_OriginHindu.fixedDeityNameTypes.26.name>Aditi</Structure_OriginHindu.fixedDeityNameTypes.26.name>
+  <!-- EN: God of Morality -->
+  <Structure_OriginHindu.fixedDeityNameTypes.26.type>Deus da Moralidade</Structure_OriginHindu.fixedDeityNameTypes.26.type>
+  <!-- EN: Vac -->
+  <Structure_OriginHindu.fixedDeityNameTypes.27.name>Vac</Structure_OriginHindu.fixedDeityNameTypes.27.name>
+  <!-- EN: God of Sound -->
+  <Structure_OriginHindu.fixedDeityNameTypes.27.type>Deus do Som</Structure_OriginHindu.fixedDeityNameTypes.27.type>
+  <!-- EN: Nirrti -->
+  <Structure_OriginHindu.fixedDeityNameTypes.28.name>Nirrti</Structure_OriginHindu.fixedDeityNameTypes.28.name>
+  <!-- EN: God of Destruction -->
+  <Structure_OriginHindu.fixedDeityNameTypes.28.type>Deus da Destruição</Structure_OriginHindu.fixedDeityNameTypes.28.type>
+  <!-- EN: Ratri -->
+  <Structure_OriginHindu.fixedDeityNameTypes.29.name>Manasa</Structure_OriginHindu.fixedDeityNameTypes.29.name>
+  <!-- EN: God of Night -->
+  <Structure_OriginHindu.fixedDeityNameTypes.29.type>Deus da Noite</Structure_OriginHindu.fixedDeityNameTypes.29.type>
+  <!-- EN: Aranyani -->
+  <Structure_OriginHindu.fixedDeityNameTypes.30.name>Aranyani</Structure_OriginHindu.fixedDeityNameTypes.30.name>
+  <!-- EN: Forest God -->
+  <Structure_OriginHindu.fixedDeityNameTypes.30.type>Deus Floresta</Structure_OriginHindu.fixedDeityNameTypes.30.type>
+  <!-- EN: Durga -->
+  <Structure_OriginHindu.fixedDeityNameTypes.31.name>Durga</Structure_OriginHindu.fixedDeityNameTypes.31.name>
+  <!-- EN: Warrior Goddess -->
+  <Structure_OriginHindu.fixedDeityNameTypes.31.type>Deus Guerreiro</Structure_OriginHindu.fixedDeityNameTypes.31.type>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mahatma</li>
+    <li>memeLeaderNoun->ishvara</li>
+    <li>memeLeaderNoun->yogi</li>
+    <li>memeLeaderNoun->pandit</li>
+    <li>memeLeaderNoun->avatar</li>
+    <li>memeLeaderAdjective->sacred</li>
+    <li>memeLeaderAdjective->hindic</li>
+    <li>memeLeaderAdjective->indic</li>
+    <li>memeLeaderAdjective->yogic</li>
+    <li>memeLeaderAdjective->tirth</li>
+    <li>memeMoralist(p=3)->pujari</li>
+    <li>memeMoralist->purohit</li>
+    <li>memeMoralist->archaka</li>
+    <li>memeMoralist->brahmin</li>
+  -->
+  <Structure_OriginHindu.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mahatma</li>
+    <li>memeLeaderNoun->ishvara</li>
+    <li>memeLeaderNoun->iogue</li>
+    <li>memeLeaderNoun->pandit</li>
+    <li>memeLeaderNoun->avatar</li>
+    <li>memeLeaderAdjective->sagrado(a)</li>
+    <li>memeLeaderAdjective->hindi</li>
+    <li>memeLeaderAdjective->índico(a)</li>
+    <li>memeLeaderAdjective->iogue</li>
+    <li>memeLeaderAdjective->tirth</li>
+    <li>memeMoralist(p=3)->pujari</li>
+    <li>memeMoralist->purohit</li>
+    <li>memeMoralist->archaka</li>
+    <li>memeMoralist->brâmane</li>
+  </Structure_OriginHindu.generalRules.rulesStrings>
+  <!-- EN: Hindu -->
+  <Structure_OriginHindu.symbolPacks.0.adjective>hindu</Structure_OriginHindu.symbolPacks.0.adjective>
+  <!-- EN: Hinduism -->
+  <Structure_OriginHindu.symbolPacks.0.ideoName>Hinduísmo</Structure_OriginHindu.symbolPacks.0.ideoName>
+  <!-- EN: Hindu -->
+  <Structure_OriginHindu.symbolPacks.0.member>hindu</Structure_OriginHindu.symbolPacks.0.member>
+  <!-- EN: Indu -->
+  <Structure_OriginHindu.symbolPacks.1.adjective>indu</Structure_OriginHindu.symbolPacks.1.adjective>
+  <!-- EN: Induism -->
+  <Structure_OriginHindu.symbolPacks.1.ideoName>Induísmo</Structure_OriginHindu.symbolPacks.1.ideoName>
+  <!-- EN: Indu -->
+  <Structure_OriginHindu.symbolPacks.1.member>indu</Structure_OriginHindu.symbolPacks.1.member>
+  <!-- EN: Sindu -->
+  <Structure_OriginHindu.symbolPacks.2.adjective>sindu</Structure_OriginHindu.symbolPacks.2.adjective>
+  <!-- EN: Sinduism -->
+  <Structure_OriginHindu.symbolPacks.2.ideoName>sinduísmo</Structure_OriginHindu.symbolPacks.2.ideoName>
+  <!-- EN: Sindu -->
+  <Structure_OriginHindu.symbolPacks.2.member>sindu</Structure_OriginHindu.symbolPacks.2.member>
+  <!-- EN: Tantric -->
+  <Structure_OriginHindu.symbolPacks.3.adjective>tântrico(a)</Structure_OriginHindu.symbolPacks.3.adjective>
+  <!-- EN: Tantra -->
+  <Structure_OriginHindu.symbolPacks.3.ideoName>Tantra</Structure_OriginHindu.symbolPacks.3.ideoName>
+  <!-- EN: Tantran -->
+  <Structure_OriginHindu.symbolPacks.3.member>tântrico(a)</Structure_OriginHindu.symbolPacks.3.member>
+  <!-- EN: Vedic -->
+  <Structure_OriginHindu.symbolPacks.4.adjective>védico(a)</Structure_OriginHindu.symbolPacks.4.adjective>
+  <!-- EN: Vedism -->
+  <Structure_OriginHindu.symbolPacks.4.ideoName>Vedismo</Structure_OriginHindu.symbolPacks.4.ideoName>
+  <!-- EN: Vedi -->
+  <Structure_OriginHindu.symbolPacks.4.member>vedi</Structure_OriginHindu.symbolPacks.4.member>
+  <!-- EN: Dharmic -->
+  <Structure_OriginHindu.symbolPacks.5.adjective>dármico(a)</Structure_OriginHindu.symbolPacks.5.adjective>
+  <!-- EN: Dharmism -->
+  <Structure_OriginHindu.symbolPacks.5.ideoName>Darmismo</Structure_OriginHindu.symbolPacks.5.ideoName>
+  <!-- EN: Dharmi -->
+  <Structure_OriginHindu.symbolPacks.5.member>darmi</Structure_OriginHindu.symbolPacks.5.member>
+  <!-- EN: Vaishmayan -->
+  <Structure_OriginHindu.symbolPacks.6.adjective>vaixá</Structure_OriginHindu.symbolPacks.6.adjective>
+  <!-- EN: Vaishmaya -->
+  <Structure_OriginHindu.symbolPacks.6.ideoName>Vaixá</Structure_OriginHindu.symbolPacks.6.ideoName>
+  <!-- EN: Vaishnava -->
+  <Structure_OriginHindu.symbolPacks.6.member>vaixá</Structure_OriginHindu.symbolPacks.6.member>
+  <!-- EN: Shaivan -->
+  <Structure_OriginHindu.symbolPacks.7.adjective>xiva</Structure_OriginHindu.symbolPacks.7.adjective>
+  <!-- EN: Shaivmaya -->
+  <Structure_OriginHindu.symbolPacks.7.ideoName>Xivaísmo</Structure_OriginHindu.symbolPacks.7.ideoName>
+  <!-- EN: Shaiva -->
+  <Structure_OriginHindu.symbolPacks.7.member>xiva</Structure_OriginHindu.symbolPacks.7.member>
+  <!-- EN: Yogic -->
+  <Structure_OriginHindu.symbolPacks.8.adjective>iogue</Structure_OriginHindu.symbolPacks.8.adjective>
+  <!-- EN: Yoga -->
+  <Structure_OriginHindu.symbolPacks.8.ideoName>Ioga</Structure_OriginHindu.symbolPacks.8.ideoName>
+  <!-- EN: Yogi -->
+  <Structure_OriginHindu.symbolPacks.8.member>iogue</Structure_OriginHindu.symbolPacks.8.member>
+  <!-- EN: Nyayan -->
+  <Structure_OriginHindu.symbolPacks.9.adjective>nyayano(a)</Structure_OriginHindu.symbolPacks.9.adjective>
+  <!-- EN: Nyaya -->
+  <Structure_OriginHindu.symbolPacks.9.ideoName>Nyaya</Structure_OriginHindu.symbolPacks.9.ideoName>
+  <!-- EN: Nyava -->
+  <Structure_OriginHindu.symbolPacks.9.member>nyava</Structure_OriginHindu.symbolPacks.9.member>
+  <!-- EN: Vaisesikan -->
+  <Structure_OriginHindu.symbolPacks.10.adjective>vaisesikano(a)</Structure_OriginHindu.symbolPacks.10.adjective>
+  <!-- EN: Vaisesika -->
+  <Structure_OriginHindu.symbolPacks.10.ideoName>Vaisheshika</Structure_OriginHindu.symbolPacks.10.ideoName>
+  <!-- EN: Vaisesikaya -->
+  <Structure_OriginHindu.symbolPacks.10.member>vaisesikaya</Structure_OriginHindu.symbolPacks.10.member>
+  <!-- EN: Samkhyan -->
+  <Structure_OriginHindu.symbolPacks.11.adjective>samkhyano(a)</Structure_OriginHindu.symbolPacks.11.adjective>
+  <!-- EN: Samkhya -->
+  <Structure_OriginHindu.symbolPacks.11.ideoName>Samkhya</Structure_OriginHindu.symbolPacks.11.ideoName>
+  <!-- EN: Samkhyan -->
+  <Structure_OriginHindu.symbolPacks.11.member>samkhyano(a)</Structure_OriginHindu.symbolPacks.11.member>
+  <!-- EN: Mimamsan -->
+  <Structure_OriginHindu.symbolPacks.12.adjective>mimamsano(a)</Structure_OriginHindu.symbolPacks.12.adjective>
+  <!-- EN: Mimamsa -->
+  <Structure_OriginHindu.symbolPacks.12.ideoName>Mimamsa</Structure_OriginHindu.symbolPacks.12.ideoName>
+  <!-- EN: Mimamsan -->
+  <Structure_OriginHindu.symbolPacks.12.member>mimamsano(a)</Structure_OriginHindu.symbolPacks.12.member>
+  <!-- EN: Vedantan -->
+  <Structure_OriginHindu.symbolPacks.13.adjective>vedantano(a)</Structure_OriginHindu.symbolPacks.13.adjective>
+  <!-- EN: Vedanta -->
+  <Structure_OriginHindu.symbolPacks.13.ideoName>Vedanta</Structure_OriginHindu.symbolPacks.13.ideoName>
+  <!-- EN: Vedantan -->
+  <Structure_OriginHindu.symbolPacks.13.member>vedantano(a)</Structure_OriginHindu.symbolPacks.13.member>
+  <!-- EN: shrine -->
+  <Structure_OriginHindu.worshipRoomLabel>sacrário</Structure_OriginHindu.worshipRoomLabel>
+  
+  <!-- EN: Islamic origin -->
+  <Structure_OriginIslamic.label>origem islâmica</Structure_OriginIslamic.label>
+  <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islam. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+  <Structure_OriginIslamic.description>Esta é uma variante da estrutura teísta abstrata. Essa ideoligia é descendente do antigo islamismo. Pode ter preceitos muito diferentes daqueles de milhares de anos atrás, mas seus símbolos são semelhantes.</Structure_OriginIslamic.description>
+  <!-- EN:
+    <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mullah</li>
+    <li>memeLeaderNoun->imam</li>
+    <li>memeLeaderNoun->caliph</li>
+    <li>memeLeaderNoun->mufti</li>
+    <li>memeLeaderNoun->almami</li>
+    <li>memeLeaderNoun->kyai</li>
+    <li>memeLeaderNoun->ayatollah</li>
+    <li>memeLeaderAdjective->grand</li>
+    <li>memeMoralist(p=4)->imam</li>
+    <li>memeMoralist->qadi</li>
+    <li>memeMoralist->alim</li>
+    <li>memeMoralist->allamah</li>
+    <li>memeMoralist->muezzin</li>
+    <li>memeMoralist->mujtahid</li>
+    <li>memeMoralist->cleric</li>
+  -->
+  <Structure_OriginIslamic.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mulá</li>
+    <li>memeLeaderNoun->imam</li>
+    <li>memeLeaderNoun->califa</li>
+    <li>memeLeaderNoun->mufti</li>
+    <li>memeLeaderNoun->almami</li>
+    <li>memeLeaderNoun->kyai</li>
+    <li>memeLeaderNoun->aiatolá</li>
+    <li>memeLeaderAdjective->grandioso(a)</li>
+    <li>memeMoralist(p=4)->imam</li>
+    <li>memeMoralist->qadi</li>
+    <li>memeMoralist->alim</li>
+    <li>memeMoralist->alamá</li>
+    <li>memeMoralist->muezim</li>
+    <li>memeMoralist->mujtahid</li>
+    <li>memeMoralist->clérigo</li>
+  </Structure_OriginIslamic.generalRules.rulesStrings>
+  <!-- EN: Islamic -->
+  <Structure_OriginIslamic.symbolPacks.0.adjective>islâmico(a)</Structure_OriginIslamic.symbolPacks.0.adjective>
+  <!-- EN: Islam -->
+  <Structure_OriginIslamic.symbolPacks.0.ideoName>islamismo</Structure_OriginIslamic.symbolPacks.0.ideoName>
+  <!-- EN: Muslim -->
+  <Structure_OriginIslamic.symbolPacks.0.member>muçulmano(a)</Structure_OriginIslamic.symbolPacks.0.member>
+  <!-- EN: Islamist -->
+  <Structure_OriginIslamic.symbolPacks.1.adjective>islamista</Structure_OriginIslamic.symbolPacks.1.adjective>
+  <!-- EN: Islamism -->
+  <Structure_OriginIslamic.symbolPacks.1.ideoName>islamismo</Structure_OriginIslamic.symbolPacks.1.ideoName>
+  <!-- EN: Islamist -->
+  <Structure_OriginIslamic.symbolPacks.1.member>islamista</Structure_OriginIslamic.symbolPacks.1.member>
+  <!-- EN: Shiite -->
+  <Structure_OriginIslamic.symbolPacks.2.adjective>xiita</Structure_OriginIslamic.symbolPacks.2.adjective>
+  <!-- EN: Shiism -->
+  <Structure_OriginIslamic.symbolPacks.2.ideoName>xiismo</Structure_OriginIslamic.symbolPacks.2.ideoName>
+  <!-- EN: Shiite -->
+  <Structure_OriginIslamic.symbolPacks.2.member>xiita</Structure_OriginIslamic.symbolPacks.2.member>
+  <!-- EN: Sunni -->
+  <Structure_OriginIslamic.symbolPacks.3.adjective>sunita</Structure_OriginIslamic.symbolPacks.3.adjective>
+  <!-- EN: Sunnism -->
+  <Structure_OriginIslamic.symbolPacks.3.ideoName>sunismo</Structure_OriginIslamic.symbolPacks.3.ideoName>
+  <!-- EN: Sunni -->
+  <Structure_OriginIslamic.symbolPacks.3.member>sunita</Structure_OriginIslamic.symbolPacks.3.member>
+  <!-- EN: Ibadi -->
+  <Structure_OriginIslamic.symbolPacks.4.adjective>ibadita</Structure_OriginIslamic.symbolPacks.4.adjective>
+  <!-- EN: Ibadism -->
+  <Structure_OriginIslamic.symbolPacks.4.ideoName>ibadismo</Structure_OriginIslamic.symbolPacks.4.ideoName>
+  <!-- EN: Ibadi -->
+  <Structure_OriginIslamic.symbolPacks.4.member>ibadita</Structure_OriginIslamic.symbolPacks.4.member>
+  <!-- EN: Ismaili -->
+  <Structure_OriginIslamic.symbolPacks.5.adjective>ismaelita</Structure_OriginIslamic.symbolPacks.5.adjective>
+  <!-- EN: Ismailism -->
+  <Structure_OriginIslamic.symbolPacks.5.ideoName>ismaelismo</Structure_OriginIslamic.symbolPacks.5.ideoName>
+  <!-- EN: Ismaili -->
+  <Structure_OriginIslamic.symbolPacks.5.member>ismaelita</Structure_OriginIslamic.symbolPacks.5.member>
+  <!-- EN: Mustalic -->
+  <Structure_OriginIslamic.symbolPacks.6.adjective>mustálico(a)</Structure_OriginIslamic.symbolPacks.6.adjective>
+  <!-- EN: Mustalism -->
+  <Structure_OriginIslamic.symbolPacks.6.ideoName>mustalismo</Structure_OriginIslamic.symbolPacks.6.ideoName>
+  <!-- EN: Mustali -->
+  <Structure_OriginIslamic.symbolPacks.6.member>mustalita</Structure_OriginIslamic.symbolPacks.6.member>
+  <!-- EN: Tayyibic -->
+  <Structure_OriginIslamic.symbolPacks.7.adjective>taíbico(a)</Structure_OriginIslamic.symbolPacks.7.adjective>
+  <!-- EN: Tayyibism -->
+  <Structure_OriginIslamic.symbolPacks.7.ideoName>taibismo</Structure_OriginIslamic.symbolPacks.7.ideoName>
+  <!-- EN: Tayyibist -->
+  <Structure_OriginIslamic.symbolPacks.7.member>taibista</Structure_OriginIslamic.symbolPacks.7.member>
+  <!-- EN: Nizalist -->
+  <Structure_OriginIslamic.symbolPacks.8.adjective>nizalista</Structure_OriginIslamic.symbolPacks.8.adjective>
+  <!-- EN: Nizalism -->
+  <Structure_OriginIslamic.symbolPacks.8.ideoName>nizalismo</Structure_OriginIslamic.symbolPacks.8.ideoName>
+  <!-- EN: Nizalist -->
+  <Structure_OriginIslamic.symbolPacks.8.member>nizalista</Structure_OriginIslamic.symbolPacks.8.member>
+  <!-- EN: Surfrist -->
+  <Structure_OriginIslamic.symbolPacks.9.adjective>sufrista</Structure_OriginIslamic.symbolPacks.9.adjective>
+  <!-- EN: Sufrism -->
+  <Structure_OriginIslamic.symbolPacks.9.ideoName>sufrismo</Structure_OriginIslamic.symbolPacks.9.ideoName>
+  <!-- EN: Surfist -->
+  <Structure_OriginIslamic.symbolPacks.9.member>sufista</Structure_OriginIslamic.symbolPacks.9.member>
+  <!-- EN: Qadirist -->
+  <Structure_OriginIslamic.symbolPacks.10.adjective>qadirista</Structure_OriginIslamic.symbolPacks.10.adjective>
+  <!-- EN: Qadirism -->
+  <Structure_OriginIslamic.symbolPacks.10.ideoName>qadirismo</Structure_OriginIslamic.symbolPacks.10.ideoName>
+  <!-- EN: Qadirist -->
+  <Structure_OriginIslamic.symbolPacks.10.member>qadirista</Structure_OriginIslamic.symbolPacks.10.member>
+  <!-- EN: Zahirist -->
+  <Structure_OriginIslamic.symbolPacks.11.adjective>zahirista</Structure_OriginIslamic.symbolPacks.11.adjective>
+  <!-- EN: Zahirism -->
+  <Structure_OriginIslamic.symbolPacks.11.ideoName>zahirismo</Structure_OriginIslamic.symbolPacks.11.ideoName>
+  <!-- EN: Zahirist -->
+  <Structure_OriginIslamic.symbolPacks.11.member>zahirista</Structure_OriginIslamic.symbolPacks.11.member>
+  <!-- EN: Azraqi -->
+  <Structure_OriginIslamic.symbolPacks.12.adjective>azraqita</Structure_OriginIslamic.symbolPacks.12.adjective>
+  <!-- EN: Azraqism -->
+  <Structure_OriginIslamic.symbolPacks.12.ideoName>azraqismo</Structure_OriginIslamic.symbolPacks.12.ideoName>
+  <!-- EN: Azraqi -->
+  <Structure_OriginIslamic.symbolPacks.12.member>azraqita</Structure_OriginIslamic.symbolPacks.12.member>
+  <!-- EN: Wahhabi -->
+  <Structure_OriginIslamic.symbolPacks.13.adjective>wahhabita</Structure_OriginIslamic.symbolPacks.13.adjective>
+  <!-- EN: Wahhabism -->
+  <Structure_OriginIslamic.symbolPacks.13.ideoName>wahhabismo</Structure_OriginIslamic.symbolPacks.13.ideoName>
+  <!-- EN: Wahhabi -->
+  <Structure_OriginIslamic.symbolPacks.13.member>wahhabita</Structure_OriginIslamic.symbolPacks.13.member>
+  <!-- EN: Caliphic -->
+  <Structure_OriginIslamic.symbolPacks.14.adjective>califista</Structure_OriginIslamic.symbolPacks.14.adjective>
+  <!-- EN: Caliphate -->
+  <Structure_OriginIslamic.symbolPacks.14.ideoName>califado</Structure_OriginIslamic.symbolPacks.14.ideoName>
+  <!-- EN: Caliphist -->
+  <Structure_OriginIslamic.symbolPacks.14.member>califista</Structure_OriginIslamic.symbolPacks.14.member>
+  <!-- EN: mosque -->
+  <Structure_OriginIslamic.worshipRoomLabel>mesquita</Structure_OriginIslamic.worshipRoomLabel>
+  
 </LanguageData>

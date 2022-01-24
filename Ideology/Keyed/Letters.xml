@@ -40,9 +40,9 @@
   
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
-  <LetterLabelRoleActive>{0} função ativada</LetterLabelRoleActive>
-  <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, select a colonist, go to their 'Social' tab and press the 'Choose role' button. -->
-  <LetterLabelRoleActiveDesc>O número de {0} s em sua colônia atingiu {1}. Agora você pode atribuir o papel de {ROLE_labelDef} a um de seus colonos.\n\nPara atribuir uma função, selecione um colono, vá para a guia 'Social' e pressione o botão 'Escolher função'.</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleActive>função {0} ativada</LetterLabelRoleActive>
+  <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
+  <LetterLabelRoleActiveDesc>O número de {0}s em sua colônia atingiu {1}. Agora você pode atribuir o papel de {ROLE_labelDef} a um de seus colonos.\n\nPara atribuir uma função, selecione um colono, vá para a guia 'Social' e pressione o botão 'Escolher função'.</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
   <LetterLabelRoleInactive>{0} função desativada</LetterLabelRoleInactive>
@@ -202,6 +202,12 @@
   <!-- EN: Archotech structures abandoned -->
   <LetterLabelArchotechStructuresAbandoned>Estruturas arquotecnologia abandonadas</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
-  <LetterTextArchotechStructuresAbandoned>Você abandonou as estruturas da arquotecnologia em {0_definite}.\n\nOs observadores distantes dizem que viram um grande flash emanando deste local não muito depois de você ter partido.</LetterTextArchotechStructuresAbandoned>
+  <LetterTextArchotechStructuresAbandoned>Você abandonou as estruturas arquotécnicas em {0_definite}.\n\nOs observadores distantes dizem que viram um grande flash emanando deste local não muito depois de você ter partido.</LetterTextArchotechStructuresAbandoned>
+
+  <!-- Reforming ideo -->
+  <!-- EN: Reform ideoligion -->
+  <LetterLabelReformIdeo>Reformar ideologia</LetterLabelReformIdeo>
+  <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
+  <LetterTextReformIdeo>Você tem pontos de desenvolvimento suficientes para reformar {0}!\n\nA reforma permite que você faça o seguinte:\n\n- Adicionar um meme\n- Remover um meme\n- Alterar estrutura\n- Alterar estilo\n\nVocê também pode fazer alterações ilimitadas em preceitos, divindades, texto narrativo e outros símbolos.\n\nPara reformar a ideologia, abra-a na guia de ideologias.</LetterTextReformIdeo>
 
 </LanguageData>
