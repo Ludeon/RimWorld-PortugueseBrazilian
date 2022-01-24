@@ -28,7 +28,7 @@
 
 <br>
 
-Olá Tradutor, seja muito bem vindo(a) ao nosso **Manual do Revisor**.
+Olá tradutor(a), seja muito bem vindo(a) ao nosso **Manual do Revisor**.
 
 O conteúdo aqui presente visa ensinar como se tornar um(a) **revisor(a)** das traduções do RimWorld.
 
@@ -39,12 +39,12 @@ Faremos agora então um breve resumo sobre o que é e como se tornar um(a) **rev
 -------
 
 ### 1.1. O que é um(a) revisor(a)?
-Como tradutor, você tem conhecimento de que seu trabalho deve ser revisado, para evitar que traduções incorretas ou erros gramaticais sejam feitos. Um revisor é alguém que tem conhecimento elevado, tanto na língua portuguesa quanto na língua inglesa, e que tem um bom conhecimento sobre o jogo, permitindo que os textos sejam mais fluidos e coerentes, considerando o contexto do texto no jogo.
+Como tradutor, você tem conhecimento de que seu trabalho deve ser revisado para evitar que traduções incorretas ou erros gramaticais sejam feitos. Um revisor é alguém que tem conhecimento elevado, tanto na língua portuguesa quanto na língua inglesa, e que tem um bom conhecimento sobre o jogo, permitindo que os textos sejam mais fluidos e coerentes, considerando o contexto do texto no jogo.
 
 Ou seja, como revisor, seu trabalho é revisar as traduções feitas pela equipe, garantido que não haja erros, que estejam contextualizadas no jogo, não seja "algo robótico" e que todas as regras sejam seguidas.
 
 ### 1.2. Como eu me torno um(a) revisor(a)?
-Teoricamente, todos os tradutores são revisores. No entanto, pedimos para aqueles que queiram se tornar revisores leiam esse guia com atenção, pois aqui estão diversas dicas que facilitam o trabalho dos revisores e também, aprimoram seu conhecimento nas tecnologias que utilizamos como tradutores.
+Teoricamente, todos os tradutores são revisores. No entanto, pedimos para aqueles que queiram se tornar revisores leiam esse guia com atenção, pois aqui estão diversas dicas que facilitam o trabalho dos revisores e aprimoram seu conhecimento nas tecnologias que utilizamos como tradutores.
 
 -------
 
