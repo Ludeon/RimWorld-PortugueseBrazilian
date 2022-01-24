@@ -68,15 +68,12 @@
     <li>circumstance_phrase->, com movimentos rápidos e eficientes</li>
     <li>circumstance_phrase->, sem emoção</li>
     <li>circumstance_phrase->, de uma maneira covarde e desanimada</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s olha.</li>
-    <li>desc_sentence->Um(a) [PersonJob] observa silenciosamente [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] olha [AdjectiveAngsty].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
+    <li>desc_sentence->Um [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] está com os olhos fechados.</li>
-    <li>desc_sentence->[KILLER_nameDef] está mostrando os dentes [KILLER_objective].</li>
-    <li>desc_sentence->[KILLER_nameDef] parece satisfeito.</li>
-    <li>desc_sentence->[KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.</li>
-    <li>desc_sentence->[KILLER_nameDef] parece satisfeito com a situação.</li>
-    <li>desc_sentence->[KILLER_nameDef] olha triunfante.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece satisfeito(a).</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiado(a) com o que está fazendo.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece satisfeito(a) com a situação.</li>
   </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
@@ -115,9 +112,8 @@
     <li>circumstance_phrase->enquanto incapaz de mover um músculo</li>
     <li>desc_sentence->O último projeto de [PAWN_nameDef] está próximo de ser completo.</li>
     <li>desc_sentence->Uma construção maravilhosa envolve [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s parece grato pelo esforço heróico de [PAWN_nameDef].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s mentiu nas proximidades de um jeito parecido.</li>
-    <li>desc_sentence->A cena acontece dentro de uma recém-construída [Community].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s parecem gratos pelo esforço heróico de [PAWN_nameDef].</li>
+    <li>desc_sentence->A cena acontece dentro de um(a) [Community] recém-construído(a).</li>
   </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
@@ -158,8 +154,8 @@
     <li>circumstance_phrase->[CHILD_nameFull], que olha em volta com uma expressão de serenidade</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s dormem tranquilamente nas proximidades.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplam a cena.</li>
-    <li>desc_sentence->Um(a) [PersonJob] assiste à distância.</li>
-    <li>desc_sentence->A cena acontece dentro de uma recém-construída [Community].</li>
+    <li>desc_sentence->Um [PersonJob] assiste à distância.</li>
+    <li>desc_sentence->A cena acontece dentro de um(a) [Community] recém-construído(a).</li>
   </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
@@ -201,13 +197,13 @@
     <li>circumstance_phrase->coberto(a) de suor</li>
     <li>circumstance_phrase->com lábios secos e rachados</li>
     <li>circumstance_phrase->encharcado(a) de vômito</li>
-    <li>desc_sentence->[Quantity_adjphrase] dessecado [Animal] cadáveres cercam a área.</li>
-    <li>desc_sentence->as roupas de [PAWN_nameDef] estão esfarrapadas e rasgadas.</li>
-    <li>desc_sentence->Um sol ardente paira no fundo.</li>
-    <li>desc_sentence->A cena acontece dentro de um deserto ardente.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal]s dessecados cercam a área.</li>
+    <li>desc_sentence->As roupas de [PAWN_nameDef] estão esfarrapadas e rasgadas.</li>
+    <li>desc_sentence->O sol ardente paira no fundo.</li>
+    <li>desc_sentence->A cena acontece em um deserto ardente.</li>
     <li>desc_sentence->A cena parece ter lugar dentro ou ao lado de um aquecedor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] imóveis [Animal] s rodeiam a cena.</li>
-    <li>desc_sentence->[Quantity_adjphrase] morrendo [Animal]s Deita-se no chão.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s imóveis rodeiam a cena.</li>
+    <li>desc_sentence->A cena é envolta por [Quantity_adjphrase] [Animal]s mortos.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
@@ -249,13 +245,13 @@
     <li>circumstance_phrase->enquanto treme incontrolavelmente</li>
     <li>circumstance_phrase->enquanto é coberto(a) de gelo</li>
     <li>circumstance_phrase->enquanto exala nuvens de neblina</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] congelaram, seus cadáveres cercam a área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal]s congelados cercam a área.</li>
     <li>desc_sentence->As roupas de [PAWN_nameDef] estão esfarrapadas e gastas.</li>
-    <li>desc_sentence->Uma lua azul fria aparece no fundo.</li>
-    <li>desc_sentence->A cena ocorre dentro de uma floresta de [TreeType] coberta de neve.</li>
-    <li>desc_sentence->A cena parece ter lugar dentro de um freezer.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s tremem em volta da cena.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s estão morrendo em volta da cena.</li>
+    <li>desc_sentence->A lua fria aparece no fundo.</li>
+    <li>desc_sentence->A cena ocorre dentro de uma floresta de [TreeType]s coberta de neve.</li>
+    <li>desc_sentence->A cena parece ter lugar dentro de um congelador.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s tremem de frio em volta da cena.</li>
+    <li>desc_sentence->A cena é envolta por [Quantity_adjphrase] [Animal]s mortos.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
@@ -302,11 +298,11 @@
     <li>circumstance_phrase->enquanto vomita</li>
     <li>circumstance_phrase->enquanto uma erupção toma conta de seu corpo</li>
     <li>circumstance_phrase->enquanto é atendido(a) por um médico</li>
-    <li>desc_sentence->[Quantity_adjphrase] corpos de [Animal] estão coberto de moscas na área.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s torcidas [Color] cerca a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal]s estão cobertos de moscas na área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s torcidos(as) cercam a cena.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s são atacados com a mesma aflição.</li>
-    <li>desc_sentence->A cena ocorre dentro de uma floresta de [TreeType].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s estão morrendo ao redor.</li>
+    <li>desc_sentence->A cena ocorre dentro de uma floresta de [TreeType]s.</li>
+    <li>desc_sentence->A cena é envolta por [Quantity_adjphrase] [Animal]s mortos.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- EN: killed -->
@@ -365,14 +361,12 @@
     <li>circumstance_phrase->eficientemente</li>
     <li>circumstance_phrase->utilizando movimentos rápidos e eficientes</li>
     <li>circumstance_phrase->sem emoção</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s olham.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam.</li>
     <li>desc_sentence->Um [PersonJob] observa silenciosamente [side_position].</li>
-    <li>desc_sentence->[VICTIM_nameDef] olha [AdjectiveAngsty].</li>
     <li>desc_sentence->[VICTIM_nameDef] está com os olhos fechados.</li>
-    <li>desc_sentence->[KILLER_nameDef] parece satisfeito.</li>
-    <li>desc_sentence->[KILLER_nameDef] parece angustiado com o que [KILLER_pronoun] está fazendo.</li>
-    <li>desc_sentence->[KILLER_nameDef] parece satisfeito com a situação.</li>
-    <li>desc_sentence->[KILLER_nameDef] olha triunfante.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece satisfeito(a).</li>
+    <li>desc_sentence->[KILLER_nameDef] parece angustiado(a) com o que está fazendo.</li>
+    <li>desc_sentence->[KILLER_nameDef] parece satisfeito(a) com a situação.</li>
   </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
