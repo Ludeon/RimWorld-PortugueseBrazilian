@@ -29,9 +29,12 @@
     <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
   -->
   <Captured.rulePack.rulesStrings>
-    <li>tale_noun->[CAPTURER_nameDef] capturando [PRISONER_nameDef]</li>
-    <li>tale_noun->[PRISONER_nameDef] sendo capturado por [CAPTURER_nameDef]</li>
-    <li>tale_noun->a captura de [PRISONER_nameDef]</li>
+    <li>tale_noun->a [CAPTURER_nameDef] capturando [PRISONER_nameDef]</li>
+    <li>tale_noun->a [PRISONER_nameDef] sendo capturado(a) por [CAPTURER_nameDef]</li>
+    <li>tale_noun->à captura de [PRISONER_nameDef]</li>
+    <li>tale_nounD->e [CAPTURER_nameDef] capturando [PRISONER_nameDef]</li>
+    <li>tale_nounD->e [PRISONER_nameDef] sendo capturado(a) por [CAPTURER_nameDef]</li>
+    <li>tale_nounD->a captura de [PRISONER_nameDef]</li>
     <li>image->[CAPTURER_nameFull] capturando [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[CAPTURER_nameFull] amarrando as mãos de [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[CAPTURER_nameFull] surrando [PRISONER_nameFull] e o(a) capturando [circumstance_group]</li>
@@ -79,9 +82,12 @@
     <li>desc_sentence->[PATIENT_nameDef] is shaking and writhing.</li>
   -->
   <DidSurgery.rulePack.rulesStrings>
-    <li>tale_noun->[SURGEON_nameDef] operando [PATIENT_nameDef]</li>
-    <li>tale_noun->[SURGEON_nameDef] realizando uma operação médica em [PATIENT_nameDef]</li>
-    <li>tale_noun->operação médica de [PATIENT_nameDef]</li>
+    <li>tale_noun->a [SURGEON_nameDef] operando [PATIENT_nameDef]</li>
+    <li>tale_noun->a [SURGEON_nameDef] realizando uma operação médica em [PATIENT_nameDef]</li>
+    <li>tale_noun->à operação médica de [PATIENT_nameDef]</li>
+    <li>tale_nounD->e [SURGEON_nameDef] operando [PATIENT_nameDef]</li>
+    <li>tale_nounD->e [SURGEON_nameDef] realizando uma operação médica em [PATIENT_nameDef]</li>
+    <li>tale_nounD->a operação médica de [PATIENT_nameDef]</li>
     <li>image->[SURGEON_nameFull] anestesiando [PATIENT_nameFull][circumstance_group]</li>
     <li>image->[SURGEON_nameFull] operando [PATIENT_nameFull] [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] fatiando [PATIENT_nameFull] [circumstance_group]</li>
@@ -130,9 +136,12 @@
     <li>desc_sentence->[PRISONER_nameDef] looks defiant.</li>
   -->
   <ExecutedPrisoner.rulePack.rulesStrings>
-    <li>tale_noun->[executioner] executando [PRISONER_nameDef]</li>
-    <li>tale_noun->[PRISONER_nameDef] sendo executado por [EXECUTIONER_nameDef]</li>
-    <li>tale_noun->a execução de [PRISONER_nameDef]</li>
+    <li>tale_noun->a [EXECUTIONER_nameDef] executando [PRISONER_nameDef]</li>
+    <li>tale_noun->a [PRISONER_nameDef] sendo executado(a) por [EXECUTIONER_nameDef]</li>
+    <li>tale_noun->à execução de [PRISONER_nameDef]</li>
+    <li>tale_nounD->e [EXECUTIONER_nameDef] executando [PRISONER_nameDef]</li>
+    <li>tale_nounD->e [PRISONER_nameDef] sendo executado(a) por [EXECUTIONER_nameDef]</li>
+    <li>tale_nounD->a execução de [PRISONER_nameDef]</li>
     <li>image->[EXECUTIONER_nameFull] executando [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] matando [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] se preparando para executar [PRISONER_nameFull] [circumstance_group]</li>
@@ -179,9 +188,12 @@
     <li>desc_sentence->[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</li>
   -->
   <Hunted.rulePack.rulesStrings>
-    <li>tale_noun->[HUNTER_nameDef] caçando [PREY_nameDef]</li>
-    <li>tale_noun->[PREY_nameDef] sendo caçado por [HUNTER_nameDef]</li>
-    <li>tale_noun->caça de [HUNTER_nameDef] bem sucedida</li>
+    <li>tale_noun->a [HUNTER_nameDef] caçando [PREY_nameDef]</li>
+    <li>tale_noun->a [PREY_nameDef] sendo caçado(a) por [HUNTER_nameDef]</li>
+    <li>tale_noun->à caça bem sucedida de [HUNTER_nameDef]</li>
+    <li>tale_nounD->e [HUNTER_nameDef] caçando [PREY_nameDef]</li>
+    <li>tale_nounD->e [PREY_nameDef] sendo caçado(a) por [HUNTER_nameDef]</li>
+    <li>tale_nounD->a caça bem sucedida de [HUNTER_nameDef]</li>
     <li>image->[PREY_nameFull] sendo caçado por [HUNTER_nameFull] [circumstance_group]</li>
     <li>image->[HUNTER_nameFull] se aproximando de [PREY_nameFull] [circumstance_group]</li>
     <li>image->[HUNTER_nameFull] caçando [PREY_nameFull] [circumstance_group]</li>
@@ -220,9 +232,12 @@
     <li>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</li>
   -->
   <KidnappedColonist.rulePack.rulesStrings>
-    <li>tale_noun->[KIDNAPPER_nameDef] sequestrando [VICTIM_nameDef]</li>
-    <li>tale_noun->[VICTIM_nameDef] sendo sequestrado por [KIDNAPPER_nameDef]</li>
-    <li>tale_noun->o sequestro de [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KIDNAPPER_nameDef] sequestrando [VICTIM_nameDef]</li>
+    <li>tale_noun->a [VICTIM_nameDef] sendo sequestrado(a) por [KIDNAPPER_nameDef]</li>
+    <li>tale_noun->ao sequestro de [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [KIDNAPPER_nameDef] sequestrando [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [VICTIM_nameDef] sendo sequestrado(a) por [KIDNAPPER_nameDef]</li>
+    <li>tale_nounD->o sequestro de [VICTIM_nameDef]</li>
     <li>image->[KIDNAPPER_nameFull] levando [VICTIM_nameFull] para [KIDNAPPER_factionName] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull], da facção [KIDNAPPER_factionName], sequestrando [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KIDNAPPER_nameFull] sequestrando [VICTIM_nameFull] [circumstance_group]</li>
@@ -274,10 +289,14 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledBy.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] matando [VICTIM_nameDef]</li>
-    <li>tale_noun->[VICTIM_nameDef] sendo morto por [KILLER_nameDef]</li>
-    <li>tale_noun->o assassinato de [VICTIM_nameDef] por [KILLER_nameDef]</li>
-    <li>tale_noun->o assassinato de [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KILLER_nameDef] matando [VICTIM_nameDef]</li>
+    <li>tale_noun->a [VICTIM_nameDef] sendo morto(a) por [KILLER_nameDef]</li>
+    <li>tale_noun->ao assassinato de [VICTIM_nameDef] por [KILLER_nameDef]</li>
+    <li>tale_noun->ao assassinato de [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [KILLER_nameDef] matando [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [VICTIM_nameDef] sendo morto(a) por [KILLER_nameDef]</li>
+    <li>tale_nounD->o assassinato de [VICTIM_nameDef] por [KILLER_nameDef]</li>
+    <li>tale_nounD->o assassinato de [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] sendo morto(a) por [KILLER_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] matando [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] acabando com a vida de [VICTIM_nameFull] [circumstance_group]</li>
@@ -328,9 +347,12 @@
     <li>desc_sentence->[JOINER_nameDef] looks hopeful.</li>
   -->
   <Recruited.rulePack.rulesStrings>
-    <li>tale_noun->[RECRUITER_nameDef] recrutando [JOINER_nameDef]</li>
-    <li>tale_noun->[JOINER_nameDef] sendo recrutado por [RECRUITER_nameDef]</li>
-    <li>tale_noun->o recrutamento de [JOINER_nameDef]</li>
+    <li>tale_noun->a [RECRUITER_nameDef] recrutando [JOINER_nameDef]</li>
+    <li>tale_noun->a [JOINER_nameDef] sendo recrutado(a) por [RECRUITER_nameDef]</li>
+    <li>tale_noun->ao recrutamento de [JOINER_nameDef]</li>
+    <li>tale_nounD->e [RECRUITER_nameDef] recrutando [JOINER_nameDef]</li>
+    <li>tale_nounD->e [JOINER_nameDef] sendo recrutado(a) por [RECRUITER_nameDef]</li>
+    <li>tale_nounD->o recrutamento de [JOINER_nameDef]</li>
     <li>image->[RECRUITER_nameFull] recrutando [JOINER_nameFull] [circumstance_group]</li>
     <li>image->[RECRUITER_nameFull] dando boas-vindas a [JOINER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->com boa vontade</li>
@@ -368,9 +390,12 @@
     <li>desc_sentence->An air of hopelessness pervades the situation.</li>
   -->
   <SoldPrisoner.rulePack.rulesStrings>
-    <li>tale_noun->a venda de [PRISONER_nameDef] para um comerciante</li>
-    <li>tale_noun->[SELLER_nameDef] vendendo [PRISONER_nameDef] como escravo</li>
-    <li>tale_noun->[PRISONER_nameDef] sendo vendido como escravo por [SELLER_nameDef]</li>
+    <li>tale_noun->à venda de [PRISONER_nameDef] para um comerciante</li>
+    <li>tale_noun->a [SELLER_nameDef] vendendo [PRISONER_nameDef] como escravo(a)</li>
+    <li>tale_noun->a [PRISONER_nameDef] sendo vendido(a) como escravo(a) por [SELLER_nameDef]</li>
+    <li>tale_nounD->a venda de [PRISONER_nameDef] para um comerciante</li>
+    <li>tale_nounD->e [SELLER_nameDef] vendendo [PRISONER_nameDef] como escravo(a)</li>
+    <li>tale_nounD->e [PRISONER_nameDef] sendo vendido(a) como escravo(a) por [SELLER_nameDef]</li>
     <li>image->[TRADER_nameFull] comprando [PRISONER_nameFull] de [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] vendendo [PRISONER_nameFull] para [TRADER_nameFull] [circumstance_group]</li>
     <li>imageD->e [TRADER_nameFull] comprando [PRISONER_nameFull] de [SELLER_nameFull] [circumstance_group]</li>
@@ -410,8 +435,10 @@
     <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
   -->
   <TamedAnimal.rulePack.rulesStrings>
-    <li>tale_noun->a domesticação de [ANIMAL_nameDef] por [TAMER_nameDef]</li>
-    <li>tale_noun->domesticação de [ANIMAL_nameDef]</li>
+    <li>tale_noun->à domesticação de [ANIMAL_nameDef] por [TAMER_nameDef]</li>
+    <li>tale_noun->à domesticação de [ANIMAL_nameDef]</li>
+    <li>tale_nounD->a domesticação de [ANIMAL_nameDef] por [TAMER_nameDef]</li>
+    <li>tale_nounD->a domesticação de [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] domesticando [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] oferecendo um pedaço de comida para [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] sussurrando para [ANIMAL_nameFull] [circumstance_group]</li>
@@ -446,7 +473,8 @@
     <li>desc_sentence->[BUYER_nameDef] is taking [BUYER_possessive] goods.</li>
   -->
   <TradedWith.rulePack.rulesStrings>
-    <li>tale_noun->uma troca entre [SELLER_nameFull] e [BUYER_nameFull]</li>
+    <li>tale_noun->a uma troca entre [SELLER_nameFull] e [BUYER_nameFull]</li>
+    <li>tale_nounD->e uma troca entre [SELLER_nameFull] e [BUYER_nameFull]</li>
     <li>image->[BUYER_nameFull] comprando suprimentos de [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] vendendo suprimentos para [BUYER_nameFull] [circumstance_group]</li>
     <li>imageD->e [BUYER_nameFull] comprando suprimentos de [SELLER_nameFull] [circumstance_group]</li>
@@ -500,9 +528,12 @@
     <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
   -->
   <TrainedAnimal.rulePack.rulesStrings>
-    <li>tale_noun->[TRAINER_nameDef] treinando [ANIMAL_nameDef]</li>
-    <li>tale_noun->o treinamento de [ANIMAL_nameDef]</li>
-    <li>tale_noun->o treinamento de [ANIMAL_nameDef] por [TRAINER_nameDef]</li>
+    <li>tale_noun->a [TRAINER_nameDef] treinando [ANIMAL_nameDef]</li>
+    <li>tale_noun->ao treinamento de [ANIMAL_nameDef]</li>
+    <li>tale_noun->ao treinamento de [ANIMAL_nameDef] por [TRAINER_nameDef]</li>
+    <li>tale_nounD->e [TRAINER_nameDef] treinando [ANIMAL_nameDef]</li>
+    <li>tale_nounD->o treinamento de [ANIMAL_nameDef]</li>
+    <li>tale_nounD->o treinamento de [ANIMAL_nameDef] por [TRAINER_nameDef]</li>
     <li>image->[TRAINER_nameFull] [train_syn] [ANIMAL_nameFull] em [TRAINABLE_label] [circumstance_group]</li>
     <li>image->[TRAINER_nameFull] [train_syn] [TRAINABLE_label] para [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TRAINER_nameFull] praticando [TRAINABLE_label] com [ANIMAL_nameFull] [circumstance_group]</li>

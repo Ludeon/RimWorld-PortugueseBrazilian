@@ -41,11 +41,16 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Downed.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
-    <li>tale_noun->o [wound_name_present] foi [VICTIM_nameDef] por causa de [KILLER_nameDef]</li>
-    <li>tale_noun->o [wound_name_present] foi [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
-    <li>tale_noun->o [wound_name_present] foi [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
+    <li>tale_noun->[wound_name_noun] de [VICTIM_nameDef] por [KILLER_nameDef]</li>
+    <li>tale_noun->[wound_name_noun] de [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
+    <li>tale_noun->[wound_name_noun] de [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
+    <li>tale_nounD->[wound_name_nounD] de [VICTIM_nameDef] por [KILLER_nameDef]</li>
+    <li>tale_nounD->[wound_name_nounD] de [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
+    <li>tale_nounD->[wound_name_nounD] de [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] [wound_name_past] por [KILLER_nameFull][with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull][with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull][with_weapon_optional]</li>
@@ -60,6 +65,12 @@
     <li>wound_name_present->incapacitando</li>
     <li>wound_name_present->ferindo</li>
     <li>wound_name_present->machucando</li>
+    <li>wound_name_noun->à incapacitação</li>
+    <li>wound_name_noun->ao ferimento</li>
+    <li>wound_name_noun->ao machucado</li>
+    <li>wound_name_nounD->a incapacitação</li>
+    <li>wound_name_nounD->o ferimento</li>
+    <li>wound_name_nounD->o machucado</li>
     <li>with_weapon_optional-> com um(a) [WEAPON_label][circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->, aparentemente sem remorso</li>
@@ -96,7 +107,8 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <Exhausted.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está tendo um colapso por exaustão</li>
+    <li>tale_noun->a [PAWN_nameDef] tendo um colapso por exaustão</li>
+    <li>tale_noun->e [PAWN_nameDef] tendo um colapso por exaustão</li>
     <li>image->[PAWN_nameFull] colapsando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] caindo no chão [circumstance_group]</li>
     <li>image->[PAWN_nameFull] deitanto-se em sua cama [circumstance_group]</li>
@@ -137,7 +149,8 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[MOTHER_nameDef] dando à luz a [CHILD_nameDef]</li>
+    <li>tale_noun->a [MOTHER_nameDef] dando à luz a [CHILD_nameDef]</li>
+    <li>tale_nounD->e [MOTHER_nameDef] dando à luz a [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] dando à luz a [circumstance_group]</li>
     <li>image->[MOTHER_nameFull] segurando seu(ua) [baby] [circumstance_group]</li>
     <li>image->[MOTHER_nameFull] deitada na cama ao lado de seu(ua) [baby] [circumstance_group]</li>
@@ -181,8 +194,10 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HeatstrokeRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está ficando com insolação</li>
-    <li>tale_noun->[PAWN_nameDef] está superaquecendo</li>
+    <li>tale_noun->a [PAWN_nameDef] tendo insolação</li>
+    <li>tale_noun->a [PAWN_nameDef] superaquecendo</li>
+    <li>tale_nounD->e [PAWN_nameDef] tendo insolação</li>
+    <li>tale_nounD->e [PAWN_nameDef] superaquecendo</li>
     <li>image->[PAWN_nameFull], [circumstance_group], caminhando pela areia</li>
     <li>image->[PAWN_nameFull], [circumstance_group], parado(a) à sombra de um(a) [TerrainFeature]</li>
     <li>image->[PAWN_nameFull], [circumstance_group], procurando água</li>
@@ -229,8 +244,10 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] pegou hipotermia</li>
-    <li>tale_noun->[PAWN_nameDef] congelou até a morte</li>
+    <li>tale_noun->a [PAWN_nameDef] pegando hipotermia</li>
+    <li>tale_noun->a [PAWN_nameDef] congelando até a morte</li>
+    <li>tale_nounD->e [PAWN_nameDef] pegando hipotermia</li>
+    <li>tale_nounD->e [PAWN_nameDef] congelando até a morte</li>
     <li>image->[PAWN_nameFull] caminhando pela neve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] encolhido(a) ao lado de um(a) [TerrainFeature] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] procurando por um(a) caloroso(a) [Apparel] [circumstance_group]</li>
@@ -278,7 +295,8 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <IllnessRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está sendo atingido com [ILLNESS_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] pegando [ILLNESS_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] pegando [ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] cambaleando por um campo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] deitado(a) no chão [circumstance_group]</li>
     <li>image->[PAWN_nameFull] deitado(a) em sua cama [circumstance_group]</li>
@@ -339,8 +357,10 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledCapacity.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
     <li>image->[KILLER_nameFull] [cap_removal] o(a) de [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] e [cap_removal] seu(ua) [CAPACITY_label] [with_weapon_optional]</li>
     <li>imageD->e [KILLER_nameFull] [cap_removal] o(a) de [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -407,10 +427,14 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledLongRange.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] a extrema distância</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] a extrema distância com um(a) [WEAPON_label]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] a uma longa distancia</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label] a uma longa distancia</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a distância</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a distância com um(a) [WEAPON_label]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a uma longa distância</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label] a uma longa distância</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a distância</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a distância com um(a) [WEAPON_label]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] a uma longa distância</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label] a uma longa distância</li>
     <li>image->[KILLER_nameFull] seguindo [VICTIM_nameFull] com um(a) [WEAPON_label]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] friamente [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -475,10 +499,10 @@
     <li>desc_sentence->[KILLER_nameDef] is glowing with a heroic aura.</li>
   -->
   <KilledMajorThreat.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
     <li>image->[VICTIM_nameFull] [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -551,10 +575,10 @@
     <li>desc_sentence->[KILLER_nameDef] wears a feral expression.</li>
   -->
   <KilledMelee.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] em um combate próximo</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] em uma luta corpo-a-corpo com um(a) [WEAPON_label]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] em um combate próximo</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] em uma luta corpo-a-corpo com um(a) [WEAPON_label]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em um combate próximo</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em uma luta corpo a corpo com um(a) [WEAPON_label]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em um combate próximo</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] em uma luta corpo a corpo com um(a) [WEAPON_label]</li>
     <li>image->[VICTIM_nameFull] [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>
@@ -611,8 +635,10 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledMortar.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com um(a) morteiro</li>
-    <li>tale_noun->[VICTIM_nameDef] foi morto por [KILLER_nameDef], com uma artilharia</li>
+    <li>tale_noun->a [KILLER_nameDef] abatendo [VICTIM_nameDef] com um(a) morteiro</li>
+    <li>tale_noun->a [VICTIM_nameDef] sendo morto(a) por [KILLER_nameDef] com uma artilharia</li>
+    <li>tale_nounD->e [KILLER_nameDef] abatendo [VICTIM_nameDef] com um(a) morteiro</li>
+    <li>tale_nounD->e [VICTIM_nameDef] sendo morto(a) por [KILLER_nameDef] com uma artilharia</li>
     <li>image->[KILLER_nameFull] ajustando um cano de disparo [circumstance_group]</li>
     <li>image->[KILLER_nameFull] observando o horizonte [circumstance_group]</li>
     <li>image->[KILLER_nameFull] fazendo cálculos em um papel [circumstance_group]</li>
@@ -660,8 +686,10 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <ToxicityRevealed.rulePack.rulesStrings>
-    <li>tale_noun->O corpo de [PAWN_nameDef] está se tornando tóxico</li>
-    <li>tale_noun->[PAWN_nameDef] está sendo envenenado por toxinas</li>
+    <li>tale_noun->ao corpo de [PAWN_nameDef] se intoxicando</li>
+    <li>tale_noun->a [PAWN_nameDef] sendo envenenado(a) por toxinas</li>
+    <li>tale_nounD->o corpo de [PAWN_nameDef] se intoxicando</li>
+    <li>tale_nounD->e [PAWN_nameDef] sendo envenenado(a) por toxinas</li>
     <li>image->[PAWN_nameFull] cambaleando por um campo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] caindo no chão [circumstance_group]</li>
     <li>image->[PAWN_nameFull] deitando-se em sua cama [circumstance_group]</li>
@@ -727,11 +755,10 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Wounded.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
-    <li>tale_noun->[KILLER_nameDef] está [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com uma(a) [WEAPON_label]</li>
     <li>image->[VICTIM_nameFull] [wound_name_past] por [KILLER_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] brutalmente [VICTIM_nameFull] [with_weapon_optional]</li>

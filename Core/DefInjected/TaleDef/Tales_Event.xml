@@ -19,8 +19,10 @@
     <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
   -->
   <CollapseDodged.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] esquivando-se de um desmoronamento</li>
-    <li>tale_noun->[PAWN_nameDef] quase esmagado por objetos caindo</li>
+    <li>tale_noun->a [PAWN_nameDef] esquivando-se de um desmoronamento</li>
+    <li>tale_noun->a [PAWN_nameDef] quase sendo esmagado(a) por objetos caindo</li>
+    <li>tale_nounD->e [PAWN_nameDef] esquivando-se de um desmoronamento</li>
+    <li>tale_nounD->e [PAWN_nameDef] quase sendo esmagado(a) por objetos caindo</li>
     <li>image->[PAWN_nameFull] desviando de um colapso de detritos, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] desviando de um desmoronamento, [circumstance_group]</li>
     <li>image->[PAWN_nameFull] desviando de um telhado despedaçando-se, [circumstance_group]</li>
@@ -64,8 +66,10 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LaunchedShip.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] escapando do planeta</li>
-    <li>tale_noun->[PAWN_nameDef] decolando em uma nave espacial</li>
+    <li>tale_noun->a [PAWN_nameDef] escapando do planeta</li>
+    <li>tale_noun->a [PAWN_nameDef] decolando em uma nave espacial</li>
+    <li>tale_nounD->e [PAWN_nameDef] escapando do planeta</li>
+    <li>tale_nounD->e [PAWN_nameDef] decolando em uma nave espacial</li>
     <li>image->[PAWN_nameFull] sendo lançado para as estrelas [circumstance_group]</li>
     <li>image->[PAWN_nameFull] correndo em direção aos céus [circumstance_group]</li>
     <li>image->[PAWN_nameFull] acelerando em direção aos céus [circumstance_group]</li>
@@ -127,7 +131,8 @@
     <li>target->[RESPONDER_nameDef]</li>
   -->
   <SocialFight.rulePack.rulesStrings>
-    <li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
+    <li>tale_noun->a [INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
+    <li>tale_nounD->e [INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
     <li>image->[INITIATOR_nameFull] insultando [RESPONDER_nameFull] [circumstance_group]</li>
     <li>image->[INITIATOR_nameFull] ameaçando [RESPONDER_nameFull] [circumstance_group]</li>
     <li>image->[INITIATOR_nameFull] intimidando [RESPONDER_nameFull] [circumstance_group]</li>
@@ -143,8 +148,7 @@
     <li>imageD->e [INITIATOR_nameFull] chutando [RESPONDER_nameFull] [circumstance_group]</li>
     <li>imageD->e [INITIATOR_nameFull] fungindo de [RESPONDER_nameFull] [circumstance_group]</li>
     <li>fight_name_present->atacando</li>
-    <li>fight_name_present->atacando</li>
-    <li>fight_name_present->lutando</li>
+    <li>fight_name_present->lutando com</li>
     <li>circumstance_phrase->enquanto [RESPONDER_nameDef] o(a) provoca</li>
     <li>circumstance_phrase->enquanto [RESPONDER_nameDef] o(a) intima</li>
     <li>circumstance_phrase->enquanto [RESPONDER_nameDef] o(a) estarrece</li>
