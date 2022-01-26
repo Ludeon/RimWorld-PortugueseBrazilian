@@ -24,9 +24,12 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Aurora.rulePack.rulesStrings>
-    <li>tale_noun->o momento em que uma aurora apareceu na [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->as luzes polares do tempo brilharam sobre a [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef] [Community] iluminada pela luz de uma aurora</li>
+    <li>tale_noun->ao momento em que uma aurora apareceu no(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->às luzes polares do tempo que brilharam sobre o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] iluminado(a) pela luz de uma aurora</li>
+    <li>tale_nounD->o momento em que uma aurora apareceu no(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->as luzes polares do tempo que brilharam sobre o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] iluminado(a) pela luz de uma aurora</li>
     <li>image->o céu iluminado pelas cores [Color] e [Color] [circumstance_phrase]</li>
     <li>image->um padrão fabuloso [Color] [circumstance_phrase]</li>
     <li>image->um céu [Color] [circumstance_phrase]</li>
@@ -73,7 +76,8 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-    <li>tale_noun->A caravana de [PAWN_nameDef] está sendo emboscada</li>
+    <li>tale_noun->à caravana de [PAWN_nameDef] sendo emboscada</li>
+    <li>tale_nounD->a caravana de [PAWN_nameDef] sendo emboscada</li>
     <li>image->[PAWN_nameFull] chorando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] correndo para proteger um aliado [circumstance_group]</li>
     <li>image->[PAWN_nameFull] indo para o ataque [circumstance_group]</li>
@@ -123,7 +127,8 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
-    <li>tale_noun->A caravana de [PAWN_nameDef] estásendo emboscada</li>
+    <li>tale_noun->à caravana de [PAWN_nameDef] sendo emboscada</li>
+    <li>tale_nounD->a caravana de [PAWN_nameDef] sendo emboscada</li>
     <li>image->[PAWN_nameFull] chorando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] correndo para proteger um aliado [circumstance_group]</li>
     <li>image->[PAWN_nameFull] indo para o ataque [circumstance_group]</li>
@@ -173,8 +178,10 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->Caravana de [PAWN_nameDef] está recebendo uma demanda</li>
-    <li>tale_noun->A caravana de [PAWN_nameDef] está sendo ameaçada</li>
+    <li>tale_noun->à caravana de [PAWN_nameDef] recebendo uma demanda</li>
+    <li>tale_noun->à caravana de [PAWN_nameDef] sendo ameaçada</li>
+    <li>tale_nounD->a caravana de [PAWN_nameDef] recebendo uma demanda</li>
+    <li>tale_nounD->a caravana de [PAWN_nameDef] sendo ameaçada</li>
     <li>image->[PAWN_nameFull] chorando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] gritando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pensando [circumstance_group]</li>
@@ -230,7 +237,8 @@
     <li>event->talking hesitantly</li>
   -->
   <CaravanMeeting.rulePack.rulesStrings>
-    <li>tale_noun->Caravana de [PAWN_nameDef]sendo encontrada por outras pessoas</li>
+    <li>tale_noun->à caravana de [PAWN_nameDef] sendo encontrada por outras pessoas</li>
+    <li>tale_nounD->a caravana de [PAWN_nameDef] sendo encontrada por outras pessoas</li>
     <li>image->[PAWN_nameFull] cumprimentando um [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] inspecionando um [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] chamando um [PersonJob] [circumstance_group]</li>
@@ -279,7 +287,8 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Eclipse.rulePack.rulesStrings>
-    <li>tale_noun->um eclipse sobre [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->a um eclipse sobre o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->e um eclipse sobre o(a) [Community] de [PAWN_nameDef]</li>
     <li>image->o céu anormalmente escuro, [circumstance_phrase]</li>
     <li>image->o céu crepuscular, [circumstance_phrase]</li>
     <li>image->a lua, cercada por um leve raio de sol, [circumstance_phrase]</li>
@@ -332,8 +341,10 @@
     <li>desc_sentence->A spaceship is visible in the far distance.</li>
   -->
   <EndGame_ShipEscape.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] recebendo uma mensagem de um antigo amigo</li>
-    <li>tale_noun->uma oportunidade chegando para [PAWN_nameDef] [Community]</li>
+    <li>tale_noun->a [PAWN_nameDef] recebendo uma mensagem de um antigo amigo</li>
+    <li>tale_noun->a uma oportunidade para o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->e [PAWN_nameDef] recebendo uma mensagem de um antigo amigo</li>
+    <li>tale_nounD->e uma oportunidade para o(a) [Community] de [PAWN_nameDef]</li>
     <li>image->[PAWN_nameDef] abrindo uma carta entregue por [delivery_method] enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameDef] usando um datacristal fornecido por [delivery_method] enquanto [circumstance_group]</li>
     <li>image->[PAWN_nameDef] desenrolando um pergaminho entregue por [delivery_method] enquanto [circumstance_group]</li>
@@ -392,8 +403,10 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Flashstorm.rulePack.rulesStrings>
-    <li>tale_noun->uma tempestade de raios que ameaçou a comunidade [PAWN_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef] [Community]sendo ameaçada por uma tempestade de raios mortal</li>
+    <li>tale_noun->a uma tempestade de raios que ameaçou o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] sendo ameaçada por uma tempestade de raios mortal</li>
+    <li>tale_nounD->e uma tempestade de raios que ameaçou o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo ameaçada por uma tempestade de raios mortal</li>
     <li>image->[Quantity_adjphrase] relâmpagos [circunstance_phrase]</li>
     <li>image->uma parede de chamas [circumstance_phrase]</li>
     <li>image->uma parede de chamas de cor [Color] [circunstance_phrase]</li>
@@ -441,7 +454,8 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Infestation.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] s [Community]sendo infestada por insetos gigantes</li>
+    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] sendo infestado(a) por insetos gigantes</li>
+    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo infestado(a) por insetos gigantes</li>
     <li>image->um enxame de insectoides [circunstance_phrase]</li>
     <li>image->[Quantity_adjphrase] megaranhas [circumstance_phrase]</li>
     <li>image->uma maré avassaladora de insetos de cor [Color] [circumstance_phrase]</li>
@@ -495,8 +509,10 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <ManhunterPack.rulePack.rulesStrings>
-    <li>tale_noun->bestas caçadoras ameaçando a [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->[Community] de [PAWN_nameDef] sendo atacada por animais loucos</li>
+    <li>tale_noun->a bestas caçadoras ameaçando o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] sendo atacado(a) por animais loucos</li>
+    <li>tale_nounD->e bestas caçadoras ameaçando o(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo atacado(a) por animais loucos</li>
     <li>image->um rebanho de [Animal]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
     <li>image->um(a) [Animal] [huge] [circunstancia_frase]</li>
@@ -548,8 +564,10 @@
     <li>desc_sentence->The surroundings are muted and dull.</li>
   -->
   <MeteoriteImpact.rulePack.rulesStrings>
-    <li>tale_noun->um meteorito caindo perto da [PAWN_nameDef] [Community]</li>
-    <li>tale_noun->um meteorito impactando perto da [PAWN_nameDef] [Community]</li>
+    <li>tale_noun->a um meteorito caindo perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->ao impacto de um meteorito perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->e um meteorito caindo perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->o impacto de um meteorito perto do(a) [Community] de [PAWN_nameDef]</li>
     <li>image->um meteoro [AdjectiveLarge] em chamas [airborne_circumstance]</li>
     <li>image->um ponto brilhante [airborne_circumstance]</li>
     <li>image->uma bola [AdjectiveLarge] de fogo [Color] [airborne_circumstance]</li>
@@ -613,9 +631,12 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <Raid.rulePack.rulesStrings>
-    <li>tale_noun->um raid na [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->um assalto à [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef] [Community]sendo atacada por [Enemy]s</li>
+    <li>tale_noun->a uma invasão no(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->a um assalto ao(à) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] sendo atacado(a) por [Enemy]s</li>
+    <li>tale_nounD->e uma invasão no(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->e um assalto ao(à) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo atacado(a) por [Enemy]s</li>
     <li>image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
     <li>image->um exército [circumstance_phrase]</li>
     <li>image->uma força avassaladora [circumstance_phrase]</li>
@@ -681,9 +702,12 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <ShipPartCrash.rulePack.rulesStrings>
-    <li>tale_noun->uma parte antiga de uma nave caindo perto de da [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->uma parte antiga de uma nave aterrissando perto da [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->uma parte danificada de nave aterrissando perto da [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->a uma parte antiga de uma nave caindo perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->a uma parte antiga de uma nave aterrissando perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->a uma parte danificada de uma nave aterrissando perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->e uma parte antiga de uma nave caindo perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->e uma parte antiga de uma nave aterrissando perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->e uma parte danificada de uma nave aterrissando perto do(a) [Community] de [PAWN_nameDef]</li>
     <li>image->um enxame de [Mechanoid]s [circumstance_phrase]</li>
     <li>image->um exército de [Mechanoid]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
@@ -741,8 +765,10 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Tornado.rulePack.rulesStrings>
-    <li>tale_noun->um tornado que caiu perto da [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef] está [Community]sendo ameaçada por tornado</li>
+    <li>tale_noun->a um tornado que passou perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] sendo ameaçado(a) por um tornado</li>
+    <li>tale_nounD->e um tornado que passou perto do(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo ameaçado(a) por um tornado</li>
     <li>image->um cone de ar em espiral [circumstance_phrase]</li>
     <li>image->um tornado [circumstance_phrase]</li>
     <li>image->um furacão [circunstance_phrase]</li>
@@ -790,8 +816,10 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <TornadoFromItem.rulePack.rulesStrings>
-    <li>tale_noun->um tornado que chegou perto da [COLONIST_nameDef] [Community]</li>
-    <li>tale_noun->[COLONIST_nameDef] [Community] ameaçada por um tornado</li>
+    <li>tale_noun->a um tornado que passou perto do(a) [Community] de [COLONIST_nameDef]</li>
+    <li>tale_noun->à [Community] de [COLONIST_nameDef] sendo ameaçado(a) por um tornado</li>
+    <li>tale_nounD->e um tornado que passou perto do(a) [Community] de [COLONIST_nameDef]</li>
+    <li>tale_nounD->a [Community] de [COLONIST_nameDef] sendo ameaçado(a) por um tornado</li>
     <li>image->um cone de ar em espiral [circumstance_phrase]</li>
     <li>image->um tornado [circumstance_phrase]</li>
     <li>image->um furacão [circunstance_phrase]</li>
@@ -836,8 +864,10 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <ToxicFallout.rulePack.rulesStrings>
-    <li>tale_noun->precipitação decorrente da [Community]</li>
-    <li>tale_noun->a atmosfera perto da comunidade [PAWN_nameDef]se tornar tóxica</li>
+    <li>tale_noun->à precipitação tóxica no(a) [Community]</li>
+    <li>tale_noun->à atmosfera perto do(a) [Community] de [PAWN_nameDef] se tornando tóxica</li>
+    <li>tale_nounD->a precipitação tóxica no(a) [Community]</li>
+    <li>tale_nounD->a atmosfera perto do(a) [Community] de [PAWN_nameDef] se tornando tóxica</li>
     <li>image->o céu sinistro [circumstance_group]</li>
     <li>image->o ar espessando [circumstance_group]</li>
     <li>image->o chão brilhando suavemente [circumstance_group]</li>
@@ -881,7 +911,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <VolcanicWinter.rulePack.rulesStrings>
-    <li>tale_noun->inverno vulcânico iniciando na [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->ao inverno vulcânico no(a) [Community] de [PAWN_nameDef]</li>
+    <li>tale_nounD->o inverno vulcânico no(a) [Community] de [PAWN_nameDef]</li>
     <li>image->o céu escuro e frio [circumstance_group]</li>
     <li>image->o ar com cinzas [circumstance_group]</li>
     <li>image->um(a) [TerrainFeature] coberto(a) de gelo [circumstance_group]</li>

@@ -30,7 +30,8 @@
     <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
   -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] comendo carne humana</li>
+    <li>tale_noun->a [PAWN_nameDef] comendo carne humana</li>
+    <li>tale_nounD->e [PAWN_nameDef] comendo carne humana</li>
     <li>image->[PAWN_nameFull] [eat_gerund] a carne de seu companheiro humano [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [eat_gerund] carne de um braço humano [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [eat_gerund] carne de um humano [circumstance_group]</li>
@@ -92,7 +93,8 @@
     <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
   -->
   <CraftedArt.rulePack.rulesStrings>
-    <li>tale_noun->a hora que [PAWN_nameDef] criou [THING_indefinite]</li>
+    <li>tale_noun->à hora que [PAWN_nameDef] criou [THING_indefinite]</li>
+    <li>tale_nounD->a hora que [PAWN_nameDef] criou [THING_indefinite]</li>
     <li>image->[PAWN_nameFull] fabricando [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[PAWN_nameFull] completando seu trabalho em [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[PAWN_nameFull] trabalhando em [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
@@ -153,8 +155,10 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <Drunk.rulePack.rulesStrings>
-    <li>tale_noun->Extrema embriaguez de [PAWN_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef] ficando extremamente bêbado</li>
+    <li>tale_noun->à extrema embriaguez de [PAWN_nameDef]</li>
+    <li>tale_noun->a [PAWN_nameDef] ficando extremamente bêbado(a)</li>
+    <li>tale_nounD->a extrema embriaguez de [PAWN_nameDef]</li>
+    <li>tale_nounD->e [PAWN_nameDef] ficando extremamente bêbado(a)</li>
     <li>image->[PAWN_nameFull] cambaleando bêbado(a) por aí [circumstance_group]</li>
     <li>image->[PAWN_nameFull] bebendo vinho [circumstance_group]</li>
     <li>image->[PAWN_nameFull] colecionando gananciosamente garrafas de licor [circumstance_group]</li>
@@ -202,7 +206,8 @@
     <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] terminando a pesquisa em [PROJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] terminando a pesquisa sobre [PROJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] terminando a pesquisa sobre [PROJECT_label]</li>
     <li>image->[PAWN_nameFull] trabalhando no projeto de pesquisa de [PROJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] estudando os segredos do projeto de pesquisa de [PROJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] pesquisando sobre [PROJECT_label] [circumstance_group]</li>
@@ -243,7 +248,8 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LandedInPod.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]está pousando em uma cápsula de escape</li>
+    <li>tale_noun->a [PAWN_nameDef], em uma cápsula de escape, pousando</li>
+    <li>tale_nounD->e [PAWN_nameDef], em uma cápsula de escape, pousando</li>
     <li>image->[PAWN_nameFull] pousando com uma cápsula de transporte [circumstance_group]</li>
     <li>image->[PAWN_nameFull] caindo com uma cápsula de transporte [circumstance_group]</li>
     <li>image->[PAWN_nameFull] atingindo o solo com uma cápsula de transporte [circumstance_group]</li>
@@ -296,7 +302,8 @@
     <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
   -->
   <MentalStateBerserk.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] enlouquecendo</li>
+    <li>tale_noun->a [PAWN_nameDef] enlouquecendo</li>
+    <li>tale_nounD->e [PAWN_nameDef] enlouquecendo</li>
     <li>image->[PAWN_nameFull] ruindo a uma raiva furiosa [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ruindo a loucura violentamente [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cambaleando psicoticamente [circumstance_group]</li>
@@ -347,7 +354,8 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] desistindo em desespero</li>
+    <li>tale_noun->a [PAWN_nameDef] desistindo em desespero</li>
+    <li>tale_nounD->e [PAWN_nameDef] desistindo em desespero</li>
     <li>image->[PAWN_nameFull] desistindo sob estresse [circumstance_group]</li>
     <li>image->[PAWN_nameFull] soluçando incontrolavelmente [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cambaleando [circumstance_group]</li>
@@ -390,7 +398,8 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <StruckMineable.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] acertando [THING_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] encontrando [THING_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] encontrando [THING_label]</li>
     <li>image->[PAWN_nameFull] encontrando [THING_label] [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] encontrando [THING_label] [circumstance_group]</li>
     <li>circumstance_phrase->enquanto minera</li>
@@ -427,7 +436,8 @@
     <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
   -->
   <Vomited.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está vomitando</li>
+    <li>tale_noun->a [PAWN_nameDef] vomitando</li>
+    <li>tale_nounD->e [PAWN_nameDef] vomitando</li>
     <li>image->[PAWN_nameFull] vomitando no chão [circumstance_group]</li>
     <li>image->[PAWN_nameFull] coberto(a) de vômito seco [circumstance_group]</li>
     <li>image->[PAWN_nameFull] de joelhos, vomitando no chão [circumstance_group]</li>
@@ -475,7 +485,8 @@
     <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
   -->
   <WalkedNaked.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] andando nu</li>
+    <li>tale_noun->a [PAWN_nameDef] nu(a) andando por aí</li>
+    <li>tale_nounD->e [PAWN_nameDef] nu(a) andando por aí</li>
     <li>image->[PAWN_nameFull] [nude_action] em seu estado natural [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action] nu [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action] sem roupa [circumstance_group]</li>
@@ -522,7 +533,8 @@
     <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
   -->
   <WasOnFire.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] pegando fogo</li>
+    <li>tale_noun->a [PAWN_nameDef] pegando fogo</li>
+    <li>tale_nounD->e [PAWN_nameDef] pegando fogo</li>
     <li>image->[PAWN_nameFull] tentando apagar freneticamente o fogo em seu corpo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] envolto(a) por chamas [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ajoelhado(a), com as mãos sobre a cabeça, tentando apagar as chamas de seu corpo [circumstance_group]</li>

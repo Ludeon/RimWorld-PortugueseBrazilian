@@ -21,8 +21,10 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
   -->
   <AttendedParty.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] assistindo a festa de [ORGANIZER_nameDef]</li>
-    <li>tale_noun->[ATTENDER_nameDef] relaxando com [ORGANIZER_nameDef] numa festa</li>
+    <li>tale_noun->a [ATTENDER_nameDef] participando da festa de [ORGANIZER_nameDef]</li>
+    <li>tale_noun->a [ATTENDER_nameDef] relaxando com [ORGANIZER_nameDef] em uma festa</li>
+    <li>tale_nounD->e [ATTENDER_nameDef] participando da festa de [ORGANIZER_nameDef]</li>
+    <li>tale_nounD->e [ATTENDER_nameDef] relaxando com [ORGANIZER_nameDef] em uma festa</li>
     <li>image->[ATTENDER_nameFull] tendo uma conversa com [ORGANIZER_nameFull] [circumstance_group]</li>
     <li>image->[ATTENDER_nameFull] pegando uma bebida para [ORGANIZER_nameFull] [circumstance_group]</li>
     <li>image->[ATTENDER_nameFull] conversando com [ORGANIZER_nameFull] [circumstance_group]</li>
@@ -61,8 +63,10 @@
     <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
   -->
   <BuiltSnowman.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] construindo um boneco de neve</li>
-    <li>tale_noun->[PAWN_nameDef] brincando na neve</li>
+    <li>tale_noun->a [PAWN_nameDef] construindo um boneco de neve</li>
+    <li>tale_noun->a [PAWN_nameDef] brincando na neve</li>
+    <li>tale_nounD->e [PAWN_nameDef] construindo um boneco de neve</li>
+    <li>tale_nounD->e [PAWN_nameDef] brincando na neve</li>
     <li>image->[PAWN_nameFull] fazendo uma bola de neve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] rolando uma bola gigante de neve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] arrumando [Vegetable]s no rosto do boneco [circumstance_group]</li>
@@ -105,8 +109,10 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <BuriedCorpse.rulePack.rulesStrings>
-    <li>tale_noun->[DIGGER_nameDef] enterrando [CORPSE_nameDef]</li>
-    <li>tale_noun->[DIGGER_nameDef] colocando [CORPSE_nameDef] para descansar</li>
+    <li>tale_noun->a [DIGGER_nameDef] enterrando [CORPSE_nameDef]</li>
+    <li>tale_noun->a [DIGGER_nameDef] colocando [CORPSE_nameDef] para descansar</li>
+    <li>tale_nounD->e [DIGGER_nameDef] enterrando [CORPSE_nameDef]</li>
+    <li>tale_nounD->e [DIGGER_nameDef] colocando [CORPSE_nameDef] para descansar</li>
     <li>image->[DIGGER_nameFull] em pé ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
     <li>image->[DIGGER_nameFull] sentado(a) ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
     <li>image->[DIGGER_nameFull] encostado(a) no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
@@ -151,7 +157,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] terminou a construção de [OBJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] contruindo um(a) [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] polindo a superfície de um(a) [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] adicionando detalhes à superfície de um(a) [OBJECT_label] [circumstance_group]</li>
@@ -192,7 +199,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] terminou a construção de [OBJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] trabalhando em um(a) [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] polindo a superfície de um(a) [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] adicionando detalhes à superfície de um(a) [OBJECT_label] [circumstance_group]</li>
@@ -232,7 +240,8 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] entrando em criptossono</li>
+    <li>tale_noun->a [PAWN_nameDef] entrando em um sarcófago de criptossono</li>
+    <li>tale_noun->e [PAWN_nameDef] entrando em um sarcófago de criptossono</li>
     <li>image->[PAWN_nameFull] deitado(a) em um sarcófago de criptossono [circumstance_group]</li>
     <li>image->[PAWN_nameFull] abrindo um sarcófago de criptossono vazio [circumstance_group]</li>
     <li>image->[PAWN_nameFull] selando-se em um sarcófago de criptossono [circunstance_group]</li>
@@ -272,7 +281,8 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
     <li>image->[PAWN_nameFull] praticando a habilidade de [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] lendo um livro sobre [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] recebendo treinamento em [SKILL_label] [circumstance_group]</li>
@@ -312,7 +322,8 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
     <li>image->[PAWN_nameFull] praticando a habilidade de [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] lendo um livro sobre [SKILL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] recebendo treinamento na habilidade de [SKILL_label] [circumstance_group]</li>
@@ -354,11 +365,12 @@
     <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
   -->
   <IncreasedMenagerie.rulePack.rulesStrings>
-    <li>tale_noun->[HUMAN_nameDef] está recrutando outro animal para o crescimento [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recrutando ainda outro animal para o crescimento [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recrutando ainda outro animal para o crescimento [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] sendo seguido por um [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] está domando de [ANIMAL_nameDef]</li>
+    <li>tale_noun->a [HUMAN_nameDef] recrutando outro animal para seu(ua) [AnimalGroup] crescente</li>
+    <li>tale_noun->a [HUMAN_nameDef] sendo seguido(a) por um(a) [AnimalGroup]</li>
+    <li>tale_noun->a [HUMAN_nameDef] domando [ANIMAL_nameDef]</li>
+    <li>tale_nounD->e [HUMAN_nameDef] recrutando outro animal para seu(ua) [AnimalGroup] crescente</li>
+    <li>tale_nounD->e [HUMAN_nameDef] sendo seguido(a) por um(a) [AnimalGroup]</li>
+    <li>tale_nounD->e [HUMAN_nameDef] domando [ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] domando [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[HUMAN_nameFull] oferecendo um pouco de comida para [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[HUMAN_nameFull] sussurrando para [ANIMAL_nameFull] [circumstance_group]</li>
@@ -395,7 +407,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Meditated.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] meditando</li>
+    <li>tale_noun->a [PAWN_nameDef] meditando</li>
+    <li>tale_nounD->e [PAWN_nameDef] meditando</li>
     <li>image->[PAWN_nameFull] sentado(a) em uma árvore de [TreeType] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] sentado(a) em silêncio [circumstance_group]</li>
     <li>image->[PAWN_nameFull] observando o horizonte [circumstance_group]</li>
@@ -436,7 +449,8 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <MinedValuable.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] minando uma veia rica de [MATERIAL_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] minerando uma veia rica de [MATERIAL_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] minerando uma veia rica de [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] minerando uma parede de [MATERIAL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] segurando um pedaço de [MATERIAL_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] apoiando-se em uma parede de [MATERIAL_label] [circumstance_group]</li>
@@ -488,9 +502,12 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
   -->
   <PlayedGame.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] relaxando em um [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] jogando em um [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] se divertindo em um [OBJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] relaxando em um(a) [OBJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] jogando jogos em um(a) [OBJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] se divertindo em um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] relaxando em um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] jogando jogos em um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] se divertindo em um(a) [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] esperando em uma cadeira [circumstance_group]</li>
     <li>image->[PAWN_nameFull] sobre um(a) [OBJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] ao lado de um(a) [OBJECT_label] [circumstance_group]</li>
@@ -535,8 +552,10 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Prayed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] orando</li>
-    <li>tale_noun->[PAWN_nameDef] rezando para um poder maior</li>
+    <li>tale_noun->a [PAWN_nameDef] orando</li>
+    <li>tale_noun->a [PAWN_nameDef] rezando</li>
+    <li>tale_nounD->e [PAWN_nameDef] orando</li>
+    <li>tale_nounD->e [PAWN_nameDef] rezando</li>
     <li>image->[PAWN_nameFull] olhando o horizonte e [circumstance_group]</li>
     <li>image->[PAWN_nameFull] fechando seus olhos e [circumstance_group]</li>
     <li>image->[PAWN_nameFull] apertando suas mãos e [circumstance_group]</li>
@@ -575,7 +594,8 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[CARRIER_nameDef] colocando [SLEEPER_nameDef] em criptossono</li>
+    <li>tale_noun->a [CARRIER_nameDef] colocando [SLEEPER_nameDef] em um sarcófago de criptossono</li>
+    <li>tale_nounD->e [CARRIER_nameDef] colocando [SLEEPER_nameDef] em um sarcófago de criptossono</li>
     <li>image->[CARRIER_nameFull] colocando [SLEEPER_nameDef] dentro de um sarcófago de criptossono [circumstance_group]</li>
     <li>image->[CARRIER_nameFull] abrindo um sarcófago de criptossono [circumstance_group]</li>
     <li>image->[CARRIER_nameFull] selando [SLEEPER_nameDef] dentro de um sarcófago de criptossono [circumstance_group]</li>
@@ -616,7 +636,8 @@
     <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
   -->
   <Stripped.rulePack.rulesStrings>
-    <li>tale_noun->[TAKER_nameDef] retirando [STRIPPED_nameDef]</li>
+    <li>tale_noun->a [TAKER_nameDef] despindo [STRIPPED_nameDef]</li>
+    <li>tale_nounD->e [TAKER_nameDef] despindo [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] despindo [STRIPPED_nameFull] em público [circumstance_group]</li>
     <li>image->[TAKER_nameFull] removendo as roupas de [STRIPPED_nameFull] [circumstance_group]</li>
     <li>image->[TAKER_nameFull] segurando uma porção de [Apparel]s ao lado de [STRIPPED_nameFull] [circumstance_group]</li>
@@ -656,8 +677,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <VisitedGrave.rulePack.rulesStrings>
-    <li>tale_noun->[VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
-    <li>tale_noun->[VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
+    <li>tale_noun->a [VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
+    <li>tale_nounD->e [VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
     <li>image->[VISITOR_nameFull] ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
     <li>imagem->[VISITOR_nameFull] sentado(a) ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
     <li>image->[VISITOR_nameFull] apoiado(a) no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
