@@ -68,7 +68,7 @@
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->haverá (*Threat)uma invasão(/Threat) de aproximadamente este tamanho:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->háverá (*Threat)uma invasão(/Threat) de força [threatSize]x e aproximadamente este tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->haverá (*Threat)uma invasão(/Threat) de força [threatSize]x e aproximadamente este tamanho:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->haverá (*Threat)[threatCount] invasões(/Threat) de aproximadamente este tamanho:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->haverá (*Threat)[threatCount] invasões(/Threat) de força [threatSize]x e aproximadamente este tamanho:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->um aglomerado mecanoide será implantado nas proximidades.</li>
