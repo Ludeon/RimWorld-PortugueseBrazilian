@@ -13,9 +13,8 @@
     <li>r_art_description->[physical_description_root] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->Esta [depiction] conta a história de [tale_noun] em [DATE].</li>
-    <li>context_sentence->Esta [depiction] refere-se à [tale_noun] em [DATE].</li>
-    <li>context_sentence->Esta [depiction] refere-se a [tale_noun] em [DATE].</li>
+    <li>context_sentence->Esta [depiction] conta a história d[tale_nounD] em [DATE].</li>
+    <li>context_sentence->Esta [depiction] refere-se [tale_noun] em [DATE].</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -283,7 +282,7 @@
     <li>style_clause->a obra é sombreada em tons de [Color] e [Color]</li>
     <li>style_clause->a obra está infundida com a ideia de [ConceptAny] e é feita em um estilo [artstyle_adj]</li>
     <li>style_clause->a obra tem uma sensação [artstyle_adj] e uma estrutura [composition]</li>
-    <li>style_clause->o estilo [artstyle_adj] da cena central colide com a imagem [artstyle_adj] do lano de fundo</li>
+    <li>style_clause->o estilo [artstyle_adj] da cena central colide com a imagem [artstyle_adj] do plano de fundo</li>
     <li>style_clause->o estilo principal é [artstyle_adj]</li>
     <li>symbolizes->ascende as emoções de</li>
     <li>symbolizes->expressa o(a)</li>

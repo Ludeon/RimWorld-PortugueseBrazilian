@@ -90,7 +90,7 @@
   <!-- EN: Load -->
   <LoadGameButton>Carregar</LoadGameButton>
   <!-- EN: Overwrite -->
-  <OverwriteButton>substituir</OverwriteButton>
+  <OverwriteButton>Substituir</OverwriteButton>
   <!-- EN: Really delete {0}? -->
   <ConfirmDelete>Deseja realmente apagar {0}?</ConfirmDelete>
   <!-- EN: Delete this savegame. -->
@@ -106,13 +106,13 @@
   <!-- EN: (Permadeath) -->
   <PermadeathModeSaveSuffix>(Morte perman.)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
-  <SaveIsFromDifferentGameVersion>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma versão completamente diferente.\n\nTentar carregar estes dados provavelmente não irão funcionar.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma versão completamente diferente.\n\nTentar carregar estes dados provavelmente não funcionarão.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
   <SaveIsFromDifferentGameBuild>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma compilação diferente.\n\nTentar carregar estes dados ainda deve funcionar.</SaveIsFromDifferentGameBuild>
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>Os dados foram salvos com a nossa versão do jogo e devem funcionar sem problemas.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
-  <SaveIsUnknownFormat>Os dados salvos estão em um formato desconhecido e quase certamente não irão carregar corretamente.</SaveIsUnknownFormat>
+  <SaveIsUnknownFormat>Os dados salvos estão em um formato desconhecido e quase certamente não carregarão corretamente.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
   <ProblemSavingFile>Houve um problema ao salvar o arquivo {0}:\n\n{1}\n\nConsulte o relatório de erro para mais informações.</ProblemSavingFile>
   <!-- EN: Load anyway -->
@@ -122,7 +122,7 @@
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>Alguns mods estão indisponíveis e precisam ser instalados</MissingMods>
   <!-- EN: Official content -->
-  <OfficialContent>Conteúdo oficial</OfficialContent>
+  <OfficialContent>Conteúdo Oficial</OfficialContent>
   <!-- EN: Active -->
   <ContentActive>Ativo</ContentActive>
   <!-- EN: Installed, but not active -->
@@ -259,7 +259,7 @@
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Nota: Ingredientes de pequeno volume, como o ouro requerem {0}x a mais.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/{0} equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você irá precisar de {0}x a mais sempre.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/{0} equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você precisará de {0}x a mais sempre.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -331,7 +331,7 @@
   <!-- EN: Stopping power -->
   <StoppingPower>Poder de lentidão</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>Golpes desta arma irão balançar o alvo, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de lentidão não serão afetados.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Golpes desta arma balançarão o alvo, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de lentidão não serão afetados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Chance de acerto</DirectHitChance>
   <!-- EN: Miss radius -->
@@ -399,7 +399,7 @@
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Eficácia de cobertura</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>O quão eficaz é quando usado como cobertura em um tiroteio.\n\nPercentagens mais elevadas irão bloquear mais tiros.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>O quão eficaz é quando usado como cobertura em um tiroteio.\n\nPercentagens mais elevadas bloquearão mais tiros.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>Fator de ganho de experiência</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -913,9 +913,9 @@
   <!-- EN: How often the colonists should try to take this drug. -->
   <FrequencyColumnDesc>Quantas vezes os colonos devem tentar usar esta droga.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>Os colonos irão usar esta droga apenas se o seu nível de humor estiver abaixo deste limiar.</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>Os colonos usarão esta droga apenas se o seu nível de humor estiver abaixo deste limiar.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>Os colonos irão usar esta droga apenas seus níveis de diversão estiver abaixo deste limiar.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Os colonos usarão esta droga apenas seus níveis de diversão estiver abaixo deste limiar.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>Uma quantidade da droga para pegar adicionalmente quando reuni-la para o consumo, a fim de evitar ter que visitar o estoque de drogas o tempo todo.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
