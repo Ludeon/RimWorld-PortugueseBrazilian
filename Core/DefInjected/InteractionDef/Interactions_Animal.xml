@@ -53,7 +53,7 @@
   </AnimalChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: nuzzle -->
-  <Nuzzle.label>encostar o nariz</Nuzzle.label>
+  <Nuzzle.label>acariciamento</Nuzzle.label>
   <!-- EN:
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
@@ -81,30 +81,27 @@
     <li>rubbedpart->arm</li>
   -->
   <Nuzzle.logRulesInitiator.rulesStrings>
-    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] esfregou seu nariz contra o(a) [rubbedpart] de(a) [RECIPIENT_nameDef].</li>
-    <li>nuzzled(p=2)->aninhaou</li>
-    <li>nuzzled->aconchegou-se</li>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzled] [RECIPIENT_nameDef][nuzzleadverb].</li>
+    <li>r_logentry->[INITIATOR_nameDef] esfregou seu nariz[nuzzleadverb] contra [rubbedpart] de [RECIPIENT_nameDef].</li>
+    <li>nuzzled(p=3)->acariciou</li>
+    <li>nuzzled->aninhou</li>
+    <li>nuzzled->aconchegou-se com</li>
+    <li>nuzzled->cariciou</li>
     <li>nuzzleadverb(p=4)-></li>
-    <li>nuzzleadverb->suavemente</li>
-    <li>nuzzleadverb->Encorajadoramente</li>
-    <li>nuzzleadverb->alegremente</li>
-    <li>nuzzleadverb->suavemente</li>
-    <li>nuzzleadverb->se encostou e</li>
-    <li>nuzzleadverb->levemente</li>
-    <li>nuzzleadverb->calorosamente</li>
-    <li>nuzzleadverb->alegremente</li>
-    <li>nuzzleadverb->carinhosamente</li>
-    <li>nuzzleadverb->carinhosamente</li>
-    <li>rubbedpart->perna</li>
-    <li>rubbedpart->joelho</li>
-    <li>rubbedpart->pé</li>
-    <li>rubbedpart->cotovelo</li>
-    <li>rubbedpart->quadril</li>
-    <li>rubbedpart->ombro</li>
-    <li>rubbedpart->mão</li>
-    <li>rubbedpart->lado</li>
-    <li>rubbedpart->braço</li>
+    <li>nuzzleadverb-> alegremente</li>
+    <li>nuzzleadverb-> calorosamente</li>
+    <li>nuzzleadverb-> carinhosamente</li>
+    <li>nuzzleadverb-> encorajadoramente</li>
+    <li>nuzzleadverb-> levemente</li>
+    <li>nuzzleadverb-> suavemente</li>
+    <li>rubbedpart->a mão</li>
+    <li>rubbedpart->a perna</li>
+    <li>rubbedpart->o braço</li>
+    <li>rubbedpart->o cotovelo</li>
+    <li>rubbedpart->o joelho</li>
+    <li>rubbedpart->o ombro</li>
+    <li>rubbedpart->o pé</li>
+    <li>rubbedpart->o quadril</li>
   </Nuzzle.logRulesInitiator.rulesStrings>
   
   <!-- EN: release to the wild -->
@@ -127,13 +124,13 @@
     <li>farewell->[INITIATOR_nameDef] acariciou suavemente [RECIPIENT_nameDef] uma última vez</li>
     <li>farewell->[INITIATOR_nameDef] disse algumas palavras calorosas para [RECIPIENT_nameDef]</li>
     <li>farewell->[INITIATOR_nameDef] removeu o colar de [RECIPIENT_nameDef]</li>
-    <li>farewell->[INITIATOR_nameDef] rrelembrou sobre o bom tempo que teve com [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] relembrou sobre o bom tempo que teve com [RECIPIENT_nameDef]</li>
+    <li>released->antes de o(a) libertar.</li>
     <li>released->e o(a) lançou para a natureza.</li>
     <li>released->e o(a) libertou.</li>
     <li>released->e o(a) despachou.</li>
     <li>released->e o(a) deixou ir.</li>
-    <li>released->e então se virou e o(a) deixou sair da colônia.</li>
-    <li>released->antes de o(a) libertar.</li>
+    <li>released->e o(a) deixou sair da colônia.</li>
   </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
@@ -160,17 +157,16 @@
     <li>r_logentry->[INITIATOR_nameDef] tentou manter [RECIPIENT_nameDef] sob controle.</li>
     <li>r_logentry->[INITIATOR_nameDef] tentou capturar [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] exigiu obediência de [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] chamou [RECIPIENT_nameDef] para ir a [INITIATOR_pronoun].</li>
+    <li>r_logentry->[INITIATOR_nameDef] chamou [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] tentou fazer [RECIPIENT_nameDef] sentar-se.</li>
     <li>r_logentry->[INITIATOR_nameDef] segurou [RECIPIENT_nameDef] firmemente e deu um comando.</li>
-    <li>r_logentry->[INITIATOR_nameDef] tentou segurar [RECIPIENT_nameDef] quieto.</li>
+    <li>r_logentry->[INITIATOR_nameDef] tentou silenciar [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] gritou um comando para [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] bateu em [RECIPIENT_nameDef] em uma demonstração de dominância.</li>
-    <li>r_logentry->[INITIATOR_nameDef] ordenou [RECIPIENT_nameDef] voltasse para a comunidade.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ordenou que [RECIPIENT_nameDef] voltasse para a comunidade.</li>
     <li>r_logentry->[INITIATOR_nameDef] chamou [RECIPIENT_nameDef] para voltar a comunidade.</li>
     <li>r_logentry->[INITIATOR_nameDef] tocou uma parte do corpo vulnerável de [RECIPIENT_nameDef], exigindo obediência.</li>
     <li>r_logentry->[INITIATOR_nameDef] apontou para o chão, exigindo que [RECIPIENT_nameDef] viesse.</li>
-    <li>r_logentry->[INITIATOR_nameDef] deu [RECIPIENT_nameDef] um primeiro comando.</li>
   </TameAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: train attempt -->
@@ -189,15 +185,13 @@
   -->
   <TrainAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
-    <li>trained(p=2)->[tried] treinar</li>
-    <li>trained->[tried] mostrar um novo truque para</li>
-    <li>trained->[tried] disciplinar</li>
-    <li>trained->[tried] instruir</li>
-    <li>trained->[tried] incentivar uma nova habilidade de</li>
-    <li>trained->monstrar uma habilidade para</li>
-    <li>trained->encorajar uma nova resposta de</li>
-    <li>tried->tentou</li>
-    <li>tried->experimentou</li>
+    <li>trained(p=2)->tentou treinar</li>
+    <li>trained->tentou disciplinar</li>
+    <li>trained->tentou encorajar uma nova resposta de</li>
+    <li>trained->tentou incentivar uma nova habilidade de</li>
+    <li>trained->tentou instruir</li>
+    <li>trained->tentou monstrar uma habilidade para</li>
+    <li>trained->tentou mostrar um novo truque para</li>
   </TrainAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

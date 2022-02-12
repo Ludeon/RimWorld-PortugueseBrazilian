@@ -10,10 +10,10 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef], para dar um tempo.</li>
-    <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef], por espaço.</li>
-    <li>r_logentry->[INITIATOR_nameDef] falou para [RECIPIENT_nameDef] que não está dando certo.</li>
+    <li>r_logentry->[INITIATOR_nameDef] falou para [RECIPIENT_nameDef] que o relacionamento não está dando certo.</li>
     <li>r_logentry->[INITIATOR_nameDef] falou para [RECIPIENT_nameDef] que seria melhor conhecer outras pessoas.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pediu espaço para [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] pediu um tempo para [RECIPIENT_nameDef].</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -24,9 +24,9 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] propós casamento para [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] propôs casamento para [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] propôs um compromisso sério para [RECIPIENT_nameDef].</li>
-    <li>r_logentry->r_logentry->[INITIATOR_nameDef] disse a [RECIPIENT_nameDef] que [INITIATOR_pronoun] quer passar sua vida com [OTHER_pronoun].</li>
+    <li>r_logentry->r_logentry->[INITIATOR_nameDef] disse para [RECIPIENT_nameDef] que [INITIATOR_pronoun] quer passar o resto de sua vida com [OTHER_pronoun].</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
@@ -95,15 +95,15 @@
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] [wootactic].</li>
-    <li>wooed->tentou flertar</li>
-    <li>wooed->flertou</li>
-    <li>wooed->tentou atrair</li>
-    <li>wooed->tentou um romance com</li>
-    <li>wooed->tentou cortejar</li>
-    <li>wooed->cortejou</li>
-    <li>wooed->seguiu</li>
-    <li>wooed->encantou</li>
     <li>wooed->atriu</li>
+    <li>wooed->cortejou</li>
+    <li>wooed->encantou</li>
+    <li>wooed->flertou</li>
+    <li>wooed->seguiu</li>
+    <li>wooed->tentou atrair</li>
+    <li>wooed->tentou cortejar</li>
+    <li>wooed->tentou flertar</li>
+    <li>wooed->tentou um romance com</li>
     <li>wootactic(p=4)->[complimenting] [PersonalCharacteristic] [OTHER_objective]</li>
     <li>wootactic->contando uma história sobre [TalkTopicAny]</li>
     <li>wootactic->contando uma história sobre [TalkTopicAny]</li>
