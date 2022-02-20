@@ -31,7 +31,7 @@
     <li>goodwillSomeCiviliansLost->Nem todos [pawnLabel] de [asker_faction_pawnSingular] puderam ter sido resgatados. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->Nenhum dos [pawnLabelPlural] de [asker_faction_pawnSingular] puderam ter sido regastados. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->A sua relação com [asker_faction_name] foi afetada negativamente por cada [pawnLabel] deixado para trás.</li>
-    <li>commanderLandingDesc->[asker_nameDef], o comandante que peediu para aterrissar o seu transporte em [map_definite]</li>
+    <li>commanderLandingDesc->[asker_nameDef], o comandante que pediu para aterrissar o seu transporte em [map_definite]</li>
     <li>raidArrivedLetterLabel->Ataque: [enemyFaction_name]</li>
     <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] de [enemyFaction_name] chegaram. Eles atacarão os [asker_faction_pawnsPlural] que se acidentaram em [map_definite].\n\nDefenda os [asker_faction_pawnsPlural] até que o transporte de resgate chegue em [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->O transporte de resgate chegou</li>
@@ -71,7 +71,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->Um transporte de [asker_faction_name] está danificada e está procurando um lugar para pousar. O seu comandante [asker_nameDef] quer pousar em [map_definite).\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacarão a área do transporte acidentado com o objetivo de matar os seus tripulantes. Você deve defendê-los.\n\nO transporte tem [asker_nameDef][andOtherCivilians] e [soldiers_count] [soldiers0_kind] como tripulantes. O comandante [andCivilians] devem ser resgatados, mas para isso, os [soldiers0_kind] talvez serão sacrificados.\n\nDepois de [rescueDelay_duration], um transporte de resgate virá para recuperar os sobreiventes. Você deve colocá-los a bordo em [leaveDelay_duration].</li>
+    <li>questDescription->Um transporte de [asker_faction_name] está danificada e está procurando um lugar para pousar. O seu comandante [asker_nameDef] quer pousar em [map_definite).\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacarão a área do transporte acidentado com o objetivo de matar os seus tripulantes. Você deve defendê-los.\n\nO transporte tem [asker_nameDef][andOtherCivilians] e [soldiers_count] [soldiers0_kind] como tripulantes. O comandante [andCivilians] devem ser resgatados, mas para isso, os [soldiers0_kind] talvez serão sacrificados.\n\nDepois de [rescueDelay_duration], um transporte de resgate virá para recuperar os sobreviventes. Você deve colocá-los a bordo em [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, outro [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] outro [pawnLabelSingleOrPlural],</li>

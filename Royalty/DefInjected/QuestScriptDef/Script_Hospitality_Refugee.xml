@@ -73,7 +73,7 @@
     <li>othersWillNotAccept->O {PAWNSALIVECOUNT_multiple ? outros estão : último [lodgersLabel] é} não está propenso a aceitar isso</li>
     <li>turnedViolent->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? se : se } tornaram violentos contra você.</li>
     <li>decidedToLeave->[othersWillNotAccept], e {PAWNSALIVECOUNT_multiple ? se : se } decidiram ir embora.</li>
-    <li>whoAskedToStay->quem perguntou para ficar com vocêu</li>
+    <li>whoAskedToStay->quem perguntou para ficar com você</li>
     <li>oneOfThe->{PAWN_gender ? uns : umas } de [faction_pawnsPlural] desesperad{PAWN_gender ? o : a }s que pediu para ficar com você</li>
     <li>questOver->A missão '[resolvedQuestName]' acabou.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] morreu.</li>
@@ -81,10 +81,10 @@
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
     <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] morreu: Vingança</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
-    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partidaparture</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] morreu: Partida</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->Missão falhou</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, {PAWN_gender ? um : uma } [lastOrNot] desperada [faction_pawnSingular] [QuemPediuParaFicar], morreu.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, {PAWN_gender ? um : uma } [lastOrNot] desperado [faction_pawnSingular] [whoAskedToStay], morreu.\n\n[questOver]</li>
     <li>letterIntroArrested->Você prendeu {SUBJECT_definite}, [oneOfThe].</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] pres{PAWN_gender ? o : a }: Ódio</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
@@ -102,7 +102,7 @@
     <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] pres{PAWN_gender ? o : a }: Partida</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Traição</li>
-    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [QuemPediuParaFicar] [estáEstão] se voltando contra você!\n\nParece que [lodgersPronoun] tinha arquitetado este plano de traição por muito tempo.</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] se voltando contra você!\n\nParece que [lodgersPronoun] tinha arquitetado este plano de traição por muito tempo.</li>
     <li>areIs(lodgerCount==1)->é</li>
     <li>areIs(lodgerCount>=2)->são</li>
     <li>betrayalOfferLetterLabel->Oferta de traição: [factionOpponent_nameDef]</li>
@@ -110,7 +110,7 @@
     <li>betrayalOfferRewardLetterLabel->Recompensa pela traição: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] te prometeu uma recompensa de você matar [asker_nameDef] [otherMembers]. As notícias chegaram em [factionOpponent_pronoun] que a proposta foi aceita e executada e está te mandando o seguinte via cápsula de transporte (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->Recompensa pela traição anulada</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] escutou que um dos mebros de [faction_name] não está mais em [map_definite]. [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e então cancelou a [factionOpponent_possessive] oferta.</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] escutou que um dos membros de [faction_name] não está mais em [map_definite]. [factionOpponent_nameDef] queria que todos os membros de [faction_name] morressem e então cancelou a [factionOpponent_possessive] oferta.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->e outro [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount>=3)->e vários [lodgersLabelPlural]</li>
@@ -186,14 +186,14 @@
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido expuls{asker_gender ? o : a } de sua casa por {asker_gender ? uma : um } ex-amante vil.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] diz ter sido banid{asker_gender ? o : a } depois de uma discussão com o líder da aldeia.</li>
     <li>claimInfo(lodgerCount>=2)->Eles dizem ter perdido suas casas durante um ataque recente.</li>
-    <li>claimInfo(lodgerCount>=2)->Eles dizem ter escapado de uma cirurgia de recuperamento de orgãos.</li>
+    <li>claimInfo(lodgerCount>=2)->Eles dizem ter escapado de uma cirurgia de colheita de órgãos.</li>
     <li>claimInfo(lodgerCount>=2)->Eles dizem ter escapado de uma caravana escravista.</li>
     <li>claimInfo(lodgerCount>=2)->Eles dizem que uma praga os deixaram famintos e os obrigaram a ir embora.</li>
     <li>claimInfo(lodgerCount>=2)->Eles dizem que uma enorme tempestade de queimou suas casas.</li>
     <li>claimInfo(lodgerCount>=2)->Eles dizem que sua caravana foi alvo de uma emboscada e que perderam tudo.</li>
     <li>claimInfo(lodgerCount>=2)->Eles dizem ter sido banidos de suas casas devido a um desacordo moral.</li>
     <li>joinInfo(lodgerCount==1)->Se você {asker_gender ? o : a } fizer feliz, [asker_pronoun] talvez oferecerá para se unir a você.</li>
-    <li>joinInfo(lodgerCount>=2)->Se você os fizer feliz, talvez alguns deles ofecererão para se juntar a você.</li>
+    <li>joinInfo(lodgerCount>=2)->Se você os fizer feliz, talvez alguns deles oferecerão para se juntar a você.</li>
     <li>travelerInfo(lodgerCount==1)->Est{asker_gender ? e : a } [faction_pawnSingular]</li>
     <li>travelerInfo(lodgerCount>=2)->Estes [faction_pawnsPlural]</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
@@ -277,7 +277,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->Recompensa pela hospitalidade</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] te contatou. durante [rewardDelayTicks_duration], você ajudou [rewardGiver_objective] em circunstâncias desesperadoras.\n\nDesde então, [rewardGiver_pronoun] se recuperou, e agora quer te recompensar de maneira apropriada por sua ajuda. [rewardGiver_pronoun] está te mandando a seguinte cápsula de transporte:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] te contatou. Durante [rewardDelayTicks_duration], você ajudou [rewardGiver_objective] em circunstâncias desesperadoras.\n\nDesde então, [rewardGiver_pronoun] se recuperou, e agora quer te recompensar de maneira apropriada por sua ajuda. [rewardGiver_pronoun] está te mandando a seguinte cápsula de transporte:\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>

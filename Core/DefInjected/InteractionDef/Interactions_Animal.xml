@@ -83,15 +83,17 @@
   <Nuzzle.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzled] [RECIPIENT_nameDef][nuzzleadverb].</li>
     <li>r_logentry->[INITIATOR_nameDef] esfregou seu nariz[nuzzleadverb] contra [rubbedpart] de [RECIPIENT_nameDef].</li>
-    <li>nuzzled(p=3)->acariciou</li>
+    <li>nuzzled(p=2)->acariciou</li>
     <li>nuzzled->aninhou</li>
     <li>nuzzled->aconchegou-se com</li>
     <li>nuzzled->cariciou</li>
     <li>nuzzleadverb(p=4)-></li>
     <li>nuzzleadverb-> alegremente</li>
+    <li>nuzzleadverb-> amavelmente</li>
     <li>nuzzleadverb-> calorosamente</li>
     <li>nuzzleadverb-> carinhosamente</li>
     <li>nuzzleadverb-> encorajadoramente</li>
+    <li>nuzzleadverb-> gentilmente</li>
     <li>nuzzleadverb-> levemente</li>
     <li>nuzzleadverb-> suavemente</li>
     <li>rubbedpart->a mão</li>
@@ -120,17 +122,17 @@
     <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
   -->
   <ReleaseToWild.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[farewell] [released]</li>
+    <li>r_logentry->[farewell][released]</li>
     <li>farewell->[INITIATOR_nameDef] acariciou suavemente [RECIPIENT_nameDef] uma última vez</li>
     <li>farewell->[INITIATOR_nameDef] disse algumas palavras calorosas para [RECIPIENT_nameDef]</li>
     <li>farewell->[INITIATOR_nameDef] removeu o colar de [RECIPIENT_nameDef]</li>
     <li>farewell->[INITIATOR_nameDef] relembrou sobre o bom tempo que teve com [RECIPIENT_nameDef]</li>
-    <li>released->antes de o(a) libertar.</li>
-    <li>released->e o(a) lançou para a natureza.</li>
-    <li>released->e o(a) libertou.</li>
-    <li>released->e o(a) despachou.</li>
-    <li>released->e o(a) deixou ir.</li>
-    <li>released->e o(a) deixou sair da colônia.</li>
+    <li>released-> antes de o(a) libertar.</li>
+    <li>released-> e o(a) lançou para a natureza.</li>
+    <li>released-> e o(a) libertou.</li>
+    <li>released-> e o(a) despachou.</li>
+    <li>released-> e o(a) deixou ir.</li>
+    <li>released->, então virou-se e o(a) deixou sair da colônia.</li>
   </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
@@ -167,6 +169,7 @@
     <li>r_logentry->[INITIATOR_nameDef] chamou [RECIPIENT_nameDef] para voltar a comunidade.</li>
     <li>r_logentry->[INITIATOR_nameDef] tocou uma parte do corpo vulnerável de [RECIPIENT_nameDef], exigindo obediência.</li>
     <li>r_logentry->[INITIATOR_nameDef] apontou para o chão, exigindo que [RECIPIENT_nameDef] viesse.</li>
+    <li>r_logentry->[INITIATOR_nameDef] deu um primeiro comando a [RECIPIENT_nameDef].</li>
   </TameAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: train attempt -->
