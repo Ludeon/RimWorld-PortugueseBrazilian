@@ -103,7 +103,7 @@
   <!-- EN: barril de fermentação (projeto) -->
   <Blueprint_FermentingBarrel.label>barril de fermentação (projeto)</Blueprint_FermentingBarrel.label>
   
-  <!-- EN: dispositivo de espuma contra fogo (projeto) -->
+  <!-- EN: dispositivo de espuma de supressão ao fogo (projeto) -->
   <Blueprint_FirefoamPopper.label>dispositivo de espuma de supressão ao fogo (projeto)</Blueprint_FirefoamPopper.label>
   
   <!-- EN: laje de granito (projeto) -->
@@ -136,7 +136,7 @@
   <!-- EN: túmulo (projeto) -->
   <Blueprint_Grave.label>túmulo (projeto)</Blueprint_Grave.label>
   
-  <!-- EN: scanner penetrador subterrâneo (projeto) -->
+  <!-- EN: escaneadora penetradora subterrânea (projeto) -->
   <Blueprint_GroundPenetratingScanner.label>escaneadora penetradora subterrânea (projeto)</Blueprint_GroundPenetratingScanner.label>
   
   <!-- EN: bancada de alfaiate à mão (projeto) -->
@@ -190,7 +190,7 @@
   <!-- EN: barril de fermentação (projeto) -->
   <Blueprint_Install_FermentingBarrel.label>barril de fermentação (projeto)</Blueprint_Install_FermentingBarrel.label>
   
-  <!-- EN: dispositivo de espuma contra fogo (projeto) -->
+  <!-- EN: dispositivo de espuma de supressão ao fogo (projeto) -->
   <Blueprint_Install_FirefoamPopper.label>dispositivo de espuma de supressão ao fogo (projeto)</Blueprint_Install_FirefoamPopper.label>
   
   <!-- EN: televisão de tela plana (projeto) -->
@@ -265,7 +265,7 @@
   <!-- EN: monitor de sinais vitais (projeto) -->
   <Blueprint_Install_VitalsMonitor.label>monitor de sinais vitais (projeto)</Blueprint_Install_VitalsMonitor.label>
   
-  <!-- EN: scanner de minerais de longo alcance (projeto) -->
+  <!-- EN: escaneadora de minerais de longo alcance (projeto) -->
   <Blueprint_LongRangeMineralScanner.label>escaneadora de minerais de longo alcance (projeto)</Blueprint_LongRangeMineralScanner.label>
   
   <!-- EN: ponto de casamento (projeto) -->
@@ -768,8 +768,8 @@
   
   <!-- EN: broca profunda (construção) -->
   <Frame_DeepDrill.label>broca profunda (construção)</Frame_DeepDrill.label>
-  <!-- EN: Um equipamento de perfuração profunda de crosta para extrair os minerais abaixo da superfície. Usa um scanner penetrador subterrâneo para detectar os recursos. -->
-  <Frame_DeepDrill.description>Um equipamento de perfuração profunda de crosta para extrair os minerais abaixo da superfície. Use uma escaneadora penetradora subterrânea para detectar os recursos.</Frame_DeepDrill.description>
+  <!-- EN: Um equipamento de perfuração profunda de crosta para extrair os minerais abaixo da superfície. Use uma escaneadora penetradora subterrânea para detectar os recursos. Esta broca produzirá pedaços de pedra se nenhum recurso estiver presente. Pode ser reposicionada livremente. -->
+  <Frame_DeepDrill.description>Um equipamento de perfuração profunda de crosta para extrair os minerais abaixo da superfície. Use uma escaneadora penetradora subterrânea para detectar os recursos. Esta broca produzirá pedaços de pedra se nenhum recurso estiver presente. Pode ser reposicionada livremente.</Frame_DeepDrill.description>
   
   <!-- EN: cadeira de jantar (construção) -->
   <Frame_DiningChair.label>cadeira de jantar (construção)</Frame_DiningChair.label>
@@ -821,7 +821,7 @@
   <!-- EN: Um barril para fermentar o mosto cru em cerveja. -->
   <Frame_FermentingBarrel.description>Um barril para fermentar o mosto cru em cerveja.</Frame_FermentingBarrel.description>
   
-  <!-- EN: dispositivo de espuma contra fogo (construção) -->
+  <!-- EN: dispositivo de espuma de supressão ao fogo (construção) -->
   <Frame_FirefoamPopper.label>dispositivo de espuma de supressão ao fogo (construção)</Frame_FirefoamPopper.label>
   <!-- EN: Quando tocado pelo fogo ou desencadeado à mão, isto solta uma espuma que extingue incêndios em um campo circular em torno de si. -->
   <Frame_FirefoamPopper.description>Quando tocado pelo fogo ou desencadeado à mão, isto solta uma espuma que extingue incêndios em um campo circular em torno de si.</Frame_FirefoamPopper.description>
@@ -876,7 +876,7 @@
   <!-- EN: Coloque os mortos em túmulos para dar-lhes um lugar de descanso decente. Os colonos visitarão os túmulos cheios para ganhar alegria meditativa. -->
   <Frame_Grave.description>Coloque os mortos em túmulos para dar-lhes um lugar de descanso decente. Os colonos visitarão os túmulos cheios para ganhar alegria meditativa.</Frame_Grave.description>
   
-  <!-- EN: scanner penetrador subterrâneo (construção) -->
+  <!-- EN: escaneadora penetradora subterrânea (construção) -->
   <Frame_GroundPenetratingScanner.label>escaneadora penetradora subterrânea (construção)</Frame_GroundPenetratingScanner.label>
   <!-- EN: Um radar de penetração voltado para baixo, combinado com sonar e ressonância magnética, permite detectar (mas não identificar) minerais enterrados nas profundezas da superfície. Requer uma enorme quantidade de eletricidade. -->
   <Frame_GroundPenetratingScanner.description>Um radar de penetração voltado para baixo, combinado com sonar e ressonância magnética, permite detectar (mas não identificar) minerais enterrados nas profundezas da superfície. Requer uma enorme quantidade de eletricidade.</Frame_GroundPenetratingScanner.description>
@@ -916,10 +916,10 @@
   <!-- EN: Cultiva plantas rapidamente em um banho de nutrientes artificial. Requer energia para funcionar; as plantas morrerão se a energia for cortada. -->
   <Frame_HydroponicsBasin.description>Cultiva plantas rapidamente em um banho de nutrientes artificial. Requer energia para funcionar; as plantas morrerão se a energia for cortada.</Frame_HydroponicsBasin.description>
   
-  <!-- EN: scanner de minerais de longo alcance (construção) -->
+  <!-- EN: escaneadora de minerais de longo alcance (construção) -->
   <Frame_LongRangeMineralScanner.label>escaneadora de minerais de longo alcance (construção)</Frame_LongRangeMineralScanner.label>
-  <!-- EN: Pode ser usado por pesquisadores para detectar um tipo específico de mineral em todo o planeta. O tempo necessário para encontrar o recurso é aleatório e depende da habilidade do pesquisador. -->
-  <Frame_LongRangeMineralScanner.description>Detecta automaticamente minerais preciosos como ouro ou jade nas áreas próximas (mas não em que foi construído). Os pedaços são encontrados em média uma vez por 30 dias dentro de um raio de 30 ladrilhos. Construir mais de uma escaneadora na mesma área ou nas proximidades tem pouco ou nenhum efeito.</Frame_LongRangeMineralScanner.description>
+  <!-- EN: Pode ser usada por pesquisadores para detectar um tipo específico de mineral em todo o planeta. O tempo necessário para encontrar o recurso é aleatório e depende da habilidade do pesquisador. -->
+  <Frame_LongRangeMineralScanner.description>Pode ser usada por pesquisadores para detectar um tipo específico de mineral em todo o planeta. O tempo necessário para encontrar o recurso é aleatório e depende da habilidade do pesquisador.</Frame_LongRangeMineralScanner.description>
   
   <!-- EN: ponto de casamento (construção) -->
   <Frame_MarriageSpot.label>ponto de casamento (construção)</Frame_MarriageSpot.label>
@@ -953,7 +953,7 @@
   
   <!-- EN: ponto de festa (construção) -->
   <Frame_PartySpot.label>ponto de festa (construção)</Frame_PartySpot.label>
-  <!-- EN: Designa um local onde festas serão concentradas. Festam acontecerão acontecer em torno do local. -->
+  <!-- EN: Designa um local onde festas serão concentradas. Festam acontecerão em torno do local. -->
   <Frame_PartySpot.description>Designa um local onde festas serão concentradas. Festam acontecerão em torno do local.</Frame_PartySpot.description>
   
   <!-- EN: refrigerador primitivo (construção) -->
@@ -1003,8 +1003,8 @@
   
   <!-- EN: prateleira (construção) -->
   <Frame_Shelf.label>prateleira (construção)</Frame_Shelf.label>
-  <!-- EN: Itens armazenados nisto não se deteriorarão, mesmo se no lado de fora. -->
-  <Frame_Shelf.description>Itens armazenados nisto não se deteriorarão, mesmo se no lado de fora.</Frame_Shelf.description>
+  <!-- EN: Itens armazenados nisto não deteriorarão, mesmo se no lado de fora. -->
+  <Frame_Shelf.description>Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.</Frame_Shelf.description>
   
   <!-- EN: viga estrutural de nave (construção) -->
   <Frame_Ship_Beam.label>viga estrutural de nave (construção)</Frame_Ship_Beam.label>
@@ -1023,8 +1023,8 @@
   
   <!-- EN: turbina de nave (construção) -->
   <Frame_Ship_Engine.label>turbina de nave (construção)</Frame_Ship_Engine.label>
-  <!-- EN: Um motor capaz de lançar uma nave em órbita e em trajetórias interestelares. -->
-  <Frame_Ship_Engine.description>Um motor capaz de lançar uma nave em órbita e em trajetórias interestelares.</Frame_Ship_Engine.description>
+  <!-- EN: Um motor JT capaz de lançar uma nave em órbita e em trajetórias interestelares. -->
+  <Frame_Ship_Engine.description>Um motor JT capaz de lançar uma nave em órbita e em trajetórias interestelares.</Frame_Ship_Engine.description>
   
   <!-- EN: reator de nave (construção) -->
   <Frame_Ship_Reactor.label>reator de nave (construção)</Frame_Ship_Reactor.label>
