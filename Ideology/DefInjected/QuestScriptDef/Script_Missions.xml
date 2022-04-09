@@ -11,7 +11,7 @@
   <AncientComplex_Mission.questContentRules.rulesStrings>
     <li>terminalHackedMessage->Terminal hackeado. {COUNT} / [terminalCount] completo.</li>
     <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] de hacking.</li>
-    <li>passengersIncapableOfHackingDialogText->O transporte para a missão '[resolvedQuestName]' não tem passageiros capazes de hacking. Você deve enviar pelo menos uma pessoa capaz de hackear para investigar o antigo complexo.</li>
+    <li>passengersIncapableOfHackingDialogText->O transporte para a missão '[resolvedQuestName]' não tem passageiros capazes de hacking. Você deve enviar pelo menos uma pessoa capaz de hackear para investigar o complexo ancestral.</li>
     <li>passengersSingularOrPlural(colonistCount==1)->passageiro(a) incapaz</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->passageiros incapazes</li>
   </AncientComplex_Mission.questContentRules.rulesStrings>
@@ -41,7 +41,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], descobriu um antigo complexo a uma longa distância. [asker_pronoun] acredita que contém informações sobre a relíquia conhecida como [relic_name].\n\n[asker_nameDef] não pode poupar pessoas para investigá-lo, mas espera que você possa ajudar fornecendo exatamente [colonistCount] [colonistsSingularOrPlural] para realizar a investigação.\n\nO complexo contém ameaças desconhecidas e também está sendo procurado pelos inimigos de [asker_nameDef], de [enemyFaction_name].\n\n[asker_pronoun] enviará um transporte para buscar seus colonos, trazê-los para o complexo e levá-los para casa depois. Eles serão alimentados e tratados durante o trajeto.\n\nDepois de pousar, você deve hackear todos os terminais do complexo dentro de [timeoutTicks_duration].</li>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], descobriu um complexo ancestral a uma longa distância. [asker_pronoun] acredita que contém informações sobre a relíquia conhecida como [relic_name].\n\n[asker_nameDef] não pode poupar pessoas para investigá-lo, mas espera que você possa ajudar fornecendo exatamente [colonistCount] [colonistsSingularOrPlural] para realizar a investigação.\n\nO complexo contém ameaças desconhecidas e também está sendo procurado pelos inimigos de [asker_nameDef], de [enemyFaction_name].\n\n[asker_pronoun] enviará um transporte para buscar seus colonos, trazê-los para o complexo e levá-los para casa depois. Eles serão alimentados e tratados durante o trajeto.\n\nDepois de pousar, você deve hackear todos os terminais do complexo dentro de [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->colono</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonos</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
