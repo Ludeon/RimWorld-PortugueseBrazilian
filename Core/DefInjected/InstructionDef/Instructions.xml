@@ -23,7 +23,9 @@
   <!-- EN: Please build wooden beds inside the room. -->
   <BuildBeds.rejectInputMessage>Por favor, construa camas de madeira dentro do cômodo.</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
-  <BuildBeds.text>Os seus colonos construirão um cômodo agora!\n\nAgora eles precisam de um lugar para dormir. Coloque três CAMAS dentro do cômodo.\n\nAs encontre na categoria MOBÍLIA.</BuildBeds.text>
+  <BuildBeds.text>Os seus colonos construirão um cômodo agora!\n\nAgora eles precisam de um lugar para dormir. Coloque três CAMAS dentro do cômodo.\n\nEncontre-as na categoria MOBÍLIA.\n\nVocê pode usar as teclas {Key:Designator_RotateLeft} e {Key:Designator_RotateRight} para rotacioná-las.</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>Os seus colonos construirão um cômodo agora!\n\nAgora eles precisam de um lugar para dormir. Coloque três CAMAS dentro do cômodo.\n\nEncontre-as na categoria MOBÍLIA.\n\nVocê pode rotacioná-las pressionando os botões de rotação à esquerda.</BuildBeds.textController>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>Construa um fogão abastecido dentro do cômodo</BuildFueledStove.onMapInstruction>
@@ -108,13 +110,17 @@
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Aperte o botão direito do mouse para sair do modo de designação do estoque.</EndStockpileDesignating.text>
+  <!-- EN: Press L2 to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>Aperte o botão L2 para sair do modo de designação do estoque.</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>Equipe isto</EquipWeapons.onMapInstruction>
   <!-- EN: Please have your colonists equip weapons. -->
   <EquipWeapons.rejectInputMessage>Por favor, tenha seus colonos equipados com as armas.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
-  <EquipWeapons.text>Equipe os seus colonos com as armas iniciais. Para equipar uma arma:\n\n1. Clique em um colono para selecioná-lo.\n2. Clique com o botão direito do mouse na arma que você quer equipar.\n3. Clique em "Equipar" no menu de contexto.\n3. Faça isto com cada colono.</EquipWeapons.text>
+  <EquipWeapons.text>Equipe os seus colonos com as armas iniciais. Para equipar uma arma:\n\n1. Clique em um colono para selecioná-lo.\n2. Clique com o botão direito do mouse na arma que você deseja equipar.\n3. Clique em "Equipar" no menu de contexto.\nFaça isso para cada colono.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>Equipe os seus colonos com as armas iniciais. Para equipar uma arma:\n\n1. Clique em um colono para selecioná-lo.\n2. Posicione o mouse sobre a arma que você deseja equipar e pressione o botão L2.\n3. Clique em "Equipar" no menu de contexto.\nFaça isso para cada colono.</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>Por favor, expanda a área de construção do telhado um pouco, apenas por prática.</ExpandAreaBuildRoof.rejectInputMessage>
@@ -147,9 +153,13 @@
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>Você está na superfície!\n\nAgora tente mover a câmera ao redor.\n\nUse as teclas {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}, ou clique e arraste com o botão do meio do mouse.\n\nTente agora!</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>Você está na superfície!\n\nAgora tente mover a câmera ao redor usando o direcional esquerdo.\n\nTente agora!</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>Ótimo!\n\nVocê também pode aumentar e diminuir o zoom com a roda do mouse, ou com as teclas {Key:MapZoom_In} e {Key:MapZoom_Out}.\n\nTente agora!</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
+  <MapCameraZoom.textController>Ótimo!\n\nVocê também pode aumentar e diminuir o zoom usando os botões L1 e R1.\n\nTente agora!</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Designe tudo isto\npara a mineração</MineSteel.onMapInstruction>
@@ -169,7 +179,9 @@
   <OpenMainTabWork.text>Você pode controlar quais colonos fazem que tipo de trabalho.\n\nAbra a aba de TRABALHO na parte inferior da tela.</OpenMainTabWork.text>
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
-  <Pause.text>Você pode pausar o tempo.\n\nIsto significa que você nunca precisará se apressar. Você sempre pode fazer uma pausa e tomar o seu tempo para emitir ordens.\n\nTente pausar com a tecla {Key:TogglePause}, ou usando os controles de tempo no canto inferior direito.</Pause.text>
+  <Pause.text>Você pode pausar o tempo.\n\nIsto significa que você nunca precisará se apressar. Você pode sempre fazer uma pausa e levar o tempo necessário para emitir ordens.\n\nTente pausar com a tecla {Key:TogglePause}, ou usando os controles de tempo no canto inferior direito.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
+  <Pause.textController>Você pode pausar o tempo.\n\nIsto significa que você nunca precisará se apressar. Você pode sempre fazer uma pausa e levar o tempo necessário para emitir ordens.\n\nTente pausar apertando Y, ou usando os controles de tempo no canto inferior direito.</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>Por favor, clique no botão ALEATORIZAR para aleatorizar o personagem.</RandomizeCharacter.rejectInputMessage>
@@ -192,9 +204,13 @@
   <SetToGrowRice.rejectInputMessage>Por favor, defina a sua zona de cultivo para plantar arroz.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>Você pode decidir qual planta os colonos plantarão em uma zona de cultivo.\n\n1. Clique no botão direito do mouse para sair do modo de designação de zona.\n2. Clique em sua zona de cultivo para selecioná-la.\n3. Clique no comando "Plantar" na parte inferior e a altere para "Planta de Arroz".</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>Você pode decidir qual planta os colonos plantarão em uma zona de cultivo.\n\n1. Aperte o botão L2 para sair do modo de designação de zona.\n2. Clique em sua zona de cultivo para selecioná-la.\n3. Clique no comando "Plantar" na parte inferior e a altere para "Planta de Arroz".</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>Você também pode acelerar o tempo.\n\nTente controlar o tempo com as teclas {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, e {Key:TimeSpeed_Superfast}, ou com o controle de tempo no canto inferior direito.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
+  <TimeControls.textController>Você também pode acelerar o tempo.\n\nTente controlar o tempo com os botões traseiros, ou com o controle de tempo no canto inferior direito.</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Por favor, desaliste seus colonos.</UndraftAll.rejectInputMessage>
