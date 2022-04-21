@@ -107,11 +107,11 @@
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
   <ExecuteColonist>Executar o colono culpado\n\nSe ativar esta opção, um guarda executará essa pessoa.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>{0_labelShort} agora está marcado(a) para execução. O próximo guarda disponível irá o(a) executar.</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort} agora está marcado(a) para execução. O próximo guarda disponível o(a) executará.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Esta ação irá fazer {PAWN_nameDef} perder o título de {TITLE} {PAWN_objective}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Esta ação fará {PAWN_nameDef} perder o título de {TITLE} {PAWN_objective}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá essas permissões</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
@@ -371,7 +371,7 @@
   <!-- EN: Expires in -->
   <ExpiresIn>Expira em</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>{1_labelShort}s caravanas</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>caravana de {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Razão</Reason>
   <!-- EN: Relations with {0} -->
@@ -457,7 +457,7 @@
   <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>montagem de {0} termina em {1}</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
-  <MechAssemblyNextType>Irá montar</MechAssemblyNextType>
+  <MechAssemblyNextType>Montará</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>produzido</ThingsProduced>
   <!-- EN: harvested -->
@@ -613,7 +613,7 @@
   <!-- EN: Unrestricted -->
   <NoAreaAllowed>Sem restrições</NoAreaAllowed>
   <!-- EN: New area -->
-  <NewArea>Nova área</NewArea>
+  <NewArea>Nova Área</NewArea>
   <!-- EN: Invert -->
   <InvertArea>Inverter</InvertArea>
 
@@ -792,9 +792,9 @@
   <!-- EN: Administering {0}. -->
   <RecipeAdministerJobString>Administrando {0}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
-  <TeetotalerUnhappy>teetotaler ficará infeliz</TeetotalerUnhappy>
+  <TeetotalerUnhappy>abstêmio ficará infeliz</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>prosthofóbico ficará infeliz</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>purista do corpo ficará infeliz</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
@@ -916,7 +916,7 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>Dessecado</RotStateDessicated>
   <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>Congelado (não irá estragar)</CurrentlyFrozen>
+  <CurrentlyFrozen>Congelado (não estragará)</CurrentlyFrozen>
   <!-- EN: Refrigerated (spoils in {0}) -->
   <CurrentlyRefrigerated>Refrigerado (apodrece em {0})</CurrentlyRefrigerated>
   <!-- EN: Not refrigerated (spoils in {0}) -->
@@ -1130,7 +1130,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Componente ainda não está pronto</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e irá atrair gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
+  <HibernateWarning>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e atrairá gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>O reator está pronto para ser ligado.\n\nO processo levará cerca de 15 dias e a assinatura de energia será detectada a uma grande distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
@@ -1286,7 +1286,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>Nenhum recurso abaixo.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Recursos esgotados, a broca foi desligada automaticamente. Impossivel começar a mineração de {0}.</DeepDrillExhausted>
+  <DeepDrillExhausted>Recursos esgotados, a broca foi desligada automaticamente. Impossível começar a mineração de {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Recursos esgotados.</DeepDrillExhaustedNoFallback>
 
@@ -1296,7 +1296,7 @@
   
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
-  <LearningHelper>Auxiliar de Aprendizagem</LearningHelper>
+  <LearningHelper>Auxiliar de Aprend.</LearningHelper>
   <!-- EN: Mark as learned -->
   <MarkLearned>Eu já aprendi</MarkLearned>
   <!-- EN: Already learned -->
@@ -1370,7 +1370,7 @@
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>{0} / {1}\nTaxa de queda: {2} / s ({3}s até zero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>O calor neural aumenta após a realização de um psycast. Ultrapassar o limite normal pode causar um colapso psíquico que dura dias.\n\nO calor neural dissipa-se naturalmente ao longo do tempo. Esse processo pode ser acelerado usando roupas de eltex ou sentindo dores.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>O calor neural aumenta após a realização de uma psinjuração. Ultrapassar o limite normal pode causar um colapso psíquico que dura dias.\n\nO calor neural dissipa-se naturalmente ao longo do tempo. Esse processo pode ser acelerado usando roupas de eltex ou sentindo dores.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Aumento da dor\n\nA dor concentra a mente e acelera a dissipação de calor neural.\n\nNível de dor: {0}\nBônus à recuperação de calor: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
@@ -1380,7 +1380,7 @@
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{1}, {0}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
