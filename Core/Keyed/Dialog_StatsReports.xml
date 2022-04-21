@@ -303,7 +303,7 @@
   <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
   <Stat_Hediff_TirednessFactor_Desc>Um multiplicador aplicado à taxa na qual as criaturas precisam de descanso diminui.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
-  <Stat_Hediff_PreventsInfection_Desc>Se isso irá prevenir ou não infecções.</Stat_Hediff_PreventsInfection_Desc>
+  <Stat_Hediff_PreventsInfection_Desc>Se isso prevenirá ou não infecções.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
   <Stat_Thing_Terrain_Supports_Desc>As coisas que este terreno suporta.</Stat_Thing_Terrain_Supports_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
@@ -315,7 +315,7 @@
   <!-- EN: This floor is considered fine and suitable for royalty. -->
   <Stat_Thing_Terrain_Fine_Desc>Este piso é considerado bom e adequado para a realeza.</Stat_Thing_Terrain_Fine_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->
-  <Stat_Thing_PowerConsumption_Desc>A quantidade de energia que este edifício irá consumir da rede elétrica.</Stat_Thing_PowerConsumption_Desc>
+  <Stat_Thing_PowerConsumption_Desc>A quantidade de energia que este edifício consumirá da rede elétrica.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
   <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} restantes</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
@@ -335,7 +335,7 @@
   <!-- EN: Vanish on exhaust -->
   <Stat_Thing_ReloadDestroyOnEmpty_Name>Desapareceu na descarga</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Este item irá desaparecer quando seu último {CHARGENOUN} for usado.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Este item desaparecerá quando seu último {CHARGENOUN} for usado.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>A eficiência geral desta parte do corpo.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Biocoding -->
@@ -369,7 +369,7 @@
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
   <Stat_Thing_Drug_Addictiveness_Desc>A chance de dependência por dose desta droga.\n\nSe a droga tem uma tolerância mínima para viciar, a tolerância deve estar acima desse nível para que isso se aplique. Se não houver tolerância mínima, qualquer dose pode causar um vício.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
-  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Novos vícios causados por esta droga começam neste nível de gravidade.\n\nTomar mais da droga aumentará a gravidade do vício, enquanto o tempo irá reduzi-la.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Novos vícios causados por esta droga começam neste nível de gravidade.\n\nTomar mais da droga aumentará a gravidade do vício, enquanto o tempo reduzirá-la.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
   <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Quanto tempo leva para se recuperar de um vício inicial a esta droga.\n\nIsto é calculado a partir da gravidade do novo vício dividido pela taxa de recuperação do vício. Um vício que foi alimentado demorará mais.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->

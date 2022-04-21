@@ -58,7 +58,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>Não foi possível inicializar a API Steam. Causas possíveis:\n\n-A Steam não está em execução.\n-Foi iniciado fora da Steam sem steam_appid.txt no lugar.\n-Está sendo executado com privilégios diferentes do cliente Steam (ex. "como administrador").\n\nNa maioria dos casos, reiniciar o computador irá corrigir este problema.\n\nVocê pode jogar assim mesmo, mas as estatísticas da Steam não serão gravadas e os recursos da Steam não estarão disponíveis.</SteamClientMissing>
+  <SteamClientMissing>Não foi possível inicializar a API Steam. Causas possíveis:\n\n-A Steam não está em execução.\n-Foi iniciado fora da Steam sem steam_appid.txt no lugar.\n-Está sendo executado com privilégios diferentes do cliente Steam (ex. "como administrador").\n\nNa maioria dos casos, reiniciar o computador corrigirá este problema.\n\nVocê pode jogar assim mesmo, mas as estatísticas da Steam não serão gravadas e os recursos da Steam não estarão disponíveis.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -104,7 +104,7 @@
   <!-- EN: Saving -->
   <SavingLongEvent>Salvando</SavingLongEvent>
   <!-- EN: (Permadeath) -->
-  <PermadeathModeSaveSuffix>(Morte perman.)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Morte Perman.)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
   <SaveIsFromDifferentGameVersion>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma versão completamente diferente.\n\nTentar carregar estes dados provavelmente não funcionarão.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
@@ -128,7 +128,7 @@
   <!-- EN: Installed, but not active -->
   <ContentInstalledButNotActive>Instalado, mas desativado</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
-  <ContentNotInstalled>Não instalado</ContentNotInstalled>
+  <ContentNotInstalled>Não Instalado</ContentNotInstalled>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -194,9 +194,9 @@
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Aviso: você irá aterrissar em um ambiente congelado. Pode ser difícil ou quase impossível para sobreviver. Se você não está pretendendo enfrentar um desafio extremo, escolha um outro local ou estação de ano diferente.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Aviso: você aterrissará em um ambiente congelado. Pode ser difícil ou quase impossível para sobreviver. Se você não está pretendendo enfrentar um desafio extremo, escolha um outro local ou estação de ano diferente.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>Aviso: O desempenho pode cair em mapas com tamanhos grandes. O tamanho Absurdo não foi testado e quase certamente não irá rodar bem.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>Aviso: O desempenho pode cair em mapas com tamanhos grandes. O tamanho Absurdo não foi testado e quase certamente não rodará bem.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Tamanho do Mapa</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -291,7 +291,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Penetração de Armadura</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de armadura que esta arma irá ignorar toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a armadura do alvo, é como se o alvo não tivesse armadura. Caso contrário, a penetração da armadura é subtraída da armadura do alvo.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de armadura que esta arma ignorará toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a armadura do alvo, é como se o alvo não tivesse armadura. Caso contrário, a penetração da armadura é subtraída da armadura do alvo.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
   <BuildingDamageFactor>Fator de dano à construções</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
@@ -481,7 +481,7 @@
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Intervalo de acariciamento</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>Quantas vezes, em média um animal irá acariciar colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição.\nA maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
+  <NuzzleIntervalExplanation>Quantas vezes, em média um animal acariciará colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição.\nA maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Chance de vingança</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
@@ -551,9 +551,9 @@
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
   <PositiveBuysNegativeSells>Números positivos você vende.\nNúmeros negativos você compra.</PositiveBuysNegativeSells>
   <!-- EN: Price you pay to buy this. -->
-  <BuyPriceDesc>Preço que você irá pagar para comprar isto.</BuyPriceDesc>
+  <BuyPriceDesc>Preço que você pagará para comprar isto.</BuyPriceDesc>
   <!-- EN: Price you receive for selling this. -->
-  <SellPriceDesc>Dinheiro que você irá receber por vender isto.</SellPriceDesc>
+  <SellPriceDesc>Dinheiro que você receberá por vender isto.</SellPriceDesc>
   <!-- EN: For this item, this price is {0}. -->
   <PriceTypeDesc>Para este item, o preço é {0}.</PriceTypeDesc>
   <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
@@ -693,11 +693,11 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Sua caravana não tem comida e ficará com fome muito rapidamente.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>A quantidade média de alimentos por dia que o seu pessoal vai procurar. Este valor irá mudar conforme você viaja através dos biomas com diferentes taxas de rendimento de forragem.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>A quantidade média de alimentos por dia que o seu pessoal vai procurar. Este valor mudará conforme você viaja através dos biomas com diferentes taxas de rendimento de forragem.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>Forragem por dia</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
-  <CaravanFoodWillRotSoonWarningDialog>Uma grande parte da comida atribuída irá apodrecer em breve.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanFoodWillRotSoonWarningDialog>Uma grande parte da comida atribuída apodrecerá em breve.</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
   <CaravanIncapableOfSocial>Você não tem nenhum membro da caravana capaz de diplomacia ou negociação.</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
@@ -943,13 +943,13 @@
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Nada</FoodRestrictionNothing>
   <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Selecione a restrição alimentar</SelectFoodRestriction>
+  <SelectFoodRestriction>Selec. Restr. Alimentar</SelectFoodRestriction>
   <!-- EN: New food restriction -->
-  <NewFoodRestriction>Nova restrição alimentar</NewFoodRestriction>
+  <NewFoodRestriction>Nova Restr. Alimentar</NewFoodRestriction>
   <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>Deletar restrição alimentar</DeleteFoodRestriction>
+  <DeleteFoodRestriction>Excl. Restr. Alimentar</DeleteFoodRestriction>
   <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>Sem restrição alimentar</NoFoodRestrictionSelected>
+  <NoFoodRestrictionSelected>Sem Restrição Alimentar</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
   <!-- EN: Defaults -->
@@ -981,13 +981,13 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonizadores saudáveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonos saudáveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
   <ConfirmBanishPawnDialog>Você realmente quer banir {1_label}?</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} provavelmente irá morrer.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} provavelmente morrerá.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
   <ConfirmBanishPawnDialog_Items>{1_labelShort} levará os seguintes itens com {1_pronoun}:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
@@ -1116,21 +1116,21 @@
   <!-- EN: Current -->
   <AutoSlaugtherHeaderColCurrent>Atual</AutoSlaugtherHeaderColCurrent>
   <!-- EN: Max -->
-  <AutoSlaugtherHeaderColMax>Máx,</AutoSlaugtherHeaderColMax>
+  <AutoSlaugtherHeaderColMax>Máx.</AutoSlaugtherHeaderColMax>
   <!-- EN: Total -->
   <AutoSlaugtherHeaderColTotal>Total</AutoSlaugtherHeaderColTotal>
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>Outro</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>Os colonos abatem primeiro os animais não grávidos, ordenando do mais velho para o mais novo, e depois os animais grávidos da gravidez mais recente para a menos recente.</AutoSlaugtherTip>
+  <AutoSlaugtherTip>Os colonos abatem primeiro os animais não grávidos, do mais velho ao mais novo, e depois os grávidos, da gravidez mais recente à menos recente.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
-  <AnimalMaleAdult>Macho adulto</AnimalMaleAdult>
+  <AnimalMaleAdult>Macho Adulto</AnimalMaleAdult>
   <!-- EN: Male young -->
-  <AnimalMaleYoung>Macho jovem</AnimalMaleYoung>
+  <AnimalMaleYoung>Macho Jovem</AnimalMaleYoung>
   <!-- EN: Female adult -->
-  <AnimalFemaleAdult>Fêmea adulta</AnimalFemaleAdult>
+  <AnimalFemaleAdult>Fêmea Adulta</AnimalFemaleAdult>
   <!-- EN: Female young -->
-  <AnimalFemaleYoung>Fêmea grávida</AnimalFemaleYoung>
+  <AnimalFemaleYoung>Fêmea Grávida</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
   <AnimalPregnant>Grávida</AnimalPregnant>
   <!-- EN: Bonded -->

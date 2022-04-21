@@ -25,7 +25,7 @@
     <li>hidingFrom(gameCondition==ToxicFallout)->uma matilha de lobos famintos</li>
     <li>condDesc(gameCondition==ToxicFallout)->Contudo, [joiner_nameDef] só pode matar os lobos incendiando um imenso depósito químico tóxico nas proximidades. [gameConditionDuration_duration] de precipitação tóxica acompanharão.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->uma gangue de canibais</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->Contudo, [joiner_nameDef] só pode matar a gangue ateando fogo em uma enorme pilha de lixo abandonada nas proximidades. Se [joiner_pronoun] se juntar a você, uma precipitação de fumaça irá bloquear o sol por [gameConditionDuration_duration].</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Contudo, [joiner_nameDef] só pode matar a gangue ateando fogo em uma enorme pilha de lixo abandonada nas proximidades. Se [joiner_pronoun] se juntar a você, uma precipitação de fumaça bloqueará o sol por [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==EMIField)->um grupo de mecanoides</li>
     <li>condDesc(gameCondition==EMIField)->Contudo, [joiner_nameDef] só pode destruir os mecanoides ativando um dínamo IEM ancestral. Se [joiner_pronoun] se juntar a você, um campo IEM será gerado, desativando dispositivos elétricos durante [gameConditionDuration_duration].</li>
     <li>hidingFrom(gameCondition==HeatWave)->um satélite de controle climático com defeito</li>
@@ -54,7 +54,7 @@
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, (*Threat)an infestation of [hivesCount] hives(/Threat) will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->Um(a) [joiner_title] de [joiner_age] anos de idade chamado(a) [joiner_nameDef] está chamando por perto. [joiner_pronoun] diz que [joiner_pronoun] envenenou uma colônia subterrânea, mas agora [joiner_pronoun] está encharcado em feromônios de insetos e os insetos estão caçando [joiner_pronoun]!\n\n[joiner_pronoun] implora por segurança e se oferece para se juntar a você em [map_definite].[joiner_relationInfo]\n\nSe você aceitar, uma infestação de [hivesCount] colmeias irá começar em [infestationDelayTicks_duration].\n\n[joiner_nameDef] está muito assustado(a) para oferecer mais informações.</li>
+    <li>questDescription->Um(a) [joiner_title] de [joiner_age] anos de idade chamado(a) [joiner_nameDef] está chamando por perto. [joiner_pronoun] diz que [joiner_pronoun] envenenou uma colônia subterrânea, mas agora [joiner_pronoun] está encharcado em feromônios de insetos e os insetos estão caçando [joiner_pronoun]!\n\n[joiner_pronoun] implora por segurança e se oferece para se juntar a você em [map_definite].[joiner_relationInfo]\n\nSe você aceitar, uma infestação de [hivesCount] colmeias começará em [infestationDelayTicks_duration].\n\n[joiner_nameDef] está muito assustado(a) para oferecer mais informações.</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
