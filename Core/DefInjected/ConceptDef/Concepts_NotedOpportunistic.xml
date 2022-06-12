@@ -20,8 +20,10 @@
   <Capturing.label>Capturando</Capturing.label>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
   <Capturing.helpText>Quando um inimigo está caído no chão mas não está morto, você pode CAPTURÁ-LO.\n\nPara capturar, selecione um colono, clique com o botão direito sobre o inimigo incapacitado, e selecione Capturar.\n\nVocê precisará de uma cama extra marcada para uso de prisioneiro.</Capturing.helpText>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpTextController>Quando um inimigo está caído no chão mas não está morto, você pode CAPTURÁ-LO.\n\nPara capturar, selecione um colono, pressione o gatilho esquerdo sobre o inimigo incapacitado, e selecione Capturar.\n\nVocê precisará de uma cama extra marcada para uso de prisioneiro.</Capturing.helpTextController>
   
-  <!-- EN: Door opening speeds -->
+  <!-- EN: Door opening speeds -->  
   <DoorOpenSpeed.label>Velocidades de abertura das portas</DoorOpenSpeed.label>
   <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
   <DoorOpenSpeed.helpText>Portas abrem em diferentes velocidades, dependendo do que elas são feitas.\n\nAviso: Portas de pedra abrem muito lentamente. Qualquer pessoa que passar por ali ficará significativamente mais lenta.</DoorOpenSpeed.helpText>
@@ -50,16 +52,22 @@
   <GroupGotoHereDragging.label>Posicionando lutadores</GroupGotoHereDragging.label>
   <!-- EN: Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
   <GroupGotoHereDragging.helpText>Clique com o botão direito e arraste para que seus lutadores recrutados formem uma linha.\n\nEspalhe-se - alvos agrupados são fáceis de acertar!</GroupGotoHereDragging.helpText>
+  <!-- EN: Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
+  <GroupGotoHereDragging.helpTextController>Segure o gatilho esquerdo e arraste para que seus lutadores recrutados formem uma linha.\n\nEspalhe-se - alvos agrupados são fáceis de acertar!</GroupGotoHereDragging.helpTextController>
   
   <!-- EN: Interacting with traders -->
   <InteractingWithTraders.label>Interagindo com os comerciantes</InteractingWithTraders.label>
   <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to his head. -->
-  <InteractingWithTraders.helpText>Você pode falar com pessoas com ? sobre suas cabeças.\n\nSelecione um colono e clique com o botão direito sobre o personagem com ? anexado a sua cabeça.</InteractingWithTraders.helpText>
+  <InteractingWithTraders.helpText>Você pode falar com pessoas com "?" sobre suas cabeças.\n\nSelecione um colono e clique com o botão direito sobre o personagem com "?" anexado a sua cabeça.</InteractingWithTraders.helpText>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to his head. -->
+  <InteractingWithTraders.helpTextController>Você pode falar com pessoas com "?" sobre suas cabeças.\n\nSelecione um colono e pressione o gatilho esquerdo sobre o personagem com "?" anexado a sua cabeça.</InteractingWithTraders.helpTextController>
   
   <!-- EN: Using the comms console -->
   <OpeningComms.label>Usando o console de comunicação</OpeningComms.label>
   <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
   <OpeningComms.helpText>Para se comunicar, selecione um colono e clique com o botão direito do mouse no console de comunicação.</OpeningComms.helpText>
+  <!-- EN: To communicate, select a colonist and press the left trigger button on the comms console. -->
+  <OpeningComms.helpTextController>Para se comunicar, selecione um colono e pressione o gatilho esquerdo no console de comunicação.</OpeningComms.helpTextController>
   
   <!-- EN: Prisoner tab -->
   <PrisonerTab.label>Aba de prisioneiro</PrisonerTab.label>
@@ -70,6 +78,8 @@
   <QueueOrders.label>Ordem, enfileirando</QueueOrders.label>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
   <QueueOrders.helpText>Ao dar comandos aos colonos, você pode enfileirar vários pedidos segurando "shift". Isso também funciona ao dar emprego aos colonos não-projetados.</QueueOrders.helpText>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns. -->
+  <QueueOrders.helpTextController>Ao dar comandos aos colonos, você pode enfileirar vários pedidos segurando {Key:QueueOrder}. Isso também funciona ao dar emprego aos colonos não-projetados.</QueueOrders.helpTextController>
   
   <!-- EN: Reforming caravans -->
   <ReformCaravan.label>Reformando caravanas</ReformCaravan.label>
@@ -80,6 +90,8 @@
   <Rescuing.label>Resgatando</Rescuing.label>
   <!-- EN: To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
   <Rescuing.helpText>Para resgatar uma pessoa ferida, selecione um colono saudável e então clique com o botão direito do mouse sobre o ferido.\n\nSe você resgatar um não-colono, eles não necessariamente participarão da sua colônia. Eles podem simplesmente ir embora depois de se curarem. Se você quiser garantir que eles se juntem, capture eles e os recrute.</Rescuing.helpText>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpTextController>Para resgatar uma pessoa ferida, selecione um colono saudável e então pressione o gatilho esquerdo sobre o ferido.\n\nSe você resgatar um não-colono, eles não necessariamente participarão da sua colônia. Eles podem simplesmente ir embora depois de se curarem. Se você quiser garantir que eles se juntem, capture eles e os recrute.</Rescuing.helpTextController>
   
   <!-- EN: Set what plant to grow -->
   <SetGrowingZonePlant.label>Definir o que plantar para cultivar</SetGrowingZonePlant.label>
