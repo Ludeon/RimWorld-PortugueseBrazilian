@@ -863,6 +863,8 @@
   <SelectNextInSquareTip>Seleciona a próxima coisa no mesmo quadrado.\n\n(*SectionTitle)Tecla de atalho:(/SectionTitle) {0}\n\nVocê pode também fazer isso clicando lentamente no mesmo quadrado de novo.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Ver informações sobre isto</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>Seleciona a próxima coisa no mesmo quadrado.\n\nVocê pode também fazer isso clicando lentamente no mesmo quadrado de novo.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1018,7 +1020,9 @@
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
   <ShowRoomStatsToggleButton>Exibição de Estatísticas de Salas\n\nExibe as estatísticas da sala onde o mouse está apontando.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Exibição da Barra de Colonos\n\nExibe ícones e estatísticas básicas para todos os colonos ao longo da parte superior da tela.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Exibição da Barra de Colonos\n\nExibe ícones e estatísticas básicas para todos os colonos ao longo da parte superior da tela.\n\nVocê pode reordernar os colonos na barra de colonos segurando o clique direito e os arrastando.</ShowColonistBarToggleButton>
+  <!-- EN:. Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>Exibição da Barra de Colonos\n\nExibe ícones e estatísticas básicas para todos os colonos ao longo da parte superior da tela.\n\nVocê pode reordernar os colonos na barra de colonos apertando o gatilho esquerdo e os arrastando.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Expansão Automática da Área da Casa</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1323,10 +1327,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Calculando para: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botão direito do mouse: Adicionar/remover waypoints.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Gatilho esquerdo: Adicionar/remover waypoints.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Sair do modo de planejamento.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Sair do modo de planejamento.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Retornar para o diálogo de formação da caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: Retornar para o diálogo de formação da caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Tempo de viagem est.: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1512,6 +1522,8 @@
   <NotParticipating>Não participando</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Arraste e solte ou clique para mover as pessoas.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>Arraste e solte ou clique para mover as pessoas.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Um escravo. A propriedade humana de outros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
