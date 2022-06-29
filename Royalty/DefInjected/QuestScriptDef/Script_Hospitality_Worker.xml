@@ -4,23 +4,23 @@
   <!-- EN: 1 -->
   <Hospitality_Util_Worker.root.nodes.Equal-0.node.nodes.Sequence-1.nodes.Set-2.value.slateRef>1</Hospitality_Util_Worker.root.nodes.Equal-0.node.nodes.Sequence-1.nodes.Set-2.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
-  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>[lodgersLabelSingOrPlural] chegaram</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
+  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>[lodgersLabelSingOrPlural] [chegouChegaram]</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
-  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>[lodgersLabelSingOrPluralDef] [lodgersHasHave] chegaram. Proteja [lodgersObjective] até que o transporte chegue em [shuttleDelayTicks_duration].[helpersArrivalLetterEnd]</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
+  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>[lodgersLabelSingOrPluralDef] [chegouChegaram]. Proteja[oOs] até que o transporte chegue em [shuttleDelayTicks_duration].[helpersArrivalLetterEnd]</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>Deve partir no transporte</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
   <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>Transporte chegou</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
-  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>O transporte chegou para pegar [lodgersLabelSingOrPluralDef]. Certifique-se de ter essas pessoas no transporte antes que ele saia em [shuttleLeaveDelayTicks_duration]:\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>O transporte chegou para pegar [lodgersLabelSingOrPluralDef]. Certifique-se de ter estas pessoas no transporte antes que ele saia em [shuttleLeaveDelayTicks_duration]:\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>Convidado morreu: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has died. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>[letterSubject], que você foi encarregado de proteger, morreu. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>[letterSubject], que você foi encarregado(a) de proteger, morreu. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>Convidado capturado: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>[letterSubject], que você foi encarregado de proteger, foi preso. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>[letterSubject], que você foi encarregado(a) de proteger, foi preso(a). [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
   <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>Prisioneiro recrutado: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
@@ -36,15 +36,15 @@
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>Convidado perdido: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>[letterSubject], que você foi encarregado de proteger, se foi. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>[letterSubject], que você foi encarregado(a) de proteger, se foi. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>Convidado perdido: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>[letterSubject], que você estava encarregado de proteger, entrou em estado de pânico. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
+  <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>[letterSubject], que você estava encarregado(a) de proteger, entrou em estado de pânico. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>Convidado perdido: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>[letterSubject], que você foi encarregado de proteger, se juntou a outra facção. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>[letterSubject], que você foi encarregado(a) de proteger, se juntou a outra facção. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>A missão falhou: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
   <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingQuest] -->
@@ -52,19 +52,19 @@
   <!-- EN: Shuttle destroyed -->
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Transporte destruído</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>O transporte enviado para pegar [lodgersLabelSingOrPluralDef] foi destruído. [lodgersLabelSingOrPluralDef] irá embora a pé. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>O transporte enviado para pegar [lodgersLabelSingOrPluralDef] foi destruído. [lodgersLabelSingOrPluralDef] [iraIrao] embora a pé. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Quest completed -->
   <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>Missão concluída</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
-  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>Você completou com sucesso a missão '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] disse que [lodgersPronoun] estava disposto a recompensar acomodações de qualidade. O humor médio de [lodgersLabelSingOrPluralDef] foi {AVERAGEMOOD} durante a estadia, portanto, sua boa vontade com [asker_faction_name] aumentou em {GOODWILL}</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>Você completou com sucesso a missão '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] disse que [lodgersPronoun] [estavaEstavamDispostoDispostos] a recompensar acomodações de qualidade. O humor médio de [lodgersLabelSingOrPluralDef] foi {AVERAGEMOOD} durante a estadia, portanto, sua boa vontade com [asker_faction_name] aumentou em {GOODWILL}</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: Quest completed -->
   <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>Missão concluída</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [lodgersLabelSingOrPluralDef] [lodgersWasWere] willing to reward quality accommodation, [theirHisHer] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
-  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>Você completou com sucesso a missão '[resolvedQuestName]'!\n\nEnquanto [lodgersLabelSingOrPluralDef] estava disposto a recompensar acomodações de qualidade, seu humor médio foi somente {AVERAGEMOOD} durante a estadia. Você não receberá recompensa de boa vontade da facção.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>Você completou com sucesso a missão '[resolvedQuestName]'!\n\nEnquanto [lodgersLabelSingOrPluralDef] [estavaEstavamDispostoDispostos] a recompensar acomodações de qualidade, seu humor médio foi somente {AVERAGEMOOD} durante a estadia. Você não receberá recompensa de boa vontade da facção.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>A missão falhou: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>O transporte enviado para pegar [lodgersLabelSingOrPluralDef] partiu. [lodgersLabelSingOrPluralDef] irá embora a pé. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
+  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>O transporte enviado para pegar [lodgersLabelSingOrPluralDef] partiu. [lodgersLabelSingOrPluralDef] [iraIrao] embora a pé. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
   
   <!-- EN: Shuttle destroyed -->
   <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>Transporte destruído</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
