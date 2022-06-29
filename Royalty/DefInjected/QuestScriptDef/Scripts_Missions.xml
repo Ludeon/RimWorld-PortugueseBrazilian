@@ -7,9 +7,9 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[enemiesLabel] estabeleceram um acampamento e estão perturbando as caravanas de [asker_faction_name]. [asker_nameDef] está planejando um ataque aéreo no acampamento, que est5 protegido por [enemiesCount] [enemiesLabel]. [asker_pronoun] quer que você forneça [soldiers] para se encarregar do ataque.\n\n[asker_pronoun] te enviará um transporte para recuperar seus soldados, leve-os para a zona de ataque e leve-os de volta para casa depois. Eles serão alimentados e tratados medicamente durante o transporte.\n\nQuando o ataque começar, você precisará derrotar todos os inimigos e torretas em [timeoutTicks_duration].</li>
-    <li>soldados (requiredPawnCount>1)->[requiredPawnCount] soldados</li>
-    <li>soldados(requiredPawnCount==1)->[requiredPawnCount] soldado</li>
+    <li>questDescription->[enemiesLabel] estabeleceram um acampamento e estão perturbando as caravanas de [asker_faction_name]. [asker_nameDef] está planejando um ataque aéreo no acampamento, que está protegido por [enemiesCount] [enemiesLabel]. [asker_pronoun] quer que você forneça [soldiers] para ajudarem no ataque.\n\n[asker_pronoun] te enviará um transporte para pegar seus soldados, levá-los à zona de ataque e levá-los de volta para casa depois. Eles serão alimentados e tratados medicamente durante o transporte.\n\nQuando o ataque começar, você precisará derrotar todos os inimigos e torretas em [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldados</li>
+    <li>soldados(requiredPawnCount==1)->[requiredPawnCount] soldado(a)</li>
   </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
@@ -30,20 +30,14 @@
   -->
   <Mission_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[questNameInner]</li>
-    <li>questName->[asker_nameDef]'s [questNameInner]</li>
-    <li>questNameInner->[ataque] no [aéreo] </li>
-    <li>questNameInner->[ataque] no [alvo] </li>
-    <li>questNameInner->[trabalho] no [alvo] </li>
-    <li>alvo->acampamento</li>
-    <li>alvo->base</li>
-    <li>alvo->fortaleza</li>
-    <li>aéreo->aéreo</li>
-    <li>aéreo->aéreo</li>
-    <li>aéreo->área de pouso do transporte</li>
-    <li>ataque->ataque</li>
-    <li>ataque->assalto</li>
-    <li>trabalho->trabalho</li>
-    <li>trabalho->tarefa</li>
+    <li>questName->[questNameInner] de [asker_nameDef]</li>
+    <li>questNameInner->[ataque] Aéreo</li>
+    <li>questNameInner->[ataque] [alvo]</li>
+    <li>alvo->ao Acampamento</li>
+    <li>alvo->à Base</li>
+    <li>alvo->à Fortaleza</li>
+    <li>ataque->Ataque</li>
+    <li>ataque->Assalto</li>
   </Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>
