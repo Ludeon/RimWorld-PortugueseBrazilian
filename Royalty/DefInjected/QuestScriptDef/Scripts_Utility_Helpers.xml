@@ -16,26 +16,38 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\nUm(a) [helperKind_label] será colocado(a) sob seu controle. Você terá que alimentar e abrigar [helpers0_pronoun], porém [helpers0_pronoun] poderá morrer em batalha sem consequências.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nUm(a) [helperKind_label] será colocado(a) sob seu controle. Você terá que alimentá-lo(a) e abrigá-lo(a), porém [helpers0_pronoun] poderá morrer em batalha sem consequências.\n\n</li>
     <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] serão colocados sob seu controle. Você terá que alimentá-los e abrigá-los, porém eles poderão morrer em batalha sem consequências.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
-    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] enviado(s) para ajudá-lo.</li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] para ajudá-lo(a).</li>
     <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
     <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
-    <li>helpersHasHave(helpersCount==1)->foi</li>
-    <li>helpersHasHave(helpersCount>=2)->foram</li>
+    <li>helpersHasHave(helpersCount==1)->foi enviado(a)</li>
+    <li>helpersHasHave(helpersCount>=2)->foram enviados</li>
+    <li>chegouChegaram(helpersCount==1)->chegou</li>
+    <li>chegouChegaram(helpersCount>=2)->chegaram</li>
+    <li>oOs(helpersCount==1)->O(a)</li>
+    <li>oOs(helpersCount>=2)->Os</li>
+    <li>enviadoEnviados(helpersCount==1)->enviado(a)</li>
+    <li>enviadoEnviados(helpersCount>=2)->enviados</li>
+    <li>passouPassaram(helpersCount==1)->passou</li>
+    <li>passouPassaram(helpersCount>=2)->passaram</li>
     <li>helpersIsAre(helpersCount==1)->está</li>
     <li>helpersIsAre(helpersCount>=2)->estão</li>
+    <li>estavaEstavamDispostoDispostos(helpersCount==1)->estava disposto(a)</li>
+    <li>estavaEstavamDispostoDispostos(helpersCount>=2)->estavam dispostos</li>
+    <li>iraIrao(helpersCount==1)->irá</li>
+    <li>iraIrao(helpersCount>=2)->irão</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
-  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] chegou(aram)</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] [chegouChegaram]</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
-  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>O(s) [helpersLabelSingOrPlural] enviado(s) por [asker_nameDef] chegou(aram) para ajudá-lo com a missão '[resolvedQuestName]'.</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>[oOs] [helpersLabelSingOrPlural] [enviadoEnviados] por [asker_nameDef] [chegouChegaram] para ajudá-lo(a) com a missão '[resolvedQuestName]'.</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
   <!-- EN: the [helpersLabelSingOrPlural] -->
-  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>O(s) [helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
+  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>[oOs] [helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
   <!-- EN: [helpersLabelSingOrPlural] leaving -->
-  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural] indo embora</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural] partindo</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
-  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>O(s) [helpersLabelSingOrPlural] enviado(s) por [asker_nameDef] para ajudá-lo passou(aram) muito tempo com você, e [helpersIsAre] indo embora.</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>[oOs] [helpersLabelSingOrPlural] [enviadoEnviados] por [asker_nameDef] para ajudá-lo(a) [passouPassaram] muito tempo com você, e [helpersIsAre] indo embora.</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
   
 </LanguageData>
