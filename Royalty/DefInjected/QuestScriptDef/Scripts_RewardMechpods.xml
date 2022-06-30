@@ -13,7 +13,7 @@
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], está fazendo um pedido. [commonMainPart]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], um(a) [asker_royalTitleInCurrentFaction] de [asker_faction_name], está fazendo um pedido. [commonMainPart]</li>
-    <li>commonMainPart->Um enxame mecanoide está atacando seus assentamentos. [asker_pronoun] quer que você distraia os mecanoides, enquanto [asker_pronoun] limpa a colmeia. Se você aceitar, um aglomerado mecanoide pousará em [map_definite].[dangersDescription]\n\nO aglomerado mecanoide ficará inicialmente inativo. Ele pode possuir um ativador de contagem regressiva ou permanecer inativo para sempre até ser perturbado.\n\n[helpersParagraph]</li>
+    <li>commonMainPart->Um enxame mecanoide está atacando seus assentamentos. [asker_pronoun] quer que você distraia os mecanoides, enquanto [asker_pronoun] extermina a colmeia. Se você aceitar, um aglomerado mecanoide pousará em [map_definite].[dangersDescription]\n\nO aglomerado mecanoide ficará inicialmente inativo. Ele pode possuir um ativador de contagem regressiva ou permanecer inativo para sempre até ser perturbado.\n\n[helpersParagraph]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
@@ -31,17 +31,24 @@
     <li>menace->fear</li>
   -->
   <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
-    <li>questName->aglomerado [menace]</li>
-    <li>questName->cápsulas [menace]</li>
+    <li>questName->Aglomerado [menaceSingular]</li>
+    <li>questName->Cápsulas [menacePlural]</li>
     <li>questName->[nameBased]</li>
-    <li>nameBased->mecanoides de [asker_nameDef]</li>
-    <li>nameBased->mecanoides de [asker_nameDef]</li>
-    <li>nameBased->aglomerado mecanoide de [asker_nameDef]</li>
-    <li>nameBased->mecanoides [menace] de [asker_nameDef]</li>
-    <li>menace->ameaçador</li>
-    <li>menace->perigoso</li>
-    <li>menace->aterrorizante</li>
-    <li>menace->assustador</li>
+    <li>nameBased->Mecanoides de [asker_nameDef]</li>
+    <li>nameBased->Aglomerado Mecanoide de [asker_nameDef]</li>
+    <li>nameBased->Mecanoides [menacePluralMale] de [asker_nameDef]</li>
+    <li>menaceSingular->Ameaçador</li>
+    <li>menaceSingular->Perigoso</li>
+    <li>menaceSingular->Aterrorizante</li>
+    <li>menaceSingular->Assustador</li>
+    <li>menacePluralFemale->Ameaçadoras</li>
+    <li>menacePluralFemale->Perigosas</li>
+    <li>menacePluralFemale->Aterrorizantes</li>
+    <li>menacePluralFemale->Assustadoras</li>
+    <li>menacePluralMale->Ameaçadores</li>
+    <li>menacePluralMale->Perigosos</li>
+    <li>menacePluralMale->Aterrorizantes</li>
+    <li>menacePluralMale->Assustadores</li>
   </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
