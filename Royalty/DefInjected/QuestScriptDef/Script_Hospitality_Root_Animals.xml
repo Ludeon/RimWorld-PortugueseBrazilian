@@ -52,9 +52,9 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Por razões desconhecidas, o(a) [lodgersLabel] se tornou alvo de um enxame mecanoide em órbita.</li>
+    <li>threatsInfoMechClustersSingleAnimal->Por razões desconhecidas, o [lodgersLabel] se tornou alvo de um enxame mecanoide em órbita.</li>
     <li>threatsInfoMechClustersMultiAnimal->Por razões desconhecidas, os [lodgersLabelPlural] se tornaram alvos de um enxame mecanoide em órbita.</li>
-    <li>threatsInfoMechRaidsSingleAnimal->Por razões desconhecidas, o(a) [lodgersLabel] se tornou alvo de uma colmeia mecanoide.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->Por razões desconhecidas, o [lodgersLabel] se tornou alvo de uma colmeia mecanoide.</li>
     <li>threatsInfoMechRaidsMultiAnimal->Por razões desconhecidas, os [lodgersLabelPlural] se tornaram alvos de uma colmeia mecanoide.</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->Uma organização de resgate de animais deseja que você cuide de um(a) [lodgersLabel] chamado(a) [lodgers0_nameDef] em [map_definite] por [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nOs ativistas de resgate de animais roubaram [lodgers0_nameDef] de uma cerimônia de abate realizada por [enemyFaction_name]. Agora os [enemyFaction_pawnsPlural] estão vindo para se vingar. Se você aceitar [lodgers0_nameDef], [enemyGroupsParagraph]</li>
@@ -116,20 +116,26 @@
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
   <Hospitality_Animals.questNameRules.rulesStrings>
-    <li>questName(lodgersCount==1)->[lodgersLabel] [animalAdjSing]</li>
-    <li>questName(lodgersCount==1)->Protegendo [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==1)->Pobre [lodgers0_nameDef]</li>
-    <li>questName(lodgersCount==2)->[lodgersLabelPlural] [animalAdjPlur]</li>
-    <li>animalAdjSing->Adorável</li>
-    <li>animalAdjSing->Fiel</li>
-    <li>animalAdjSing->Gentil</li>
-    <li>animalAdjSing(generateThreats==true)->Perseguido</li>
-    <li>animalAdjSing(generateThreats==true)->Assustado</li>
-    <li>animalAdjPlur->Adoráveis</li>
-    <li>animalAdjPlur->Fiéis</li>
-    <li>animalAdjPlur->Gentis</li>
-    <li>animalAdjPlur(generateThreats==true)->Perseguidos</li>
-    <li>animalAdjPlur(generateThreats==true)->Assustados</li>
+    <li>questName(lodgersCount==1)->o [lodgersLabel] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->um [lodgersLabel] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel]-sentado</li>
+    <li>questName(lodgersCount==1)->protegendo [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->pobre [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==2)->os [lodgersLabelPlural] [animalAdj]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabel]-sentados</li>
+    <li>questName(lodgersCount==2)->protegendo [lodgersLabelPlural]</li>
+    <li>animalAdj->adorável</li>
+    <li>animalAdj->fofo</li>
+    <li>animalAdj->fiel</li>
+    <li>animalAdj->amoroso</li>
+    <li>animalAdj->calmo</li>
+    <li>animalAdj->gentil</li>
+    <li>animalAdj->orgulhoso</li>
+    <li>animalAdj(generateThreats==true)->perseguido</li>
+    <li>animalAdj(generateThreats==true)->assustado</li>
   </Hospitality_Animals.questNameRules.rulesStrings>
   
 </LanguageData>
