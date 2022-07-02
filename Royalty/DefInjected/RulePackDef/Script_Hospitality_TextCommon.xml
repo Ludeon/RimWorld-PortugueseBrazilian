@@ -60,11 +60,11 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sofrendo de abasia paralítica e [deveDevem] repousar na cama.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] com podridão no sangue e [exigiráExigirão] tratamento diário. A doença pode ser retardada com cuidados e medicamentos de alta qualidade, mas geralmente não pode ser curada completamente. Se a doença agravar-se, [lodgersLabelSingOrPluralDef] [morreráMorrerão], por isso verifique se você tem os suprimentos médicos necessários.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] com podridão no sangue e [exigiraExigirao] tratamento diário. A doença pode ser retardada com cuidados e medicamentos de alta qualidade, mas geralmente não pode ser curada completamente. Se a doença agravar-se, [lodgersLabelSingOrPluralDef] [morrerraMorrerrao], por isso verifique se você tem os suprimentos médicos necessários.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nvocê deve manter o humor [deDos] [lodgersLabelSingOrPluralDef] acima de [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] não [faráFarão] nenhum trabalho.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] não [faraFarao] nenhum trabalho.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->haverá (*Threat)uma invasão(/Threat) de aproximadamente este tamanho:\n\n[threatExample]</li>
@@ -96,16 +96,22 @@
     <li>lodgersObjective(lodgersCount>=2)->eles</li>
     <li>deveDevem(lodgersCount==1)->deve</li>
     <li>deveDevem(lodgersCount>=2)->devem</li>
-    <li>exigiráExigirão(lodgersCount==1)->exigirá</li>
-    <li>exigiráExigirão(lodgersCount>=2)->exigirão</li>
-    <li>morreráMorrerão(lodgersCount==1)->morrerá</li>
-    <li>morreráMorrerão(lodgersCount>=2)->morrerão</li>
+    <li>exigiraExigirao(lodgersCount==1)->exigirá</li>
+    <li>exigiraExigirao(lodgersCount>=2)->exigirão</li>
+    <li>morrerraMorrerrao(lodgersCount==1)->morrerá</li>
+    <li>morrerraMorrerrao(lodgersCount>=2)->morrerão</li>
     <li>areIs(lodgersCount==1)->está</li>
     <li>areIs(lodgersCount>=2)->estão</li>
     <li>deDos(lodgersCount==1)->de</li>
     <li>deDos(lodgersCount>=2)->dos</li>
-    <li>faráFarão(lodgersCount==1)->fará</li>
-    <li>faráFarão(lodgersCount>=2)->farão</li>
+    <li>faraFarao(lodgersCount==1)->fará</li>
+    <li>faraFarao(lodgersCount>=2)->farão</li>
+    <li>chegouChegaram(lodgersCount==1)->chegou</li>
+    <li>chegouChegaram(lodgersCount>=2)->chegaram</li>
+    <li>oOs(lodgersCount==1)->O(a)</li>
+    <li>oOs(lodgersCount>=2)->Os</li>
+    <li>iraIrao(lodgersCount==1)->irá</li>
+    <li>iraIrao(lodgersCount>=2)->irão</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Todos os [lodgersLabelPlural] restantes irão embora. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Você falhou na missão '[resolvedQuestName]'.</li>
