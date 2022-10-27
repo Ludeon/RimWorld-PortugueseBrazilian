@@ -422,8 +422,8 @@
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
     <li>circumstance_phrase->with great care and caution</li>
     <li>circumstance_phrase->with a smile</li>
     <li>circumstance_phrase->while exhausted but happy</li>
@@ -441,12 +441,12 @@
     <li>tale_nounD->a domesticação de [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] domesticando [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] oferecendo um pedaço de comida para [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] sussurrando para [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] acalmando [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] sussurrando para [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] acalmando [ANIMAL_label] [circumstance_group]</li>
     <li>imageD->e [TAMER_nameFull] domesticando [ANIMAL_nameFull] [circumstance_group]</li>
     <li>imageD->e [TAMER_nameFull] oferecendo um pedaço de comida para [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>imageD->e [TAMER_nameFull] sussurrando para [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>imageD->e [TAMER_nameFull] acalmando [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>imageD->e [TAMER_nameFull] sussurrando para [ANIMAL_label] [circumstance_group]</li>
+    <li>imageD->e [TAMER_nameFull] acalmando [ANIMAL_label] [circumstance_group]</li>
     <li>circumstance_phrase->com muito cuidado e cautela</li>
     <li>circumstance_phrase->com um sorriso</li>
     <li>desc_sentence->[ANIMAL_nameDef] está rosnando agressivamente.</li>
@@ -524,8 +524,8 @@
     <li>desc_sentence->[ANIMAL_nameDef] is represented as a pile of power tools.</li>
     <li>desc_sentence->[ANIMAL_nameDef] is half [Color] and half [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] is covered in scales.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is depicted with [quantity] arms.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+    <li>desc_sentence->[TRAINER_nameDef] is depicted with [Quantity_adjphrase] arms.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_definite].</li>
   -->
   <TrainedAnimal.rulePack.rulesStrings>
     <li>tale_noun->a [TRAINER_nameDef] treinando [ANIMAL_nameDef]</li>
@@ -561,8 +561,8 @@
     <li>desc_sentence->[ANIMAL_nameDef] parece estar se transformando em um(a) [Vegetable].</li>
     <li>desc_sentence->[ANIMAL_nameDef] é metade [Color] e metade [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] está coberto(a) de escamas.</li>
-    <li>desc_sentence->[TRAINER_nameDef] é representado(a) por [quantity] armas.</li>
-    <li>desc_sentence->[TRAINER_nameDef] está se transformando em um(a) [ANIMAL_ShortDefinite].</li>
+    <li>desc_sentence->[TRAINER_nameDef] é representado(a) por [Quantity_adjphrase] armas.</li>
+    <li>desc_sentence->[TRAINER_nameDef] está se transformando em um(a) [ANIMAL_definite].</li>
   </TrainedAnimal.rulePack.rulesStrings>
   
 </LanguageData>
