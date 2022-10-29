@@ -20,7 +20,7 @@
 
   <!-- Feeding tab (human babies) -->
   <!-- EN: Feeding -->
-  <TabFeeding>Alimentando</TabFeeding>
+  <TabFeeding>Refeição</TabFeeding>
   <!-- EN: Auto feed settings -->
   <AutofeedSectionHeader>Configurações de alimentação automática</AutofeedSectionHeader>
   <!-- EN: never -->
@@ -34,9 +34,9 @@
   <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
   <AutofeedModeTooltipNever>{FEEDER_nameDef} não alimentará automaticamente {BABY_nameDef}.</AutofeedModeTooltipNever>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
-  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará {BABY_nameDef} como babá.</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará {BABY_nameDef} como {FEEDER_gender ? seu : sua : seu(a) } babá.</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
-  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará {BABY_nameDef} dia ou noite, mesmo se {FEEDER_nameDef} não esteja designado para babá ou seja incapaz de cuidar de crianças.</AutofeedModeTooltipUrgent>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará {BABY_nameDef} dia ou noite, mesmo que {FEEDER_nameDef} não esteja designado para ser babá ou seja incapaz de cuidar de bebês.</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
   <BabyFoodConsumables>Alimentos consumíveis</BabyFoodConsumables>
 
