@@ -14,7 +14,10 @@
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
-  <LessonInteractionHowTo.rulePack.rulesStrings>TODO</LessonInteractionHowTo.rulePack.rulesStrings>
+  <LessonInteractionHowTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] [teach_adverb] como [action] [article_tool] para [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] como [action] [article_tool] para [RECIPIENT_nameDef].</li>  
+  </LessonInteractionHowTo.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
@@ -43,7 +46,14 @@
     <li>teach_adverb->lightheartedly</li>
     <li>teach_adverb->carefully</li>
   -->
-  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+    <li>teach_adverb->calmamente</li>
+    <li>teach_adverb->animadamente</li>
+    <li>teach_adverb->atentamente</li>
+    <li>teach_adverb->rapidamente</li>
+    <li>teach_adverb->alegremente</li>
+    <li>teach_adverb->com cuidado</li>  
+  </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   
   <!-- EN:
     <li>teach_verb->demonstrated</li>
@@ -51,7 +61,12 @@
     <li>teach_verb->showed</li>
     <li>teach_verb->taught</li>
   -->
-  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>TODO</LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+    <li>teach_verb->demonstrou</li>
+    <li>teach_verb->explicou</li>
+    <li>teach_verb->mostrou</li>
+    <li>teach_verb->ensinou</li>  
+  </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
