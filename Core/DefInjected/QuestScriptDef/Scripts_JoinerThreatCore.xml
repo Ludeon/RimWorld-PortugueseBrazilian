@@ -2,10 +2,14 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off the [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
+    <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->Um(a) [joiner_title] de [joiner_age] anos de idade, chamado(a) [joiner_nameDef] está chamando por perto. [joiner_pronoun] está sendo perseguido(a) por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\n[joiner_pronoun] implora por segurança e se oferece para se juntar a você em [map_definite].[joiner_relationInfo]\n\nSe você aceitar, terá que lutar contra os [enemyFaction_pawnsPluralDef] que estão perseguindo [joiner_pronoun]. O grupo dos [enemyFaction_pawnsPlural] é composto por: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está muito assustado(a) para oferecer mais informações.</li>
+    <li>questDescription->[introduction] chamado(a) [joiner_nameDef] está chamando por perto. [joiner_pronoun] está sendo perseguido(a) por [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\n[joiner_pronoun] implora por segurança e se oferece para se juntar a você em [map_definite].[joiner_relationInfo]\n\nSe você aceitar, terá que lutar contra os [enemyFaction_pawnsPluralDef] que estão perseguindo [joiner_pronoun]. O grupo dos [enemyFaction_pawnsPlural] é composto por: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] está muito assustado(a) para oferecer mais informações.</li>
+    <li>introduction(childCount==1,priority=1)->Uma criança de [joiner_age] anos de idade</li>
+    <li>introduction->Um(a) [joiner_title] de [joiner_age] anos de idade</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -20,6 +24,7 @@
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
     <li>runnerIndef->a Refugee</li>
+    <li>runnerIndef(childCount==1,priority=1)->a child</li>
   -->
   <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
     <li>questName->Salvando [runnerIndef]</li>
@@ -33,6 +38,8 @@
     <li>questName->[runnerIndef] e [enemyFaction_pawnsPlural]</li>
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
+    <li>runnerIndef->um(a) Refugiado(a)</li>
+    <li>runnerIndef(childCount==1,priority=1)->uma criança</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} perseguindo [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>

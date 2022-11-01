@@ -128,13 +128,13 @@
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Copiar configuração</CommandCopyZoneSettingsLabel>
-  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Copia as configurações desta zona para a área de transferência para colá-las em outra zona.</CommandCopyZoneSettingsDesc>
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
+  <CommandCopyZoneSettingsDesc>Copia as configurações deste armazenamento para a área de transferência para colá-las em outra zona.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Colar configuração</CommandPasteZoneSettingsLabel>
-  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Sobrescreve as configurações desta zona com aqueles previamente copiados para a área de transferência.</CommandPasteZoneSettingsDesc>
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
+  <CommandPasteZoneSettingsDesc>Sobrescreve as configurações deste armazenamento com aqueles previamente copiados na área de transferência.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Permitir plantio</CommandAllowSow>
@@ -143,8 +143,13 @@
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Permitir corte</CommandAllowCut>
-  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
-  <CommandAllowCutDesc>Quando desativado, os colonos nunca cortarão plantas nesta zona. Eles ainda vão semear novas plantas em espaços que já estão vazios e colher.</CommandAllowCutDesc>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
+  <CommandAllowCutDesc>Quando desativado, os colonos nunca cortarão plantas nesta zona. Eles ainda vão semear novas plantas em espaços que já estão vazios e colher plantas que correspondam ao tipo desta zona.</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>Selecionar {0_label}</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>Selecionar o item armazenado aqui.</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -271,6 +276,8 @@
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>Sem {CHARGENOUN_plural} restantes</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>{COOLDOWNGERUND} para {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>Precisa ser recarregado com {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
@@ -297,6 +304,8 @@
   <CommandFormCaravan>Formar caravana</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Formar um grupo de colonos capazes de viajar para novas áreas. Os colonos reunirão todos os suprimentos e animais que os acompanham, deixam sua área atual, e aguardam mais ordens.</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -555,7 +564,31 @@
   <CommandDropPawn>Largar {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Solte a pessoa que está sendo carregada.</CommandDropPawnDesc>
-  
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Tomar droga</TakeDrug>
@@ -580,5 +613,29 @@
   <CommandCancelRitualDesc>Termine o {RITUAL_labelDef} imediatamente. A obrigação ritual permanecerá. Você pode reiniciar o ritual mais tarde.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Tem certeza de que deseja cancelar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>TODO</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>TODO</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>TODO</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>TODO</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
   
 </LanguageData>
