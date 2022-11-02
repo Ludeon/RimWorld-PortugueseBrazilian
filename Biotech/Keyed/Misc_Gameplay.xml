@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Dormant self-charging -->
-  <SelfShutdown>Autocarregamento inativo</SelfShutdown>
+  <SelfShutdown>Auto-carregamento inativo</SelfShutdown>
   <!-- EN: Carry to recharger -->
   <CarryToRecharger>Transportar para o recarregador</CarryToRecharger>
   <!-- EN: Must be carried to recharger. -->
@@ -10,9 +10,9 @@
   <!-- EN: Danger -->
   <Danger>Perigo</Danger>
   <!-- EN: {0} damage -->
-  <DamageType>TODO</DamageType>
+  <DamageType>dano de {0} </DamageType>
   <!-- EN: Contained {0_labelPlural} -->
-  <ContainedThings>TODO</ContainedThings>
+  <ContainedThings>Contém {0_labelPlural}</ContainedThings>
   <!-- EN: Time until next atomization -->
   <DurationUntilNextAtomization>Tempo até a próxima atomização</DurationUntilNextAtomization>
   <!-- EN: Finishes in -->
@@ -24,7 +24,7 @@
   <!-- EN: 1 mech -->
   <CaravanMech>1 mecanóide</CaravanMech>
   <!-- EN: {0} mechs -->
-  <CaravanMechsCount>TODO</CaravanMechsCount>
+  <CaravanMechsCount>{0} mecanóides</CaravanMechsCount>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -48,7 +48,7 @@
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
   <BandwidthGizmoTip>Um mecanizador só pode supervisionar um mecanóide se houver largura de frequência suficiente para isso. Cada mecanóide consome uma quantidade diferente de largura de frequência.\n\nGanhe mais largura de frequência construindo nós de frequência e sintonizando o mecanizador a eles ou equipando roupas especiais de mecanizador.</BandwidthGizmoTip>
   <!-- EN: Control group -->
-  <ControlGroup>TODO</ControlGroup>
+  <ControlGroup>grupo de controle</ControlGroup>
   <!-- EN: Current mode -->
   <CurrentMechWorkMode>Modo atual</CurrentMechWorkMode>
   <!-- EN: Assigned mechs -->
@@ -66,9 +66,9 @@
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
   <BandNodeRetuningDesc>Resintonize este nó de frequência para outro mecanizador. a resintonização levará {0} para ser concluído.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
-  <DropThingBandwidthApparel>TODO</DropThingBandwidthApparel>
+  <DropThingBandwidthApparel>Remover {0} alterará a largura de frequência de {1_labelShort} de {2} para {3}. Isso significa que os seguintes mecanóides não estarão mais sob controle</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
-  <NoMechs>TODO</NoMechs>
+  <NoMechs>sem mecanóides</NoMechs>
   <!-- EN: Group -->
   <Group>Grupo</Group>
   <!-- EN: Groups -->
@@ -80,117 +80,117 @@
   <!-- EN: Initiating mech birth -->
   <InitMechBirth>Iniciando nascimento mecanóide</InitMechBirth>
   <!-- EN: Mech energy -->
-  <MechEnergy>TODO</MechEnergy>
+  <MechEnergy>Energia do mecanóide</MechEnergy>
   <!-- EN: Energy -->
   <Energy>Energia</Energy>
   <!-- EN: energy -->
   <EnergyLower>energia</EnergyLower>
   <!-- EN: Bandwidth usage -->
-  <BandwidthUsage>TODO</BandwidthUsage>
+  <BandwidthUsage>Uso da largura de Frequência</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
   <MechGestationBandwidthUsed>Largura de frequência de gestação mecanóide</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
-  <CannotSummon>TODO</CannotSummon>
+  <CannotSummon>Não é possível convocar ameaça do(a) {0} </CannotSummon>
   <!-- EN: {0} threat ready to summon -->
-  <ReadyToSummonThreat>TODO</ReadyToSummonThreat>
+  <ReadyToSummonThreat>Ameaça do(a) {0} pronta para ser convocada</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
-  <Summon>Não é possível convocar a ameaça {0}</Summon>
+  <Summon>Não é possível convocar a ameaça do(a) {0}</Summon>
   <!-- EN: No reachable {0} -->
-  <NoReachableBossgroupCaller>TODO</NoReachableBossgroupCaller>
+  <NoReachableBossgroupCaller>{0} não acessível</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
-  <NoReservableBossgroupCaller>TODO</NoReservableBossgroupCaller>
+  <NoReservableBossgroupCaller>{0} não reservável</NoReservableBossgroupCaller>
   <!-- EN: No powered {0} -->
-  <NoPoweredBossgroupCaller>TODO</NoPoweredBossgroupCaller>
+  <NoPoweredBossgroupCaller>Não energizado</NoPoweredBossgroupCaller>
   <!-- EN: already used -->
   <AlreadyUsed>já usado</AlreadyUsed>
   <!-- EN: Gestating -->
-  <Gestating>TODO</Gestating>
+  <Gestating>Gestando</Gestating>
   <!-- EN: Escorting {TARGET_labelShort}. -->
-  <Escorting>TODO</Escorting>
+  <Escorting>Escoltando {TARGET_labelShort}.</Escorting>
   <!-- EN: Worker -->
-  <Worker>TODO</Worker>
+  <Worker>Trabalhador</Worker>
   <!-- EN: Waiting for -->
-  <WaitingFor>TODO</WaitingFor>
+  <WaitingFor>Esperando por</WaitingFor>
   <!-- EN: Uncontrolled -->
-  <Uncontrolled>TODO</Uncontrolled>
+  <Uncontrolled>Não controlado</Uncontrolled>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
-  <Hemogen>TODO</Hemogen>
+  <Hemogen>hemogênio</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>TODO</HemogenDesc>
+  <HemogenDesc>O hemogênio é uma fonte de energia biológica derivada de compostos no sangue humano. Os humanos padrão o produzem endogenamente e o consomem ao longo do tempo em seu próprio equilíbrio interno. Alguns xenótipos humanos o usam como uma espécie de combustível para habilidades específicas, enquanto outros devem consumi-lo para sobreviver.</HemogenDesc>
   <!-- EN: deathrest capacity -->
-  <DeathrestCapacity>TODO</DeathrestCapacity>
+  <DeathrestCapacity>de edifícios de descanso da morte</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>TODO</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Isso determina a quantas a construções uma pessoa pode se conectar durante o descanso da morte. Cada construção de descanso da morte confere um benefício específico, então é melhor poder se conectar a mais deles.\n\nA capacidade de descanso da morte pode ser aumentada usando soros de capacidade de descanso da morte. Esses soros podem ser adquiridos de comerciantes.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>TODO</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} está conectado a {CURRENT} / {MAX} (max) edifícios de descanso da morte.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
-  <Wake>TODO</Wake>
+  <Wake>acordar agora</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>TODO</WakeDesc>
+  <WakeDesc>Acorde do descanso da morte.\n\n{PAWN_nameDef} esteve em descanso da morte por {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>TODO</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} precisa ficar em descanso da morte por pelo menos {TOTAL}. Acordar {PAWN_pronoun} cedo {PAWN_gender ? o : a} deixará doente, e {PAWN_pronoun} não se beneficiará de nenhuma das construções de descanso da morte.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
-  <WakeExtraDesc_Safe>TODO</WakeExtraDesc_Safe>
+  <WakeExtraDesc_Safe>{PAWN_nameDef} agora pode acordar com segurança.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
-  <CannotWakeNotEnoughHemogen>TODO</CannotWakeNotEnoughHemogen>
+  <CannotWakeNotEnoughHemogen>Não é possível acordar. Precisa de pelo menos {0} de hemogênio.</CannotWakeNotEnoughHemogen>
   <!-- EN: Auto-wake -->
-  <AutoWake>TODO</AutoWake>
+  <AutoWake>Despertar automático</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>TODO</AutoWakeDesc>
+  <AutoWakeDesc>Quando ativado, {PAWN_nameDef} acordará automaticamente assim que seu descanso de morte for concluído.\n\nEnquanto estiver desativado, {PAWN_pronoun} continuará em descanso da morte até que você {PAWN_gender ? o : a} acorde manualmente.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
-  <IsDeathresting>TODO</IsDeathresting>
+  <IsDeathresting>{PAWN_nameDef} está em descanso da morte.</IsDeathresting>
   <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>TODO</CannotDeathrest>
+  <CannotDeathrest>Não pode realizar o descanso da morte</CannotDeathrest>
   <!-- EN: Start deathrest -->
-  <StartDeathrest>TODO</StartDeathrest>
+  <StartDeathrest>Iniciar descanso da morte</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>TODO</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>Completar o descanso da morte com segurança leva {MINDURATION}, mas {PAWN_nameDef} só permaneceu em descanso da morte por {CURDURATION}.\n\nAcordar {PAWN_nameDef} agora interromperia o seu descanso da morte, deixando seu metabolismo desequilibrado e deixando {PAWN_pronoun} doente nos próximos dias.\n\nTem certeza de que deseja acordar {PAWN_pronoun}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
-  <Deathresting>TODO</Deathresting>
+  <Deathresting>descanso da morte</Deathresting>
   <!-- EN: complete -->
-  <Complete>TODO</Complete>
+  <Complete>completo</Complete>
   <!-- EN: can wake safely now. -->
-  <CanWakeSafely>TODO</CanWakeSafely>
+  <CanWakeSafely>pode acordar com segurança agora.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
   <DisabledByGene>Desativado por gene</DisabledByGene>
   <!-- EN: {PAWN_nameDef} is in critical condition. -->
-  <WakeDisabledCriticalCondition>TODO</WakeDisabledCriticalCondition>
+  <WakeDisabledCriticalCondition>{PAWN_nameDef} está em estado crítico.</WakeDisabledCriticalCondition>
   <!-- EN: Drain rate -->
-  <DrainRate>TODO</DrainRate>
+  <DrainRate>Taxa de drenagem</DrainRate>
   <!-- EN: Regeneration rate -->
-  <RegenerationRate>TODO</RegenerationRate>
+  <RegenerationRate>Taxa de regeneração</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>TODO</NextDeathrestNeed>
+  <NextDeathrestNeed>{PAWN_nameDef} deve descansar por {DURATION} para evitar exaustão.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>TODO</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} deve realizar descanso da morte em breve para evitar exaustão.</PawnShouldDeathrestNow>
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>TODO</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>Consuma hemogênio abaixo de</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
-  <NeverConsumeHemogen>TODO</NeverConsumeHemogen>
+  <NeverConsumeHemogen>Nunca consuma hemogênio.</NeverConsumeHemogen>
   <!-- EN: Will kill -->
-  <WillKill>TODO</WillKill>
+  <WillKill>irá matar</WillKill>
   <!-- EN: Will cause major blood loss -->
-  <WillCauseSeriousBloodloss>TODO</WillCauseSeriousBloodloss>
+  <WillCauseSeriousBloodloss>Causará grande perda de sangue</WillCauseSeriousBloodloss>
   <!-- EN: too small -->
-  <TooSmall>TODO</TooSmall>
+  <TooSmall>muito pequeno</TooSmall>
 
   <!-- Deathrest buildings -->
   <!-- EN: Bound to -->
-  <BoundTo>TODO</BoundTo>
+  <BoundTo>Vinculado a</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
-  <WillBindOnFirstUse>TODO</WillBindOnFirstUse>
+  <WillBindOnFirstUse>Se vinculará permanentemente no primeiro uso.</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
-  <TimeActiveThisDeathrest>TODO</TimeActiveThisDeathrest>
+  <TimeActiveThisDeathrest>Tempo ativo neste descanso da morte</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
-  <MinimumNeededToApply>TODO</MinimumNeededToApply>
+  <MinimumNeededToApply>O mínimo é {0} para aplicar</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
-  <CannotAssignBedCannotDeathrest>TODO</CannotAssignBedCannotDeathrest>
+  <CannotAssignBedCannotDeathrest>Não é possível realizar o descanso da morte</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
-  <CannotAssignAlreadyBound>TODO</CannotAssignAlreadyBound>
+  <CannotAssignAlreadyBound>Já vinculado a {0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
-  <CannotAssignBedCannotBindToMoreBuildings>TODO</CannotAssignBedCannotBindToMoreBuildings>
+  <CannotAssignBedCannotBindToMoreBuildings>Não é possível vincular a mais {BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
 
   <!-- Aptitudes -->
   <!-- EN: aptitude -->
