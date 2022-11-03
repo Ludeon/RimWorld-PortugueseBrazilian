@@ -94,7 +94,7 @@
   <!-- EN: {0} threat ready to summon -->
   <ReadyToSummonThreat>Ameaça do(a) {0} pronta para ser convocada</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
-  <Summon>Não é possível convocar a ameaça do(a) {0}</Summon>
+  <Summon>Convocar a ameaça do(a) {0}</Summon>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>{0} não acessível</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -194,15 +194,15 @@
 
   <!-- Aptitudes -->
   <!-- EN: aptitude -->
-  <Aptitude>TODO</Aptitude>
+  <Aptitude>aptidão</Aptitude>
   <!-- EN: aptitudes -->
-  <Aptitudes>TODO</Aptitudes>
+  <Aptitudes>aptidões</Aptitudes>
   <!-- EN: aptitudes -->
-  <AptitudePlural>TODO</AptitudePlural>
+  <AptitudePlural>aptidões</AptitudePlural>
   <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
-  <AptitudesDesc>TODO</AptitudesDesc>
+  <AptitudesDesc>A aptidão faz com que um indivíduo tenha um desempenho superior ou inferior ao da habilidade aprendida.\n\nPor exemplo, uma aptidão de +1 para uma habilidade significa que uma pessoa com nível 5 nessa habilidade terá um desempenho como se estivessem no nível 6.\n\nO valor total não pode exceder o nível 20 ou cair abaixo do nível 1.</AptitudesDesc>
   <!-- EN: total -->
-  <Total>TODO</Total>
+  <Total>total</Total>
   
   <!-- Human pregnancy -->
   <!-- EN: Father -->
@@ -218,9 +218,9 @@
   <!-- EN: Can't use this bed. -->
   <CantUseThisBed>Esta cama não pode ser usada.</CantUseThisBed>
   <!-- EN: Not in labor. -->
-  <NotInLabor>Não em trabalho de parto.</NotInLabor>
+  <NotInLabor>Não está em trabalho de parto.</NotInLabor>
   <!-- EN: labor -->
-  <Labor>TODO</Labor>
+  <Labor>trabalho de parto</Labor>
   <!-- EN: dilation -->
   <LaborDilation>dilatação</LaborDilation>
   <!-- EN: normal -->
@@ -234,7 +234,7 @@
   <!-- EN: Pregnancy approach -->
   <PregnancyApproach>TODO</PregnancyApproach>
   <!-- EN: Click to change pregnancy approach. -->
-  <ClickToChangePregnancyApproach>TODO</ClickToChangePregnancyApproach>
+  <ClickToChangePregnancyApproach>Clique para alterar a abordagem sobre gravidez.</ClickToChangePregnancyApproach>
   <!-- EN: Pregnancy is not possible -->
   <PregnancyNotPossible>A gravidez não é possível</PregnancyNotPossible>
   <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
@@ -244,9 +244,9 @@
 
   <!-- Shield comp -->
   <!-- EN: Shield energy -->
-  <ShieldEnergy>TODO</ShieldEnergy>
+  <ShieldEnergy>Energia do escudo</ShieldEnergy>
   <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>TODO</ShieldTimeToRecovery>
+  <ShieldTimeToRecovery>Tempo para recuperação</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
@@ -258,7 +258,7 @@
   <!-- EN: active -->
   <Active>ativo</Active>
   <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
-  <SuppressedDesc>Este traço foi suprimida por um gene ou característica genética forçada conflitante. Ele não estará ativo até que todos os conflitos sejam removidos</SuppressedDesc>
+  <SuppressedDesc>Este traço foi suprimido por um gene ou característica genética forçada conflitante. Ele não estará ativo até que todos os conflitos sejam removidos</SuppressedDesc>
   <!-- EN: trait -->
   <Trait>traço</Trait>
   <!-- EN: gene -->
@@ -302,19 +302,19 @@
   <!-- EN: any -->
   <AnyLower>qualquer</AnyLower>
   <!-- EN: Archite total -->
-  <ArchitesTotal>TODO</ArchitesTotal>
+  <ArchitesTotal>Total de arquitas</ArchitesTotal>
   <!-- EN: Archite capsules -->
-  <ArchitesRequired>TODO</ArchitesRequired>
+  <ArchitesRequired>Cápsulas arquita</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>TODO</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>Arquitas são mecanitos arquotecnológicos - dispositivos microscópicos que podem operar diretamente em células e moléculas, criados por arquotécnicos superinteligentes. Eles são capazes de feitos inexplicáveis, e alguns genes só funcionam quando apoiados pela maquinaria sobrenatural dos arquotécnicos. Os humanos não podem criar arquitas - só os encontram quando um arquotécnico produz alguns por sua própria razão desconhecida.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
-  <CancelXenogerm>TODO</CancelXenogerm>
+  <CancelXenogerm>Cancelar xenogerminador</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
-  <CancelXenogermDesc>TODO</CancelXenogermDesc>
+  <CancelXenogermDesc>Pare todo o trabalho no xenogerminador atual.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
   <AllowAllGenepacks>Permitir todos os pacotes de genes</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>Se os colonos podem ou não armazenar automaticamente qualquer pacote de genes neste contêiner. Desative isso se quiser especificar quais pacotes de genes específicos devem ser armazenados aqui.</AllowAllGenepacksDesc> 
+  <AllowAllGenepacksDesc>Se os colonos podem ou não armazenar automaticamente qualquer pacote de genes neste contêiner. Desative isso se quiser especificar quais pacotes de genes devem ser armazenados aqui.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
   <ContainedGenepacksDesc>Os pacotes de genes atualmente dentro deste contêiner.</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
@@ -326,9 +326,9 @@
   <!-- EN: Genepacks to ignore -->
   <GenepacksToIgnore>Pacote de genes para ignorar</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>TODO</EjectGenepackDesc> 
+  <EjectGenepackDesc>Ejete este pacote de genes do contêiner.</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>TODO</ConfirmRemoveGenepack> 
+  <ConfirmRemoveGenepack>Você realmente deseja ejetar {0}? Ele será imediatamente ejetado no chão.</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Pesquisa obrigatória ausente</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
@@ -346,23 +346,23 @@
   <!-- EN: Order implantation -->
   <ImplantXenogerm>Ordenar implantação</ImplantXenogerm>
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
-  <ImplantXenogermDesc>TODO</ImplantXenogermDesc>
+  <ImplantXenogermDesc>Implante isso em uma pessoa para substituir parcialmente seu código genético.\n\nEsta é uma operação cirúrgica, por isso requer um médico, cama médica e {MEDICINEAMOUNT} medicina(s).</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>TODO</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>Implantar um xenogerminador colocará {PAWN_nameDef} em coma, à medida que o xenogerminador se integra. Em média, isso dura {COMADURATION}. A duração do coma depende da habilidade em medicina do médico e da qualidade de suas instalações médicas.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>TODO</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>Além disso, a implantação de um xenogerminador substituirá os xenogenes existentes. O xenotipo atual de {PAWN_nameDef} é '{XENOTYPE}'. {PAWN_pronoun} tem os seguintes xenogenes:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
-  <ImplantXenogermWarningNewMetabolism>TODO</ImplantXenogermWarningNewMetabolism>
+  <ImplantXenogermWarningNewMetabolism>Após a implantação, {PAWN_nameDef} terá um valor de metabolismo de {MET} e um multiplicador de consumo alimentar de {CONSUMPTION}.</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
   <WouldYouLikeToContinue>Você gostaria de continuar?</WouldYouLikeToContinue>
   <!-- EN: Cancel implanting -->
   <CancelImplanting>Cancelar implantação</CancelImplanting>
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
-  <CancelImplantingDesc>TODO</CancelImplantingDesc>
+  <CancelImplantingDesc>Cancele a implantação deste xenogerminador em {PAWN_nameDef}.</CancelImplantingDesc>
   <!-- EN: Xenotype -->
   <Xenotype>Xenótipo</Xenotype>
   <!-- EN: unique -->
-  <Unique>TODO</Unique>
+  <Unique>único</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
   <UniqueXenotypeDesc>Uma variante humana única com um conjunto de xenogenes que não se enquadram em nenhum xenótipo conhecido.</UniqueXenotypeDesc>
   <!-- EN: Factor for genetic metabolism -->
@@ -370,17 +370,17 @@
   <!-- EN: Progress -->
   <Progress>Progesso</Progress>
   <!-- EN: In sunlight -->
-  <InSunlight>TODO</InSunlight>
+  <InSunlight>Na luz do sol</InSunlight>
   <!-- EN: {0_labelShort} is exposed to the sky. -->
-  <ThingIsSkyExposed>TODO</ThingIsSkyExposed>
+  <ThingIsSkyExposed>{0_labelShort} está exposto ao céu.</ThingIsSkyExposed>
   <!-- EN: Insert person -->
   <InsertPerson>Inserir pessoa</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
   <InsertPersonGeneExtractorDesc>Insira uma pessoa no extrator de genes. Seu material genético será extraído e usado para criar um pacote de genes contendo uma seleção aleatória de seus genes.\n\nA extração de genes é dolorosa e deixará o sujeito fraco e sonolento por vários dias. O processo é letal para aqueles cujos genes estão crescendo novamente.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <ConfirmExtractXenogermWillKill>TODO</ConfirmExtractXenogermWillKill>
+  <ConfirmExtractXenogermWillKill>Aviso: os genes de {PAWN_nameDef} estão crescendo novamente. Extrair seus genes antes de serem regenerados {PAWN_gender ? o : a} matará.\n\nTem certeza de que deseja continuar?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
-  <GeneExtractionComplete>TODO</GeneExtractionComplete>
+  <GeneExtractionComplete>Extração de genes concluída para {PAWN_nameDef}. Extraído</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
   <InsertXenogerm>Inserir xenogerminador</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->
@@ -392,7 +392,7 @@
   <!-- EN: Extraction paused: No power -->
   <ExtractionPausedNoPower>Extração pausada: Sem energia</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
-  <LastIngestedDurationAgo>TODO</LastIngestedDurationAgo>
+  <LastIngestedDurationAgo>Última ingestão de {CHEMICAL_label} há {DURATION}.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
   <NamedXenogerm>xernogerminador {NAME}</NamedXenogerm>
   <!-- EN: Inserted {0} -->
@@ -404,57 +404,57 @@
   <!-- EN: deathless -->
   <Deathless>imortal</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
-  <GeneDefChemicalNeedDurationDesc>TODO</GeneDefChemicalNeedDurationDesc>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} precisa ingerir {0} regularmente para sobreviver. Após {DEFICIENCYDURATION} sem {0}, {PAWN_pronoun} sofrerá de deficiência de {0}. Depois de {COMADURATION}, {PAWN_pronoun} entrará em coma. Após {DEATHDURATION}, {PAWN_pronoun} morrerá.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
   <ChemicalDependency>Dependência em {CHEMICAL_label}</ChemicalDependency>
   <!-- EN: Xenogerm -->
   <Xenogerm>xenogerminador</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>TODO</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} continuará em descanso da morte enquanto {PAWN_pronoun} possuir ferimentos letais.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethalInjuries>TODO</PawnWillKeepRegeneratingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} permanecerá em coma de regeneração enquanto {PAWN_pronoun} possuir ferimentos letais.</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
-  <DeathrestPaused>TODO</DeathrestPaused>
+  <DeathrestPaused>descanso da morte interrompido</DeathrestPaused>
   <!-- EN: Lethal injuries -->
-  <LethalInjuries>TODO</LethalInjuries>
+  <LethalInjuries>Ferimentos letais</LethalInjuries>
   <!-- EN: deathrest -->
-  <Deathrest>TODO</Deathrest>
+  <Deathrest>descanso da morte</Deathrest>
   <!-- EN: Buildings -->
-  <Buildings>TODO</Buildings>
+  <Buildings>Construções</Buildings>
   <!-- EN: capacity -->
   <Capacity>capacidade</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
   <MissingGeneRomanceChance>TODO</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
-  <NotInGeneBank>TODO</NotInGeneBank>
+  <NotInGeneBank>Não está no banco de genes</NotInGeneBank>
 
   <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
-  <ChildBirthAlwaysHealthy_Desc>TODO</ChildBirthAlwaysHealthy_Desc>
+  <ChildBirthAlwaysHealthy_Desc>Reúnir-se para ajudar uma mãe a dar à luz. Um médico pode ajudar a entregar o bebê.</ChildBirthAlwaysHealthy_Desc>
   <!-- EN: until the baby is born -->
-  <UntilBabyIsBorn>TODO</UntilBabyIsBorn>
+  <UntilBabyIsBorn>até o bebê nascer</UntilBabyIsBorn>
 
   <!-- EN: Children want to learn from different activities at different times. -->
-  <LearningDesireTooltip>TODO</LearningDesireTooltip>
+  <LearningDesireTooltip>As crianças querem aprender com atividades diferentes em momentos diferentes.</LearningDesireTooltip>
   <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>TODO</LearningDesireTooltip_CurrentDesire>
+  <LearningDesireTooltip_CurrentDesire>O desejo de aprendizado atual de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
-  <DevelopmentHealthGizmoTooltip>TODO</DevelopmentHealthGizmoTooltip>
+  <DevelopmentHealthGizmoTooltip>A saúde do desenvolvimento é a média das necessidades de aprendizado de uma criança desde seu último aniversário.\n\nAs crianças com maior saúde do desenvolvimento terão mais opções durante os momentos de crescimento e ganharão mais paixão pelas habilidades.</DevelopmentHealthGizmoTooltip>
 
   <!-- EN: Must not be placed close to another {0_label} -->
-  <MustNotBePlacedCloseToAnother>TODO</MustNotBePlacedCloseToAnother>
+  <MustNotBePlacedCloseToAnother>Não deve ser colocado perto de outro {0_label}</MustNotBePlacedCloseToAnother>
   <!-- EN: Next terrain pollution in -->
-  <PollutingTerrainProgress>TODO</PollutingTerrainProgress>
+  <PollutingTerrainProgress>Próxima poluição do terreno em</PollutingTerrainProgress>
   <!-- EN: Poisoned {0} -->
-  <PoisonedTerrain>TODO</PoisonedTerrain>
+  <PoisonedTerrain>{0} envenenado</PoisonedTerrain>
   <!-- EN: Assign to control group {0} -->
-  <AssignMechToControlGroup>TODO</AssignMechToControlGroup>
+  <AssignMechToControlGroup>Atribuir ao grupo de controle {0}</AssignMechToControlGroup>
   <!-- EN: Fall per day -->
-  <CurrentMechEnergyFallPerDay>TODO</CurrentMechEnergyFallPerDay>
+  <CurrentMechEnergyFallPerDay>Queda por dia</CurrentMechEnergyFallPerDay>
   <!-- EN: Cannot assign to control group {0} -->
-  <CannotAssignMechToControlGroup>TODO</CannotAssignMechToControlGroup>
+  <CannotAssignMechToControlGroup>Não é possível atribuir ao grupo de controle {0}</CannotAssignMechToControlGroup>
   <!-- EN: Already assigned -->
-  <AssignMechAlreadyAssigned>TODO</AssignMechAlreadyAssigned>
+  <AssignMechAlreadyAssigned>Já atribuído</AssignMechAlreadyAssigned>
 
   <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
@@ -466,79 +466,79 @@
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
-  <CurrentGestationCycle>TODO</CurrentGestationCycle>
+  <CurrentGestationCycle>Ciclo de gestação atual</CurrentGestationCycle>
   <!-- EN: Gestation cycles remaining -->
-  <RemainingGestationCycles>TODO</RemainingGestationCycles>
+  <RemainingGestationCycles>Ciclos de gestação restantes</RemainingGestationCycles>
   <!-- EN: Gestation cycles -->
-  <GestationCycles>TODO</GestationCycles>
+  <GestationCycles>Ciclos de gestação</GestationCycles>
   <!-- EN: Gestating {0} -->
-  <GestatingMech>TODO</GestatingMech>
+  <GestatingMech>Gestando {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
-  <GestatedMech>TODO</GestatedMech>
+  <GestatedMech>{0} gestado</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
-  <GestatedMechRequiresMechanitor>TODO</GestatedMechRequiresMechanitor>
+  <GestatedMechRequiresMechanitor>Requer {PAWN_nameDef} para ser completado</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
   <GestationComplete>Gestação completa</GestationComplete>
   <!-- EN: Resurrecting {0} -->
-  <ResurrectingMech>TODO</ResurrectingMech>
+  <ResurrectingMech>Ressuscitando {0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
-  <ResurrectedMech>TODO</ResurrectedMech>
+  <ResurrectedMech>{0} ressuscitado(a)</ResurrectedMech>
 
   <!-- Carrier -->
   <!-- EN: Release {0} -->
-  <MechCarrierRelease>TODO</MechCarrierRelease>
+  <MechCarrierRelease>Liberar {0}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
   <MechCarrierDesc>TODO</MechCarrierDesc>
   <!-- EN: Not enough resources -->
-  <MechCarrierNotEnoughResources>TODO</MechCarrierNotEnoughResources>
+  <MechCarrierNotEnoughResources>Não há recursos suficientes</MechCarrierNotEnoughResources>
   <!-- EN: Autofill -->
-  <MechCarrierAutofillResources>TODO</MechCarrierAutofillResources>
+  <MechCarrierAutofillResources>Preenchimento automático</MechCarrierAutofillResources>
   <!-- EN: Click to set the desired autofill amount. -->
-  <MechCarrierClickToSetAutofillAmount>TODO</MechCarrierClickToSetAutofillAmount>
+  <MechCarrierClickToSetAutofillAmount>Clique para definir o valor de preenchimento automático desejado.</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
-  <MechCarrierAutofillDesc>TODO</MechCarrierAutofillDesc>
+  <MechCarrierAutofillDesc>Essa quantidade de preenchimento automático determina a quantidade máxima de recursos que seus colonos colocarão automaticamente neste {0}. Os recursos podem ser usados para criar {1}.</MechCarrierAutofillDesc>
 
   <!-- Mech power cell -->
   <!-- EN: Power cell -->
-  <MechPowerCell>TODO</MechPowerCell>
+  <MechPowerCell>Célula de energia</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
-  <MechPowerCellTip>TODO</MechPowerCellTip>
+  <MechPowerCellTip>Os ouriços de guerra têm uma fonte de energia única. Quando a célula de energia acaba, o mecanóide morre.</MechPowerCellTip>
   
 
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
-  <BossgroupAvailableIn>TODO</BossgroupAvailableIn>
+  <BossgroupAvailableIn>disponível em {0}.</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
-  <RequiresMechanitor>TODO</RequiresMechanitor>
+  <RequiresMechanitor>requer mecanizador</RequiresMechanitor>
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
-  <AbilityDisabledNoHemogenGene>TODO</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogenGene>{0_labelShort} não é hemogênico.</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
-  <AbilityDisabledNoHemogen>TODO</AbilityDisabledNoHemogen>
+  <AbilityDisabledNoHemogen>{0_labelShort} não tem hemogênio suficiente.</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
-  <AbilityStartRitualDisabledChild>TODO</AbilityStartRitualDisabledChild>
+  <AbilityStartRitualDisabledChild>crianças não podem fazer isso.</AbilityStartRitualDisabledChild>
   <!-- EN: need a {0}. -->
-  <AbilityStartRitualNoMembersOfIdeo>TODO</AbilityStartRitualNoMembersOfIdeo>
+  <AbilityStartRitualNoMembersOfIdeo>precisa de {0}</AbilityStartRitualNoMembersOfIdeo>
   <!-- EN: Hemogen cost -->
-  <AbilityHemogenCost>TODO</AbilityHemogenCost>
+  <AbilityHemogenCost>Custo de hemogênio</AbilityHemogenCost>
   <!-- EN: Base hemogen gain -->
-  <AbilityHemogenGain>TODO</AbilityHemogenGain>
+  <AbilityHemogenGain>Ganho de hemogênio</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
-  <AbilityMechSmokepopCharged>TODO</AbilityMechSmokepopCharged>
+  <AbilityMechSmokepopCharged>Bomba de fumaça recarregada</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
-  <AbilityMechSmokepopRecharging>TODO</AbilityMechSmokepopRecharging>
+  <AbilityMechSmokepopRecharging>Boma de fumaça recarrega em {0}</AbilityMechSmokepopRecharging>
   <!-- EN: Firefoam pop charged -->
-  <AbilityMechFirefoampopCharged>TODO</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopCharged>Espuma de supressão ao fogo recarregada</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
-  <AbilityMechFirefoampopRecharging>TODO</AbilityMechFirefoampopRecharging>
+  <AbilityMechFirefoampopRecharging>Espuma de supressão ao fogo recarrega em {0}</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
-  <PollutedTerrain>TODO</PollutedTerrain>
+  <PollutedTerrain>{0} poluído(a)</PollutedTerrain>
 
   <!-- Growth vat -->
   <!-- EN: Biostarvation -->
-  <Biostarvation>Bioinanição</Biostarvation>
+  <Biostarvation>Bio-inanição</Biostarvation>
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
   <BiostarvationExplanation>Um ou mais tanques de crescimento estão sofrendo bioinanição devido a falta de nutrição ou energia.\n\nSe a bioinanição alcançar 100%, os indivíduos contidos morrerão.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
@@ -568,66 +568,66 @@
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
-  <WasteLevel>TODO</WasteLevel>
+  <WasteLevel>Resíduo</WasteLevel>
 
   <!-- Dissolution -->
   <!-- EN: indoors -->
-  <DissolutionRateIndoors>TODO</DissolutionRateIndoors>
+  <DissolutionRateIndoors>no interior</DissolutionRateIndoors>
   <!-- EN: raining -->
-  <DissolutionRain>TODO</DissolutionRain>
+  <DissolutionRain>chovendo</DissolutionRain>
   <!-- EN: One wastepack dissolves every {0} -->
-  <DissolvesEvery>TODO</DissolvesEvery>
+  <DissolvesEvery>Um pacote de resíduos se dissolve a cada {0}</DissolvesEvery>
   <!-- EN: Frozen (won't dissolve). -->
-  <DissolutionFrozen>TODO</DissolutionFrozen>
+  <DissolutionFrozen>Congelado (não se dissolverá).</DissolutionFrozen>
 
   <!-- EN: {0} cells / day -->
-  <CellsPerDay>TODO</CellsPerDay>
+  <CellsPerDay>{0} células / dia</CellsPerDay>
 
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>TODO</WrongDevelopmentalStageForClothing> 
+  <WrongDevelopmentalStageForClothing>{0} não pode usar roupas para {1}</WrongDevelopmentalStageForClothing> 
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
-  <SubcoreScannerStart>TODO</SubcoreScannerStart>
+  <SubcoreScannerStart>Iniciar escaneamento</SubcoreScannerStart>
   <!-- EN: Produces -->
-  <SubcoreScannerProduces>TODO</SubcoreScannerProduces>
+  <SubcoreScannerProduces>Produz</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>TODO</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>Assim que o {0} estiver preenchido com os ingredientes necessários, {1}, selecione um colono e clique com o botão direito do mouse no {0} ou em uma pessoa caída para iniciar o escaner.</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
-  <SubcoreScannerCompletesIn>TODO</SubcoreScannerCompletesIn>
+  <SubcoreScannerCompletesIn>Conclui em</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
-  <SubcoreScannerWaitingForOccupant>TODO</SubcoreScannerWaitingForOccupant>
+  <SubcoreScannerWaitingForOccupant>Aguardando o ocupante</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
-  <SubcoreScannerWaitingForIngredients>TODO</SubcoreScannerWaitingForIngredients>
+  <SubcoreScannerWaitingForIngredients>Aguardando por ingredientes</SubcoreScannerWaitingForIngredients>
   <!-- EN: Has {0} -->
-  <SubcoreScannerPawnHasSickness>TODO</SubcoreScannerPawnHasSickness>
+  <SubcoreScannerPawnHasSickness>Tem {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
-  <SubcoreScannerBabyNotAllowed>TODO</SubcoreScannerBabyNotAllowed>
+  <SubcoreScannerBabyNotAllowed>Bebês não são permitidos</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
-  <InsertPersonSubcoreScannerDesc>TODO</InsertPersonSubcoreScannerDesc>
+  <InsertPersonSubcoreScannerDesc>Insira uma pessoa no {0}.</InsertPersonSubcoreScannerDesc>
 
   <!-- EN: Duration (hours) -->
-  <DurationHours>TODO</DurationHours>
+  <DurationHours>Duração (horas)</DurationHours>
 
   <!-- Age -->
   <!-- EN: adult -->
-  <Adult>TODO</Adult>
+  <Adult>adulto</Adult>
   <!-- EN: adults -->
-  <Adults>TODO</Adults>
+  <Adults>adultos</Adults>
   <!-- EN: child -->
-  <Child>TODO</Child>
+  <Child>criança</Child>
   <!-- EN: children -->
-  <Children>TODO</Children>
+  <Children>crianças</Children>
   <!-- EN: baby -->
-  <Baby>TODO</Baby>
+  <Baby>bebê</Baby>
   <!-- EN: babies -->
-  <Babies>TODO</Babies>
+  <Babies>bebês</Babies>
   <!-- EN: person -->
-  <Person>TODO</Person>
+  <Person>pessoa</Person>
   <!-- EN: feral child -->
-  <FeralChild>TODO</FeralChild>
+  <FeralChild>criança selvagem</FeralChild>
   <!-- EN: Wearable by -->
-  <WearableBy>TODO</WearableBy>
+  <WearableBy>Vestível por</WearableBy>
 
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>Implantação de xenogerminador</Reward_ReimplantXenogerm_Label>
@@ -636,67 +636,67 @@
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
-  <MechResurrectionCharges>TODO</MechResurrectionCharges>
+  <MechResurrectionCharges>cargas de ressureição mecanóide</MechResurrectionCharges>
 
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
-  <MechStunPulseWarning>TODO</MechStunPulseWarning>
+  <MechStunPulseWarning>Pulso de atordoamento mecanóide ao morrer</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
-  <IsLowEnergySelfShutdown>TODO</IsLowEnergySelfShutdown>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef} está em desligamento automático pela baixa energia.</IsLowEnergySelfShutdown>
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
-  <ShowPollutionOverlayToggleButton>TODO</ShowPollutionOverlayToggleButton>
+  <ShowPollutionOverlayToggleButton>Alternar para sobreposição de poluição. Isso mostra quais áreas do terreno estão poluídas.\n\nA exposição a terrenos poluídos causa acúmulo tóxico que pode levar à morte. A maioria das plantas não pode viver em terreno poluído.</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
-  <TilePollutionNone>TODO</TilePollutionNone>
+  <TilePollutionNone>Nenhum</TilePollutionNone>
   <!-- EN: Light -->
-  <TilePollutionLight>TODO</TilePollutionLight>
+  <TilePollutionLight>Leve</TilePollutionLight>
   <!-- EN: Moderate -->
-  <TilePollutionModerate>TODO</TilePollutionModerate>
+  <TilePollutionModerate>Moderado</TilePollutionModerate>
   <!-- EN: Extreme -->
-  <TilePollutionExtreme>TODO</TilePollutionExtreme>
+  <TilePollutionExtreme>Extremo</TilePollutionExtreme>
   <!-- EN: Pollution -->
-  <TilePollution>TODO</TilePollution>
+  <TilePollution>Poluição</TilePollution>
   <!-- EN: Nearby pollution -->
-  <TilePollutionNearby>TODO</TilePollutionNearby>
+  <TilePollutionNearby>Poluição nas proximidades</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>TODO</NearbyPollutionTip>
+  <NearbyPollutionTip>A soma dos níveis de poluição de todos os ladrilho dentro de um raio de {0} ladrilhos. À medida que a distância desse ladrilho aumenta, a contribuição para poluição diminui:\n\n{1}\n\nQuanto maior a poluição próxima, maior a chance de ocorrer névoa ácida.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
-  <NoxiousHazeInterval>TODO</NoxiousHazeInterval>
+  <NoxiousHazeInterval>Este ladrilho terá poluição ácida a cada {0} dias em média.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
-  <NoxiousHazeNeverOccurring>TODO</NoxiousHazeNeverOccurring>
+  <NoxiousHazeNeverOccurring>Este ladrilho nunca terá poluição ácida.</NoxiousHazeNeverOccurring>
   <!-- EN: tiles away -->
-  <NearbyPollutionTilesAway>TODO</NearbyPollutionTilesAway>
+  <NearbyPollutionTilesAway>ladrilhos de distância</NearbyPollutionTilesAway>
   <!-- EN: pollution -->
-  <PollutionLower>TODO</PollutionLower>
+  <PollutionLower>poluição</PollutionLower>
   <!-- EN: Cannot absorb pollution: Buildings too close -->
-  <CannotAbsorbPollution>TODO</CannotAbsorbPollution>
+  <CannotAbsorbPollution>Não pode absorver a poluição: construções muito próximas</CannotAbsorbPollution>
   <!-- EN: Can absorb pollution from nearby terrain -->
-  <CanAbsorbPollution>TODO</CanAbsorbPollution>
+  <CanAbsorbPollution>Pode absorver a poluição do terreno próximo</CanAbsorbPollution>
   <!-- EN: Absorbing pollution: Next in {0} -->
-  <AbsorbingPollutionNext>TODO</AbsorbingPollutionNext>
+  <AbsorbingPollutionNext>Absorção de poluição: próxima em {0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>TODO</TerrainPollutionTip>
+  <TerrainPollutionTip>Quão poluído o terreno está neste ladrilho.\an\A exposição ao terreno poluído causa acúmulo tóxico que pode levar à morte. A maioria das plantações não podem viver em terreno poluído.</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
-  <StudyRequirementTip>TODO</StudyRequirementTip>
+  <StudyRequirementTip>Requer estudo de</StudyRequirementTip>
 
   <!-- Insect -->
   <!-- EN: Trigger radius -->
-  <TriggerRadius>TODO</TriggerRadius>
+  <TriggerRadius>Raio de ativação</TriggerRadius>
   <!-- EN: Opening -->
-  <DormantCompOpening>TODO</DormantCompOpening>
+  <DormantCompOpening>Abertura</DormantCompOpening>
   
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>óvulo extraído recentemente</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
-  <Fertilize>Fecundar</Fertilize>
+  <Fertilize>Fertilizar</Fertilize>
   <!-- EN: Cannot fertilize -->
-  <FertilizeCannotFloatOption>Não pode fecundar</FertilizeCannotFloatOption>
+  <FertilizeCannotFloatOption>Não pode fertilizar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
-  <FertilizeGizmoDescription>Escolha um homem para fecundar este óvulo para criar um embrião. O embrião pode ser implantado em uma mão para iniciar a gravidez, ou em um tanque de crescimento. Os pais biológicos da criança resultante serão a mulher que forneceu o óvulo e o homem que o fecundou.</FertilizeGizmoDescription>
+  <FertilizeGizmoDescription>Escolha um homem para fertilizar este óvulo para criar um embrião. O embrião pode ser implantado em uma mão para iniciar a gravidez, ou em um tanque de crescimento. Os pais biológicos da criança resultante serão a mulher que forneceu o óvulo e o homem que o fertilizou.</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
   <FertilizeCancel>Cancelar fertilização por {0}</FertilizeCancel>
   <!-- EN: sterile -->
@@ -704,13 +704,13 @@
   <!-- EN: pregnant -->
   <CannotPregnant>grávida</CannotPregnant>
   <!-- EN: must be {0} -->
-  <CannotMustBeAge>TODO</CannotMustBeAge>
+  <CannotMustBeAge>deve ser {0}</CannotMustBeAge>
   <!-- EN: already having embryo implanted -->
   <CannotImplantingOtherEmbryo>Já possui embrião implantado</CannotImplantingOtherEmbryo>
   <!-- EN: {0} ({1}) -->
   <DisabledOption>{0} ({1})</DisabledOption>
   <!-- EN: No men can fertilize this ovum. -->
-  <FertilizeDisabledNoMales>Sem homens que podem fecundar este óvulo.</FertilizeDisabledNoMales>
+  <FertilizeDisabledNoMales>Sem homens que podem fertilizar este óvulo.</FertilizeDisabledNoMales>
   
   <!-- EN: Implant embryo -->
   <ImplantLabel>Implantar embrião</ImplantLabel>
@@ -722,7 +722,7 @@
   <!-- EN: Cannot implant -->
   <ImplantCannotFloatOption>Não é possível implantar</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
-  <ImplantDisabledNoWomen>TODO</ImplantDisabledNoWomen>
+  <ImplantDisabledNoWomen>Sem mulheres podem ser mãe de aluguel.</ImplantDisabledNoWomen>
   <!-- EN: No available growth vats. -->
   <ImplantDisabledNoVats>Sem tanques de crescimento disponíveis.</ImplantDisabledNoVats>
   <!-- EN: Implant {0} -->
@@ -738,7 +738,7 @@
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
   <EmbryoEjectedFromGrowthVat>O {0} foi ejetado de um tanque de crescimento e destruído.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
-  <EmbryoEjectedFromGrowthVatBiostarvation>O {0} foi destruído em uma cuba de crescimento devido à bioinanição.</EmbryoEjectedFromGrowthVatBiostarvation>
+  <EmbryoEjectedFromGrowthVatBiostarvation>O {0} foi destruído em uma cuba de crescimento devido à bio-inanição.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
   <IvfPregnancyLetterText>{0} engravidou com sucesso através da implantação do embrião!</IvfPregnancyLetterText>
