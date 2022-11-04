@@ -84,7 +84,19 @@
     <li>faction->fur</li>
     <li>faction->kinroar</li>
   -->
-  <NamerFactionPirateYttakin.rulePack.rulesStrings>TODO</NamerFactionPirateYttakin.rulePack.rulesStrings>
+  <NamerFactionPirateYttakin.rulePack.rulesStrings>
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>r_name->[faction] of [placeNameCore]</li>
+    <li>faction->roarclan</li>
+    <li>faction->tribe</li>
+    <li>faction->clan</li>
+    <li>faction->roar</li>
+    <li>faction->pack</li>
+    <li>faction->family</li>
+    <li>faction->fur</li>
+    <li>faction->kinroar</li>
+  </NamerFactionPirateYttakin.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=2)->[placeNameCore]</li>
