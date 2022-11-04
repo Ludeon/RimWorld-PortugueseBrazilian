@@ -35,7 +35,38 @@
     <li>babyGame->show-and-tell</li>
     <li>babyGame->fingerpuppets</li>
   -->
-  <BabyPlay.logRulesInitiator.rulesStrings>TODO</BabyPlay.logRulesInitiator.rulesStrings>
+  <BabyPlay.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] fez [RECIPIENT_nameDef] [reaction].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] brincou de [babyGame] com [RECIPIENT_nameDef].</li>
+    <li>reaction->rir</li>
+    <li>reaction->sorrir</li>
+    <li>reaction->se contorcer de alegria</li>
+    <li>reaction->gargalhar</li>
+    <li>reaction->babar-se divertidamente</li>
+    <li>reaction->gorgolejar</li>
+    <li>reaction->gritar de forma aguda</li>
+    <li>reaction->arrotar</li>
+    <li>reaction->olhar com fascínio</li>
+    <li>interaction->encantou</li>
+    <li>interaction->brincou com</li>
+    <li>interaction->entreteu</li>
+    <li>interaction->divertiu</li>
+    <li>interaction->fez cócegas em</li>
+    <li>interaction->aninhou</li>
+    <li>interaction->cheirou</li>
+    <li>interaction->abraçou</li>
+    <li>interaction->atirou cuidadosamento no ar</li>
+    <li>interaction->cantou para</li>
+    <li>interaction->contou uma história para</li>
+    <li>interaction->fez um truque de mágica para</li>
+    <li>babyGame->esconde-esconde</li>
+    <li>babyGame->eu vejo você!</li>
+    <li>babyGame->encontre o dedo</li>
+    <li>babyGame->macaco vê macaco faz</li>
+    <li>babyGame->mostrar e dizer</li>
+    <li>babyGame->fantoches de dedo</li>  
+  </BabyPlay.logRulesInitiator.rulesStrings>
   
   <!-- EN: animal lesson -->
   <LessonAnimals.label>aula de veterinária</LessonAnimals.label>
@@ -357,7 +388,7 @@
     <li>hediff->insolação</li>
     <li>hediff->intoxicação alimentar</li>
     <li>hediff->câncer</li>
-    <li>hediff->vermes intestinais</li>
+    <li>hediff->lombrigas</li>
     <li>hediff->parasitas musculares</li>
     <li>hediff->abasia paralítica</li>
     <li>hediff->malária</li>
@@ -402,7 +433,7 @@
   -->
   <LessonMelee.logRulesInitiator.rulesStrings>
     <li>article_tool->um machado</li>
-    <li>article_tool->um clube</li>
+    <li>article_tool->um porrete</li>
     <li>article_tool->uma espada</li>
     <li>article_tool->uma lâmina de cotovelo</li>
     <li>article_tool->uma garra de mão</li>
@@ -561,7 +592,7 @@
   </LessonSocial.logRulesInitiator.rulesStrings>
   
   <!-- EN: sanguophage chat -->
-  <SanguophageChat.label>TODO</SanguophageChat.label>
+  <SanguophageChat.label>bate-papo de sanguófago</SanguophageChat.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
@@ -634,6 +665,77 @@
     <li>planType->destroying sanguophage hunters</li>
     <li>planType->enjoying endless life</li>
   -->
-  <SanguophageChat.logRulesInitiator.rulesStrings>TODO</SanguophageChat.logRulesInitiator.rulesStrings>
+  <SanguophageChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] e [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] juntamente com [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>talkedabout->falaram sobre</li>
+    <li>talkedabout->conversaram sobre</li>
+    <li>talkedabout->sussurraram sobre</li>
+    <li>talkedabout(p=0.5)->falaram [adverb] sobre</li>
+    <li>talkedabout(p=0.5)->conversaram [adverb] sobre</li>
+    <li>talkedabout(p=0.5)->sussurraram [adverb] sobre</li>
+    <li>talkedabout->compartilharam uma palavra sobre</li>
+    <li>talkedabout->trocaram pensamentos sobre</li>
+    <li>talkedabout->trocaram ideias sobre</li>
+    <li>talkedabout->manifestaram interesse compartilhado em</li>
+    <li>talkedabout->debateram sobre</li>
+    <li>talkedabout->argumentaram sobre</li>
+    <li>talkedabout->compatilharam histórias sobre</li>
+    <li>adverb->amigavelmente</li>
+    <li>adverb->silenciosamente</li>
+    <li>adverb->suavemente</li>
+    <li>adverb->desgostosamente</li>
+    <li>adverb->amargamente</li>
+    <li>adverb->cansadamente</li>
+    <li>adverb->pensativamente</li>
+    <li>adverb->sobriamente</li>
+    <li>adverb->sombriamente</li>
+    <li>adverb->solenemente</li>
+    <li>subject(p=20)->planos para [planType]</li>
+    <li>subject(p=0.1)->[TalkTopicHeavy]</li>
+    <li>subject->hemogênio</li>
+    <li>subject->qualidade de sangue</li>
+    <li>subject->canibalismo</li>
+    <li>subject->imortalidade</li>
+    <li>subject->entropia</li>
+    <li>subject->eternidade</li>
+    <li>subject->a passagem do tempo</li>
+    <li>subject->vida e morte</li>
+    <li>subject->o descanso mortal</li>
+    <li>subject->enganar a morte</li>
+    <li>subject->servos</li>
+    <li>subject->a humanidade</li>
+    <li>subject->o fogo</li>
+    <li>subject->queimar</li>
+    <li>subject->dor</li>
+    <li>subject->agonia</li>
+    <li>subject->decapitação</li>
+    <li>subject->esfolar inimigos</li>
+    <li>subject->tortura</li>
+    <li>subject->arquita</li>
+    <li>subject->genética</li>
+    <li>subject->genes</li>
+    <li>subject->xenótipo</li>
+    <li>subject->sanguófagos</li>
+    <li>subject->hussardos</li>
+    <li>subject->diabretes</li>
+    <li>subject->cavaterras</li>
+    <li>subject->gênios</li>
+    <li>subject->neandertais</li>
+    <li>subject->peles de porco</li>
+    <li>subject->toxicadores</li>
+    <li>subject->história profunda</li>
+    <li>subject->a história do futuro</li>
+    <li>planType->dominação</li>
+    <li>planType->escapar</li>
+    <li>planType->misturar-se</li>
+    <li>planType->exercer influência</li>
+    <li>planType->coletar hemogênio</li>
+    <li>planType->dominar tecnologia</li>
+    <li>planType->espalhar-se para outros mundos</li>
+    <li>planType->influenciar humanos</li>
+    <li>planType->destruir caçadores de sanguófagos</li>
+    <li>planType->aproveitar a vida sem fim</li>  
+  </SanguophageChat.logRulesInitiator.rulesStrings>
   
 </LanguageData>
