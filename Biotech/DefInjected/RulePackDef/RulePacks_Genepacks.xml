@@ -6,7 +6,11 @@
     <li>otherGenesInfo(geneCount==1)-></li>
     <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
   -->
-  <NamerGenepack.rulePack.rulesStrings>TODO</NamerGenepack.rulePack.rulesStrings>
+  <NamerGenepack.rulePack.rulesStrings>
+    <li>r_name->pacote de genes ([geneWord][otherGenesInfo])</li>
+    <li>otherGenesInfo(geneCount==1)-></li>
+    <li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
+  </NamerGenepack.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=1)->[anyPrefix][anySuffix]</li>
@@ -72,6 +76,69 @@
     <li>commonSuffix->ur</li>
     <li>commonSuffix->ux</li>
   -->
-  <NamerXenotype.rulePack.rulesStrings>TODO</NamerXenotype.rulePack.rulesStrings>
+  <NamerXenotype.rulePack.rulesStrings>
+    <li>r_name(p=1)->[anyPrefix][anySuffix]</li>
+    <li>r_name(p=0.1)->[wholeName]</li>
+    <li>anyPrefix(p=2)->[genePrefix]</li>
+    <li>anyPrefix->[commonPrefix]</li>
+    <li>anySuffix->[geneSuffix]</li>
+    <li>anySuffix(p=3)->[commonSuffix]</li>
+    <li>commonPrefix->a</li>
+    <li>commonPrefix->ambi</li>
+    <li>commonPrefix->bene</li>
+    <li>commonPrefix->ante</li>
+    <li>commonPrefix->en</li>
+    <li>commonPrefix->extra</li>
+    <li>commonPrefix->i</li>
+    <li>commonPrefix->in</li>
+    <li>commonPrefix->justa</li>
+    <li>commonPrefix->pre</li>
+    <li>commonPrefix->pro</li>
+    <li>commonPrefix->re</li>
+    <li>commonPrefix->retro</li>
+    <li>commonPrefix->semi</li>
+    <li>commonPrefix->tri</li>
+    <li>commonPrefix->acro</li>
+    <li>commonPrefix->aero</li>
+    <li>commonPrefix->agro</li>
+    <li>commonPrefix->antropo</li>
+    <li>commonPrefix->arqui</li>
+    <li>commonPrefix->homo</li>
+    <li>commonPrefix->idio</li>
+    <li>commonPrefix->macro</li>
+    <li>commonPrefix->metra</li>
+    <li>commonPrefix->meso</li>
+    <li>commonPrefix->micro</li>
+    <li>commonPrefix->mono</li>
+    <li>commonPrefix->necro</li>
+    <li>commonPrefix->nefro</li>
+    <li>commonPrefix->odonto</li>
+    <li>commonPrefix->oftalmo</li>
+    <li>commonPrefix->onto</li>
+    <li>commonPrefix->orto</li>
+    <li>commonPrefix->pneumo</li>
+    <li>commonPrefix->oftalmo</li>
+    <li>commonSuffix->gogo</li>
+    <li>commonSuffix->delo</li>
+    <li>commonSuffix->latria</li>
+    <li>commonSuffix->scopia</li>
+    <li>commonSuffix->zimo</li>
+    <li>commonSuffix->mbulo</li>
+    <li>commonSuffix->cida</li>
+    <li>commonSuffix->cola</li>
+    <li>commonSuffix->cultura</li>
+    <li>commonSuffix->vo</li>
+    <li>commonSuffix->fero</li>
+    <li>commonSuffix->fico</li>
+    <li>commonSuffix->forme</li>
+    <li>commonSuffix->fugo</li>
+    <li>commonSuffix->grado</li>
+    <li>commonSuffix->luquo</li>
+    <li>commonSuffix->paro</li>
+    <li>commonSuffix->pede</li>
+    <li>commonSuffix->sono</li>
+    <li>commonSuffix->vago</li>
+    <li>commonSuffix->voro</li>
+  </NamerXenotype.rulePack.rulesStrings>
   
 </LanguageData>

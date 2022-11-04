@@ -21,8 +21,8 @@
     <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
   -->
   <LessonInteractionHowTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] [teach_adverb] como [action] [article_tool] para [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] como [action] [article_tool] para [RECIPIENT_nameDef].</li>  
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] [teach_adverb] como [action] [article_tool] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] como [action] [article_tool] a [RECIPIENT_nameDef].</li>
   </LessonInteractionHowTo.rulePack.rulesStrings>
   
   <!-- EN:
@@ -33,11 +33,10 @@
     <li>teach_test->cross-examined</li>
   -->
   <LessonInteractionQuiz.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] enquanto estava [action_gerund] [article_tool] [situation].</li>
-    <li>teach_test->examinou</li>
-    <li>teach_test->testou</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] sobre [action] [article_tool] [situation].</li>
     <li>teach_test->questionou</li>
-    <li>teach_test->interrogou</li>  
+    <li>teach_test->testou</li>
+    <li>teach_test->interrogou</li>
   </LessonInteractionQuiz.rulePack.rulesStrings>
   
   <!-- EN:
@@ -49,12 +48,8 @@
     <li>study_verb->studied</li>
   -->
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] sobre [subject] com [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] com [RECIPIENT_nameDef].</li>
-    <li>study_verb->abordou</li>
-    <li>study_verb->revisou</li>
-    <li>study_verb->pesquisou</li>
-    <li>study_verb->estudou</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] estudou [teach_adverb] sobre [subject] com [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] estudou sobre [subject] com [RECIPIENT_nameDef].</li>
   </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
   
   <!-- EN:
@@ -71,7 +66,7 @@
     <li>teach_adverb->atentamente</li>
     <li>teach_adverb->rapidamente</li>
     <li>teach_adverb->alegremente</li>
-    <li>teach_adverb->com cuidado</li>  
+    <li>teach_adverb->cuidadosamente</li>
   </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
   
   <!-- EN:
@@ -84,7 +79,7 @@
     <li>teach_verb->demonstrou</li>
     <li>teach_verb->explicou</li>
     <li>teach_verb->mostrou</li>
-    <li>teach_verb->ensinou</li>  
+    <li>teach_verb->ensinou</li>
   </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
   
   <!-- EN:
@@ -96,12 +91,12 @@
     <li>talk_verb->lectured about</li>
   -->
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] a [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] a [RECIPIENT_nameDef].</li>
-    <li>talk_verb->falou sobre</li>
-    <li>talk_verb->deu uma visão geral sobre</li>
-    <li>talk_verb->deu um resumo sobre</li>
-    <li>talk_verb->deu uma palestra sobre</li>  
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [talk_verb] [teach_adverb] sobre [subject] para [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] sobre [subject] para [RECIPIENT_nameDef].</li>
+    <li>talk_verb->falou/li>
+    <li>talk_verb->deu uma visão geral</li>
+    <li>talk_verb->fez um resumo de</li>
+    <li>talk_verb->ensinou</li>
   </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
   
 </LanguageData>

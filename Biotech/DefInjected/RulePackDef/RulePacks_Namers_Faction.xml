@@ -25,7 +25,26 @@
     <li>placeEnd->kev</li>
     <li>placeEnd->vel</li>
   -->
-  <ImpidUtility.rulePack.rulesStrings>TODO</ImpidUtility.rulePack.rulesStrings>
+  <ImpidUtility.rulePack.rulesStrings>
+    <li>placeNameCore->[SylI_M][SylI]</li>
+    <li>placeNameCore->[SylI_M][SylI][SylI]</li>
+    <li>placeNameCore->[SylI_M][placeEnd]</li>
+    <li>placeNameCore->[SylI_M][SylI][placeEnd]</li>
+    <li>placeEnd->que</li>
+    <li>placeEnd->te</li>
+    <li>placeEnd->zos</li>
+    <li>placeEnd->que</li>
+    <li>placeEnd->z</li>
+    <li>placeEnd->s</li>
+    <li>placeEnd->ns</li>
+    <li>placeEnd->m</li>
+    <li>placeEnd->tches</li>
+    <li>placeEnd->l</li>
+  </ImpidUtility.rulePack.rulesStrings>
+  <ImpidUtility.rulePack.rulesFiles>
+    <li>SylI_M->WordParts/Syllables_Impid_Maiúscula</li>
+    <li>SylI->WordParts/Syllables_Impid</li>
+  </ImpidUtility.rulePack.rulesFiles>
   
   <!-- EN:
     <li>r_name(p=2)->[nameCore]</li>
@@ -84,7 +103,19 @@
     <li>faction->fur</li>
     <li>faction->kinroar</li>
   -->
-  <NamerFactionPirateYttakin.rulePack.rulesStrings>TODO</NamerFactionPirateYttakin.rulePack.rulesStrings>
+  <NamerFactionPirateYttakin.rulePack.rulesStrings>
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>r_name->[faction] of [placeNameCore]</li>
+    <li>faction->roarclan</li>
+    <li>faction->tribe</li>
+    <li>faction->clan</li>
+    <li>faction->roar</li>
+    <li>faction->pack</li>
+    <li>faction->family</li>
+    <li>faction->fur</li>
+    <li>faction->kinroar</li>
+  </NamerFactionPirateYttakin.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=2)->[placeNameCore]</li>
