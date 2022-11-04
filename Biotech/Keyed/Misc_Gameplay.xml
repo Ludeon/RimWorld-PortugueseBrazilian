@@ -42,11 +42,11 @@
   <!-- EN: May go feral at any moment -->
   <MayGoFeral>Pode ficar selvagem a qualquer momento</MayGoFeral>
   <!-- EN: Bandwidth -->
-  <Bandwidth>Largura de frequência</Bandwidth>
+  <Bandwidth>Banda-larga</Bandwidth>
   <!-- EN: bandwidth -->
-  <BandwidthLower>largura de frequência</BandwidthLower>
+  <BandwidthLower>banda-larga</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>Um mecanizador só pode supervisionar um mecanoide se houver largura de frequência suficiente para isso. Cada mecanoide consome uma quantidade diferente de largura de frequência.\n\nGanhe mais largura de frequência construindo nós de frequência e sintonizando o mecanizador a eles ou equipando roupas especiais de mecanizador.</BandwidthGizmoTip>
+  <BandwidthGizmoTip>Um mecanizador só pode supervisionar um mecanoide se houver banda-larga suficiente para isso. Cada mecanoide consome uma quantidade diferente de banda-larga.\n\nGanhe mais banda-larga construindo nós de banda e sintonizando o mecanizador a eles ou equipando roupas especiais de mecanizador.</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>grupo de controle</ControlGroup>
   <!-- EN: Current mode -->
@@ -62,11 +62,11 @@
   <!-- EN: Retune -->
   <BandNodeRetuneTo>Resintonizar</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>Sintonize este nó de frequência a um mecanizador. A sintonização levará {0} para ser concluída.</BandNodeTuningDesc>
+  <BandNodeTuningDesc>Sintonize este nó de banda a um mecanizador. A sintonização levará {0} para ser concluída.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>Resintonize este nó de frequência para outro mecanizador. a resintonização levará {0} para ser concluído.</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>Resintonize este nó de banda para outro mecanizador. a resintonização levará {0} para ser concluído.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
-  <DropThingBandwidthApparel>Remover {0} alterará a largura de frequência de {1_labelShort} de {2} para {3}. Isso significa que os seguintes mecanóides não estarão mais sob controle</DropThingBandwidthApparel>
+  <DropThingBandwidthApparel>Remover {0} alterará a banda-larga de {1_labelShort} de {2} para {3}. Isso significa que os seguintes mecanóides não estarão mais sob controle</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
   <NoMechs>sem mecanóides</NoMechs>
   <!-- EN: Group -->
@@ -86,9 +86,9 @@
   <!-- EN: energy -->
   <EnergyLower>energia</EnergyLower>
   <!-- EN: Bandwidth usage -->
-  <BandwidthUsage>Uso da largura de Frequência</BandwidthUsage>
+  <BandwidthUsage>Uso de banda-larga</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
-  <MechGestationBandwidthUsed>Largura de frequência de gestação mecanoide</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>Banda-larga de gestação mecanoide</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
   <CannotSummon>Não é possível convocar ameaça do(a) {0} </CannotSummon>
   <!-- EN: {0} threat ready to summon -->
@@ -228,11 +228,11 @@
   <!-- EN: avoid pregnancy -->
   <PregnancyApproach_AvoidPregnancy>previna a gravidez</PregnancyApproach_AvoidPregnancy>
   <!-- EN: try for baby -->
-  <PregnancyApproach_TryForBaby>TODO</PregnancyApproach_TryForBaby>
+  <PregnancyApproach_TryForBaby>tentar bebê</PregnancyApproach_TryForBaby>
   <!-- EN: pregnancy chance -->
   <PregnancyChance>chance de gravidez</PregnancyChance>
   <!-- EN: Pregnancy approach -->
-  <PregnancyApproach>TODO</PregnancyApproach>
+  <PregnancyApproach>Abordagem de gravidez</PregnancyApproach>
   <!-- EN: Click to change pregnancy approach. -->
   <ClickToChangePregnancyApproach>Clique para alterar a abordagem sobre gravidez.</ClickToChangePregnancyApproach>
   <!-- EN: Pregnancy is not possible -->
@@ -366,7 +366,7 @@
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
   <UniqueXenotypeDesc>Uma variante humana única com um conjunto de xenogenes que não se enquadram em nenhum xenótipo conhecido.</UniqueXenotypeDesc>
   <!-- EN: Factor for genetic metabolism -->
-  <FactorForMetabolism>TODO</FactorForMetabolism>
+  <FactorForMetabolism>Fator para o metabolismo genético</FactorForMetabolism>
   <!-- EN: Progress -->
   <Progress>Progesso</Progress>
   <!-- EN: In sunlight -->
@@ -424,7 +424,7 @@
   <!-- EN: capacity -->
   <Capacity>capacidade</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
-  <MissingGeneRomanceChance>TODO</MissingGeneRomanceChance>
+  <MissingGeneRomanceChance>Sem {GENE} de chance de romance</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
   <NotInGeneBank>Não está no banco de genes</NotInGeneBank>
 
@@ -458,11 +458,11 @@
 
   <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
-  <LactatingAddedNutritionPerDay>TODO</LactatingAddedNutritionPerDay>
+  <LactatingAddedNutritionPerDay>Consumir uma nutrição extra de {0} por dia para produzir leite (a velocidade de produção de leite é de {1_percentage} devido ao nível atual de alimentos).</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
-  <LactatingStoppedBecauseFull>TODO</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseFull>A lactação é pausada porque o volume de leite é 100%</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
-  <LactatingStoppedBecauseHungry>TODO</LactatingStoppedBecauseHungry>
+  <LactatingStoppedBecauseHungry>A lactação é interrompida devido à fome.</LactatingStoppedBecauseHungry>
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
@@ -488,7 +488,7 @@
   <!-- EN: Release {0} -->
   <MechCarrierRelease>Liberar {0}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
-  <MechCarrierDesc>TODO</MechCarrierDesc>
+  <MechCarrierDesc>Solte um enxame de até {0} {1}. Cada {2} custa {3} {4} para construir. Se o principal for destruído, todos os {1} vinculados morrerão. {1} não pode ser recarregado e morrerá quando sua fonte de energia acabar.</MechCarrierDesc>
   <!-- EN: Not enough resources -->
   <MechCarrierNotEnoughResources>Não há recursos suficientes</MechCarrierNotEnoughResources>
   <!-- EN: Autofill -->
