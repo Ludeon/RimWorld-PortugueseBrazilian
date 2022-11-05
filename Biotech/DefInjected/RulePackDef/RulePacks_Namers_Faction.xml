@@ -68,7 +68,23 @@
     <li>end->mok</li>
     <li>end->mm</li>
   -->
-  <NamerFactionOutlanderPig.rulePack.rulesStrings>TODO</NamerFactionOutlanderPig.rulePack.rulesStrings>
+  <NamerFactionOutlanderPig.rulePack.rulesStrings>
+    <li>r_name(p=2)->[nameCore]</li>
+    <li>r_name->[nameCore] [political_union_outlander]</li>
+    <li>r_name->[political_union_outlander] do [nameCore]</li>
+    <li>nameCore(p=3)->[SylP_M][SylP]</li>
+    <li>nameCore(p=3)->[SylP_M][SylP][SylP]</li>
+    <li>nameCore(p=3)->[SylP_M][end]</li>
+    <li>nameCore(p=3)->[SylP_M][SylP][end]</li>
+    <li>nameCore->[SylP_M]-[SylP_M]</li>
+    <li>nameCore->[SylP_M]-[SylP_M]-[SylP_M]</li>
+    <li>end->lo</li>
+    <li>end->lom</li>
+    <li>end->m</li>
+    <li>end->porco</li>
+    <li>end->pogo</li>
+    <li>end->moco</li>
+  </NamerFactionOutlanderPig.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[poison] [groupname]</li>
