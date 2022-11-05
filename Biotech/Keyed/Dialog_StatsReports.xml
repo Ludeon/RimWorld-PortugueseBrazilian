@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Relevant genes -->
+  <StatsReport_Genes>Genes relevantes</StatsReport_Genes>
+  <!-- EN: in sunlight -->
+  <StatsReport_InSunlight>na luz do sol</StatsReport_InSunlight>
+  <!-- EN: clothed -->
+  <StatsReport_Clothed>vestido(a)</StatsReport_Clothed>
+  <!-- EN: unclothed -->
+  <StatsReport_Unclothed>sem roupa</StatsReport_Unclothed>
+
+  <!-- EN: Required weight class -->
+  <StatsReport_RechargerWeightClass>Classe de peso necessária</StatsReport_RechargerWeightClass>
+  <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->
+  <StatsReport_RechargerWeightClass_Desc>A classe de peso do mecanóide que pode usar este recarregador. Os seguintes mecanóides são compatíveis</StatsReport_RechargerWeightClass_Desc>
+
+  <!-- EN: Recharger needed -->
+  <StatsReport_RechargerNeeded>Recarregador necessário</StatsReport_RechargerNeeded>
+  <!-- EN: The type of recharger that this mechanoid can use to recover energy. This is based on the mechanoid's weight class. -->
+  <StatsReport_RechargerNeeded_Desc>O tipo de recarregador que este mecanóide pode usar para recuperar energia. Isso é baseado na classe de peso do mecanóide.</StatsReport_RechargerNeeded_Desc>
+
+  <!-- EN: Deathrest effectiveness -->
+  <StatsReport_DeathrestEffectiveness>Eficácia do descanso mortal</StatsReport_DeathrestEffectiveness>
+  <!-- EN: A multiplier on how effective this is when used for deathrest. The higher this is, the less time a user needs to deathrest here. -->
+  <StatsReport_DeathrestEffectiveness_Desc>Um multiplicador de quão eficaz isso é quando usado para o descansar mortal. Quanto mais alto for, menos tempo um usuário precisa realizar o descansar mortal aqui.</StatsReport_DeathrestEffectiveness_Desc>
+
+  <!-- EN: Deathrest connection limit -->
+  <StatsReport_DeathrestConnectionLimit>Limite de conexão ao desc. mortal</StatsReport_DeathrestConnectionLimit>
+  <!-- EN: How many of these buildings can connect to a deathrester while deathresting. This number is also limited by the person's deathrest capacity. -->
+  <StatsReport_DeathrestConnectionLimit_Desc>Quantas dessas construções podem se conectar a um descansador mortal durante o descanso mortal. Este número também é limitado pela capacidade de descanso mortal da pessoa.</StatsReport_DeathrestConnectionLimit_Desc>
+
+  <!-- EN: Growth tier -->
+  <StatsReport_GrowthTier>Nível de crescimento</StatsReport_GrowthTier>
+  <!-- EN: Children progress through growth tiers over time. The higher the learning need, the faster the progress. When a growth moment comes (at age 7, 10, and 13), the child's growth tier determines how many trait and passion options you can choose from. Growth tier resets after each growth moment. -->
+  <StatsReport_GrowthTierDesc>As crianças progridem através dos níveis de crescimento ao longo do tempo. Quanto maior a necessidade de aprendizado, mais rápido o progresso. Quando chega um momento de crescimento (aos 7, 10 e 13 anos), o nível de crescimento da criança determina quantas opções de traços e paixões você pode escolher. O nível de crescimento é redefinido após cada momento de crescimento.</StatsReport_GrowthTierDesc>
+
+  <!-- EN: Life stage -->
+  <StatsReport_DevelopmentStage>Fase da vida</StatsReport_DevelopmentStage>
+  <!-- EN: A baby. Babies cannot move on their own. Their life revolves around the simple needs of food, sleep, and play. When they giggle, nearby adults' moods are lifted, and when they cry, nearby adults are annoyed.\n\nAt age 3, human babies become children. -->
+  <StatsReport_DevelopmentStageDesc_Baby>Um bebê. Os bebês não podem se mover sozinhos. Sua vida gira em torno das necessidades simples de comida, sono e diversão. Quando eles riem, o humor dos adultos próximos melhora e, quando choram, os adultos próximos ficam irritados.\n\nAos 3 anos, os bebês humanos se tornam crianças.</StatsReport_DevelopmentStageDesc_Baby>
+  <!-- EN: A child. In general, children are slower and less skilled than adults. However, children have a natural optimism. When their mood is high, this optimism can raise the mood of adult colonists.\n\nChildren can do various types of work, depending on their age -->
+  <StatsReport_DevelopmentStageDesc_ChildPart1>Uma criança. Em geral, as crianças são mais lentas e menos habilidosas que os adultos. No entanto, as crianças têm um otimismo natural. Quando seu humor está alto, esse otimismo pode elevar o humor dos colonos adultos.\n\nAs crianças podem realizar vários tipos de trabalho, dependendo da idade</StatsReport_DevelopmentStageDesc_ChildPart1>
+  <!-- EN: As a child ages, they will gain additional passions and traits.\n\nChildren have various child-specific learning needs and require special child-sized apparel.\n\nAt age 13, human children become adults. -->
+  <StatsReport_DevelopmentStageDesc_ChildPart2>À medida que a criança cresce, ela adquire paixões e traços adicionais.\n\nAs crianças têm várias necessidades específicas de aprendizagem e precisam de roupas especiais para crianças.\n\nAos 13 anos, as crianças humanas se tornam adultos.</StatsReport_DevelopmentStageDesc_ChildPart2>
+  <!-- EN: An adult. Human adults fully mature at the age of 18. -->
+  <StatsReport_DevelopmentStageDesc_Adult>Um adulto. Adultos humanos são totalmente maduros aos 18 anos.</StatsReport_DevelopmentStageDesc_Adult>
+
+  <!-- EN: Multiplier for pollution -->
+  <StatsReport_Pollution>Multiplicador de poluição</StatsReport_Pollution>
+
+  <!-- EN: Age factor -->
+  <StatsReport_FertilityAgeFactor>Fator idade</StatsReport_FertilityAgeFactor>
+  <!-- EN: Has {0_label} gene -->
+  <StatsReport_HasGene>Tem o gene {0_label}</StatsReport_HasGene>
+  <!-- EN: A person of the {0} xenotype.\n\nAbout {0}s: -->
+  <StatsReport_NonBaselinerDescription>Uma pessoa do xenótipo {0}.\n\nSobre {0}:</StatsReport_NonBaselinerDescription>
+  
+  <!-- EN: Lifestage -->
+  <Stat_Thing_Apparel_ValidLifestage>Estágio de vida</Stat_Thing_Apparel_ValidLifestage>
+  <!-- EN: Certain apparel requires that the wearer be within a specific age range. -->
+  <Stat_Thing_Apparel_ValidLifestage_Desc>Certas roupas exigem que o usuário esteja dentro de uma faixa etária específica.</Stat_Thing_Apparel_ValidLifestage_Desc>
+
+  <!-- EN: Connected {0} -->
+  <StatsReport_Connected>{0} conectado</StatsReport_Connected>
+
+  <!-- EN: Effects -->
+  <Effects>Efeitos</Effects>
+  <!-- EN: A multiplier on chance of having a romantic relationship with someone who does not have this gene. -->
+  <StatsReport_MissingGeneRomanceChance>Um multiplicador de chance de ter um relacionamento amoroso com alguém que não tenha esse gene.</StatsReport_MissingGeneRomanceChance>
+  <!-- EN: Immune to -->
+  <ImmuneTo>Imune a</ImmuneTo>
+  <!-- EN: Social fight chance factor -->
+  <SocialFightChanceFactor>Fator de chance de luta social</SocialFightChanceFactor>
+  <!-- EN: Chance mental break is violent -->
+  <AggroMentalBreakSelectionChanceFactor>Chance de colapso mental ser violento</AggroMentalBreakSelectionChanceFactor>
+  <!-- EN: Prison break interval factor -->
+  <PrisonBreakIntervalFactor>Fator de intervalo de fuga da prisão</PrisonBreakIntervalFactor>
+  <!-- EN: Will never prison break. -->
+  <WillNeverPrisonBreak>Nunca vai fugir da prisão.</WillNeverPrisonBreak>
+  <!-- EN: Mental breaks are always violent. -->
+  <AlwaysAggroMentalBreak>Os colapsos mentais são sempre violentos.</AlwaysAggroMentalBreak>
+  <!-- EN: Mental breaks are never violent. -->
+  <NeverAggroMentalBreak>Colapsos mentais nunca são violentos.</NeverAggroMentalBreak>
+  <!-- EN: {0_label} addiction chance factor -->
+  <AddictionChanceFactor>Fator de chance de dependência em {0_label}</AddictionChanceFactor>
+  <!-- EN: Immune to {0_label} addiction. -->
+  <AddictionImmune>Imune ao vício em {0_label}.</AddictionImmune>
+  <!-- EN: Immune to food poisoning. -->
+  <FoodPoisoningImmune>Imune a intoxicação alimentar.</FoodPoisoningImmune>
+  <!-- EN: Will never do social fights. -->
+  <WillNeverSocialFight>Nunca fará brigas sociais.</WillNeverSocialFight>
+  <!-- EN: Aging factors -->
+  <AgeFactors>Fatores de envelhecimento</AgeFactors>
+  <!-- EN: Work speed is unaffected by darkness. -->
+  <UnaffectedByDarkness>A velocidade de trabalho não é afetada pela escuridão.</UnaffectedByDarkness>
+  <!-- EN: Adds one level of passion in {0_label}. -->
+  <PassionModAdd>Adiciona um nível de paixão em {0_label}.</PassionModAdd>
+  <!-- EN: Removes all passion in {0_label}. -->
+  <PassionModDrop>Remove toda paixão em {0_label}.</PassionModDrop>
+  <!-- EN: Causes need -->
+  <CausesNeed>Causa necessidade</CausesNeed>
+  <!-- EN: Gives ability -->
+  <GivesAbility>Dá habilidade</GivesAbility>
+  <!-- EN: Gives abilities -->
+  <GivesAbilities>Dá habilidades</GivesAbilities>
+  <!-- EN: {RESOURCE}: {OFFSET} per day. -->
+  <ResourceLossPerDay>{RESOURCE}: {OFFSET} por dia.</ResourceLossPerDay>
+  <!-- EN: Removes -->
+  <Removes>Remove</Removes>
+  <!-- EN: Disables need -->
+  <DisablesNeed>Desativa a necessidade</DisablesNeed>
+  <!-- EN: Disables needs -->
+  <DisablesNeeds>Desativa as necessidades</DisablesNeeds>
+  <!-- EN: Baby -->
+  <DevelopmentStage_Baby>Bebê</DevelopmentStage_Baby>
+  <!-- EN: Child -->
+  <DevelopmentStage_Child>Criança</DevelopmentStage_Child>
+  <!-- EN: Adult -->
+  <DevelopmentStage_Adult>Adulto</DevelopmentStage_Adult>
+
+</LanguageData>
