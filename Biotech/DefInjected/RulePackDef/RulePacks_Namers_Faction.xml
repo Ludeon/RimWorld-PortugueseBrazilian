@@ -118,10 +118,10 @@
     <li>placeEnd->vel</li>
   -->
   <ImpidUtility.rulePack.rulesStrings>
-    <li>placeNameCore->[SylI][SylI]</li>
-    <li>placeNameCore->[SylI][SylI][SylI]</li>
-    <li>placeNameCore->[SylI][placeEnd]</li>
-    <li>placeNameCore->[SylI][SylI][placeEnd]</li>
+    <li>placeNameCore->[SylI_M][SylI]</li>
+    <li>placeNameCore->[SylI_M][SylI][SylI]</li>
+    <li>placeNameCore->[SylI_M][placeEnd]</li>
+    <li>placeNameCore->[SylI_M][SylI][placeEnd]</li>
     <li>placeEnd->que</li>
     <li>placeEnd->te</li>
     <li>placeEnd->zos</li>
@@ -224,6 +224,10 @@
   <NamerSettlementPirateYttakin.rulePack.rulesStrings>
     <li>r_name->[placeNameCore]</li>  
   </NamerSettlementPirateYttakin.rulePack.rulesStrings>
+  <ImpidUtility.rulePack.rulesFiles>
+    <li>SylI_M->WordParts/Syllables_Impid_Maiúscula</li>
+    <li>SylI->WordParts/Syllables_Impid</li>
+  </ImpidUtility.rulePack.rulesFiles>
   
   <!-- EN:
     <li>r_name(p=2)->[nameCore]</li>
