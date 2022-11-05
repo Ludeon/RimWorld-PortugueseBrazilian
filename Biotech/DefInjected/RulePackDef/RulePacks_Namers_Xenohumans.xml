@@ -35,7 +35,40 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Female.rulePack.rulesStrings>TODO</NamerPersonDirtmole_Female.rulePack.rulesStrings>
+  <NamerPersonDirtmole_Female.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
+        <li>End->cata</li>
+        <li>End->chita</li>
+        <li>End->citalo</li>
+        <li>End->fido</li>
+        <li>End->gita</li>
+        <li>End->lini</li>
+        <li>End->mine</li>
+        <li>End->mito</li>
+        <li>End->na</li>
+        <li>End->nate</li>
+        <li>End->nel</li>
+        <li>End->net</li>
+        <li>End->fitero</li>
+        <li>End->rtel</li>
+        <li>End->fite</li>
+        <li>End->rite</li>
+        <li>End->roque</li>
+        <li>End->ril</li>
+        <li>End->salte</li>
+        <li>End->sita</li>
+        <li>End->rine</li>
+        <li>End->spora</li>
+        <li>End->sum</li>
+        <li>End->tite</li>
+        <li>End->turfe</li>
+        <li>End->veina</li>
+        <li>End->velona</li>
+        <li>End->vino</li>
+        <li>End->vita</li>
+        <li>End->ziti</li>
+        <li>End->drita</li>
+  </NamerPersonDirtmole_Female.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [Syl][End]</li>
@@ -71,7 +104,40 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Male.rulePack.rulesStrings>TODO</NamerPersonDirtmole_Male.rulePack.rulesStrings>
+  <NamerPersonDirtmole_Male.rulePack.rulesStrings>
+		<li>r_name->[firstName] [Syl][End]</li>
+        <li>End->cata</li>
+        <li>End->chita</li>
+        <li>End->citalo</li>
+        <li>End->fido</li>
+        <li>End->gita</li>
+        <li>End->lini</li>
+        <li>End->mine</li>
+        <li>End->mito</li>
+        <li>End->na</li>
+        <li>End->nate</li>
+        <li>End->nel</li>
+        <li>End->net</li>
+        <li>End->fitero</li>
+        <li>End->rtel</li>
+        <li>End->fite</li>
+        <li>End->rite</li>
+        <li>End->roque</li>
+        <li>End->ril</li>
+        <li>End->salte</li>
+        <li>End->sita</li>
+        <li>End->rine</li>
+        <li>End->spora</li>
+        <li>End->sum</li>
+        <li>End->tite</li>
+        <li>End->turfe</li>
+        <li>End->veina</li>
+        <li>End->velona</li>
+        <li>End->vino</li>
+        <li>End->vita</li>
+        <li>End->ziti</li>
+        <li>End->drita</li>	
+  </NamerPersonDirtmole_Male.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -103,7 +169,36 @@
     <li>nameEnd->naz</li>
     <li>nameEnd->nath</li>
   -->
-  <NamerPersonImpid.rulePack.rulesStrings>TODO</NamerPersonImpid.rulePack.rulesStrings>
+  <NamerPersonImpid.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>firstName(p=0.5)->[SylI]</li>
+    <li>firstName(p=2)->[SylI][nameEnd]</li>
+    <li>firstName->[SylI][SylI][nameEnd]</li>
+    <li>lastName(p=2)->[SylI][nameEnd]</li>
+    <li>lastName->[SylI][nameEnd]</li>
+    <li>lastName->[SylI][SylI][nameEnd]</li>
+    <li>nameEnd->ive</li>
+    <li>nameEnd->iche</li>
+    <li>nameEnd->iz</li>
+    <li>nameEnd->im</li>
+    <li>nameEnd->oxe</li>
+    <li>nameEnd->ova</li>
+    <li>nameEnd->rache</li>
+    <li>nameEnd->rate</li>
+    <li>nameEnd->ratu</li>
+    <li>nameEnd->rova</li>
+    <li>nameEnd->roze</li>
+    <li>nameEnd->ronia</li>
+    <li>nameEnd->vina</li>
+    <li>nameEnd->voneme</li>
+    <li>nameEnd->voza</li>
+    <li>nameEnd->ito</li>
+    <li>nameEnd->nove</li>
+    <li>nameEnd->novo</li>
+    <li>nameEnd->nava</li>
+    <li>nameEnd->nasza</li>
+    <li>nameEnd->nata</li>  
+  </NamerPersonImpid.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -135,7 +230,36 @@
     <li>nameEnd->oik</li>
     <li>nameEnd->oin</li>
   -->
-  <NamerPersonPigskin.rulePack.rulesStrings>TODO</NamerPersonPigskin.rulePack.rulesStrings>
+  <NamerPersonPigskin.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name(p=2)->[firstName] '[nickName]' [lastName]</li>
+    <li>maybeHyphen(p=4)-></li>
+    <li>maybeHyphen->-</li>
+    <li>firstName(p=1)->[SylP][nameEnd]</li>
+    <li>firstName(p=3)->[SylP][nameEnd]</li>
+    <li>nickName->[nicknamePig]</li>
+    <li>lastName(p=3)->[lastGenerated]</li>
+    <li>lastGenerated->[SylP][nameEnd]</li>
+    <li>lastGenerated->[SylP][maybeHyphen][SylP][nameEnd]</li>
+    <li>nameEnd->uga</li>
+    <li>nameEnd->age</li>
+    <li>nameEnd->upa</li>
+    <li>nameEnd->oinc</li>
+    <li>nameEnd->orge</li>
+    <li>nameEnd->em</li>
+    <li>nameEnd->er</li>
+    <li>nameEnd->ubae</li>
+    <li>nameEnd->ope</li>
+    <li>nameEnd->is</li>
+    <li>nameEnd->ou</li>
+    <li>nameEnd->apa</li>
+    <li>nameEnd->agi</li>
+    <li>nameEnd->ogio</li>
+    <li>nameEnd->ogar</li>
+    <li>nameEnd->obem</li>
+    <li>nameEnd->oinque</li>
+    <li>nameEnd->oim</li>  
+  </NamerPersonPigskin.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -171,7 +295,40 @@
     <li>End->waste</li>
     <li>End->y</li>
   -->
-  <NamerPersonWaster.rulePack.rulesStrings>TODO</NamerPersonWaster.rulePack.rulesStrings>
+  <NamerPersonWaster.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name->[firstName] '[nicknameWaster]' [lastName]</li>
+    <li>firstName->[Syl][Syl]</li>
+    <li>firstName->[Syl]</li>
+    <li>lastName->[Syl][End]</li>
+    <li>End->ade</li>
+    <li>End->aquese</li>
+    <li>End->anqua</li>
+    <li>End->ashia</li>
+    <li>End->eque</li>
+    <li>End->equa</li>
+    <li>End->enqui</li>
+    <li>End->er</li>
+    <li>End->esqua</li>
+    <li>End->ez</li>
+    <li>End->gum</li>
+    <li>End->ique</li>
+    <li>End->ipa</li>
+    <li>End->isque</li>
+    <li>End->ix</li>
+    <li>End->iz</li>
+    <li>End->quila</li>
+    <li>End->quina</li>
+    <li>End->linga</li>
+    <li>End->manel</li>
+    <li>End->mena</li>
+    <li>End->nique</li>
+    <li>End->ox</li>
+    <li>End->squou</li>
+    <li>End->fumaça</li>
+    <li>End->resíduo</li>
+    <li>End->i</li>  
+  </NamerPersonWaster.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -198,6 +355,30 @@
     <li>nameEnd->ys</li>
     <li>nameEnd->yn</li>
   -->
-  <NamerPersonYttakin.rulePack.rulesStrings>TODO</NamerPersonYttakin.rulePack.rulesStrings>
+  <NamerPersonYttakin.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>firstName(p=0.5)->[SylY]</li>
+    <li>firstName(p=2)->[SylY][nameEnd]</li>
+    <li>firstName->[SylY][SylY][nameEnd]</li>
+    <li>lastName(p=2)->[SylY][nameEnd]</li>
+    <li>lastName->[SylY][SylY][nameEnd]</li>
+    <li>lastName->Kin'[SylY][nameEnd]</li>
+    <li>lastName->Wyn'[SylY][nameEnd]</li>
+    <li>nameEnd(p=3)->ytt</li>
+    <li>nameEnd->eshe</li>
+    <li>nameEnd->ott</li>
+    <li>nameEnd->oshe</li>
+    <li>nameEnd->arqua</li>
+    <li>nameEnd->erqua</li>
+    <li>nameEnd->ershi</li>
+    <li>nameEnd->uqua</li>
+    <li>nameEnd->ione</li>
+    <li>nameEnd->eno</li>
+    <li>nameEnd->ul</li>
+    <li>nameEnd->ia</li>
+    <li>nameEnd->isha</li>
+    <li>nameEnd->is</li>
+    <li>nameEnd->in</li>  
+  </NamerPersonYttakin.rulePack.rulesStrings>
   
 </LanguageData>
