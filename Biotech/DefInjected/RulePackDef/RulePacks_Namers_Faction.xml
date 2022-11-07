@@ -253,25 +253,81 @@
   -->
   <NamerFactionOutlanderPig.rulePack.rulesStrings>
     <li>r_name(p=2)->[nameCore]</li>
-    <li>r_name->[political_union_outlander] de [nameCore] </li>
-    <li>r_name->[political_union_outlander] de [nameCore]</li>
-    <li>maybeHyphen(p=3)-></li>
-    <li>maybeHyphen->-</li>
-    <li>nameCore->[SylP][maybeHyphen][SylP]</li>
-    <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][SylP]</li>
-    <li>nameCore->[SylP][maybeHyphen][end]</li>
-    <li>nameCore->[SylP][maybeHyphen][SylP][maybeHyphen][end]</li>
-    <li>end->oinc</li>
-    <li>end->loinc</li>
-    <li>end->voinc</li>
-    <li>end->oinc</li>
-    <li>end->goinc</li>
-    <li>end->doinc</li>
+    <li>r_name->[nameCore] [political_union_outlander]</li>
+    <li>r_name->[political_union_outlander] do [nameCore]</li>
+    <li>nameCore(p=3)->[SylP_M][SylP]</li>
+    <li>nameCore(p=3)->[SylP_M][SylP][SylP]</li>
+    <li>nameCore(p=3)->[SylP_M][end]</li>
+    <li>nameCore(p=3)->[SylP_M][SylP][end]</li>
+    <li>nameCore->[SylP_M]-[SylP_M]</li>
+    <li>nameCore->[SylP_M]-[SylP_M]-[SylP_M]</li>
+    <li>end->lo</li>
+    <li>end->lom</li>
+    <li>end->m</li>
     <li>end->porco</li>
-    <li>end->poinc</li>
-    <li>end->moinc</li>
-    <li>end->poinc</li>  
+    <li>end->pogo</li>
+    <li>end->moco</li>
   </NamerFactionOutlanderPig.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name->[poison] [groupname]</li>
+    <li>r_name->[poison] [men]</li>
+    <li>men->men</li>
+    <li>men->crew</li>
+    <li>men->gang</li>
+    <li>men->chokers</li>
+    <li>men->pillers</li>
+    <li>men->psychers</li>
+    <li>men->toxers</li>
+    <li>men->blighters</li>
+    <li>men->wasters</li>
+    <li>men->packers</li>
+    <li>men->slickers</li>
+    <li>men->slickers</li>
+    <li>men->pests</li>
+    <li>men->trash</li>
+  -->
+  <NamerFactionPirateWaster.rulePack.rulesStrings>TODO</NamerFactionPirateWaster.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>r_name->[faction] of [placeNameCore]</li>
+    <li>faction->roarclan</li>
+    <li>faction->tribe</li>
+    <li>faction->clan</li>
+    <li>faction->roar</li>
+    <li>faction->pack</li>
+    <li>faction->family</li>
+    <li>faction->fur</li>
+    <li>faction->kinroar</li>
+  -->
+  <NamerFactionPirateYttakin.rulePack.rulesStrings>
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>r_name->[faction] of [placeNameCore]</li>
+    <li>faction->roarclan</li>
+    <li>faction->tribe</li>
+    <li>faction->clan</li>
+    <li>faction->roar</li>
+    <li>faction->pack</li>
+    <li>faction->family</li>
+    <li>faction->fur</li>
+    <li>faction->kinroar</li>
+  </NamerFactionPirateYttakin.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name(p=2)->[placeNameCore]</li>
+    <li>r_name->[placeNameCore] [faction]</li>
+    <li>r_name->[faction] of [placeNameCore]</li>
+    <li>faction->clade</li>
+    <li>faction->league</li>
+    <li>faction->runship</li>
+    <li>faction->sprintship</li>
+    <li>faction->flamehome</li>
+    <li>faction->firehome</li>
+  -->
+  <NamerFactionTribalImpid.rulePack.rulesStrings>TODO</NamerFactionTribalImpid.rulePack.rulesStrings>
   
   
   <!-- EN:
