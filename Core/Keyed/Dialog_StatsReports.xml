@@ -43,15 +43,15 @@
   <!-- EN: Materials and labor -->
   <StatsReport_MarketValueFromStuffsAndWork>Materiais e trabalho</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
-  <StatsReport_QualityMultiplier>Multiplicador qualitativo</StatsReport_QualityMultiplier>
+  <StatsReport_QualityMultiplier>Multiplicador da qualidade</StatsReport_QualityMultiplier>
   <!-- EN: Quality offset -->
   <StatsReport_QualityOffset>Resultato qualitativo</StatsReport_QualityOffset>
   <!-- EN: Max gain -->
   <StatsReport_MaxGain>Ganho máximo</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
-  <StatsReport_AgeMultiplier>Multiplicador de idade  ({0})</StatsReport_AgeMultiplier>
+  <StatsReport_AgeMultiplier>Multiplicador da idade  ({0})</StatsReport_AgeMultiplier>
   <!-- EN: Multiplier for health {0} -->
-  <StatsReport_HealthMultiplier>Multiplicador {0} de saúde</StatsReport_HealthMultiplier>
+  <StatsReport_HealthMultiplier>Multiplicador da saúde ({0})</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
   <StatsReport_ReloadMarketValue>Custo para recarregar ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
@@ -79,7 +79,7 @@
   <!-- EN: Melee hit chance -->
   <StatsReport_MeleeHitChance>Chance de acerto no corpo-a-corpo</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
-  <StatsReport_CooldownFormat>{0} s</StatsReport_CooldownFormat>
+  <StatsReport_CooldownFormat>{0} seg</StatsReport_CooldownFormat>
   <!-- EN: Blocked by fences -->
   <StatsReport_BlockedByFences>Bloqueado pelas cercas</StatsReport_BlockedByFences>
   <!-- EN: Roam interval -->
@@ -107,7 +107,7 @@
   <!-- EN: Added body parts -->
   <StatsReport_AddedBodyPartsMass>Partes do corpo adicionadas</StatsReport_AddedBodyPartsMass>
   <!-- EN: Material effect multiplier -->
-  <StatsReport_StuffEffectMultiplier>Multiplicador do efeito material</StatsReport_StuffEffectMultiplier>
+  <StatsReport_StuffEffectMultiplier>Multiplicador do efeito do material</StatsReport_StuffEffectMultiplier>
   <!-- EN: Resting -->
   <StatsReport_Resting>Descansando</StatsReport_Resting>
   <!-- EN: recreation type -->
@@ -171,7 +171,7 @@
   <!-- EN: Stuff -->
   <Stat_Stuff_Name>Material</Stat_Stuff_Name>
   <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
-  <Stat_Stuff_Desc>O material de que essa coisa é feita. Isso afeta muitas outras estatísticas, incluindo dano, armadura e isolamento, pontos de vida, beleza, valor de mercado e muito mais.</Stat_Stuff_Desc>
+  <Stat_Stuff_Desc>O material do qual essa coisa é feita. Isso afeta muitas outras estatísticas, incluindo dano por armas, defesa e isolamento do vestuário, pontos de vida, beleza, valor de mercado e muito mais.</Stat_Stuff_Desc>
   <!-- EN: Weapon -->
   <Stat_Weapon_Name>Arma</Stat_Weapon_Name>
   <!-- EN: The weapon used by this turret. -->
@@ -185,15 +185,15 @@
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>Quais instalações podem ser usadas para produzir isso.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
-  <Stat_Thing_Damage_Desc>A quantidade de dano que esta arma causa.\n\nIsso pode ser desviado ou mitigado pela armadura do alvo.</Stat_Thing_Damage_Desc>
+  <Stat_Thing_Damage_Desc>A quantidade de dano que esta arma causa.\n\nIsso pode ser desviado ou reduzido pela armadura do alvo.</Stat_Thing_Damage_Desc>
   <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
   <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Um multiplicador na quantidade de experiência que os médicos ganham ao usar isso para cuidar de um paciente.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>Os atributos desta planta.</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Clothing (for nudity) -->
-  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Roupas (para nudez)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Vestuário (para traço nudista)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
-  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Se os nudistas considerarão este item uma peça de roupa. Do contrário, os nudistas não se incomodarão em usar isso.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Se os nudistas considerarão este item uma peça de roupa. Caso não considerem, os nudistas não se incomodarão em usar isso.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Quais partes do corpo isso cobre.\n\nArmaduras não protegem as partes do corpo que não cobrem.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -245,9 +245,9 @@
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>O alcance máximo desta arma.</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
-  <Stat_Thing_Weapon_MissRadius_Desc>O raio de propagação aleatória em tiros disparados por esta arma.\n\nValores altos fazem com que os projéteis se dispersem aleatoriamente ao redor do alvo.</Stat_Thing_Weapon_MissRadius_Desc>
+  <Stat_Thing_Weapon_MissRadius_Desc>O raio de dispersão aleatória a partir tiros disparados por esta arma.\n\nValores altos fazem com que os projéteis se dispersem aleatoriamente ao redor do alvo.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
-  <Stat_Thing_Weapon_DirectHitChance_Desc>A chance de um tiro atingir diretamente seu alvo se não for interceptado, evitado ou interrompido.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <Stat_Thing_Weapon_DirectHitChance_Desc>A chance de um tiro atingir diretamente seu alvo se não for interceptado, desviado ou interrompido.</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
   <Stat_Thing_MoodChange_Desc>Efeito dessa parte do corpo no humor do proprietário.</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
@@ -343,7 +343,16 @@
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>Este item foi codificado para aceitar apenas a bio-assinatura de um indivíduo em particular.</Stat_Thing_Biocoded_Desc>
   <!-- EN: Required apparel -->
-  <Stat_Pawn_RequiredApparel_Name>Ferramenta necessária</Stat_Pawn_RequiredApparel_Name>
+  <Stat_Pawn_RequiredApparel_Name>Vestuário necessário</Stat_Pawn_RequiredApparel_Name>
+  <!-- EN: Paintable -->
+  <Stat_Building_Paintable>Pintável</Stat_Building_Paintable>
+  <!-- EN: Whether this can be painted using dye. -->
+  <Stat_Building_PaintableDesc>Se isso pode ser pintado usando corante.</Stat_Building_PaintableDesc>
+  <!-- EN: Paint color -->
+  <Stat_Building_PaintColor>Cor da pintura</Stat_Building_PaintColor>
+  <!-- EN: The color this building was painted. -->
+  <Stat_Building_PaintColorDesc>A cor na qual esta construção foi pintada.</Stat_Building_PaintColorDesc>
+  
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
