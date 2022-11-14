@@ -925,9 +925,9 @@
   <!-- EN: Faction -->
   <Faction>Facção</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>A facção {PAWN_labelShort} atualmente pertence a.</FactionDesc>
+  <FactionDesc>A facção a qual {PAWN_labelShort} atualmente pertence.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
-  <ExtraFactionDesc>A facção {PAWN_labelShort} atualmente pertence a. {PAWN_pronoun} retornará à facção de origem quando sair da facção atual.</ExtraFactionDesc>
+  <ExtraFactionDesc>A facção a qual {PAWN_labelShort} atualmente pertence. {PAWN_pronoun} retornará à facção de origem quando sair da facção atual.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Equipado</Equipped>
   <!-- EN: nothing -->
@@ -1759,15 +1759,15 @@
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>deve ser redigido.</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>deve ser alistado.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>habilidade em recarga. Ele estará disponível em {0}.</AbilityOnCooldown>
+  <AbilityOnCooldown>habilidade em recarga. Ela estará disponível em {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>habilidade já está na fila.</AbilityAlreadyQueued>
   <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>Habilidade pronta: {0}</AbilityReadyLabel>
+  <AbilityReadyLabel>Habilidade disponível: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} está pronto(a) para usar {1}.</AbilityReadyText>
+  <AbilityReadyText>{0_nameDef} está pront{0_gender ? o : a} para usar {1}.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
   <AbilityDisabledInRitual>{0_labelShort} está participando de {1}.</AbilityDisabledInRitual>
   <!-- EN: Charges -->
@@ -1792,7 +1792,7 @@
   <ShieldPersonalTip>Um escudo pessoal que tentará impedir projéteis ou estilhaços. Evita que o usuário dispare e desliga instantaneamente se atingido por um PEM.</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>{PAWN_nameDef} é tão leal à sua fação que {PAWN_pronoun} se recusará a ser recrutado(a) se for feito(a) prisioneiro(a).</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef} é tão leal à sua facção que {PAWN_pronoun} se recusará a ser recrutad{PAWN_gender ? o : a} se for feit{PAWN_gender ? o : a} prisioneir{PAWN_gender ? o : a}.</UnrecruitableDesc>
 
   <!-- EN: Random -->
   <Random>Aleatória</Random>

@@ -293,7 +293,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Penetração de Armadura</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de armadura que esta arma ignorará toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a armadura do alvo, é como se o alvo não tivesse armadura. Caso contrário, a penetração da armadura é subtraída da armadura do alvo.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de proteção que esta arma ignorará toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a proteção do alvo, é como se o alvo estivesse sem proteção. Caso não, a penetração da armadura é subtraída da proteção do alvo.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
   <BuildingDamageFactor>Fator de dano à construções</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
@@ -309,13 +309,13 @@
   <!-- EN: Accuracy -->
   <Accuracy>Precisão</Accuracy>
   <!-- EN: Burst shot count -->
-  <BurstShotCount>Contagem de tiros</BurstShotCount>
+  <BurstShotCount>Contagem de tiros por disparo</BurstShotCount>
   <!-- EN: Warmup -->
   <WarmupTime>Aquecimento</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Aquecimento corpo a corpo</MeleeWarmupTime>
   <!-- EN: Ranged warmup -->
-  <RangedWarmupTime>Aquecimento a distância</RangedWarmupTime>
+  <RangedWarmupTime>Tempo de preparação para disparar</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Esfriamento</CooldownTime>
   <!-- EN: Disarmed -->
@@ -331,11 +331,11 @@
   <!-- EN: Range -->
   <Range>Alcance</Range>
   <!-- EN: Stopping power -->
-  <StoppingPower>Poder de lentidão</StoppingPower>
+  <StoppingPower>Poder de parada</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>Golpes desta arma balançarão o alvo, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de lentidão não serão afetados.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Ataques desta arma farão o alvo cambalear, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de parada não serão afetados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>Chance de acerto</DirectHitChance>
+  <DirectHitChance>Chance de acerto direto</DirectHitChance>
   <!-- EN: Miss radius -->
   <MissRadius>Chance de erro</MissRadius>
   <!-- EN: Grows wild -->
@@ -603,7 +603,7 @@
   <!-- EN: buying -->
   <Buying>comprando</Buying>
   <!-- EN: item sell price multiplier -->
-  <ItemSellPriceFactor>multiplicador de preço de venda do item</ItemSellPriceFactor>
+  <ItemSellPriceFactor>multiplicador do preço de venda do item</ItemSellPriceFactor>
   <!-- EN: difficulty level -->
   <DifficultyLevel>nível de dificuldade</DifficultyLevel>
   <!-- EN: global post-process curve -->

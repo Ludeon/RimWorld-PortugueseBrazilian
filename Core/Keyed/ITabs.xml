@@ -11,7 +11,7 @@
   <!-- EN: Training -->
   <TabTraining>Treino</TabTraining>
   <!-- EN: Prisoner -->
-  <TabPrisoner>Prisioneiro</TabPrisoner>
+  <TabPrisoner>Prisão</TabPrisoner>
   <!-- EN: Guest -->
   <TabGuest>Convidado</TabGuest>
   <!-- EN: Gear -->
@@ -89,15 +89,15 @@
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
   <RecruitmentResistanceDesc>Quanta dúvida este prisioneiro tem sobre se juntar à sua facção. Quando chega a zero, ele pode ser recrutado.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
-  <RecruitmentResistanceFromPawnKind>{0} de resistência base</RecruitmentResistanceFromPawnKind>
+  <RecruitmentResistanceFromPawnKind>Resistência base do(a) {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>Relações ganhas na liberação</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleasePotentialRelationGains>Relações ganhas ao libertar</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>A boa vontade da facção que você obterá da facção do prisioneiro se o libertar. Isso é afetado pela identidade, saúde e condição mental do prisioneiro.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>A boa vontade que você obterá da facção do prisioneiro se o libertar. Isso é afetado pela identidade, saúde e condição mental do prisioneiro.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Intervalo de fuga da prisão</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>A média de dias acordados entre as fugas da prisão. Isso é afetado pelo humor, pela mobilidade, pelo número de portas da prisão e pelo tempo desde a última fuga da prisão.\n\nObserve que isso não inclui o tempo gasto dormindo.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>A média de dias em que o prisioneiro está acordado, entre as fugas da prisão. Isso é afetado pelo humor, pela mobilidade, pelo número de portas da prisão e pelo tempo desde a última fuga da prisão.\n\nObserve que isso não inclui o tempo gasto dormindo.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Nunca</Never>
   <!-- EN: Not while asleep -->
@@ -110,8 +110,8 @@
   <FactorForMovement>Multiplicador para movimento</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Preço do escravo</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
-  <SlavePriceDescription>O valor de mercado básico deste(a) {0} se vendido(a).</SlavePriceDescription>
+  <!-- EN: The base market value of this slave if sold. -->
+  <SlavePriceDescription>O valor base de mercado deste escravo, se vendido.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Obter comida</GetsFood>
   <!-- EN: Doctors care -->
@@ -125,9 +125,9 @@
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Considerado culpado</ConsideredGuiltyNoTimer>
   <!-- EN: Last resistance reduction -->
-  <LastRecruitment>Última redução de resistência</LastRecruitment>
+  <LastRecruitment>Última redução da resistência</LastRecruitment>
   <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
-  <LastRecruitmentDescription>Quanta resistência de {0_nameDef} foi reduzida por {1} quando {0_pronoun} foi recrutado(a) pela última vez.</LastRecruitmentDescription>
+  <LastRecruitmentDescription>Quanto da resistência de {0_nameDef} foi reduzida por {1} quando {0_pronoun} foi recrutad{0_gender ? o : a} pela última vez.</LastRecruitmentDescription>
   <!-- EN: Opinion of recruiter -->
   <OpinionOfRecruiter>Opinião do recrutador</OpinionOfRecruiter>
   <!-- EN: Recruiter negotiation ability -->
