@@ -43,38 +43,64 @@
   <GlobalUtility.rulePack.rulesFiles>
     <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
     <li>Direction->Words/Adjectives/CompassDirections</li>
+    <li>DirectionM->Words/Adjectives/CompassDirections_CAPS</li>
     <li>Letter->WordParts/CapitalLetters</li>
     <li>SylB->WordParts/Syllables_Byzantinian</li>
     <li>SylE->WordParts/Syllables_English</li>
+    <li>SylEM->WordParts/Syllables_English_CAPS</li>
     <li>SylG->WordParts/Syllables_Galician</li>
     <li>SylP->WordParts/Syllables_Pig</li>
     <li>SylP_M->WordParts/Syllables_Pig_Maiúscula</li>
+    <li>SylGM->WordParts/Syllables_Galician_CAPS</li>
     <li>Color->Words/Nouns/Colors</li>
+    <li>ColorM->Words/Nouns/Colors_CAPS</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
+    <li>ColorBadassM->Words/Nouns/Colors_Badass_CAPS</li>
     <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>VegetableM->Words/Nouns/Vegetables_CAPS</li>
     <li>Game->Words/Nouns/Games</li>
+    <li>GameM->Words/Nouns/Games_CAPS</li>
     <li>Animal->Words/Nouns/Animals</li>
+    <li>AnimalM->Words/Nouns/Animals_CAPS</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
+    <li>AnimalBadassM->Words/Nouns/Animals_Badass_CAPS</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
     <li>Weapon->Words/Nouns/Weapons</li>
+    <li>WeaponM->Words/Nouns/Weapons_CAPS</li>
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+    <li>TerrainFeatureM->Words/Nouns/TerrainFeatures_CAPS</li>
+    <li>TerrainFeatureMale->Words/Nouns/TerrainFeatures_MALE</li>
+    <li>TerrainFeatureFemale->Words/Nouns/TerrainFeatures_FEMALE</li>
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJobM->Words/Nouns/People_Jobs_CAPS</li>
     <li>PersonFamily->Words/Nouns/People_Family</li>
     <li>PersonAlly->Words/Nouns/People_Allies</li>
+    <li>PersonAllyM->Words/Nouns/People_Allies_CAPS</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
+    <li>PersonBadassM->Words/Nouns/People_Badass_CAPS</li>
     <li>Enemy->Words/Nouns/Enemies</li>
+    <li>EnemyM->Words/Nouns/Enemies_CAPS</li>
     <li>Apparel->Words/Nouns/Apparel</li>
     <li>Gore->Words/Nouns/Gore</li>
+    <li>GoreM->Words/Nouns/Gore_CAPS</li>
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
+    <li>MechanoidM->Words/Nouns/Mechanoid_CAPS</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
     <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
+    <li>ConceptBadassMale->Words/Nouns/Concepts_Badass_MALE</li>
+    <li>ConceptBadassFemale->Words/Nouns/Concepts_Badass_FEMALE</li>
     <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
     <li>Community->Words/Nouns/Communities</li>
+    <li>CommunityM->Words/Nouns/Communities_CAPS</li>
+    <li>CommunityMale->Words/Nouns/Communities_MALE</li>
+    <li>CommunityFemale->Words/Nouns/Communities_FEMALE</li>
     <li>Bodypart->Words/Nouns/Bodyparts</li>
+    <li>BodypartM->Words/Nouns/Bodyparts_CAPS</li>
     <li>AdjectiveLarge->Words/Adjectives/Large</li>
     <li>AdjectiveBadass->Words/Adjectives/Badass</li>
+    <li>AdjectiveBadassM->Words/Adjectives/Badass_CAPS</li>
     <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
     <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
     <li>AdjectiveNatural->Words/Adjectives/Natural</li>
@@ -140,6 +166,10 @@
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
+    <li>CharacterM(p=6)->[PersonJobM]</li>
+    <li>CharacterM(p=4)->[AnimalM]</li>
+    <li>CharacterM(p=3)->[EnemyM]</li>
+    <li>CharacterM->[MechanoidM]</li>
     <li>Quantity_adjphrase->três</li>
     <li>Quantity_adjphrase->quatro</li>
     <li>Quantity_adjphrase->cinco</li>
