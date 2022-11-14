@@ -12,7 +12,7 @@ Da mesma forma, exigirá um pouco de preparação e o processo variará ligeiram
 OU
 
 1. Execute o "Prompt de Comando";
-2. Uma vez no terminal, execute: "cd C:\Users\%Username%\Downloads\ && curl -LJO https://raw.githubusercontent.com/Ludeon/RimWorld-PortugueseBrazilian/master/.Instalação/ScriptDeAtualização.ps1
+2. Uma vez no terminal, execute: `cd C:\Users\%Username%\Downloads\ && curl -LJO https://raw.githubusercontent.com/Ludeon/RimWorld-PortugueseBrazilian/master/.Instalação/ScriptDeAtualização.ps1`
 
 ### Atualização das Traduções:
 1. Execute o script (Clique direito => Executar com Powershell).
