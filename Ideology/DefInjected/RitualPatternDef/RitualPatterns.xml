@@ -3,38 +3,38 @@
   
   <!-- EN: A ritualistic burning of a hated symbol. Participants will gather around a sacrificial structure, light it on fire, and celebrate as it burns to ash. -->
   <BurnCircle.descOverride>A queima ritual de um símbolo odiado. Os participantes se reunirão ao redor de uma estrutura de sacrifício, atearão fogo nela e celebrarão enquanto ela se transforma em cinzas.</BurnCircle.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <BurnCircle.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</BurnCircle.ritualExpectedDesc>
   <!-- EN: symbol burning -->
   <BurnCircle.shortDescOverride>queima de símbolo</BurnCircle.shortDescOverride>
   
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <CelebrationPartyChat.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</CelebrationPartyChat.ritualExpectedDesc>
   
   <!-- EN: A dance party with drums. Participants will gather, socialize, play drums, and dance to have fun and connect with each other. -->
   <CelebrationPartyDanceDrum.descOverride>Uma festa dançante com tambores. Os participantes irão se reunir, socializar, tocar tambor e dançar para se divertir e se conectar uns com os outros.</CelebrationPartyDanceDrum.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <CelebrationPartyDanceDrum.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</CelebrationPartyDanceDrum.ritualExpectedDesc>
   <!-- EN: drum party -->
   <CelebrationPartyDanceDrum.shortDescOverride>festa do batuque</CelebrationPartyDanceDrum.shortDescOverride>
   
   <!-- EN: A dance party with loud music. Participants will gather, socialize, and dance to have fun and connect with each other. -->
   <CelebrationPartyDanceTech.descOverride>Uma festa dançante com música alta. Os participantes se reunirão, socializarão e dançarão para se divertir e se conectar uns com os outros.</CelebrationPartyDanceTech.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <CelebrationPartyDanceTech.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</CelebrationPartyDanceTech.ritualExpectedDesc>
   <!-- EN: dance party -->
   <CelebrationPartyDanceTech.shortDescOverride>festa dançante</CelebrationPartyDanceTech.shortDescOverride>
   
   <!-- EN: A social ritual where people release skylanterns. Participants will assemble wooden skylanterns while socializing, then release them and watch them drift away. -->
   <CelebrationSkyLanterns.descOverride>Um ritual social onde as pessoas soltam lanternas. Os participantes irão montar lanternas de madeira enquanto socializam, depois soltá-las e vê-las se afastarem.</CelebrationSkyLanterns.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <CelebrationSkyLanterns.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</CelebrationSkyLanterns.ritualExpectedDesc>
   <!-- EN: skylantern festival -->
   <CelebrationSkyLanterns.shortDescOverride>festival de lanternas</CelebrationSkyLanterns.shortDescOverride>
   
   <!-- EN: A party around a Christmas tree. Participants will gather around a Christmas tree and make merry. -->
   <CelebrationTree.descOverride>Uma festa em volta de uma árvore de natal. Os participantes se reunirão ao redor de uma árvore de natal e se divertirão.</CelebrationTree.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <CelebrationTree.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</CelebrationTree.ritualExpectedDesc>
   <!-- EN: christmas tree party -->
   <CelebrationTree.shortDescOverride>festa de natal</CelebrationTree.shortDescOverride>
@@ -44,34 +44,38 @@
   
   <!-- EN: A ritualistic flesh-eating meal. Participants gather around a platter of human flesh and bloodily feast on it. -->
   <FeastCannibal.descOverride>Uma refeição ritualística canibal. Os participantes se reúnem em torno de um prato de carne humana e festejam.</FeastCannibal.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <FeastCannibal.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</FeastCannibal.ritualExpectedDesc>
   <!-- EN: cannibal feast -->
   <FeastCannibal.shortDescOverride>banquete canibal</FeastCannibal.shortDescOverride>
   
-  <!-- EN: Once a {IDEO} member dies and the body is lost, other {MEMBERS} gather around an empty grave for {RITUAL_labelDef}. -->
+  <!-- EN: You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef} even though the body was lost. -->
   <FuneralNoCorpse.ritualExpectedDesc>Assim que um membro do(a) {IDEO} morre, outros {MEMBERS} se reúnem ao redor de seu túmulo para {RITUAL_labelDef}.</FuneralNoCorpse.ritualExpectedDesc>
+  <!-- EN: You can hold a funeral for {PAWN_nameDef} even though the body was lost. -->
+  <FuneralNoCorpse.ritualExpectedDescNoAdjective>TODO</FuneralNoCorpse.ritualExpectedDescNoAdjective>
   
-  <!-- EN: Once a {IDEO} member dies, other {MEMBERS} gather around their grave for {RITUAL_labelDef}. -->
+  <!-- EN: You can hold a {IDEOLIGION_adjective} funeral for {PAWN_nameDef}. -->
   <FuneralStandard.ritualExpectedDesc>Assim que um membro do(a) {IDEO} morre, outros {MEMBERS} se reúnem ao redor de seu túmulo para {RITUAL_labelDef}.</FuneralStandard.ritualExpectedDesc>
+  <!-- EN: You can hold a funeral for {PAWN_nameDef}. -->
+  <FuneralStandard.ritualExpectedDescNoAdjective>TODO</FuneralStandard.ritualExpectedDescNoAdjective>
   
   <!-- EN: A ritualistic animal sacrifice. The organizer will give a speech to excite the crowd, then cut the animal's throat. Once the animal is dead, the organizer will speak some finishing words. -->
   <SacrificeAnimal.descOverride>Um sacrifício animal ritualístico. O organizador fará um discurso para animar a multidão, depois cortará a garganta do animal. Assim que o animal estiver morto, o organizador falará algumas últimas palavras.</SacrificeAnimal.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <SacrificeAnimal.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</SacrificeAnimal.ritualExpectedDesc>
   <!-- EN: animal sacrifice -->
   <SacrificeAnimal.shortDescOverride>sacrifício animal</SacrificeAnimal.shortDescOverride>
   
   <!-- EN: A ritualistic prisoner sacrifice. The organizer will give a speech to excite the crowd, then cut the prisoner's throat. Once the prisoner is dead, organizer will speak some finishing words. -->
   <SacrificePrisoner.descOverride>Um sacrifício de prisioneiro ritualístico. O organizador fará um discurso para animar a multidão, depois cortará a garganta do prisioneiro. Assim que o prisioneiro estiver morto, o organizador falará algumas últimas palavras.</SacrificePrisoner.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <SacrificePrisoner.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</SacrificePrisoner.ritualExpectedDesc>
   <!-- EN: prisoner sacrifice -->
   <SacrificePrisoner.shortDescOverride>sacrifício de prisioneiro</SacrificePrisoner.shortDescOverride>
   
   <!-- EN: A ritualistic smoking of large amounts of smokeleaf. Participants will gather around a burnbong or incense shrine, light it on fire, and celebrate while inhaling the fumes. -->
   <SmokeCircle.descOverride>Um fumo ritualístico de grandes quantidades de folha de fumo. Os participantes se reunirão em torno de um santuário de queimadura ou incenso, atearam fogo e celebrarão enquanto inalam a fumaça.</SmokeCircle.descOverride>
-  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <!-- EN: Every year on {DATE}, {MEMBERS} can have a special celebration. -->
   <SmokeCircle.ritualExpectedDesc>Todos os anos em {DATE}, {MEMBERS} comemoram {RITUAL_labelDef}.</SmokeCircle.ritualExpectedDesc>
   <!-- EN: smokeleaf circle -->
   <SmokeCircle.shortDescOverride>círculo de fumo</SmokeCircle.shortDescOverride>
