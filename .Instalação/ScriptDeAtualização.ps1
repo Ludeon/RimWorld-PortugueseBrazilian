@@ -1,4 +1,4 @@
-﻿<#
+<#
 	.SINOPSE
 	Este script se encarrega de instalar/atualizar as traduções mais recentes.
 	.DESCRIÇÃO
@@ -11,10 +11,10 @@
 #>
 
 
-# Variáveis ​​para usar
+# Variáveis para usar
 $repo_owner = "Ludeon"
 $official_repo = "RimWorld-PortugueseBrazilian"
-$branch = "master"
+$branch = "feat/BioTech"
 
 $ingame_name = "PortugueseBrazilian (Português Brasileiro)"
 
