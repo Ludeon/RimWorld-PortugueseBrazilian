@@ -10,10 +10,12 @@
   <RejectLetter>Negar</RejectLetter>
   <!-- EN: Read more -->
   <ReadMore>Leia mais</ReadMore>
+  <!-- EN: You have {0} more letters -->
+  <MoreLetters>TODO</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Verão</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>O verão começou! Mas o inverno está chegando.\n\nSuas plantações não irão crescer no frio do inverno. Certifique-se de armazenar uma quantidade de comida para vários dias agora, enquanto você ainda pode. Você pode construir uma sala de refrigeração para impedir que o alimento se estrague.\n\nE tente comprar, roubar ou fazer alguns casacos, ou você congelará quando pisar lá fora.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
@@ -45,7 +47,7 @@
   <!-- EN: Death -->
   <Death>Morte</Death>
 
-  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
+  <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
   <ShortCircuitRain>Um {1_label} sofreu um curto-circuito na chuva e começou um incêndio.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
@@ -76,7 +78,9 @@
   <LetterLabelBirthday>Aniversário</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>O aniversário cronológico de {0} é hoje! Biologicamente, {1} tem {3} anos de idade.\n\nCronologicamente, {1} acaba de completar {2}.\n\nNote que desde que as pessoas não envelhecem enquanto estão em criptosono, o aniversário cronológico é separado do aniversário biológico.</BirthdayChronological>
-  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
+  <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
+  <LetterBirthdayBiological>TODO</LetterBirthdayBiological>
+  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
   <BirthdayBiologicalAgeInjuries>{0} atingiu a idade biológica de {1}.\n\nInfelizmente, {0} ganhou as seguintes doenças devido ao envelhecimento:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
@@ -419,24 +423,12 @@
   <LetterPredatorHuntingColonist>{PREDATOR} está caçando {PREY_definite} por comida!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
-  <!-- EN: {0} blocked {1} on: {2}. -->
+  <!-- EN: {0} blocked {1} on -->
   <LetterDisease_Blocked>{0} bloqueou {1} em: {2}.</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Doença: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label} adoeceu de {1}.\n\nCertifique-se de que você tem camas médicas e um médico. Cuide para que {PAWN_pronoun} receba o tratamento adequado e gaste o máximo de tempo possível na cama.</LetterTraitDisease>
-
-  <!-- Surgery -->
-  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>A cirurgia de {PATIENT_labelShort} falhou</LetterLabelSurgeryFailed>
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} falhou em menor grau ao operar {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} falhou catastroficamente ao operar {PATIENT_LabelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} falhou de uma maneira ridícula enquanto operava {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} cometeu um erro fatal ao operar {PATIENT_labelShort} devido aos desafios especiais de: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -552,5 +544,26 @@
   <LetterLabelSiteCountdownStarted>Caravana detectada</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>Sua caravana foi detectada. Em {0}, reforços {1} de {2} começarão a chegar na área.\n\nReestruture sua caravana e comece a mover-se para evitar o {1}. Um contador cronometrando a chegada deles está visível.</LetterTextSiteCountdownStarted>
+
+  <!-- EN: Unwavering prisoner -->
+  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
+  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <!-- EN: enslave {PAWN_objective} -->
+  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+
+  <!-- Lung rot -->
+  <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
+  <LetterTextLungRot>TODO</LetterTextLungRot>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>Juntar-se à proposta: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} deseja unir-se à sua facção.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} acredita que {PAWN_pronoun} está feliz em {MAP_definite}. {PAWN_pronoun} deseja unir-se a você permanentemente.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Aceitar</LetterJoinOfferAccept>
 
 </LanguageData>

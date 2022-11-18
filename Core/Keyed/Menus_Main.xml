@@ -30,6 +30,8 @@
   <TranslationFilesTKeyUpdate>Atualizar Arquivos da Tradução (TKey's)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Limpando Arquivos da Tradução</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>TODO</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>Créditos</Credits>
   <!-- EN: Quit to main menu -->
@@ -78,8 +80,8 @@
   <WorldGenerate>Gerar</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Salvar e concluir</WorldSaveAndFinish>
-  <!-- EN: Reset -->
-  <Reset>Restaurar</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>TODO</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>Cobertura do Globo</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -152,16 +154,66 @@
   <ConfirmDeleteMod>Tem certeza de que deseja apagar todo o conteúdo de {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Organizar Mods</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>TODO</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>TODO</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>Não é possível mover {0}: Deve ser carregado após {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>Não é possível mover {0}: Deve ser carregado antes de {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Desinscrever</Unsubscribe>
-  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
+  <!-- EN: Are you sure you want to unsubscribe? -->
   <ConfirmUnsubscribe>Tem certeza de que deseja cancelar a inscrição de {0}?</ConfirmUnsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
+  <ConfirmUnsubscribeFrom>TODO</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>TODO</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Autor(es)</Author>
+  <!-- EN: Enabled -->
+  <Enabled>TODO</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>TODO</Disabled>
+  <!-- EN: Enable -->
+  <Enable>TODO</Enable>
+  <!-- EN: Disable -->
+  <Disable>TODO</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>TODO</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>TODO</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>TODO</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>TODO</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>TODO</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>TODO</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>TODO</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>TODO</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>TODO</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>TODO</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>TODO</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>TODO</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>TODO</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>TODO</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>TODO</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>TODO</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>TODO</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Página da Oficina</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -176,6 +228,8 @@
   <WorkshopUploadSucceeded>Enviado com sucesso {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Baixando</Downloading>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>TODO</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Exibir requisitos cumpridos</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
@@ -184,8 +238,10 @@
   <ModClickToGoToWebsite>Clique para ir ao site.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Fonte</Source>
-  <!-- EN: For game version(s) -->
+  <!-- EN: Game versions -->
   <ModTargetVersion>Versão(ões) do Jogo</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>TODO</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -204,7 +260,7 @@
   <ModWithSameIdAlreadyActive>Outro mod ativo usa o mesmo ID: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>Há uma dependência de mod cíclica iniciando com {0}.</ModCyclicDependency>
-  <!-- EN: This requires following mods to work: {0}. -->
+  <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>Isso requer os seguintes mods para funcionar: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Este mod não foi feito para esta versão do RimWorld, e provavelmente não funcionará corretamente.</ModNotMadeForThisVersion>
@@ -274,6 +330,8 @@
   <TooMany>Tem muitos (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Pode ser atualizado na Oficina, já que você é o autor.</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>TODO</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
@@ -419,6 +477,10 @@
   <Difficulty_AllowCaveHives_Label>Geração de Mapas com Colmeias Insetoides</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>Ninhos de insetos dormentes podem desovar em cavernas naturais.\n\nEste parâmetro se aplica apenas na geração de mapas e não afeta insetos ativos que cavam tuneis durante o jogo</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>TODO</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>TODO</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Ferramentas do Jogador</DifficultyPlayerToolsSection>
@@ -462,7 +524,7 @@
   <DifficultyIdeologySection>Ideologia</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>Impulso de Conversão Inicial</Difficulty_LowPopConversionBoost_Label>
-  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
   <Difficulty_LowPopConversionBoost_Info>Com um único colono da ideologia inicial do jogador, a chance de conversão para sua ideologia é multiplicada por esse valor. As tentativas de conversão contra ele têm seu impacto dividido por esse valor.\n\nCom dois colonos da ideologia inicial do jogador, o efeito é reduzido pela metade.\n\nCom três ou mais colonos da ideologia inicial do jogador, não tem efeito.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
@@ -500,6 +562,8 @@
   <Elevation>Elevação</Elevation>
   <!-- EN: Fertility -->
   <Fertility>Fertilidade</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>TODO</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>Temperatura</AvgTemp>
   <!-- EN: Rainfall -->
@@ -534,6 +598,10 @@
   <Forageability>Foragibilidade</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>Nenhuma das pessoas selecionadas pode fazer os seguintes trabalhos:\n\n{0}\n\nIsso pode tornar o jogo mais difícil do que o habitual. Você tem certeza de que deseja continuar?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>TODO</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>TODO</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
@@ -558,20 +626,22 @@
   <IncapableOf>Incapaz de</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>Habilidades</Abilities>
-  <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>Causada pelo passado: {0}</IncapableOfTooltipBackstory>
-  <!-- EN: Caused by title: {0} -->
-  <IncapableOfTooltipTitle>Causada pelo título: {0}</IncapableOfTooltipTitle>
-  <!-- EN: Caused by trait: {0} -->
-  <IncapableOfTooltipTrait>Causada pela característica: {0}</IncapableOfTooltipTrait>
-  <!-- EN: Caused by: {0} -->
+  <!-- EN: Caused by -->
   <IncapableOfTooltipHediff>Causada por: {0}</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Tipos de trabalho desativados:</IncapableOfTooltipWorkTypes>
-  <!-- EN: Caused by quest status: {0} -->
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>Causada pelo passado: {0}</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>Causada pelo título: {0}</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>Causada pela característica: {0}</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
   <IncapableOfTooltipQuest>Causado pelo status da missão: {0}</IncapableOfTooltipQuest>
-  <!-- EN: Caused by role: {0} -->
+  <!-- EN: Caused by role -->
   <IncapableOfTooltipRole>Causado pela função: {0}</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>TODO</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>Traços</Traits>
   <!-- EN: Permanent mood effect -->
@@ -584,8 +654,6 @@
   <Adulthood>Idade Adulta</Adulthood>
   <!-- EN: Childhood -->
   <Childhood>Infância</Childhood>
-  <!-- EN: Current -->
-  <Current>Atual</Current>
   <!-- EN: male -->
   <Male>masculino</Male>
   <!-- EN: female -->
@@ -602,6 +670,8 @@
   <Health>Saúde</Health>
   <!-- EN: Relations -->
   <Relations>Relações</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>TODO</Possessions>
   <!-- EN: Team skills -->
   <TeamSkills>Habilidades da Equipe</TeamSkills>
   <!-- EN: Selected -->
@@ -645,7 +715,7 @@
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Gerando mapa para novo encontro</GeneratingMapForNewEncounter>
 
-  <!-- EN: Click for more info -->
+  <!-- EN: Click for more info. -->
   <ClickForMoreInfo>Clique para mais informações</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Não há mais informações disponíveis.</NoMoreInfoAvailable>
@@ -653,14 +723,10 @@
   <!-- Factions -->
   <!-- EN: Factions -->
   <Factions>Facções</Factions>
-  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>Problemas de jogabilidade podem ocorrer com mais de {0} facções.</RecommendedFactionCount>
-  <!-- EN: Maximum {0} visible factions allowed. -->
+  <!-- EN: max {0} basic factions allowed -->
   <TotalFactionsAllowed>Máximo de {0} facções visíveis permitidas.</TotalFactionsAllowed>
-  <!-- EN: There can be no more than {0} {1}. -->
+  <!-- EN: max {0} -->
   <MaxFactionsForType>Não pode haver mais do que {0} {1}.</MaxFactionsForType>
-  <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>Restaurar Padrões</ResetFactionsToDefault>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>Selecione as facções do mundo. Você pode selecionar até {0} facções no total.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
