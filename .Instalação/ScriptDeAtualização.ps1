@@ -14,7 +14,7 @@
 # Variáveis para usar
 $repo_owner = "Ludeon"
 $official_repo = "RimWorld-PortugueseBrazilian"
-$branch = "feat/BioTech"
+$branch = "master"
 
 $ingame_name = "PortugueseBrazilian (Português Brasileiro)"
 
