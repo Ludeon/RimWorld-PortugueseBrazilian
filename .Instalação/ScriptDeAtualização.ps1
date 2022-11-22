@@ -1,4 +1,4 @@
-﻿<#
+<#
 	.SINOPSE
 	Este script se encarrega de instalar/atualizar as traduções mais recentes.
 	.DESCRIÇÃO
@@ -11,7 +11,7 @@
 #>
 
 
-# Variáveis ​​para usar
+# Variáveis para usar
 $repo_owner = "Ludeon"
 $official_repo = "RimWorld-PortugueseBrazilian"
 $branch = "master"
@@ -127,6 +127,7 @@ Get-ChildItem -Name -Directory ".\" -Filter "$local_repo*" | Select-Object -Firs
 UpdateContent -LocalRepo $local_repo -Name "Core"
 UpdateContent -LocalRepo $local_repo -Name "Royalty"
 UpdateContent -LocalRepo $local_repo -Name "Ideology"
+UpdateContent -LocalRepo $local_repo -Name "Biotech"
 
 # Exclui o repositório baixado
 Remove-Item -Recurse -Force ".\$local_repo"
