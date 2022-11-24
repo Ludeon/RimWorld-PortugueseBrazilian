@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
+  <RecipeRequiresMechanitor>A receita {0} necessita de um mecanizador para poder produzir. Nenhum de seus colonos é um mecanizador, então ninguém executará esta tarefa.</RecipeRequiresMechanitor>
+
+  <!-- EN: genepacks -->
+  <GenepackPlural>pacote de genes</GenepackPlural>
+  <!-- EN: Traits develop later during childhood -->
+  <TraitsDevelopLaterBaby>Traços se desenvolvem mais tarde durante a infância</TraitsDevelopLaterBaby>
+  <!-- EN: Skills develop later during childhood -->
+  <SkillsDevelopLaterBaby>Habilidades se desenvolvem mais tarde durante a infância</SkillsDevelopLaterBaby>
+  <!-- EN: Genes -->
+  <TabGenes>Genes</TabGenes>
+
+  <!-- EN: View genes -->
+  <ViewGenes>Ver genes</ViewGenes>
+  <!-- EN: Click to view {PAWN_nameDef}'s genes. -->
+  <ViewGenesDesc>Clique para visualizar os genes de {PAWN_nameDef}.</ViewGenesDesc>
+
+  <!-- Feeding tab (human babies) -->
+  <!-- EN: Feeding -->
+  <TabFeeding>Refeição</TabFeeding>
+  <!-- EN: Auto feed settings -->
+  <AutofeedSectionHeader>Configurações de alimentação automática</AutofeedSectionHeader>
+  <!-- EN: never -->
+  <AutofeedModeNever>nunca</AutofeedModeNever>
+  <!-- EN: childcare -->
+  <AutofeedModeChildcare>Cuidador</AutofeedModeChildcare>
+  <!-- EN: urgent -->
+  <AutofeedModeUrgent>urgente</AutofeedModeUrgent>
+  <!-- EN: Nobody can feed this baby. -->
+  <AutofeedNone>Ninguém pode alimentar este bebê.</AutofeedNone>
+  <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
+  <AutofeedModeTooltipNever>{FEEDER_nameDef} não alimentará automaticamente {BABY_nameDef}.</AutofeedModeTooltipNever>
+  <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} alimentará {BABY_nameDef} como {FEEDER_gender ? seu : sua } cuidad{FEEDER_gender ? or : ora }.</AutofeedModeTooltipChildcare>
+  <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} alimentará {BABY_nameDef} dia ou noite, mesmo que {FEEDER_nameDef} não esteja designado para ser cuidador ou seja incapaz de cuidar de bebês.</AutofeedModeTooltipUrgent>
+  <!-- EN: Consumable foods -->
+  <BabyFoodConsumables>Alimentos consumíveis</BabyFoodConsumables>
+
+  <!-- Social tab (human babies) -->
+  <!-- EN: ideoligion exposure -->
+  <IdeoExposureSectionHeader>exposição à ideologia</IdeoExposureSectionHeader>
+  <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
+  <IdeoExposureNoExposure>{BABY_labelShort} ainda não foi exposto a nenhuma ideologia</IdeoExposureNoExposure>
+  <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
+  <IdeoExposureNoExposureDetail>{BABY_pronoun} pode ser expost{BABY_gender ? o : a}  a ideologias ao interagir com os seguidores delas. Essas interações incluem amamentar, carregar, brincar e mais. Ao atingir a idade de {CHILDAGE}, {BABY_labelShort} se juntará a uma das ideologias que teve contato.</IdeoExposureNoExposureDetail>
+  <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
+  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} possui uma probabilidade de {PERCENT} de se juntar à ideologia {IDEO_name}.</IdeoExposurePointsTooltipJoinLikelihood>
+  <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
+  <IdeoExposurePointsTooltipJoinDescription>Conforme {BABY_labelShort} for interagindo com os seguidores de uma ideologia, {BABY_pronoun} se torna mais propici{BABY_gender ? o : a} a se unir a esta ideologia. {BABY_labelShort} se juntará a uma das ideologias que teve contato com {CHILDAGE} de idade.</IdeoExposurePointsTooltipJoinDescription>
+  <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
+  <IdeoExposurePointsTooltipExposureDescription>A exposição à ideologia é calculada por pontos de exposião. Interações tais como amamentar, carregar ou brincar fará com que {BABY_labelShort} ganhe pontos de exposição para as ideologias dos colonos que interagem com {BABY_pronoun}.</IdeoExposurePointsTooltipExposureDescription>
+  <!-- EN: {IDEO_name} exposure points -->
+  <IdeoExposurePointsTooltipIdeoExposure>Pontos de exposição de {IDEO_name} </IdeoExposurePointsTooltipIdeoExposure>
+  <!-- EN: Total exposure points -->
+  <IdeoExposurePointsTooltipTotalExposure>Pontos totais de exposição</IdeoExposurePointsTooltipTotalExposure>
+
+  <!-- Social tab (romance) -->
+  <!-- EN: Romance -->
+  <TryRomanceButtonLabel>Romance</TryRomanceButtonLabel>
+  <!-- EN: Nobody for {0_labelShort} to romance. -->
+  <TryRomanceNoOptsMessage>Não há ninguém para {0_labelShort} ter um romance.</TryRomanceNoOptsMessage>
+  <!-- EN: unreachable -->
+  <CantRomanceTargetUnreachable>inalcançável</CantRomanceTargetUnreachable>
+  <!-- EN: sleeping -->
+  <CantRomanceTargetSleeping>dormindo</CantRomanceTargetSleeping>
+  <!-- EN: incapacitated -->
+  <CantRomanceTargetDowned>incapacitado</CantRomanceTargetDowned>
+  <!-- EN: drafted -->
+  <CantRomanceTargetDrafted>alistado</CantRomanceTargetDrafted>
+  <!-- EN: mental break -->
+  <CantRomanceTargetMentalState>colapso mental</CantRomanceTargetMentalState>
+  <!-- EN: incestuous -->
+  <CantRomanceTargetIncest>incestuoso</CantRomanceTargetIncest>
+  <!-- EN: low opinion -->
+  <CantRomanceTargetOpinion>baixa opnião</CantRomanceTargetOpinion>
+  <!-- EN: incompatible orientation -->
+  <CantRomanceTargetSexuality>orientação incompatível</CantRomanceTargetSexuality>
+  <!-- EN: prisoner -->
+  <CantRomanceTargetPrisoner>prisioneiro</CantRomanceTargetPrisoner>
+  <!-- EN: too young -->
+  <CantRomanceTargetYoung>muito jovem</CantRomanceTargetYoung>
+  <!-- EN: zero chance -->
+  <CantRomanceTargetZeroChance>chance zero</CantRomanceTargetZeroChance>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} não pode tentar namorar porque {0_pronoun} é um(a) prisioneir(a).</CantRomanceInitiateMessagePrisoner>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
+  <CantRomanceInitiateMessageSlave>{0_labelShort} não pode tentar namorar porque {0_pronoun} é um(a) escravo(a).</CantRomanceInitiateMessageSlave>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} não pode tentar namorar porque {0_pronoun} tem o traço assexual.</CantRomanceInitiateMessageAsexual>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
+  <CantRomanceInitiateMessageDowned>{0_labelShort} não pode tentar namorar porque {0_pronoun} está incapacitado(a).</CantRomanceInitiateMessageDowned>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
+  <CantRomanceInitiateMessageDrafted>0_labelShort} não pode tentar namorar porque {0_pronoun} está alistado(a).</CantRomanceInitiateMessageDrafted>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
+  <CantRomanceInitiateMessageMentalState>0_labelShort} não pode tentar namorar porque {0_pronoun} está em um estado mental inadequado.</CantRomanceInitiateMessageMentalState>
+  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
+  <CantRomanceInitiateMessageTalk>{0_labelShort} não pode tentar namorar porque {0_pronoun} não consegue falar.</CantRomanceInitiateMessageTalk>
+  <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} tentou namorar recentemente e deve esperar {1} até tentar novamente.</CantRomanceInitiateMessageCooldown>
+  <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
+  <TryRomanceFailedMessage>A tentativa de {0_labelShort} de namorar {1_labelShort} não foi bem-sucedida.</TryRomanceFailedMessage>
+  <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
+  <RomanceExistingRelationshipWarning>O romance de {INITIATOR_nameDef} com {TARGET_nameDef} pode semear ressentimento entre os parceiros existentes, levar a rompimentos e causar brigas.</RomanceExistingRelationshipWarning>
+  <!-- EN: Romance chance -->
+  <RomanceChance>Chancer de ter romance</RomanceChance>
+  <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
+  <RomanceChanceExistingRelation>já é {RELATION} de {PAWN_nameDef}</RomanceChanceExistingRelation>
+  <!-- EN: Cannot romance -->
+  <RomanceChanceCant>Não é possível namorar</RomanceChanceCant>
+  <!-- EN: Relative age -->
+  <RomanceChanceAgeFactor>Idade correspondente</RomanceChanceAgeFactor>
+  <!-- EN: Beauty -->
+  <RomanceChanceBeautyFactor>Beleza</RomanceChanceBeautyFactor>
+  <!-- EN: Opinion -->
+  <RomanceChanceOpinionFactor>Opinião</RomanceChanceOpinionFactor>
+  <!-- EN: Opinion of partner -->
+  <RomanceChancePartnerFactor>Opinião do(a) parceiro(a)</RomanceChancePartnerFactor>
+  <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
+  <RomanceFailedUnexpected>{0_labelShort} não conseguiu um romance com {1_labelShort}</RomanceFailedUnexpected>
+  <!-- EN: {0_nameDef} is already in a relationship. -->
+  <RomanceWarningMonogamous>{0_nameDef} já está em um relacionamento.</RomanceWarningMonogamous>
+  <!-- EN: {0_nameDef} already has {1} partners. -->
+  <RomanceWarningPolygamous>{0_nameDef} já tem {1} parceiro(s).</RomanceWarningPolygamous>
+
+  <!-- Guest tab (prisoners) -->
+  <!-- EN: Multiplier for genes -->
+  <FactorForGenes>Multiplicador de genes</FactorForGenes>
+  <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
+  <PrisonBreakingDisabledDueToGene>A fuga da prisão é desabilitada pelo gene {GENE_label}.</PrisonBreakingDisabledDueToGene>
+
+</LanguageData>
