@@ -364,8 +364,8 @@
   <WarmupTime>Aquecimento</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Aquecimento corpo a corpo</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
-  <RangedWarmupTime>Tempo de preparação para disparar</RangedWarmupTime>
+  <!-- EN: Aiming time -->
+  <RangedWarmupTime>Tempo para mirar</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Esfriamento</CooldownTime>
   <!-- EN: Disarmed -->
@@ -399,25 +399,25 @@
   <!-- EN: Harvest yield -->
   <HarvestYield>Rendimento da colheita</HarvestYield>
   <!-- EN: Min growth temperature -->
-  <MinGrowthTemperature>Temperatura mínima de crescimento</MinGrowthTemperature>
+  <MinGrowthTemperature>Temperatura mínima para crescer</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
-  <MaxGrowthTemperature>Temperatura máxima de crescimento</MaxGrowthTemperature>
+  <MaxGrowthTemperature>Temperatura máxima para crescer</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>As plantas crescem apenas durante uma parte do dia, e somente quando está iluminado.\n\nEsta estatística mede o tempo que a planta precisa crescer para atingir o tamanho máximo.\nO tempo de crescimento real efetiva será geralmente de cerca de duas vezes mais longa.\nBaixas temperaturas também desacelera o crescimento das plantas.</GrowingTimeDesc>
+  <GrowingTimeDesc>As plantas crescem apenas durante uma parte do dia, e somente quando está claro.\n\nEsta estatística mede o tempo que a planta precisa crescer para atingir o tamanho máximo.\nO tempo de crescimento real geralmente será cerca de duas vezes mais longo.\nBaixas temperaturas também desacelera o crescimento das plantas.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>dias</Days>
   <!-- EN: Minimum growing skill to sow -->
-  <MinGrowingSkillToSow>Habilidade mín. de agricultura para plantar</MinGrowingSkillToSow>
+  <MinGrowingSkillToSow>Habilidade mínima em cultivo</MinGrowingSkillToSow>
   <!-- EN: Fertility requirement -->
-  <FertilityRequirement>Requerimento de fertilidade</FertilityRequirement>
+  <FertilityRequirement>Fertilidade exigida</FertilityRequirement>
   <!-- EN: Fertility sensitivity -->
-  <FertilitySensitivity>Sensibilidade de fertilidade</FertilitySensitivity>
+  <FertilitySensitivity>Sensibilidade à fertilidade</FertilitySensitivity>
   <!-- EN: Light requirement -->
-  <LightRequirement>Requerimento de iluminação</LightRequirement>
+  <LightRequirement>Iluminação exigida</LightRequirement>
   <!-- EN: Attributes -->
   <Attributes>Atributos</Attributes>
   <!-- EN: Lifespan -->
-  <LifeSpan>Vida útil</LifeSpan>
+  <LifeSpan>Tempo de vida</LifeSpan>
   <!-- EN: Nutrition -->
   <Nutrition>Nutrição</Nutrition>
   <!-- EN: Recreation -->
@@ -479,17 +479,17 @@
   <!-- EN: High duration per dose -->
   <HighDuration>Duração do efeito da droga por dose</HighDuration>
   <!-- EN: Tolerance gain per dose -->
-  <ToleranceGain>Tolerância ao efeito ganha por dose</ToleranceGain>
+  <ToleranceGain>Tolerância ao efeito obtido por dose</ToleranceGain>
   <!-- EN: Tolerance fall rate -->
   <ToleranceFallRate>Queda da tolerância ao efeito</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Tolerância mínima para gerar vício</MinimumToleranceForAddiction>
   <!-- EN: Safe dose interval for adults -->
-  <SafeDoseInterval>Intervalo de dose segura</SafeDoseInterval>
+  <SafeDoseInterval>Intervalo de dose segura (adultos)</SafeDoseInterval>
   <!-- EN: age {0}-{1} -->
-  <AgeXToY>TODO</AgeXToY>
+  <AgeXToY>{0}-{1} anos</AgeXToY>
   <!-- EN: age {0}+ -->
-  <AgePlus>TODO</AgePlus>
+  <AgePlus>{0}+ anos</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Chance de viciar</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -497,11 +497,11 @@
   <!-- EN: Addiction severity per dose -->
   <AddictionSeverityPerDose>Gravidade do vício por dose</AddictionSeverityPerDose>
   <!-- EN: Addiction need fill per dose -->
-  <AddictionNeedOffset>Necessidade de dependência preenchida por dose</AddictionNeedOffset>
+  <AddictionNeedOffset>Necessidade do vício suprida</AddictionNeedOffset>
   <!-- EN: Addiction need fall rate -->
-  <AddictionNeedFallRate>Queda da necess. de dependência</AddictionNeedFallRate>
+  <AddictionNeedFallRate>Queda da necessidade do vício</AddictionNeedFallRate>
   <!-- EN: Addiction need dose interval -->
-  <AddictionNeedDoseInterval>Tempo entre doses</AddictionNeedDoseInterval>
+  <AddictionNeedDoseInterval>Tempo necessário entre doses</AddictionNeedDoseInterval>
   <!-- EN: Addiction recovery time -->
   <AddictionRecoveryTime>Tempo de recuperação do vício</AddictionRecoveryTime>
   <!-- EN: Addiction cost -->
@@ -531,19 +531,19 @@
   <!-- EN: Output quantity governed by -->
   <EfficiencyStat>Quantidade de saída regida por</EfficiencyStat>
   <!-- EN: {0} skill required -->
-  <SkillRequiredToBuild>Habilidade {0} necessária</SkillRequiredToBuild>
+  <SkillRequiredToBuild>Habilidade em {0} necessária</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
-  <SkillRequiredToBuildExplanation>Requer este nível de {0} para construir.</SkillRequiredToBuildExplanation>
+  <SkillRequiredToBuildExplanation>Requer este nível na habilidade de {0} para construir.</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Intervalo de acariciamento</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>Quantas vezes, em média um animal acariciará colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição.\nA maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>Chance de vingança</HarmedRevengeChance>
+  <HarmedRevengeChance>Chance de vingança se atacado</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
   <HarmedRevengeChanceExplanation>A chance desta criatura atacar quando ferida.\n\nEsta chance aumenta em até três vezes se o atacante estiver mais perto.\n\nEsta chance é aplicada cada vez que o dano é sofrido. Isso significa que armas de disparo mais lento e maior dano têm menos probabilidade de dispará-lo durante a caça.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
-  <TameFailedRevengeChance>Chance de vingança ao falhar uma domesticação</TameFailedRevengeChance>
+  <TameFailedRevengeChance>Chance de vingança ao domar</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
   <TerrainRequirement>Requisito de terreno</TerrainRequirement>
   <!-- EN: Supports -->

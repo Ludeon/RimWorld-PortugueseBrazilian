@@ -13,42 +13,42 @@
   <!-- EN: Slave -->
   <TabSlave>Escravo</TabSlave>
   <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
-  <SlaveReleaseRelationGainsDesc>A boa vontade da facção que você obterá se libertar um escravo. Isso é afetado pela saúde física e mental dos escravos.</SlaveReleaseRelationGainsDesc>
+  <SlaveReleaseRelationGainsDesc>A boa vontade que você obterá da facção se libertar um escravo. Isso é afetado pela saúde física e mental dos escravos.</SlaveReleaseRelationGainsDesc>
   <!-- EN: Relations gain on release -->
-  <SlaveReleasePotentialRelationGains>Ganho de relações na liberação</SlaveReleasePotentialRelationGains>
+  <SlaveReleasePotentialRelationGains>Ganho de relações na libertação</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>Intervalo de rebelião de escravos</SlaveRebellionMTBDays>
   <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>O número médio de dias entre as tentativas de rebelião de escravos. Apenas o tempo acordado é contado. Isso é afetado pela supressão, humor, saúde, proximidade de armas, o número de escravos no mapa e a presença de colonos no mapa.</SlaveRebellionMTBDaysDescription>
+  <SlaveRebellionMTBDaysDescription>O número médio de dias entre as tentativas de rebelião de escravos. Apenas o tempo acordado é contado. Isso é afetado pela repressão, humor, saúde, proximidade de armas, o número de escravos no mapa e a presença de colonos no mapa.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
-  <Suppression>repressão</Suppression>
+  <Suppression>Repressão</Suppression>
   <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
   <SuppressionDesc>A repressão é o efeito psicológico do medo e controle sobre um escravo. Se a repressão for baixa, os escravos têm maior probabilidade de se rebelar.</SuppressionDesc>
   <!-- EN: Suppression fall rate -->
-  <SuppressionFallRate>Taxa de queda de repressão</SuppressionFallRate>
+  <SuppressionFallRate>Taxa de queda da repressão</SuppressionFallRate>
   <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>A repressão cai com o tempo, dependendo de seu nível atual:\n\n- {1} + repressão: {0} por dia\n\n- {4} - {3} repressão: {2} por dia\n- {6} - repressão: {5} por dia\n\nVestuário e terror também podem afetar a taxa de supressão de queda. O cálculo da taxa de queda deste escravo é</SuppressionFallRateDesc>
+  <SuppressionFallRateDesc>A repressão cai com o tempo, dependendo de seu nível atual:\n\n- Repressão em +{1}: {0} por dia\n- repressão em {4}-{3}: {2} por dia\n- Repressão em -{6}: {5} por dia\n\nVestuário e terror também podem afetar a taxa de queda da repressão. O cálculo da taxa de queda deste escravo é</SuppressionFallRateDesc>
   <!-- EN: Cannot emancipate -->
   <CannotEmancipate>Não pode emancipar</CannotEmancipate>
   <!-- EN: Cannot imprison -->
   <CannotImprison>Não pode prender</CannotImprison>
   <!-- EN: Current suppression -->
-  <CurrentSuppression>repressão atual</CurrentSuppression>
+  <CurrentSuppression>Repressão atual</CurrentSuppression>
   <!-- EN: Terror -->
   <Terror>Terror</Terror>
   <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
-  <TerrorDescription>O terror é uma forma de manter os escravos reprimidos. Aumenta quando o escravo passa o tempo perto de coisas aterrorizantes, como esculturas de terror. Um escravo só pode ser afetado por três fontes de terror ao mesmo tempo.\n\nEnquanto o terror é alto, a repressão cai mais lentamente da seguinte maneira</TerrorDescription>
+  <TerrorDescription>O terror é uma forma de manter os escravos reprimidos. Aumenta quando o escravo passa o tempo perto de coisas aterrorizantes, como esculturas de terror. Um escravo só pode ser afetado por três fontes de terror ao mesmo tempo.\n\nEnquanto o terror está alto, a repressão cai mais lentamente da seguinte maneira</TerrorDescription>
   <!-- EN: Recent terrifying observations -->
-  <TerrorCurrentThoughts>Observações recentes aterrorizantes</TerrorCurrentThoughts>
+  <TerrorCurrentThoughts>Observações aterrorizantes recentes</TerrorCurrentThoughts>
 
   <!-- EN: Base interval -->
-  <SuppressionBaseInterval>Intervalo de base</SuppressionBaseInterval>
+  <SuppressionBaseInterval>Intervalo base</SuppressionBaseInterval>
   <!-- EN: Moving capacity -->
   <SuppressionMovingCapacityFactor>Capacidade de movimentação</SuppressionMovingCapacityFactor>
   <!-- EN: Suppression -->
-  <SuppressionFactor>repressão</SuppressionFactor>
+  <SuppressionFactor>Repressão</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>Humor</SuppressionMoodFactor>
   <!-- EN: Slave count -->
@@ -56,7 +56,7 @@
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>Rota de fuga</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
-  <SuppressionWeaponProximityFactor>Proximidade da arma</SuppressionWeaponProximityFactor>
+  <SuppressionWeaponProximityFactor>Proximidade de arma</SuppressionWeaponProximityFactor>
   <!-- EN: Final interval -->
   <SuppressionFinalInterval>Intervalo final</SuppressionFinalInterval>
   <!-- EN: Unattended -->

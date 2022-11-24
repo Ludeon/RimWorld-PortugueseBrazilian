@@ -65,13 +65,13 @@
   <!-- EN: Multiplier for light {0} -->
   <StatsReport_LightMultiplier>Multiplicador ({0}) de luz</StatsReport_LightMultiplier>
   <!-- EN: Multiplier for difficulty {0} -->
-  <StatsReport_DifficultyMultiplier>Multiplicador ({0}) de dificuldade</StatsReport_DifficultyMultiplier>
+  <StatsReport_DifficultyMultiplier>Multiplicador de dificuldade do Cenário "{0}"</StatsReport_DifficultyMultiplier>
   <!-- EN: In bed -->
   <StatsReport_InBed>Na cama</StatsReport_InBed>
   <!-- EN: Facilities -->
   <StatsReport_Facilities>Instalações</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
-  <StatsReport_BodySize>Multiplicador ({0}) para o tamanho do corpo</StatsReport_BodySize>
+  <StatsReport_BodySize>Multiplicador para o tamanho do corpo ({0})</StatsReport_BodySize>
   <!-- EN: Damaged -->
   <StatsReport_HasHediffExplanation>Danificado</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
@@ -99,7 +99,7 @@
   <!-- EN: Multiplier for worn by corpse -->
   <StatsReport_WornByCorpse>Multiplicador de taxa de usura de um corpo</StatsReport_WornByCorpse>
   <!-- EN: average of all attacks -->
-  <AverageOfAllAttacks>médica de todos os ataques</AverageOfAllAttacks>
+  <AverageOfAllAttacks>média de todos os ataques</AverageOfAllAttacks>
   <!-- EN: Scenario -->
   <StatsReport_ScenarioFactor>Cenário</StatsReport_ScenarioFactor>
   <!-- EN: Ingredients -->
@@ -233,7 +233,7 @@
   <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
   <Stat_Race_RoamInterval_Desc>Quão frequente um animal domesticado tentará se afastar e sair do mapa.\n\nOs animais só vagarão se tiverem um caminho direto para a borda do mapa. Você pode usar cercas, barricadas, paredes e portas para evitar isso.\n\nOs treinadores de animais podem amarrar os animais errantes e trazê-los de volta ao curral.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
-  <Stat_Thing_Ingestible_Joy_Desc>O valor recreativo de ingerir isso. Números maiores atenderão mais às necessidades de recreação.</Stat_Thing_Ingestible_Joy_Desc>
+  <Stat_Thing_Ingestible_Joy_Desc>O valor recreativo adquirido ao ingerir isso. Números maiores atenderão mais às necessidades de recreação.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>O tamanho do corpo desta criatura, em comparação com a média de um ser humano adulto.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -319,7 +319,7 @@
   <!-- EN: This floor is considered fine and suitable for royalty. -->
   <Stat_Thing_Terrain_Fine_Desc>Este piso é considerado bom e adequado para a realeza.</Stat_Thing_Terrain_Fine_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->
-  <Stat_Thing_PowerConsumption_Desc>A quantidade de energia que este edifício consumirá da rede elétrica.</Stat_Thing_PowerConsumption_Desc>
+  <Stat_Thing_PowerConsumption_Desc>A quantidade de energia que esta construção consumirá da rede elétrica.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
   <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} restantes</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
@@ -343,13 +343,13 @@
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>A eficiência geral desta parte do corpo.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Install sites -->
-  <Stat_Thing_InstallSites>TODO</Stat_Thing_InstallSites>
+  <Stat_Thing_InstallSites>Local de instalação</Stat_Thing_InstallSites>
   <!-- EN: Areas on the body where this can be installed. -->
-  <Stat_Thing_InstallSites_Desc>TODO</Stat_Thing_InstallSites_Desc>
+  <Stat_Thing_InstallSites_Desc>Áreas do corpo onde isso pode ser instalado.</Stat_Thing_InstallSites_Desc>
   <!-- EN: Replaces parts -->
-  <Stat_Thing_ReplacesParts>TODO</Stat_Thing_ReplacesParts>
+  <Stat_Thing_ReplacesParts>Substitui partes</Stat_Thing_ReplacesParts>
   <!-- EN: Body parts which are replaced by this when installed. -->
-  <Stat_Thing_ReplacesParts_Desc>TODO</Stat_Thing_ReplacesParts_Desc>
+  <Stat_Thing_ReplacesParts_Desc>Partes do corpo que são substituídas por isto quando instalado.</Stat_Thing_ReplacesParts_Desc>
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>Biocodificação</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
@@ -365,19 +365,19 @@
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>A cor na qual esta construção foi pintada.</Stat_Building_PaintColorDesc>
     <!-- EN: Growth rate -->
-  <Stat_Thing_Plant_GrowthRate>TODO</Stat_Thing_Plant_GrowthRate>
+  <Stat_Thing_Plant_GrowthRate>Taxa de crescimento</Stat_Thing_Plant_GrowthRate>
   <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
-  <Stat_Thing_Plant_GrowthRate_Desc>TODO</Stat_Thing_Plant_GrowthRate_Desc>
+  <Stat_Thing_Plant_GrowthRate_Desc>A taxa na qual uma planta está crescendo.\n\nA taxa de crescimento é afetada por coisas como fertilidade do solo, temperatura, luz e condições ambientais.</Stat_Thing_Plant_GrowthRate_Desc>
   <!-- EN: Age -->
-  <Stat_Thing_Plant_Age>TODO</Stat_Thing_Plant_Age>
+  <Stat_Thing_Plant_Age>Idade</Stat_Thing_Plant_Age>
   <!-- EN: How long this has been alive. -->
-  <Stat_Thing_Plant_AgeDesc>TODO</Stat_Thing_Plant_AgeDesc>
+  <Stat_Thing_Plant_AgeDesc>Há quanto tempo isso está vivo.</Stat_Thing_Plant_AgeDesc>
   <!-- EN: Lifespan -->
-  <Stat_Thing_Plant_Lifespan>TODO</Stat_Thing_Plant_Lifespan>
+  <Stat_Thing_Plant_Lifespan>Tempo de vida</Stat_Thing_Plant_Lifespan>
   <!-- EN: Paintable -->
-  <Stat_Building_Paintable>TODO</Stat_Building_Paintable>
+  <Stat_Building_Paintable>Pintável</Stat_Building_Paintable>
   <!-- EN: Whether this can be painted using dye. -->
-  <Stat_Building_PaintableDesc>TODO</Stat_Building_PaintableDesc>
+  <Stat_Building_PaintableDesc>Se isso pode ser pintado usando corante.</Stat_Building_PaintableDesc>
   <!-- EN: Paint color -->
   <Stat_Building_PaintColor>TODO</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
@@ -388,23 +388,23 @@
   <!-- EN: The category this drug belongs to. -->
   <Stat_Thing_Drug_Category_Desc>A categoria a qual esta droga pertence.</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>A intensidade do efeito químico ganho a cada dose desta droga.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>A intensidade do efeito desta droga obtido a cada dose tomada.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>Quanto o efeito desta droga vai cair a cada dia.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Quanto o efeito causado por esta droga vai cair a cada dia.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>Quanto tempo durará o efeito desta droga por cada dose\n\nIsto é calculado a partir do efeito da droga ganho por dose e Taxa de queda do efeito da droga.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Quanto tempo durará o efeito causado por esta droga por cada dose tomada.\n\nIsto é calculado a partir do efeito da droga ganho por dose e taxa de queda do efeito da droga.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
   <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Quanto a tolerância do usuário a substância química aumentará para cada dose tomada desta droga.\n\nIsso pode ser diferente para as diversas formas da mesma substância química.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
-  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Quanto a tolerância do usuário ao produto químico cairá por dia.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Quanto a tolerância do usuário a substância química cairá por dia.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>A tolerância mínima requerida para adquirir novo vício nesta droga.\n\nSe um usuário está abaixo deste nível de tolerância, ele não pode tornar-se recém viciado após tomar uma dose.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>A tolerância mínima necessária para se tornar recém-viciado nesta droga.\n\nSe um usuário está abaixo deste nível de tolerância, ele não pode se tornar um recém-viciado após tomar uma dose.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Um usuário nunca se tornará viciado se nunca tomar a droga com mais frequência do que isso.\n\nIsso é calculado a partir da tolerância mínima para se viciar na droga, a tolerância ao efeito ganha por dose e a taxa de queda da tolerância ao efeito.\n\nObserve que alguns as drogas não têm um intervalo de dose segura. Essas drogas podem causar dependência em qualquer dose tomada, até mesmo na primeira.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Um adulto só ficará viciado se tomar a droga com mais frequência do que isso.\n\nIsso é calculado a partir da tolerância mínima a droga, tolerância ganha por dose e a taxa de queda da tolerância. Algumas drogas não têm um intervalo seguro. Essas drogas podem viciar em qualquer dose, mesmo na primeira.\n\nObserve que o intervalo de dose segura depende do tamanho do corpo de uma pessoa.\n</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>A chance de uma overdose aleatória ao tomar esta droga. Overdoses aleatórias podem acontecer com qualquer dose, seja a primeira tentativa de um novo usuário ou a centésima dose de um viciado experiente.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>A chance de dependência por dose desta droga.\n\nSe a droga tem uma tolerância mínima para viciar, a tolerância deve estar acima desse nível para que isso se aplique. Se não houver tolerância mínima, qualquer dose pode causar um vício.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>A chance de dependência por dose desta droga.\n\nSe a droga tem uma tolerância mínima para gerar vicio, esta tolerância mínima deve estar acima desse nível para que isso se aplique. Se não houver tolerância mínima, qualquer dose pode causar um vício.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
   <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Novos vícios causados por esta droga começam neste nível de gravidade.\n\nTomar mais da droga aumentará a gravidade do vício, enquanto o tempo reduzirá-la.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
@@ -416,9 +416,9 @@
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
   <Stat_Thing_Drug_AddictionNeedOffset_Desc>Quanto cada dose desta droga preenche a necessidade de um viciado em relação ao produto químico.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
-  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>A rapidez com que diminuirá a necessidade de um viciado pelo produto químico.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Com que rapidez a necessidade de um viciado pelo produto químico cairá.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc>O valor de mercado das drogas que devem ser consumidas por dia para sustentar um vício a esta droga sem entrar em abstinência.\n\nEste valor é calculado a partir da necessidade química do viciado por dose, a taxa de queda da necessidade e o valor de mercado desta droga . \ n \ nObserve que pode haver outras maneiras de obter o mesmo produto químico com custos diferentes.</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc>O valor de mercado das drogas que devem ser consumidas por dia para sustentar um vício sem entrar em abstinência.\n\nEste valor é calculado a partir da necessidade química do viciado por dose, a taxa de queda da necessidade e o valor de mercado desta droga.\n\nObserve que pode haver outras maneiras de obter o mesmo produto químico com custos diferentes.</Stat_Thing_Drug_AddictionCost_Desc>
 
   <!-- EN: Style -->
   <Stat_Thing_StyleLabel>Estilo</Stat_Thing_StyleLabel>
@@ -434,21 +434,21 @@
   <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
   <Stat_Animal_LitterSizeDesc>O número de descendentes que esta criatura cria por ninhada. Se este for um intervalo, qualquer ninhada específica terá um número aleatório de descendentes neste intervalo.</Stat_Animal_LitterSizeDesc>
   <!-- EN: Adult meat amount -->
-  <Stat_Animal_AdultMeatAmount>Quantidade de carne adulta</Stat_Animal_AdultMeatAmount>
+  <Stat_Animal_AdultMeatAmount>Quantidade de carne quando adulto</Stat_Animal_AdultMeatAmount>
   <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
   <Stat_Animal_AdultMeatAmountDesc>A quantidade básica de carne produzida pelo abate de um membro adulto desta espécie. O rendimento real é afetado por outros fatores, como danos ao corpo e habilidade do açougueiro.</Stat_Animal_AdultMeatAmountDesc>
   <!-- EN: Growth time -->
   <Stat_Animal_GrowthTime>Tempo de crescimento</Stat_Animal_GrowthTime>
   <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
-  <Stat_Animal_GrowthTimeDesc>Quanto tempo normalmente leva para essa criatura atingir a idade adulta. Este tempo será mais longo se a criatura morrer de fome.</Stat_Animal_GrowthTimeDesc>
+  <Stat_Animal_GrowthTimeDesc>Quanto tempo normalmente leva para essa criatura atingir a idade adulta. Este tempo será mais longo se a criatura estiver faminta.</Stat_Animal_GrowthTimeDesc>
   <!-- EN: Meat per day during growth -->
   <Stat_Animal_MeatPerDayDuringGrowth>Carne por dia durante o crescimento</Stat_Animal_MeatPerDayDuringGrowth>
   <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
-  <Stat_Animal_MeatPerDayDuringGrowthDesc>Esta criatura ganha esta quantidade de carne a cada dia em que cresce, até atingir a idade adulta. \ N \ nEste valor é calculado a partir da quantidade de carne e do tempo de crescimento.</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>Esta criatura ganha esta quantidade de carne a cada dia em que cresce, até atingir a idade adulta.\n\nEste valor é calculado a partir da quantidade de carne e do tempo de crescimento.</Stat_Animal_MeatPerDayDuringGrowthDesc>
   <!-- EN: Grass to maintain -->
   <Stat_Animal_GrassToMaintain>Grama para manter</Stat_Animal_GrassToMaintain>
   <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->
-  <Stat_Animal_GrassToMaintainDesc>O número típico de gramíneas de que essa criatura precisa para atender às suas necessidades dietéticas. Isso se baseia na grama normal com taxas de crescimento típicas e ignora o inverno.</Stat_Animal_GrassToMaintainDesc>
+  <Stat_Animal_GrassToMaintainDesc>O número típico de gramíneas que essa criatura precisa para atender às suas necessidades alimentares. Isso se baseia na grama normal com taxas de crescimento típicas e ignora o inverno.</Stat_Animal_GrassToMaintainDesc>
   <!-- EN: Egg type -->
   <Stat_Animal_EggType>Tipo de ovo</Stat_Animal_EggType>
   <!-- EN: The type of egg this creature lays. -->
@@ -458,13 +458,13 @@
   <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
   <Stat_Animal_EggsPerYearDesc>O número de ovos que esta criatura põe por ano. Algumas criaturas precisam ser fertilizadas para botar ovos. A postura dos ovos será mais lenta se a criatura morrer de fome.</Stat_Animal_EggsPerYearDesc>
   <!-- EN: Egg nutrition -->
-  <Stat_Animal_EggNutrition>Nutrição de ovo</Stat_Animal_EggNutrition>
+  <Stat_Animal_EggNutrition>Nutrição do ovo</Stat_Animal_EggNutrition>
   <!-- EN: The amount of nutrition in a single egg laid by this creature. -->
   <Stat_Animal_EggNutritionDesc>A quantidade de nutrição em um único ovo posto por esta criatura.</Stat_Animal_EggNutritionDesc>
   <!-- EN: Egg nutrition per year -->
-  <Stat_Animal_EggNutritionYearly>Nutrição de ovo por ano</Stat_Animal_EggNutritionYearly>
+  <Stat_Animal_EggNutritionYearly>Nutrição do ovo por ano</Stat_Animal_EggNutritionYearly>
   <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
-  <Stat_Animal_EggNutritionYearlyDesc>A quantidade de nutrição anual gerada pelos ovos postos por esta criatura a cada ano. \ In \ Este valor é calculado a partir dos ovos por ano e da nutrição do ovo.</Stat_Animal_EggNutritionYearlyDesc>
+  <Stat_Animal_EggNutritionYearlyDesc>A quantidade de nutrição anual gerada pelos ovos postos por esta criatura a cada ano.\n\nEste valor é calculado a partir dos ovos por ano e da nutrição do ovo.</Stat_Animal_EggNutritionYearlyDesc>
   <!-- EN: Egg market value -->
   <Stat_Animal_EggMarketValue>Valor de mercado do ovo</Stat_Animal_EggMarketValue>
   <!-- EN: The market value of a single laid egg. -->
@@ -482,7 +482,7 @@
   <!-- EN: The amount of milk this creature produces each time it is milked. -->
   <Stat_Animal_MilkAmountDesc>A quantidade de leite que esta criatura produz cada vez que é ordenhada.</Stat_Animal_MilkAmountDesc>
   <!-- EN: Milking interval -->
-  <Stat_Animal_MilkGrowthTime>Intervalo de ordenha</Stat_Animal_MilkGrowthTime>
+  <Stat_Animal_MilkGrowthTime>Intervalo entre ordenhas</Stat_Animal_MilkGrowthTime>
   <!-- EN: The amount of time this creature needs between milkings. -->
   <Stat_Animal_MilkGrowthTimeDesc>A quantidade de tempo que essa criatura precisa antes de ordenha.</Stat_Animal_MilkGrowthTimeDesc>
   <!-- EN: Milk per year -->
@@ -512,7 +512,7 @@
   <!-- EN: Wool amount per year -->
   <Stat_Animal_WoolPerYear>Quantidade de lã por ano</Stat_Animal_WoolPerYear>
   <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
-  <Stat_Animal_WoolPerYearDesc>A quantidade de lã produzida por esta criatura por ano. \ N \ nIsto é calculado a partir da quantidade de lã e do intervalo de tosquia.</Stat_Animal_WoolPerYearDesc>
+  <Stat_Animal_WoolPerYearDesc>A quantidade de lã produzida por esta criatura por ano.\n\nIsto é calculado a partir da quantidade de lã e do intervalo de tosquia.</Stat_Animal_WoolPerYearDesc>
   <!-- EN: Wool market value -->
   <Stat_Animal_WoolValue>Valor de mercado da lã</Stat_Animal_WoolValue>
   <!-- EN: The market value of one unit of this creature's wool. -->
@@ -520,7 +520,7 @@
   <!-- EN: Wool value per year -->
   <Stat_Animal_WoolValuePerYear>Valor da lã por ano</Stat_Animal_WoolValuePerYear>
   <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
-  <Stat_Animal_WoolValuePerYearDesc>O valor de mercado da lã de um ano desta criatura. \ N \ nIsto é calculado a partir da quantidade de lã por ano e do valor de mercado da lã.</Stat_Animal_WoolValuePerYearDesc>
+  <Stat_Animal_WoolValuePerYearDesc>O valor de mercado da lã de um ano desta criatura.\n\nIsto é calculado a partir da quantidade de lã por ano e do valor de mercado da lã.</Stat_Animal_WoolValuePerYearDesc>
 
   <!-- EN: How much of the total possible study you have performed on this object. -->
   <Stat_Studiable_Desc>Quanto do limite máximo deste objeto que você analisou.</Stat_Studiable_Desc>
