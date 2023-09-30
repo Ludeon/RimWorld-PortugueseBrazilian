@@ -13,6 +13,22 @@
   <Close>Fechar</Close>
   <!-- EN: Accept -->
   <Accept>Aceitar</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>Cancelar</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Redefinir</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>Redefinir tudo</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>Desabilitar</Disable>
+  <!-- EN: Modify -->
+  <Modify>Modificar</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>Estabelecer-se aqui mesmo assim?</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>adicionar</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>Impossível disparar</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -163,10 +179,28 @@
   <ZoneGainsName>A zona agora se chama {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>O nome escolhido é inválido.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>O apelido dessa pessoa agora é {0}. Seu título é {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>O nome do animal agora é {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>renomear pessoa</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>mãe</Mother>
+  <!-- EN: father -->
+  <Father>pai</Father>
+  <!-- EN: unknown -->
+  <Unknown>desconhecido</Unknown>
+  <!-- EN: first name -->
+  <FirstName>nome</FirstName>
+  <!-- EN: nickname -->
+  <NickName>apelido</NickName>
+  <!-- EN: last name -->
+  <LastName>sobrenome</LastName>
+  <!-- EN: suggested -->
+  <Suggested>sugerido</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -181,6 +215,10 @@
   <ModsMismatchWarningTitle>Incompatibilidade de mods</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
   <ModsMismatchWarningText>O mapa foi salvo com um conjunto diferente de mods ativos dos que estamos executando atualmente. Isto pode ou não pode causar problemas, dependendo exatamente o que estes mods fazem.\n\nMapa foi salvo com (nesta ordem):\n\n{0}\n\nEstamos rodando com:\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>Nenhum mod foi adicionado ou removido, mas a ordem da sua lista de mods mudou.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>Tem certeza de que deseja carregar a lista de mods deste arquivo de salvamento?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -193,6 +231,18 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo desenvolvedor neste computador?</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>Tem certeza de que deseja redefinir o assistente de aprendizado?\n\nTodos os registros de quais conceitos foram aprendidos serão apagados e o sistema ensinará tudo desde o início.</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>Passados agora são implementados como uma definição e todas as traduções antigas foram importadas para as traduções de definições. O arquivo {0} foi importado e movido para {1}. Agora ele pode ser excluído.\n\nReinicie o jogo para que as alterações tenham efeito.</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>Deve incluir exatamente {SUMMARY}</SelectedCharactersMustInclude>
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
@@ -256,6 +306,8 @@
   <MinimumSkills>Habilidade mínima:</MinimumSkills>
   <!-- EN: Requires {0} {1} -->
   <BillRequires>Requer {0} {1}</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>nutrição</BillNutrition>
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requer {0} de nutrição</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
@@ -436,6 +488,10 @@
   <MinimumToleranceForAddiction>Tolerância mínima para gerar vício</MinimumToleranceForAddiction>
   <!-- EN: Safe dose interval -->
   <SafeDoseInterval>Intervalo de dose segura</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>idade de {0} a {1}</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>idade maior que {0}</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Chance de viciar</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -790,6 +846,8 @@
   <TotalBodySize>Tamanho total do corpo</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Selecionar automaticamento os suprimentos de viagem</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>Este animal está doente. Ele está sofrendo das seguintes doenças:</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -954,6 +1012,8 @@
   <NoFoodRestrictionSelected>Sem Restrição Alimentar</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>Configuração padrão de medicamentos</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Padrões</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1020,6 +1080,8 @@
   <ConfirmCancelMonumentMarker>Deseja mesmo remover este marcador de monumento?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>Impossível utilizar {0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Linha de visão necessária</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1034,6 +1096,8 @@
   <AbilityCastingTime>Tempo de invocação</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Nenhuma linha de visão para mirar.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>Alvo fora de alcance.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>Impossível chegar ao alvo.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
@@ -1062,6 +1126,10 @@
   <AbilityCantApplyOnAsexual>Impossível usar: {0} é assexuad{PAWN_gender ? o : a }.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} é o gênero errado para {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort} é muito jovem.</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>O alvo não pode ser um bebê.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Custo de concentração psíquica por intensidade do rompimento mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1191,5 +1259,69 @@
   <RoomRequirementNoProductionFacilities>sem instalações de trabalho permitidas</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>sem altares permitidos</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>Fator alimentar máximo de estágio de vida</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Expandir tudo</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Retrair tudo</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>A tinta pode ser produzida a partir de tintória ou comprada de comerciantes.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>Faixa de ampliação {0}</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>temperatura da cor</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>escolha uma cor</ChooseAColor>
+  <!-- EN: red -->
+  <Red>vermelho</Red>
+  <!-- EN: green -->
+  <Green>verde</Green>
+  <!-- EN: blue -->
+  <Blue>azul</Blue>
+  <!-- EN: hue -->
+  <Hue>mat.</Hue>
+  <!-- EN: sat -->
+  <Saturation>sat.</Saturation>
+  <!-- EN: value -->
+  <ColorValue>valor</ColorValue>
+  <!-- EN: darklight -->
+  <Darklight>luz negra</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>luz normal</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>cor atual</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>cor antiga</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>Copiar cor</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>Copie a cor atual para a área de transferência.</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>Colar cor</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>Substitua a cor pela cor da área de transferência.</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>A área de transferência não contém uma cor válida.</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>Cor copiada para a área de transferência.</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>Cor atualizada da área de transferência.</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>Alterar para luz normal</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>Altere a cor da luz para sua cor normal.</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>Alterar para luz negra</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>Altere a cor da luz para luz negra.</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>Escolha uma cor definindo a temperatura da cor. Nota: isso afeta apenas o visual da cor, não a produção de calor.</ColorTemperatureTooltip>
 
 </LanguageData>
