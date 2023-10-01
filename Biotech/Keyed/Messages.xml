@@ -15,6 +15,8 @@
   <MessageCantUseOnResistingPerson>Não é possível usar {ABILITY_label} em qualquer pessoa que resista ativamente.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort} já possui o xenótipo {0_xenotype}.</MessageCannotUseOnSameXenotype>
+  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
+  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Xenogerminadores só podem ser implantados em colonos, prisioneiros e escravos.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
@@ -27,6 +29,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>Absorver o xenogerminador de {PAWN_nameDef} irritará {0}.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label} só pode ser usado em colonos, prisioneiros e escravos.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>TODO</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>Adicionando automaticamente {MECH_nameDef} à caravana, pois está escoltando {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -43,6 +47,8 @@
   <MessagePregnancyTerminated>A gravidez de {PAWN_nameDef} foi encerrada com sucesso.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>Necessita de terreno não poluído.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -103,9 +109,14 @@
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>O(a) {BED_labelShort} de {PAWN_nameDef} que é designado para uso em descanso mortal foi exposto à luz solar. {PAWN_nameDef} não pode descansar lá.</MessageBedExposedToSunlight>
 
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>TODO</GeneExtractorNoPowerEjectedMessage>
+
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>O cérebro de {PAWN_nameDef} foi destruído pelo scanner rompedor de subnúcleo.</MessagePawnKilledRipscanner> 
+  <MessagePawnKilledRipscanner>O cérebro de {PAWN_nameDef} foi destruído pelo scanner rompedor de subnúcleo.</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>TODO</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>Não é possível ressuscitar cadáveres dessecados.</MessageCannotResurrectDessicatedCorpse>
@@ -140,5 +151,14 @@
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Aviso: {0_labelShort} está carregando um bebê enquanto está alistado.</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>TODO</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>TODO</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>TODO</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>TODO</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>
