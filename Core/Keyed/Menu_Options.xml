@@ -4,12 +4,26 @@
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
   <Audiovisuals>Áudio Visuais</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>Volume Principal</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>Volume do Jogo</GameVolume>
   <!-- EN: Music volume -->
   <MusicVolume>Volume da Música</MusicVolume>
   <!-- EN: Ambient volume -->
   <AmbientVolume>Volume Ambiente</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>Volume da Interface</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>Afeta todos os sons.</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>Afeta todos os sons do mundo, por exemplo, cortar árvores e construir muros.</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>Afeta a música.</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>Afeta todos os sons ambientes, por exemplo, vento e insetos.</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>Afeta todos os sons da interface, por exemplos, cliques em botões e mensagens.</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>Anti-Serrilhado</Antialiasing>
 
@@ -32,6 +46,8 @@
   <KeyboardConfig>Configuração do Teclado</KeyboardConfig>
   <!-- EN: Controller configuration -->
   <ControllerConfig>Configurações do Controle</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>Modificar</ModifyConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Idioma</ChooseLanguage>
   <!-- EN: Reset learning helper -->
@@ -50,8 +66,22 @@
   <SimulateNotOwningRoyalty>Simula. de Não-Posse do Royalty</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>Simula. de Não-Posse do Ideology</SimulateNotOwningIdeology>
+  <!-- EN: Simulate not owning Biotech -->
+  <SimulateNotOwningBiotech>Simula. de Não-Posse do Biotech</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
   <LogVerbose>Relatório Detalhado</LogVerbose>
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>Pasta de Dados de Salvamento</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>Localização dos Dados de Salvamento</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>Pasta de Arquivos de Registro</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>Localização dos Arquivos de Registro</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>Abrir</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>Mostrar</ShowFolder>
   <!-- EN: Open save data folder -->
   <OpenSaveGameDataFolder>Pasta de Jogos Salvos</OpenSaveGameDataFolder>
   <!-- EN: Show save data location -->
@@ -62,6 +92,8 @@
   <ShowLogFileLocation>Mostrar local do arquivo de registro</ShowLogFileLocation>
   <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
   <NamesYouWantToSee>Nomes preferidos criados pelo usuário. Estes nomes serão mais proposensos a aparecer de maneira aleatória durante o jogo:</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>É mais provável que esses personagens apareçam aleatoriamente durante o jogo.</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>Adicionar Nome</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
@@ -72,6 +104,8 @@
   <ChangeStoryteller>Configurações de Narrador</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>Interv. de Salvam.</AutosaveInterval>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>O número de dias no jogo entre cada salvamento automático.</AutosaveIntervalTooltip>
   <!-- EN: Temperature mode -->
   <TemperatureMode>Modo de Temp.</TemperatureMode>
   <!-- EN: Show realtime clock -->
@@ -96,12 +130,20 @@
   <TextureCompression>Compressão de Textura</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Desativar a compactação de textura usará muito mais memória de vídeo, mas faz com que as texturas pareçam um pouco melhores em áreas detalhadas. Desative-o apenas se souber que tem muita memória de vídeo extra.\n\nObserve que o uso de certos mods geralmente consome muito mais memória de vídeo, portanto, pode ser necessário ativá-lo se adicionar certos mods.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>Saltos Suaves da Câmera</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>Quando habilitado, a câmera fará uma panorâmica rápida ao focar em um novo local. Quando desabilitada, a câmera saltará instantaneamente.</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
   <Resolution>Resolução</Resolution>
   <!-- EN: Fullscreen -->
   <Fullscreen>Tela Cheia</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>Tela Cheia sem Bordas</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>Para executar o RimWorld no modo de tela cheia sem bordas:\n\n1) Abra a Steam;\n2) Vá para a guia "Biblioteca" na parte superior;\n3) Encontre o RimWorld na lista e, sobre ele, clique com o botão direito do mouse;\n4) Escolha "Propriedades...";\n5) Adicione "-popupwindow" sem aspas em "Opções de Inicialização" na aba "Geral";\n6) Reinicie o jogo;\n7) Se feito corretamente, você não verá esta janela.\n\nDica: Use as teclas Windows + Shift + Esquerda/Direita para mover a janela entre os monitores.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
@@ -110,6 +152,8 @@
   <NoConfigurableMods>Sem mods configuráveis carregados.</NoConfigurableMods>
   
   <!-- Options reset -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>Redefinir as Configurações</RestoreToDefaultSettingsLabel>
   <!-- EN: Restore to default settings -->
   <RestoreToDefaultSettings>Restaurar as Configurações Padrão</RestoreToDefaultSettings>
   <!-- EN: Your options have been reset. The game will now restart automatically. -->
