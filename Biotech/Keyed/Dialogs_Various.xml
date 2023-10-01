@@ -22,6 +22,14 @@
   <ConfirmInstallMechlink>Um mecanizador deve ser capaz de forjar para criar mecanoides\n\nTem certeza de que deseja continuar?</ConfirmInstallMechlink>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>banda-larga insuficiente</InsufficientBandwidth>
+  <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
+  <MechanitorLeftMapWithoutMechs>TODO</MechanitorLeftMapWithoutMechs>
+
+  <!-- Apparel -->
+  <!-- EN: Any mechlord apparel -->
+  <ApparelRequirementAnyMechlordApparel>TODO</ApparelRequirementAnyMechlordApparel>
+  <!-- EN: or any psycaster, prestige, or mechlord apparel -->
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>TODO</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
@@ -32,6 +40,8 @@
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
   <ConfirmRipscanPawn>Escanear {PAWN_nameDef} matará {PAWN_pronoun}. Você tem certeza que quer continuar?</ConfirmRipscanPawn>
+  <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
+  <ConfirmCancelRipscan>TODO</ConfirmCancelRipscan>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
@@ -234,6 +244,8 @@
   <MechWorkSkillDesc>O nível de habilidade com o qual este mecanoide atua.</MechWorkSkillDesc>
   <!-- EN: Any mech -->
   <AnyMech>Qualquer mecanoide</AnyMech>
+  <!-- EN: Any human -->
+  <AnyNonMech>Qualquer humano</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
   <CaravanLacksMechMechanitorWarning>Sua caravana contém um mecanoide, mas não o supervisor. Você terá controle limitado sobre o mecanoide quando chegar ao seu destino.</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
@@ -343,5 +355,9 @@
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
   <AbilityMustHaveTendableWound>{0_labelShort} deve ter um ferimento tratável.</AbilityMustHaveTendableWound>
+
+  <!-- Abandon home (including mechs) -->
+  <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>TODO</ConfirmAbandonHomeWithColonyPawnsIncMechs>
 
 </LanguageData>
