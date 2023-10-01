@@ -39,11 +39,11 @@
   <!-- EN: Post-process curve -->
   <StatsReport_PostProcessed>Curva do pós-processamento</StatsReport_PostProcessed>
   <!-- EN: The chances to hit at increasing distances are -->
-  <StatsReport_ShootingExampleDistances>TODO</StatsReport_ShootingExampleDistances>
+  <StatsReport_ShootingExampleDistances>As chances de acertar em distâncias crescentes são</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
   <!-- EN: Multiplier for {0} -->
-  <StatsReport_MultiplierFor>TODO</StatsReport_MultiplierFor>
+  <StatsReport_MultiplierFor>Multiplicador para {0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
   <StatsReport_MarketValueFromStuffsAndWork>Materiais e trabalho</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
@@ -54,6 +54,8 @@
   <StatsReport_MaxGain>Ganho máximo</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
   <StatsReport_AgeMultiplier>Multiplicador da idade  ({0})</StatsReport_AgeMultiplier>
+  <!-- EN: Offset for age {0} -->
+  <StatsReport_AgeOffset>Compensação para idade de {0}</StatsReport_AgeOffset>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Multiplicador da saúde ({0})</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
@@ -343,45 +345,38 @@
   <!-- EN: The overall efficiency of this body part. -->
   <Stat_Thing_BodyPartEfficiency_Desc>A eficiência geral desta parte do corpo.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Install sites -->
-  <Stat_Thing_InstallSites>TODO</Stat_Thing_InstallSites>
+  <Stat_Thing_InstallSites>Locais de instalação</Stat_Thing_InstallSites>
   <!-- EN: Areas on the body where this can be installed. -->
-  <Stat_Thing_InstallSites_Desc>TODO</Stat_Thing_InstallSites_Desc>
+  <Stat_Thing_InstallSites_Desc>Áreas no corpo onde pode ser instalado.</Stat_Thing_InstallSites_Desc>
   <!-- EN: Replaces parts -->
-  <Stat_Thing_ReplacesParts>TODO</Stat_Thing_ReplacesParts>
+  <Stat_Thing_ReplacesParts>Partes substituídas</Stat_Thing_ReplacesParts>
   <!-- EN: Body parts which are replaced by this when installed. -->
-  <Stat_Thing_ReplacesParts_Desc>TODO</Stat_Thing_ReplacesParts_Desc>
+  <Stat_Thing_ReplacesParts_Desc>Partes do corpo que são substituídas quando instalado.</Stat_Thing_ReplacesParts_Desc>
   <!-- EN: Biocoding -->
   <Stat_Thing_Biocoded_Name>Biocodificação</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
   <Stat_Thing_Biocoded_Desc>Este item foi codificado para aceitar apenas a bio-assinatura de um indivíduo em particular.</Stat_Thing_Biocoded_Desc>
   <!-- EN: Required apparel -->
-  <Stat_Pawn_RequiredApparel_Name>Vestuário necessário</Stat_Pawn_RequiredApparel_Name>
+  <Stat_Pawn_RequiredApparel_Name>Ferramenta necessária</Stat_Pawn_RequiredApparel_Name>
+  <!-- EN: Growth rate -->
+  <Stat_Thing_Plant_GrowthRate>Taxa de crescimento</Stat_Thing_Plant_GrowthRate>
+  <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
+  <Stat_Thing_Plant_GrowthRate_Desc>A taxa de crescimento de uma planta.\n\nA taxa de crescimento é afetada por coisas como fertilidade do solo, temperatura, luz e condições ambientais.</Stat_Thing_Plant_GrowthRate_Desc>
+  <!-- EN: Age -->
+  <Stat_Thing_Plant_Age>Idade</Stat_Thing_Plant_Age>
+  <!-- EN: How long this has been alive. -->
+  <Stat_Thing_Plant_AgeDesc>Há quanto tempo está vivo(a).</Stat_Thing_Plant_AgeDesc>
+  <!-- EN: Lifespan -->
+  <Stat_Thing_Plant_Lifespan>Duração da vida</Stat_Thing_Plant_Lifespan>
   <!-- EN: Paintable -->
   <Stat_Building_Paintable>Pintável</Stat_Building_Paintable>
   <!-- EN: Whether this can be painted using dye. -->
-  <Stat_Building_PaintableDesc>Se isso pode ser pintado usando corante.</Stat_Building_PaintableDesc>
+  <Stat_Building_PaintableDesc>Se pode ser pintado(a) com tinta.</Stat_Building_PaintableDesc>
   <!-- EN: Paint color -->
   <Stat_Building_PaintColor>Cor da pintura</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
-  <Stat_Building_PaintColorDesc>A cor na qual esta construção foi pintada.</Stat_Building_PaintColorDesc>
-    <!-- EN: Growth rate -->
-  <Stat_Thing_Plant_GrowthRate>TODO</Stat_Thing_Plant_GrowthRate>
-  <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
-  <Stat_Thing_Plant_GrowthRate_Desc>TODO</Stat_Thing_Plant_GrowthRate_Desc>
-  <!-- EN: Age -->
-  <Stat_Thing_Plant_Age>TODO</Stat_Thing_Plant_Age>
-  <!-- EN: How long this has been alive. -->
-  <Stat_Thing_Plant_AgeDesc>TODO</Stat_Thing_Plant_AgeDesc>
-  <!-- EN: Lifespan -->
-  <Stat_Thing_Plant_Lifespan>TODO</Stat_Thing_Plant_Lifespan>
-  <!-- EN: Paintable -->
-  <Stat_Building_Paintable>TODO</Stat_Building_Paintable>
-  <!-- EN: Whether this can be painted using dye. -->
-  <Stat_Building_PaintableDesc>TODO</Stat_Building_PaintableDesc>
-  <!-- EN: Paint color -->
-  <Stat_Building_PaintColor>TODO</Stat_Building_PaintColor>
-  <!-- EN: The color this building was painted. -->
-  <Stat_Building_PaintColorDesc>TODO</Stat_Building_PaintColorDesc>
+  <Stat_Building_PaintColorDesc>A cor com que foi pintado(a).</Stat_Building_PaintColorDesc>
+
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
   <Stat_Thing_Drug_Chemical_Desc>O ativo químico neste produto.\n\nEm alguns casos, o mesmo ativo químico está presente em várias drogas diferentes. Essas diferentes drogas irão satisfazer o mesmo vício de maneiras diferentes.</Stat_Thing_Drug_Chemical_Desc>

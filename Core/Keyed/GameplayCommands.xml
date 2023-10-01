@@ -151,6 +151,11 @@
   <!-- EN: Select the item stored in here. -->
   <CommandSelectStoredThingDesc>Selecionar o item armazenado aqui.</CommandSelectStoredThingDesc>
 
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>Selecionar {0_label}</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>Selecione o item armazenado aqui.</CommandSelectStoredThingDesc>
+
   <!-- Artillery -->
   <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>Forçar ataque em alvo</CommandSetForceAttackTarget>
@@ -277,7 +282,7 @@
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>Sem {CHARGENOUN_plural} restantes</CommandReload_NoCharges>
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
-  <CommandReload_Cooldown>{COOLDOWNGERUND} para {TIME}.</CommandReload_Cooldown>
+  <CommandReload_Cooldown>{COOLDOWNGERUND} por {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>Precisa ser recarregado com {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
@@ -292,6 +297,8 @@
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Sintonizado</CommandSelectMineralToScanFor>
+  <!-- EN: Select the mineral type to scan for. -->
+  <CommandSelectMineralToScanForDesc>Selecione o tipo de mineral a ser procurado.</CommandSelectMineralToScanForDesc><!-- text_todo -->
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -305,7 +312,7 @@
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Formar um grupo de colonos capazes de viajar para novas áreas. Os colonos reunirão todos os suprimentos e animais que os acompanham, deixam sua área atual, e aguardam mais ordens.</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
-  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
+  <CommandFormCaravanDescAtSpot>Este local será utilizado como ponto de encontro da caravana. Todos os bens e animais serão trazidos aqui antes da partida.</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -565,29 +572,29 @@
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Solte a pessoa que está sendo carregada.</CommandDropPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <CommandSelectCarriedPawn>Selecionar {0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>Selecione a criatura carregada.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>Selecionar {0_label}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
-  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <CommandSelectCarriedThingDesc>Selecione o item carregado.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <CommandSelectContainerThing>Selecionar {0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>Selecione o item contido.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <CommandSelectCarryingPawn>Selecionar {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>Selecione a criatura que carregará.</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <CommandSelectContainedPawn>Selecionar {0_nameDef}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
-  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <CommandSelectContainedPawnDesc>Selecione a criatura contida.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
-  <!-- EN: Select the contained item. -->
-  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+  <CommandSelectContainedThing>Selecionar {0_label}</CommandSelectContainedThing>
+  <!-- EN: Select the contained item -->
+  <CommandSelectContainedThingDesc>Selecione o item contido.</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
@@ -632,10 +639,18 @@
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} construções</NumBuildings>
   <!-- EN: Stores -->
-  <StoresThings>Armazenados</StoresThings>
+  <StoresThings>Armazena</StoresThings>
   <!-- EN: Select all linked -->
   <SelectAllLinked>Selecionar todos os vinculados</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
   <SelectAllLinkedDesc>Selecione todas as construções de armazenamento vinculadas a esta.</SelectAllLinkedDesc>
+  <StoresThings>Armazena</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>Selecionar vinculados</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>Selecione todas as construções de armazenamento vinculadas a esta.</SelectAllLinkedDesc>
+
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>{0_labelShort} está inconsciente.</CommandDisabledUnconscious>
   
 </LanguageData>

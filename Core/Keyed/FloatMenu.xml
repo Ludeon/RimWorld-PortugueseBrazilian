@@ -46,7 +46,7 @@
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>impossível atacar a facção aliada</CannotAttackSameFactionMember>
   <!-- EN: Incapable of firefighting. -->
-  <IncapableOfFirefighting>Incapaz de combater o incêndio.</IncapableOfFirefighting>
+  <IncapableOfFirefighting>Incapaz de combater incêndios.</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Usar {1_labelShort}</OrderManThing>
@@ -79,7 +79,7 @@
   <!-- EN: missing {0} -->
   <MissingMaterials>{0} ausente</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
-  <NoMedicineMatchingCategory>Nenhuma medicina para a restrição '{CATEGORY}'</NoMedicineMatchingCategory>
+  <NoMedicineMatchingCategory>Sem medicamentos para a restrição '{CATEGORY}'</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>sob a habilidade requerida {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -93,13 +93,13 @@
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>animal interagido muito recentemente</AnimalInteractedTooRecently>
   <!-- EN: interacted with too recently -->
-  <PrisonerInteractedTooRecently>TODO</PrisonerInteractedTooRecently>
+  <PrisonerInteractedTooRecently>interagido(a) com muito recentemente</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>nenhum alimento utilizável</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>sem comida</NoFood>
   <!-- EN: no food matching restrictions -->
-  <NoFoodMatchingRestrictions>sem comida que atenda as restrições</NoFoodMatchingRestrictions>
+  <NoFoodMatchingRestrictions>sem comida que atenda às restrições</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>Sem {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -167,11 +167,13 @@
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>já instalado</InstallImplantAlreadyInstalled>
   <!-- EN: requires an existing {0} -->
-  <InstallImplantHediffRequired>TODO</InstallImplantHediffRequired>
+  <InstallImplantHediffRequired>requer um(a) {0} existente</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>nível máximo</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>requer nível mínimo de {0}</InstallImplantMinLevel>
   <!-- EN: psychically deaf -->
-  <InstallImplantPsychicallyDeaf>TODO</InstallImplantPsychicallyDeaf>
+  <InstallImplantPsychicallyDeaf>surdo(a) psiquicamente</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Atualizar {0} para o nível {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
@@ -210,7 +212,7 @@
   <!-- EN: Rescue {1_label} -->
   <Rescue>Resgatar {1_label}</Rescue>
   <!-- EN: Put {1_label} somewhere safe -->
-  <PutSomewhereSafe>Colocando {1_label} em um local seguro.</PutSomewhereSafe>
+  <PutSomewhereSafe>Colocar {1_label} em um local seguro.</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
   <TakingToBed>Levando {0_labelShort} para a cama.</TakingToBed>
   <!-- EN: Cannot rescue -->
@@ -254,7 +256,7 @@
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>incapaz de {0}</IncapableOfCapacity>
   <!-- EN: Must have {0_label} -->
-  <MustHaveHediff>Precisa ter {0_label}</MustHaveHediff>
+  <MustHaveHediff>Deve possuir {0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>habilidade mín</MinSkill>
@@ -286,12 +288,14 @@
   <!-- EN: Too few -->
   <ReloadNotEnough>Muito pouco</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
-  <ReloadCannotCarryEnough>TODO</ReloadCannotCarryEnough>
+  <ReloadCannotCarryEnough>Impossível carregar {AMMO_label} suficiente para recarregar uma carga.</ReloadCannotCarryEnough>
   
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Impossível pegar {1_labelShort}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Impossível pegar {1_label} (tudo)</CannotPickUpAll>
+  <!-- EN: Pick up {1_label} -->
+  <PickUp>Pegar {1_label}</PickUp>
   <!-- EN: Pick up {1_labelShort} x1 -->
   <PickUpOne>Pegar {1_labelShort} x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
@@ -372,6 +376,10 @@
   <UseMedicalBed>Descansar até ser curado</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>Não está ferido</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>nenhum médico</NoDoctor>
+  <!-- EN: medical bed not for slaves -->
+  <NotForSlaves>cama médica não para escravos</NotForSlaves><!-- text_todo -->
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>ocupado por {0}</SomeoneElseSleeping>
   
@@ -550,8 +558,12 @@
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
-  <CannotRomance>TODO</CannotRomance>
+  <CannotRomance>Impossível namorar {0}</CannotRomance>
   <!-- EN: Romance {0} -->
-  <CanRomance>TODO</CanRomance>
+  <CanRomance>Namorar {0}</CanRomance>
+
+  <!-- Feeding -->
+  <!-- EN: disliked food -->
+  <WarningFoodDisliked>alimento desgostado</WarningFoodDisliked>
 
 </LanguageData>
