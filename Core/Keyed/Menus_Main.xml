@@ -30,6 +30,8 @@
   <TranslationFilesTKeyUpdate>Atualizar Arquivos da Tradução (TKey's)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Limpando Arquivos da Tradução</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>Teste Rápido</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>Créditos</Credits>
   <!-- EN: Quit to main menu -->
@@ -78,6 +80,8 @@
   <WorldGenerate>Gerar</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Salvar e concluir</WorldSaveAndFinish>
+  <!-- EN: Reset factions -->
+  <ResetFactions>Redefinir Facções</ResetFactions>
   <!-- EN: Reset -->
   <Reset>Restaurar</Reset>
   <!-- EN: Globe coverage -->
@@ -152,6 +156,10 @@
   <ConfirmDeleteMod>Tem certeza de que deseja apagar todo o conteúdo de {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Organizar Mods</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>Salvar e Aplicar</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>As alterações não foram salvas. Você tem certeza que quer continuar?</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>Não é possível mover {0}: Deve ser carregado após {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
@@ -160,8 +168,54 @@
   <Unsubscribe>Desinscrever</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribe>Tem certeza de que deseja cancelar a inscrição de {0}?</ConfirmUnsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
+  <ConfirmUnsubscribeFrom>Você tem certeza de que deseja se desinscrever de {0}?</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>Você tem certeza de que deseja se desinscrever de {0}:\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Autor(es)</Author>
+  <!-- EN: Enabled -->
+  <Enabled>Habilitado(s)</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>Desabilitado(s)</Disabled>
+  <!-- EN: Enable -->
+  <Enable>Habilitar</Enable>
+  <!-- EN: Disable -->
+  <Disable>Desabilitar</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>Obter Mods do(a)...</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>Desinscrever-se de...</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>Salvar/Carregar Lista</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>Salvar Lista de Mods</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>Carregar Lista de Mods</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>Mods Adicionados</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>Mods Ausentes</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>Mods Compartilhados</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>Sítio</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>Abrir Pasta</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>Opções do Mod</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>Oficina</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>Fórum</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>Avançado</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>Todos os Mods Selecionados</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>Todos os Mods Desabilitados</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>Todos os Mods Incompatíveis</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Página da Oficina</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -176,6 +230,8 @@
   <WorkshopUploadSucceeded>Enviado com sucesso {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Baixando</Downloading>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>ID da Oficina</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Exibir requisitos cumpridos</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
@@ -186,6 +242,8 @@
   <Source>Fonte</Source>
   <!-- EN: For game version(s) -->
   <ModTargetVersion>Versão(ões) do Jogo</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>Versão do Mod</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -274,6 +332,8 @@
   <TooMany>Tem muitos (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Pode ser atualizado na Oficina, já que você é o autor.</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>Este cenário foi editado.\n\nDeseja salvá-lo antes de prosseguir?</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
@@ -419,6 +479,10 @@
   <Difficulty_AllowCaveHives_Label>Geração de Mapas com Colmeias Insetoides</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>Ninhos de insetos dormentes podem desovar em cavernas naturais.\n\nEste parâmetro se aplica apenas na geração de mapas e não afeta insetos ativos que cavam tuneis durante o jogo</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>Prisioneiros Inabaláveis</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>Esta opção adiciona prisioneiros adicionais capturáveis ao jogo que não podem ser recrutados devido a uma lealdade inabalável.\n\nOs prisioneiros inabaláveis são adicionados além dos prisioneiros normais, portanto, desativar essa opção não fornecerá mais prisioneiros recrutáveis — ela simplesmente remove os prisioneiros inabaláveis.\n\nOs prisioneiros inabaláveis ainda podem ser libertados para ganhos diplomáticos, vendidos, escravizados, colhidos para órgãos ou usados de outras formas. Em geral, eles oferecem mais opções e recursos, tornando o jogo um pouco mais fácil.</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Ferramentas do Jogador</DifficultyPlayerToolsSection>
@@ -500,6 +564,8 @@
   <Elevation>Elevação</Elevation>
   <!-- EN: Fertility -->
   <Fertility>Fertilidade</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>fertilidade</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>Temperatura</AvgTemp>
   <!-- EN: Rainfall -->
@@ -534,6 +600,10 @@
   <Forageability>Foragibilidade</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>Nenhuma das pessoas selecionadas pode fazer os seguintes trabalhos:\n\n{0}\n\nIsso pode tornar o jogo mais difícil do que o habitual. Você tem certeza de que deseja continuar?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>temperatura</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>luz</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
@@ -572,6 +642,8 @@
   <IncapableOfTooltipQuest>Causado pelo status da missão: {0}</IncapableOfTooltipQuest>
   <!-- EN: Caused by role: {0} -->
   <IncapableOfTooltipRole>Causado pela função: {0}</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>Causado pelo gene</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>Traços</Traits>
   <!-- EN: Permanent mood effect -->
@@ -602,6 +674,8 @@
   <Health>Saúde</Health>
   <!-- EN: Relations -->
   <Relations>Relações</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>Posses</Possessions>
   <!-- EN: Team skills -->
   <TeamSkills>Habilidades da Equipe</TeamSkills>
   <!-- EN: Selected -->
