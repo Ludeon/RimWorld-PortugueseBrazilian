@@ -11,7 +11,7 @@
   <!-- EN: Read more -->
   <ReadMore>Leia mais</ReadMore>
   <!-- EN: You have {0} more letters -->
-  <MoreLetters>TODO</MoreLetters>
+  <MoreLetters>Você possui mais {0} cartas</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Verão</LetterLabelFirstSummerWarning>
@@ -79,9 +79,9 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>O aniversário cronológico de {0} é hoje! Biologicamente, {1} tem {3} anos de idade.\n\nCronologicamente, {1} acaba de completar {2}.\n\nNote que desde que as pessoas não envelhecem enquanto estão em criptosono, o aniversário cronológico é separado do aniversário biológico.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
-  <LetterBirthdayBiological>TODO</LetterBirthdayBiological>
-  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
-  <BirthdayBiologicalAgeInjuries>{0} atingiu a idade biológica de {1}.\n\nInfelizmente, {0} ganhou as seguintes doenças devido ao envelhecimento:\n{2}</BirthdayBiologicalAgeInjuries>
+  <LetterBirthdayBiological>{0_nameFull} alcançou a idade biológica de {1}.</LetterBirthdayBiological>
+  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
+  <BirthdayBiologicalAgeInjuries>{0_nameFull} atingiu a idade biológica de {1}.\n\nInfelizmente, {0_nameFull} ganhou as seguintes doenças devido ao envelhecimento:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Doença</LetterLabelNewDisease>
@@ -530,9 +530,8 @@
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
   <LetterBladelinkWeaponBondedLabel>Vínculo persona: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
-  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
-\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} estabeleceu um vínculo com a personalidade do {WEAPON label Shirt}.\n\nA partir de agora, o {WEAPON_labelShort} se recusará a ser utilizado por qualquer pessoa, exceto {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.\n\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} estabeleceu um vínculo com a personalidade de {WEAPON_labelShort}.\n\nA partir de agora, {WEAPON_labelShort} se recusará a ser utilizado(a) por qualquer pessoa, exceto {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
@@ -546,15 +545,19 @@
   <LetterTextSiteCountdownStarted>Sua caravana foi detectada. Em {0}, reforços {1} de {2} começarão a chegar na área.\n\nReestruture sua caravana e comece a mover-se para evitar o {1}. Um contador cronometrando a chegada deles está visível.</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
-  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <LetterLabelUnrecruitablePawnCaptured>Prisioneiro inabalável</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} é inabalavelmente leal à sua facção e se recusará totalmente a ser recrutado(a).\n\nVocê pode ver se alguém é inabalavelmente leal a selecionando.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>escravizá-l{PAWN_objective}</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>TODO</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} ficou doente devido à exposição prolongada ao gás fétido de decomposição (que é liberado por cadáveres em decomposição).\n\nCertifique-se de possuir uma cama médica e um médico. Garanta que {PAWN_pronoun} receba tratamento adequado.</LetterTextLungRot>
+
+  <!-- Lung rot -->
+  <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
+  <LetterTextLungRot>{PAWN} ficou doente devido à exposição prolongada ao gás fétido de decomposição (que é liberado por cadáveres em decomposição).\n\nCertifique-se de possuir uma cama médica e um médico. Garanta que {PAWN_pronoun} receba tratamento adequado.</LetterTextLungRot>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->

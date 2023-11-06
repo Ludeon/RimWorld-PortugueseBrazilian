@@ -16,9 +16,9 @@
   <!-- EN: Cancel -->
   <Cancel>Cancelar</Cancel>
   <!-- EN: Reset -->
-  <Reset>Restaurar</Reset>
+  <Reset>Redefinir</Reset>
   <!-- EN: Reset all -->
-  <ResetAll>Restaurar todos</ResetAll>
+  <ResetAll>Redefinir tudo</ResetAll>
   <!-- EN: Disable -->
   <Disable>Desativar</Disable>
   <!-- EN: Modify -->
@@ -28,7 +28,7 @@
   <!-- EN: add -->
   <Add>adicionar</Add>
   <!-- EN: Cannot shoot -->
-  <CannotShoot>Não pode atirar</CannotShoot>
+  <CannotShoot>Impossível disparar</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -192,7 +192,7 @@
   <!-- EN: father -->
   <Father>pai</Father>
   <!-- EN: unknown -->
-  <Unknown>deseconhcido</Unknown>
+  <Unknown>desconhecido</Unknown>
   <!-- EN: first name -->
   <FirstName>nome</FirstName>
   <!-- EN: nickname -->
@@ -234,16 +234,16 @@
 
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
-  <ConfirmResetLearningHelper>TODO</ConfirmResetLearningHelper>
+  <ConfirmResetLearningHelper>Tem certeza de que deseja redefinir o assistente de aprendizado?\n\nTodos os registros de quais conceitos foram aprendidos serão apagados e o sistema ensinará tudo desde o início.</ConfirmResetLearningHelper>
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
-  <RestartAfterImportingLegacyBackstoryTanslations>TODO</RestartAfterImportingLegacyBackstoryTanslations>
+  <RestartAfterImportingLegacyBackstoryTanslations>Passados agora são implementados como uma definição e todas as traduções antigas foram importadas para as traduções de definições. O arquivo {0} foi importado e movido para {1}. Agora ele pode ser excluído.\n\nReinicie o jogo para que as alterações tenham efeito.</RestartAfterImportingLegacyBackstoryTanslations>
 
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
   <SelectedCharactersMustInclude>Deve incluir exatamente {SUMMARY}</SelectedCharactersMustInclude>
-
+  
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Aviso: você aterrissará em um ambiente congelado. Pode ser difícil ou quase impossível para sobreviver. Se você não está pretendendo enfrentar um desafio extremo, escolha um outro local ou estação de ano diferente.</MapTemperatureDangerWarning>
@@ -308,6 +308,8 @@
   <BillRequires>Requer {0} {1}</BillRequires>
   <!-- EN: nutrition -->
   <BillNutrition>nutrição</BillNutrition>
+  <!-- EN: Requires {0} nutrition -->
+  <BillRequiresNutrition>Requer {0} de nutrição</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Nota: Ingredientes de pequeno volume, como o ouro requerem {0}x a mais.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -487,9 +489,9 @@
   <!-- EN: Safe dose interval for adults -->
   <SafeDoseInterval>Intervalo de dose segura</SafeDoseInterval>
   <!-- EN: age {0}-{1} -->
-  <AgeXToY>idade {0}-{1}</AgeXToY>
+  <AgeXToY>idade de {0} a {1}</AgeXToY>
   <!-- EN: age {0}+ -->
-  <AgePlus>idade {0}+</AgePlus>
+  <AgePlus>idade maior que {0}</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Chance de viciar</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -845,7 +847,7 @@
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Selecionar automaticamento os suprimentos de viagem</AutomaticallySelectTravelSupplies>
   <!-- EN: This animal is sick. It is suffering from the following illnesses -->
-  <CaravanAnimalSick>Esse animal está doente. Está sofrendo das seguintes doenças:</CaravanAnimalSick>
+  <CaravanAnimalSick>Este animal está doente. Ele está sofrendo das seguintes doenças:</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -1011,7 +1013,7 @@
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
-  <DefaultMedicineSettings>Configurações padrão da medicina</DefaultMedicineSettings>
+  <DefaultMedicineSettings>Configuração padrão de medicamentos</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Padrões</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1079,7 +1081,7 @@
 
   <!-- Abilities -->
   <!-- EN: Cannot use {0} -->
-  <CannotUseAbility>Não pode usar {0}</CannotUseAbility>
+  <CannotUseAbility>Impossível utilizar {0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Linha de visão necessária</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1127,7 +1129,7 @@
   <!-- EN: {0_labelShort} is too young. -->
   <AbilityCantApplyTooYoung>{0_labelShort} é muito jovem.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
-  <AbilityCantApplyOnBaby>Não pode mirar em um bebê.</AbilityCantApplyOnBaby>
+  <AbilityCantApplyOnBaby>O alvo não pode ser um bebê.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Custo de concentração psíquica por intensidade do rompimento mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1262,12 +1264,12 @@
   <LifeStageMaxFood>Fator alimentar máximo do estágio de vida</LifeStageMaxFood>
 
   <!-- EN: Expand all -->
-  <ExpandAllCategories>Expandir todos</ExpandAllCategories>
+  <ExpandAllCategories>Expandir tudo</ExpandAllCategories>
   <!-- EN: Collapse all -->
-  <CollapseAllCategories>Recolher todos</CollapseAllCategories>
+  <CollapseAllCategories>Retrair tudo</CollapseAllCategories>
 
   <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
-  <TooltipDyeExplanation>Corante pode ser cultivado com tintórias ou comprado de comerciantes.</TooltipDyeExplanation>
+  <TooltipDyeExplanation>A tinta pode ser produzida a partir de tintória ou comprada de comerciantes.</TooltipDyeExplanation>
 
   <!-- EN: Zoom range {0} -->
   <ZoomRange>Alcance do zoom {0}</ZoomRange>
@@ -1276,7 +1278,7 @@
   <!-- EN: color temperature -->
   <ColorTemperature>temperatura da cor</ColorTemperature>
   <!-- EN: choose a color -->
-  <ChooseAColor>escolha a cor</ChooseAColor>
+  <ChooseAColor>escolha uma cor</ChooseAColor>
   <!-- EN: red -->
   <Red>vermelho</Red>
   <!-- EN: green -->
@@ -1284,42 +1286,42 @@
   <!-- EN: blue -->
   <Blue>azul</Blue>
   <!-- EN: hue -->
-  <Hue>tom</Hue>
+  <Hue>mat.</Hue>
   <!-- EN: sat -->
-  <Saturation>saturação</Saturation>
+  <Saturation>sat.</Saturation>
   <!-- EN: value -->
   <ColorValue>valor</ColorValue>
   <!-- EN: darklight -->
-  <Darklight>TODO</Darklight>
+  <Darklight>luz negra</Darklight>
   <!-- EN: not darklight -->
-  <NotDarklight>TODO</NotDarklight>
+  <NotDarklight>luz normal</NotDarklight>
   <!-- EN: current color -->
-  <CurrentColor>TODO</CurrentColor>
+  <CurrentColor>cor atual</CurrentColor>
   <!-- EN: old color -->
   <OldColor>cor antiga</OldColor>
   <!-- EN: Copy color -->
   <CommandCopyColorLabel>Copiar cor</CommandCopyColorLabel>
   <!-- EN: Copy the current color to the clipboard. -->
-  <CommandCopyColorDesc>TODO</CommandCopyColorDesc>
+  <CommandCopyColorDesc>Copie a cor atual para a área de transferência.</CommandCopyColorDesc>
   <!-- EN: Paste color -->
   <CommandPasteColorLabel>Colar cor</CommandPasteColorLabel>
   <!-- EN: Overwrite the color with the color in the clipboard. -->
-  <CommandPasteColorDesc>TODO</CommandPasteColorDesc>
+  <CommandPasteColorDesc>Substitua a cor pela cor da área de transferência.</CommandPasteColorDesc>
   <!-- EN: The clipboard does not contain a valid color. -->
-  <ClipboardInvalidColor>TODO</ClipboardInvalidColor>
+  <ClipboardInvalidColor>A área de transferência não contém uma cor válida.</ClipboardInvalidColor>
   <!-- EN: Color copied to clipboard. -->
-  <ColorCopiedSuccessfully>TODO</ColorCopiedSuccessfully>
+  <ColorCopiedSuccessfully>Cor copiada para a área de transferência.</ColorCopiedSuccessfully>
   <!-- EN: Updated color from the clipboard. -->
-  <ColorPastedSuccessfully>TODO</ColorPastedSuccessfully>
+  <ColorPastedSuccessfully>Cor da área de transferência atualizada.</ColorPastedSuccessfully>
   <!-- EN: Change to normal light -->
-  <ToggleDarklightOff>TODO</ToggleDarklightOff>
+  <ToggleDarklightOff>Alterar para luz normal</ToggleDarklightOff>
   <!-- EN: Change the light color to its normal color. -->
-  <ToggleDarklightOffDesc>TODO</ToggleDarklightOffDesc>
+  <ToggleDarklightOffDesc>Altere a cor da luz para sua cor normal.</ToggleDarklightOffDesc>
   <!-- EN: Change to darklight -->
-  <ToggleDarklightOn>TODO</ToggleDarklightOn>
+  <ToggleDarklightOn>Alterar para luz negra</ToggleDarklightOn>
   <!-- EN: Change the light color to darklight. -->
-  <ToggleDarklightOnDesc>TODO</ToggleDarklightOnDesc>
+  <ToggleDarklightOnDesc>Altere a cor da luz para luz negra.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
-  <ColorTemperatureTooltip>TODO</ColorTemperatureTooltip>
+  <ColorTemperatureTooltip>Escolha uma cor definindo a temperatura da cor. Nota: isso afeta apenas o visual da cor, não a produção de calor.</ColorTemperatureTooltip>
 
 </LanguageData>
