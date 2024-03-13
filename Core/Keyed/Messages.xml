@@ -34,6 +34,8 @@
   <MessageVisitorsTrappedLeaving>{0} de {1} foram presos e estão cavando para fugir.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} de {1} estão deixando o mapa por causa da temperatura perigosa.</MessageVisitorsDangerousTemperature>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
+  <MessageVisitorsAnomalousWeather>TODO</MessageVisitorsAnomalousWeather>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0} vestido por {1} se deteriorou até sumir.</MessageWornApparelDeterioratedAway>
@@ -125,6 +127,10 @@
   <MessageMustDesignateDeconstructibleMechCluster>Você deve derrotar o aglomerado mecanoide antes de poder desconstruí-lo.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Deve designar superfícies de pedra ásperas.</MessageMustDesignateSmoothableSurface>
+  <!-- EN: Must designate rough stone terrain. -->
+  <MessageMustDesignateSmoothableFloor>TODO</MessageMustDesignateSmoothableFloor>
+  <!-- EN: Must designate rough stone wall. -->
+  <MessageMustDesignateSmoothableWall>TODO</MessageMustDesignateSmoothableWall>
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Nada pode remover telhados grossos.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
@@ -202,7 +208,9 @@
   
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>A caravana de comércio de {0} está partindo.</MessageTraderCaravanLeaving>
-  
+  <!-- EN: The trade caravan from {0} has been dismissed. -->
+  <MessageTraderCaravanDismissed>TODO</MessageTraderCaravanDismissed>
+
   <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_labelShort} morreu.</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
@@ -346,6 +354,8 @@
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Seu {1} não pode concluir o carregamento das cápsulas de transporte porque alguns itens ou pessoas ficaram indisponíveis ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoPortal>TODO</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>O destino selecionado é inválido.</MessageTransportPodsDestinationIsInvalid>
@@ -563,6 +573,10 @@
   <MessageBillValidationPawnUnavailable>{0} não pode mais trabalhar em "{1}" no {2}. A restrição foi removida.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>{1} "{0}" não pode mais contar itens no estoque excluído {2}.</MessageBillValidationIncludeZoneDeleted>
+  <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
+  <MessageBillValidationIncludeBuildingDeleted>TODO</MessageBillValidationIncludeBuildingDeleted>
+  <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
+  <MessageBillValidationIncludeStorageGroupDeleted>TODO</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>{1} "{0}" não pode mais contar itens no estoque indisponível {2}.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
@@ -660,6 +674,12 @@
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
   <MessageBedDestroyed>{0} atribuído a {1_nameDef} foi destruído.</MessageBedDestroyed>
 
+  <!-- Lord jobs -->
+  <!-- EN: You need {0_indefinite}. -->
+  <MessageLordJobNeedsAtLeastOneRolePawn>TODO</MessageLordJobNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
+  <MessageLordJobNeedsAtLeastNumRolePawn>TODO</MessageLordJobNeedsAtLeastNumRolePawn>
+
   <!-- Rituals -->
   <!-- EN: spectate -->
   <Spectate>espectar</Spectate>
@@ -675,10 +695,6 @@
   <MessageRitualNeedsAtLeastOnePerson>Você precisa de pelo menos um participante.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
   <MessageRitualNeedsAtLeastOneSpectator>Você precisa de pelo menos um espectador.</MessageRitualNeedsAtLeastOneSpectator>
-  <!-- EN: You need a {0}. -->
-  <MessageRitualNeedsAtLeastOneRolePawn>Você precisa de um {0}.</MessageRitualNeedsAtLeastOneRolePawn>
-  <!-- EN: You need at least {1} {0}. -->
-  <MessageRitualNeedsAtLeastNumRolePawn>Você precisa de pelo menos {1} {0}.</MessageRitualNeedsAtLeastNumRolePawn>
   <!-- EN: {0_labelShort} is downed. -->
   <MessageRitualPawnDowned>{0_labelShort} está derrubado.</MessageRitualPawnDowned>
   <!-- EN: {0_labelShort} is currently escaping. -->
@@ -731,6 +747,8 @@
   <MessageRitualRoleMustHaveIdeoToDoRole>apenas {0} podem preencher a função de {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>deve ser colono para a função de {0}.</MessageRitualRoleMustBeColonist>
+  <!-- EN: must not be a prisoner for the {0} role. -->
+  <MessageRitualRoleMustBeFree>TODO</MessageRitualRoleMustBeFree>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
   <MessageRitualWontAttendExtremeTemperature>{0_labelShort} não comparecerá devido à temperatura extrema na área do ritual.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
@@ -751,6 +769,8 @@
   <MessageRitualRoleCannotBeChild>{0} não pode ser uma criança.</MessageRitualRoleCannotBeChild>
   <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeBaby>{0} não pode ser um bebê.</MessageRitualRoleCannotBeBaby>
+  <!-- EN: {0} is busy. -->
+  <MessageRitualRoleBusy>TODO</MessageRitualRoleBusy>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Você deve selecionar um local para continuar.</MessagePlayerMustSelectTile>
@@ -782,11 +802,21 @@
 
   <!-- EN: Storage settings linked for {0} buildings. -->
   <SettingsLinkedFor>Configurações de armazenamento vinculadas a {0} construções.</SettingsLinkedFor>
+  <!-- EN: Storage settings linked for 1 building. -->
+  <SettingsLinkedForSingular>TODO</SettingsLinkedForSingular>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
   <SettingsUnlinkedFor>Configurações de armazenamento desvinculadas de {0} construções.</SettingsUnlinkedFor>
+  <!-- EN: Storage settings unlinked for 1 building. -->
+  <SettingsUnlinkedForSingular>TODO</SettingsUnlinkedForSingular>
   <!-- EN: Storage settings copied to clipboard. -->
   <StorageSettingsCopiedToClipboard>Configurações de armazenamento copiadas para a área de transferência.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
   <StorageSettingsPastedFromClipboard>Configurações de armazenamento coladas da área de transferência.</StorageSettingsPastedFromClipboard>
+  
+  <!-- EN: {0_label} requires adjacent walls to function. -->
+  <MessageBuildingRequiresAdjacentWalls>TODO</MessageBuildingRequiresAdjacentWalls>
+
+  <!-- EN: Cannot skip: Refugee -->
+  <MessageLodgersCantFarskip>TODO</MessageLodgersCantFarskip>
 
 </LanguageData>

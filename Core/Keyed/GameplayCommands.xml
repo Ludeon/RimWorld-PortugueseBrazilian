@@ -109,11 +109,6 @@
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Começa a contagem regressiva para a detonação.</CommandDetonateDesc>
 
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>Renomear</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Renomeia esta zona.</CommandRenameZoneDesc>
-
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Esconder</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -150,11 +145,6 @@
   <CommandSelectStoredThing>Selecionar {0_label}</CommandSelectStoredThing>
   <!-- EN: Select the item stored in here. -->
   <CommandSelectStoredThingDesc>Selecionar o item armazenado aqui.</CommandSelectStoredThingDesc>
-
-  <!-- EN: Select {0_label} -->
-  <CommandSelectStoredThing>Selecionar {0_label}</CommandSelectStoredThing>
-  <!-- EN: Select the item stored in here. -->
-  <CommandSelectStoredThingDesc>Selecione o item armazenado aqui.</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -247,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>Criar zona agrícola</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>Rearmar automaticamente</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Quando ativado, esta armadilha será definida automaticamente para ser rearmada quando ela é usada.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>TODO</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>TODO</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -298,7 +294,7 @@
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Sintonizado</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>Selecione o tipo de mineral a ser procurado.</CommandSelectMineralToScanForDesc><!-- text_todo -->
+  <CommandSelectMineralToScanForDesc>Selecione o tipo de mineral a ser procurado.</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -321,7 +317,17 @@
   <CommandReformCaravanDesc>Reforma de um grupo de colonos. Os colonos deixarão sua área atual e aguardarão novas ordens.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Ainda existem alguns inimigos nesta área.</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>TODO</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>TODO</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>TODO</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>TODO</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>Dividir</CommandSplitCaravan>
@@ -593,7 +599,7 @@
   <CommandSelectContainedPawnDesc>Selecione a criatura contida.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
   <CommandSelectContainedThing>Selecionar {0_label}</CommandSelectContainedThing>
-  <!-- EN: Select the contained item -->
+  <!-- EN: Select the contained item. -->
   <CommandSelectContainedThingDesc>Selecione o item contido.</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
@@ -636,6 +642,8 @@
   <UnlinkStorageSettingsDesc>Desvincule este das configurações de armazenamento de outras construções para que suas configurações possam ser definidas de forma independente.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Configurações de armazenamento vinculadas</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>TODO</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} construções</NumBuildings>
   <!-- EN: Stores -->
@@ -644,12 +652,18 @@
   <SelectAllLinked>Selecionar todos os vinculados</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
   <SelectAllLinkedDesc>Selecione todas as construções de armazenamento vinculadas a esta.</SelectAllLinkedDesc>
-  <!-- EN: Select all linked -->
-  <SelectAllLinked>Selecionar vinculados</SelectAllLinked>
-  <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>Selecione todas as construções de armazenamento vinculadas a esta.</SelectAllLinkedDesc>
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort} está inconsciente.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
   
 </LanguageData>

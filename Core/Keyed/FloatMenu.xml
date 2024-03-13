@@ -158,6 +158,8 @@
   <IncapableOfDeconstruction>incapaz de desconstruir</IncapableOfDeconstruction>
   <!-- EN: incapable of mining -->
   <IncapableOfMining>incapaz de minerar</IncapableOfMining>
+  <!-- EN: tree marked for extraction -->
+  <TreeMarkedForExtraction>TODO</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>irrita facção</AngersFaction>
   <!-- EN: no body part -->
@@ -192,6 +194,9 @@
   <CannotGoNoPath>Impossível vir aqui: Sem caminho</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Ir aqui</GoHere>
+
+  <!-- EN: Clean {0} -->
+  <CleanRoom>TODO</CleanRoom>
   
   <!-- EN: Arrest {0} -->
   <Arrest>Prender {0}</Arrest>
@@ -204,10 +209,16 @@
 
   <!-- EN: Capture {1_label} -->
   <Capture>Capturar {1_label}</Capture>
+  <!-- EN: capture {0_labelShort} -->
+  <CaptureLower>TODO</CaptureLower>
   <!-- EN: Cannot capture -->
   <CannotCapture>Impossível capturar</CannotCapture>
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>inabalavelmente leal</Unrecruitable>
+  <!-- EN: not recruitable -->
+  <UnrecruitableNoFaction>TODO</UnrecruitableNoFaction> 
+  <!-- EN: Transfer {0_label} -->
+  <TransferEntity>TODO</TransferEntity> 
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Resgatar {1_label}</Rescue>
@@ -236,10 +247,16 @@
   <CryptosleepCasketOccupied>Já ocupado</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Não é possível, sem cama para prisioneiro disponível.</NoPrisonerBed>
+  <!-- EN: No prisoner bed available. -->
+  <NoPrisonerBedShort>TODO</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>Não é possível, sem cama para não-prisioneiro disponível.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>Não é possível, sem cama para animal disponível.</NoAnimalBed>
+  <!-- EN: No reachable, unforbidden, un-reserved {0} -->
+  <NoItemReservedOrReachable>TODO</NoItemReservedOrReachable>
+  <!-- EN: No unforbidden, un-reserved {0} -->
+  <NoItemReserved>TODO</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Reservados por outra pessoa.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -379,14 +396,18 @@
   <!-- EN: no doctor -->
   <NoDoctor>nenhum médico</NoDoctor>
   <!-- EN: medical bed not for slaves -->
-  <NotForSlaves>cama médica não para escravos</NotForSlaves><!-- text_todo -->
+  <NotForSlaves>cama médica não para escravos</NotForSlaves>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>ocupado por {0}</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
   <TradeWith>Negociar com {0}</TradeWith>
+  <!-- EN: Dismiss trader -->
+  <DismissTrader>TODO</DismissTrader>
   <!-- EN: Cannot trade -->
   <CannotTrade>Impossível negociar</CannotTrade>
+  <!-- EN: Trader dismissed -->
+  <TraderDismissed>TODO</TraderDismissed>
 
   <!-- EN: Open {0_label} -->
   <Open>Abra {0_label}</Open>
@@ -411,6 +432,19 @@
   <OfferGifts>Oferecer presentes</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>Negociar com {0}</TradeWithSettlement>
+  
+  <!-- EN: Enter {0} -->
+  <EnterPortal>TODO</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>TODO</EnteringPortal>
+  <!-- EN: Enter {0} -->
+  <CommandEnterPortal>TODO</CommandEnterPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>TODO</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>TODO</CommandCancelEnterPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>TODO</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -555,6 +589,11 @@
 
   <!-- EN: Cannot enter -->
   <CannotEnter>Impossível entrar</CannotEnter>
+  
+  <!-- EN: Cannot enter {0} -->
+  <CannotEnterPortal>TODO</CannotEnterPortal>
+  <!-- EN: closed -->
+  <PortalClosed>TODO</PortalClosed>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
@@ -565,9 +604,27 @@
   <!-- Feeding -->
   <!-- EN: disliked food -->
   <WarningFoodDisliked>alimento desgostado</WarningFoodDisliked>
+  <!-- EN: Unsuitable food -->
+  <FoodNotSuitable>TODO</FoodNotSuitable>
 
-  <!-- Feeding -->
-  <!-- EN: disliked food -->
-  <WarningFoodDisliked>TODO</WarningFoodDisliked>
+  <!-- EN: Unsuitable drug -->
+  <DrugNotSuitable>TODO</DrugNotSuitable>
+  
+  <!-- Books -->
+  <!-- EN: Assign reading... -->
+  <AssignReading>TODO</AssignReading>
+  <!-- EN: Read {0} -->
+  <AssignReadNow>TODO</AssignReadNow>
+  <!-- EN: Cannot read {0} -->
+  <AssignCannotReadNow>TODO</AssignCannotReadNow>
+
+  <!-- EN: Prioritize extinguishing fires -->
+  <ExtinguishFiresNearby>TODO</ExtinguishFiresNearby>
+
+  <!-- Analysis -->
+  <!-- EN: already analyzed -->
+  <AlreadyAnalyzed>TODO</AlreadyAnalyzed>
+  <!-- EN: no reachable, un-reserved research bench available -->
+  <NoResearchBench>nenhuma bancada de pesquisa acessível e não reservado disponível</NoResearchBench>
 
 </LanguageData>

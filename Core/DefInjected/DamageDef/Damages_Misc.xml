@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>queimadura de ácido</AcidBurn.label>
+  <!-- EN: {0} has burned to death. -->
+  <AcidBurn.deathMessage>{0} sucumbiu à queimadura por ácido.</AcidBurn.deathMessage>
+  
   <!-- EN: bomb -->
   <Bomb.label>bomba</Bomb.label>
   <!-- EN: {0} has died in an explosion. -->
@@ -40,5 +45,10 @@
   <Thump.label>pancada</Thump.label>
   <!-- EN: {0} has been shot to death. -->
   <Thump.deathMessage>{0} foi mort{PAWN_gender ? o : a} a tiros.</Thump.deathMessage>
+  
+  <!-- EN: vaporize -->
+  <Vaporize.label>vaporização</Vaporize.label>
+  <!-- EN: {0} has been vaporized by extreme heat. -->
+  <Vaporize.deathMessage>{0} foi vaporizad{PAWN_gender ? o : a} até a morte. </Vaporize.deathMessage>
   
 </LanguageData>
