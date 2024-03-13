@@ -102,14 +102,14 @@
   <!-- EN: Colonists will ignore roofs in this area. -->
   <DesignatorAreaIgnoreRoofExpandDesc>Os colonos vão ignorar telhados nesta área.</DesignatorAreaIgnoreRoofExpandDesc>
 
-  <!-- EN: Expand snow clear area -->
-  <DesignatorAreaSnowClearExpand>Expandir área sem neve</DesignatorAreaSnowClearExpand>
-  <!-- EN: Create a area which colonists will try to keep clear of snow. -->
-  <DesignatorAreaSnowClearExpandDesc>Cria uma área que colonos tentarão mantê-la limpa da neve.</DesignatorAreaSnowClearExpandDesc>
-  <!-- EN: Clear snow clear Area -->
-  <DesignatorAreaSnowClearClear>Remover área sem neve</DesignatorAreaSnowClearClear>
-  <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>Remove uma área de limpeza de neve. Colonos deixarão de tentar manter esta área limpa da neve.</DesignatorAreaSnowClearClearDesc>
+  <!-- EN: Snow removal area -->
+  <DesignatorAreaSnowClearExpand>Área de remoção de neve</DesignatorAreaSnowClearExpand>
+  <!-- EN: Create an area which colonists will try to keep clear of snow. -->
+  <DesignatorAreaSnowClearExpandDesc>Cria uma área na qual os colonos tentarão mantê-la limpa de neve.</DesignatorAreaSnowClearExpandDesc>
+  <!-- EN: Clear snow removal area -->
+  <DesignatorAreaSnowClearClear>Limpar área de remoção de neve</DesignatorAreaSnowClearClear>
+  <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
+  <DesignatorAreaSnowClearClearDesc>Remove uma área de remoção de neve. Colonos deixarão de tentar manter esta área limpa da neve.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
   <DesignatorExpandAreaAllowed>Expandir área permitida</DesignatorExpandAreaAllowed>
@@ -188,6 +188,46 @@
   <!-- EN: Study this object to learn more about it. -->
   <DesignatorStudyDesc>Estude este objeto para aprender mais sobre ele.</DesignatorStudyDesc>
 
+  <!-- EN: Paint building... -->
+  <DesignatorPaintBuilding>Pintar construções...</DesignatorPaintBuilding>
+  <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
+  <DesignatorPaintBuildingDesc>Designe paredes e mobílias para serem pintadas com corante de tintória, que você pode cultivar. Apenas algumas construções podem ser pintados.</DesignatorPaintBuildingDesc>
+  <!-- EN: Paint floor... -->
+  <DesignatorPaintFloor>Pintar pisos...</DesignatorPaintFloor>
+  <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
+  <DesignatorPaintFloorDesc>Designe pisos para serem pintados com corante de tintória, que você pode cultivar. Apenas alguns pisos podem ser pintados.</DesignatorPaintFloorDesc>
+
+  <!-- EN: Remove paint -->
+  <DesignatorRemovePaint>Remover pintura</DesignatorRemovePaint>
+  <!-- EN: Remove paint from walls, buildings, and floors. -->
+  <DesignatorRemovePaintDesc>Remova a pintura das paredes, mobílias e pisos.</DesignatorRemovePaintDesc>
+  <!-- EN: Remove floor paint -->
+  <DesignatorRemoveFloorPaint>Remover pintura do piso</DesignatorRemoveFloorPaint> 
+  <!-- EN: Remove paint from floors. -->
+  <DesignatorRemoveFloorPaintDesc>Remova a pintura dos pisos.</DesignatorRemoveFloorPaintDesc> 
+
+  <!-- EN: Paint -->
+  <Paint>Pintar</Paint>
+  <!-- EN: Color -->
+  <Color>Cor</Color>
+
+  <!-- EN: Color picker -->
+  <DesignatorEyedropper>Seletor de cores</DesignatorEyedropper>
+  <!-- EN: Grab existing color -->
+  <GrabExistingColor>Selecionar cor existente</GrabExistingColor>
+  <!-- EN: Grab a color from an existing building. -->
+  <DesignatorEyeDropperDesc_Paint>Selecione uma cor de uma construção existente.</DesignatorEyeDropperDesc_Paint>
+  <!-- EN: Grab a color from an existing carpet. -->
+  <DesignatorEyeDropperDesc_Carpet>Selecione uma cor de um tapete existente.</DesignatorEyeDropperDesc_Carpet>
+  <!-- EN: Select a painted building. -->
+  <SelectAPaintedBuilding>Selecione uma construção pintada.</SelectAPaintedBuilding>
+  <!-- EN: Select colored carpet. -->
+  <SelectColoredFloor>Selecione um tapete colorido.</SelectColoredFloor>
+  <!-- EN: Grab -->
+  <Grab>Selecionar</Grab>
+  <!-- EN: Grabbed color -->
+  <GrabbedColor>Cor selecionada</GrabbedColor>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Material não escolhido</UnchosenStuff>
@@ -216,7 +256,7 @@
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label} não pode ser construído neste terreno.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} requer terreno que que suporte: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <TerrainCannotSupport_TerrainAffordance>{0_label} requer terreno que suporte: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (quando feito de {2_label}) requer terreno que suporte: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->

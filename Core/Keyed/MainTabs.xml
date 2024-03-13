@@ -3,7 +3,7 @@
 
   <!-- Work tab -->
   <!-- EN: Manual priorities -->
-  <ManualPriorities>Prioridade Manual:　</ManualPriorities>
+  <ManualPriorities>Prioridade Manual</ManualPriorities>
   <!-- EN: higher priority -->
   <HigherPriority>Maior Prioridade</HigherPriority>
   <!-- EN: lower priority -->
@@ -16,7 +16,7 @@
   <CannotDoThisWork>{1_labelShort} não pode fazer este tipo de trabalho.</CannotDoThisWork>
   <!-- EN: (none) -->
   <NoneBrackets>(Nada)</NoneBrackets>
-  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
+  <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Este colono não é capaz de fazer qualquer trabalho deste tipo devido à sua condição de saúde.</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
@@ -35,13 +35,13 @@
   <!-- EN: Low priority -->
   <Priority4>Prioridade Baixa</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>{0}\n\nA facção {1_nameDef} pertence atualmente a.\n\nClique para ver a facção.</PawnFactionInfo>
-  <!-- EN: Disabled by backstory: {0} -->
-  <WorkDisabledByBackstory>Desativado por história:{0}</WorkDisabledByBackstory>
-  <!-- EN: Disabled by trait: {0} -->
-  <WorkDisabledByTrait>Desativado por traço: {0}</WorkDisabledByTrait>
-  <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>Desativado por missão: {0}</WorkDisabledByQuest>
+  <PawnFactionInfo>{0}\n\nA facção a qual {1_nameDef} atualmente pertence.\n\nClique para ver a facção.</PawnFactionInfo>
+  <!-- EN: Disabled by {0} backstory -->
+  <WorkDisabledByBackstory>Desativado pela história {0}</WorkDisabledByBackstory>
+  <!-- EN: Disabled by {0} trait -->
+  <WorkDisabledByTrait>Desativado pelo traço {0}</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest '{0}' -->
+  <WorkDisabledByQuest>Desativado pela missão '{0}'</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -78,6 +78,10 @@
   <PregnantIconDesc>Prenhe ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
   <BondedTo>Vinculado a</BondedTo>
+  <!-- EN: Sterilize animal. -->
+  <SterilizeAnimal>Castrar animal.</SterilizeAnimal>
+  <!-- EN: Animal sterile. -->
+  <AnimalAlreadySterile>Animal castrado.</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
@@ -184,6 +188,8 @@
   <Research>Pesquisar</Research>
   <!-- EN: Study -->
   <Study>Estudar</Study>
+  <!-- EN: Study {0} -->
+  <StudyThing>Estudar {0}</StudyThing>
   <!-- EN: Unresearched -->
   <Unresearched>Não pesquisado</Unresearched>
   <!-- EN: Finished -->
@@ -200,6 +206,8 @@
   <InsufficientTechprintsApplied>Projetos técnicos insuficientes ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Pré-requisito(s) não concluído(s)</PrerequisitesNotCompleted>
+  <!-- EN: Missing required research facilities -->
+  <MissingRequiredResearchFacilities>Instalações de pesquisa necessárias ausentes</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
   <RequiredResearchBench>Requer</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
@@ -307,7 +315,7 @@
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
   <ChooseRewardsDesc>Diga a outras facções que tipos de recompensas você deseja em futuras missões. Isso não afeta as missões que já foram oferecidas.</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
-  <AcceptRoyalFavor>Favor Real</AcceptRoyalFavor>
+  <AcceptRoyalFavor>Aceitar {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
   <AcceptRoyalFavorDesc>Se você deseja ser recompensado com {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSe isso estiver desativado, {FACTION_name} oferecerá outros tipos de recompensas.\n\nEssa configuração afeta apenas as missões recentes.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
@@ -340,5 +348,9 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Cria necessidade</CreatesNeed>
+
+  <!-- Misc -->
+  <!-- EN: Click to edit -->
+  <ClickToEdit>Clique para editar</ClickToEdit>
 
 </LanguageData>

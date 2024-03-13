@@ -486,7 +486,7 @@
     <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</li>
     <li>image->a herd of [Animal]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
-    <li>image->a [huge] [Animal] [circumstance_phrase]</li>
+    <li>image->a [AdjectiveLarge] [Animal] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] shadowy figures [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] shadowy quadrupeds [circumstance_phrase]</li>
     <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
@@ -515,12 +515,12 @@
     <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo atacado(a) por animais loucos</li>
     <li>image->um rebanho de [Animal]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
-    <li>image->um(a) [Animal] [huge] [circunstancia_frase]</li>
+    <li>image->um(a) [Animal] [AdjectiveLarge] [circunstancia_frase]</li>
     <li>image->[Quantity_adjphrase] figuras sombrias [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] quadrúpedes sombrios [circunstance_phrase]</li>
     <li>imageD->e um rebanho de [Animal]s [circumstance_phrase]</li>
     <li>imageD->e [Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
-    <li>imageD->e um(a) [Animal] [huge] [circunstancia_frase]</li>
+    <li>imageD->e um(a) [Animal] [AdjectiveLarge] [circunstancia_frase]</li>
     <li>imageD->e [Quantity_adjphrase] figuras sombrias [circumstance_phrase]</li>
     <li>imageD->e [Quantity_adjphrase] quadrúpedes sombrios [circunstance_phrase]</li>
     <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
@@ -676,7 +676,7 @@
     <li>image->a swarm of [Mechanoid]s [circumstance_phrase]</li>
     <li>image->an army of [Mechanoid]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
-    <li>image->a [huge] [Mechanoid] [circumstance_phrase]</li>
+    <li>image->a [AdjectiveLarge] [Mechanoid] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid] silhouettes [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s with glowing [Color] sensors [circumstance_phrase]</li>
     <li>circumstance_phrase->advancing over a [TerrainFeature]</li>
@@ -711,14 +711,14 @@
     <li>image->um enxame de [Mechanoid]s [circumstance_phrase]</li>
     <li>image->um exército de [Mechanoid]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
-    <li>image->um(a) [enorme] [Mechanoid] [circumstance_phrase]</li>
+    <li>image->um(a) [AdjectiveLarge] [Mechanoid] [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] silhuetas de [Mechanoid]s [circunstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Mechanoid]s com sensores brilhantes de cor [Color] [circumstance_phrase]</li>
     <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
     <li>imageD->e um enxame de [Mechanoid]s [circumstance_phrase]</li>
     <li>imageD->e um exército de [Mechanoid]s [circumstance_phrase]</li>
     <li>imageD->e [Quantity_adjphrase] [Mechanoid]s [circumstance_phrase]</li>
-    <li>imageD->e um(a) [enorme] [Mechanoid] [circumstance_phrase]</li>
+    <li>imageD->e um(a) [AdjectiveLarge] [Mechanoid] [circumstance_phrase]</li>
     <li>imageD->e [Quantity_adjphrase] silhuetas de [Mechanoid]s [circunstance_phrase]</li>
     <li>imageD->e [Quantity_adjphrase] [Mechanoid]s com sensores brilhantes de cor [Color] [circumstance_phrase]</li>
     <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
@@ -842,7 +842,7 @@
   </TornadoFromItem.rulePack.rulesStrings>
   
   <!-- EN: toxic fallout -->
-  <ToxicFallout.label>poeira tóxica</ToxicFallout.label>
+  <ToxicFallout.label>chuva tóxica</ToxicFallout.label>
   <!-- EN:
     <li>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic</li>
@@ -864,9 +864,9 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <ToxicFallout.rulePack.rulesStrings>
-    <li>tale_noun->à precipitação tóxica no(a) [Community]</li>
+    <li>tale_noun->à chuva tóxica no(a) [Community]</li>
     <li>tale_noun->à atmosfera perto do(a) [Community] de [PAWN_nameDef] se tornando tóxica</li>
-    <li>tale_nounD->a precipitação tóxica no(a) [Community]</li>
+    <li>tale_nounD->a chuva tóxica no(a) [Community]</li>
     <li>tale_nounD->a atmosfera perto do(a) [Community] de [PAWN_nameDef] se tornando tóxica</li>
     <li>image->o céu sinistro [circumstance_group]</li>
     <li>image->o ar espessando [circumstance_group]</li>

@@ -25,6 +25,8 @@
   <CaravanMech>1 mecanoide</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} mecanoides</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>TODO</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -113,6 +115,8 @@
   <WaitingFor>Esperando por</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Não controlado</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>TODO</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -165,6 +169,8 @@
   <NextDeathrestNeed>{PAWN_nameDef} deve realizar o descanso mortal em {DURATION} para evitar exaustão.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef} deve realizar descanso mortal em breve para evitar exaustão.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Consuma hemogênio quando abaixo de</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -271,6 +277,10 @@
   <EjectAllDesc>Solte todos os pacotes de genes contidos no chão.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>Pacotes de gene armazenados</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>traços forçados</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -389,7 +399,7 @@
   <WaitingForPawn>Esperando por {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>Extraíndo genes de {PAWN_nameDef}.</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
   <ExtractionPausedNoPower>Extração pausada: sem energia</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>Última ingestão de {CHEMICAL_label} há {DURATION}.</LastIngestedDurationAgo>
@@ -543,8 +553,8 @@
   <BiostarvationExplanation>Um ou mais tanques de crescimento estão sofrendo bioinanição devido a falta de nutrição ou energia.\n\nSe a bioinanição alcançar 100%, os indivíduos contidos morrerão.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Insira uma pessoa no tanque de crescimento. Eles irão envelhecer 20 vezes mais rápido que o normal.</InsertPersonGrowthVatDesc>
-  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Implante um embrião no tanque de crescimento. Após uma gestação de 18 dias um bebê totalmente formado será produzido pelo tanque, esperançosamente com boa saúde.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <InsertEmbryoGrowthVatDesc>Implante um embrião no tanque de crescimento. Após uma gestação de {0} um bebê totalmente formado será produzido pelo tanque, esperançosamente com boa saúde.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Inserir embrião</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
@@ -599,6 +609,8 @@
   <SubcoreScannerWaitingForOccupant>Aguardando o ocupante</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Aguardando por ingredientes</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>Tem {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -622,8 +634,6 @@
   <Baby>bebê</Baby>
   <!-- EN: babies -->
   <Babies>bebês</Babies>
-  <!-- EN: person -->
-  <Person>pessoa</Person>
   <!-- EN: feral child -->
   <FeralChild>criança selvagem</FeralChild>
   <!-- EN: Wearable by -->
@@ -693,6 +703,8 @@
   <SurgeryDisableReasonOvumExtracted>óvulo extraído recentemente</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>Fertilizar</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>TODO</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>Não pode fertilizar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->

@@ -72,8 +72,8 @@
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Caçador está sem arma de longo alcance</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
-  <HunterLacksWeaponDesc>Um colono está atribuído como um caçador, mas não tem nenhuma arma de longo alcance.\n\nEle não caçará até que esteja carregando uma arma de longo alcance.</HunterLacksWeaponDesc>
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
+  <HunterLacksWeaponDesc>Um colono está atribuído como caçador mas não tem nenhuma arma de longo alcance.\n\nEle não caçará até que esteja carregando uma arma de longo alcance.\n\nOs seguintes colonos são caçadores e não possuem armas de longo alcance</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roupas rasgadas</AlertTatteredApparel>
@@ -130,8 +130,12 @@
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Baterias necessárias</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
-  <NeedBatteriesDesc>Você tem geradores solares ou eólicos, mas sem as baterias. Isso significa que você perderá força elétrica cada vez que o sol se ponha ou o vento se acalme.\n\nConstrua uma bateria ou duas para garantir energia elétrica.</NeedBatteriesDesc>
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
+  <NeedBatteriesDesc>Você tem geradores solares ou eólicos, mas sem as baterias. Você ficará sem energia elétrica sempre que o sol se pôr ou o vento se acalmar.</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>Construa uma bateria ou duas para garantir o suprimento de energia elétrica.</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>Pesquise e construa algumas baterias para garantir o suprimento de energia elétrica.</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Lutador está com arma de longo alcance</BrawlerHasRangedWeapon>
@@ -158,12 +162,12 @@
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
   <CaravanIdleDesc>Essas caravanas estão esperando você definir o próximo destino:\n\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Colonist needs treatment -->
-  <ColonistNeedsTreatment>Colonos precisam de tratamento</ColonistNeedsTreatment>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>Estes colonos precisam de tratamento médico. Sem isso, eles podem morrer de seus ferimentos, ou suas feridas podem tornar-se permanentes.\n\n{0}\nCuide deles enviando-os para uma cama médica.\n\n(Primeiro, atribua uma cama médica selecionando-a e a alternando para uma cama médica. Em seguida, selecione os colonos feridos e clique com o botão direito sobre a cama médica para torná-los pacientes.)</ColonistNeedsTreatmentDesc>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>Estes colonos precisam de tratamento médico. Sem isso, eles podem morrer de seus ferimentos, ou suas feridas podem tornar-se permanentes.\n\n{0}\nCuide deles enviando-os para uma cama médica.\n\n(Primeiro, atribua uma cama médica selecionando-a e a alternando para uma cama médica. Em seguida, selecione os colonos feridos e pressione o gatilho esquerdo sobre a cama médica para torná-los pacientes.)</ColonistNeedsTreatmentDescController>
+  <!-- EN: Medical treatment needed -->
+  <ColonistNeedsTreatment>Tratamento médico requerido</ColonistNeedsTreatment>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDesc>Estas pessoas precisam de tratamento médico. Sem isso, eles podem morrer de seus ferimentos, ou suas feridas podem tornar-se permanentes.\n\n{0}\nCuide deles enviando-os para uma cama médica.\n\n(Primeiro, atribua uma cama médica selecionando-a e a alternando para uma cama médica. Em seguida, selecione os feridos e clique com o botão direito sobre a cama médica para torná-los pacientes.)</ColonistNeedsTreatmentDesc>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>Estas pessoas precisam de tratamento médico. Sem isso, eles podem morrer de seus ferimentos, ou suas feridas podem tornar-se permanentes.\n\n{0}\nCuide deles enviando-os para uma cama médica.\n\n(Primeiro, atribua uma cama médica selecionando-a e a alternando para uma cama médica. Em seguida, selecione os feridos e pressione o gatilho esquerdo sobre a cama médica para torná-los pacientes.)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermia</AlertHypothermia>
@@ -191,6 +195,16 @@
   <BilliardsNeedsSpace>Mesa de bilhar precisa de espaço</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>Uma de suas mesas de bilhar possui uma obstrução no caminho que impede os colonos de usá-la.\n\nUma mesa de bilhar precisa de espaço livre em torno dela e em todos os lados para ser utilizável.</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>Mesa de xadrez precisa de cadeiras</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>Uma das suas mesas de xadrez não tem cadeiras adjacentes.\nConstrua cadeiras ou bancos adjacentes para permitir que seus colonos usem a mesa de xadrez. Até duas pessoas podem usar uma mesa de xadrez ao mesmo tempo.</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>Mesa de pôquer precisa de cadeiras</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>Uma das suas mesas de pôquer não tem cadeiras adjacentes.\n\nConstrua cadeiras ou bancos adjacentes para permitir que seus colonos usem a mesa de pôquer. Até oito pessoas podem usar uma mesa de pôquer ao mesmo tempo.</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Caçador tem escudo e arma de longo alcance</HunterHasShieldAndRangedWeapon>
@@ -301,7 +315,7 @@
   <!-- EN: Raids arriving in {0} -->
   <AlertTimedRaidsArrivingIn>Invasões chegando em {0}</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
-  <AlertTimedRaidsArrivingInDesc>Os inimigos foram atraídos para os seguintes locias e começarão a chegar com força total em breve.\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <AlertTimedRaidsArrivingInDesc>Os inimigos foram atraídos para os seguintes locais e começarão a chegar com força total em breve.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->
   <AlertTimedRaidsArrivingAt>Chegando em {0} em {1}</AlertTimedRaidsArrivingAt>
 
@@ -315,4 +329,9 @@
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>{0} árvores extraídas morrerão em menos de um dia. Isso fará alguns colonos infelizes devido a suas crenças.\n\nVocê pode previnir esse efeito replantando essas árvores.</AlertMinifiedTreeAboutToDieDesc>
 
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>Bancada de pesquisa requerida</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>Você tem o projeto de pesquisa '{0}' ativo. Este projeto requer que você construa {1}.</NeedResearchBenchDesc>
+  
 </LanguageData>

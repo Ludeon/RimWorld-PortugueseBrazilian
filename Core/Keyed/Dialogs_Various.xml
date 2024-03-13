@@ -13,6 +13,22 @@
   <Close>Fechar</Close>
   <!-- EN: Accept -->
   <Accept>Aceitar</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>Cancelar</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Redefinir</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>Redefinir tudo</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>Desativar</Disable>
+  <!-- EN: Modify -->
+  <Modify>Modificar</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>Ficar aqui mesmo assim?</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>adicionar</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>Impossível disparar</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -163,10 +179,28 @@
   <ZoneGainsName>A zona agora se chama {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>O nome escolhido é inválido.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>O apelido dessa pessoa agora é {0}. Seu título é {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>O nome do animal agora é {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>renomear pessoa</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>mãe</Mother>
+  <!-- EN: father -->
+  <Father>pai</Father>
+  <!-- EN: unknown -->
+  <Unknown>desconhecido</Unknown>
+  <!-- EN: first name -->
+  <FirstName>nome</FirstName>
+  <!-- EN: nickname -->
+  <NickName>apelido</NickName>
+  <!-- EN: last name -->
+  <LastName>sobrenome</LastName>
+  <!-- EN: suggested -->
+  <Suggested>sugerido</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -179,8 +213,12 @@
   <FileIncompatibleWarning>Este arquivo foi salvo com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Incompatibilidade de mods</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
   <ModsMismatchWarningText>O mapa foi salvo com um conjunto diferente de mods ativos dos que estamos executando atualmente. Isto pode ou não pode causar problemas, dependendo exatamente o que estes mods fazem.\n\nMapa foi salvo com (nesta ordem):\n\n{0}\n\nEstamos rodando com:\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>Nenhum mod foi adicionado ou removido, mas a ordem da lista de mods foi alterada.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>Você tem certeza de que deseja carregar a lista de mods deste save?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -193,6 +231,18 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo desenvolvedor neste computador?</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>Tem certeza de que deseja redefinir o assistente de aprendizado?\n\nTodos os registros de quais conceitos foram aprendidos serão apagados e o sistema ensinará tudo desde o início.</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>Passados agora são implementados como uma definição e todas as traduções antigas foram importadas para as traduções de definições. O arquivo {0} foi importado e movido para {1}. Agora ele pode ser excluído.\n\nReinicie o jogo para que as alterações tenham efeito.</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>Deve incluir exatamente {SUMMARY}</SelectedCharactersMustInclude>
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
@@ -254,8 +304,10 @@
   <WorkAmount>Quantidade de trabalho</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Habilidade mínima:</MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
+  <!-- EN: Requires -->
   <BillRequires>Requer {0} {1}</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>nutrição</BillNutrition>
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requer {0} de nutrição</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
@@ -293,7 +345,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Penetração de Armadura</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de armadura que esta arma ignorará toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a armadura do alvo, é como se o alvo não tivesse armadura. Caso contrário, a penetração da armadura é subtraída da armadura do alvo.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de proteção que esta arma ignorará toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a proteção do alvo, é como se o alvo estivesse sem proteção. Caso não, a penetração da armadura é subtraída da proteção do alvo.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
   <BuildingDamageFactor>Fator de dano à construções</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
@@ -309,13 +361,13 @@
   <!-- EN: Accuracy -->
   <Accuracy>Precisão</Accuracy>
   <!-- EN: Burst shot count -->
-  <BurstShotCount>Contagem de tiros</BurstShotCount>
+  <BurstShotCount>Contagem de tiros por disparo</BurstShotCount>
   <!-- EN: Warmup -->
   <WarmupTime>Aquecimento</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Aquecimento corpo a corpo</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
-  <RangedWarmupTime>Aquecimento a distância</RangedWarmupTime>
+  <!-- EN: Aiming time -->
+  <RangedWarmupTime>Tempo de preparação para disparar</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Esfriamento</CooldownTime>
   <!-- EN: Disarmed -->
@@ -331,11 +383,11 @@
   <!-- EN: Range -->
   <Range>Alcance</Range>
   <!-- EN: Stopping power -->
-  <StoppingPower>Poder de lentidão</StoppingPower>
+  <StoppingPower>Poder de parada</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>Golpes desta arma balançarão o alvo, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de lentidão não serão afetados.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Ataques desta arma farão o alvo cambalear, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de parada não serão afetados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>Chance de acerto</DirectHitChance>
+  <DirectHitChance>Chance de acerto direto</DirectHitChance>
   <!-- EN: Miss radius -->
   <MissRadius>Chance de erro</MissRadius>
   <!-- EN: Grows wild -->
@@ -434,8 +486,12 @@
   <ToleranceFallRate>Queda da tolerância ao efeito</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Tolerância mínima para gerar vício</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
+  <!-- EN: Safe dose interval for adults -->
   <SafeDoseInterval>Intervalo de dose segura</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>idade de {0} a {1}</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>idade maior que {0}</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Chance de viciar</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -486,8 +542,8 @@
   <NuzzleIntervalExplanation>Quantas vezes, em média um animal acariciará colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição.\nA maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Chance de vingança</HarmedRevengeChance>
-  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>A chance desta criatura atacar quando ferida.\n\nEsta chance aumenta em até três vezes se o atacante estiver mais perto.\n\nEsta chance é aplicada cada vez que o dano é sofrido. Isso significa que armas de disparo mais lento e maior dano têm menos probabilidade de dispará-lo durante a caça.</HarmedRevengeChanceExplanation>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>A chance desta criatura atacar quando ferida.\n\nEsta chance aumenta em até três vezes se o atacante estiver mais perto.\n\nEsta chance é aplicada cada vez que o dano é sofrido. Isso significa que armas de disparo lento e maior dano têm menos probabilidade de dispará-lo durante a caça.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Chance de vingança ao falhar uma domesticação</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -528,7 +584,7 @@
   <MeditationFocuses>tipos de foco de meditação</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Desbloqueia tipos de foco de meditação</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>Os tipos de foco de meditação que essa pessoa pode usar. Ao meditar, uma pessoa pode se concentrar em um objeto para aumentar seu ganho de concentração psíquica - mas apenas se esse objeto oferecer um tipo de foco que possa ser usado. Os tipos de meditação de cada pessoa são determinados por seus antecedentes, características, posição social e assim por diante.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Os tipos de foco de meditação que esse objeto oferece. Uma pessoa meditando pode se concentrar nesse objeto para aumentar seu ganho de concentração psíquica, mas apenas se for capaz de usar um de seus tipos de meditação. Cada pessoa pode usar diferentes tipos de meditação, dependendo de seus antecedentes, características, posição social e assim por diante.</MeditationFocusesDesc>
@@ -603,7 +659,7 @@
   <!-- EN: buying -->
   <Buying>comprando</Buying>
   <!-- EN: item sell price multiplier -->
-  <ItemSellPriceFactor>multiplicador de preço de venda do item</ItemSellPriceFactor>
+  <ItemSellPriceFactor>multiplicador do preço de venda do item</ItemSellPriceFactor>
   <!-- EN: difficulty level -->
   <DifficultyLevel>nível de dificuldade</DifficultyLevel>
   <!-- EN: global post-process curve -->
@@ -790,6 +846,8 @@
   <TotalBodySize>Tamanho total do corpo</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Selecionar automaticamento os suprimentos de viagem</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>Este animal está doente. Ele está sofrendo das seguintes doenças:</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -954,6 +1012,8 @@
   <NoFoodRestrictionSelected>Sem Restrição Alimentar</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>Configuração padrão de medicamentos</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Padrões</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1002,7 +1062,7 @@
   <ConfirmSendNotCompletelyLoadedPods>O grupo de cápsulas não está completamente carregado. Está faltando {1_labelShort}. Lançar assim mesmo?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
   <ConfirmSettleNearFactionBase>Como esse local está dentro de {0} blocos da base de outra facção, eles sentirão que você está invadindo sua terra e as relações com essas facções piorarão a cada {1} dias.\n\nficar aqui mesmo assim?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
@@ -1020,6 +1080,8 @@
   <ConfirmCancelMonumentMarker>Deseja mesmo remover este marcador de monumento?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>Impossível utilizar {0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Linha de visão necessária</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1034,15 +1096,17 @@
   <AbilityCastingTime>Tempo de invocação</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Nenhuma linha de visão para mirar.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>Alvo fora de alcance.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>Impossível chegar ao alvo.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>Sem espaço livre disponível.</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
+  <!-- EN: Must target an empty area. -->
   <AbilityOccupiedCells>{0} deve mirar em uma área vazia.</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
+  <!-- EN: Must target a walkable area. -->
   <AbilityUnwalkable>{0} deve mirar em uma área que pode ser percorrida.</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
+  <!-- EN: Must target an unroofed area. -->
   <AbilityRoofed>{0} deve mirar uma área não coberta.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0} está mentalmente quebrado.</AbilityCantApplyToMentallyBroken>
@@ -1062,6 +1126,10 @@
   <AbilityCantApplyOnAsexual>Impossível usar: {0} é assexuad{PAWN_gender ? o : a }.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} é o gênero errado para {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort} é muito jovem.</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>O alvo não pode ser um bebê.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Custo de concentração psíquica por intensidade do rompimento mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1191,5 +1259,69 @@
   <RoomRequirementNoProductionFacilities>sem instalações de trabalho permitidas</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>sem altares permitidos</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>Fator alimentar máximo do estágio de vida</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Expandir tudo</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Retrair tudo</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>A tinta pode ser produzida a partir de tintória ou comprada de comerciantes.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>Alcance do zoom {0}</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>temperatura da cor</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>escolha uma cor</ChooseAColor>
+  <!-- EN: red -->
+  <Red>vermelho</Red>
+  <!-- EN: green -->
+  <Green>verde</Green>
+  <!-- EN: blue -->
+  <Blue>azul</Blue>
+  <!-- EN: hue -->
+  <Hue>mat.</Hue>
+  <!-- EN: sat -->
+  <Saturation>sat.</Saturation>
+  <!-- EN: value -->
+  <ColorValue>valor</ColorValue>
+  <!-- EN: darklight -->
+  <Darklight>luz negra</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>luz normal</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>cor atual</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>cor antiga</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>Copiar cor</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>Copie a cor atual para a área de transferência.</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>Colar cor</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>Substitua a cor pela cor da área de transferência.</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>A área de transferência não contém uma cor válida.</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>Cor copiada para a área de transferência.</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>Cor da área de transferência atualizada.</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>Alterar para luz normal</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>Altere a cor da luz para sua cor normal.</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>Alterar para luz negra</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>Altere a cor da luz para luz negra.</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>Escolha uma cor definindo a temperatura da cor. Nota: isso afeta apenas o visual da cor, não a produção de calor.</ColorTemperatureTooltip>
 
 </LanguageData>

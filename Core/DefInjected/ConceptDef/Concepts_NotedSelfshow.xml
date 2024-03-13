@@ -79,8 +79,8 @@
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Segurança contra fogo amigo</FriendlyFireSafety.label>
-  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
-  <FriendlyFireSafety.helpText>O fogo amigo nunca ocorre se o atirador estiver perto de seu aliado.\n\nPor exemplo, você pode colocar com segurança um colono empunhando uma espada diretamente na frente de um que está empunhando uma arma de fogo. O atirador disparará por cima do ombro de seu amigo.\n\nEsta é uma boa maneira de combinar vários lutadores de corpo a corpo e os de distância</FriendlyFireSafety.helpText>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <FriendlyFireSafety.helpText>O fogo amigo nunca ocorre se o atirador estiver perto de seu aliado.\n\nPor exemplo, você pode colocar com segurança um colono empunhando uma espada diretamente a frente de um que está empunhando uma arma de fogo. O atirador disparará por cima do ombro de seu amigo.\n\nEsta é uma boa maneira de combinar lutadores corpo a corpo e longo alcance.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
   <GettingMoreTraders.label>Obtendo mais comerciantes</GettingMoreTraders.label>
@@ -111,11 +111,6 @@
   <InfoCard.label>Cartão de informações</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
   <InfoCard.helpText>O cartão de informação lhe mostra estatísticas detalhadas sobre qualquer item, pessoa ou construção.\n\nSelecione uma pessoa ou item e abra o seu cartão de informação com o botão 'i' no painel de inspeção.</InfoCard.helpText>
-  
-  <!-- EN: Room stats inspector -->
-  <InspectRoomStats.label>Inspecionando a estatísticas de sala</InspectRoomStats.label>
-  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
-  <InspectRoomStats.helpText>Você pode inspecionar a impressão, riqueza e beleza de quartos individuais usando ESTATÍSTICAS DE SALAS alterando ela no canto inferior direito.</InspectRoomStats.helpText>
   
   <!-- EN: Manual work priorities -->
   <ManualWorkPriorities.label>Prioridades de trabalho manuais</ManualWorkPriorities.label>
@@ -161,6 +156,11 @@
   <StorageTab.label>Aba de armazenamento</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
   <StorageTab.helpText>Você pode configurar estoques e contruções de armazenamento selecionando-os e abrindo a aba ARMAZÉM acima do painel Inspetor do canto inferior esquerdo.\n\nNa aba de armazém de um estoque, você pode expandir as categorias para permitir ou negar itens específicos. Clique nos triângulos à esquerda da categoria de nomes.\n\nVocê pode alterar a prioridade de armazenamento. Os colonos encherão estoques de alta prioridade primeiro, e mover itens de menor prioridade para a de maior.</StorageTab.helpText>
+  
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>Inspetor de ladrilho</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>Você pode inspecionar detalhes de um ladrilho segurando {Key:ShowCellInspector}. Isso exibirá seu conteúdo, as informações da sala, sua beleza e mais.</TileInspector.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>Atribuições tempo</TimeAssignments.label>

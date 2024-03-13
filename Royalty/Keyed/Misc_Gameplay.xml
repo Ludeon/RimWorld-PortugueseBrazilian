@@ -49,7 +49,7 @@
   <Psyfocus>concentração psíquica</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Concentração psíquica</PsyfocusLabelGizmo>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>A concentração psíquica é um tipo especial de estruturação mental que é necessário para usar poderes psíquicos. A concentração psíquica se dissipa com o tempo e deve ser acumulado pela meditação regular. Perder todo a concentração psíquica torna alguém incapaz de usar poderes psíquicos, mas não tem outras consequências.\n\nNíveis mais altos de concentração psíquica permitem poderes de nível superior, mas também aumentam a taxa de dissipação da concentração psíquica.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
@@ -96,16 +96,10 @@
   <AbilitySpeechDisabledNoThroneUndignified>trono não utilizável porque é indigno.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>já está fazendo um discurso.</AbilitySpeechDisabledAlreadyGivingSpeech>
-  <!-- EN: another gathering is in progress. -->
-  <AbilitySpeechDisabledAnotherGatheringInProgress>Outra reunião está acontecendo.</AbilitySpeechDisabledAnotherGatheringInProgress>
-  <!-- EN: Next speech ready in -->
-  <AbilitySpeechCooldown>Próximo discurso pronto em</AbilitySpeechCooldown>
   <!-- EN: Outcome chances -->
   <AbilitySpeechPossibleOutcomes>Chance de resultado</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>Estatística {1} de {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
-  <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>Iniciado às</AbilitySpeechTargetsLabel>
   <!-- EN: Dignified throne -->
   <AbilitySpeechTargetDescThrone>Trono digno</AbilitySpeechTargetDescThrone>
   
@@ -157,8 +151,8 @@
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Nenhum colono pode tem concentração psíquica de tipo natural.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>É necessário pelo menos {0} de grama anima.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
-  <!-- EN: An anima tree. -->
-  <RitualTargetAnimaTreeInfo>Uma árvore anima.</RitualTargetAnimaTreeInfo>
+  <!-- EN: an anima tree -->
+  <RitualTargetAnimaTreeInfo>uma árvore anima.</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>Deve ser um colono com o foco em meditação de tipo natural que está abaixo do nível psínculo máximo.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
@@ -171,5 +165,8 @@
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>sem calor para descarregar.</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>nível {0}</LevelNum> <!-- Psylink level as reported in health tab-->
 
 </LanguageData>

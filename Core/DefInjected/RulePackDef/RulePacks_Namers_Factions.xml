@@ -62,6 +62,16 @@
   </NamerFactionMechanoid.rulePack.rulesStrings>
   
   <!-- EN:
+    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+    <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
+  -->
+  <NamerFactionOutlander.rulePack.rulesFiles>
+    <li>political_union_outlanderMale->Words/Nouns/PoliticalUnions_Outlander_MALE</li>
+    <li>political_union_outlanderFemale->Words/Nouns/PoliticalUnions_Outlander_FEMALE</li>
+    <li>political_adjectiveMale->Words/Adjectives/PoliticalUnions_MALE</li>
+    <li>political_adjectiveFemale->Words/Adjectives/PoliticalUnions_FEMALE</li>
+  </NamerFactionOutlander.rulePack.rulesFiles>
+  <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
     <li>r_name->[nearnameinitial] [political_union_outlander]</li>
     <li>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</li>
@@ -83,16 +93,6 @@
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[PlaceOutlander] [DirectionM]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
-  <!-- EN:
-    <li>political_union_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
-    <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
-  -->
-  <NamerFactionOutlander.rulePack.rulesFiles>
-    <li>political_union_outlanderMale->Words/Nouns/PoliticalUnions_Outlander_MALE</li>
-    <li>political_union_outlanderFemale->Words/Nouns/PoliticalUnions_Outlander_FEMALE</li>
-    <li>political_adjectiveMale->Words/Adjectives/PoliticalUnions_MALE</li>
-    <li>political_adjectiveFemale->Words/Adjectives/PoliticalUnions_FEMALE</li>
-  </NamerFactionOutlander.rulePack.rulesFiles>
   
   <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
@@ -155,7 +155,7 @@
     <li>r_name(p=0.7)->[PersonAlly]s da [ConceptBadassFemale]</li>
     <li>r_name(p=0.7)->[PersonBadassM]s da [ConceptBadassFemale]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
-
+  
   <!-- EN:
     <li>r_name->[WordTribal] [political_union_tribal]</li>
     <li>r_name->The [WordTribal] [political_union_tribal]</li>
