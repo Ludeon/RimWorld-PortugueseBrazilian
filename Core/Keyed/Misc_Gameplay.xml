@@ -382,8 +382,8 @@
   <RangeTo>para</RangeTo>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>nenhum tipo</NoDietCategoryLetter>
-  <!-- EN: Expires in -->
-  <ExpiresIn>Expira em</ExpiresIn>
+  <!-- EN: expires in -->
+  <ExpiresIn>expira em</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>caravana de {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
@@ -420,7 +420,7 @@
   <CurrentProject>TODO</CurrentProject>
   <!-- EN: Research progress -->
   <ResearchProgress>TODO</ResearchProgress>
-  <!-- EN: Already has {0} -->
+  <!-- EN: already has {0} -->
   <AlreadyHasHediff>TODO</AlreadyHasHediff>
   <!-- EN: turret -->
   <Turret>torreta</Turret>
@@ -835,8 +835,8 @@
   <OrderActivation>Ordenar ativação</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
   <OrderActivationDesc>Ordene um colono a ativar {THING_definite}.</OrderActivationDesc>
-  <!-- EN: Must be activated by a colonist. -->
-  <MustBeActivatedByColonist>Deve ser ativado por um colono.</MustBeActivatedByColonist>
+  <!-- EN: Send a colonist to activate this. -->
+  <MustBeActivatedByColonist>Envie um colono para ativar isso.</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
   <NoNearbyFire>Nenhum incêndio próximo</NoNearbyFire>
   <!-- EN: No nearby fire. No fuel was used. -->
@@ -1037,8 +1037,8 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>Não conectado à energia.</PowerNotConnected>
-  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>Taxa conectada/armazenado: {0} W / {1} Wd</PowerConnectedRateStored>
+  <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
+  <PowerConnectedRateStored>Taxa conectada: {0} W ({1} Wd armazenados)</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Energia necessária</PowerNeeded>
   <!-- EN: Power output -->
@@ -1077,12 +1077,12 @@
   <RotStateRotting>Apodrecendo</RotStateRotting>
   <!-- EN: Dessicated -->
   <RotStateDessicated>Dessecado</RotStateDessicated>
-  <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>Congelado (não estragará)</CurrentlyFrozen>
-  <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>Refrigerado (apodrece em {0})</CurrentlyRefrigerated>
-  <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>Não Refrigerado (apodrece em {0})</NotRefrigerated>
+  <!-- EN: Frozen -->
+  <CurrentlyFrozen>Congelado</CurrentlyFrozen> 
+  <!-- EN: Refrigerated, spoils in {0} -->
+  <CurrentlyRefrigerated>Refrigerado, apodrece em {0}</CurrentlyRefrigerated> 
+  <!-- EN: Unrefrigerated, spoils in {0} -->
+  <NotRefrigerated>Não Refrigerado, apodrece em {0}</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>mais que uma década</OverADecade>
   <!-- EN: less than a day -->
@@ -1885,10 +1885,10 @@
   <AbilityNoCharges>TODO</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>habilidade já está na fila.</AbilityAlreadyQueued>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>Habilidade disponível: {0}</AbilityReadyLabel>
+  <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
+  <AbilityReadyLabel>Habilidade disponível para {PAWN_nameDef}: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>TODO</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>Habilidades disponíveis para {PAWN_nameDef}: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} está pront{0_gender ? o : a} para usar {1}.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -1896,15 +1896,15 @@
   <!-- EN: Charges -->
   <Charges>Cargas</Charges>
 
+  <!-- EN: {0_nameDef} is in a mental state. -->
+  <PawnIsInMentalState>{0_nameDef} está em um estado mental.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInMentalState>{0_nameDef} está em um estado mental agressivo.</PawnIsInMentalState>
-  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>TODO</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef} está em um estado mental agressivo.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Trabalho desativado</DisabledWorkLabel>
   <!-- EN: Disabled needs -->
-  <DisabledNeedsLabel>TODO</DisabledNeedsLabel>
+  <DisabledNeedsLabel>Necessidades desativadas</DisabledNeedsLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
