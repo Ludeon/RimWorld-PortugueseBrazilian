@@ -22,8 +22,8 @@
   <!-- EN: Not allowed -->
   <NotAllowed>Não permitido</NotAllowed>
   
-  <!-- EN: Fire at {1_label} -->
-  <FireAt>Atirar em {1_label}</FireAt>
+  <!-- EN: Fire at {1_labelShort} -->
+  <FireAt>Atirar em {1_labelShort}</FireAt>
 
   <!-- EN: out of range -->
   <OutOfRange>fora de alcance</OutOfRange>
@@ -51,10 +51,10 @@
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Usar {1_labelShort}</OrderManThing>
   
-  <!-- EN: Melee attack {1_label} -->
-  <MeleeAttack>Atacar corpo a corpo {1_label}</MeleeAttack>
-  <!-- EN: Melee attack {1_label} to death -->
-  <MeleeAttackToDeath>Atacar corpo a corpo {1_label} até a morte</MeleeAttackToDeath>
+  <!-- EN: Melee attack {1_labelShort} -->
+  <MeleeAttack>Atacar corpo a corpo {1_labelShort}</MeleeAttack>
+  <!-- EN: Melee attack {1_labelShort} to death -->
+  <MeleeAttackToDeath>Atacar corpo a corpo {1_labelShort} até a morte</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>sem caminho</NoPath>
   <!-- EN: burying -->
@@ -96,8 +96,8 @@
   <PrisonerInteractedTooRecently>interagiu com muito recentemente</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>nenhum alimento utilizável</NoUsableFood>
-  <!-- EN: no food -->
-  <NoFood>sem comida</NoFood>
+  <!-- EN: not enough food -->
+  <NoFood>comida insuficiente</NoFood>
   <!-- EN: no food matching restrictions -->
   <NoFoodMatchingRestrictions>sem comida que atenda às restrições</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
@@ -200,15 +200,15 @@
   
   <!-- EN: Arrest {0} -->
   <Arrest>Prender {0}</Arrest>
-  <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>Tentar prender {1_label} ({2} chance)</TryToArrest>
+  <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
+  <TryToArrest>Tentar prender {1_labelShort} ({2} chance)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>Impossível prender</CannotArrest>
   <!-- EN: {0} chance of arrest -->
   <ArrestChance>{0} chance de prisão</ArrestChance>
 
-  <!-- EN: Capture {1_label} -->
-  <Capture>Capturar {1_label}</Capture>
+  <!-- EN: Capture {1_labelShort} -->
+  <Capture>Capturar {1_labelShort}</Capture>
   <!-- EN: capture {0_labelShort} -->
   <CaptureLower>TODO</CaptureLower>
   <!-- EN: Cannot capture -->
@@ -220,22 +220,22 @@
   <!-- EN: Transfer {0_label} -->
   <TransferEntity>TODO</TransferEntity> 
 
-  <!-- EN: Rescue {1_label} -->
-  <Rescue>Resgatar {1_label}</Rescue>
-  <!-- EN: Put {1_label} somewhere safe -->
-  <PutSomewhereSafe>Colocar {1_label} em um local seguro.</PutSomewhereSafe>
+  <!-- EN: Rescue {1_labelShort} -->
+  <Rescue>Resgatar {1_labelShort}</Rescue>
+  <!-- EN: Put {1_labelShort} somewhere safe -->
+  <PutSomewhereSafe>Colocar {1_labelShort} em um local seguro.</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
   <TakingToBed>Levando {0_labelShort} para a cama.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Impossível resgatar</CannotRescue>
 
-  <!-- EN: Carry {1_label} to cryptosleep casket -->
-  <CarryToCryptosleepCasket>Carregar {1_label} para sarcófago de criptosono</CarryToCryptosleepCasket>
+  <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>Carregar {1_labelShort} para sarcófago de criptosono</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>não pode levar para sarcófago de criptosono</CannotCarryToCryptosleepCasket>
 
-  <!-- EN: Carry {0_label} to shuttle -->
-  <CarryToShuttle>Leve {0_label} para o transporte</CarryToShuttle>
+  <!-- EN: Carry {0_labelShort} to shuttle -->
+  <CarryToShuttle>Leve {1_labelShort} para o transporte</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>Nenhum sarcófago de criptosono disponível.</NoCryptosleepCasket>
@@ -311,8 +311,6 @@
   <CannotPickUp>Impossível pegar {1_labelShort}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Impossível pegar {1_label} (tudo)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Pegar {1_label}</PickUp>
   <!-- EN: Pick up {1_labelShort} x1 -->
   <PickUpOne>Pegar {1_labelShort} x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
@@ -354,23 +352,23 @@
   <!-- EN: overweight -->
   <OverweightLower>excesso de peso</OverweightLower>
 
-  <!-- EN: Cannot carry {1_label} and leave the area -->
-  <CannotCarryToExit>Impossível transportar {1_label} e deixar a área</CannotCarryToExit>
-  <!-- EN: Carry {1_label} and leave the area -->
-  <CarryToExit>Transportar {1_label} e deixar a área</CarryToExit>
-  <!-- EN: Capture {1_label} and leave the area -->
-  <CarryToExitAndCapture>Capture {1_label} e saia da área</CarryToExitAndCapture>
+  <!-- EN: Cannot carry {1_labelShort} and leave the area -->
+  <CannotCarryToExit>Impossível transportar {1_labelShort} e deixar a área</CannotCarryToExit>
+  <!-- EN: Carry {1_labelShort} and leave the area -->
+  <CarryToExit>Transportar {1_labelShort} e deixar a área</CarryToExit>
+  <!-- EN: Capture {1_labelShort} and leave the area -->
+  <CarryToExitAndCapture>Capture {1_labelShort} e saia da área</CarryToExitAndCapture>
   
-  <!-- EN: Strip {1_label} -->
-  <Strip>Desvestir {1_label}</Strip>
-  <!-- EN: Cannot strip {1_label} -->
-  <CannotStrip>Impossível desvestir {1_label}</CannotStrip>
-  <!-- EN: Cannot drop {1_label} -->
-  <CannotDrop>Impossível largar {1_label}</CannotDrop>
-  <!-- EN: Carry {0_label} -->
-  <Carry>Carregar {0_label}</Carry>
-  <!-- EN: Cannot carry {0_label} -->
-  <CannotCarry>Impossível carrgar {0_label}</CannotCarry>
+  <!-- EN: Strip {1_labelShort} -->
+  <Strip>Desvestir {1_labelShort}</Strip>
+  <!-- EN: Cannot strip {1_labelShort} -->
+  <CannotStrip>Impossível desvestir {1_labelShort}</CannotStrip>
+  <!-- EN: Cannot drop {1_labelShort} -->
+  <CannotDrop>Impossível largar {1_labelShort}</CannotDrop>
+  <!-- EN: Carry {0_labelShort} -->
+  <Carry>Carregar {1_labelShort}</Carry>
+  <!-- EN: Cannot carry {0_labelShort} -->
+  <CannotCarry>Impossível carrgar {1_labelShort}</CannotCarry>
   <!-- EN: hostile -->
   <CarriedPawnHostile>TODO</CarriedPawnHostile>
   <!-- EN: temporary faction member -->
@@ -388,8 +386,8 @@
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Auto-destruir aqui</SelfDestructHere>
   
-  <!-- EN: Drop {1_label} -->
-  <Drop>Soltar {1_label}</Drop>
+  <!-- EN: Drop {1_labelShort} -->
+  <Drop>Soltar {1_labelShort}</Drop>
 
   <!-- EN: Rest until healed -->
   <UseMedicalBed>Descansar até ser curado</UseMedicalBed>
