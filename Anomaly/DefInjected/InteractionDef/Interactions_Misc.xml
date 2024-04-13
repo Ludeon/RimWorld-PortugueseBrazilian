@@ -2,15 +2,18 @@
 <LanguageData>
   
   <!-- EN: creepy words -->
-  <CreepyWords.label>TODO</CreepyWords.label>
+  <CreepyWords.label>conversa arrepiante</CreepyWords.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
-  <CreepyWords.logRulesInitiator.rulesStrings>TODO</CreepyWords.logRulesInitiator.rulesStrings>
+  <CreepyWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [divagou] sobre [assuntoInsano].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [divagou] [adverbioSombrioConversa] sobre [assuntoInsano].</li>
+  </CreepyWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: strange chat -->
-  <DisturbingChat.label>TODO</DisturbingChat.label>
+  <DisturbingChat.label>conversa estranha</DisturbingChat.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] by [talkingAbout] [subjectDisturbing].</li>
     <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] to [RECIPIENT_nameDef] about [subjectDisturbing].</li>
@@ -43,18 +46,49 @@
     <li>talkingAbout->ranting [maybeDarkSpeechAdverb] about</li>
     <li>talkingAbout->going into detail about</li>
   -->
-  <DisturbingChat.logRulesInitiator.rulesStrings>TODO</DisturbingChat.logRulesInitiator.rulesStrings>
+  <DisturbingChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [perturbou] [RECIPIENT_nameDef] ao [falarSobre] [assuntoPerturbador].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [conversou] [adverbioSombrioConversa] com [RECIPIENT_nameDef] sobre [assuntoPerturbador].</li>
+    <li>conversou->conversou</li>
+    <li>conversou->choramingou</li>
+    <li>conversou(p=5)->[divagou]</li>
+    <li>assuntoPerturbador->[assuntoEstudoRistico]</li>
+    <li>assuntoPerturbador->[assuntoInsano]</li>
+    <li>perturbou->abalou</li>
+    <li>perturbou->alarmou</li>
+    <li>perturbou->amedrontou</li>
+    <li>perturbou->angustiou</li>
+    <li>perturbou->comoveu</li>
+    <li>perturbou->consternou</li>
+    <li>perturbou->desanimou</li>
+    <li>perturbou->desconcertou</li>
+    <li>perturbou->desestabilizou</li>
+    <li>perturbou->entristeceu</li>
+    <li>perturbou->horrorizou</li>
+    <li>perturbou->perturbou</li>
+    <li>talvezAdverbioSombrioConversa-></li>
+    <li>talvezAdverbioSombrioConversa-> [adverbioSombrioConversa]</li>
+    <li>falarSobre->descrever</li>
+    <li>falarSobre->detalhar</li>
+    <li>falarSobre->dissertar[talvezAdverbioSombrioConversa] sobre</li>
+    <li>falarSobre->esmiuçar[talvezAdverbioSombrioConversa] sobre</li>
+    <li>falarSobre->gemer[talvezAdverbioSombrioConversa] sobre</li>
+    <li>falarSobre->sussurar[talvezAdverbioSombrioConversa] sobre</li>
+  </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
-  <InhumanRambling.label>TODO</InhumanRambling.label>
+  <InhumanRambling.label>conversa desumana</InhumanRambling.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
-  <InhumanRambling.logRulesInitiator.rulesStrings>TODO</InhumanRambling.logRulesInitiator.rulesStrings>
+  <InhumanRambling.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [divagou] sobre [assuntoInsano].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [divagou] [adverbioSombrioConversa] sobre [assuntoInsano].</li>
+  </InhumanRambling.logRulesInitiator.rulesStrings>
   
   <!-- EN: interrogate identity -->
-  <InterrogateIdentity.label>TODO</InterrogateIdentity.label>
+  <InterrogateIdentity.label>interrogatório de identidade</InterrogateIdentity.label>
   <!-- EN:
     <li>askedAbout->interrogated [RECIPIENT_nameDef] about</li>
     <li>askedAbout->asked [RECIPIENT_nameDef] about</li>
@@ -96,10 +130,49 @@
     <li>identityTopic->cultural experiences</li>
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
-  <InterrogateIdentity.logRulesInitiator.rulesStrings>TODO</InterrogateIdentity.logRulesInitiator.rulesStrings>
+  <InterrogateIdentity.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [perguntou] sobre [topicoIdentidade].</li>
+    <li>perguntou->bombardeou [RECIPIENT_nameDef] com perguntas</li>
+    <li>perguntou->confrontou [RECIPIENT_nameDef]</li>
+    <li>perguntou->fez perguntas minuciosas a [RECIPIENT_nameDef]</li>
+    <li>perguntou->gritou com [RECIPIENT_nameDef], exigindo informações</li>
+    <li>perguntou->indiciou [RECIPIENT_nameDef]</li>
+    <li>perguntou->ingagou [RECIPIENT_nameDef]</li>
+    <li>perguntou->inquiriu [RECIPIENT_nameDef]</li>
+    <li>perguntou->interpelou [RECIPIENT_nameDef]</li>
+    <li>perguntou->interrogou [RECIPIENT_nameDef]</li>
+    <li>perguntou->pergontou a [RECIPIENT_nameDef]</li>
+    <li>perguntou->pressionou [RECIPIENT_nameDef] por detalhes</li>
+    <li>perguntou->questinou [RECIPIENT_nameDef]</li>
+    <li>topicoIdentidade->as razões por trás de suas principais decisões</li>
+    <li>topicoIdentidade->os processos do pensamento humano</li>
+    <li>topicoIdentidade->seu nascimento</li>
+    <li>topicoIdentidade->seu trabalho anterior</li>
+    <li>topicoIdentidade->seus amigos de infância</li>
+    <li>topicoIdentidade->seus arrependimentos pessoais</li>
+    <li>topicoIdentidade->seus gostos</li>
+    <li>topicoIdentidade->seus maiores medos</li>
+    <li>topicoIdentidade->seus motivos para ingressar em sua atual facção</li>
+    <li>topicoIdentidade->seus pais</li>
+    <li>topicoIdentidade->seus passatempos</li>
+    <li>topicoIdentidade->seus princípios e valores morais</li>
+    <li>topicoIdentidade->seus relacionamentos anteriores com outras facções</li>
+    <li>topicoIdentidade->seus sonhos e aspirações</li>
+    <li>topicoIdentidade->sua educação</li>
+    <li>topicoIdentidade->sua função em um evento significativo passado</li>
+    <li>topicoIdentidade->suas experiências culturais</li>
+    <li>topicoIdentidade->suas experiências de criança</li>
+    <li>topicoIdentidade->suas experiências escolares</li>
+    <li>topicoIdentidade->suas experiências traumáticas passadas</li>
+    <li>topicoIdentidade->suas histórias de amor</li>
+    <li>topicoIdentidade->suas memórias afetivas</li>
+    <li>topicoIdentidade->suas motivações</li>
+    <li>topicoIdentidade->suas preferências alimentares</li>
+    <li>topicoIdentidade->suas respostas emocioais a situações perturbadoras</li>
+  </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
   <!-- EN: occult teaching -->
-  <OccultTeaching.label>TODO</OccultTeaching.label>
+  <OccultTeaching.label>ensinamento oculto</OccultTeaching.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] explained [INITIATOR_possessive] theories about [subjectDarkStudy] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] shared [INITIATOR_possessive] ideas about [subjectDarkStudy] with [RECIPIENT_nameDef].</li>
@@ -107,15 +180,25 @@
     <li>r_logentry->[INITIATOR_nameDef] went over the subject of [subjectDarkStudy].</li>
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
-  <OccultTeaching.logRulesInitiator.rulesStrings>TODO</OccultTeaching.logRulesInitiator.rulesStrings>
+  <OccultTeaching.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] compartilhou suas ideias sobre [assuntoEstudoRistico] com [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] dissertou sobre [assuntoEstudoRistico].</li>
+    <li>r_logentry->[INITIATOR_nameDef] explicou suas teorias sobre [assuntoEstudoRistico] para [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ministrou uma aula sobre [assuntoEstudoRistico].</li>
+    <li>r_logentry->[INITIATOR_nameDef] revisou [assuntoEstudoRistico].</li>
+  </OccultTeaching.logRulesInitiator.rulesStrings>
   
   <!-- EN: prisoner study -->
-  <PrisonerStudyAnomaly.label>TODO</PrisonerStudyAnomaly.label>
+  <PrisonerStudyAnomaly.label>estudo de prisioneiro</PrisonerStudyAnomaly.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [subjectDarkStudy].</li>
     <li>r_logentry->[INITIATOR_nameDef] inquired about [subjectDarkStudy].</li>
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
-  <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>TODO</PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
+  <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] indagou sobre [assuntoEstudoRistico].</li>
+    <li>r_logentry->[INITIATOR_nameDef] perguntou para [RECIPIENT_nameDef] sobre [assuntoEstudoRistico].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] comentou sobre [assuntoInsano].</li>
+  </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
   
 </LanguageData>
