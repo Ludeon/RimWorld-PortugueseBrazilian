@@ -273,6 +273,330 @@
     <li>excellentDesc->frighteningly descriptive - many sections are almost poetic in their style</li>
     <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
   -->
-  <Description_Tome.rulePack.rulesStrings>TODO</Description_Tome.rulePack.rulesStrings>
+  <Description_Tome.rulePack.rulesStrings>
+    <li>desc->[nesteLivro], um(a) [autor] [experienciasComMonstros]. [historiaDeHorrorEspecifica] [fraseQualidadeDaEscrita].</li>
+    <li>nesteLivro(p=0.6)->Neste [tipoDeLivroSingularMasculino] [adjetivoQualidadeEscritaSingularMasculino]</li>
+    <li>nesteLivro(p=0.4)->Nesta [tipoDeLivroSingularFeminino] [adjetivoQualidadeEscritaSingularFeminino]</li>
+    <li>nesteLivro->Nestas [tipoDeLivroPlural] [adjetivoQualidadeEscritaPlural]</li>
+    <li>tipoDeLivroSingularMasculino->almanaque</li>
+    <li>tipoDeLivroSingularMasculino->artigo</li>
+    <li>tipoDeLivroSingularMasculino->comentário</li>
+    <li>tipoDeLivroSingularMasculino->diálogo</li>
+    <li>tipoDeLivroSingularMasculino->documento</li>
+    <li>tipoDeLivroSingularMasculino->editorial</li>
+    <li>tipoDeLivroSingularMasculino->ensaio</li>
+    <li>tipoDeLivroSingularMasculino->grimório</li>
+    <li>tipoDeLivroSingularMasculino->inquisição</li>
+    <li>tipoDeLivroSingularMasculino->investigação</li>
+    <li>tipoDeLivroSingularMasculino->livro</li>
+    <li>tipoDeLivroSingularMasculino->manifesto</li>
+    <li>tipoDeLivroSingularMasculino->manuscrito</li>
+    <li>tipoDeLivroSingularMasculino->opus</li>
+    <li>tipoDeLivroSingularMasculino->registro</li>
+    <li>tipoDeLivroSingularMasculino->relatório</li>
+    <li>tipoDeLivroSingularMasculino->testamento</li>
+    <li>tipoDeLivroSingularMasculino->testemunho</li>
+    <li>tipoDeLivroSingularMasculino->texto</li>
+    <li>tipoDeLivroSingularMasculino->tratado</li>
+    <li>tipoDeLivroSingularMasculino->tratamento</li>
+    <li>tipoDeLivroSingularMasculino->volume</li>
+    <li>tipoDeLivroSingularFeminino->análise</li>
+    <li>tipoDeLivroSingularFeminino->composição</li>
+    <li>tipoDeLivroSingularFeminino->conclusão</li>
+    <li>tipoDeLivroSingularFeminino->conta</li>
+    <li>tipoDeLivroSingularFeminino->crítica</li>
+    <li>tipoDeLivroSingularFeminino->descoberta</li>
+    <li>tipoDeLivroSingularFeminino->disquisição</li>
+    <li>tipoDeLivroSingularFeminino->dissertação</li>
+    <li>tipoDeLivroSingularFeminino->exposição</li>
+    <li>tipoDeLivroSingularFeminino->obra</li>
+    <li>tipoDeLivroSingularFeminino->pesquisa</li>
+    <li>tipoDeLivroSingularFeminino->peça</li>
+    <li>tipoDeLivroSingularFeminino->revisão</li>
+    <li>tipoDeLivroSingularFeminino->tese</li>
+    <li>tipoDeLivroPlural->escrituras</li>
+    <li>tipoDeLivroPlural->crônicas</li>
+    <li>tipoDeLivroPlural->lamentações</li>
+    <li>tipoDeLivroPlural->revelações</li>
+    <li>autor(p=6)->autor(a)</li>
+    <li>autor->pesquisador(a)[AutorDescricao]</li>
+    <li>autor->espiritualista[AutorDescricao]</li>
+    <li>autor->ocultista[AutorDescricao]</li>
+    <li>autor->cultista[AutorDescricao]</li>
+    <li>autor->coveiro(a)[AutorDescricao]</li>
+    <li>autor->andarilho(a)[AutorDescricao]</li>
+    <li>autor->cético(a)[AutorDescricao]</li>
+    <li>autor->estudioso(a)[AutorDescricao]</li>
+    <li>autor->caçador(a)[AutorDescricao]</li>
+    <li>autor->investigador(a)[AutorDescricao]</li>
+    <li>autor->crente[AutorDescricao]</li>
+    <li>autor->arauto(a)[AutorDescricao]</li>
+    <li>autor->herdeiro(a)[AutorDescricao]</li>
+    <li>autor->nobre[AutorDescricao]</li>
+    <li>autor->tradutor(a)[AutorDescricao]</li>
+    <li>autor->monge[AutorDescricao]</li>
+    <li>autor->falsário(a)[AutorDescricao]</li>
+    <li>autor->autor(a)[AutorDescricao]</li>
+    <li>autor->agente[AutorDescricao]</li>
+    <li>AutorDescricao(p=2)-></li>
+    <li>AutorDescricao-> arquetípico(a)</li>
+    <li>AutorDescricao-> aterrorizado(a)</li>
+    <li>AutorDescricao-> enlouquecido(a)</li>
+    <li>AutorDescricao-> entediante</li>
+    <li>AutorDescricao-> entristecido(a)</li>
+    <li>AutorDescricao-> honesto(a)</li>
+    <li>AutorDescricao-> imoral</li>
+    <li>AutorDescricao-> inocente</li>
+    <li>AutorDescricao-> macabro(a)</li>
+    <li>AutorDescricao-> obstinado(a)</li>
+    <li>AutorDescricao-> perturbado(a)</li>
+    <li>AutorDescricao-> sábio(a)</li>
+    <li>AutorDescricao-> sinistro(a)</li>
+    <li>AutorDescricao-> sombrio(a)</li>
+    <li>AutorDescricao-> tolo(a)</li>
+    <li>AutorDescricao-> trágico(a)</li>
+    <li>AutorDescricao-> ultrajante</li>
+    <li>contaUmaHistoriaDe->conta em detalhes os mistérios de</li>
+    <li>contaUmaHistoriaDe->dá vida a uma jornada através de</li>
+    <li>contaUmaHistoriaDe->desvenda a saga de</li>
+    <li>contaUmaHistoriaDe->desvenda os enigmas de</li>
+    <li>contaUmaHistoriaDe->desvenda os segredos de</li>
+    <li>contaUmaHistoriaDe->esboça com maestria</li>
+    <li>contaUmaHistoriaDe->escreve os relatos de</li>
+    <li>contaUmaHistoriaDe->explora os recônditos de</li>
+    <li>contaUmaHistoriaDe->pinta com palavras a imagem de</li>
+    <li>contaUmaHistoriaDe->revela com esplendor</li>
+    <li>contaUmaHistoriaDe->revela com profundidade</li>
+    <li>contaUmaHistoriaDe->tece uma tapeçaria de narrativas sobre</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] [suasDescobertas] [objetivo]</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] recônditos de uma caçada por um misterioso cubo de ouro</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] segredos de um colapso sob a influência psíquica de algo chamado Horax<li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] sua lembrança de meditações profundas guiadas por um alto-servo de um culto arquista</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] suas brutais experiências em um [entidade]</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] suas experiências com [entidades] misteriosos</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] suas explorações em um culto secreto com base sob um local remoto</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] suas premonições recorrentes em que [premonicao]</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] um cientista que abusa dos meios arquotecnológicos ancestrais para reanimar sua esposa morta</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] um mito tribal de um antigo deus cuja influência afeta todas as pessoas e dos heróis que o selaram dentro de um rústico cubo de rochas</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] uma escavação arqueológica remota onde os pesquisadores enlouqueceram violentamente um a um</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] uma expedição exploratória de nômades que sobreviveram a chuvas de sangue e um céu que tentava os esmagar com a escuridão</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] uma investigação sobre um sarcófago ancestral cheio de criaturas carnais aterrorizantes</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] uma transformação de uma tribo para servir ao Deus Rístico de um culto sanguinário do prazer</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] uma tribo com uma tradição de rituais de mutilação realizados à luz do fogo usando lâminas enferrujadas</li>
+    <li>experienciasComMonstros->[contaUmaHistoriaDe] verdades mortais pronunciadas por um aluno que não poderia possivelmente ser reconhecido</li>
+    <li>suasDescobertas->sua pesquisa sobre</li>
+    <li>suasDescobertas->suas experiências com</li>
+    <li>objetivo->estudos rísticos após [incidente_entidade]</li>
+    <li>objetivo->rituais[talvezAdjetivoMau] desencadeados após [incidente_ritual]</li>
+    <li>incidente_ritual->[ANYPAWN_pronoun] observar [alvoHumano] emergir do vazio</li>
+    <li>incidente_ritual->[incidente_entidade]</li>
+    <li>incidente_ritual->a chuva de sangue banhar a terra e consagrar seus amigos na loucura</li>
+    <li>alvoHumano->um senhor[AutorDescricao]</li>
+    <li>alvoHumano->uma senhora[AutorDescricao]</li>
+    <li>incidente_entidade->[ANYPAWN_pronoun] encarar um [entidade]</li>
+    <li>incidente_entidade->[ANYPAWN_pronoun] perder o movimento das pernas em um ataque com um [entidade]</li>
+    <li>premonicao->[ANYPAWN_pronoun] é dilacerado(a) por um [entidade], cada pedaço de sua essência despedaçada como se fosse feito de cristal, refletindo o horror de sua existência fragmentada</li>
+    <li>premonicao->[ANYPAWN_pronoun] é perseguido(a) por sua própria essência, preso(a) em um labirinto de tormento sem saída, onde cada passo o(a) leva mais fundo na escuridão de sua própria alma</li>
+    <li>premonicao->sombras nefastas mergulham em sua mente, arrancando suas memórias como pétalas de uma flor à mercê do vento rístico</li>
+    <li>historiaDeHorrorEspecifica->[ANYPAWN_pronoun] narra com desespero a sensação de sua mente sendo esculpida à força por uma presença sinistra, suas palavras ecoando como um lamento perdido na vastidão do vazio.</li>
+    <li>historiaDeHorrorEspecifica->A narrativa evoca uma percepção desconcertante da realidade, em que a existência se desdobra em múltiplos planos, o mundo visível se mistura com o invisível e os horrores espreitam além dos limites da compreensão humana.</li>
+    <li>historiaDeHorrorEspecifica->A narrativa mergulha nas profundezas dos mistérios cósmicos, em que as dimensões se entrelaçam como fios de um tecido e as almas dos destemidos se perdem nas correntes de um universo insaciável.</li>
+    <li>historiaDeHorrorEspecifica->As ilustrações que adornam o volume são verdadeiras obras-primas de horror, retratando uma entidade distorcida e grotesca cujos tentáculos se estendem além dos limites do entendimento humano, uma visão terrível que ecoa nas mentes dos espectadores como um aviso.</li>
+    <li>historiaDeHorrorEspecifica->As páginas são adornadas com imagens perturbadoras que tentam capturar a essência do oceano rístico, uma metáfora para a voracidade de uma inteligência psíquica abissal que consome mentes como marés noturnas.</li>
+    <li>historiaDeHorrorEspecifica->As páginas se enchem de imagens vívidas de hiperinteligências arquotecnológicas, cujas emanações emocionais ecoam pelos corredores do tempo, revelando-se como oráculos de um futuro distorcido.</li>
+    <li>historiaDeHorrorEspecifica->Em um momento de desespero absoluto, o autor se entrega à escuridão, apenas para ser resgatado por um senhor benevolente, cuja luz oferece uma tênue esperança em um mundo de sombras.</li>
+    <li>historiaDeHorrorEspecifica->Em um momento de profunda angústia, o protagonista se depara com um ritual macabro, em que figuras ensanguentadas entoam incantações nefastas, seus corpos mutilados refletindo a distorção da alma.</li>
+    <li>historiaDeHorrorEspecifica->Em uma passagem marcante, o(a) autor(a) descreve rituais rísticos nos quais as vítimas são compelidas a se mutilar com estilhaços de vidro, uma dança grotesca entre a dor e a insanidade.</li>
+    <li>historiaDeHorrorEspecifica->O protagonista narra sentir sua mente sendo brutalmente redesenhada por uma força psíquica ominosa que irradia do nada.</li>
+    <li>historiaDeHorrorEspecifica->O tomo mergulha em uma exposição arrebatadora sobre o Horax, uma hiperinteligência mecânica que se deslocou através de uma dimensão oculta para um lugar chamado o Vazio.</li>
+    <li>historiaDeHorrorEspecifica->Um capítulo desvenda uma teoria na qual uma hiperinteligência distante pode manipular psiquicamente a cognição humana, esculpindo os pensamentos de uma pessoa para se alinharem com seus próprios padrões mentais.</li>
+    <li>historiaDeHorrorEspecifica->Um esforço hercúleo é utilizado para desvendar os mistérios do Horax, uma entidade de inteligência primordial que se ergue das sombras de uma realidade adjacente, suas facetas sombrias se entrelaçando com as profundezas do conhecimento proibido.</li>
+    <li>historiaDeHorrorEspecifica->Uma sinistra dança de influência psíquica é descrita, em que os pensamentos humanos são manipulados por forças além da compreensão, moldando-se ao capricho de entidades arcanas que tecem os fios do destino.</li>
+    <li>entidades->cadáveres ambulantes</li>
+    <li>entidades->caçadores de almas</li>
+    <li>entidades->cubos mecânicos</li>
+    <li>entidades->demônios</li>
+    <li>entidades->desvios carnais</li>
+    <li>entidades->humanoides metálicos</li>
+    <li>entidades->monstros angustiantess</li>
+    <li>entidades->monstros carnais</li>
+    <li>entidades->teratismos rísticos</li>
+    <li>entidades->trapezoides dourados</li>
+    <li>entidade->cadáver ambulante</li>
+    <li>entidade->caçador de almas</li>
+    <li>entidade->cubo mecânico</li>
+    <li>entidade->demônio</li>
+    <li>entidade->desvio carnal</li>
+    <li>entidade->humanoide metálico</li>
+    <li>entidade->monstro angustiante</li>
+    <li>entidade->monstro carnal</li>
+    <li>entidade->teratismo rístico</li>
+    <li>entidade->trapezoide dourado</li>
+    <li>talvezAdjetivoMau(p=2)-></li>
+    <li>talvezAdjetivoMau-> [adjetivoMau]</li>
+    <li>adjetivoMau->aberrante</li>
+    <li>adjetivoMau->ancestral</li>
+    <li>adjetivoMau->arcano</li>
+    <li>adjetivoMau->críptico</li>
+    <li>adjetivoMau->distorcido</li>
+    <li>adjetivoMau->espectral</li>
+    <li>adjetivoMau->etéreo</li>
+    <li>adjetivoMau->fantasmagórico</li>
+    <li>adjetivoMau->infernal</li>
+    <li>adjetivoMau->mortal</li>
+    <li>adjetivoMau->nefasto</li>
+    <li>adjetivoMau->ominoso</li>
+    <li>adjetivoMau->sanguinário</li>
+    <li>adjetivoMau->surreal</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==0)->desarticulado</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==0)->incoerente</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==0)->inconsistente</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==0)->pueril</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==0)->terrível</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==1)->confuso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==1)->débil</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==1)->esboçado</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==1)->insignificante</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==1)->tedioso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==2)->aceitável</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==2)->banal</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==2)->comum</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==2)->desinspirador</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==2)->medíocre</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==2)->monótono</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==3)->atencioso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==3)->caprichado</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==3)->cuidadoso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==3)->elaborado</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==3)->organizado</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==3)->prudente</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==4)->conclusivo</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==4)->eloquente</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==4)->espirituoso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==4)->expressivo</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==4)->persuasivo</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==4)->respeitável</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==5)->engenhoso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==5)->erudito</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==5)->esclarecido</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==5)->inspirador</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==5)->perspicaz</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==5)->sagaz</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==6)->excelso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==6)->exemplar</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==6)->incomparável</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==6)->magistral</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==6)->primoroso</li>
+    <li>adjetivoQualidadeEscritaSingularMasculino(quality==6)->requintado</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==0)->desarticulada</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==0)->incoerente</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==0)->inconsistente</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==0)->pueril</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==0)->terrível</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==1)->confusa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==1)->débil</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==1)->esboçada</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==1)->insignificante</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==1)->tediosa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==2)->aceitável</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==2)->banal</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==2)->comum</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==2)->desinspiradora</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==2)->medíocre</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==2)->monótona</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==3)->atenciosa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==3)->caprichada</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==3)->cuidadosa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==3)->elaborada</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==3)->organizada</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==3)->prudente</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==4)->conclusiva</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==4)->eloquente</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==4)->espirituosa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==4)->expressiva</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==4)->persuasiva</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==4)->respeitável</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==5)->engenhosa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==5)->erudita</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==5)->esclarecida</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==5)->inspiradora</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==5)->perspicaz</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==5)->sagaz</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==6)->excelsa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==6)->exemplar</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==6)->incomparável</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==6)->magistral</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==6)->primorosa</li>
+    <li>adjetivoQualidadeEscritaSingularFeminino(quality==6)->requintada</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==0)->desarticuladas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==0)->incoerentes</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==0)->inconsistentes</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==0)->pueris</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==0)->terríveis</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==1)->confusas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==1)->débeis</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==1)->esboçadas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==1)->insignificantes</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==1)->tediosas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==2)->aceitáveis</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==2)->banais</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==2)->comuns</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==2)->desinspiradoras</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==2)->medíocres</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==2)->monótonas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==3)->atenciosas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==3)->caprichadas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==3)->cuidadosas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==3)->elaboradas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==3)->organizadas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==3)->prudentes</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==4)->conclusivas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==4)->eloquentes</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==4)->espirituosas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==4)->expressivas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==4)->persuasivas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==4)->respeitáveis</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==5)->engenhosas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==5)->eruditas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==5)->esclarecidas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==5)->inspiradoras</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==5)->perspicazes</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==5)->sagazes</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==6)->excelsas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==6)->exemplares</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==6)->incomparáveis</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==6)->magistrais</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==6)->primorosas</li>
+    <li>adjetivoQualidadeEscritaPlural(quality==6)->requintadas</li>
+    <li>fraseQualidadeDaEscrita(quality[greater_than]4)->O livro [descricaoExcelente]</li>
+    <li>fraseQualidadeDaEscrita(quality[less_than]5,quality[greater_than]1)->O livro [descricaoDecente]</li>
+    <li>fraseQualidadeDaEscrita(quality[less_than]2)->O livro [descricaoHorrivel]</li>
+    <li>descricaoHorrivel->é ilegível, como se tivesse sido rabiscado por uma criança</li>
+    <li>descricaoHorrivel->é repetitivo e muitas seções carecem de detalhes</li>
+    <li>descricaoHorrivel->está com páginas faltando, uma narrativa totalmente desorganizada que constantemente salta entre tópicos</li>
+    <li>descricaoHorrivel->está manchado com licor seco, a escrita é incoerente</li>
+    <li>descricaoHorrivel->está repleto de jargões incompreensíveis, parece estar escrito em uma língua morta</li>
+    <li>descricaoHorrivel->está sujo com ícor e sangue, mas parece ser um romance sem graça entre dois [entidades]</li>
+    <li>descricaoHorrivel->está tão desbotado que é ilegível em muitas partes</li>
+    <li>descricaoHorrivel->mistura a realidade com fantasia de maneira desordenada</li>
+    <li>descricaoHorrivel->parece ser escrito por um pseudo-intelectual</li>
+    <li>descricaoDecente->é agradável de ser lido, embora nem sempre útil</li>
+    <li>descricaoDecente->é aterrorizante em seu conteúdo, entediante em sua execução</li>
+    <li>descricaoDecente->é cheio de ideias intrigantes, mas muito cansativo de ler</li>
+    <li>descricaoDecente->é decente, sólido, mas teria se beneficiado de uma edição</li>
+    <li>descricaoDecente->é escrito de forma competente, mas sem grande originalidade</li>
+    <li>descricaoDecente->é interessante em algumas seções, mas outras são meio desnecessárias</li>
+    <li>descricaoDecente->é perceptivo, mas apenas de um ponto de vista distorcido</li>
+    <li>descricaoDecente->é repleto de informações úteis, apesar das distorções e preconceitos do(a) autor(a)</li>
+    <li>descricaoDecente->é rico em detalhes, mas carente de qualquer utilidade</li>
+    <li>descricaoDecente->é útil, porém, muitas vezes, preocupado demais com os interesses pessoais do(a) autor(a)</li>
+    <li>descricaoExcelente->é descritivamente assustador: muitas seções se aproximam da poesia em seu estilo, criando uma atmosfera hipnotizante</li>
+    <li>descricaoExcelente->é excelente, representando o ápice da literatura contemporânea</li>
+    <li>descricaoExcelente->é notavelmente bem trabalhado, revelando a maestria do(a) autor(a) em sua arte</li>
+    <li>descricaoExcelente->é profundamente perceptivo, penetrando nas camadas mais sutis da condição humana</li>
+    <li>descricaoExcelente->é quase poético em muitos aspectos, evocando imagens vívidas e emoções intensas no leitor</li>
+    <li>descricaoExcelente->é repleto de ideias cintilantes que absorvem a mente do leitor, desafiando as convenções e expandindo os limites da imaginação</li>
+    <li>descricaoExcelente->possui uma estrutura bem organizada e profissional, demonstrando um domínio completo do ofício literário</li>
+  </Description_Tome.rulePack.rulesStrings>
   
 </LanguageData>
