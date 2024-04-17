@@ -15,6 +15,18 @@
     <li>firedat(p=0.3)->opened fire at</li>
     <li>verb_fired->fired</li>
   -->
-  <Combat_RangedFlamethrower.rulePack.rulesStrings>TODO</Combat_RangedFlamethrower.rulePack.rulesStrings>
+  <Combat_RangedFlamethrower.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [disparouContra] [RECIPIENT_definite] com seu(sua) [WEAPON_label].</li>
+    <li>r_logentry->[INITIATOR_definite] [disparou] seu(sua) [WEAPON_label] contra [RECIPIENT_definite].</li>
+    <li>r_logentry->[INITIATOR_definite] [disparouContra] [RECIPIENT_definite].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [disparou] seu(sua) [WEAPON_label].</li>
+    <li>disparou(p=2)->disparou</li>
+    <li>disparou->disparou [skillAdv]</li>
+    <li>disparouContra->disparou contra</li>
+    <li>disparouContra->disparou [skillAdv] contra</li>
+    <li>disparouContra(p=0.5)->mirou e disparou contra</li>
+    <li>disparouContra(p=0.5)->mirou [skillAdv] e disparou contra</li>
+    <li>disparouContra(p=0.3)->abriu fogo contra</li>
+  </Combat_RangedFlamethrower.rulePack.rulesStrings>
   
 </LanguageData>
