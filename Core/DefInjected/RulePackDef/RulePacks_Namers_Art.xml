@@ -53,7 +53,7 @@
     <li>r_art_name->[maybe_a] [maybe_adjective] [Game]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [Animal]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [Gore]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [NaturalObject]</li>
+    <li>r_art_name->[maybe_a] [maybe_adjective] [ObjetoNatural]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</li>
     <li>r_art_name(p=2)->[Artwork] núm. [art_name_numeric]</li>
@@ -63,7 +63,7 @@
     <li>r_art_name->[ConceptAny] núm. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=6)->[ANYPAWN_nameIndef] de [Artwork]</li>
-    <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
+    <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Cor]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PersonalCharacteristic]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
@@ -85,7 +85,7 @@
     <li>maybe_adjective(p=5)-></li>
     <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
     <li>maybe_adjective->[AdjectiveBadass]</li>
-    <li>maybe_adjective->[Color]</li>
+    <li>maybe_adjective->[Cor]</li>
   </NamerArtCommon.rulePack.rulesStrings>
   
   <!-- EN:

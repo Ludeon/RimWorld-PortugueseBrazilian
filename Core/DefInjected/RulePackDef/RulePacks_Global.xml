@@ -53,16 +53,16 @@
     <li>SylP->WordParts/Syllables_Pig</li>
     <li>SylP_M->WordParts/Syllables_Pig_Maiúscula</li>
     <li>SylGM->WordParts/Syllables_Galician_CAPS</li>
-    <li>Color->Words/Nouns/Colors</li>
-    <li>ColorM->Words/Nouns/Colors_CAPS</li>
+    <li>Cor->Palavras/Substantivos/Cores/Cores</li>
+    <li>CorMaiusculo->Palavras/Substantivos/Cores/Cores_Maiusculo</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
     <li>ColorBadassM->Words/Nouns/Colors_Badass_CAPS</li>
     <li>Vegetable->Words/Nouns/Vegetables</li>
     <li>VegetableM->Words/Nouns/Vegetables_CAPS</li>
     <li>Game->Words/Nouns/Games</li>
     <li>GameM->Words/Nouns/Games_CAPS</li>
-    <li>Animal->Words/Nouns/Animals</li>
-    <li>AnimalM->Words/Nouns/Animals_CAPS</li>
+    <li>Animal->Palavras/Substantivos/Animais/Animais</li>
+    <li>AnimalMaiusculo->Palavras/Substantivos/Animais/Animais_Maiusculo</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
     <li>AnimalBadassM->Words/Nouns/Animals_Badass_CAPS</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
@@ -72,7 +72,8 @@
     <li>TerrainFeatureM->Words/Nouns/TerrainFeatures_CAPS</li>
     <li>TerrainFeatureMale->Words/Nouns/TerrainFeatures_MALE</li>
     <li>TerrainFeatureFemale->Words/Nouns/TerrainFeatures_FEMALE</li>
-    <li>NaturalObject->Words/Nouns/NaturalObject</li>
+    <li>ObjetoNatural->Palavras/Substantivos/ObjetoNatural/ObjetoNatural</li>
+    <li>ObjetoNaturalMaiusculo->Palavras/Substantivos/ObjetoNatural/ObjetoNatural_Maiusculo</li>
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
     <li>PersonJobM->Words/Nouns/People_Jobs_CAPS</li>
@@ -84,8 +85,8 @@
     <li>Enemy->Words/Nouns/Enemies</li>
     <li>EnemyM->Words/Nouns/Enemies_CAPS</li>
     <li>Apparel->Words/Nouns/Apparel</li>
-    <li>Gore->Words/Nouns/Gore</li>
-    <li>GoreM->Words/Nouns/Gore_CAPS</li>
+    <li>Gore->Palavras/Substantivos/Gore/Gore</li>
+    <li>GoreMaiusculo->Palavras/Substantivos/Gore/Gore_Maiusculo</li>
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <li>MechanoidM->Words/Nouns/Mechanoid_CAPS</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
@@ -97,14 +98,15 @@
     <li>CommunityM->Words/Nouns/Communities_CAPS</li>
     <li>CommunityMale->Words/Nouns/Communities_MALE</li>
     <li>CommunityFemale->Words/Nouns/Communities_FEMALE</li>
-    <li>Bodypart->Words/Nouns/Bodyparts</li>
-    <li>BodypartM->Words/Nouns/Bodyparts_CAPS</li>
+    <li>ParteDoCorpo->Palavras/Substantivos/PartesDoCorpo/PartesDoCorpo</li>
+    <li>ParteDoCorpoMaiusculo->Palavras/Substantivos/PartesDoCorpo/PartesDoCorpo_Maiusculo</li>
     <li>AdjectiveLarge->Words/Adjectives/Large</li>
     <li>AdjectiveBadass->Words/Adjectives/Badass</li>
     <li>AdjectiveBadassM->Words/Adjectives/Badass_CAPS</li>
     <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
     <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
-    <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>AdjetivoNatural->Palavras/Adjetivos/Natural/Natural</li>
+    <li>AdjetivoNaturalMaiusculo->Palavras/Adjetivos/Natural/Natural_Maiusculo</li>
     <li>VerbFriendly->Words/Verbs/Friendly</li>
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
     <li>Translator->Names/Translators</li>
@@ -168,7 +170,7 @@
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
     <li>CharacterM(p=6)->[PersonJobM]</li>
-    <li>CharacterM(p=4)->[AnimalM]</li>
+    <li>CharacterM(p=4)->[AnimalMaiusculo]</li>
     <li>CharacterM(p=3)->[EnemyM]</li>
     <li>CharacterM->[MechanoidM]</li>
     <li>Quantity_adjphrase->três</li>
@@ -198,7 +200,7 @@
     <li>AdjectiveAny->[AdjectiveBadass]</li>
     <li>AdjectiveAny->[AdjectiveAngsty]</li>
     <li>AdjectiveAny->[AdjectiveFriendly]</li>
-    <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>AdjectiveAny->[AdjetivoNatural]</li>
     <li>ConceptAny->[ConceptPositive]</li>
     <li>ConceptAny->[ConceptBadass]</li>
     <li>ConceptAny->[ConceptAngsty]</li>
@@ -274,7 +276,7 @@
     <li>TalkTopicLight->usar [Weapon]</li>
     <li>TalkTopicLight->praticar com [Weapon]</li>
     <li>TalkTopicLight->[TerrainFeature]</li>
-    <li>TalkTopicLight->[NaturalObject]</li>
+    <li>TalkTopicLight->[ObjetoNatural]</li>
     <li>TalkTopicLight->[TreeType]</li>
     <li>TalkTopicLight->[PersonJob]</li>
     <li>TalkTopicLight->[PersonJob] amigável</li>

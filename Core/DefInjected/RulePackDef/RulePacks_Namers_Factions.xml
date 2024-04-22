@@ -90,8 +90,8 @@
     <li>r_name(p=0.2)->[political_union_outlanderMale] de [nearnameinitial]</li>
     <li>r_name(p=0.8)->[political_union_outlanderFemale] [political_adjectiveFemale] de [nearnameinitial]</li>
     <li>r_name(p=0.2)->[political_union_outlanderMale] [political_adjectiveMale] de [nearnameinitial]</li>
-    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
-    <li>nearnameinitial->[PlaceOutlander] [DirectionM]</li>
+    <li>nearnameinitial(p=3)->[LocalForasteiroMaiusculo]</li>
+    <li>nearnameinitial->[LocalForasteiroMaiusculo] [DirectionM]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -149,7 +149,7 @@
     <li>r_name(p=0.3)->[groupname]s do [ConceptBadassMale]</li>
     <li>r_name(p=0.3)->[PersonAlly]s do [ConceptBadassMale]</li>
     <li>r_name(p=0.3)->[PersonBadassM]s do [ConceptBadassMale]</li>
-    <li>r_name(p=0.4)->Comedores de [GoreM]</li>
+    <li>r_name(p=0.4)->Comedores de [GoreMaiusculo]</li>
     <li>r_name(p=0.7)->[AnimalBadassM]s da [ConceptBadassFemale]</li>
     <li>r_name(p=0.7)->[groupname]s da [ConceptBadassFemale]</li>
     <li>r_name(p=0.7)->[PersonAlly]s da [ConceptBadassFemale]</li>
@@ -165,10 +165,10 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[political_union_tribal] [WordTribalM]</li>
-    <li>r_name->[political_union_tribal] [TerrainFeatureM] [ColorM]</li>
-    <li>r_name->[political_union_tribal] de [WordTribalM]</li>
-    <li>r_name->[AnimalM]-[WordTribalM] [ColorM]</li>
+    <li>r_name->[political_union_tribal] [PalavraTribalMaiuscula]</li>
+    <li>r_name->[political_union_tribal] [TerrainFeatureM] [CorMaiusculo]</li>
+    <li>r_name->[political_union_tribal] de [PalavraTribalMaiuscula]</li>
+    <li>r_name->[AnimalMaiusculo]-[PalavraTribalMaiuscula] [CorMaiusculo]</li>
     <li>r_name->[political_union_tribal] [TerrainFeatureM]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
@@ -193,7 +193,7 @@
     <li>r_name->[townname_near]</li>
     <li>topicalnoun->[Vegetable]</li>
     <li>topicalnoun->[Game]</li>
-    <li>topicalnoun->[BodyPart]</li>
+    <li>topicalnoun->[ParteDoCorpo]</li>
     <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
     <li>townname_combo->[topicalnoun] [Community]</li>
     <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
@@ -245,7 +245,7 @@
     <li>r_name->[townname_near]</li>
     <li>topicalnoun->[VegetableM]</li>
     <li>topicalnoun->[GameM]</li>
-    <li>topicalnoun->[BodyPartM]</li>
+    <li>topicalnoun->[ParteDoCorpoMaiusculo]</li>
     <li>townname_combo->[topicalnoun] [TerrainFeatureM]</li>
     <li>townname_combo->[topicalnoun] [CommunityM]</li>
     <li>townname_combo(p=0.5)->[topicalnoun] da [TerrainFeatureFemale]</li>
@@ -441,10 +441,10 @@
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
-    <li>r_name(p=2)->[WordTribalM]</li>
-    <li>r_name->[WordTribalM] [ColorM]</li>
-    <li>r_name->[TerrainFeatureM] [ColorM]</li>
-    <li>r_name->[TerrainFeatureM] [WordTribalM]</li>
+    <li>r_name(p=2)->[PalavraTribalMaiuscula]</li>
+    <li>r_name->[PalavraTribalMaiuscula] [CorMaiusculo]</li>
+    <li>r_name->[TerrainFeatureM] [CorMaiusculo]</li>
+    <li>r_name->[TerrainFeatureM] [PalavraTribalMaiuscula]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>

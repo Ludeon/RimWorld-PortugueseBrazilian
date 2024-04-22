@@ -23,7 +23,7 @@
     <li>r_name(p=0.2)->[businesstype] [Direction]</li>
     <li>r_name(p=0.2)->[businesstype] [TreeType][maybe_adjective]</li>
     <li>r_name(p=0.2)->[businesstype] [Vegetable][maybe_adjective]</li>
-    <li>r_name(p=0.3)->[businesstype] [NaturalObject][maybe_adjective]</li>
+    <li>r_name(p=0.3)->[businesstype] [ObjetoNatural][maybe_adjective]</li>
     <li>r_name(p=0.3)->[businesstype] [PersonFamily]</li>
     <li>r_name(p=0.5)->[businesstype] [AdjectiveBadass]</li>
     <li>r_name(p=0.5)->[businesstype] [AdjectiveFriendly]</li>
@@ -35,7 +35,7 @@
     <li>maybe_adjective-></li>
     <li>maybe_adjective-> [AdjectiveBadass]</li>
     <li>maybe_adjective-> [AdjectiveFriendly]</li>
-    <li>maybe_adjective-> [Color]</li>
+    <li>maybe_adjective-> [Cor]</li>
   </NamerTraderGeneral.rulePack.rulesStrings>
   
 </LanguageData>
