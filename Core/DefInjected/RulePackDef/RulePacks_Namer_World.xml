@@ -24,15 +24,15 @@
     <li>planet->Planet</li>
   -->
   <NamerWorld.rulePack.rulesStrings>
-    <li>r_name->[celestial_name]</li>
-    <li>r_name->[celestial_prefix] [celestial_name]</li>
-    <li>r_name->[celestial_name] [celestial_suffix]</li>
+    <li>r_name->[nome_celestial]</li>
+    <li>r_name->[prefixo_celestial] [nome_celestial]</li>
+    <li>r_name->[nome_celestial] [sufixo_celestial]</li>
     <li>r_name->[nome_mundo_numerico]</li>
-    <li>r_name->[nome_mundo_numerico] [celestial_suffix]</li>
-    <li>r_name(p=0.5)->[celestial_name] [AlgorismoRomano]</li>
-    <li>r_name(p=0.5)->[celestial_name]-[AlgorismoRomano]</li>
-    <li>r_name(p=0.5)->[celestial_name]-[numeros]</li>
-    <li>r_name->[celestial_name] [celestial_name]</li>
+    <li>r_name->[nome_mundo_numerico] [sufixo_celestial]</li>
+    <li>r_name(p=0.5)->[nome_celestial] [AlgorismoRomano]</li>
+    <li>r_name(p=0.5)->[nome_celestial]-[AlgorismoRomano]</li>
+    <li>r_name(p=0.5)->[nome_celestial]-[numeros]</li>
+    <li>r_name->[nome_celestial] [nome_celestial]</li>
     <li>r_name->[planeta] de [NamePerson]</li>
     <li>nome_mundo_numerico->[letras]-[numeros]</li>
     <li>nome_mundo_numerico->[letras][numeros]</li>
@@ -49,5 +49,16 @@
     <li>planeta->Mundo</li>
     <li>planeta->Planeta</li>
   </NamerWorld.rulePack.rulesStrings>
+
+  <!-- EN:
+    <li>celestial_name->Names/Celestial</li>
+    <li>celestial_suffix->Names/CelestialSuffix</li>
+    <li>celestial_prefix->Names/CelestialPrefix</li>
+  -->
+  <NamerWorld.rulePack.rulesFiles>
+    <li>nome_celestial->Nomes/Celestial/Celestial</li>
+    <li>sufixo_celestial->Nomes/Celestial/SufixoCelestial</li>
+    <li>prefixo_celestial->Nomes/Celestial/PrefixoCelestial</li>
+  </NamerWorld.rulePack.rulesFiles>
   
 </LanguageData>
