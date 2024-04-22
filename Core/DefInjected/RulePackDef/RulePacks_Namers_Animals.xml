@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- EN:
+    <li>NameAnimalUnisex->Names/Animal_Unisex</li>
+    <li>NameAnimalMale->Names/Animal_Male</li>
+    <li>NameAnimalFemale->Names/Animal_Female</li>
+  -->
+
+  <NamerAnimalUtility.rulePack.rulesFiles>
+    <li>NomeAnimalUnissexo->Nomes/Animal/Animal_Unissexo</li>
+    <li>NomeAnimalMacho->Nomes/Animal/Animal_Macho</li>
+    <li>NomeAnimalFemea->Nomes/Animal/Animal_Femea</li>
+  </NamerAnimalUtility.rulePack.rulesFiles>
   
   <!-- EN:
     <li>r_name(p=6)->[NameAnimalUnisex]</li>
@@ -13,14 +25,14 @@
     <li>exoticname->[Color]</li>
   -->
   <NamerAnimalGenericFemale.rulePack.rulesStrings>
-    <li>r_name(p=6)->[NameAnimalUnisex]</li>
-    <li>r_name(p=6)->[NameAnimalFemale]</li>
+    <li>r_name(p=6)->[NomeAnimalUnissexo]</li>
+    <li>r_name(p=6)->[NomeAnimalFemea]</li>
     <li>r_name(p=6)->[NamePersonFemale]</li>
-    <li>r_name->[exoticname]</li>
-    <li>exoticname(p=2)->[PersonBadass]</li>
-    <li>exoticname->[Enemy]</li>
-    <li>exoticname->[ConceptAny]</li>
-    <li>exoticname->[Cor]</li>
+    <li>r_name->[nome_exotico]</li>
+    <li>nome_exotico(p=2)->[PessoaFodaSingularFemininoMaiusculo]</li>
+    <li>nome_exotico->[InimigoSingularFemininoMaiusculo]</li>
+    <li>nome_exotico->[ConceitoQualquerSingularFemininoMaiusculo]</li>
+    <li>nome_exotico->[Cor]</li>
   </NamerAnimalGenericFemale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -35,14 +47,14 @@
     <li>exoticname->[Color]</li>
   -->
   <NamerAnimalGenericMale.rulePack.rulesStrings>
-    <li>r_name(p=6)->[NameAnimalUnisex]</li>
-    <li>r_name(p=6)->[NameAnimalMale]</li>
+    <li>r_name(p=6)->[NomeAnimalUnissexo]</li>
+    <li>r_name(p=6)->[NomeAnimalMacho]</li>
     <li>r_name(p=6)->[NamePersonMale]</li>
-    <li>r_name->[exoticname]</li>
-    <li>exoticname(p=2)->[PersonBadass]</li>
-    <li>exoticname->[Enemy]</li>
-    <li>exoticname->[ConceptAny]</li>
-    <li>exoticname->[Cor]</li>
+    <li>r_name->[nome_exotico]</li>
+    <li>nome_exotico(p=2)->[PessoaFodaSingularMasculinoMaiusculo]</li>
+    <li>nome_exotico->[InimigoSingularMasculinoMaiusculo]</li>
+    <li>nome_exotico->[ConceitoQualquerSingularMasculinoMaiusculo]</li>
+    <li>nome_exotico->[Cor]</li>
   </NamerAnimalGenericMale.rulePack.rulesStrings>
   
 </LanguageData>

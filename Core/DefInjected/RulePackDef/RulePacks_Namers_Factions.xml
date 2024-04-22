@@ -129,31 +129,31 @@
     <li>r_name->[AnimalBadassM]s de [NamePerson]</li>
     <li>r_name->[AnimalBadassM]s e [WeaponM]s</li>
     <li>r_name->[AnimalBadassM]s</li>
-    <li>r_name->[EnemyM] [AdjectiveBadassM]</li>
-    <li>r_name->[EnemyM] [ColorBadassM]</li>
-    <li>r_name->[EnemyM]s com [WeaponM]s</li>
-    <li>r_name->[EnemyM]s de [NamePerson]</li>
-    <li>r_name->[EnemyM]s</li>
+    <li>r_name->[[InimigoMaiusculo]] [AdjectiveBadassM]</li>
+    <li>r_name->[[InimigoMaiusculo]] [ColorBadassM]</li>
+    <li>r_name->[[InimigoMaiusculo]]s com [WeaponM]s</li>
+    <li>r_name->[[InimigoMaiusculo]]s de [NamePerson]</li>
+    <li>r_name->[[InimigoMaiusculo]]s</li>
     <li>r_name->[groupname] [AdjectiveBadassM]</li>
-    <li>r_name->[groupname] de [PersonBadassM]s</li>
+    <li>r_name->[groupname] de [PessoaFodaMaiusculo]s</li>
     <li>r_name->[groupname] de [WeaponM]s</li>
-    <li>r_name->[PersonBadassM] [AdjectiveBadassM]</li>
-    <li>r_name->[PersonBadassM] [ColorBadassM]</li>
-    <li>r_name->[PersonBadassM]s</li>
+    <li>r_name->[PessoaFodaMaiusculo] [AdjectiveBadassM]</li>
+    <li>r_name->[PessoaFodaMaiusculo] [ColorBadassM]</li>
+    <li>r_name->[PessoaFodaMaiusculo]s</li>
     <li>r_name->[WeaponM] [ColorBadassM]</li>
     <li>r_name->[WeaponM]s de [NamePerson]</li>
     <li>r_name->[WeaponM]s</li>
     <li>r_name->Homens [AnimalBadassM]s</li>
     <li>r_name->Homens [WeaponM]s</li>
-    <li>r_name(p=0.3)->[AnimalBadassM]s do [ConceptBadassMale]</li>
-    <li>r_name(p=0.3)->[groupname]s do [ConceptBadassMale]</li>
-    <li>r_name(p=0.3)->[PersonAlly]s do [ConceptBadassMale]</li>
-    <li>r_name(p=0.3)->[PersonBadassM]s do [ConceptBadassMale]</li>
+    <li>r_name(p=0.3)->[AnimalBadassM]s do [ConceitoFodaSingularMasculinoMaiusculo]</li>
+    <li>r_name(p=0.3)->[groupname]s do [ConceitoFodaSingularMasculinoMaiusculo]</li>
+    <li>r_name(p=0.3)->[PersonAlly]s do [ConceitoFodaSingularMasculinoMaiusculo]</li>
+    <li>r_name(p=0.3)->[PessoaFodaMaiusculo]s do [ConceitoFodaSingularMasculinoMaiusculo]</li>
     <li>r_name(p=0.4)->Comedores de [GoreMaiusculo]</li>
-    <li>r_name(p=0.7)->[AnimalBadassM]s da [ConceptBadassFemale]</li>
-    <li>r_name(p=0.7)->[groupname]s da [ConceptBadassFemale]</li>
-    <li>r_name(p=0.7)->[PersonAlly]s da [ConceptBadassFemale]</li>
-    <li>r_name(p=0.7)->[PersonBadassM]s da [ConceptBadassFemale]</li>
+    <li>r_name(p=0.7)->[AnimalBadassM]s da [ConceitoFodaSingularFemininoMaiusculo]</li>
+    <li>r_name(p=0.7)->[groupname]s da [ConceitoFodaSingularFemininoMaiusculo]</li>
+    <li>r_name(p=0.7)->[PersonAlly]s da [ConceitoFodaSingularFemininoMaiusculo]</li>
+    <li>r_name(p=0.7)->[PessoaFodaMaiusculo]s da [ConceitoFodaSingularFemininoMaiusculo]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
@@ -366,11 +366,11 @@
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[geography] [AnimalBadassM]</li>
     <li>townname_combo->[geography] de [AnimalBadassM]s</li>
-    <li>townname_combo(p=0.3)->[geography] do [ConceptBadassMale]</li>
-    <li>townname_combo(p=0.7)->[geography] da [ConceptBadassFemale]</li>
-    <li>townname_combo->[geography] de [PersonBadassM]s</li>
-    <li>townname_combo(p=0.5)->[Enemy] da [geographyFemale]</li>
-    <li>townname_combo(p=0.5)->[Enemy] do [geographyMale]</li>
+    <li>townname_combo(p=0.3)->[geography] do [ConceitoFodaSingularMasculinoMaiusculo]</li>
+    <li>townname_combo(p=0.7)->[geography] da [ConceitoFodaSingularFemininoMaiusculo]</li>
+    <li>townname_combo->[geography] de [PessoaFodaMaiusculo]s</li>
+    <li>townname_combo(p=0.5)->[Inimigo] da [geographyFemale]</li>
+    <li>townname_combo(p=0.5)->[Inimigo] do [geographyMale]</li>
     <li>townname_combo(p=0.5)->[Weapon] da [geographyFemale]</li>
     <li>townname_combo(p=0.5)->[Weapon] do [geographyMale]</li>
     <li>geographyMale(p=2)->[TerrainFeatureMale]</li>

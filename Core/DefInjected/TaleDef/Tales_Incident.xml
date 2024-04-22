@@ -49,7 +49,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s assistem à cena.</li>
     <li>desc_sentence->[PAWN_nameDef] senta-se perto de um(a) [TerrainFeature] e olha para o céu.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s vagam pacificamente.</li>
-    <li>desc_sentence->Não há [Enemy]s à vista.</li>
+    <li>desc_sentence->Não há [Inimigo]s à vista.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
@@ -98,9 +98,9 @@
     <li>circumstance_phrase->enquanto empunha sua arma</li>
     <li>circumstance_phrase->enquanto banha-se de suor</li>
     <li>desc_sentence->[Quantity_adjphrase] figuras distantes se aproximam por trás de um(a) [TerrainFeature].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s podem ser vistos à distância.</li>
-    <li>desc_sentence->[PAWN_nameDef] está praticamente cercado(a) por [Enemy]s.</li>
-    <li>desc_sentence->[PAWN_nameDef] é confrontado(a) por um [Enemy].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s podem ser vistos à distância.</li>
+    <li>desc_sentence->[PAWN_nameDef] está praticamente cercado(a) por [Inimigo]s.</li>
+    <li>desc_sentence->[PAWN_nameDef] é confrontado(a) por um [Inimigo].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fogem do conflito em medo.</li>
     <li>desc_sentence->À distância, um [PersonJob] observa.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
@@ -197,9 +197,9 @@
     <li>circumstance_phrase->com uma expressão [AdjectiveBadass]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
     <li>circumstance_phrase->enquanto outros o(a) olha</li>
-    <li>circumstance_phrase->enquanto é ameaçado(a) por [Enemy]s</li>
-    <li>desc_sentence->[PAWN_nameDef] está praticamente cercado(a) por [Enemy]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s aproximam-se [action].</li>
+    <li>circumstance_phrase->enquanto é ameaçado(a) por [Inimigo]s</li>
+    <li>desc_sentence->[PAWN_nameDef] está praticamente cercado(a) por [Inimigo]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s aproximam-se [action].</li>
     <li>desc_sentence->O sol se põe sobre um(a) [TerrainFeature].</li>
     <li>desc_sentence->O sol nasce sobre um(a) [TerrainFeature].</li>
     <li>desc_sentence->À distância, um [PersonJob] observa.</li>
@@ -306,7 +306,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observam de baixo.</li>
     <li>desc_sentence->[PAWN_nameDef] senta-se perto de um(a) [TerrainFeature]e olha para o céu.</li>
     <li>desc_sentence->Um(a) [Community] de espectadores observa o céu pacificamente.</li>
-    <li>desc_sentence->Não há [Enemy]s à vista.</li>
+    <li>desc_sentence->Não há [Inimigo]s à vista.</li>
   </Eclipse.rulePack.rulesStrings>
   
   <!-- EN: journey offer -->
@@ -633,22 +633,22 @@
   <Raid.rulePack.rulesStrings>
     <li>tale_noun->a uma invasão no(a) [Community] de [PAWN_nameDef]</li>
     <li>tale_noun->a um assalto ao(à) [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] sendo atacado(a) por [Enemy]s</li>
+    <li>tale_noun->ao(à) [Community] de [PAWN_nameDef] sendo atacado(a) por [Inimigo]s</li>
     <li>tale_nounD->e uma invasão no(a) [Community] de [PAWN_nameDef]</li>
     <li>tale_nounD->e um assalto ao(à) [Community] de [PAWN_nameDef]</li>
-    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo atacado(a) por [Enemy]s</li>
-    <li>image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
+    <li>tale_nounD->o(a) [Community] de [PAWN_nameDef] sendo atacado(a) por [Inimigo]s</li>
+    <li>image->[Quantity_adjphrase] [Inimigo]s [circumstance_phrase]</li>
     <li>image->um exército [circumstance_phrase]</li>
     <li>image->uma força avassaladora [circumstance_phrase]</li>
     <li>image->uma força invasora [circumstance_phrase]</li>
     <li>image->um estandarte [Cor] [circunstance_phrase]</li>
-    <li>image->um(a) enorme [Enemy] [circumstance_phrase]</li>
-    <li>imageD->e [Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
+    <li>image->um(a) enorme [Inimigo] [circumstance_phrase]</li>
+    <li>imageD->e [Quantity_adjphrase] [Inimigo]s [circumstance_phrase]</li>
     <li>imageD->e um exército [circumstance_phrase]</li>
     <li>imageD->e uma força avassaladora [circumstance_phrase]</li>
     <li>imageD->e uma força invasora [circumstance_phrase]</li>
     <li>imageD->e um estandarte [Cor] [circunstance_phrase]</li>
-    <li>imageD->e um(a) enorme [Enemy] [circumstance_phrase]</li>
+    <li>imageD->e um(a) enorme [Inimigo] [circumstance_phrase]</li>
     <li>circumstance_phrase->avançando sobre um(a) [TerrainFeature]</li>
     <li>circumstance_phrase->envolvendo completamente um(a) [Community]</li>
     <li>circumstance_phrase->atacando [Quantity_adjphrase] [PersonJob]s</li>

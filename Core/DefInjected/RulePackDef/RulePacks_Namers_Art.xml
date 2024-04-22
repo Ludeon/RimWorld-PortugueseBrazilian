@@ -45,9 +45,9 @@
     <li>maybe_adjective->[Color]</li>
   -->
   <NamerArtCommon.rulePack.rulesStrings>
-    <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
+    <li>r_art_name(p=4)->[Artwork] [Trans] [ConceitoQualquer]</li>
     <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</li>
+    <li>r_art_name->[maybe_a] [maybe_adjective] [ConceitoQualquer]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [Vegetable]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [Game]</li>
@@ -55,18 +55,18 @@
     <li>r_art_name->[maybe_a] [maybe_adjective] [Gore]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [ObjetoNatural]</li>
     <li>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</li>
+    <li>r_art_name->[maybe_a] [maybe_adjective] [Inimigo]</li>
     <li>r_art_name(p=2)->[Artwork] núm. [art_name_numeric]</li>
     <li>r_art_name->núm. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric]</li>
     <li>r_art_name->[Artwork] [art_name_numeric]</li>
-    <li>r_art_name->[ConceptAny] núm. [art_name_numeric]</li>
+    <li>r_art_name->[ConceitoQualquer] núm. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=6)->[ANYPAWN_nameIndef] de [Artwork]</li>
     <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Cor]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PersonalCharacteristic]</li>
     <li>r_art_name(p=3)->[PersonalCharacteristic] de [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ConceitoQualquer] [Trans] [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
@@ -103,17 +103,17 @@
     <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
   -->
   <NamerArtWeapon.rulePack.rulesStrings>
-    <li>r_art_name->[ConceptBadass]</li>
+    <li>r_art_name->[ConceitoFoda]</li>
     <li>r_art_name->O(a) [AnimalBadass]</li>
     <li>r_art_name->[AdjectiveBadass] [AnimalBadass]</li>
     <li>r_art_name->[ColorBadass] [AnimalBadass]</li>
-    <li>r_art_name->[ConceptBadass] [ColorBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [ConceptBadass]</li>
+    <li>r_art_name->[ConceitoFoda] [ColorBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [ConceitoFoda]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [AnimalBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PersonBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PessoaFoda]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PersonAlly]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PersonFamily]</li>
-    <li>r_art_name(p=3)->[ConceptBadass] de [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ConceitoFoda] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   

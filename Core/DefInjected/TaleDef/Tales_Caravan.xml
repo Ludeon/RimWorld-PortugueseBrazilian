@@ -46,10 +46,10 @@
     <li>circumstance_phrase->enquanto ruge a vitória</li>
     <li>circumstance_phrase->enquanto brada seu(ua) [Weapon]</li>
     <li>circumstance_phrase->coberto(a) de [Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avançam, bradando seus(uas) [Weapon]s.</li>
-    <li>desc_sentence->Um imenso [Enemy] avança, brandindo seu(ua) [Weapon].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avançam com um olhar [AdjectiveBadass].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s avançam com um olhar [AdjectiveAngsty].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s avançam, bradando seus(uas) [Weapon]s.</li>
+    <li>desc_sentence->Um imenso [Inimigo] avança, brandindo seu(ua) [Weapon].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s avançam com um olhar [AdjectiveBadass].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s avançam com um olhar [AdjectiveAngsty].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s avançam com um brilho [Cor] em seus olhos.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s avançam, cobertos(as) por [Gore].</li>
     <li>desc_sentence->O chão está revestido em [Gore].</li>
@@ -81,11 +81,11 @@
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
     <li>tale_noun->à caravana de [PAWN_nameDef] derrotando uma base inimiga</li>
     <li>tale_nounD->a caravana de [PAWN_nameDef] derrotando uma base inimiga</li>
-    <li>image->[PAWN_nameFull] correndo em direção ao(à) [Enemy] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] correndo em direção ao(à) [Inimigo] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] empunhando um(a) [Weapon] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] girando uma [Weapon] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] em pé, [circumstance_group]</li>
-    <li>imageD->e [PAWN_nameFull] correndo em direção ao(à) [Enemy] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] correndo em direção ao(à) [Inimigo] [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] empunhando um(a) [Weapon] [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] girando uma [Weapon] [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] em pé, [circumstance_group]</li>
@@ -93,9 +93,9 @@
     <li>circumstance_phrase->usando um visual [AdjectiveAngsty]</li>
     <li>circumstance_phrase->bradando a vitória</li>
     <li>circumstance_phrase->coberto(a) de [Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s escondem-se do ataque.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s fogem da área.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s são visivelmente feridos.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s escondem-se do ataque.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s fogem da área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s são visivelmente feridos.</li>
     <li>desc_sentence->Um(a) [Community] queima na distância.</li>
     <li>desc_sentence->Um(a) [Community] fumaceia à distância.</li>
     <li>desc_sentence->O chão está revestido de [Gore].</li>
@@ -146,11 +146,11 @@
     <li>imageD->e [PAWN_nameFull] esondendo-se atrás de um(a) [TerrainFeature]</li>
     <li>imageD->e [PAWN_nameFull] retirando-se da luta [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] fugindo casualmente [circumstance_group]</li>
-    <li>circumstance_phrase->enquanto [Quantity_adjphrase] [Enemy]s o(a) persegue</li>
-    <li>circumstance_phrase->enquanto [Quantity_adjphrase] [Enemy]s o(a) procura</li>
-    <li>circumstance_phrase->de [Quantity_adjphrase] [Enemy]s</li>
+    <li>circumstance_phrase->enquanto [Quantity_adjphrase] [Inimigo]s o(a) persegue</li>
+    <li>circumstance_phrase->enquanto [Quantity_adjphrase] [Inimigo]s o(a) procura</li>
+    <li>circumstance_phrase->de [Quantity_adjphrase] [Inimigo]s</li>
     <li>circumstance_phrase->de [Quantity_adjphrase] inimigos [Animal]s</li>
-    <li>circumstance_phrase->de um(a) [AdjectiveLarge] [Enemy]</li>
+    <li>circumstance_phrase->de um(a) [AdjectiveLarge] [Inimigo]</li>
     <li>desc_sentence->Os perseguidores de [PAWN_nameDef] estão brandindo seus(uas) [Weapon]s.</li>
     <li>desc_sentence->Os perseguidores de [PAWN_nameDef] estão envoltos em uma fumaça [Cor].</li>
     <li>desc_sentence->[PAWN_nameDef] está suando.</li>
@@ -198,7 +198,7 @@
     <li>circumstance_phrase->com um olhar [AdjectiveAny] em seus olhos</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s observam os preparativos.</li>
     <li>desc_sentence->[Quantity_adjphrase] [ally]s ajudam com os preparativos.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s afastam-se da cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Inimigo]s afastam-se da cena.</li>
     <li>desc_sentence->Um(a) [TerrainFeature] é visível à distância.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s assistem de longe.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s vagam pacificamente.</li>

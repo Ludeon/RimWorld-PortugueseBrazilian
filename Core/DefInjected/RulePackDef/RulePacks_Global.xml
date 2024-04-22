@@ -81,19 +81,32 @@
     <li>PersonAlly->Words/Nouns/People_Allies</li>
     <li>PersonAllyM->Words/Nouns/People_Allies_CAPS</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
-    <li>PersonBadassM->Words/Nouns/People_Badass_CAPS</li>
+    <li>PessoaFoda->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda</li>
+    <li>PessoaFodaMaiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Maiusculo</li>
+    <li>PessoaFodaSingularMasculinoMaiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Singular_Masculino_Maiusculo</li>
+    <li>PessoaFodaSingularFemininoMaiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Singular_Feminino_Maiusculo</li>
     <li>Enemy->Words/Nouns/Enemies</li>
-    <li>EnemyM->Words/Nouns/Enemies_CAPS</li>
+    <li>Inimigo->Palavras/Substantivos/Inimigo/Inimigo</li>
+    <li>InimigoMaiusculo->Palavras/Substantivos/Inimigo/Inimigo_Maiusculo</li>
+    <li>InimigoSingularMasculinoMaiusculo->Palavras/Substantivos/Inimigo/Inimigo_Singular_Masculino_Maiusculo</li>
+    <li>InimigoSingularFemininoMaiusculo->Palavras/Substantivos/Inimigo/Inimigo_Singular_Feminino_Maiusculo</li>
     <li>Apparel->Words/Nouns/Apparel</li>
     <li>Gore->Palavras/Substantivos/Gore/Gore</li>
     <li>GoreMaiusculo->Palavras/Substantivos/Gore/Gore_Maiusculo</li>
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <li>MechanoidM->Words/Nouns/Mechanoid_CAPS</li>
-    <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
-    <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
-    <li>ConceptBadassMale->Words/Nouns/Concepts_Badass_MALE</li>
-    <li>ConceptBadassFemale->Words/Nouns/Concepts_Badass_FEMALE</li>
-    <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
+    <li>ConceitoPositivo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo</li>
+    <li>ConceitoPositivoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Maiusculo</li>
+    <li>ConceitoPositivoSingularMasculinoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Singular_Masculino_Maiusculo</li>
+    <li>ConceitoPositivoSingularFemininoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Singular_Feminino_Maiusculo</li>
+    <li>ConceitoFoda->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda</li>
+    <li>ConceitoFodaMaiusculo->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda_Maiusculo</li>
+    <li>ConceitoFodaSingularMasculinoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda_Singular_Masculino_Maiusculo</li>
+    <li>ConceitoFodaSingularFemininoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda_Singular_Feminino_Maiusculo</li>
+    <li>ConceitoAngustiante->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante</li>
+    <li>ConceitoAngustianteMaiusculo->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante_Maiusculo</li>
+    <li>ConceitoAngustianteSingularMasculinoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante_Singular_Masculino_Maiusculo</li>
+    <li>ConceitoAngustianteSingularFemininoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante_Singular_Feminino_Maiusculo</li>
     <li>Community->Words/Nouns/Communities</li>
     <li>CommunityM->Words/Nouns/Communities_CAPS</li>
     <li>CommunityMale->Words/Nouns/Communities_MALE</li>
@@ -167,11 +180,11 @@
     <li>Trans->com</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character(p=4)->[Animal]</li>
-    <li>Character(p=3)->[Enemy]</li>
+    <li>Character(p=3)->[Inimigo]</li>
     <li>Character->[Mechanoid]</li>
     <li>CharacterM(p=6)->[PersonJobM]</li>
     <li>CharacterM(p=4)->[AnimalMaiusculo]</li>
-    <li>CharacterM(p=3)->[EnemyM]</li>
+    <li>CharacterM(p=3)->[[InimigoMaiusculo]]</li>
     <li>CharacterM->[MechanoidM]</li>
     <li>Quantity_adjphrase->três</li>
     <li>Quantity_adjphrase->quatro</li>
@@ -201,9 +214,18 @@
     <li>AdjectiveAny->[AdjectiveAngsty]</li>
     <li>AdjectiveAny->[AdjectiveFriendly]</li>
     <li>AdjectiveAny->[AdjetivoNatural]</li>
-    <li>ConceptAny->[ConceptPositive]</li>
-    <li>ConceptAny->[ConceptBadass]</li>
-    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>ConceitoQualquer->[ConceitoPositivo]</li>
+    <li>ConceitoQualquer->[ConceitoFoda]</li>
+    <li>ConceitoQualquer->[ConceitoAngustiante]</li>
+    <li>ConceitoQualquerMaiusculo->[ConceitoPositivoMaiusculo]</li>
+    <li>ConceitoQualquerMaiusculo->[ConceitoFodaMaiusculo]</li>
+    <li>ConceitoQualquerMaiusculo->[ConceitoAngustianteMaiusculo]</li>
+    <li>ConceitoQualquerSingularMasculinoMaiusculo->[ConceitoPositivoSingularMasculinoMaiusculo]</li>
+    <li>ConceitoQualquerSingularMasculinoMaiusculo->[ConceitoFodaSingularMasculinoMaiusculo]</li>
+    <li>ConceitoQualquerSingularMasculinoMaiusculo->[ConceitoAngustianteSingularMasculinoMaiusculo]</li>
+    <li>ConceitoQualquerSingularFemininoMaiusculo->[ConceitoPositivoSingularFemininoMaiusculo]</li>
+    <li>ConceitoQualquerSingularFemininoMaiusculo->[ConceitoFodaSingulaFemininoMaiusculo]</li>
+    <li>ConceitoQualquerSingularFemininoMaiusculo->[ConceitoAngustianteSingularFemininoMaiusculo]</li>
     <li>PersonalCharacteristic(p=0.15)->genital</li>
     <li>PersonalCharacteristic(p=0.15)->pelo pubiano</li>
     <li>PersonalCharacteristic(p=0.15)->pelo corporal</li>
@@ -281,8 +303,8 @@
     <li>TalkTopicLight->[PersonJob]</li>
     <li>TalkTopicLight->[PersonJob] amigável</li>
     <li>TalkTopicLight->[PersonJob] hostil</li>
-    <li>TalkTopicLight->[Enemy]</li>
-    <li>TalkTopicLight->lutar contra [Enemy]</li>
+    <li>TalkTopicLight->[Inimigo]</li>
+    <li>TalkTopicLight->lutar contra [Inimigo]</li>
     <li>TalkTopicLight->[Apparel]</li>
     <li>TalkTopicLight->vestir [Apparel]</li>
     <li>TalkTopicLight->fazer [Apparel]</li>
