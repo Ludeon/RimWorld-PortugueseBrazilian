@@ -1,4 +1,4 @@
-<#
+﻿<#
 	.SINOPSE
 	Este script se encarrega de instalar/atualizar as traduções mais recentes.
 	.DESCRIÇÃO
