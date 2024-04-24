@@ -71,12 +71,12 @@
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][AlgorismoRomano][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][AlgorismoRomano][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][AlgorismoRomano][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][Digit][AlgorismoRomano][Digit][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][AlgorismoRomano][Digit][AlgorismoRomano][maybe_letter]</li>
-    <li>art_name_numeric->[maybe_letter][AlgorismoRomano][Digit][Digit][AlgorismoRomano][maybe_letter]</li>
+    <li>art_name_numeric->[maybe_letter][AlgarismoRomano][maybe_letter]</li>
+    <li>art_name_numeric->[maybe_letter][AlgarismoRomano][Digit][maybe_letter]</li>
+    <li>art_name_numeric->[maybe_letter][Digit][AlgarismoRomano][maybe_letter]</li>
+    <li>art_name_numeric->[maybe_letter][Digit][AlgarismoRomano][Digit][maybe_letter]</li>
+    <li>art_name_numeric->[maybe_letter][AlgarismoRomano][Digit][AlgarismoRomano][maybe_letter]</li>
+    <li>art_name_numeric->[maybe_letter][AlgarismoRomano][Digit][Digit][AlgarismoRomano][maybe_letter]</li>
     <li>maybe_letter(p=8)-></li>
     <li>maybe_letter->[Letra]</li>
     <li>maybe_letter->[Letra][Letra]</li>
@@ -84,7 +84,7 @@
     <li>maybe_a->um</li>
     <li>maybe_adjective(p=5)-></li>
     <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
-    <li>maybe_adjective->[AdjectiveBadass]</li>
+    <li>maybe_adjective->[AdjetivoFoda]</li>
     <li>maybe_adjective->[Cor]</li>
   </NamerArtCommon.rulePack.rulesStrings>
   
@@ -104,17 +104,17 @@
   -->
   <NamerArtWeapon.rulePack.rulesStrings>
     <li>r_art_name->[ConceitoFoda]</li>
-    <li>r_art_name->O(a) [AnimalBadass]</li>
-    <li>r_art_name->[AdjectiveBadass] [AnimalBadass]</li>
-    <li>r_art_name->[ColorBadass] [AnimalBadass]</li>
-    <li>r_art_name->[ConceitoFoda] [ColorBadass]</li>
+    <li>r_art_name->O(a) [AnimalFoda]</li>
+    <li>r_art_name->[AdjetivoFoda] [AnimalFoda]</li>
+    <li>r_art_name->[CorFoda] [AnimalFoda]</li>
+    <li>r_art_name->[ConceitoFoda] [CorFoda]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [ConceitoFoda]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [AnimalBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [AnimalFoda]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PessoaFoda]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PersonAlly]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PessoaAlida]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [PersonFamily]</li>
     <li>r_art_name(p=3)->[ConceitoFoda] de [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[CorFoda] [ANYPAWN_nameIndef]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   
 </LanguageData>

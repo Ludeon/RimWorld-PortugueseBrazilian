@@ -10,19 +10,25 @@
     <li>PlaceOutlander->[SylE][SylE][SylE][place_end]</li>
   -->
   <OutlanderPlaceNameUtility.rulePack.rulesStrings>
-    <li>LocalForasteiro->[SylE][place_end]</li>
-    <li>LocalForasteiro->[SylE][place_end]</li>
-    <li>LocalForasteiro->[SylE][place_end]</li>
-    <li>LocalForasteiro->[SylE][SylE][place_end]</li>
-    <li>LocalForasteiro->[SylE][SylE][place_end]</li>
-    <li>LocalForasteiro->[SylE][SylE][SylE][place_end]</li>
-    <li>LocalForasteiroMaiusculo->[SylEM][place_end]</li>
-    <li>LocalForasteiroMaiusculo->[SylEM][place_end]</li>
-    <li>LocalForasteiroMaiusculo->[SylEM][place_end]</li>
-    <li>LocalForasteiroMaiusculo->[SylEM][SylE][place_end]</li>
-    <li>LocalForasteiroMaiusculo->[SylEM][SylE][place_end]</li>
-    <li>LocalForasteiroMaiusculo->[SylEM][SylE][SylE][place_end]</li>
+    <li>LocalForasteiro->[SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][SilabaPT][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][SilabaPT][SilabaPT][sufixo_local]</li>
   </OutlanderPlaceNameUtility.rulePack.rulesStrings>
+  <!-- EN:
+    <li>place_end->WordParts/PlaceEndings</li>
+  -->
+  <OutlanderPlaceNameUtility.rulePack.rulesFiles>
+    <li>sufixo_local->PartesDePalavras/SufixoDeLocais</li>
+  </OutlanderPlaceNameUtility.rulePack.rulesFiles>
   
   <!-- EN:
     <li>tribal_word_file->Words/Foreign/Tribal</li>
