@@ -130,11 +130,11 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->Os Homens [AnimalFoda_Maiusculo]</li>
+    <li>r_name->Os Homens-[AnimalFoda_Maiusculo]</li>
     <li>r_name->Os [PessoaFoda_Plural_Masculino_Maiusculo]</li>
     <li>r_name->Os [Inimigo_Plural_Masculino_Maiusculo]</li>
-    <li>r_name->Os Homens [Arma_Maiusculo]</li>
-    <li>r_name->Os [Inimigo_Plural_Masculino_Maiusculo] [Arma_Maiusculo]</li>
+    <li>r_name->Os Homens-[Arma_Maiusculo]</li>
+    <li>r_name->Os [Inimigo_Plural_Masculino_Maiusculo]-[Arma_Maiusculo]</li>
     <li>r_name->Os [Inimigo_Plural_Masculino_Maiusculo] [Inimigo_Plural_Masculino_Maiusculo]</li>
     <li>r_name->Os [Inimigo_Plural_Masculino_Maiusculo] [AdjetivoFoda_Plural_Masculino_Maiusculo]</li>
     <li>r_name->Os [PessoaFoda_Plural_Masculino_Maiusculo] [AdjetivoFoda_Plural_Masculino_Maiusculo]</li>
@@ -144,17 +144,16 @@
     <li>r_name(p=0.5)->Os [PessoaFoda_Plural_Masculino_Maiusculo] da [ConceitoFoda_Singular_Feminino_Maiusculo]</li>
     <li>r_name(p=0.5)->Os [Arma_Plural_Masculino_Maiusculo]</li>
     <li>r_name(p=0.5)->As [Arma_Plural_Feminino_Maiusculo]</li>
-    <li>r_name(p=0.5)->Os [AnimalFoda_Plural_Masculino_Maiusculo] [Arma_Maiusculo]</li>
-    <li>r_name(p=0.5)->As [AnimalFoda_Plural_Feminino_Maiusculo] [Arma_Maiusculo]</li>
+    <li>r_name(p=0.5)->Os [AnimalFoda_Plural_Masculino_Maiusculo]-[Arma_Maiusculo]</li>
+    <li>r_name(p=0.5)->As [AnimalFoda_Plural_Feminino_Maiusculo]-[Arma_Maiusculo]</li>
     <li>r_name(p=0.5)->O [nome_grupo_singular_masculino_maiusculo] dos [PessoaFoda_Plural_Masculino_Maiusculo]</li>
     <li>r_name(p=0.5)->A [nome_grupo_singular_feminino_maiusculo] dos [PessoaFoda_Plural_Masculino_Maiusculo]</li>
     <li>r_name(p=0.5)->O [nome_grupo_singular_masculino_maiusculo] [AdjetivoFoda_Singular_Masculino_Maiusculo]</li>
     <li>r_name(p=0.5)->A [nome_grupo_singular_feminino_maiusculo] [AdjetivoFoda_Singular_Feminino_Maiusculo]</li>
     <li>r_name(p=0.5)->Os [AnimalFoda_Plural_Masculino_Maiusculo] [AdjetivoFoda_Plural_Masculino_Maiusculo]</li>
     <li>r_name(p=0.5)->As [AnimalFoda_Plural_Feminino_Maiusculo] [AdjetivoFoda_Plural_Feminino_Maiusculo]</li>
-
-    <li>r_name->The [PersonAlly]s of [ConceptBadass]</li>
-
+    <li>r_name(p=0.5)->Os [PessoaAlida_Plural_Masculino_Maiusculo] do [ConceitoFoda_Singular_Masculino_Maiusculo]</li>
+    <li>r_name(p=0.5)->Os [PessoaAlida_Plural_Masculino_Maiusculo] da [ConceitoFoda_Singular_Feminino_Maiusculo]</li>
     <li>r_name(p=0.5)->[nome_grupo_maiusculo] do [Arma_Singular_Masculino_Maiusculo]</li>
     <li>r_name(p=0.5)->[nome_grupo_maiusculo] da [Arma_Singular_Feminino_Maiusculo]</li>
     <li>r_name(p=0.5)->[nome_grupo_maiusculo] do [ConceitoFoda_Singular_Masculino_Maiusculo]</li>
@@ -187,18 +186,39 @@
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>r_name->[political_union_tribal] [PalavraTribalMaiuscula]</li>
-    <li>r_name->[political_union_tribal] [TerrainFeatureM] [Cor_Maiusculo]</li>
-    <li>r_name->[political_union_tribal] de [PalavraTribalMaiuscula]</li>
-    <li>r_name->[Animal_Maiusculo]-[PalavraTribalMaiuscula] [Cor_Maiusculo]</li>
-    <li>r_name->[political_union_tribal] [TerrainFeatureM]</li>
+    <li>r_name->[uniao_politica_tribal_maiusculo] [PalavraTribalMaiuscula]</li>
+    <li>r_name(p=0.5)->O [uniao_politica_tribal_masculino_maiusculo] [PalavraTribalMaiuscula]</li>
+    <li>r_name(p=0.5)->A [uniao_politica_tribal_feminino_maiusculo] [PalavraTribalMaiuscula]</li>
+    <li>r_name(p=0.5)->O [uniao_politica_tribal_masculino_maiusculo] de [PalavraTribalMaiuscula]</li>
+    <li>r_name(p=0.5)->A [uniao_politica_tribal_feminino_maiusculo] de [PalavraTribalMaiuscula]</li>
+    <li>r_name(p=0.5)->O [Animal_Singular_Masculino_Maiusculo] [Cor_Maiusculo] [PalavraTribalMaiuscula]</li>
+    <li>r_name(p=0.5)->A [Animal_Singular_Feminino_Maiusculo] [Cor_Maiusculo] [PalavraTribalMaiuscula]</li>
+    <li>r_name(p=0.25)->O [uniao_politica_tribal_masculino_maiusculo] do [ElementoDoTerreno_Singular_Masculino_Maiusculo] [Cor_Maiusculo]</li>
+    <li>r_name(p=0.25)->O [uniao_politica_tribal_masculino_maiusculo] da [ElementoDoTerreno_Singular_Feminino_Maiusculo] [Cor_Maiusculo]</li>
+    <li>r_name(p=0.25)->A [uniao_politica_tribal_feminino_maiusculo] do [ElementoDoTerreno_Singular_Masculino_Maiusculo] [Cor_Maiusculo]</li>
+    <li>r_name(p=0.25)->A [uniao_politica_tribal_feminino_maiusculo] da [ElementoDoTerreno_Singular_Feminino_Maiusculo] [Cor_Maiusculo]</li>
+    <li>r_name(p=0.25)->O [uniao_politica_tribal_masculino_maiusculo] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
+    <li>r_name(p=0.25)->O [uniao_politica_tribal_masculino_maiusculo] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
+    <li>r_name(p=0.25)->A [uniao_politica_tribal_feminino_maiusculo] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
+    <li>r_name(p=0.25)->A [uniao_politica_tribal_feminino_maiusculo] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
+  <!-- EN:
+    <li>political_union_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+  -->
+  <NamerFactionTribal.rulePack.rulesFiles>
+    <li>uniao_politica_tribal->Palavras/Substantivos/UnioesPoliticas/UniaoPoliticaTribal/UniaoPoliticaTribal</li>
+    <li>uniao_politica_tribal_maiusculo->Palavras/Substantivos/UnioesPoliticas/UniaoPoliticaTribal/UniaoPoliticaTribal_Maiusculo</li>
+    <li>uniao_politica_tribal_masculino_maiusculo->Palavras/Substantivos/UnioesPoliticas/UniaoPoliticaTribal/UniaoPoliticaTribal_Singular_Masculino_Maiusculo</li>
+    <li>uniao_politica_tribal_feminino_maiusculo->Palavras/Substantivos/UnioesPoliticas/UniaoPoliticaTribal/UniaoPoliticaTribal_Singular_Feminino_Maiusculo</li>
+  </NamerFactionTribal.rulePack.rulesFiles>
   
   <!-- EN:
     <li>r_name->Colony</li>
   -->
   <NamerInitialSettlementColony.rulePack.rulesStrings>
     <li>r_name->Colônia</li>
+    <li>r_name(p=0.05)->Domínio</li>
+    <li>r_name(p=0.05)->Possessão</li>
   </NamerInitialSettlementColony.rulePack.rulesStrings>
   
   <!-- EN:
@@ -206,6 +226,11 @@
   -->
   <NamerInitialSettlementTribe.rulePack.rulesStrings>
     <li>r_name->Vila</li>
+    <li>r_name(p=0.02)->Lugarejo</li>
+    <li>r_name(p=0.02)->Póvoa</li>
+    <li>r_name(p=0.02)->Povoado</li>
+    <li>r_name(p=0.02)->Povoamento</li>
+    <li>r_name(p=0.02)->Povoação</li>
   </NamerInitialSettlementTribe.rulePack.rulesStrings>
   
   <!-- EN:
@@ -268,29 +293,29 @@
     <li>topicalnoun->[VegetableM]</li>
     <li>topicalnoun->[GameM]</li>
     <li>topicalnoun->[ParteDoCorpoMaiusculo]</li>
-    <li>townname_combo->[topicalnoun] [TerrainFeatureM]</li>
+    <li>townname_combo->[topicalnoun] [ElementoDoTerreno_Maiusculo]</li>
     <li>townname_combo->[topicalnoun] [CommunityM]</li>
-    <li>townname_combo(p=0.5)->[topicalnoun] da [TerrainFeatureFemale]</li>
-    <li>townname_combo(p=0.5)->[topicalnoun] do [TerrainFeatureMale]</li>
+    <li>townname_combo(p=0.5)->[topicalnoun] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
+    <li>townname_combo(p=0.5)->[topicalnoun] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
     <li>townname_combo(p=0.4)->[topicalnoun] da [CommunityFemale]</li>
     <li>townname_combo(p=0.6)->[topicalnoun] do [CommunityMale]</li>
-    <li>townname_combo->[concept_positive] da [TerrainFeatureFemale]</li>
-    <li>townname_combo->[concept_positive] do [TerrainFeatureMale]</li>
-    <li>townname_combo(p=2)->[concept_positive] [TerrainFeatureM]</li>
+    <li>townname_combo->[concept_positive] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
+    <li>townname_combo->[concept_positive] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
+    <li>townname_combo(p=2)->[concept_positive] [ElementoDoTerreno_Maiusculo]</li>
     <li>townname_combo(p=2)->[concept_positive] [CommunityM]</li>
-    <li>townname_combo(p=1.5)->[CharacterM] da [TerrainFeatureFemale]</li>
-    <li>townname_combo(p=1.5)->[CharacterM] do [TerrainFeatureMale]</li>
+    <li>townname_combo(p=1.5)->[CharacterM] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
+    <li>townname_combo(p=1.5)->[CharacterM] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
     <li>townname_combo(p=1.2)->[CharacterM] da [CommunityFemale]</li>
     <li>townname_combo(p=1.8)->[CharacterM] do [CommunityMale]</li>
-    <li>townname_near->[nearnameinitial] em [TerrainFeatureM]s</li>
-    <li>townname_near->[nearnameinitial] Sobre [TerrainFeatureM]s</li>
+    <li>townname_near->[nearnameinitial] em [ElementoDoTerreno_Maiusculo]s</li>
+    <li>townname_near->[nearnameinitial] Sobre [ElementoDoTerreno_Maiusculo]s</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[CommunityM]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT][SilabaPT]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][townend]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT][townend]</li>
-    <li>townname_wordgen->[TerrainFeatureM][townend]</li>
+    <li>townname_wordgen->[ElementoDoTerreno_Maiusculo][townend]</li>
     <li>townend->ba</li>
     <li>townend->caba</li>
     <li>townend->cazes</li>
@@ -395,12 +420,12 @@
     <li>townname_combo(p=0.5)->[Inimigo] do [geographyMale]</li>
     <li>townname_combo(p=0.5)->[Arma] da [geographyFemale]</li>
     <li>townname_combo(p=0.5)->[Arma] do [geographyMale]</li>
-    <li>geographyMale(p=2)->[TerrainFeatureMale]</li>
+    <li>geographyMale(p=2)->[ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
     <li>geographyMale->[CommunityMale]</li>
-    <li>geographyFemale(p=2)->[TerrainFeatureFemale]</li>
+    <li>geographyFemale(p=2)->[ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
     <li>geographyFemale->[CommunityFemale]</li>
     <li>townname_combo->[geography] [CorFoda_Maiusculo]</li>
-    <li>geography(p=2)->[TerrainFeatureM]</li>
+    <li>geography(p=2)->[ElementoDoTerreno_Maiusculo]</li>
     <li>geography->[CommunityM]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT][SilabaPT]</li>
@@ -465,8 +490,8 @@
   <NamerSettlementTribal.rulePack.rulesStrings>
     <li>r_name(p=2)->[PalavraTribalMaiuscula]</li>
     <li>r_name->[PalavraTribalMaiuscula] [Cor_Maiusculo]</li>
-    <li>r_name->[TerrainFeatureM] [Cor_Maiusculo]</li>
-    <li>r_name->[TerrainFeatureM] [PalavraTribalMaiuscula]</li>
+    <li>r_name->[ElementoDoTerreno_Maiusculo] [Cor_Maiusculo]</li>
+    <li>r_name->[ElementoDoTerreno_Maiusculo] [PalavraTribalMaiuscula]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>

@@ -199,12 +199,12 @@
     <li>tale_nounD->e [PAWN_nameDef] tendo insolação</li>
     <li>tale_nounD->e [PAWN_nameDef] superaquecendo</li>
     <li>image->[PAWN_nameFull], [circumstance_group], caminhando pela areia</li>
-    <li>image->[PAWN_nameFull], [circumstance_group], parado(a) à sombra de um(a) [TerrainFeature]</li>
+    <li>image->[PAWN_nameFull], [circumstance_group], parado(a) à sombra de um(a) [ElementoDoTerreno]</li>
     <li>image->[PAWN_nameFull], [circumstance_group], procurando água</li>
     <li>image->[PAWN_nameFull], [circumstance_group], procurando uma sombra</li>
     <li>image->[PAWN_nameFull], [circumstance_group], arrastando-se pelo sol escaldante</li>
     <li>imageD->e [PAWN_nameFull], [circumstance_group], caminhando pela areia</li>
-    <li>imageD->e [PAWN_nameFull], [circumstance_group], parado(a) à sombra de um(a) [TerrainFeature]</li>
+    <li>imageD->e [PAWN_nameFull], [circumstance_group], parado(a) à sombra de um(a) [ElementoDoTerreno]</li>
     <li>imageD->e [PAWN_nameFull], [circumstance_group], procurando água</li>
     <li>imageD->e [PAWN_nameFull], [circumstance_group], procurando uma sombra</li>
     <li>imageD->e [PAWN_nameFull], [circumstance_group], arrastando-se pelo sol escaldante</li>
@@ -246,12 +246,12 @@
     <li>tale_noun->a [PAWN_nameDef] pegando hipotermia</li>
     <li>tale_nounD->e [PAWN_nameDef] pegando hipotermia</li>
     <li>image->[PAWN_nameFull] caminhando pela neve [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] encolhido(a) ao lado de um(a) [TerrainFeature] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] encolhido(a) ao lado de um(a) [ElementoDoTerreno] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] procurando por um(a) caloroso(a) [Apparel] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] agachado(a) ao lado do fogo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tentando acender uma fogueira [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] caminhando pela neve [circumstance_group]</li>
-    <li>imageD->e [PAWN_nameFull] encolhido(a) ao lado de um(a) [TerrainFeature] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] encolhido(a) ao lado de um(a) [ElementoDoTerreno] [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] procurando por um(a) caloroso(a) [Apparel] [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] agachado(a) ao lado do fogo [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] tentando acender uma fogueira [circumstance_group]</li>
@@ -314,7 +314,7 @@
     <li>circumstance_phrase->enquanto uma erupção toma conta de seu corpo</li>
     <li>circumstance_phrase->enquanto é atendido(a) por um médico</li>
     <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal]s estão cobertos de moscas na área.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s torcidos(as) cercam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ElementoDoTerreno]s torcidos(as) cercam a cena.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s são atacados com a mesma aflição.</li>
     <li>desc_sentence->A cena ocorre dentro de uma floresta de [TreeType]s.</li>
     <li>desc_sentence->A cena é envolta por [Quantity_adjphrase] [Animal]s mortos.</li>
@@ -524,7 +524,7 @@
     <li>desc_sentence->[VICTIM_nameDef] está coberto(a) de [Gore].</li>
     <li>desc_sentence->[VICTIM_nameDef] e [KILLER_nameDef] estão cobertos(as) de [Gore].</li>
     <li>desc_sentence->O corpo de [VICTIM_nameDef] se ergue sobre [KILLER_nameDef].</li>
-    <li>desc_sentence->O enorme cadáver de [VICTIM_nameDef] cobre um(a) [TerrainFeature].</li>
+    <li>desc_sentence->O enorme cadáver de [VICTIM_nameDef] cobre um(a) [ElementoDoTerreno].</li>
     <li>desc_sentence->Os olhos de [VICTIM_nameDef] brilham em uma cor [Cor].</li>
     <li>desc_sentence->[KILLER_nameDef] está coberto(a) de [Gore].</li>
     <li>desc_sentence->[KILLER_nameDef] parece satisfeito(a).</li>
@@ -702,7 +702,7 @@
     <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal] retocidos cercam a área.</li>
     <li>desc_sentence->As roupas de [PAWN_nameDef] estão caindo aos pedaços.</li>
     <li>desc_sentence->O céu é uma escuridão [Cor].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s de cor [Cor] cercam a cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ElementoDoTerreno]s de cor [Cor] cercam a cena.</li>
     <li>desc_sentence->A cena ocorre dentro de uma floresta de [TreeType]s torcidos(as).</li>
     <li>desc_sentence->A cena é envolta por [Quantity_adjphrase] [Animal]s mortos.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
