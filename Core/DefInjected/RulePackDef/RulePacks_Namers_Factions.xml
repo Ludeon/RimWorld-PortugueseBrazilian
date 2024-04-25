@@ -286,85 +286,114 @@
     <li>townend->well</li>
   -->
   <NamerSettlementOutlander.rulePack.rulesStrings>
-    <li>r_name(p=12)->[townname_wordgen]</li>
-    <li>r_name(p=6)->[townname_fixed]</li>
-    <li>r_name(p=4)->[townname_combo]</li>
-    <li>r_name->[townname_near]</li>
-    <li>topicalnoun->[VegetableM]</li>
-    <li>topicalnoun->[GameM]</li>
-    <li>topicalnoun->[ParteDoCorpoMaiusculo]</li>
-    <li>townname_combo->[topicalnoun] [ElementoDoTerreno_Maiusculo]</li>
-    <li>townname_combo->[topicalnoun] [CommunityM]</li>
-    <li>townname_combo(p=0.5)->[topicalnoun] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
-    <li>townname_combo(p=0.5)->[topicalnoun] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
-    <li>townname_combo(p=0.4)->[topicalnoun] da [CommunityFemale]</li>
-    <li>townname_combo(p=0.6)->[topicalnoun] do [CommunityMale]</li>
-    <li>townname_combo->[concept_positive] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
-    <li>townname_combo->[concept_positive] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
-    <li>townname_combo(p=2)->[concept_positive] [ElementoDoTerreno_Maiusculo]</li>
-    <li>townname_combo(p=2)->[concept_positive] [CommunityM]</li>
-    <li>townname_combo(p=1.5)->[CharacterM] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
-    <li>townname_combo(p=1.5)->[CharacterM] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
-    <li>townname_combo(p=1.2)->[CharacterM] da [CommunityFemale]</li>
-    <li>townname_combo(p=1.8)->[CharacterM] do [CommunityMale]</li>
-    <li>townname_near->[nearnameinitial] em [ElementoDoTerreno_Maiusculo]s</li>
-    <li>townname_near->[nearnameinitial] Sobre [ElementoDoTerreno_Maiusculo]s</li>
-    <li>nearnameinitial->[townname_wordgen]</li>
-    <li>nearnameinitial->[CommunityM]</li>
-    <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT]</li>
-    <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT][SilabaPT]</li>
-    <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][townend]</li>
-    <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT][townend]</li>
-    <li>townname_wordgen->[ElementoDoTerreno_Maiusculo][townend]</li>
-    <li>townend->ba</li>
-    <li>townend->caba</li>
-    <li>townend->cazes</li>
-    <li>townend->ceio</li>
-    <li>townend->cife</li>
-    <li>townend->co</li>
-    <li>townend->de</li>
-    <li>townend->deua</li>
-    <li>townend->dre</li>
-    <li>townend->drina</li>
-    <li>townend->gem</li>
-    <li>townend->guaçu</li>
-    <li>townend->ju</li>
-    <li>townend->lândia</li>
-    <li>townend->le</li>
-    <li>townend->legre</li>
-    <li>townend->lem</li>
-    <li>townend->leza</li>
-    <li>townend->lha</li>
-    <li>townend->lho</li>
-    <li>townend->luís</li>
-    <li>townend->naus</li>
-    <li>townend->neiro</li>
-    <li>townend->nia</li>
-    <li>townend->pa</li>
-    <li>townend->paulo</li>
-    <li>townend->pinas</li>
-    <li>townend->po</li>
-    <li>townend->polis</li>
-    <li>townend->pos</li>
-    <li>townend->ra</li>
-    <li>townend->rapes</li>
-    <li>townend->roi</li>
-    <li>townend->rra</li>
-    <li>townend->rulhos</li>
-    <li>townend->sília</li>
-    <li>townend->sina</li>
-    <li>townend->ssoa</li>
-    <li>townend->sul</li>
-    <li>townend->tal</li>
-    <li>townend->tiba</li>
-    <li>townend->to</li>
-    <li>townend->vador</li>
-    <li>townend->xias</li>
-    <li>townend->xo</li>
-    <li>townend->zes</li>
-    <li>townend->zonte</li>
-    <li>townend->çalo</li>
+    <li>r_name(p=12)->[gerador_palavra_nome_cidade]</li>
+    <li>r_name(p=6)->[nome_cidade_fixo]</li>
+    <li>r_name(p=4)->[nome_cidade_combo]</li>
+    <li>r_name->[nome_cidade_local]</li>
+    <li>substantivo_topico_maiusculo->[Vegetal_Maiusculo]</li>
+    <li>substantivo_topico_maiusculo->[Jogo_Maiusculo]</li>
+    <li>substantivo_topico_maiusculo->[ParteDoCorpo_Maiusculo]</li>
+    <li>substantivo_topico_singular_masculino_maiusculo->[Vegetal_Singular_Masculino_Maiusculo]</li>
+    <li>substantivo_topico_singular_masculino_maiusculo->[Jogo_Singular_Masculino_Maiusculo]</li>
+    <li>substantivo_topico_singular_masculino_maiusculo->[ParteDoCorpo_Singular_Masculino_Maiusculo]</li>
+    <li>substantivo_topico_singular_feminino_maiusculo->[Vegetal_Singular_Feminino_Maiusculo]</li>
+    <li>substantivo_topico_singular_feminino_maiusculo->[Jogo_Singular_Feminino_Maiusculo]</li>
+    <li>substantivo_topico_singular_feminino_maiusculo->[ParteDoCorpo_Singular_Feminino_Maiusculo]</li>
+    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] [substantivo_topico_maiusculo]</li>
+    <li>nome_cidade_combo->[Comunidade_Maiusculo] [substantivo_topico_maiusculo]</li>
+
+    <li>nome_cidade_combo(p=0.5)->[ElementoDoTerreno_Maiusculo] do [substantivo_topico_singular_masculino_maiusculo]</li>
+    <li>nome_cidade_combo(p=0.5)->[ElementoDoTerreno_Maiusculo] da [substantivo_topico_singular_feminino_maiusculo]</li>
+
+    <li>nome_cidade_combo(p=0.5)->[Comunidade_Maiusculo] do [substantivo_topico_singular_masculino_maiusculo]</li>
+    <li>nome_cidade_combo(p=0.5)->[Comunidade_Maiusculo] da [substantivo_topico_singular_feminino_maiusculo]</li>
+
+    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] do [conceito_positivo_singular_masculino_maiusculo]</li>
+    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] da [conceito_positivo_singular_feminino_maiusculo]</li>
+
+    <li>nome_cidade_combo(p=2)->[ElementoDoTerreno_Maiusculo]-[conceito_positivo_maiusculo]</li>
+    <li>nome_cidade_combo(p=2)->[Comunidade_Maiusculo]-[conceito_positivo_maiusculo]</li>
+
+    <li>nome_cidade_combo(p=1.5)->[ElementoDoTerreno_Maiusculo] do [Personagem_Singular_Masculino_Maiusculo]</li>
+    <li>nome_cidade_combo(p=1.5)->[ElementoDoTerreno_Maiusculo] da [Personagem_Singular_Feminino_Maiusculo]</li>
+
+    <li>nome_cidade_combo(p=1.5)->[Comunidade_Maiusculo] do [Personagem_Singular_Masculino_Maiusculo]</li>
+    <li>nome_cidade_combo(p=1.5)->[Comunidade_Maiusculo] da [Personagem_Singular_Feminino_Maiusculo]</li>
+
+    <li>nome_cidade_local->[nome_proximo_inicial]-at-the-[ElementoDoTerreno_Maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial]-by-the-[ElementoDoTerreno_Maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial]-on-the-[ElementoDoTerreno_Maiusculo]</li>
+
+    <li>nome_proximo_inicial->[gerador_palavra_nome_cidade]</li>
+    <li>nome_proximo_inicial->[Comunidade_Maiusculo]</li>
+
+    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][SilabaPT]</li>
+    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][SilabaPT][SilabaPT]</li>
+    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][sufixo_cidade]</li>
+    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][SilabaPT][sufixo_cidade]</li>
+    <li>gerador_palavra_nome_cidade->[ElementoDoTerreno_Maiusculo][sufixo_cidade]</li>
+    <li>gerador_palavra_nome_cidade->[substantivo_topico_maiusculo][sufixo_cidade]</li>
+
+    <li>sufixo_cidade->ba</li>
+    <li>sufixo_cidade->caba</li>
+    <li>sufixo_cidade->cazes</li>
+    <li>sufixo_cidade->ceio</li>
+    <li>sufixo_cidade->cife</li>
+    <li>sufixo_cidade->co</li>
+    <li>sufixo_cidade->de</li>
+    <li>sufixo_cidade->deua</li>
+    <li>sufixo_cidade->dre</li>
+    <li>sufixo_cidade->drina</li>
+    <li>sufixo_cidade->gem</li>
+    <li>sufixo_cidade->guaçu</li>
+    <li>sufixo_cidade->ju</li>
+    <li>sufixo_cidade->lândia</li>
+    <li>sufixo_cidade->le</li>
+    <li>sufixo_cidade->legre</li>
+    <li>sufixo_cidade->lem</li>
+    <li>sufixo_cidade->leza</li>
+    <li>sufixo_cidade->lha</li>
+    <li>sufixo_cidade->lho</li>
+    <li>sufixo_cidade->luís</li>
+    <li>sufixo_cidade->naus</li>
+    <li>sufixo_cidade->neiro</li>
+    <li>sufixo_cidade->nia</li>
+    <li>sufixo_cidade->pa</li>
+    <li>sufixo_cidade->paulo</li>
+    <li>sufixo_cidade->pinas</li>
+    <li>sufixo_cidade->po</li>
+    <li>sufixo_cidade->polis</li>
+    <li>sufixo_cidade->pos</li>
+    <li>sufixo_cidade->ra</li>
+    <li>sufixo_cidade->rapes</li>
+    <li>sufixo_cidade->roi</li>
+    <li>sufixo_cidade->rra</li>
+    <li>sufixo_cidade->rulhos</li>
+    <li>sufixo_cidade->sília</li>
+    <li>sufixo_cidade->sina</li>
+    <li>sufixo_cidade->ssoa</li>
+    <li>sufixo_cidade->sul</li>
+    <li>sufixo_cidade->tal</li>
+    <li>sufixo_cidade->tiba</li>
+    <li>sufixo_cidade->to</li>
+    <li>sufixo_cidade->vador</li>
+    <li>sufixo_cidade->xias</li>
+    <li>sufixo_cidade->xo</li>
+    <li>sufixo_cidade->zes</li>
+    <li>sufixo_cidade->zonte</li>
+    <li>sufixo_cidade->çalo</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
+  <!-- EN:
+    <li>townname_fixed->Names/OutlanderTown</li>
+    <li>concept_positive->Words/Nouns/Concepts_Positive</li>
+  -->
+  <NamerSettlementOutlander.rulePack.rulesFiles>
+    <li>nome_cidade_fixo->Nomes/CidadaForasteira</li>
+    <li>conceito_positivo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo</li>
+    <li>conceito_positivo_maiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Maiusculo</li>
+    <li>conceito_positivo_singular_masculino_maiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Singular_Masculino_Maiusculo</li>
+    <li>conceito_positivo_singular_feminino_maiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Singular_Feminino_Maiusculo</li>
+  </NamerSettlementOutlander.rulePack.rulesFiles>
   
   <!-- EN:
     <li>r_name(p=4)->[townname_combo]</li>
@@ -421,12 +450,12 @@
     <li>townname_combo(p=0.5)->[Arma] da [geographyFemale]</li>
     <li>townname_combo(p=0.5)->[Arma] do [geographyMale]</li>
     <li>geographyMale(p=2)->[ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
-    <li>geographyMale->[CommunityMale]</li>
+    <li>geographyMale->[Comunidade_Singular_Masculino_Maiusculo]</li>
     <li>geographyFemale(p=2)->[ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
-    <li>geographyFemale->[CommunityFemale]</li>
+    <li>geographyFemale->[Comunidade_Singular_Feminino_Maiusculo]</li>
     <li>townname_combo->[geography] [CorFoda_Maiusculo]</li>
     <li>geography(p=2)->[ElementoDoTerreno_Maiusculo]</li>
-    <li>geography->[CommunityM]</li>
+    <li>geography->[Comunidade_Maiusculo]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][SilabaPT][SilabaPT]</li>
     <li>townname_wordgen(p=2)->[SilabaPT_Maiusculo][townendevil]</li>
