@@ -299,41 +299,34 @@
     <li>substantivo_topico_singular_feminino_maiusculo->[Vegetal_Singular_Feminino_Maiusculo]</li>
     <li>substantivo_topico_singular_feminino_maiusculo->[Jogo_Singular_Feminino_Maiusculo]</li>
     <li>substantivo_topico_singular_feminino_maiusculo->[ParteDoCorpo_Singular_Feminino_Maiusculo]</li>
-    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] [substantivo_topico_maiusculo]</li>
-    <li>nome_cidade_combo->[Comunidade_Maiusculo] [substantivo_topico_maiusculo]</li>
-
-    <li>nome_cidade_combo(p=0.5)->[ElementoDoTerreno_Maiusculo] do [substantivo_topico_singular_masculino_maiusculo]</li>
-    <li>nome_cidade_combo(p=0.5)->[ElementoDoTerreno_Maiusculo] da [substantivo_topico_singular_feminino_maiusculo]</li>
-
-    <li>nome_cidade_combo(p=0.5)->[Comunidade_Maiusculo] do [substantivo_topico_singular_masculino_maiusculo]</li>
-    <li>nome_cidade_combo(p=0.5)->[Comunidade_Maiusculo] da [substantivo_topico_singular_feminino_maiusculo]</li>
-
-    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] do [conceito_positivo_singular_masculino_maiusculo]</li>
-    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] da [conceito_positivo_singular_feminino_maiusculo]</li>
-
     <li>nome_cidade_combo(p=2)->[ElementoDoTerreno_Maiusculo]-[conceito_positivo_maiusculo]</li>
     <li>nome_cidade_combo(p=2)->[Comunidade_Maiusculo]-[conceito_positivo_maiusculo]</li>
-
     <li>nome_cidade_combo(p=1.5)->[ElementoDoTerreno_Maiusculo] do [Personagem_Singular_Masculino_Maiusculo]</li>
     <li>nome_cidade_combo(p=1.5)->[ElementoDoTerreno_Maiusculo] da [Personagem_Singular_Feminino_Maiusculo]</li>
-
     <li>nome_cidade_combo(p=1.5)->[Comunidade_Maiusculo] do [Personagem_Singular_Masculino_Maiusculo]</li>
     <li>nome_cidade_combo(p=1.5)->[Comunidade_Maiusculo] da [Personagem_Singular_Feminino_Maiusculo]</li>
-
-    <li>nome_cidade_local->[nome_proximo_inicial]-at-the-[ElementoDoTerreno_Maiusculo]</li>
-    <li>nome_cidade_local->[nome_proximo_inicial]-by-the-[ElementoDoTerreno_Maiusculo]</li>
-    <li>nome_cidade_local->[nome_proximo_inicial]-on-the-[ElementoDoTerreno_Maiusculo]</li>
-
+    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] [substantivo_topico_maiusculo]</li>
+    <li>nome_cidade_combo->[Comunidade_Maiusculo] [substantivo_topico_maiusculo]</li>
+    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] do [conceito_positivo_singular_masculino_maiusculo]</li>
+    <li>nome_cidade_combo->[ElementoDoTerreno_Maiusculo] da [conceito_positivo_singular_feminino_maiusculo]</li>
+    <li>nome_cidade_combo(p=0.5)->[ElementoDoTerreno_Maiusculo] do [substantivo_topico_singular_masculino_maiusculo]</li>
+    <li>nome_cidade_combo(p=0.5)->[ElementoDoTerreno_Maiusculo] da [substantivo_topico_singular_feminino_maiusculo]</li>
+    <li>nome_cidade_combo(p=0.5)->[Comunidade_Maiusculo] do [substantivo_topico_singular_masculino_maiusculo]</li>
+    <li>nome_cidade_combo(p=0.5)->[Comunidade_Maiusculo] da [substantivo_topico_singular_feminino_maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial] no [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial] na [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial] sobre o [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial] sobre a [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial] do [ElementoDoTerreno_Singular_Masculino_Maiusculo]</li>
+    <li>nome_cidade_local->[nome_proximo_inicial] da [ElementoDoTerreno_Singular_Feminino_Maiusculo]</li>
     <li>nome_proximo_inicial->[gerador_palavra_nome_cidade]</li>
     <li>nome_proximo_inicial->[Comunidade_Maiusculo]</li>
-
-    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][SilabaPT]</li>
-    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][SilabaPT][SilabaPT]</li>
-    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][sufixo_cidade]</li>
-    <li>gerador_palavra_nome_cidade(p=2)->[SilabaPT_Maiusculo][SilabaPT][sufixo_cidade]</li>
-    <li>gerador_palavra_nome_cidade->[ElementoDoTerreno_Maiusculo][sufixo_cidade]</li>
-    <li>gerador_palavra_nome_cidade->[substantivo_topico_maiusculo][sufixo_cidade]</li>
-
+    <li>gerador_palavra_nome_cidade->[SilabaPT_Maiusculo][SilabaPT]</li>
+    <li>gerador_palavra_nome_cidade->[SilabaPT_Maiusculo][SilabaPT][SilabaPT]</li>
+    <li>gerador_palavra_nome_cidade->[SilabaPT_Maiusculo][sufixo_cidade]</li>
+    <li>gerador_palavra_nome_cidade->[SilabaPT_Maiusculo][SilabaPT][sufixo_cidade]</li>
+    <li>gerador_palavra_nome_cidade(p=0.05)->[ElementoDoTerreno_Maiusculo][sufixo_cidade]</li>
+    <li>gerador_palavra_nome_cidade(p=0.05)->[substantivo_topico_maiusculo][sufixo_cidade]</li>
     <li>sufixo_cidade->ba</li>
     <li>sufixo_cidade->caba</li>
     <li>sufixo_cidade->cazes</li>
