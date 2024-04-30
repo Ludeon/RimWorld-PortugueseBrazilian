@@ -10,20 +10,32 @@
     <li>PlaceOutlander->[SylE][SylE][SylE][place_end]</li>
   -->
   <OutlanderPlaceNameUtility.rulePack.rulesStrings>
-    <li>PlaceOutlander->[SylEM][place_end]</li>
-    <li>PlaceOutlander->[SylEM][place_end]</li>
-    <li>PlaceOutlander->[SylEM][place_end]</li>
-    <li>PlaceOutlander->[SylEM][SylE][place_end]</li>
-    <li>PlaceOutlander->[SylEM][SylE][place_end]</li>
-    <li>PlaceOutlander->[SylEM][SylE][SylE][place_end]</li>
+    <li>LocalForasteiro->[SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiro->[SilabaPT][SilabaPT][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][SilabaPT][sufixo_local]</li>
+    <li>LocalForasteiroMaiusculo->[SilabaPT_Maiusculo][SilabaPT][SilabaPT][sufixo_local]</li>
   </OutlanderPlaceNameUtility.rulePack.rulesStrings>
+  <!-- EN:
+    <li>place_end->WordParts/PlaceEndings</li>
+  -->
+  <OutlanderPlaceNameUtility.rulePack.rulesFiles>
+    <li>sufixo_local->PartesDePalavras/SufixosDeLocais</li>
+  </OutlanderPlaceNameUtility.rulePack.rulesFiles>
   
   <!-- EN:
     <li>tribal_word_file->Words/Foreign/Tribal</li>
   -->
   <TribalWordUtility.rulePack.rulesFiles>
-    <li>tribal_word_file->Words/Foreign/Tribal</li>
-    <li>tribal_word_fileM->Words/Foreign/Tribal_CAPS</li>
+    <li>arquivo_palavra_tribal->Palavras/Estrangeiras/Tribal/Tribal</li>
+    <li>arquivo_palavra_tribal_maiuscula->Palavras/Estrangeiras/Tribal/Tribal_Maiuscula</li>
   </TribalWordUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>WordTribal(p=3)->[tribal_word_file]</li>
@@ -32,14 +44,14 @@
     <li>WordTribal->[SylG][SylG][SylG][SylG]</li>
   -->
   <TribalWordUtility.rulePack.rulesStrings>
-    <li>WordTribal(p=3)->[tribal_word_file]</li>
-    <li>WordTribal(p=3)->[SylG][SylG]</li>
-    <li>WordTribal(p=2)->[SylG][SylG][SylG]</li>
-    <li>WordTribal->[SylG][SylG][SylG][SylG]</li>
-    <li>WordTribalM(p=3)->[tribal_word_fileM]</li>
-    <li>WordTribalM(p=3)->[SylGM][SylG]</li>
-    <li>WordTribalM(p=2)->[SylGM][SylG][SylG]</li>
-    <li>WordTribalM->[SylGM][SylG][SylG][SylG]</li>
+    <li>PalavraTribal(p=3)->[arquivo_palavra_tribal]</li>
+    <li>PalavraTribal(p=3)->[SylG][SylG]</li>
+    <li>PalavraTribal(p=2)->[SylG][SylG][SylG]</li>
+    <li>PalavraTribal->[SylG][SylG][SylG][SylG]</li>
+    <li>PalavraTribalMaiuscula(p=3)->[arquivo_palavra_tribal_maiuscula]</li>
+    <li>PalavraTribalMaiuscula(p=3)->[SylGM][SylG]</li>
+    <li>PalavraTribalMaiuscula(p=2)->[SylGM][SylG][SylG]</li>
+    <li>PalavraTribalMaiuscula->[SylGM][SylG][SylG][SylG]</li>
   </TribalWordUtility.rulePack.rulesStrings>
   
 </LanguageData>

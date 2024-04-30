@@ -42,69 +42,112 @@
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
   -->
   <GlobalUtility.rulePack.rulesFiles>
-    <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
-    <li>Direction->Words/Adjectives/CompassDirections</li>
-    <li>DirectionM->Words/Adjectives/CompassDirections_CAPS</li>
-    <li>Letter->WordParts/CapitalLetters</li>
-    <li>SylE->WordParts/Syllables_English</li>
-    <li>SylEM->WordParts/Syllables_English_CAPS</li>
+    <li>AlgarismoRomano->Palavras/Diversos/AlgarismosRomanos</li>
+    <li>Direcao->Palavras/Adjetivos/Direcoes/Direcoes</li>
+    <li>Direcao_Maiusculo->Palavras/Adjetivos/Direcoes/Direcoes_Maiusculo</li>
+    <li>Letra->PartesDePalavras/LetrasMaiusculas</li>
+    <li>SilabaPT->PartesDePalavras/Silabas/SilabasPortugues/Silabas_Portugues</li>
+    <li>SilabaPT_Maiusculo->PartesDePalavras/Silabas/SilabasPortugues/Silabas_Portugues_Maiusculo</li>
     <li>SylG->WordParts/Syllables_Galician</li>
     <li>SylB->WordParts/Syllables_Byzantinian</li>
     <li>SylP->WordParts/Syllables_Pig</li>
     <li>SylP_M->WordParts/Syllables_Pig_Maiúscula</li>
     <li>SylGM->WordParts/Syllables_Galician_CAPS</li>
-    <li>Color->Words/Nouns/Colors</li>
-    <li>ColorM->Words/Nouns/Colors_CAPS</li>
-    <li>ColorBadass->Words/Nouns/Colors_Badass</li>
-    <li>ColorBadassM->Words/Nouns/Colors_Badass_CAPS</li>
-    <li>Vegetable->Words/Nouns/Vegetables</li>
-    <li>VegetableM->Words/Nouns/Vegetables_CAPS</li>
-    <li>Game->Words/Nouns/Games</li>
-    <li>GameM->Words/Nouns/Games_CAPS</li>
-    <li>Animal->Words/Nouns/Animals</li>
-    <li>AnimalM->Words/Nouns/Animals_CAPS</li>
-    <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
-    <li>AnimalBadassM->Words/Nouns/Animals_Badass_CAPS</li>
+    <li>Cor->Palavras/Substantivos/Cores/Cores/Cores</li>
+    <li>Cor_Maiusculo->Palavras/Substantivos/Cores/Cores/Cores_Maiusculo</li>
+    <li>CorFoda->Palavras/Substantivos/Cores/CoresFoda/CoresFodas</li>
+    <li>CorFoda_Maiusculo->Palavras/Substantivos/Cores/CoresFoda/CoresFodas_Maiusculo</li>
+    <li>Vegetal->Palavras/Substantivos/Vegetais/Vegetais</li>
+    <li>Vegetal_Maiusculo->Palavras/Substantivos/Vegetais/Vegetais_Maiusculo</li>
+    <li>Vegetal_Singular_Masculino_Maiusculo->Palavras/Substantivos/Vegetais/Vegetais_Singular_Masculino_Maiusculo</li>
+    <li>Vegetal_Singular_Feminino_Maiusculo->Palavras/Substantivos/Vegetais/Vegetais_Singular_Feminino_Maiusculo</li>
+    <li>Jogo->Palavras/Substantivos/Jogos/Jogos</li>
+    <li>Jogo_Maiusculo->Palavras/Substantivos/Jogos/Jogos_Maiusculo</li>
+    <li>Jogo_Singular_Masculino_Maiusculo->Palavras/Substantivos/Jogos/Jogos_Singular_Masculino_Maiusculo</li>
+    <li>Jogo_Singular_Feminino_Maiusculo->Palavras/Substantivos/Jogos/Jogos_Singular_Feminino_Maiusculo</li>
+    <li>Animal->Palavras/Substantivos/Animais/Animais/Animais</li>
+    <li>Animal_Maiusculo->Palavras/Substantivos/Animais/Animais/Animais_Maiusculo</li>
+    <li>Animal_Singular_Masculino_Maiusculo->Palavras/Substantivos/Animais/Animais/Animais_Singular_Masculino_Maiusculo</li>
+    <li>Animal_Singular_Feminino_Maiusculo->Palavras/Substantivos/Animais/Animais/Animais_Singular_Feminino_Maiusculo</li>
+    <li>AnimalFoda->Palavras/Substantivos/Animais/AnimaisFodas/AnimaisFodas</li>
+    <li>AnimalFoda_Maiusculo->Palavras/Substantivos/Animais/AnimaisFodas/AnimaisFodas_Maiusculo</li>
+    <li>AnimalFoda_Plural_Maiusculo->Palavras/Substantivos/Animais/AnimaisFodas/AnimaisFodas_Plural_Maiusculo</li>
+    <li>AnimalFoda_Singular_Masculino_Maiusculo->Palavras/Substantivos/Animais/AnimaisFodas/AnimaisFodas_Singular_Masculino_Maiusculo</li>
+    <li>AnimalFoda_Singular_Feminino_Maiusculo->Palavras/Substantivos/Animais/AnimaisFodas/AnimaisFodas_Singular_Feminino_Maiusculo</li>
+    <li>AnimalFoda_Plural_Masculino_Maiusculo->Palavras/Substantivos/Animais/AnimaisFodas/AnimaisFodas_Plural_Masculino_Maiusculo</li>
+    <li>AnimalFoda_Plural_Feminino_Maiusculo->Palavras/Substantivos/Animais/AnimaisFodas/AnimaisFodas_Plural_Feminino_Maiusculo</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
-    <li>Weapon->Words/Nouns/Weapons</li>
-    <li>WeaponM->Words/Nouns/Weapons_CAPS</li>
-    <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
-    <li>TerrainFeatureM->Words/Nouns/TerrainFeatures_CAPS</li>
-    <li>TerrainFeatureMale->Words/Nouns/TerrainFeatures_MALE</li>
-    <li>TerrainFeatureFemale->Words/Nouns/TerrainFeatures_FEMALE</li>
-    <li>NaturalObject->Words/Nouns/NaturalObject</li>
+    <li>Arma->Palavras/Substantivos/Armas/Armas</li>
+    <li>Arma_Maiusculo->Palavras/Substantivos/Armas/Armas_Maiusculo</li>
+    <li>Arma_Singular_Masculino_Maiusculo->Palavras/Substantivos/Armas/Armas_Singular_Masculino_Maiusculo</li>
+    <li>Arma_Singular_Feminino_Maiusculo->Palavras/Substantivos/Armas/Armas_Singular_Feminino_Maiusculo</li>
+    <li>Arma_Plural_Maiusculo->Palavras/Substantivos/Armas/Armas_Plural_Maiusculo</li>
+    <li>Arma_Plural_Masculino_Maiusculo->Palavras/Substantivos/Armas/Armas_Plural_Masculino_Maiusculo</li>
+    <li>Arma_Plural_Feminino_Maiusculo->Palavras/Substantivos/Armas/Armas_Plural_Feminino_Maiusculo</li>
+    <li>ElementoDoTerreno->Palavras/Substantivos/ElementosDoTerreno/ElementosDoTerreno</li>
+    <li>ElementoDoTerreno_Maiusculo->Palavras/Substantivos/ElementosDoTerreno/ElementosDoTerreno_Maiusculo</li>
+    <li>ElementoDoTerreno_Singular_Masculino_Maiusculo->Palavras/Substantivos/ElementosDoTerreno/ElementosDoTerreno_Singular_Masculino_Maiusculo</li>
+    <li>ElementoDoTerreno_Singular_Feminino_Maiusculo->Palavras/Substantivos/ElementosDoTerreno/ElementosDoTerreno_Singular_Feminino_Maiusculo</li>
+    <li>ObjetoNatural->Palavras/Substantivos/ObjetoNatural/ObjetoNatural</li>
+    <li>ObjetoNatural_Maiusculo->Palavras/Substantivos/ObjetoNatural/ObjetoNatural_Maiusculo</li>
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
     <li>PersonJobM->Words/Nouns/People_Jobs_CAPS</li>
     <li>PersonFamily->Words/Nouns/People_Family</li>
-    <li>PersonAlly->Words/Nouns/People_Allies</li>
-    <li>PersonAllyM->Words/Nouns/People_Allies_CAPS</li>
-    <li>PersonBadass->Words/Nouns/People_Badass</li>
-    <li>PersonBadassM->Words/Nouns/People_Badass_CAPS</li>
-    <li>Enemy->Words/Nouns/Enemies</li>
-    <li>EnemyM->Words/Nouns/Enemies_CAPS</li>
+    <li>PessoaAliada->Palavras/Substantivos/Pessoas/PessoaAliada/PessoaAliada</li>
+    <li>PessoaAliada_Maiusculo->Palavras/Substantivos/Pessoas/PessoaAliada/PessoaAliada_Maiusculo</li>
+    <li>PessoaAliada_Singular_Masculino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaAliada/PessoaAliada_Singular_Masculino_Maiusculo</li>
+    <li>PessoaAliada_Singular_Feminino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaAliada/PessoaAliada_Singular_Feminino_Maiusculo</li>
+    <li>PessoaAliada_Plural_Masculino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaAliada/PessoaAliada_Plural_Masculino_Maiusculo</li>
+    <li>PessoaAliada_Plural_Feminino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaAliada/PessoaAliada_Plural_Feminino_Maiusculo</li>
+    <li>PessoaFoda->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda</li>
+    <li>PessoaFoda_Maiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Maiusculo</li>
+    <li>PessoaFoda_Singular_Masculino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Singular_Masculino_Maiusculo</li>
+    <li>PessoaFoda_Singular_Feminino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Singular_Feminino_Maiusculo</li>
+    <li>PessoaFoda_Plural_Masculino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Plural_Masculino_Maiusculo</li>
+    <li>PessoaFoda_Plural_Feminino_Maiusculo->Palavras/Substantivos/Pessoas/PessoaFoda/PessoaFoda_Plural_Feminino_Maiusculo</li>
+    <li>Inimigo->Palavras/Substantivos/Inimigo/Inimigo</li>
+    <li>Inimigo_Maiusculo->Palavras/Substantivos/Inimigo/Inimigo_Maiusculo</li>
+    <li>Inimigo_Singular_Masculino_Maiusculo->Palavras/Substantivos/Inimigo/Inimigo_Singular_Masculino_Maiusculo</li>
+    <li>Inimigo_Singular_Feminino_Maiusculo->Palavras/Substantivos/Inimigo/Inimigo_Singular_Feminino_Maiusculo</li>
+    <li>Inimigo_Plural_Masculino_Maiusculo->Palavras/Substantivos/Inimigo/Inimigo_Plural_Masculino_Maiusculo</li>
+    <li>Inimigo_Plural_Feminino_Maiusculo->Palavras/Substantivos/Inimigo/Inimigo_Plural_Feminino_Maiusculo</li>
     <li>Apparel->Words/Nouns/Apparel</li>
-    <li>Gore->Words/Nouns/Gore</li>
-    <li>GoreM->Words/Nouns/Gore_CAPS</li>
+    <li>Gore->Palavras/Substantivos/Gore/Gore</li>
+    <li>GoreMaiusculo->Palavras/Substantivos/Gore/Gore_Maiusculo</li>
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <li>MechanoidM->Words/Nouns/Mechanoid_CAPS</li>
-    <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
-    <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
-    <li>ConceptBadassMale->Words/Nouns/Concepts_Badass_MALE</li>
-    <li>ConceptBadassFemale->Words/Nouns/Concepts_Badass_FEMALE</li>
-    <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
-    <li>Community->Words/Nouns/Communities</li>
-    <li>CommunityM->Words/Nouns/Communities_CAPS</li>
-    <li>CommunityMale->Words/Nouns/Communities_MALE</li>
-    <li>CommunityFemale->Words/Nouns/Communities_FEMALE</li>
-    <li>Bodypart->Words/Nouns/Bodyparts</li>
-    <li>BodypartM->Words/Nouns/Bodyparts_CAPS</li>
+    <li>ConceitoPositivo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo</li>
+    <li>ConceitoPositivoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Maiusculo</li>
+    <li>ConceitoPositivoSingularMasculinoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Singular_Masculino_Maiusculo</li>
+    <li>ConceitoPositivoSingularFemininoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoPositivo/ConceitoPositivo_Singular_Feminino_Maiusculo</li>
+    <li>ConceitoFoda->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda</li>
+    <li>ConceitoFoda_Maiusculo->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda_Maiusculo</li>
+    <li>ConceitoFoda_Singular_Masculino_Maiusculo->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda_Singular_Masculino_Maiusculo</li>
+    <li>ConceitoFoda_Singular_Feminino_Maiusculo->Palavras/Substantivos/Conceitos/ConceitoFoda/ConceitoFoda_Singular_Feminino_Maiusculo</li>
+    <li>ConceitoAngustiante->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante</li>
+    <li>ConceitoAngustianteMaiusculo->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante_Maiusculo</li>
+    <li>ConceitoAngustianteSingularMasculinoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante_Singular_Masculino_Maiusculo</li>
+    <li>ConceitoAngustianteSingularFemininoMaiusculo->Palavras/Substantivos/Conceitos/ConceitoAngustiante/ConceitoAngustiante_Singular_Feminino_Maiusculo</li>
+    <li>Comunidade->Palavras/Substantivos/Comunidades/Comunidades</li>
+    <li>Comunidade_Maiusculo->Palavras/Substantivos/Comunidades/Comunidades_Maiusculo</li>
+    <li>Comunidade_Singular_Masculino_Maiusculo->Palavras/Substantivos/Comunidades/Comunidades_Singular_Masculino_Maiusculo</li>
+    <li>Comunidade_Singular_Feminino_Maiusculo->Palavras/Substantivos/Comunidades/Comunidades_Singular_Feminino_Maiusculo</li>
+    <li>ParteDoCorpo->Palavras/Substantivos/PartesDoCorpo/PartesDoCorpo</li>
+    <li>ParteDoCorpo_Maiusculo->Palavras/Substantivos/PartesDoCorpo/PartesDoCorpo_Maiusculo</li>
+    <li>ParteDoCorpo_Singular_Masculino_Maiusculo->Palavras/Substantivos/PartesDoCorpo/PartesDoCorpo_Singular_Masculino_Maiusculo</li>
+    <li>ParteDoCorpo_Singular_Feminino_Maiusculo->Palavras/Substantivos/PartesDoCorpo/PartesDoCorpo_Singular_Feminino_Maiusculo</li>
     <li>AdjectiveLarge->Words/Adjectives/Large</li>
-    <li>AdjectiveBadass->Words/Adjectives/Badass</li>
-    <li>AdjectiveBadassM->Words/Adjectives/Badass_CAPS</li>
+    <li>AdjetivoFoda->Palavras/Adjetivos/Fodas/Fodas</li>
+    <li>AdjetivoFoda_Maiusculo->Palavras/Adjetivos/Fodas/Fodas_Maiusculo</li>
+    <li>AdjetivoFoda_Singular_Masculino_Maiusculo->Palavras/Adjetivos/Fodas/Fodas_Singular_Masculino_Maiusculo</li>
+    <li>AdjetivoFoda_Singular_Feminino_Maiusculo->Palavras/Adjetivos/Fodas/Fodas_Singular_Feminino_Maiusculo</li>
+    <li>AdjetivoFoda_Plural_Masculino_Maiusculo->Palavras/Adjetivos/Fodas/Fodas_Plural_Masculino_Maiusculo</li>
+    <li>AdjetivoFoda_Plural_Feminino_Maiusculo->Palavras/Adjetivos/Fodas/Fodas_Plural_Feminino_Maiusculo</li>
     <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
     <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
-    <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>AdjetivoNatural->Palavras/Adjetivos/Natural/Natural</li>
+    <li>AdjetivoNaturalMaiusculo->Palavras/Adjetivos/Natural/Natural_Maiusculo</li>
     <li>VerbFriendly->Words/Verbs/Friendly</li>
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
     <li>Translator->Names/Translators</li>
@@ -165,11 +208,11 @@
     <li>Trans->com</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character(p=4)->[Animal]</li>
-    <li>Character(p=3)->[Enemy]</li>
+    <li>Character(p=3)->[Inimigo]</li>
     <li>Character->[Mechanoid]</li>
     <li>CharacterM(p=6)->[PersonJobM]</li>
-    <li>CharacterM(p=4)->[AnimalM]</li>
-    <li>CharacterM(p=3)->[EnemyM]</li>
+    <li>CharacterM(p=4)->[Animal_Maiusculo]</li>
+    <li>CharacterM(p=3)->[[Inimigo_Maiusculo]]</li>
     <li>CharacterM->[MechanoidM]</li>
     <li>Quantity_adjphrase->três</li>
     <li>Quantity_adjphrase->quatro</li>
@@ -195,13 +238,22 @@
     <li>Shape->estrela</li>
     <li>Shape->círculo</li>
     <li>Shape->elipse</li>
-    <li>AdjectiveAny->[AdjectiveBadass]</li>
+    <li>AdjectiveAny->[AdjetivoFoda]</li>
     <li>AdjectiveAny->[AdjectiveAngsty]</li>
     <li>AdjectiveAny->[AdjectiveFriendly]</li>
-    <li>AdjectiveAny->[AdjectiveNatural]</li>
-    <li>ConceptAny->[ConceptPositive]</li>
-    <li>ConceptAny->[ConceptBadass]</li>
-    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>AdjectiveAny->[AdjetivoNatural]</li>
+    <li>ConceitoQualquer->[ConceitoPositivo]</li>
+    <li>ConceitoQualquer->[ConceitoFoda]</li>
+    <li>ConceitoQualquer->[ConceitoAngustiante]</li>
+    <li>ConceitoQualquerMaiusculo->[ConceitoPositivoMaiusculo]</li>
+    <li>ConceitoQualquerMaiusculo->[ConceitoFoda_Maiusculo]</li>
+    <li>ConceitoQualquerMaiusculo->[ConceitoAngustianteMaiusculo]</li>
+    <li>ConceitoQualquerSingularMasculinoMaiusculo->[ConceitoPositivoSingularMasculinoMaiusculo]</li>
+    <li>ConceitoQualquerSingularMasculinoMaiusculo->[ConceitoFoda_Singular_Masculino_Maiusculo]</li>
+    <li>ConceitoQualquerSingularMasculinoMaiusculo->[ConceitoAngustianteSingularMasculinoMaiusculo]</li>
+    <li>ConceitoQualquerSingularFemininoMaiusculo->[ConceitoPositivoSingularFemininoMaiusculo]</li>
+    <li>ConceitoQualquerSingularFemininoMaiusculo->[ConceitoFodaSingulaFemininoMaiusculo]</li>
+    <li>ConceitoQualquerSingularFemininoMaiusculo->[ConceitoAngustianteSingularFemininoMaiusculo]</li>
     <li>PersonalCharacteristic(p=0.15)->genital</li>
     <li>PersonalCharacteristic(p=0.15)->pelo pubiano</li>
     <li>PersonalCharacteristic(p=0.15)->pelo corporal</li>
@@ -258,29 +310,29 @@
     <li>TalkTopicHeavy(p=0.08)->a conexão entre [talktopicheavyfile] e [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->o relacionamento entre [talktopicheavyfile] e [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
-    <li>TalkTopicLight->[Vegetable]s</li>
-    <li>TalkTopicLight->comer [Vegetable]s</li>
-    <li>TalkTopicLight->cozinhar com [Vegetable]s</li>
-    <li>TalkTopicLight->[Game]</li>
-    <li>TalkTopicLight->jogar [Game]</li>
-    <li>TalkTopicLight->praticar [Game]</li>
-    <li>TalkTopicLight->aprender [Game]</li>
+    <li>TalkTopicLight->[Vegetal]s</li>
+    <li>TalkTopicLight->comer [Vegetal]s</li>
+    <li>TalkTopicLight->cozinhar com [Vegetal]s</li>
+    <li>TalkTopicLight->[Jogo]</li>
+    <li>TalkTopicLight->jogar [Jogo]</li>
+    <li>TalkTopicLight->praticar [Jogo]</li>
+    <li>TalkTopicLight->aprender [Jogo]</li>
     <li>TalkTopicLight->[Animal]</li>
     <li>TalkTopicLight->treinando [Animal]</li>
     <li>TalkTopicLight->domar [Animal]</li>
     <li>TalkTopicLight->lutar contra [Animal]</li>
     <li>TalkTopicLight->[Animal] louco</li>
-    <li>TalkTopicLight->[Weapon]</li>
-    <li>TalkTopicLight->usar [Weapon]</li>
-    <li>TalkTopicLight->praticar com [Weapon]</li>
-    <li>TalkTopicLight->[TerrainFeature]</li>
-    <li>TalkTopicLight->[NaturalObject]</li>
+    <li>TalkTopicLight->[Arma]</li>
+    <li>TalkTopicLight->usar [Arma]</li>
+    <li>TalkTopicLight->praticar com [Arma]</li>
+    <li>TalkTopicLight->[ElementoDoTerreno]</li>
+    <li>TalkTopicLight->[ObjetoNatural]</li>
     <li>TalkTopicLight->[TreeType]</li>
     <li>TalkTopicLight->[PersonJob]</li>
     <li>TalkTopicLight->[PersonJob] amigável</li>
     <li>TalkTopicLight->[PersonJob] hostil</li>
-    <li>TalkTopicLight->[Enemy]</li>
-    <li>TalkTopicLight->lutar contra [Enemy]</li>
+    <li>TalkTopicLight->[Inimigo]</li>
+    <li>TalkTopicLight->lutar contra [Inimigo]</li>
     <li>TalkTopicLight->[Apparel]</li>
     <li>TalkTopicLight->vestir [Apparel]</li>
     <li>TalkTopicLight->fazer [Apparel]</li>
