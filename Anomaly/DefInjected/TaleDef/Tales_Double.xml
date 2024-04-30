@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: healed me -->
-  <HealedMe.label>TODO</HealedMe.label>
+  <HealedMe.label>cura apreciada</HealedMe.label>
   
   <!-- EN: mutated my arm -->
-  <MutatedMyArm.label>TODO</MutatedMyArm.label>
+  <MutatedMyArm.label>mutação braçal</MutatedMyArm.label>
   
   <!-- EN: studied an entity -->
-  <StudiedEntity.label>TODO</StudiedEntity.label>
+  <StudiedEntity.label>estudo rístico</StudiedEntity.label>
   <!-- EN:
     <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
@@ -23,6 +23,18 @@
     <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
-  <StudiedEntity.rulePack.rulesStrings>TODO</StudiedEntity.rulePack.rulesStrings>
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->[STUDIER_nameDef] estudando [ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull] enfrentando os mistérios sombrios de [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] mergulhando profundamente nos segredos ocultos de  [ENTITY_nameDef] [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull], como um(a) alquimista ancestral, buscando extrair a essência de [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->com seus olhos exibindo uma mistura de fascínio e de desdém</li>
+    <li>circumstance_phrase->em uma dança rística de conhecimento e imaginação</li>
+    <li>circumstance_phrase->enquanto suas mãos ágeis deslizam sobre textos e artefatos ancestrais</li>
+    <li>desc_sentence->[STUDIER_nameDef] se vê imerso(a) em um mundo de sombras, em que cada descoberta é uma estrela a iluminar seu caminho rumo ao desconhecido.</li>
+    <li>desc_sentence->[STUDIER_nameDef] transita entre os reinos do visível e do invisível, seus passos marcando o limiar entre a luz da razão e as sombras da superstição.</li>
+    <li>desc_sentence->A estática do conhecimento se choca com o vácuo da ignorância, enquanto [ENTITY_nameDef] permanece impassível diante dos esforços de [STUDIER_nameDef].</li>
+    <li>desc_sentence->O pulsar ritmado das máquinas ecoa ao longe, um contraponto ao silêncio carregado de mistério que envolve [ENTITY_nameDef].</li>
+  </StudiedEntity.rulePack.rulesStrings>
   
 </LanguageData>
