@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>queimadura de ácido</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>Uma queimadura de ácido</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura de ácido</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>Dissolvido</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>uma queimadura de ácido</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>{0} no {1}</AcidBurn.labelNounPretty>
+  
   <!-- EN: bite -->
   <Bite.label>mordida</Bite.label>
   <!-- EN: A bite wound. -->
@@ -134,18 +147,42 @@
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>{0} no(a) {1}</Cut.labelNounPretty>
   
+  <!-- EN: decayed organ -->
+  <Decayed.label>órgão deteriorado</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>Este órgão foi completamente deteriorado.</Decayed.description>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>um órgão deterioriado</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>{1} deteriorado(a)</Decayed.labelNounPretty>
+  
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>queimadura elétrica</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>Uma queimadura elétrica.</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriz de queimadura elétrica</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>Queimado(a)</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>Queimado(a)</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>uma queimadura elétrica</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>{0} no(a) {1}</ElectricalBurn.labelNounPretty>
+  
   <!-- EN: cut -->
   <ExecutionCut.label>corte</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
-  <ExecutionCut.description>Um corte feito durante a execução.</ExecutionCut.description>
+  <ExecutionCut.description>Um corte feito durante uma execução.</ExecutionCut.description>
   <!-- EN: Cut off -->
-  <ExecutionCut.injuryProps.destroyedLabel>TODO</ExecutionCut.injuryProps.destroyedLabel>
+  <ExecutionCut.injuryProps.destroyedLabel>Cortado(a) fora</ExecutionCut.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
-  <ExecutionCut.injuryProps.destroyedOutLabel>TODO</ExecutionCut.injuryProps.destroyedOutLabel>
+  <ExecutionCut.injuryProps.destroyedOutLabel>Cortado(a) fora</ExecutionCut.injuryProps.destroyedOutLabel>
   <!-- EN: a cut -->
   <ExecutionCut.labelNoun>um corte</ExecutionCut.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <ExecutionCut.labelNounPretty>{0} no {1}</ExecutionCut.labelNounPretty>
+  <ExecutionCut.labelNounPretty>{0} no(a) {1}</ExecutionCut.labelNounPretty>
   
   <!-- EN: frostbite -->
   <Frostbite.label>queimadura por frio</Frostbite.label>
@@ -187,9 +224,9 @@
   <!-- EN: {0} in the {1} -->
   <Gunshot.labelNounPretty>{0} no(a) {1}</Gunshot.labelNounPretty>
   
-  <!-- EN: misc -->
-  <Misc.label>diversos</Misc.label>
-  <!-- EN: Miscellanous injuries. -->
+  <!-- EN: wound -->
+  <Misc.label>ferimento</Misc.label>
+  <!-- EN: Miscellaneous injuries. -->
   <Misc.description>Ferimentos diversos.</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>fixado</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>

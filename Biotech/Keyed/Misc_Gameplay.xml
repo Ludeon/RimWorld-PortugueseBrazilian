@@ -77,6 +77,8 @@
   <Groups>Grupos</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Carregando recursos de gestação mecanoide</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>TODO</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Iniciando ciclo de gestação mecanoide</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -145,16 +147,14 @@
   <AutoWakeDesc>Quando ativado, {PAWN_nameDef} acordará automaticamente assim que seu descanso mortal for concluído.\n\nEnquanto estiver desativado, {PAWN_pronoun} continuará descansanso mortalmente até que você {PAWN_gender ? o : a} acorde manualmente.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} está descansando mortalmente.</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>Não pode realizar o descanso mortal</CannotDeathrest>
+  <!-- EN: cannot deathrest -->
+  <CannotDeathrest>não pode realizar o descanso mortal</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>Iniciar descanso mortal</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
   <ConfirmExitDeathrestUnderMinDays>Completar o descanso mortal com segurança leva {MINDURATION}, mas {PAWN_nameDef} só permaneceu descansando mortalmente por {CURDURATION}.\n\nAcordar {PAWN_nameDef} agora interromperia o seu descanso mortal, deixando seu metabolismo desequilibrado e deixando {PAWN_pronoun} doente nos próximos dias.\n\nTem certeza de que deseja acordar {PAWN_pronoun}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>descansando mortalmente</Deathresting>
-  <!-- EN: complete -->
-  <Complete>completo</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>pode acordar com segurança agora.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -297,8 +297,8 @@
   <ComplexityTotal>complexidade total</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>A complexidade total de todos os genes em uso.</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
-  <Metabolism>Eficiência metabólica</Metabolism>
+  <!-- EN: metabolic efficiency -->
+  <Metabolism>eficiência metabólica</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>A eficiência metabólica total desses genes quando montados. Alta eficiência significa que uma pessoa precisa de menos comida; baixa eficiência significa que eles devem comer mais.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
@@ -429,8 +429,6 @@
   <LethalInjuries>Ferimentos letais</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>descanso mortal</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>Construções</Buildings>
   <!-- EN: capacity -->
   <Capacity>capacidade</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>As crianças querem aprender com atividades diferentes em momentos diferentes.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>O desejo de aprendizado atual de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>A saúde do desenvolvimento é a média das necessidades de aprendizado de uma criança desde seu último aniversário.\n\nAs crianças com maior saúde do desenvolvimento terão mais opções durante os momentos de crescimento e ganharão mais paixão pelas habilidades.</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>Gestando {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>{0} gestado</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>TODO</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Requer {PAWN_nameDef} para ser completado</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
