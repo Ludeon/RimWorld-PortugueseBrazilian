@@ -9,7 +9,7 @@
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
     <li>subject_story->encountered an exiled cult master, who happily boasted about his secrets</li>
-    <li>subject_story->deepened his understanding of ritual sacrifice</li>
+    <li>subject_story->deepened [ANYPAWN_possessive] understanding of ritual sacrifice</li>
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
@@ -49,7 +49,6 @@
   <BasicPsychicRituals.label>provocação do vazio</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
   <BasicPsychicRituals.description>Construa um local propício para realização de rituais psíquicos. Efetue o ritual de provocação do vazio para descobrir novas entidades.</BasicPsychicRituals.description>
-
   <!-- EN:
     <li>subject->psychic rituals</li>
     <li>subject_story->studied the rituals of Horax cultists</li>
@@ -72,6 +71,27 @@
     <li>subject_gerund->estabelecendo conexões psíquicas</li>
     <li>subject_gerund->provocando entidades do vazio</li>
   </BasicPsychicRituals.generalRules.rulesStrings>
+  
+  <!-- EN: bioferrite extraction -->
+  <BioferriteExtraction.label>extração de bioferrita</BioferriteExtraction.label>
+  <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
+  <BioferriteExtraction.description>Extraia bioferrita diretamente de entidades capturadas. Use-a para criar armas e vestuário em um local de criação ou modelador de bioferrita.</BioferriteExtraction.description>
+  <!-- EN:
+    <li>subject->bioferrite extraction</li>
+    <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
+    <li>subject_story->stripped and boiled the flesh of a harbinger tree</li>
+    <li>subject_story->investigated reports of an archotech phenomenon</li>
+    <li>subject_story->discovered a novel organic metal</li>
+    <li>subject_gerund->extracting bioferrite</li>
+  -->
+  <BioferriteExtraction.generalRules.rulesStrings>
+    <li>subject->extração de bioferrita</li>
+    <li>subject_story->extraiu um composto orgânico de uma amostra de carne em rápida mutação</li>
+    <li>subject_story->descascou e ferveu a carne de uma árvore arauto</li>
+    <li>subject_story->investigou relatos de um fenômeno arquotecnológico</li>
+    <li>subject_story->descobriu um novo metal orgânico</li>
+    <li>subject_gerúndio->extraindo bioferrita</li>
+  </BioferriteExtraction.generalRules.rulesStrings>
   
   <!-- EN: bioferrite generator -->
   <BioferriteGenerator.label>gerador a bioferrita</BioferriteGenerator.label>
@@ -98,10 +118,10 @@
     <li>subject_gerund->preenchendo geradores a bioferrita</li>
   </BioferriteGenerator.generalRules.rulesStrings>
   
-  <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>mineração de bioferrita</BioferriteHarvesting.label>
-  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>Construa mineradoras para extrair bioferrita a partir de entidades capturadas em plataformas de contenção.</BioferriteHarvesting.description>
+  <!-- EN: bioferrite harvester -->
+  <BioferriteHarvesting.label>mineirador de bioferrita</BioferriteHarvesting.label>
+  <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
+  <BioferriteHarvesting.description>Construa mineiradores de bioferrita que extraiam bioferrita automaticamente de entidades capturadas. Produz mais bioferrita do que a extração manual.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -146,7 +166,6 @@
   <BioferriteShaping.label>fusão bioférrica</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
   <BioferriteShaping.description>Crie ferramentas úteis, armas, pisos e muito mais a partir da fusão da bioferrita.</BioferriteShaping.description>
-
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -465,7 +484,7 @@
   <InsanityWeaponry.description>Refatore fragmentos arquotecnológicas em armas de uso limitado que manipulam e destroem inimigos.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
-    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
     <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
     <li>subject_story->worked in an asylum of archotech victims</li>
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
@@ -486,7 +505,7 @@
   <JuggernautSerum.description>Sintetize um sérum que aumenta temporariamente a força e a velocidade do usuário, além de permitir que se recupere mais rapidamente de lesões. A utilização, no entanto, reduz o humor do usuário.</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
-    <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
+    <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
     <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
     <li>subject_story->researched serum use among indentured building sectors</li>
     <li>subject_story->fell into a barrel of juggernaut serum</li>
@@ -605,7 +624,7 @@
     <li>subject_story->followed a trail of victims left by a philophage</li>
     <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
     <li>subject_story->investigated the damaged minds of cult victims</li>
-    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault</li>
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
