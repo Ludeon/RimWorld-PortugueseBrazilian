@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Entities -->
+  <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
+  <MessageActivityRisingDamage>A atividade de {0_definite} está aumentando devido ao dano sofrido.</MessageActivityRisingDamage>
+  <!-- EN: {0_definite} has died on a holding platform. -->
+  <EntityDiedOnHoldingPlatform>{0_definite} morreu em uma plataforma de espera.</EntityDiedOnHoldingPlatform>
+  <!-- EN: New entity discovered -->
+  <MessageEntityDiscovered>Nova entidade descoberta</MessageEntityDiscovered>
+
+  <!-- Hate chanters -->
+  <!-- EN: The cultists are in a trance and don't respond when attacked. -->
+  <MessageHateChantersAbsorbed>Os cultistas estão em transe e não respondem quando atacados.</MessageHateChantersAbsorbed>
+  <!-- EN: The hate chanting has increased in volume. -->
+  <MessageHateChantIncreased>Os cânticos de ódio aumentaram em volume.</MessageHateChantIncreased>
+
+  <!-- Self-resurrection -->
+  <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
+  <SelfResurrectText>{0_nameDef} pode se auto-ressuscitar sob comando usando a licença mortal.</SelfResurrectText>
+  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
+  <MessageUsingSelfResurrection>{0_nameDef} está usando a licença mortal para se auto-ressuscitar.</MessageUsingSelfResurrection>
+
+  <!-- Pit Gate -->
+  <!-- EN: The pit gate has collapsed. -->
+  <MessagePitGateCollapsed>O portal do abismo colapsou.</MessagePitGateCollapsed>
+  <!-- EN: A pit burrow has collapsed. -->
+  <MessagePitBurrowCollapsed>Uma toca desabou.</MessagePitBurrowCollapsed>
+
+  <!-- Fleshsack -->
+  <!-- EN: The flesh sack contained something -->
+  <FleshmassContainedMessage>O saco de carne continha algo</FleshmassContainedMessage>
+
+  <!-- Psychic rituals -->
+  <!-- EN: {0_pawnsPluralDef} are attacking! -->
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef} estão atacando!</MessagePsychicRitualAssault>
+  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} estão iniciando o ritual psíquico</MessageAIPsychicRitualBegan>
+  
+  <!-- Biomutation lance -->
+  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
+  <MessageBiomutationLanceInvalidTargetRace>O alvo {0_nameDef} não é um animal ou humano.</MessageBiomutationLanceInvalidTargetRace>
+  <!-- EN: Cannot target: {0_nameDef} is too large. -->
+  <MessageBiomutationLanceTargetTooBig>O alvo {0_nameDef} é muito grande.</MessageBiomutationLanceTargetTooBig>
+
+  <!-- Containment -->
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
+  <MessageNoRoomWithMinimumContainmentStrength>Aviso: Nenhuma sala tem a força mínima de contenção para {0}. Pode escapar em breve.</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
+  <MessageTargetBelowMinimumContainmentStrength>Aviso: {0} está abaixo da força mínima de contenção para {1}. Pode escapar em breve.</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Can't transfer to {0} reserved by someone else. -->
+  <MessageHolderReserved>Não é possível transferir para o {0} reservado por outra pessoa.</MessageHolderReserved>
+  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
+  <MessageEntityExecuted>{EXECUTIONER_labelShort} executou {VICTIM_kindIndef}.</MessageEntityExecuted>
+  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformReinstalled>Aviso: Re-instalar uma plataforma de retenção ocupada liberará a entidade. Transfira a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformReinstalled>
+  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformUninstalled>Aviso: Desinstalar uma plataforma de retenção ocupada liberará a entidade. Transfira a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformUninstalled>
+  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformDeconstructed>Aviso: Desconstruir uma plataforma de retenção ocupada liberará a entidade. Transfira a entidade para outra plataforma primeiro.</MessageOccupiedHoldingPlatformDeconstructed>
+  
+  <!-- Duplicator obelisk -->
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
+  <MessageHostileDuplicate>Uma duplicata hostil de {0_nameDef} apareceu.</MessageHostileDuplicate>
+  
+  <!-- Proximity detector -->
+  <!-- EN: A proximity detector has detected an invisible creature. -->
+  <MessageProximityDetectorTriggered>Um detector de proximidade detectou uma criatura invisível.</MessageProximityDetectorTriggered>
+  
+  <!-- Unnatural darkness --> 
+  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
+  <MessagePawnAttackedInDarkness>Algo na escuridão atacou {0_nameDef}.</MessagePawnAttackedInDarkness>
+  
+  <!-- Revenant -->
+  <!-- EN: A hidden revenant has been revealed! -->
+  <MessageRevenantForcedVisibility>Um espectro oculto foi revelado!</MessageRevenantForcedVisibility>
+  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
+  <MessageRevenantHeard>{PAWN_nameDef} pode ouvir o espectro {1} por perto!</MessageRevenantHeard>
+  
+  <!-- Abilities -->
+  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
+  <MessageCannotUseOnNonBleeder>{ABILITY_label} não pode ser usado em criaturas que não sangram.</MessageCannotUseOnNonBleeder>
+  
+  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} provocou um monispinário.</MessageFingerspikeDisturbed>
+  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} provocou vários monispinários</MessageFingerspikeDisturbedPlural>
+
+  <!-- EN: The death pall has resurrected {0_indefinite}. -->
+  <DeathPallResurrectedMessage>A mortalha ressuscitou {0_indefinite}.</DeathPallResurrectedMessage>
+  
+</LanguageData>

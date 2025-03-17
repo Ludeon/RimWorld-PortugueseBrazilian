@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>title->[maybeThe] [bookEvil] of [nounEvilUncountable]</li>
+    <li>title->[maybeThe] [bookEvil] of [nounEvilCountable]s</li>
+    <li>title->[maybeThe] [bookEvil] of the [nounEvilCountable]</li>
+    <li>title->[maybeThe] [nounEvilCountable]s [inThe] [placeEvil]</li>
+    <li>title->[maybeThe] [bookEvil] of [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe] [nounEvilAny] [inThe] [placeEvil]</li>
+    <li>title->[maybeThe] [nounEvilAny] of [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe] [adjectiveEvil] [nounEvilAny]</li>
+    <li>title->[ANYPAWN_nameIndef]'s [bookEvil]</li>
+    <li>title->[maybeThe] [bookCompound]</li>
+    <li>title->[ANYPAWN_nameIndef]'s [bookCompound]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
+    <li>title(p=0.5)->[nounEvilCountable] [suffixEvil]</li>
+    <li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]</li>
+    <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
+    <li>connector->'</li>
+    <li>connector->-</li>
+    <li>maybeThe-></li>
+    <li>maybeThe->The</li>
+    <li>bookEvil(p=2)->Book</li>
+    <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookEvil->Tome</li>
+    <li>bookEvil->Codex</li>
+    <li>bookEvil->Writings</li>
+    <li>bookEvil->Record</li>
+    <li>bookEvil->Secrets</li>
+    <li>bookEvil->Chronicles</li>
+    <li>bookEvil->Cipher</li>
+    <li>bookEvil->Whispers</li>
+    <li>bookEvil->Testimony</li>
+    <li>bookEvil->Lamentations</li>
+    <li>bookEvil->Grimoire</li>
+    <li>bookEvil->Almanac</li>
+    <li>bookEvil->Manuscript</li>
+    <li>bookEvil->Annals</li>
+    <li>bookEvil->Incantations</li>
+    <li>bookEvil->Revelations</li>
+    <li>bookEvil->Manifesto</li>
+    <li>bookEvil->Testament</li>
+    <li>bookEvil->Fragments</li>
+    <li>bookEvil->Shards</li>
+    <li>inThe->in the</li>
+    <li>inThe->within the</li>
+    <li>inThe->beneath the</li>
+    <li>inThe->under the</li>
+    <li>inThe->by the</li>
+    <li>inThe->on the</li>
+    <li>inThe->across the</li>
+    <li>adjectiveEvil(p=3)->Void</li>
+    <li>adjectiveEvil->Golden</li>
+    <li>adjectiveEvil->Unnatural</li>
+    <li>adjectiveEvil->Dark</li>
+    <li>adjectiveEvil->Black</li>
+    <li>adjectiveEvil->Deep</li>
+    <li>adjectiveEvil->Ancient</li>
+    <li>adjectiveEvil->Corrupt</li>
+    <li>adjectiveEvil->Blood</li>
+    <li>adjectiveEvil->Chaos</li>
+    <li>adjectiveEvil->Abyssal</li>
+    <li>adjectiveEvil->Uncanny</li>
+    <li>adjectiveEvil->Phantom</li>
+    <li>adjectiveEvil->Cryptic</li>
+    <li>adjectiveEvil->Whispering</li>
+    <li>adjectiveEvil->Forgotten</li>
+    <li>adjectiveEvil->Veiled</li>
+    <li>adjectiveEvil->Forbidden</li>
+    <li>adjectiveEvil->Subsurface</li>
+    <li>adjectiveEvil->Snake</li>
+    <li>nounEvilAny->[nounEvilCountable]</li>
+    <li>nounEvilAny->[nounEvilUncountable]</li>
+    <li>nounEvilUncountable->Fleshmass</li>
+    <li>nounEvilUncountable->Bioferrite</li>
+    <li>nounEvilUncountable->Deadlife</li>
+    <li>nounEvilUncountable->Archotech</li>
+    <li>nounEvilUncountable->Necrotech</li>
+    <li>nounEvilUncountable->Horax</li>
+    <li>nounEvilUncountable->Blood</li>
+    <li>nounEvilUncountable->Undeath</li>
+    <li>nounEvilUncountable->Power</li>
+    <li>nounEvilUncountable->Whispers</li>
+    <li>nounEvilUncountable->Knowledge</li>
+    <li>nounEvilUncountable->Horror</li>
+    <li>nounEvilUncountable->Fungi</li>
+    <li>nounEvilUncountable->Putrescence</li>
+    <li>nounEvilUncountable->Rituals</li>
+    <li>nounEvilUncountable->Murder</li>
+    <li>nounEvilUncountable->Darkness</li>
+    <li>nounEvilUncountable->Madness</li>
+    <li>nounEvilUncountable->Chaos</li>
+    <li>nounEvilUncountable->Despair</li>
+    <li>nounEvilUncountable->Suffering</li>
+    <li>nounEvilUncountable->Nightmares</li>
+    <li>nounEvilUncountable->Corruption</li>
+    <li>nounEvilUncountable->Doom</li>
+    <li>nounEvilUncountable->Terror</li>
+    <li>nounEvilUncountable->Malevolence</li>
+    <li>nounEvilUncountable->Shadows</li>
+    <li>nounEvilUncountable->Void</li>
+    <li>nounEvilUncountable->Gold</li>
+    <li>nounEvilCountable->Ghoul</li>
+    <li>nounEvilCountable->Gorehulk</li>
+    <li>nounEvilCountable->Noctol</li>
+    <li>nounEvilCountable->Shambler</li>
+    <li>nounEvilCountable->Fleshbeast</li>
+    <li>nounEvilCountable->Nociosphere</li>
+    <li>nounEvilCountable->Corpse</li>
+    <li>nounEvilCountable->Cube</li>
+    <li>nounEvilCountable->Revenant</li>
+    <li>nounEvilCountable->Metalhorror</li>
+    <li>nounEvilCountable->Abductor</li>
+    <li>nounEvilCountable->Duplicator</li>
+    <li>nounEvilCountable->Mutator</li>
+    <li>nounEvilCountable->Harbinger</li>
+    <li>nounEvilCountable->Sightstealer</li>
+    <li>nounEvilCountable->Chimera</li>
+    <li>nounEvilCountable->Devourer</li>
+    <li>nounEvilCountable->Shard</li>
+    <li>nounEvilCountable->Sculpture</li>
+    <li>nounEvilCountable->Serum</li>
+    <li>nounEvilCountable->Cult</li>
+    <li>nounEvilCountable->Cultist</li>
+    <li>nounEvilCountable->Goat</li>
+    <li>nounEvilCountable->Shadow</li>
+    <li>nounEvilCountable->Lurker</li>
+    <li>nounEvilCountable->Rites</li>
+    <li>nounEvilCountable->Hex</li>
+    <li>nounEvilCountable->Snake</li>
+    <li>nounEvilCountable->Feaster</li>
+    <li>placeEvil->Ocean</li>
+    <li>placeEvil->Void</li>
+    <li>placeEvil->Abyss</li>
+    <li>placeEvil->Deep</li>
+    <li>placeEvil->Shadows</li>
+    <li>placeEvil->Tombs</li>
+    <li>placeEvil->Darkness</li>
+    <li>placeEvil->Mountain</li>
+    <li>placeEvil->Chamber</li>
+    <li>placeEvil->Catacombs</li>
+    <li>placeEvil->Sanctum</li>
+    <li>placeEvil->Grove</li>
+    <li>placeEvil->Earth</li>
+    <li>placeEvil->Stars</li>
+    <li>placeEvil->Ocean</li>
+    <li>placeEvil->Depths</li>
+    <li>placeEvil->Underverse</li>
+    <li>placeEvil->Caverns</li>
+    <li>firstHalfEvil->vibro</li>
+    <li>firstHalfEvil->kelno</li>
+    <li>firstHalfEvil->nekro</li>
+    <li>firstHalfEvil->chrono</li>
+    <li>firstHalfEvil->drago</li>
+    <li>firstHalfEvil->krimi</li>
+    <li>firstHalfEvil->vadi</li>
+    <li>firstHalfEvil->horror</li>
+    <li>firstHalfEvil->nocio</li>
+    <li>firstHalfEvil->xeno</li>
+    <li>firstHalfEvil->psycho</li>
+    <li>firstHalfEvil->voro</li>
+    <li>firstHalfEvil->tyrano</li>
+    <li>firstHalfEvil->inverno</li>
+    <li>firstHalfEvil->phobo</li>
+    <li>firstHalfEvil->leva</li>
+    <li>suffixEvil->nomicon</li>
+    <li>suffixEvil->doron</li>
+    <li>suffixEvil->nax</li>
+    <li>suffixEvil->novicon</li>
+    <li>suffixEvil->vokon</li>
+    <li>suffixEvil->mancy</li>
+    <li>suffixEvil->gorgon</li>
+    <li>suffixEvil->morth</li>
+    <li>suffixEvil->cypher</li>
+    <li>suffixEvil->vex</li>
+    <li>suffixEvil->vortex</li>
+    <li>suffixEvil->nox</li>
+    <li>suffixEvil->cybex</li>
+    <li>suffixEvil->voron</li>
+    <li>suffixEvil->karnix</li>
+    <li>suffixEvil->nemex</li>
+    <li>suffixEvil->vexor</li>
+    <li>suffixEvil->tronix</li>
+    <li>suffixEvil->cryptex</li>
+    <li>suffixEvil->chaonix</li>
+    <li>suffixEvil->nix</li>
+    <li>suffixEvil->vix</li>
+  -->
+  <Namer_Tome.rulePack.rulesStrings>
+    <li>title(p=0.07)->[talvezO][livroMauMasculinoSingular] do [substantivoMauSingularMasculino]</li>
+    <li>title(p=0.07)->[talvezO][livroMauMasculinoSingular] da [substantivoMauSingularFeminino]</li>
+    <li>title(p=0.07)->[talvezO][livroMauMasculinoSingular] dos [substantivoMauPluralMasculino]</li>
+    <li>title(p=0.07)->[talvezO][livroMauMasculinoSingular] das [substantivoMauPluralFeminino]</li>
+    <li>title(p=0.14)->[talvezO][livroMauMasculinoSingular] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.05)->[talvezOs][livroMauMasculinoPlural] do [substantivoMauSingularMasculino]</li>
+    <li>title(p=0.05)->[talvezOs][livroMauMasculinoPlural] da [substantivoMauSingularFeminino]</li>
+    <li>title(p=0.03)->[talvezOs][livroMauMasculinoPlural] dos [substantivoMauPluralMasculino]</li>
+    <li>title(p=0.03)->[talvezOs][livroMauMasculinoPlural] das [substantivoMauPluralFeminino]</li>
+    <li>title(p=0.05)->[talvezOs][livroMauMasculinoPlural] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.03)->[talvezA][livroMauFemininoSingular] do [substantivoMauSingularMasculino]</li>
+    <li>title(p=0.03)->[talvezA][livroMauFemininoSingular] da [substantivoMauSingularFeminino]</li>
+    <li>title(p=0.02)->[talvezA][livroMauFemininoSingular] dos [substantivoMauPluralMasculino]</li>
+    <li>title(p=0.02)->[talvezA][livroMauFemininoSingular] das [substantivoMauPluralFeminino]</li>
+    <li>title(p=0.03)->[talvezA][livroMauFemininoSingular] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.02)->[talvezAs][livroMauFemininoPlural] do [substantivoMauSingularMasculino]</li>
+    <li>title(p=0.02)->[talvezAs][livroMauFemininoPlural] da [substantivoMauSingularFeminino]</li>
+    <li>title(p=0.01)->[talvezAs][livroMauFemininoPlural] dos [substantivoMauPluralMasculino]</li>
+    <li>title(p=0.01)->[talvezAs][livroMauFemininoPlural] das [substantivoMauPluralFeminino]</li>
+    <li>title(p=0.02)->[talvezAs][livroMauFemininoPlural] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.14)->[talvezO][substantivoMauSingularMasculino] [em][oLocalMau]</li>
+    <li>title(p=0.05)->[talvezOs][substantivoMauPluralMasculino] [em][oLocalMau]</li>
+    <li>title(p=0.03)->[talvezA][substantivoMauSingularFeminino] [em][oLocalMau]</li>
+    <li>title(p=0.02)->[talvezAs][substantivoMauPluralFeminino] [em][oLocalMau]</li>
+    <li>title(p=0.14)->[talvezO][substantivoMauSingularMasculino] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.05)->[talvezOs][substantivoMauPluralMasculino] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.03)->[talvezA][substantivoMauSingularFeminino] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.02)->[talvezAs][substantivoMauPluralFeminino] de [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.14)->[talvezO][substantivoMauSingularMasculino] [adjetivoMauSingularMasculino]</li>
+    <li>title(p=0.05)->[talvezOs][substantivoMauPluralMasculino] [adjetivoMauPluralMasculino]</li>
+    <li>title(p=0.03)->[talvezA][substantivoMauSingularFeminino] [adjetivoMauSingularFeminino]</li>
+    <li>title(p=0.02)->[talvezAs][substantivoMauPluralFeminino] [adjetivoMauPluralFeminino]</li>
+    <li>title->[livroMauQualquer] de [ANYPAWN_nameIndef]</li>
+    <li>title->[talvezO][primeiraMetadeMau][sufixoMau]</li>
+    <li>title->[primeiraMetadeMau][sufixoMau] de [ANYPAWN_nameIndef]</li>
+    <li>title->[primeiraMetadeMau][sufixoMau]-[substantivoMauSingularQualquer]</li>
+    <li>title->[substantivoMauSingularQualquer]-[sufixoMauMaiusculo]</li>
+    <li>talvezO-></li>
+    <li>talvezO->O </li>
+    <li>talvezOs-></li>
+    <li>talvezOs->Os </li>
+    <li>talvezA-></li>
+    <li>talvezA->A </li>
+    <li>talvezAs-></li>
+    <li>talvezAs->As </li>
+    <li>livroMauQualquer(p=0.6)->[livroMauMasculinoSingular]</li>
+    <li>livroMauQualquer(p=0.2)->[livroMauMasculinoPlural]</li>
+    <li>livroMauQualquer(p=0.1)->[livroMauFemininoSingular]</li>
+    <li>livroMauQualquer(p=0.1)->[livroMauFemininoPlural]</li>
+    <li>livroMauMasculinoSingular(p=2)->Livro</li>
+    <li>livroMauMasculinoSingular(p=2)->[primeiraMetadeMau][sufixoMau]</li>
+    <li>livroMauMasculinoSingular->Tomo</li>
+    <li>livroMauMasculinoSingular->Códice</li>
+    <li>livroMauMasculinoSingular->Registro</li>
+    <li>livroMauMasculinoSingular->Testemunho</li>
+    <li>livroMauMasculinoSingular->Grimório</li>
+    <li>livroMauMasculinoSingular->Almanaque</li>
+    <li>livroMauMasculinoSingular->Manuscrito</li>
+    <li>livroMauMasculinoSingular->Manifesto</li>
+    <li>livroMauMasculinoSingular->Testamento</li>
+    <li>livroMauMasculinoPlural->Segredos</li>
+    <li>livroMauMasculinoPlural->Sussurros</li>
+    <li>livroMauMasculinoPlural->Anais</li>
+    <li>livroMauMasculinoPlural->Encantamentos</li>
+    <li>livroMauMasculinoPlural->Fragmentos</li>
+    <li>livroMauFemininoSingular->Escritura</li>
+    <li>livroMauFemininoSingular->Crônica</li>
+    <li>livroMauFemininoSingular->Cifra</li>
+    <li>livroMauFemininoPlural->Lamentações</li>
+    <li>livroMauFemininoPlural->Revelações</li>
+    <li>em->n</li>
+    <li>em->perto d</li>
+    <li>em->sob </li>
+    <li>em->sobre </li>
+    <li>em->através d</li>
+    <li>adjetivoMauSingularMasculino(p=3)->do Vazio</li>
+    <li>adjetivoMauSingularMasculino->Abissal</li>
+    <li>adjetivoMauSingularMasculino->Ancestral</li>
+    <li>adjetivoMauSingularMasculino->Caótico</li>
+    <li>adjetivoMauSingularMasculino->Corrompido</li>
+    <li>adjetivoMauSingularMasculino->Críptico</li>
+    <li>adjetivoMauSingularMasculino->de Ouro</li>
+    <li>adjetivoMauSingularMasculino->Deformado</li>
+    <li>adjetivoMauSingularMasculino->Esquecido</li>
+    <li>adjetivoMauSingularMasculino->Profundo</li>
+    <li>adjetivoMauSingularMasculino->Proibido</li>
+    <li>adjetivoMauSingularMasculino->Rístico</li>
+    <li>adjetivoMauSingularMasculino->Sanguinário</li>
+    <li>adjetivoMauSingularMasculino->Sobrenatural</li>
+    <li>adjetivoMauSingularMasculino->Subterrâneo</li>
+    <li>adjetivoMauSingularMasculino->Sussurrante</li>
+    <li>adjetivoMauPluralMasculino(p=3)->do Vazio</li>
+    <li>adjetivoMauPluralMasculino->Abissais</li>
+    <li>adjetivoMauPluralMasculino->Ancestrais</li>
+    <li>adjetivoMauPluralMasculino->Caóticos</li>
+    <li>adjetivoMauPluralMasculino->Corrompidos</li>
+    <li>adjetivoMauPluralMasculino->Crípticos</li>
+    <li>adjetivoMauPluralMasculino->de Ouro</li>
+    <li>adjetivoMauPluralMasculino->Deformados</li>
+    <li>adjetivoMauPluralMasculino->Esquecidos</li>
+    <li>adjetivoMauPluralMasculino->Profundos</li>
+    <li>adjetivoMauPluralMasculino->Proibidos</li>
+    <li>adjetivoMauPluralMasculino->Rísticos</li>
+    <li>adjetivoMauPluralMasculino->Sanguinários</li>
+    <li>adjetivoMauPluralMasculino->Sobrenaturais</li>
+    <li>adjetivoMauPluralMasculino->Subterrâneo</li>
+    <li>adjetivoMauPluralMasculino->Sussurrantes</li>
+    <li>adjetivoMauSingularFeminino(p=3)->do Vazio</li>
+    <li>adjetivoMauSingularFeminino->Abissal</li>
+    <li>adjetivoMauSingularFeminino->Ancestral</li>
+    <li>adjetivoMauSingularFeminino->Caótica</li>
+    <li>adjetivoMauSingularFeminino->Corrompida</li>
+    <li>adjetivoMauSingularFeminino->Críptica</li>
+    <li>adjetivoMauSingularFeminino->de Ouro</li>
+    <li>adjetivoMauSingularFeminino->Deformada</li>
+    <li>adjetivoMauSingularFeminino->Esquecida</li>
+    <li>adjetivoMauSingularFeminino->Profunda</li>
+    <li>adjetivoMauSingularFeminino->Proibida</li>
+    <li>adjetivoMauSingularFeminino->Rística</li>
+    <li>adjetivoMauSingularFeminino->Sanguinária</li>
+    <li>adjetivoMauSingularFeminino->Sobrenatural</li>
+    <li>adjetivoMauSingularFeminino->Subterrânea</li>
+    <li>adjetivoMauSingularFeminino->Sussurrante</li>
+    <li>adjetivoMauPluralFeminino(p=3)->do Vazio</li>
+    <li>adjetivoMauPluralFeminino->Abissais</li>
+    <li>adjetivoMauPluralFeminino->Ancestrais</li>
+    <li>adjetivoMauPluralFeminino->Caóticas</li>
+    <li>adjetivoMauPluralFeminino->Corrompidas</li>
+    <li>adjetivoMauPluralFeminino->Crípticas</li>
+    <li>adjetivoMauPluralFeminino->de Ouro</li>
+    <li>adjetivoMauPluralFeminino->Deformadas</li>
+    <li>adjetivoMauPluralFeminino->Esquecidas</li>
+    <li>adjetivoMauPluralFeminino->Profundas</li>
+    <li>adjetivoMauPluralFeminino->Proibidas</li>
+    <li>adjetivoMauPluralFeminino->Rísticas</li>
+    <li>adjetivoMauPluralFeminino->Sanguinárias</li>
+    <li>adjetivoMauPluralFeminino->Sobrenaturais</li>
+    <li>adjetivoMauPluralFeminino->Subterrâneas</li>
+    <li>adjetivoMauPluralFeminino->Sussurrantes</li>
+    <li>substantivoMauSingularQualquer(p=0.7)->[substantivoMauSingularMasculino]</li>
+    <li>substantivoMauSingularQualquer(p=0.3)->[substantivoMauSingularFeminino]</li>
+    <li>substantivoMauSingularMasculino->Abdutor</li>
+    <li>substantivoMauSingularMasculino->Arauto</li>
+    <li>substantivoMauSingularMasculino->Assassinato</li>
+    <li>substantivoMauSingularMasculino->Cadáver</li>
+    <li>substantivoMauSingularMasculino->Caos</li>
+    <li>substantivoMauSingularMasculino->Carniçal</li>
+    <li>substantivoMauSingularMasculino->Conhecimento</li>
+    <li>substantivoMauSingularMasculino->Coturno</li>
+    <li>substantivoMauSingularMasculino->Cubo</li>
+    <li>substantivoMauSingularMasculino->Cultista</li>
+    <li>substantivoMauSingularMasculino->Culto</li>
+    <li>substantivoMauSingularMasculino->Desespero</li>
+    <li>substantivoMauSingularMasculino->Devorador</li>
+    <li>substantivoMauSingularMasculino->Duplicador</li>
+    <li>substantivoMauSingularMasculino->Espectro</li>
+    <li>substantivoMauSingularMasculino->Espreitador</li>
+    <li>substantivoMauSingularMasculino->Feitiço</li>
+    <li>substantivoMauSingularMasculino->Fragmento</li>
+    <li>substantivoMauSingularMasculino->Fungo</li>
+    <li>substantivoMauSingularMasculino->Gorétide</li>
+    <li>substantivoMauSingularMasculino->Horax</li>
+    <li>substantivoMauSingularMasculino->Horror</li>
+    <li>substantivoMauSingularMasculino->Horror Metálico</li>
+    <li>substantivoMauSingularMasculino->Mortal</li>
+    <li>substantivoMauSingularMasculino->Mutador</li>
+    <li>substantivoMauSingularMasculino->Ouro</li>
+    <li>substantivoMauSingularMasculino->Pesadelo</li>
+    <li>substantivoMauSingularMasculino->Poder</li>
+    <li>substantivoMauSingularMasculino->Renegado</li>
+    <li>substantivoMauSingularMasculino->Rito</li>
+    <li>substantivoMauSingularMasculino->Ritual</li>
+    <li>substantivoMauSingularMasculino->Sangue</li>
+    <li>substantivoMauSingularMasculino->Sofrimento</li>
+    <li>substantivoMauSingularMasculino->Soro</li>
+    <li>substantivoMauSingularMasculino->Sussuro</li>
+    <li>substantivoMauSingularMasculino->Terror</li>
+    <li>substantivoMauSingularMasculino->Trôpego</li>
+    <li>substantivoMauPluralMasculino->Abdutores</li>
+    <li>substantivoMauPluralMasculino->Arautos</li>
+    <li>substantivoMauPluralMasculino->Cadáveres</li>
+    <li>substantivoMauPluralMasculino->Carniçais</li>
+    <li>substantivoMauPluralMasculino->Coturnos</li>
+    <li>substantivoMauPluralMasculino->Cubos</li>
+    <li>substantivoMauPluralMasculino->Cultistas</li>
+    <li>substantivoMauPluralMasculino->Cultos</li>
+    <li>substantivoMauPluralMasculino->Devoradores</li>
+    <li>substantivoMauPluralMasculino->Duplicadores</li>
+    <li>substantivoMauPluralMasculino->Espectros</li>
+    <li>substantivoMauPluralMasculino->Espreitadores</li>
+    <li>substantivoMauPluralMasculino->Feitiços</li>
+    <li>substantivoMauPluralMasculino->Fragmentos</li>
+    <li>substantivoMauPluralMasculino->Fungos</li>
+    <li>substantivoMauPluralMasculino->Gorétides</li>
+    <li>substantivoMauPluralMasculino->Horrores</li>
+    <li>substantivoMauPluralMasculino->Metabismos</li>
+    <li>substantivoMauPluralMasculino->Mortos-Vivos</li>
+    <li>substantivoMauPluralMasculino->Mutadores</li>
+    <li>substantivoMauPluralMasculino->Pesadelos</li>
+    <li>substantivoMauPluralMasculino->Poderes</li>
+    <li>substantivoMauPluralMasculino->Renegados</li>
+    <li>substantivoMauPluralMasculino->Ritos</li>
+    <li>substantivoMauPluralMasculino->Rituais</li>
+    <li>substantivoMauPluralMasculino->Sussuros</li>
+    <li>substantivoMauPluralMasculino->Terrores</li>
+    <li>substantivoMauPluralMasculino->Trôpegos</li>
+    <li>substantivoMauSingularFeminino->Arquotecnologia</li>
+    <li>substantivoMauSingularFeminino->Besta Carnal</li>
+    <li>substantivoMauSingularFeminino->Bioferrita</li>
+    <li>substantivoMauSingularFeminino->Escultura</li>
+    <li>substantivoMauSingularFeminino->Escuridão</li>
+    <li>substantivoMauSingularFeminino->Corrupção</li>
+    <li>substantivoMauSingularFeminino->Loucura</li>
+    <li>substantivoMauSingularFeminino->Malevolência</li>
+    <li>substantivoMauSingularFeminino->Massa Carnal</li>
+    <li>substantivoMauSingularFeminino->Morte</li>
+    <li>substantivoMauSingularFeminino->Necrotecnologia</li>
+    <li>substantivoMauSingularFeminino->Nociosfera</li>
+    <li>substantivoMauSingularFeminino->Putrescência</li>
+    <li>substantivoMauSingularFeminino->Quimera</li>
+    <li>substantivoMauSingularFeminino->Ruína</li>
+    <li>substantivoMauSingularFeminino->Sombra</li>
+    <li>substantivoMauPluralFeminino->Bestas Carnais</li>
+    <li>substantivoMauPluralFeminino->Bioferritas</li>
+    <li>substantivoMauPluralFeminino->Esculturas</li>
+    <li>substantivoMauPluralFeminino->Escuridões</li>
+    <li>substantivoMauPluralFeminino->Corrupções</li>
+    <li>substantivoMauPluralFeminino->Loucuras</li>
+    <li>substantivoMauPluralFeminino->Malevolências</li>
+    <li>substantivoMauPluralFeminino->Massas Carnais</li>
+    <li>substantivoMauPluralFeminino->Necrotecnologias</li>
+    <li>substantivoMauPluralFeminino->Nociosferas</li>
+    <li>substantivoMauPluralFeminino->Putrescências</li>
+    <li>substantivoMauPluralFeminino->Quimeras</li>
+    <li>substantivoMauPluralFeminino->Ruínas</li>
+    <li>substantivoMauPluralFeminino->Sombras</li>
+    <li>oLocalMau->a Câmara</li>
+    <li>oLocalMau->a Escuridão</li>
+    <li>oLocalMau->a Montanha</li>
+    <li>oLocalMau->a Terra</li>
+    <li>oLocalMau->as Catacumbas</li>
+    <li>oLocalMau->as Cavernas</li>
+    <li>oLocalMau->as Estrelas</li>
+    <li>oLocalMau->as Profundezas</li>
+    <li>oLocalMau->as Sombras</li>
+    <li>oLocalMau->o Abismo</li>
+    <li>oLocalMau->o Arvoredo</li>
+    <li>oLocalMau->o Oceano</li>
+    <li>oLocalMau->o Santuário</li>
+    <li>oLocalMau->o Subterrâneo</li>
+    <li>oLocalMau->o Vazio</li>
+    <li>primeiraMetadeMau->Vibr</li>
+    <li>primeiraMetadeMau->Queln</li>
+    <li>primeiraMetadeMau->Necr</li>
+    <li>primeiraMetadeMau->Cron</li>
+    <li>primeiraMetadeMau->Drac</li>
+    <li>primeiraMetadeMau->Crim</li>
+    <li>primeiraMetadeMau->Vad</li>
+    <li>primeiraMetadeMau->Noci</li>
+    <li>primeiraMetadeMau->Xen</li>
+    <li>primeiraMetadeMau->Psiqu</li>
+    <li>primeiraMetadeMau->Vot</li>
+    <li>primeiraMetadeMau->Tiran</li>
+    <li>primeiraMetadeMau->Invern</li>
+    <li>primeiraMetadeMau->Naqu</li>
+    <li>sufixoMau->em</li>
+    <li>sufixoMau->er</li>
+    <li>sufixoMau->es</li>
+    <li>sufixoMau->ique</li>
+    <li>sufixoMau->ocaite</li>
+    <li>sufixoMau->omal</li>
+    <li>sufixoMau->oquem</li>
+    <li>sufixoMau->orraique</li>
+    <li>sufixoMau->ungue</li>
+    <li>sufixoMauMaiusculo->Ém</li>
+    <li>sufixoMauMaiusculo->Ér</li>
+    <li>sufixoMauMaiusculo->És</li>
+    <li>sufixoMauMaiusculo->Íque</li>
+    <li>sufixoMauMaiusculo->Caite</li>
+    <li>sufixoMauMaiusculo->Quém</li>
+    <li>sufixoMauMaiusculo->Raique</li>
+    <li>sufixoMauMaiusculo->Úngue</li>
+  </Namer_Tome.rulePack.rulesStrings>
+  
+</LanguageData>
