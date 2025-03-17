@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Knowledge gain from study -->
+  <KnowledgeFromStudy>Ganho de conhecimento com o estudo</KnowledgeFromStudy>
+  <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
+  <KnowledgeFromStudyDesc>O tipo e a quantidade de conhecimento anômalo que pode ser obtido quando esta entidade é estudada. Entidades mais sofisticadas podem desbloquear projetos de pesquisa anômalas mais avançados.</KnowledgeFromStudyDesc>
+  <!-- EN: {0} {1} -->
+  <Stat_Knowledge>{0} {1}</Stat_Knowledge>
+  <!-- EN: Study interval -->
+  <StudyFrequency>Intervalo de estudo</StudyFrequency>
+  <!-- EN: The duration between available study periods for this entity. -->
+  <StudyFrequencyDesc>A duração entre os períodos de estudo disponíveis para esta entidade.</StudyFrequencyDesc>
+  
+  <!-- EN: Healing -->
+  <Stat_Hediff_Regeneration_Name>Cura</Stat_Hediff_Regeneration_Name>
+  <!-- EN: A flat amount of healing per day. -->
+  <Stat_Hediff_Regeneration_Desc>Uma quantidade fixa de cura por dia.</Stat_Hediff_Regeneration_Desc>
+  <!-- EN: {0} hp/day -->
+  <Stat_Hediff_Regeneration_Stat>{0} hp/dia</Stat_Hediff_Regeneration_Stat>
+
+  <!-- EN: Average lighting -->
+  <Stat_ContainmentStrength_AverageLighting>Iluminação média</Stat_ContainmentStrength_AverageLighting>
+  <!-- EN: Average wall HP -->
+  <Stat_ContainmentStrength_AverageWallHp>Média de HP da parede</Stat_ContainmentStrength_AverageWallHp>
+  <!-- EN: Average door HP -->
+  <Stat_ContainmentStrength_AverageDoorHp>Média de HP da porta</Stat_ContainmentStrength_AverageDoorHp>
+  <!-- EN: Multiple ({0}) holding platforms -->
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>Várias plataformas de retenção ({0})</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <!-- EN: Map-wide offset -->
+  <Stat_ContainmentStrength_MapwideOffset>Deslocamento em todo o mapa</Stat_ContainmentStrength_MapwideOffset>
+  <!-- EN: door open -->
+  <Stat_ContainmentStrength_DoorForcedOpen>porta aberta</Stat_ContainmentStrength_DoorForcedOpen>
+  <!-- EN: Not fully roofed -->
+  <Stat_ContainmentStrength_NotFullyRoofed>Não totalmente coberto</Stat_ContainmentStrength_NotFullyRoofed>
+  <!-- EN: Flooring -->
+  <Stat_ContainmentStrength_Flooring>Pavimentando</Stat_ContainmentStrength_Flooring>
+  <!-- EN: Building -->
+  <Stat_ContainmentStrength_Platform>Construindo</Stat_ContainmentStrength_Platform>
+
+  <!-- EN: Bioferrite generation -->
+  <StatsReport_BioferriteGeneration>Geração de Bioferrita</StatsReport_BioferriteGeneration>
+  <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
+  <StatsReport_BioferriteGeneration_Desc>Quanta bioferrita essa entidade gera por dia quando conectada a um coletor de bioferrita.</StatsReport_BioferriteGeneration_Desc>
+  <!-- EN: Multiplier for bioferrite density -->
+  <StatsReport_BioferriteDensityMultiplier>Multiplicador para densidade de bioferrita</StatsReport_BioferriteDensityMultiplier>
+  <!-- EN: Multiplier for bioferrite extracted recently -->
+  <StatsReport_BioferriteExtractedMultiplier>Multiplicador para bioferrita extraída recentemente</StatsReport_BioferriteExtractedMultiplier>
+
+  <!-- EN: Offering -->
+  <StatsReport_Offering>Oferta</StatsReport_Offering>
+  <!-- EN: The ingredients required to perform the psychic ritual. -->
+  <StatsReport_Offering_Desc>Os ingredientes necessários para realizar o ritual psíquico.</StatsReport_Offering_Desc>
+
+  <!-- EN: Ritual duration -->
+  <StatsReport_RitualDuration>Duração do Ritual</StatsReport_RitualDuration>
+  <!-- EN: The time it takes to perform this ritual. -->
+  <StatsReport_RitualDuration_Desc>O tempo que leva para realizar este ritual.</StatsReport_RitualDuration_Desc>
+
+  <!-- EN: Cooldown -->
+  <StatsReport_RitualCooldown>Tempo de recarga</StatsReport_RitualCooldown>
+  <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
+  <StatsReport_RitualCooldown_Desc>Depois que um ritual é realizado, ele interrompe a energia psíquica ambiente por um período de tempo. Durante esse tempo, o ritual não pode ser realizado novamente.</StatsReport_RitualCooldown_Desc>
+
+  <!-- EN: Containment offset -->
+  <StatsReport_ContainmentStrengthOffset>Compensação de contenção</StatsReport_ContainmentStrengthOffset>
+  <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
+  <StatsReport_ContainmentStrengthOffset_Desc>O quanto isso afeta a capacidade de uma plataforma de retenção de restringir uma entidade. Entidades que são melhor contidas têm menos probabilidade de escapar e fornecem mais conhecimento quando estudadas.</StatsReport_ContainmentStrengthOffset_Desc>
+
+  <!-- EN: Duration -->
+  <StatsReport_SerumDuration>Duração</StatsReport_SerumDuration>
+  <!-- EN: How long the effects of a serum last. -->
+  <StatsReport_SerumDuration_Desc>Quanto tempo duram os efeitos de um sérum.</StatsReport_SerumDuration_Desc>
+  
+  <!-- EN: Occupied -->
+  <StatsReport_Occupied>Ocupado</StatsReport_Occupied>
+  <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->
+  <MeditationFocusPerBuilding>{2} por {BUILDING_label} próximo ({0} / {1})</MeditationFocusPerBuilding>
+  <!-- EN: {1} per nearby {BUILDING_label} (up to {0}) -->
+  <MeditationFocusPerBuildingAbstract>{1} por {BUILDING_label} próximo (até {0})</MeditationFocusPerBuildingAbstract>
+
+</LanguageData>
