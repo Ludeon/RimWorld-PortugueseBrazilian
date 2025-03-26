@@ -65,7 +65,7 @@
     <li>talkaboutInfinitivo->perguntar</li>
     <li>talkaboutInfinitivo->ter uma discussão</li>
     <li>subject(p=2)->seu(ua) [PersonalCharacteristic]</li>
-    <li>subject(p=4)->[ConceptPositive]</li>
+    <li>subject(p=4)->[ConceitoPositivo]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
     <li>subject->a colônia</li>
     <li>subject->a comunidade</li>
@@ -90,8 +90,8 @@
   <RecruitAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] pediu para [RECIPIENT_nameDef] se unir à comunidade.</li>
     <li>r_logentry->[INITIATOR_nameDef] prometeu [goodthing] para [RECIPIENT_nameDef], e pediu para [RECIPIENT_pronoun] se juntar à comunidade.</li>
-    <li>goodthing(p=15)->[ConceptPositive]</li>
-    <li>goodthing->[Vegetable] grátis e fresco(a)</li>
+    <li>goodthing(p=15)->[ConceitoPositivo]</li>
+    <li>goodthing->[Vegetal] grátis e fresco(a)</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
@@ -110,7 +110,7 @@
     <li>r_logentry->[INITIATOR_nameDef] contou para [RECIPIENT_nameDef] que a segurança é fraca e encorajou a fuga.</li>
     <li>r_logentry->[INITIATOR_nameDef] demonstrou um meio de fuga para [RECIPIENT_nameDef], e prometeu [freedom].</li>
     <li>r_logentry->[INITIATOR_nameDef] falou sobre a alegria de ter [freedom], e ofereceu um meio de fuga para [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] falou sobre o quão bonitos(as) os(as) [TerrainFeature]s são, e ofereceu liberdade para [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] falou sobre o quão bonitos(as) os(as) [ElementoDoTerreno]s são, e ofereceu liberdade para [RECIPIENT_nameDef].</li>
     <li>freedom(p=0.2)->um quarto minimamente decente</li>
     <li>freedom->autodeterminação</li>
     <li>freedom->autonomia</li>

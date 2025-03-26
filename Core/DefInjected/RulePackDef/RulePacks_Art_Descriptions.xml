@@ -214,9 +214,9 @@
     <li>artconjunction->surpreendentemente,</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s [PAWN_adj]s aparecem [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s aparecem [side_position]</li>
-    <li>artextra_clause->a cena se passa dentro de um(a) [Community] construído(a) perto de um(a) [TerrainFeature]</li>
-    <li>artextra_clause->a cena se passa no meio de um(a) [Community]</li>
-    <li>artextra_clause->a cena se passa nos arredores de um(a) [Community]</li>
+    <li>artextra_clause->a cena se passa dentro de um(a) [Comunidade] construído(a) perto de um(a) [ElementoDoTerreno]</li>
+    <li>artextra_clause->a cena se passa no meio de um(a) [Comunidade]</li>
+    <li>artextra_clause->a cena se passa nos arredores de um(a) [Comunidade]</li>
     <li>artextra_clause->a imagem é delimitada por [subimageplural]</li>
     <li>artextra_clause->a parte inferior da imagem é dominada por [subimageany]</li>
     <li>artextra_clause->há [subimagesingle] [side_position]</li>
@@ -234,17 +234,17 @@
     <li>subimageany->[subimagesingle]</li>
     <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
     <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetal]s</li>
     <li>subimagesingle(p=4)->um(a) [Character]</li>
     <li>subimagesingle->um(a) [AnimalGroup] de [Animal]s</li>
-    <li>subimagesingle->um(a) [Community]</li>
-    <li>subimagesingle->um(a) [TerrainFeature]</li>
-    <li>subimagesingle->um(a) [Vegetable]</li>
+    <li>subimagesingle->um(a) [Comunidade]</li>
+    <li>subimagesingle->um(a) [ElementoDoTerreno]</li>
+    <li>subimagesingle->um(a) [Vegetal]</li>
     <li>subimagesingle->um(a) árvore de [TreeType]</li>
     <li>pawn_adj->coberto(a) de [Gore]</li>
-    <li>pawn_adj->comendo um(a) [Vegetable]</li>
+    <li>pawn_adj->comendo um(a) [Vegetal]</li>
     <li>pawn_adj->dormindo</li>
-    <li>pawn_adj->empunhando um(a) [Weapon]</li>
+    <li>pawn_adj->empunhando um(a) [Arma]</li>
     <li>pawn_adj->enlouquecido(a)</li>
     <li>pawn_adj->ferido(a)</li>
     <li>pawn_adj->jovem</li>
@@ -272,15 +272,15 @@
     <li>side_position->na parte superior da imagem</li>
     <li>side_position->no plano de fundo</li>
     <li>side_position->perto do canto da imagem</li>
-    <li>style_clause(p=4)->a obra [symbolizes] [ConceptAny]</li>
-    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
+    <li>style_clause(p=4)->a obra [symbolizes] [ConceitoQualquer]</li>
+    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceitoQualquer]</li>
     <li>style_clause->a composição geral é [composition]</li>
     <li>style_clause->a estrutura [composition] da imagem quase entra em conflito com o seu estilo [artstyle_adj]</li>
-    <li>style_clause->a imagem contrasta [ConceptAny] com [ConceptAny]</li>
-    <li>style_clause->a imagem de alguma forma expressa ambos(as) [ConceptAny] e [ConceptAny]</li>
+    <li>style_clause->a imagem contrasta [ConceitoQualquer] com [ConceitoQualquer]</li>
+    <li>style_clause->a imagem de alguma forma expressa ambos(as) [ConceitoQualquer] e [ConceitoQualquer]</li>
     <li>style_clause->a obra é executada em um estilo [artstyle_adj]</li>
-    <li>style_clause->a obra é sombreada em tons de [Color] e [Color]</li>
-    <li>style_clause->a obra está infundida com a ideia de [ConceptAny] e é feita em um estilo [artstyle_adj]</li>
+    <li>style_clause->a obra é sombreada em tons de [Cor] e [Cor]</li>
+    <li>style_clause->a obra está infundida com a ideia de [ConceitoQualquer] e é feita em um estilo [artstyle_adj]</li>
     <li>style_clause->a obra tem uma sensação [artstyle_adj] e uma estrutura [composition]</li>
     <li>style_clause->o estilo [artstyle_adj] da cena central colide com a imagem [artstyle_adj] do plano de fundo</li>
     <li>style_clause->o estilo principal é [artstyle_adj]</li>
