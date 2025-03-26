@@ -9,14 +9,21 @@
     <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] claims that your reckless off-map dumping of toxic waste has harmed [sender_possessive] faction. In retaliation, [sender_pronoun] is using transport pods to bombard you with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
     <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] claims that your reckless off-map dumping of toxic waste has harmed [sender_possessive] faction, and [sender_pronoun] believes [sender_pronoun] is honor-bound to retaliate. [sender_pronoun] is using transport pods to bombard you with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
   -->
-  <PollutionRetaliation.questContentRules.rulesStrings>TODO</PollutionRetaliation.questContentRules.rulesStrings>
+  <PollutionRetaliation.questContentRules.rulesStrings>    
+  <li>retaliationLetterLabel->retaliação por pacotes de resíduos</li>
+  <li>retaliationLetterLabel(senderIsNull==False)->retaliação de [sender_faction_pawnSingular] por pacotes de resíduos</li>
+  <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->retaliação por pacotes de resíduos de [sender_nameDef]</li>
+  <li>retaliationLetterText(senderIsNull==True)->Seu despejo de resíduos tóxicos fora de sua colônia não passou despercebido. Vizinhos ressentidos estão retaliando seu assentamento o bombardeando com cápsulas de transporte cheias de pacotes de resíduos tóxicos.\n\nSe não ficarem congelados, pacotes de resíduos tóxicos dissolverão com o tempo, poluindo o terreno ao redor.</li>
+  <li>retaliationLetterText(sender_factionLeader==True)->[sender_nameFull], [sender_faction_leaderTitle] de [sender_faction_name], afirma que sua imprudência ao despejar pacotes de resíduos tóxicos fora de seu assentamento trouxe malefícios à facção dele. Como retaliação, [sender_pronoun] está usando cápsulas de transporte para te bombardear com pacotes de resíduos tóxicos.\n\nSe não ficarem congelados, pacotes de resíduos tóxicos dissolverão com o tempo, poluindo o terreno ao redor.</li>
+  <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_nameFull], [sender_faction_leaderTitle] de [sender_faction_name], afirma que sua imprudência ao despejar pacotes de resíduos tóxicos fora de seu assentamento trouxe malefícios à facção dele, e [sender_pronoun] acredita que [sender_pronoun] deve retaliar por uma questão de honra. [sender_pronoun] está usando cápsulas de transporte para te bombardear com pacotes de resíduos tóxicos.\n\nSe não ficarem congelados, pacotes de resíduos tóxicos dissolverão com o tempo, poluindo o terreno ao redor.</li>
+  </PollutionRetaliation.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->pollutionretaliation</li>
   -->
-  <PollutionRetaliation.questDescriptionRules.rulesStrings>TODO</PollutionRetaliation.questDescriptionRules.rulesStrings>
+  <PollutionRetaliation.questDescriptionRules.rulesStrings><li>questDescription->retaliacaoporpoluicao</li></PollutionRetaliation.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questDescription->pollutionretaliation</li>
   -->
-  <PollutionRetaliation.questNameRules.rulesStrings>TODO</PollutionRetaliation.questNameRules.rulesStrings>
+  <PollutionRetaliation.questNameRules.rulesStrings><li>questDescription->retaliacaoporpoluicao</li></PollutionRetaliation.questNameRules.rulesStrings>
   
 </LanguageData>
