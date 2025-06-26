@@ -24,6 +24,10 @@
   <Owners>Donos</Owners>
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Colono designado</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>Temperatura do cômodo desconfortável</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>Temperatura do cômodo perigosa</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>Morreu no {0}</DiedOn>
   <!-- EN: Nobody -->
@@ -107,11 +111,11 @@
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
   <ExecuteColonist>Executar o colono culpado\n\nSe ativar esta opção, um guarda executará essa pessoa.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>{0_labelShort} agora está marcado(a) para execução. O próximo guarda disponível irá o(a) executar.</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort} agora está marcado(a) para execução. O próximo guarda disponível o(a) executará.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Esta ação irá fazer {PAWN_nameDef} perder o título de {TITLE} {PAWN_objective}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Esta ação fará {PAWN_nameDef} perder o título de {TITLE} {PAWN_objective}. Você não receberá nenhuma compensação por renunciar o título.\n\nIsso terá os seguintes efeitos:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_pronoun} perderá essas permissões</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
@@ -248,8 +252,8 @@
   <CaravanAttacking>Atacando {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Oferecendo presentes para {0}.</CaravanOfferingGifts>
-  <!-- EN: Trading with {0} -->
-  <CaravanTrading>Negociando com {0}</CaravanTrading>
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>Negociando com {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Foi usado por um cadáver.</WasWornByCorpse>
   <!-- EN: T -->
@@ -258,8 +262,14 @@
   <DeterioratingUnroofed>sem telhado</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>ao ar livre</DeterioratingOutdoors>
-  <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>Deteriorando por causa de</DeterioratingBecauseOf>
+  <!-- EN: raining -->
+  <DeterioratingRaining>chovendo</DeterioratingRaining> 
+  <!-- EN: protected -->
+  <Protected>protegido</Protected>
+  <!-- EN: Deteriorating -->
+  <DeterioratingBecauseOf>Deteriorando</DeterioratingBecauseOf>
+  <!-- EN: Will deteriorate in {0}. -->
+  <DeteriorateInDuration>Irá deteriorar em {0}</DeteriorateInDuration>
   <!-- EN: Map -->
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -270,10 +280,10 @@
   <Room>Cômodo</Room>
   <!-- EN: Beauty here -->
   <BeautyHere>Beleza aqui</BeautyHere>
-  <!-- EN: No power -->
-  <NoPower>Sem energia</NoPower>
-  <!-- EN: Work speed penalty -->
-  <WorkSpeedPenalty>Penalidade de velocidade de trabalho</WorkSpeedPenalty>
+  <!-- EN: no power -->
+  <NoPower>sem energia</NoPower>
+  <!-- EN: Work speed -->
+  <WorkSpeedPenalty>Velocidade de trabalho</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Desativado</DisabledCommand>
   <!-- EN: Ready for launch. -->
@@ -307,7 +317,7 @@
   <!-- EN: {0} wants this destroyed. -->
   <QuestTargetDestroyInspectStringShort>{0} quer isto destruído.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>o transporte partirá em {0}</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>O transporte partirá em {0}</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Partindo em {0}</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
@@ -330,6 +340,10 @@
   <SkillRequirements>Requisitos de habilidade</SkillRequirements>
   <!-- EN: Products -->
   <Products>Produtos</Products>
+  <!-- EN: Requires -->
+  <Requires>Requer</Requires>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>{0}x qualquer um</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{0} de {1}</Relationship>
   <!-- EN: Prisoner -->
@@ -371,7 +385,7 @@
   <!-- EN: Expires in -->
   <ExpiresIn>Expira em</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>{1_labelShort}s caravanas</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>caravana de {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Razão</Reason>
   <!-- EN: Relations with {0} -->
@@ -397,7 +411,7 @@
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>pode haver perigo lá</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>O scanner está detectando atividade perto do pedaço. Parece hostil.</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>A escaneadora está detectando atividade perto do pedaço. Parece hostil.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>pedaço de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -448,8 +462,8 @@
   <ViewHyperlink>Ver: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Detona em {0} dias</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged -->
-  <ExplosionOnDamageWarning>Dano de grande incêndio</ExplosionOnDamageWarning>
+  <!-- EN: Large fire explosion if damaged. -->
+  <ExplosionOnDamageWarning>Grande explosão de fogo se danificado.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Cluster mecanoide</MechCluster>
   <!-- EN: Spawning in {0} -->
@@ -457,7 +471,7 @@
   <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>montagem de {0} termina em {1}</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
-  <MechAssemblyNextType>Irá montar</MechAssemblyNextType>
+  <MechAssemblyNextType>Montará</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>produzido</ThingsProduced>
   <!-- EN: harvested -->
@@ -530,6 +544,26 @@
   <ThoughtFoodEatenFood>Comida</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>Ingredientes</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>Pacote de escudo</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>Perfurado - irá explodir em breve.</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>Clique para abrir a janela de pesquisa</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>O alvo pertence a outra facção.</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>mais</MoreLower>
+  <!-- EN: Requires -->
+  <RequiredTechprintTip>Requer</RequiredTechprintTip>
+  <!-- EN: size -->
+  <Size>tamanho</Size>
+  <!-- EN: cost -->
+  <Cost>custo</Cost>
+  <!-- EN: Title -->
+  <BackstoryTitle>Título</BackstoryTitle><!-- text_todo -->
+  <!-- EN: person -->
+  <Person>pessoa</Person>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -613,7 +647,7 @@
   <!-- EN: Unrestricted -->
   <NoAreaAllowed>Sem restrições</NoAreaAllowed>
   <!-- EN: New area -->
-  <NewArea>Nova área</NewArea>
+  <NewArea>Nova Área</NewArea>
   <!-- EN: Invert -->
   <InvertArea>Inverter</InvertArea>
 
@@ -654,7 +688,54 @@
   <PenCapacityDesc>Capacidade de {ANIMALDEF_label}s</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Animais exemplares</PenExampleAnimals>
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>Sem acesso ao exterior - Animais não podem ser deslocados.</NoExteriorAccess>
 
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>Beleza</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>Zona</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>Telhado</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>Terreno</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>Neve</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>Velocidade do Movimento</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>Fertilidade</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>Temperatura</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>Luminosidade</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>Bioma</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>Relevo</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>Estrada</Road_Label>
+  <!-- EN: River -->
+  <River_Label>Rio</River_Label> 
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>Dificuldade de Movimento</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>Poluição</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>Sujeira</Filth_Label>
+  
+  <!-- EN: Faction -->
+  <Faction_Label>Fação</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>Relacionamento</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>Colonos</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>Estado</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>Tempo até o Destino</CaravanTTD_Label>
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -669,16 +750,18 @@
   <ApparelPreventsShooting>{PAWN_nameDef} não pode usar armas de longo alcance por causa de seu(ua) {APPAREL_label}.</ApparelPreventsShooting>
 
   <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>Neve</Snow>
   <!-- EN: No snow -->
   <SnowNone>Sem neve</SnowNone>
-  <!-- EN: Snow (dusting) -->
-  <SnowDusting>Neve (varredura)</SnowDusting>
-  <!-- EN: Snow (thin) -->
-  <SnowThin>Neve (fina)</SnowThin>
-  <!-- EN: Snow (medium) -->
-  <SnowMedium>Neve (média)</SnowMedium>
-  <!-- EN: Snow (thick) -->
-  <SnowThick>Neve (grossa)</SnowThick>
+  <!-- EN: dusting -->
+  <SnowDusting>varredura</SnowDusting>
+  <!-- EN: thin -->
+  <SnowThin>fina</SnowThin>
+  <!-- EN: medium -->
+  <SnowMedium>média</SnowMedium>
+  <!-- EN: thick -->
+  <SnowThick>grossa</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
@@ -695,6 +778,22 @@
   <ShellLoaded>Projétil carregado: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Não carregado</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>Já ativo</AlreadyActive>
+  <!-- EN: Order activation -->
+  <OrderActivation>Ordenar ativação</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>Ordene um colono a ativar {THING_definite}.</OrderActivationDesc>
+  <!-- EN: Must be activated by a colonist. -->
+  <MustBeActivatedByColonist>Deve ser ativado por um colono.</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>Nenhum incêndio próximo</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>Nenhum incêndio próximo. Nenhum combustível foi utilizado.</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>Escolha quem deve ativar isto.</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>Sem combustível</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -739,6 +838,10 @@
   <ReportExtinguishingFireOn>extinguindo fogo em {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>desenterrando cadáver.</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>sendo carregado por {0_labelShort}.</CarriedBy> 
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>dentro de {0_labelShort}</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -792,9 +895,9 @@
   <!-- EN: Administering {0}. -->
   <RecipeAdministerJobString>Administrando {0}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
-  <TeetotalerUnhappy>teetotaler ficará infeliz</TeetotalerUnhappy>
+  <TeetotalerUnhappy>abstêmio ficará infeliz</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>prosthofóbico ficará infeliz</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>purista do corpo ficará infeliz</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
@@ -821,16 +924,14 @@
   <PawnTitleDescWrap>{0} em {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} em {1}</PawnMainDescUnderFactionedWrap>
-  <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{0} em {1}\nFacção de origem: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Facção</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>A facção {PAWN_labelShort} atualmente pertence a.</FactionDesc>
+  <FactionDesc>A facção a qual {PAWN_labelShort} atualmente pertence.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
-  <ExtraFactionDesc>A facção {PAWN_labelShort} atualmente pertence a. {PAWN_pronoun} retornará à facção de origem quando sair da facção atual.</ExtraFactionDesc>
+  <ExtraFactionDesc>A facção a qual {PAWN_labelShort} atualmente pertence. {PAWN_pronoun} retornará à facção de origem quando sair da facção atual.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Equipado</Equipped>
   <!-- EN: nothing -->
@@ -857,12 +958,16 @@
   <State>Estado</State>
   <!-- EN: stun -->
   <StunLower>atordoar</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>Retardado por danos</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>Seleciona a próxima coisa no mesmo quadrado.\n\n(*SectionTitle)Tecla de atalho:(/SectionTitle) {0}\n\nVocê pode também fazer isso clicando lentamente no mesmo quadrado de novo.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Ver informações sobre isto</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>Seleciona a próxima coisa no mesmo quadrado.\n\nVocê pode também fazer isso clicando lentamente no mesmo quadrado de novo.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -883,6 +988,8 @@
   <PowerNeeded>Energia necessária</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Potência</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>{0} W quando ativo</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>Armazenado</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -905,8 +1012,8 @@
   <Indoors>Interior</Indoors>
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>Sem telhado</IndoorsUnroofed>
-  <!-- EN: Outdoors -->
-  <Outdoors>Exterior</Outdoors>
+  <!-- EN: outdoors -->
+  <Outdoors>exterior</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
@@ -916,7 +1023,7 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>Dessecado</RotStateDessicated>
   <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>Congelado (não irá estragar)</CurrentlyFrozen>
+  <CurrentlyFrozen>Congelado (não estragará)</CurrentlyFrozen>
   <!-- EN: Refrigerated (spoils in {0}) -->
   <CurrentlyRefrigerated>Refrigerado (apodrece em {0})</CurrentlyRefrigerated>
   <!-- EN: Not refrigerated (spoils in {0}) -->
@@ -937,6 +1044,12 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Ingredientes</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>Os ingredientes utilizados para preparar esta refeição</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>Tipo de Dieta</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>O tipo da refeição produzida. Algumas pessoas possuem preferências por tipos específicos de refeições.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>apenas agrupa com refeições semelhantes</OnlyStacksWithCompatibleMeals>
 
@@ -959,8 +1072,12 @@
   <ReadyToHarvest>Pronto para colher.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Maduro.</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>Idade média da planta</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>Idade da planta mais velha</OldestPlantAge>
   <!-- EN: Growing period -->
-  <OutdoorGrowingPeriod>Período de crescimento</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>Período de Crescimento</OutdoorGrowingPeriod>
   <!-- EN: Never -->
   <NoGrowingPeriod>Nunca</NoGrowingPeriod>
   <!-- EN: Year-round -->
@@ -979,6 +1096,10 @@
   <HarvestGerund>colhendo</HarvestGerund>
   <!-- EN: cutting -->
   <CutGerund>cortando</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>Cortar todas infectadas</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>Marque todas as plantas com praga para serem destruídas. As plantas com praga não produzirão nenhum alimento ou recursos e devem ser destruídas antes que a praga se espalhe.</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1010,37 +1131,41 @@
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>Alterna a visibilidade do auxiliar de aprendizagem quando ela está vazia.\n\nO auxiliar de aprendizagem é sempre visível se existe um conceito ativado para ser aprendido. Esta alternância faz desaparecer quando nenhum conceito está ativo.</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Visibilidade do Auxiliar de Aprendizagem Quando Vazio\n\nO auxiliar de aprendizagem é sempre visível se existe um conceito ativado para ser aprendido. Esta alternância faz desaparecer quando nenhum conceito está ativo.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
-  <ZoneVisibilityToggleButton>Alternar visibilidade das zonas.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>Alterna a exibição de beleza.\n\nApresenta a beleza do mundo como seria percebido por um personagem em pé onde o mouse está apontando.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>Alterna a exibição de estatísticas da sala.\n\nExibe as estatísticas da sala onde o mouse está apontando.</ShowRoomStatsToggleButton>
+  <ZoneVisibilityToggleButton>Visibilidade das Zonas</ZoneVisibilityToggleButton>
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
+  <ShowBeautyToggleButton>Exibição de Beleza\n\nApresenta a beleza do mundo como seria percebido por um personagem em pé onde o cursor está apontando.</ShowBeautyToggleButton>
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
+  <ShowRoomStatsToggleButton>Exibição de Estatísticas de Salas\n\nExibe as estatísticas da sala onde o cursor está apontando.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Alterna a barra de colonos.\n\nExibe ícones e estatísticas básicas para todos os colonos ao longo da parte superior da tela.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Exibição da Barra de Colonos\n\nExibe ícones e estatísticas básicas para todos os colonos ao longo da parte superior da tela.\n\nVocê pode reordernar os colonos na barra de colonos segurando o clique direito e os arrastando.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>Exibição da Barra de Colonos\n\nExibe ícones e estatísticas básicas para todos os colonos ao longo da parte superior da tela.\n\nVocê pode reordernar os colonos na barra de colonos apertando o gatilho esquerdo e os arrastando.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>Alterna expansão autônoma da área da casa em torno das novas construções.</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>Expansão Automática da Área da Casa</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Alternar reconstrução automática de estruturas destruídas na área da casa.</AutoRebuildButton>
+  <AutoRebuildButton>Reconstrução Automática de Estruturas Destruídas</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>Alterna para o modo categoria de como os recursos são visualizados.</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>Alteração do Modo de Categorização de Recursos</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>Alterna em exibir os nomes dos animais da colônia.</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>Exibição dos Nomes dos Animais da Colônia</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>Alternar visibilidade de telhados.</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>Visibilidade de Telhados</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>Alterna a sobreposição de fertilidade.\n\nIsso mostra o quanto o solo é fértil, o que afeta os tipos de plantas que podem crescer e a rapidez com que crescem.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Sobreposição de Fertilidade\n\nIsso mostra o quanto o solo é fértil, o que afeta os tipos de plantas que podem crescer e a rapidez com que crescem.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>Alterna a visibilidade da disponibilidade do terreno.\n\nIsso se refere a quais tipos de construção podem ser construídos em cada local.\n\nPor exemplo, alguns tipos de solo aceitam apenas edifícios leves ou médios, mas não pesados. As pontes só podem ser construídas sobre a água.</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Visibilidade da Disponibilidade do Terreno\n\nIsso se refere a quais tipos de construção podem ser construídos em cada local.\n\nPor exemplo, alguns tipos de solo aceitam apenas edifícios leves ou médios, mas não pesados. As pontes só podem ser construídas sobre a água.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>Bloqueia a rotação da câmera para que o polo norte esteja sempre para cima.</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>Bloqueio da Rotação da Câmera no Norte</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>Alterna o sistema de iluminação dia/noite.</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Sistema de Iluminação Dia/Noite</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>Alterna a exibição de ícones de expansão em vez dos ícones comuns de objetos distantes.</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Exibição de Ícones de Expansão</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>Alternar visibilidade de nomes de relevo.</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>Visibilidade de Nomes de Relevo</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>Visibilidade de Calor</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1129,8 +1254,10 @@
   <ShipReportHibernating>Componente de hibernação</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Componente ainda não está pronto</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>Nenhuma colônia para retornar. Forme uma colônia primeiro.</ShipNoSettlementToReturnTo> <!-- text_todo -->
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e irá atrair gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
+  <HibernateWarning>(*Name)Carlinhos Pedranca(/Name) está pronto para iniciar a sequência de recuperação de hibernação do reator.\n\nEle avisa que o processo levará cerca de 15 dias e a assinatura de energia será detectável a uma longa distância.\n\nEste tipo de assinatura de energia indica capacidade de voo interestelar, e atrairá gangues de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que você nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>O reator está pronto para ser ligado.\n\nO processo levará cerca de 15 dias e a assinatura de energia será detectada a uma grande distância. Esse tipo de assinatura de energia indica capacidade de voo interestelar e atrairá bandos de invasores desesperados e enxames de mecanoides mortais.\n\nVocê será agredido com uma intensidade que nunca viu. Certifique-se de que suas defesas estejam preparadas primeiro.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
@@ -1286,7 +1413,7 @@
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>Nenhum recurso abaixo.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>Recursos esgotados, a broca foi desligada automaticamente. Impossivel começar a mineração de {0}.</DeepDrillExhausted>
+  <DeepDrillExhausted>Recursos esgotados, a broca foi desligada automaticamente. Impossível começar a mineração de {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Recursos esgotados.</DeepDrillExhaustedNoFallback>
 
@@ -1296,7 +1423,9 @@
   
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
-  <LearningHelper>Ajuda sobre...</LearningHelper>
+  <LearningHelper>Auxiliar de Aprend.</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>Tutor que visa ensinar informações sobre tópicos relevantes para o estado atual da sua colônia.</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>Eu já aprendi</MarkLearned>
   <!-- EN: Already learned -->
@@ -1310,7 +1439,7 @@
 
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
-  <RoutePlannerButtonTip>Clique para entrar no modo de planejamento onde você pode planejar a sua jornada e calcular a distânce entre waypoints.</RoutePlannerButtonTip>
+  <RoutePlannerButtonTip>Clique para entrar no modo de planejamento para planejar sua jornada e calcular distâncias entre waypoints.</RoutePlannerButtonTip>
   <!-- EN: Add two or more waypoints. -->
   <RoutePlannerAddTwoOrMoreWaypoints>Adicionar dois ou mais waypoints.</RoutePlannerAddTwoOrMoreWaypoints>
   <!-- EN: Add one or more waypoints. -->
@@ -1323,16 +1452,22 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Calculando para: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botão direito do mouse: Adicionar/remover waypoints.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Gatilho esquerdo: Adicionar/remover waypoints.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Sair do modo de planejamento.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Sair do modo de planejamento.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Retornar para o diálogo de formação da caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: Retornar para o diálogo de formação da caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToWaypoint>Est. tempo de viagem: {0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypoint>Tempo de viagem est.: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
-  <EstimatedTimeToWaypointFromPrevious>Est. tempo de viagem (do waypoint anterior): {0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToWaypointFromPrevious>Tempo de viagem est. (do waypoint anterior): {0}</EstimatedTimeToWaypointFromPrevious>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToTile>Est. tempo de viagem: {0}</EstimatedTimeToTile>
+  <EstimatedTimeToTile>Tempo de viagem est.: {0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
   <ForagedFoodAmount>Quantidade de forragem</ForagedFoodAmount>
 
@@ -1367,20 +1502,20 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>{0} / {1}\nTaxa de queda: {2} / s ({3}s até zero)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Taxa de queda: {0} / s ({1}s até zero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>O calor neural aumenta após a realização de um psycast. Ultrapassar o limite normal pode causar um colapso psíquico que dura dias.\n\nO calor neural dissipa-se naturalmente ao longo do tempo. Esse processo pode ser acelerado usando roupas de eltex ou sentindo dores.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>O calor neural aumenta após a realização de uma psinjuração. Ultrapassar o limite normal pode causar um colapso psíquico que dura dias.\n\nO calor neural dissipa-se naturalmente ao longo do tempo. Esse processo pode ser acelerado usando roupas de eltex ou sentindo dores.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Aumento da dor\n\nA dor concentra a mente e acelera a dissipação de calor neural.\n\nNível de dor: {0}\nBônus à recuperação de calor: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Ativar/desativar limitador de calor neural. Exceder o limite de calor pode causar um colapso psíquico que dura dias. Não causará danos permanentes.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>concentração psíquica: {0}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{1}, {0}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
@@ -1498,6 +1633,14 @@
   <RitualFinished>{0} foi concluído.</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>termina em {0}</RitualEndsIn>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>Pode começar a qualquer momento</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>Pode começar depois do evento</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>Objetos de foco</RitualFocusObjects>
+  <!-- EN: Participating roles -->
+  <RitualParticipatingRoles>Funções participantes</RitualParticipatingRoles>
   <!-- EN: Organizers -->
   <Organizers>Organizadores</Organizers>
   <!-- EN: Quality factors -->
@@ -1512,6 +1655,8 @@
   <NotParticipating>Não participando</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Arraste e solte ou clique para mover as pessoas.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>Arraste e solte ou clique para mover as pessoas.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Um escravo. A propriedade humana de outros.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1544,6 +1689,8 @@
   <AbilityDisabledNoCapacity>{0_labelShort} é incapaz de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Todos os participantes do ritual ganham {0} de humor por {1} dias.</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>Este ritual não tem compensações de qualidade, então o melhor resultado é sempre esperado</RitualOutcomeNoQuality>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>Escolha quem deve participar de {RITUAL_labelDef}.</ChooseParticipants>
@@ -1577,6 +1724,10 @@
   <RitualPredictedOutcomeDescParticipantCount>Participantes</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Expectativas de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>Presença de pessoa amada</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>Qualquer pessoa que {PAWN_labelShort} considere seu amigo ou mais.</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Nenhum desses</RitualOutcomeLabelAnyOfThese>
@@ -1603,17 +1754,71 @@
   <ThingOf>{0} de</ThingOf>
   <!-- EN: {0} of {1} -->
   <ThingOfSource>{0} de {1}</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>{0} de {1} e {2}</ThingOfTwoSources>
+
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>gás cegante</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>gás tóxico</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>fedor de podridão</RotStink>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>deve ser redigido.</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>deve ser alistado.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>habilidade em recarga. Ele estará disponível em {0}.</AbilityOnCooldown>
+  <AbilityOnCooldown>habilidade em recarga. Ela estará disponível em {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>habilidade já está na fila.</AbilityAlreadyQueued>
   <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>Habilidade pronta: {0}</AbilityReadyLabel>
+  <AbilityReadyLabel>Habilidade disponível: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} está pronto(a) para usar {1}.</AbilityReadyText>
+  <AbilityReadyText>{0_nameDef} está pront{0_gender ? o : a} para usar {1}.</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>{0_labelShort} está participando de {1}.</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>Cargas</Charges>
+
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInMentalState>{0_nameDef} está em um estado mental agressivo.</PawnIsInMentalState>
+
+  <!-- EN: Disabled work -->
+  <DisabledWorkLabel>Trabalho desativado</DisabledWorkLabel>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>alterar cor</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>Alterar a cor da luz</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>Você deve pesquisar {0} para alterar a cor das luzes.</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>Um escudo pessoal que tentará impedir projéteis ou estilhaços. Evita que o usuário dispare e desliga instantaneamente se atingido por um PEM.</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>{PAWN_nameDef} é tão leal à sua facção que {PAWN_pronoun} se recusará a ser recrutad{PAWN_gender ? o : a} se for feit{PAWN_gender ? o : a} prisioneir{PAWN_gender ? o : a}.</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>Aleatória</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>Plantar {0_label}</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>Plante {0_label} numa área escolhida.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>Cancelar plantio de {0_label}</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>Cancelar o plantio de {0_label}.</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>Outra reunião está acontecendo.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>Próximo discurso pronto em</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>Iniciado às</AbilitySpeechTargetsLabel>
 
 </LanguageData>

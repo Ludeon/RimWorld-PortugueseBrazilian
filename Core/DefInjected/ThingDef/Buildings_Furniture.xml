@@ -78,8 +78,13 @@
   
   <!-- EN: shelf -->
   <Shelf.label>prateleira</Shelf.label>
-  <!-- EN: A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside. -->
-  <Shelf.description>Itens armazenados nisto não irão se deteriorar, mesmo se no lado de fora.</Shelf.description>
+  <!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+  <Shelf.description>Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.</Shelf.description>
+  
+  <!-- EN: small shelf -->
+  <ShelfSmall.label>TODO</ShelfSmall.label>
+  <!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+  <ShelfSmall.description>TODO</ShelfSmall.description>
   
   <!-- EN: sleeping spot -->
   <SleepingSpot.label>local para dormir</SleepingSpot.label>
@@ -87,24 +92,9 @@
   <SleepingSpot.description>Específica um ponto no chão onde as pessoas devem dormir. Nada confortável.</SleepingSpot.description>
   
   <!-- EN: standing lamp -->
-  <StandingLamp.label>luminária</StandingLamp.label>
+  <StandingLamp.label>luminária negra</StandingLamp.label>
   <!-- EN: An electrical standing lamp that lights an area. People need light to move and work at full speed. -->
-  <StandingLamp.description>Uma lâmpada que ilumina uma área.</StandingLamp.description>
-  
-  <!-- EN: standing lamp (blue) -->
-  <StandingLamp_Blue.label>luminária (azul)</StandingLamp_Blue.label>
-  <!-- EN: A standing lamp that lights an area in blue. -->
-  <StandingLamp_Blue.description>Uma lâmpada que ilumina uma área em azul.</StandingLamp_Blue.description>
-  
-  <!-- EN: standing lamp (green) -->
-  <StandingLamp_Green.label>luminária (verde)</StandingLamp_Green.label>
-  <!-- EN: A standing lamp that lights an area in green. -->
-  <StandingLamp_Green.description>Uma lâmpada que ilumina uma área em verde.</StandingLamp_Green.description>
-  
-  <!-- EN: standing lamp (red) -->
-  <StandingLamp_Red.label>luminária (vermelha)</StandingLamp_Red.label>
-  <!-- EN: A standing lamp that lights an area in red. -->
-  <StandingLamp_Red.description>Uma lâmpada que ilumina uma área em vermelho.</StandingLamp_Red.description>
+  <StandingLamp.description>Uma lâmpada elétrica de baixa potência que emite uma luz fraca sobre uma grande área. Pessoas que preferem trabalhar no escuro ficam felizes com esta fonte de luz.</StandingLamp.description>
   
   <!-- EN: stool -->
   <Stool.label>banco</Stool.label>

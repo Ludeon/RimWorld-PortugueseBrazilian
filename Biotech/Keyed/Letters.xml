@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Mechanitor -->
+  <!-- EN: Mech(s) gone feral -->
+  <LetterLabelMechsFeral>mecanoide ficou selvagem</LetterLabelMechsFeral>
+  <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
+  <LetterMechsFeral>Um ou mais mecanoides que estavam vagando sem um supervisor conectaram-se com antigos sinais de controle de mecanoide em todo o planeta. Eles se juntaram a {0} e se tornaram hostis, e parecem estar tentando lutar para sair do mapa. \n\nmecanoides selvagens não podem ser ressuscitados em um gestador quando mortos.\n\nEstes mecanoides estão envolvidos:\n\n{1}</LetterMechsFeral>
+  <!-- EN: Mechlink installed -->
+  <LetterLabelMechlinkInstalled>Meca-conexão instalada</LetterLabelMechlinkInstalled>
+  <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
+  <LetterMechlinkInstalled>{PAWN_labelShort} instalou uma meca-conexão! {PAWN_pronoun} agora é u{PAWN_gender ? m : ma} mecanizad{PAWN_gender ? or : ora} e pode criar e controlar mecanoides.\n\nPesquise meca-tecnologia básica para começar.\n\n(*SectionTitle)Criando mecanoides:(/SectionTitle) S{PAWN_gender ? eu : ua} mecanizad{PAWN_gender ? or : ra} pode criar mecanoides em um edifício de produção chamado de gestador mecanoide.\n\n(*SectionTitle)Sobre a banda-larga:(/SectionTitle) Mecanizadores podem controlar tantos mecanoide quanto sua banda-larga total permitir. Selecione {PAWN_labelShort} e observe a leitura de sua 'Banda-larga' para ver quanto {PAWN_pronoun} está usando no momento e quanto {PAWN_pronoun} tem disponível. A banda-larga pode ser aumentada com certas roupas e construindo edifícios de nós de banda.\n\n(*SectionTitle)Sobre grupos de controle:(/SectionTitle) Mecanizadores controlam mecanoides em grupos. Cada grupo de controle pode ser configurado para um destes modos:\n\n- Trabalho\n- Escolta\n- Recarga\n- Auto-carregamento inativo\n\nPara saber mais sobre o que cada modo faz, selecione o ícone do modo de trabalho em um dos grupos de controle de {PAWN_labelShort} e passe o mouse sobre as diferentes ordens de serviço. O número máximo de grupos de controle pode ser aumentado com vestimentas e implantes.\n\n(*SectionTitle)Sobre a chamada de ameaças:(/SectionTitle) Mecanizadores podem sinalizar para que antigos líderes mecanoides ataquem com intuito de obter os itens raros deles. Você deve fazer isso para melhorar seu mecanizador além de certos limites, mas cuidado com o perigo.</LetterMechlinkInstalled>
+
+  <!-- EN: This happened because of -->
+  <MentalStateReason_Gene>Isso aconteceu por causa de</MentalStateReason_Gene>
+
+  <!-- EN: {0} summoned -->
+  <LetterLabelBossgroupSummoned>{0} convocado(a)</LetterLabelBossgroupSummoned>
+  <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
+  <LetterBossgroupSummoned>Atraído por seus sinais de banda mecanoide, um mecanoide ultrapesado de {0} chegará em breve. Esteja preparado.</LetterBossgroupSummoned>
+
+  <!-- EN: {0} arrived -->
+  <LetterLabelBossgroupArrived>{0} chegou</LetterLabelBossgroupArrived>
+  <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
+  <LetterBossgroupArrived>Um mecanoide ultrapesado de {0} veio para erradicar você, junto com escoltas.\n\n{1}\n\nO grupo de ataque é composto pelos seguintes {3}:\n\n{4}\n\nEles vão se preparar por um tempo antes de atacar.</LetterBossgroupArrived>
+
+  <!-- EN: Summon {LEADER_label} available -->
+  <LetterLabelCommsConsoleSpawned>Convocação de {LEADER_label} disponível</LetterLabelCommsConsoleSpawned>
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterCommsConsoleSpawned>Um mecanizador pode usar o(a) {PARENT_label} para invocar um perigoso e hostil mecanoide {LEADER_label}. Se prepare, mecanoides {LEADER_label} são extremamente poderosos.\n\nSe você derrotar o(a) {LEADER_label}, ele derrubará os seguintes itens:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+
+  <!-- EN: Summon {LEADER_label} possible -->
+  <LetterLabelBossgroupCallerUnlocked>Convocação de {LEADER_label} possível</LetterLabelBossgroupCallerUnlocked>
+  <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterBossgroupCallerUnlocked>Agora você pode construir um(a) {PARENT_label} que um mecanizador pode usar para invocar um(a) {LEADER_label}. Se você derrotar o(a) {LEADER_label}, ele(a) derrubará os seguintes itens:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+
+  <!-- EN: {0_nameDef}'s mechlink available -->
+  <LetterLabelMechanitorCasketOpened>Meca-conexão de {0_nameDef} disponível</LetterLabelMechanitorCasketOpened>
+  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
+  <LetterMechanitorCasketOpened>Você encontrou o cadáver de um antigo mecanizador!\n\nExtraia a sua meca-conexão selecionando um colono e clicando com o botão direito do mouse no cadáver.</LetterMechanitorCasketOpened>
+  <!-- EN: Mechanitor casket found -->
+  <LetterLabelMechanitorCasketFound>Caixão do mecanizador encontrado</LetterLabelMechanitorCasketFound>
+  <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
+  <LetterMechanitorCasketFound>Você descobriu o sarcofágo de criptosono de um mecanizador!\n\nAbra-o para encontrá-lo dentro.</LetterMechanitorCasketFound>
+  
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Home>
+  
+
+  <!-- Children -->
+  <!-- EN: {0_nameDef} became a child -->
+  <LetterLabelBecameChild>{0_nameDef} se tornou uma criança</LetterLabelBecameChild>
+  <!-- EN: {0_nameDef} became an adult -->
+  <LetterLabelBecameAdult>{0_nameDef} se tornou um adulto</LetterLabelBecameAdult>
+  <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
+  <LetterBecameChild>O bebê {0_nameDef} cresceu e se tornou uma criança! {0_pronoun} agora tem idade suficiente para fazer o(s) seguinte(s) trabalho(s):</LetterBecameChild>
+  <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
+  <LetterBecameChildChanges>As crianças podem fazer vários tipos de trabalho. À medida que envelhecem, podem fazer mais tipos.\n\nElas também realizam várias atividades recreativas específicas para crianças.\n\nAs crianças precisam usar roupas especiais para crianças.</LetterBecameChildChanges>
+  <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
+  <LetterChildLegalStatus>Por tradição {0_nameDef}, {0_parentage}, é um(a) {0_legalStatus}, mas exceções podem ser feitas.... {0_nameDef} deve permanecer um(a) {0_legalStatus}?</LetterChildLegalStatus>
+  <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
+  <LetterChildFollowIdeo>{0_labelShort} decidiu se tornar um(a) seguidor(a) da ideologia {1_name}.</LetterChildFollowIdeo>
+  <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
+  <CannotChangeChildStatusReason>O status de escravo de {0_nameDef} já mudou desde o seu aniversário.</CannotChangeChildStatusReason>
+  <!-- EN: enslave -->
+  <Enslave>escravizar</Enslave>
+  <!-- EN: emancipate -->
+  <Emancipate>emancipar</Emancipate>
+  <!-- EN: remain {0} -->
+  <RemainX>permanecer {0}</RemainX>
+  <!-- EN: {BABY_nameDef} adopted -->
+  <LetterLabelAdopted>{BABY_nameDef} adotad{BABY_gender ? o : a}</LetterLabelAdopted>
+  <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
+  <LetterTextAdopted>{BABY_nameDef}, um bebê, foi adotado por sua colônia. Você pode querer atribuir colonos ao tipo de trabalho 'cuidador(a)' para cuidar de d{BABY_pronoun}.</LetterTextAdopted>
+
+  <!-- EN: {0_nameDef}'s baby prep -->
+  <LetterLabelThirdTrimester>preparação para o bebê de {0_nameDef}</LetterLabelThirdTrimester>
+  <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
+  <LetterTextThirdTrimester>{0_nameDef} deve dar à luz em menos de 6 dias. Você pode se preparar para o bebê:\n\n- Construa uma sala de parto com piso limpo e boa cama.\n- Chame um médico especializado.\n- Na guia Trabalho, designe pelo menos uma pessoa para cuidador\n - Prepare uma fonte de alimento para o bebê. {0_nameDef} pode amamentar o bebê ou você pode alimentá-lo com comida de bebê, leite ou geléia de inseto.\n- Construa um berço. Berços de alta qualidade farão um bebê feliz.\n\nVocê pode fazer comida de bebê em um fogão ou fogueira.</LetterTextThirdTrimester>
+
+  <!-- EN: {0} vat birth -->
+  <LetterVatBirth>{0} nasceu em tanque</LetterVatBirth>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
+  <LetterVatHealthyBaby>O embrião de {0_nameDef} e {1_nameDef} terminou a gestação em um tanque de crescimento e se tornou um bebê saudável!</LetterVatHealthyBaby>
+  <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
+  <LetterVatHealthyBabyNoParents>Um embrião terminou a gestação em um tanque de crescimento e se tornou um bebê saudável!</LetterVatHealthyBabyNoParents>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <LetterVatInfantIllness>O embrião de {0_nameDef} e {1_nameDef} terminou a gestação em um tanque de crescimento e se tornou um bebê. Infelizmente, o bebê está doente.</LetterVatInfantIllness>
+  <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <LetterVatInfantIllnessNoParents>Um embrião terminou a gestação em um taque de crescimento e se tornou um bebê. Infelizmente, o bebê está doente.</LetterVatInfantIllnessNoParents>
+  <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
+  <LetterVatStillborn>O bebê formado em um tanque de crescimento do embrião de {0_nameDef} e {1_nameDef} nasceu morto.</LetterVatStillborn>
+  <!-- EN: The baby formed in a growth vat was stillborn. -->
+  <LetterVatSillbornNoParents>O bebê formado em um tanque de crescimento nasceu morto.</LetterVatSillbornNoParents>
+  <!-- EN: {0_labelShort} in labor! -->
+  <LetterColonistPregnancyLaborLabel>{0_labelShort} entrou em trabalho de parto!</LetterColonistPregnancyLaborLabel>
+  <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
+  <LetterColonistPregnancyLabor>{0_labelShort} está prestes a dar à luz! Ela vai ter contrações por algumas horas antes de dar à luz um bebê. O trabalho de parto pode passar por vários estágios de diferentes níveis de dificuldade e perigo.\n\nPara melhorar as chances do bebê, reúna um médico e outras pessoas para ajudar no parto. Selecione {0_labelShort} e pressione 'Reunir para nascimento de criança' para iniciar o procedimento.</LetterColonistPregnancyLabor>
+  <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
+  <LetterPartColonistDiedAfterChildbirth>{0_labelShort} morreu devido a complicações após dar à luz.</LetterPartColonistDiedAfterChildbirth>
+  <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
+  <LetterPartSurrogacy>O bebê foi criado a partir de fertilização in vitro e tem a composição genética de {0_labelShort} e {1_labelShort}.</LetterPartSurrogacy>
+  <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
+  <InbredBabyBorn>O bebê apresenta sinais de anormalidades genéticas devido à endogamia.</InbredBabyBorn>
+
+  <!-- EN: {0_nameDef} has already been named. -->
+  <BabyAlreadyNamed>{0_nameDef} já foi nomeado.</BabyAlreadyNamed>
+  <!-- EN: name baby -->
+  <NameBaby>nome do bebê</NameBaby>
+  <!-- EN: immediately -->
+  <Immediately>imediatamente</Immediately>
+  <!-- EN: within -->
+  <Within>dentro de</Within>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>O bebê recebeu o nome de {0_nameFull}.</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>Você pode alterá-lo até {0} após o nascimento.</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
+  <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
+  <LetterPartNameBabyAdopt>O bebê recebeu o nome temporário {0_nameFull}. Você pode alterá-lo desde que o bebê tenha menos de {1} anos.</LetterPartNameBabyAdopt>
+
+  <!-- EN: Growth moment for {PAWNNAME} -->
+  <BirthdayGrowthMoment>Momento de crescimento para {PAWNNAME}</BirthdayGrowthMoment>
+  <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
+  <BirthdayBiologicalGrowthMoment>{0_nameFull} atingiu a idade biológica de {1} e experimentou um momento de crescimento!</BirthdayBiologicalGrowthMoment>
+  <!-- EN: {0_nameDef} is now old enough to do the following work -->
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} agora tem idade suficiente para fazer o seguinte trabalho</BirthdayBiologicalAgeWorkTypes>
+  <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
+  <BirthdayPickPassion>Escolha 1 habilidade para {0_nameDef} aumentar a sua paixão por</BirthdayPickPassion>
+  <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
+  <BirthdayPickPassions>Escolha {1} habilidade para {0_nameDef} aumentar a sua paixão por</BirthdayPickPassions>
+  <!-- EN: Choose a trait for {0_nameDef} to gain -->
+  <BirthdayPickTrait>Escolha um traço para {0_nameDef} ganhar</BirthdayPickTrait>
+  <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
+  <BirthdayGrowthTier>Quando este momento de crescimento aconteceu, {0_nameDef} estava no nível de crescimento {1}. As crianças em níveis de crescimento mais altos obtêm mais opções de traços e paixões para escolher, e mais paixões em geral. Satisfazer a necessidade de aprendizado ajuda a criança a ganhar níveis de crescimento mais rapidamente. Os níveis de crescimento são redefinidos após cada momento de crescimento.</BirthdayGrowthTier>
+  <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
+  <BirthdayChooseHowPawnWillGrow>Abra esta carta para escolher como {0_nameDef} crescerá.</BirthdayChooseHowPawnWillGrow>
+
+  <!-- EN: Passion was increased for {0}. -->
+  <BirthdayPassionArchive>A paixão aumentou para {0}.</BirthdayPassionArchive>
+  <!-- EN: The trait {0} was gained. -->
+  <BirthdayTraitArchive>O traço {0} foi adquirido.</BirthdayTraitArchive>
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>Nenhum traço</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>{0} não ganhou um traço.</BirthdayNoTraitChoiceTooltip>
+
+  <!-- EN: Make choices to close -->
+  <BirthdayMakeChoices>Faça escolhas para fechar</BirthdayMakeChoices>
+  <!-- EN: {0} has gained the nickname {1}. -->
+  <BirthdayNickname>{0} ganhou o apelido {1}.</BirthdayNickname>
+  <!-- EN: Select a trait. -->
+  <SelectATrait>Selecione um traço.</SelectATrait>
+  <!-- EN: Select a passion. -->
+  <SelectPassionSingular>Selecione uma paixão.</SelectPassionSingular>
+  <!-- EN: Select {0} passions. -->
+  <SelectPassionsPlural>Selecione {0} paixões.</SelectPassionsPlural>
+  <!-- EN: Later -->
+  <Later>Mais tarde</Later>
+  
+  <!-- EN: Mechlink available -->
+  <LetterLabelMechlinkAvailable>Meca-conexão disponível</LetterLabelMechlinkAvailable>
+  <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
+  <LetterMechlinkAvailable>Uma oportunidade de adquirir o implante exclusivo meca-conexão se tornou disponível através da missão '{0}'.\n\nInstalar uma meca-conexão transformará um colono em um mecanizador. Mecanizadores podem criar, controlar e manipular mecanoides para uso no trabalho e em combate.</LetterMechlinkAvailable>
+
+  <!-- Genes -->
+  <!-- EN: Xenogerm implantation ordered -->
+  <LetterLabelXenogermOrderedImplanted>Implantação de xenogerminador ordenada</LetterLabelXenogermOrderedImplanted>
+  <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
+  <LetterXenogermOrderedImplanted>Você ordenou que um xenogerminador seja implantado em {PAWN_nameDef}. Este procedimento requer uma cama médica e {MEDICINENEEDED} medicina(s).{BEDINFO}{MEDICINEINFO}\n\nVocê pode cancelar este procedimento indo para a aba saúde de {PAWN_nameDef} -> aba operações.</LetterXenogermOrderedImplanted>
+  <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
+  <XenogermOrderedImplantedBedNeeded>\n\nVocê não tem leitos médicos disponíveis para {PAWN_nameDef}. Considere marcar uma cama como médica.</XenogermOrderedImplantedBedNeeded>
+  <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
+  <XenogermOrderedImplantedMedicineNeeded>\n\nVocê não tem medicinas o suficiente para implantar o xenogerminador. A implantação não pode começar até que você tenha {MEDICINENEEDED} medicina(s).</XenogermOrderedImplantedMedicineNeeded>
+  <!-- EN: Involuntary deathrest -->
+  <LetterLabelInvoluntaryDeathrest>descanso mortal involuntário</LetterLabelInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>TODO</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>TODO</DeathrestLostSkill>
+  <!-- EN: Lethal damage taken. -->
+  <DeathrestLethalDamage>Dano letal recebido.</DeathrestLethalDamage>
+
+  <!-- EN: Xenogerm implantation -->
+  <LetterLabelSanguophageWaitingToReimplant>Implantação de xenogerminador</LetterLabelSanguophageWaitingToReimplant>
+  <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
+  <LetterTextSanguophageWaitingToReimplant>Como agradecimento por permitir que {PAWN_pronoun} e seus companheiros sanguófagos se encontrem aqui, {PAWN_nameDef} está disposto a compartilhar uma cópia de seu xenogerminador com um de seus colonos. Isso transformará seu colono em um sanguófago.\n\nPara aceitar, selecione um colono e clique com o botão direito em {PAWN_nameDef}.\n\nSe nenhum colono reivindicou a recompensa em {DURATION}, os sanguófagos irão embora.</LetterTextSanguophageWaitingToReimplant>
+
+  <!-- EN: Genes reimplanted -->
+  <LetterLabelGenesImplanted>Genes reimplantados</LetterLabelGenesImplanted>
+  <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
+  <LetterTextGenesImplanted>{CASTER_nameDef} implantou uma cópia de seu xenogerminador em {TARGET_nameDef}, passando todos os xenogenes para {TARGET_pronoun}.\n\n{TARGET_nameDef} ficará em coma de xenogerminação por {COMADURATION} enquanto seu corpo se ajusta às mudanças.\n\n{CASTER_nameDef} sofrerá um choque de perda de genes por {SHOCKDURATION}. Os genes dele também precisarão crescer novamente. Este processo leva tempo. Se {CASTER_nameDef} implantar seu xenogerminador novamente antes que os seus genes tenham regenerado, {CASTER_pronoun} morrerá.</LetterTextGenesImplanted>
+  
+  <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
+  <RefugeePodCrashBaby>Um bebê chamado {PAWN_nameDef} de {PAWN_factionName} está caindo em uma cápsula de transporte próxima.\n\nVocê pode optar por adotar {PAWN_pronoun} com o comando 'adotar' ou ignorá-l{PAWN_gender ? o : a}.</RefugeePodCrashBaby>
+  <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
+  <RefugeePodCrashBabyHasParent>O corpo do(a) progenitor(a) falecido(a) de {PAWN_nameDef} também está contido na cápsula de transporte.</RefugeePodCrashBabyHasParent>
+
+  <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreated>Instintivamente procurando um companheiro, {BONDPAWN_nameDef} formou um relacionamento romântico com {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} se beneficiará psicologicamente da conexão com {BONDPAWN_nameDef}, mas se eles forem separados em ladrilhos do mundo diferentes, ambos sofrerão de estresse psíquico. Se um morrer, o outro será levado à loucura.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+
+  <!-- UNUSED -->
+  <LetterPartNameBaby>O bebê recebeu o nome temporário de {0_nameFull}. Você pode alterá-lo {1} após o nascimento.</LetterPartNameBaby>
+  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} caiu em descanso mortal.</LetterTextInvoluntaryDeathrest>
+
+</LanguageData>

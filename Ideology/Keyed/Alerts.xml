@@ -17,35 +17,31 @@
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
   <SlavesUnattendedDesc>Alguns escravos estão sozinhos em um mapa, sem colonos fisicamente aptos por perto.\n\nEscravos abandonados desta forma têm grande probabilidade de se rebelar em dias ou horas.</SlavesUnattendedDesc>
 
-  <!-- EN: {0} expected -->
-  <RitualExpected>{0} esperado</RitualExpected>
   <!-- EN: {0} opportunity -->
-  <RitualOpportunity>{0} oportunidade</RitualOpportunity>
-  <!-- EN: {0} expected for -->
-  <RitualExpectedFor>{0} esperado para</RitualExpectedFor>
-  <!-- EN: {0} days: Ritual opportunity ends. -->
-  <RitualExpirationTime>Em {0} dias: A oportunidade de ritual expira.</RitualExpirationTime>
-  <!-- EN: Expires in -->
-  <RitualExpiresIn>Expira em</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Concluir o(a) {RITUAL_labelDef} terá estes efeitos</RitualCompletionEffects>
+  <RitualOpportunity>Oportunidade de {0}</RitualOpportunity>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>Oportunidade de {0} para {1}</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>Expira em {0}, em {1}.</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>Para começar o ritual, selecione um(a) {FOCUS} e clique no comando 'Começar {RITUAL_label}'.</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>Para começar o ritual, selecione um dos seguintes clique no comando 'Começar {RITUAL_label}'.</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Para iniciar o ritual, selecione um objeto de foco e clique no comando 'Iniciar {RITUAL_label}'. Os seguintes são objetos de foco válidos:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Os papéis a seguir têm uma parte em {RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Clique para ir até os alvos</RitualJumpToTargets>
-  <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
-  <RitualObligationDelayEffects>Atrasar o(a) {RITUAL_labelDef} terá os seguintes efeitos</RitualObligationDelayEffects>
-  <!-- EN: {0} days: {1} mood on all {2}s. -->
-  <RitualObligationDelayEffectDesc>{0} dias: {1} de humor em quaisquer {2}s.</RitualObligationDelayEffectDesc>
   <!-- EN: In order to perform {0} you need to fill these roles -->
   <RitualUnfilledRoles>Para desempenhar {0}, você precisa preencher esses papéis</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>{0} desejado</IdeoBuildingMissing>
-  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>{IDEO_name} requer que você tenha um(a) {0} em sua colônia contanto que {2} ou superior.\n\nEste requisito só estará ativo se {IDEO_name} for a ideologia primária de sua facção, ou se houver {MINBELIEVERS} crentes em sua facção. {4}\n\nSe o requisito não for atendido, esses colonos ficarão infelizes:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>{IDEO_name} requer que você tenha um(a) {0} em sua colônia contanto que {2} ou superior.\n\n{0} é uma variante de {BASEBUILDING_label}.{BUILDINGINFO}\n\nEste requisito só estará ativo se {IDEO_name} for a ideologia primária de sua facção, ou se houver {MINBELIEVERS} crentes em sua facção.{4}\n\nSe o requisito não for atendido, esses colonos ficarão infelizes:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc>Você pode encontrar isso abrindo a aba '{TABNAME}' do menu 'arquiteto'.</IdeoBuildingArchitectTabDesc>
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt>Pode ser criado(a) em:\n{0}</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>Para engrandecer {0}, estes requisitos de sala devem ser atendidos</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
@@ -71,25 +67,16 @@
   <!-- EN: Security threats activated in {0} -->
   <AncientAltarThreatsWaking>Ameaças à segurança ativadas em {0}</AncientAltarThreatsWaking>
   <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
-  <AncientAltarThreatsWakingDesc>As ameaças à segurança serão ativadas em {0}. Eles vão atacar qualquer um que possa ameaçar a relíquia.</AncientAltarThreatsWakingDesc>
+  <AncientAltarThreatsWakingDesc>As ameaças à segurança serão ativadas em {0}. Eles atacarão qualquer um que possa ameaçar a relíquia.</AncientAltarThreatsWakingDesc>
 
-  <!-- EN: No recent slaughter -->
-  <AlertNoRecentSlaughter>Nenhum abate recente</AlertNoRecentSlaughter>
-  <!-- EN: No large {0} animal has been slaughtered recently. This is a requirement of the following ideoligions -->
-  <AlertNoRecentSlaughterDesc>Nenhum grande {0} animal foi abatido recentemente. Este é um requisito das seguintes ideologias</AlertNoRecentSlaughterDesc>
-  <!-- EN: {0} body size or above -->
-  <BodySizeOrAbove>{0} tamanho do corpo ou acima</BodySizeOrAbove>
-  <!-- EN: If no slaughter is performed, these colonists will remain unhappy -->
-  <AlertNoRecentSlaughterDescPost>Se nenhum abate for realizado, esses colonos permanecerão infelizes</AlertNoRecentSlaughterDescPost>
-  
   <!-- EN: Ritual opportunity soon -->
   <AlertRitualComing>Oportunidade de ritual em breve</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
   <AlertRitualComingDesc>Uma oportunidade ritual está chegando para discípulos ritualísticos</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>As oportunidades expiram após {0} dias e reaparecem no mesmo dia de cada ano.</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
-  <AlertRitualComingEntry>{0} em {1}, {2} restante(s)</AlertRitualComingEntry>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{0} em {1}, {2} antes que a oportunidade apareça</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Inversão de idade exigida</AlertAgeReversalDemandNear>

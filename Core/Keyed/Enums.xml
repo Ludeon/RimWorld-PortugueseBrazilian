@@ -111,15 +111,15 @@
 
   <!-- Hilliness -->
   <!-- EN: flat -->
-  <Hilliness_Flat>plano</Hilliness_Flat>
+  <Hilliness_Flat>Plano</Hilliness_Flat>
   <!-- EN: small hills -->
-  <Hilliness_SmallHills>colinas pequenas</Hilliness_SmallHills>
+  <Hilliness_SmallHills>Colinas Pequenas</Hilliness_SmallHills>
   <!-- EN: large hills -->
-  <Hilliness_LargeHills>colinas grandes</Hilliness_LargeHills>
+  <Hilliness_LargeHills>Colinas Grandes</Hilliness_LargeHills>
   <!-- EN: mountainous -->
-  <Hilliness_Mountainous>montanhoso</Hilliness_Mountainous>
+  <Hilliness_Mountainous>Montanhoso</Hilliness_Mountainous>
   <!-- EN: impassable -->
-  <Hilliness_Impassable>intransitável</Hilliness_Impassable>
+  <Hilliness_Impassable>Intransitável</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
   <!-- EN: Creating -->
@@ -141,23 +141,23 @@
 
   <!-- Mod sources -->
   <!-- EN: Official content -->
-  <ContentSource_OfficialModsFolder>Conteúdo oficial</ContentSource_OfficialModsFolder>
+  <ContentSource_OfficialModsFolder>Conteúdo Oficial</ContentSource_OfficialModsFolder>
   <!-- EN: Local folder -->
-  <ContentSource_ModsFolder>Pasta local</ContentSource_ModsFolder>
+  <ContentSource_ModsFolder>Pasta Local</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
-  <ContentSource_SteamWorkshop>Oficina Steam</ContentSource_SteamWorkshop>
+  <ContentSource_SteamWorkshop>Oficina</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
-  <!-- EN: No medical care -->
-  <MedicalCareCategory_NoCare>Sem atendimento médico</MedicalCareCategory_NoCare>
-  <!-- EN: Doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>Atendimento médico, mas sem medicina</MedicalCareCategory_NoMeds>
-  <!-- EN: Herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>Medicina natural ou pior</MedicalCareCategory_HerbalOrWorse>
-  <!-- EN: Industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>Medicina normal ou pior</MedicalCareCategory_NormalOrWorse>
-  <!-- EN: Best quality medicine -->
-  <MedicalCareCategory_Best>Melhor medicina e assistência médica</MedicalCareCategory_Best>
+  <!-- EN: no medical care -->
+  <MedicalCareCategory_NoCare>Ssem atendimento médico</MedicalCareCategory_NoCare>
+  <!-- EN: doctor care, but no medicine -->
+  <MedicalCareCategory_NoMeds>atendimento médico, mas sem medicina</MedicalCareCategory_NoMeds>
+  <!-- EN: herbal medicine or worse -->
+  <MedicalCareCategory_HerbalOrWorse>medicina natural ou pior</MedicalCareCategory_HerbalOrWorse>
+  <!-- EN: industrial-tech medicine or worse -->
+  <MedicalCareCategory_NormalOrWorse>medicina industrial ou pior</MedicalCareCategory_NormalOrWorse>
+  <!-- EN: best quality medicine -->
+  <MedicalCareCategory_Best>medicina de melhor qualidade</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
@@ -193,31 +193,53 @@
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
-  <PlayerPawnsArriveMethod_Standing>De pé</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_Standing>A Pé</PlayerPawnsArriveMethod_Standing>
   <!-- EN: Drop pods -->
-  <PlayerPawnsArriveMethod_DropPods>Cápsulas de transporte</PlayerPawnsArriveMethod_DropPods>
+  <PlayerPawnsArriveMethod_DropPods>Cápsulas de Transporte</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
   <!-- EN: all characters -->
-  <PawnGenerationContext_All>todos os personagens</PawnGenerationContext_All>
+  <PawnGenerationContext_All>Todos os Personagens</PawnGenerationContext_All>
   <!-- EN: player starting characters -->
-  <PawnGenerationContext_PlayerStarter>personagens jogáveis iniciais</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_PlayerStarter>Personagens Jogáveis Ini.</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
-  <PawnGenerationContext_NonPlayer>personagens não jogáveis</PawnGenerationContext_NonPlayer>
+  <PawnGenerationContext_NonPlayer>Personagens Não Jogáveis</PawnGenerationContext_NonPlayer>
+
+  <!-- Screen shake mode -->
+  <!-- EN: Screen shake intensity -->
+  <ScreenShakeIntensity>Intensidade de Vibração da Tela</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
-  <ShowAnimalNames>Nomes de animais</ShowAnimalNames>
+  <ShowAnimalNames>Nomes de Animais</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>Apenas nomeados</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>Domados (Apenas Nomeados)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
-  <AnimalNameDisplayMode_TameAll>Todos</AnimalNameDisplayMode_TameAll>
-  
+  <AnimalNameDisplayMode_TameAll>Domados (Todos)</AnimalNameDisplayMode_TameAll>
+
+  <!-- Mech name display mode -->
+  <!-- EN: Show player mech names -->
+  <ShowMechNames>Mostrar Nomes dos Mecanoides</ShowMechNames>
+  <!-- EN: While drafted -->
+  <MechNameDisplayMode_WhileDrafted>Enquanto Alistados</MechNameDisplayMode_WhileDrafted>
+  <!-- EN: always -->
+  <MechNameDisplayMode_Always>Sempre</MechNameDisplayMode_Always>
+
+  <!-- Show weapons under portrait mode -->
+  <!-- EN: Weapons below portrait -->
+  <ShowWeaponsUnderPortrait>Armas Abaixo dos Retratos</ShowWeaponsUnderPortrait>
+  <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
+  <ShowWeaponsUnderPortraitTooltip>Exibe as armas abaixo do retrato dos colonos na barra do centro superior da tela</ShowWeaponsUnderPortraitTooltip>
+  <!-- EN: always -->
+  <ShowWeapons_Always>Sempre</ShowWeapons_Always>
+  <!-- EN: while drafted -->
+  <ShowWeapons_WhileDrafted>Enquanto Alistado</ShowWeapons_WhileDrafted>
+
   <!-- Temperature -->
   <!-- EN: Celsius -->
-  <Celsius>Celsius</Celsius>
+  <Celsius>Graus Celsius</Celsius>
   <!-- EN: Fahrenheit -->
-  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Fahrenheit>Graus Fahrenheit</Fahrenheit>
   <!-- EN: Kelvin -->
   <Kelvin>Kelvin</Kelvin>
   
@@ -293,11 +315,11 @@
   <!-- EN: Never -->
   <AutomaticPauseMode_Never>Nunca</AutomaticPauseMode_Never>
   <!-- EN: Major threats -->
-  <AutomaticPauseMode_MajorThreat>Ameaças graves</AutomaticPauseMode_MajorThreat>
+  <AutomaticPauseMode_MajorThreat>Ameaças Graves</AutomaticPauseMode_MajorThreat>
   <!-- EN: Any threat -->
-  <AutomaticPauseMode_AnyThreat>Qualquer ameaça</AutomaticPauseMode_AnyThreat>
+  <AutomaticPauseMode_AnyThreat>Qualquer Ameaça</AutomaticPauseMode_AnyThreat>
   <!-- EN: Any letter -->
-  <AutomaticPauseMode_AnyLetter>Qualquer mensagem</AutomaticPauseMode_AnyLetter>
+  <AutomaticPauseMode_AnyLetter>Qualquer Mensagem</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
   <!-- EN: itchy -->

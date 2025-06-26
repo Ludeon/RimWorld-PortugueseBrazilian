@@ -6,6 +6,9 @@
   <!-- EN: A multiplier on the learning rate for animals skill. -->
   <AnimalsLearningFactor.description>Um multiplicador na taxa de aprendizagem para a habilidade dos animais.</AnimalsLearningFactor.description>
   
+  <!-- EN: bed hunger rate multiplier -->
+  <BedHungerRateFactor.label>TODO</BedHungerRateFactor.label>
+  
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>velocidade de montagem em caravana</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
@@ -19,12 +22,12 @@
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>Temperatura máxima confortável</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Acima desta temperatura, os personagens irão ficar infelizes. Significativamente acima desta temperatura, eles irão desenvolver insolação e eventualmente irão morrer.</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>Acima desta temperatura, os personagens ficarão infelizes. Significativamente acima desta temperatura, eles desenvolverão insolação e eventualmente morrerão.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>Temperatura mínima confortável</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Abaixo desta temperatura, os personagens vão ficarem infelizes. Significativamente abaixo desta temperatura, eles irão desenvolver hipotermia e queimaduras por frio e eventualmente irão morrer.</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>Abaixo desta temperatura, os personagens vão ficarem infelizes. Significativamente abaixo desta temperatura, eles desenvolverão hipotermia e queimaduras por frio e eventualmente morrerão.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>velocidade de alimentação</EatingSpeed.label>
@@ -46,15 +49,10 @@
   <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>A eficiência global de aprendizagem para todas as habilidades.</GlobalLearningFactor.description>
   
-  <!-- EN: hunger rate multiplier -->
-  <HungerRateMultiplier.label>multiplicador da taxa de fome</HungerRateMultiplier.label>
-  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>Um multiplicador da rapidez com que uma criatura fica com fome.</HungerRateMultiplier.description>
-  
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>velocidade de ganho de imunidade</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>Velocidade com que este personagem ganha imunidade a doenças. Se este é muito lento, o personagem irá morrer de uma doença antes de desenvolver a imunidade.</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>Velocidade com que este personagem ganha imunidade a doenças. Se este é muito lento, o personagem morrerá de uma doença antes de desenvolver a imunidade.</ImmunityGainSpeed.description>
   
   <!-- EN: injury healing factor -->
   <InjuryHealingFactor.label>fator de cicatrização de lesões</InjuryHealingFactor.label>
@@ -64,12 +62,31 @@
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantidade de couro</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <LeatherAmount.description>A quantidade de couro que você irá receber ao esquartejar esta criatura. Este valor é reduzido se a criatura não for abatida de forma limpa ou se for ferida ao ser morta.</LeatherAmount.description>
+  <LeatherAmount.description>A quantidade de couro que você receberá ao esquartejar esta criatura. Este valor é reduzido se a criatura não for abatida de forma limpa ou se for ferida ao ser morta.</LeatherAmount.description>
+  
+  <!-- EN: lifespan factor -->
+  <LifespanFactor.label>TODO</LifespanFactor.label>
+  <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
+  <LifespanFactor.description>TODO</LifespanFactor.description>
+  
+  <!-- EN: max nutrition -->
+  <MaxNutrition.label>TODO</MaxNutrition.label>
+  <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
+  <MaxNutrition.description>TODO</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>quantidade de carne</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <MeatAmount.description>A quantidade de carne que você irá receber ao esquartejar esta criatura. Este valor é reduzido se a criatura não for abatida de forma limpa ou se for ferida ao ser morta.</MeatAmount.description>
+  <MeatAmount.description>A quantidade de carne que você receberá ao esquartejar esta criatura. Este valor é reduzido se a criatura não for abatida de forma limpa ou se for ferida ao ser morta.</MeatAmount.description>
+  
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>ganho de concentração psíquica na meditação</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>A quantidade de concentração psíquica que uma pessoa ganha por dia de meditação, ignorando os bônus dos objetos de foco.</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>{0} / dia</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>{0} / dia</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>limite de colapso mental</MentalBreakThreshold.label>
@@ -93,19 +110,41 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>O ponto em que esta criatura é derrubada pela dor.</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>limite de calor neural</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>A quantidade máxima de calor neural individual, que pode ser tolerada com segurança.</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>taxa de recuperação de calor neural</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>A taxa na qual essa pessoa reduz o calor neural.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilidade psíquica</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>Pessoas mais sensíveis sofrem mais com efeitos psíquicos negativos e se beneficiam mais com efeitos positivos. Maior sensibilidade psíquica também aumenta o limite de calor neural.</PsychicSensitivity.description>
+  
+  <!-- EN: sleep fall rate -->
+  <RestFallRateFactor.label>taxa de queda de sono</RestFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
+  <RestFallRateFactor.description>Um multiplicador na velocidade que a necessidade de sono de uma pessoa cai.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>multiplicador de taxa de descanso</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
   <RestRateMultiplier.description>Um multiplicador da rapidez com que uma criatura descansa enquanto dorme.</RestRateMultiplier.description>
   
-  <!-- EN: toxic sensitivity -->
-  <ToxicSensitivity.label>sensibilidade tóxica</ToxicSensitivity.label>
-  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
-  <ToxicSensitivity.description>Multiplicador sobre o impacto do acúmulo tóxico sobre este personagem.</ToxicSensitivity.description>
+  <!-- EN: toxic environment resistance -->
+  <ToxicEnvironmentResistance.label>TODO</ToxicEnvironmentResistance.label>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
+  <ToxicEnvironmentResistance.description>TODO</ToxicEnvironmentResistance.description>
+  
+  <!-- EN: toxic resistance -->
+  <ToxicResistance.label>TODO</ToxicResistance.label>
+  <!-- EN: How well this creature resists toxic buildup. -->
+  <ToxicResistance.description>TODO</ToxicResistance.description>
   
 </LanguageData>

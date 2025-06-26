@@ -2,17 +2,19 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
+    <li>questDescription(classicMode==True)->You've learned that a valuable relic is nearby.\n\nThe [relic_name] is one of [relicGlobalCount] ancient objects venerated by many people. If you could collect it, you could build a reliquary to make your colonists happy and attract wealthy pilgrims.</li>
+    <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
   <RelicHunt.questDescriptionRules.rulesStrings>
-    <li>questDescription->Você informou-se que uma relíquia de [ideo_name] está perto.\n\nO(A) [relic_name] é um objeto antigo venerado por todos [ideo_memberNamePlural]. Se você coletá-lo, você pode construir um grande relicário para fazer [ideo_memberNamePlural] felizes, atrair peregrinos ricos e trazer mais pessoas para [ideo_name].</li>
+    <li>questDescription(classicMode==True)->Você informou-se de que uma valiosa relíquia está próxima.\n\nO(a) [relic_name] é um dos [relicGlobalCount] objetos acnestrais venerados por muitas pessoas. Caso queria coletá-lo, você pode constuir relicário para tornar seus colonos felizes e atrair peregrinos ricos.</li>
+    <li>questDescription(classicMode==False)->Você informou-se que uma relíquia de [ideo_name] está perto.\n\nO(a) [relic_name] é um objeto ancestral venerado por todos [ideo_memberNamePlural]. Caso queira coletá-lo, você pode construir um grande relicário para fazer [ideo_memberNamePlural] felizes, atrair peregrinos ricos e trazer mais pessoas para [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->Primeiro, você precisa encontrar [relic_name]. Aguarde a oportunidade de obter informações sobre.</li>
   </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
-    <li>questName->The [item] of [ideo_name]</li>
     <li>questName->The [itemAdj] [item]</li>
+    <li>questName(classicMode==False)->The [item] of [ideo_name]</li>
     <li>hunt->hunt</li>
     <li>hunt->search</li>
     <li>hunt->quest</li>
@@ -25,18 +27,18 @@
   -->
   <RelicHunt.questNameRules.rulesStrings>
     <li>questName->A [hunt] pela [itemA]</li>
-    <li>questName->A [item] de [ideo_name]</li>
-    <li>questName->A [item] [itemAdjA]</li>
     <li>questName->A [hunt] pelo [itemO]</li>
-    <li>questName->O [item] de [ideo_name]</li>
+    <li>questName->A [item] [itemAdjA]</li>
     <li>questName->O [item] [itemAdj]</li>
+    <li>questName(classicMode==False)->A [item] de [ideo_name]</li>
+    <li>questName(classicMode==False)->O [item] de [ideo_name]</li>
     <li>hunt->caça</li>
     <li>hunt->busca</li>
     <li>hunt->procura</li>
     <li>item(p=4)->[relic_name]</li>
     <li>item->relíquia</li>
     <li>item->artefato</li>
-    <li>itemAdj->antigo(a)</li>
+    <li>itemAdj->ancestral</li>
     <li>itemAdj->reverenciado(a)</li>
     <li>itemAdj->venerado(a)</li>
   </RelicHunt.questNameRules.rulesStrings>

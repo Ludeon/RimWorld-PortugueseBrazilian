@@ -11,7 +11,7 @@
   <!-- EN: Training -->
   <TabTraining>Treino</TabTraining>
   <!-- EN: Prisoner -->
-  <TabPrisoner>Prisioneiro</TabPrisoner>
+  <TabPrisoner>Prisão</TabPrisoner>
   <!-- EN: Guest -->
   <TabGuest>Convidado</TabGuest>
   <!-- EN: Gear -->
@@ -50,12 +50,14 @@
   <TabTransporterContents>Conteúdo</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>Conteúdo</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>Auto-corte</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
-  <AddBill>Adicionar tarefa</AddBill>
+  <AddBill>Adicionar Tarefa</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>A receita {0} requer as habilidades abaixo. Nenhum dos seus colonos têm estas habilidades, então ninguém irá fazer esta tarefa.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>A receita {0} requer as habilidades abaixo. Nenhum dos seus colonos têm estas habilidades, então ninguém fará esta tarefa.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
   <MinimumSkill>Habilidade mínima</MinimumSkill>
   <!-- EN: SUSPENDED -->
@@ -87,15 +89,15 @@
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
   <RecruitmentResistanceDesc>Quanta dúvida este prisioneiro tem sobre se juntar à sua facção. Quando chega a zero, ele pode ser recrutado.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
-  <RecruitmentResistanceFromPawnKind>{0} de resistência base</RecruitmentResistanceFromPawnKind>
+  <RecruitmentResistanceFromPawnKind>Resistência base do(a) {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>Relações ganhas na liberação</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleasePotentialRelationGains>Relações ganhas ao libertar</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>A boa vontade da facção que você obterá da facção do prisioneiro se o libertar. Isso é afetado pela identidade, saúde e condição mental do prisioneiro.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>A boa vontade que você obterá da facção do prisioneiro se o libertar. Isso é afetado pela identidade, saúde e condição mental do prisioneiro.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Intervalo de fuga da prisão</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>A média de dias acordados entre as fugas da prisão. Isso é afetado pelo humor, pela mobilidade, pelo número de portas da prisão e pelo tempo desde a última fuga da prisão.\n\nObserve que isso não inclui o tempo gasto dormindo.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>A média de dias em que o prisioneiro está acordado, entre as fugas da prisão. Isso é afetado pelo humor, pela mobilidade, pelo número de portas da prisão e pelo tempo desde a última fuga da prisão.\n\nObserve que isso não inclui o tempo gasto dormindo.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Nunca</Never>
   <!-- EN: Not while asleep -->
@@ -108,8 +110,8 @@
   <FactorForMovement>Multiplicador para movimento</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Preço do escravo</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
-  <SlavePriceDescription>O valor de mercado básico deste(a) {0} se vendido(a).</SlavePriceDescription>
+  <!-- EN: The base market value of this slave if sold. -->
+  <SlavePriceDescription>O valor base de mercado deste escravo, se vendido.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Obter comida</GetsFood>
   <!-- EN: Doctors care -->
@@ -122,6 +124,20 @@
   <ConsideredGuilty>Considerado culpado (expira em {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Considerado culpado</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>Última redução da resistência</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>Quanto da resistência de {0_nameDef} foi reduzida por {1} quando {0_pronoun} foi recrutad{0_gender ? o : a} pela última vez.</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>Opinião do recrutador</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>Habilidade de negociação do recrutador</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>Lealdade inabalável</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>Este prisioneiro é tão inabalavelmente leal à sua facção que se recusa a ser inteiramente recrutado.</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>Sua lealdade se estende às suas crenças e ele não pode ser convertido.</NonRecruitableTipCannotConvert>
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -148,8 +164,8 @@
   <PainLevel>Dor</PainLevel>
   <!-- EN: Injured -->
   <Injured>Ferido</Injured>
-  <!-- EN: Untended injury -->
-  <UntendedInjury>Ferimento não tratado</UntendedInjury>
+  <!-- EN: untended injury -->
+  <UntendedInjury>ferimento não tratado</UntendedInjury>
   <!-- EN: no health conditions -->
   <NoHealthConditions>sem condições de saúde</NoHealthConditions>
   <!-- EN: Whole body -->
@@ -168,10 +184,10 @@
   <WontBleedOutSoon>nenhum perigo imediato</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Visão geral</HealthOverview>
-  <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>Operações ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>Modificações ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>Operações</MedicalOperationsShort>
+  <!-- EN: Modifications -->
+  <MedicalOperationsMechanoidsShort>Modificações</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Operações médicas</MedicalOperations>
   <!-- EN: amputate -->
@@ -186,6 +202,8 @@
   <SocialInteractionsLower>interações sociais</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Taxa de fome</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>Consumo alimentar</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Cansaço</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +259,6 @@
   <TrainingNeedsPrerequisite>Pré-requisito necessário: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(sem relacionamentos)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Sequestrado</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,10 +269,10 @@
   <Slave>Escravo(a)</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Líder da facção</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>Opinião de {1_labelShort}</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>Opinião de {1_labelShort} sobre mim</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>Opinião de {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>Opinião de {0} sobre mim</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Estou morto</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -278,11 +294,11 @@
   
   <!-- Log tab -->
   <!-- EN: Show all -->
-  <ShowAll>Mostre tudo</ShowAll>
+  <ShowAll>Exib. Tudo</ShowAll>
   <!-- EN: Show combat -->
-  <ShowCombat>Mostrar combate</ShowCombat>
+  <ShowCombat>Exib. Comb.</ShowCombat>
   <!-- EN: Show social -->
-  <ShowSocial>Mostrar social</ShowSocial>
+  <ShowSocial>Exib. Social</ShowSocial>
   <!-- EN: no recent entries -->
   <NoRecentEntries>não há entradas recentes</NoRecentEntries>
   <!-- EN: Copy log to the clipboard. -->
@@ -398,7 +414,10 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>O curral não está cercado</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>O curral não está cercado agora, então o corte automático não ocorrerá.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut blocking plants -->
+  <WindTurbineAutoCut_EnabledCheckbox>Cortar as plantas bloqueadoras automaticamente</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

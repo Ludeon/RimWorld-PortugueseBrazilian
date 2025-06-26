@@ -3,20 +3,20 @@
 
   <!-- Work tab -->
   <!-- EN: Manual priorities -->
-  <ManualPriorities>Prioridade manual</ManualPriorities>
+  <ManualPriorities>Prioridade Manual</ManualPriorities>
   <!-- EN: higher priority -->
-  <HigherPriority>Maior prioridade</HigherPriority>
+  <HigherPriority>Maior Prioridade</HigherPriority>
   <!-- EN: lower priority -->
-  <LowerPriority>Menor prioridade</LowerPriority>
+  <LowerPriority>Menor Prioridade</LowerPriority>
   <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
-  <RelevantSkills>Habilidades revelantes: {0}\nMédia de habilidades relevantes: {1}</RelevantSkills>
+  <RelevantSkills>Habilidades Revelantes: {0}\nMédia das Habilidades Relevantes: {1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Clique para ir para:</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
   <CannotDoThisWork>{1_labelShort} não pode fazer este tipo de trabalho.</CannotDoThisWork>
   <!-- EN: (none) -->
-  <NoneBrackets>(nada)</NoneBrackets>
-  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
+  <NoneBrackets>(Nada)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Este colono não é capaz de fazer qualquer trabalho deste tipo devido à sua condição de saúde.</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
@@ -27,21 +27,21 @@
   <!-- EN: Will not do -->
   <Priority0>Não vai fazer</Priority0>
   <!-- EN: Top priority -->
-  <Priority1>Prioridade máxima</Priority1>
+  <Priority1>Prioridade Máxima</Priority1>
   <!-- EN: High priority -->
-  <Priority2>Prioridade alta</Priority2>
+  <Priority2>Prioridade Alta</Priority2>
   <!-- EN: Normal priority -->
-  <Priority3>Prioridade normal</Priority3>
+  <Priority3>Prioridade Normal</Priority3>
   <!-- EN: Low priority -->
-  <Priority4>Prioridade baixa</Priority4>
+  <Priority4>Prioridade Baixa</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>{0}\n\nA facção {1_nameDef} pertence atualmente a.\n\nClique para ver a facção.</PawnFactionInfo>
-  <!-- EN: Disabled by backstory: {0} -->
-  <WorkDisabledByBackstory>Desativado por história:{0}</WorkDisabledByBackstory>
-  <!-- EN: Disabled by trait: {0} -->
-  <WorkDisabledByTrait>Desativado por traço: {0}</WorkDisabledByTrait>
-  <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>Desativado por missão: {0}</WorkDisabledByQuest>
+  <PawnFactionInfo>{0}\n\nA facção a qual {1_nameDef} atualmente pertence.\n\nClique para ver a facção.</PawnFactionInfo>
+  <!-- EN: Disabled by {0} backstory -->
+  <WorkDisabledByBackstory>Desativado pela história {0}</WorkDisabledByBackstory>
+  <!-- EN: Disabled by {0} trait -->
+  <WorkDisabledByTrait>Desativado pelo traço {0}</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest '{0}' -->
+  <WorkDisabledByQuest>Desativado pela missão '{0}'</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -78,6 +78,10 @@
   <PregnantIconDesc>Prenhe ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
   <BondedTo>Vinculado a</BondedTo>
+  <!-- EN: Sterilize animal. -->
+  <SterilizeAnimal>Castrar animal.</SterilizeAnimal>
+  <!-- EN: Animal sterile. -->
+  <AnimalAlreadySterile>Animal castrado.</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
@@ -131,13 +135,13 @@
   
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
-  <SelectGraph>Escolha um gráfico</SelectGraph>
+  <SelectGraph>Gráfico</SelectGraph>
   <!-- EN: Last 30 days -->
-  <Last30Days>Últimos 30 dias</Last30Days>
+  <Last30Days>30 Dias</Last30Days>
   <!-- EN: Last 100 days -->
-  <Last100Days>Últimos 100 dias</Last100Days>
+  <Last100Days>100 Dias</Last100Days>
   <!-- EN: Last 300 days -->
-  <Last300Days>Últimos 300 dias</Last300Days>
+  <Last300Days>300 Dias</Last300Days>
   <!-- EN: All -->
   <AllDays>Tudo</AllDays>
   <!-- EN: Value -->
@@ -157,33 +161,35 @@
 
   <!-- History tab - Statistics -->
   <!-- EN: Play time -->
-  <Playtime>Tempo de jogo</Playtime>
+  <Playtime>Tempo de Jogo</Playtime>
   <!-- EN: Storyteller -->
   <Storyteller>Narrador</Storyteller>
   <!-- EN: Colony wealth (this map) -->
-  <ThisMapColonyWealthTotal>Riqueza da colônia (neste mapa)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthTotal>Riqueza da Colônia (Mapa)</ThisMapColonyWealthTotal>
   <!-- EN: Colony wealth (items) (this map) -->
-  <ThisMapColonyWealthItems>Riqueza da colônia (itens) (neste mapa)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthItems>Riqueza da Colônia (Itens) (Mapa)</ThisMapColonyWealthItems>
   <!-- EN: Colony wealth (buildings) (this map) -->
-  <ThisMapColonyWealthBuildings>Riqueza da colônia (estruturas) (neste mapa)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthBuildings>Riqueza da Colônia (Estruturas) (Mapa)</ThisMapColonyWealthBuildings>
   <!-- EN: Colony wealth (people and animals) (this map) -->
-  <ThisMapColonyWealthColonistsAndTameAnimals>Riqueza da colônia (pessoas e animais) (neste mapa)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <ThisMapColonyWealthColonistsAndTameAnimals>Riqueza da Colônia (Pessoas e Animais) (Mapa)</ThisMapColonyWealthColonistsAndTameAnimals>
   <!-- EN: Major threats -->
-  <NumThreatBigs>Ameaças principais</NumThreatBigs>
+  <NumThreatBigs>Ameaças Principais</NumThreatBigs>
   <!-- EN: Enemy raids -->
-  <NumEnemyRaids>Invasões inimigas</NumEnemyRaids>
+  <NumEnemyRaids>Invasões Inimigas</NumEnemyRaids>
   <!-- EN: Damage taken (this map) -->
-  <ThisMapDamageTaken>Dano recebido (neste mapa)</ThisMapDamageTaken>
+  <ThisMapDamageTaken>Dano Recebido (Mapa)</ThisMapDamageTaken>
   <!-- EN: Colonists killed -->
-  <ColonistsKilled>Colonos mortos</ColonistsKilled>
+  <ColonistsKilled>Colonos Mortos</ColonistsKilled>
   <!-- EN: Colonists launched into space -->
-  <ColonistsLaunched>Colonos lançados no espaço</ColonistsLaunched>
+  <ColonistsLaunched>Colonos Lançados no Espaço</ColonistsLaunched>
 
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Pesquisar</Research>
   <!-- EN: Study -->
   <Study>Estudar</Study>
+  <!-- EN: Study {0} -->
+  <StudyThing>Estudar {0}</StudyThing>
   <!-- EN: Unresearched -->
   <Unresearched>Não pesquisado</Unresearched>
   <!-- EN: Finished -->
@@ -200,10 +206,12 @@
   <InsufficientTechprintsApplied>Projetos técnicos insuficientes ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Pré-requisito(s) não concluído(s)</PrerequisitesNotCompleted>
+  <!-- EN: Missing required research facilities -->
+  <MissingRequiredResearchFacilities>Instalações de pesquisa necessárias ausentes</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
-  <RequiredResearchBench>Requer bancada de pesquisa</RequiredResearchBench>
+  <RequiredResearchBench>Requer</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
-  <RequiredResearchBenchFacilities>Requer bancada de pesquisa de alta tecnologia</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Requer</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>O custo base do projeto {0} se tornou {1} para você por causa do seu nível de tecnologia.</ResearchCostComparison>
   <!-- EN: Techprints are available from these factions via trade and quests: -->
@@ -227,7 +235,7 @@
   <!-- EN: Historical -->
   <HistoricalQuests>Histórico</HistoricalQuests>
   <!-- EN: no quest selected -->
-  <NoQuestSelected>nenhuma missão selecionada</NoQuestSelected>
+  <NoQuestSelected>Nenhuma Missão Selecionada</NoQuestSelected>
   <!-- EN: Appeared {0} days ago -->
   <AppearedDaysAgo>Apareceu há {0} dias atrás</AppearedDaysAgo>
   <!-- EN: Appeared on {0} -->
@@ -303,7 +311,7 @@
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>para finalizar a missão da cerimônia de outorga</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
-  <ChooseRewards>Preferências de recompensa</ChooseRewards>
+  <ChooseRewards>Preferências de Recompensa</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
   <ChooseRewardsDesc>Diga a outras facções que tipos de recompensas você deseja em futuras missões. Isso não afeta as missões que já foram oferecidas.</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
@@ -311,7 +319,7 @@
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
   <AcceptRoyalFavorDesc>Se você deseja ser recompensado com {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSe isso estiver desativado, {FACTION_name} oferecerá outros tipos de recompensas.\n\nEssa configuração afeta apenas as missões recentes.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
-  <AcceptGoodwill>Aceitar boa vontade</AcceptGoodwill>
+  <AcceptGoodwill>Boa Vontade</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
   <AcceptGoodwillDesc>Se você deseja ser recompensado por meio de relações aprimoradas de facção com {FACTION_name}.\n\nSe estiver desativado, {FACTION_name} oferecerá outros tipos de recompensas.\n\nEsta configuração afeta apenas missões recém-geradas.</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
@@ -319,7 +327,7 @@
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>No momento, você está optando por não receber {FACTION_royalFavorLabel}.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>Sua boa vontade com {0_name} irá melhorar em {1}.\n\n Boa vontade atual: {4} ({5}).\n\nA boa vontade mede o relacionamento geral entre facções. Se cair abaixo de {2}, a facção se tornará hostil e invadirá seus assentamentos e caravanas. Se ultrapassar {3}, a facção se tornará sua aliada e enviará combatentes para ajudá-lo quando puderem. Caso contrário, a facção permanecerá neutra e negociará e conversará com você livremente.</GoodwillTip>
+  <GoodwillTip>Sua boa vontade com {0_name} melhorará em {1}.\n\n Boa vontade atual: {4} ({5}).\n\nA boa vontade mede o relacionamento geral entre facções. Se cair abaixo de {2}, a facção se tornará hostil e invadirá seus assentamentos e caravanas. Se ultrapassar {3}, a facção se tornará sua aliada e enviará combatentes para ajudá-lo quando puderem. Caso contrário, a facção permanecerá neutra e negociará e conversará com você livremente.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort} se junta</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
@@ -340,5 +348,9 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Cria necessidade</CreatesNeed>
+
+  <!-- Misc -->
+  <!-- EN: Click to edit -->
+  <ClickToEdit>Clique para editar</ClickToEdit>
 
 </LanguageData>

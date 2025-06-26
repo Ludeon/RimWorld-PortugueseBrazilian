@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: band node -->
+  <BandNode.label>nó de banda</BandNode.label>
+  <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
+  <BandNode.description>Um amplificador de sinal de banda mecanoide. Os nós de banda devem ser ajustados para um mecanizador específico. Isso adicionará 1 banda-larga à banda-larga total desse mecanizador, permitindo que eles controlem mais mecanoides.\n\nDepois que um nó de banda é construído, ele pode ser ajustado rapidamente para um mecanizador. No entanto, reajustar um nó de banda para um mecanizador diferente leva muito mais tempo.</BandNode.description>
+  
+  <!-- EN: mechband antenna -->
+  <BurnoutMechlinkBooster.label>antena de banda mecanoide</BurnoutMechlinkBooster.label>
+  <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
+  <BurnoutMechlinkBooster.description>Um dispositivo de sinalização de banda mecanoide. Quando ativado, ele emite um poderoso pulso de sinal mecanoide, que atrairá um mecanoide feroz ultrapesado para atacar com suas escoltas. Se você conseguir derrotá-lo, poderá coletar tecnologias especiais de seu cadáver. O pulso do sinal queima o transmissor, então esta construção só pode ser usado uma vez.</BurnoutMechlinkBooster.description>
+  <!-- EN: Summon warqueen threat -->
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>Convocar ameaça da rainha guerreira</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  
+  <!-- EN: gene assembler -->
+  <GeneAssembler.label>montador de genes</GeneAssembler.label>
+  <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
+  <GeneAssembler.description>Uma bancada para criar xenogermes implantáveis a partir de pacotes de genes armazenados em bancos de genes próximos. pacotes de genes não são consumidos neste processo e podem ser reutilizados.</GeneAssembler.description>
+  
+  <!-- EN: gene bank -->
+  <GeneBank.label>banco de gene</GeneBank.label>
+  <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
+  <GeneBank.description>Esta construção pode armazenar pacotes de genes e torná-los utilizáveis para criar novos xenogermes, quando colocados perto de um montador de genes. Grandes bibliotecas de genes requerem muitos bancos de genes.\n\nQuando energizados, os bancos de genes evitam que os pacotes de genes se deteriorem e irão reparar a deterioração lentamente.</GeneBank.description>
+  
+  <!-- EN: gene extractor -->
+  <GeneExtractor.label>extrator de genes</GeneExtractor.label>
+  <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
+  <GeneExtractor.description>Uma máquina de cirurgia automatizada que pode extrair os genes de uma pessoa e criar um pacote de genes a partir deles. Os genes extraídos serão selecionados aleatoriamente dos xenogenes e da linha germinativa da pessoa. Você pode forçar alguém a entrar na máquina, mas eles não vão gostar.\n\nExtrair os genes de uma pessoa enquanto seus genes estão crescendo novamente irá matá-la. Caso contrário, a extração de genes não causa danos duradouros.\n\nOs genes que exigem arquocápsulas são muito complexos para serem extraídos.</GeneExtractor.description>
+  
+  <!-- EN: gene processor -->
+  <GeneProcessor.label>processador de genes</GeneProcessor.label>
+  <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
+  <GeneProcessor.description>Um sistema de análise e processamento genético. Colocado perto de um montador de genes, aumenta a complexidade genética máxima dos xenogermes que você pode montar. Construir múltiplos processadores de genes aumentará ainda mais o limite de complexidade genética.</GeneProcessor.description>
+  
+  <!-- EN: growth vat -->
+  <GrowthVat.label>tanque de crescimento</GrowthVat.label>
+  <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
+  <GrowthVat.description>Um tanque de fluido que pode gestar um embrião ou acelerar o crescimento de uma criança.\n\nDurante o crescimento ou a gestação, a cuba deve ser alimentada com um suprimento constante de nutrição para fornecer a matéria-prima para o crescimento. A gestação de um embrião requer o dobro da nutrição do que acelerar o crescimento de uma criança.\n\nOs embriões são gestados por 9 dias antes de um bebê ser formado. Existe o risco de complicações de saúde.\n\nO crescimento infantil só pode ser acelerado até os 18 anos, mas não além. Enquanto cresce, as habilidades de uma criança aumentarão lentamente. As crianças criadas em tanques de crescimento terão menos habilidades e ganharão menos paixões do que o normal.\n\nO dispositivo usa injeções químicas, estimulação elétrica e tratamentos simples com mecanitos para impulsionar o corpo a crescer. As cubas de crescimento são frequentemente usadas para fabricar rapidamente trabalhadores de engenharia ou guerreiros.</GrowthVat.description>
+  
+  <!-- EN: mechband dish -->
+  <MechbandDish.label>parabólica de banda mecanoide</MechbandDish.label>
+  <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
+  <MechbandDish.description>Um dispositivo de sinalização de banda mecanoide mais poderoso que a antena de link mecanoide normal. Quando ativado, ele emite um pulso de sinal mecanoide ultrapoderoso, que atrairá um comandante mecanoide para atacar com suas escoltas. Se você conseguir derrotá-lo, poderá coletar tecnologias especiais de seu cadáver. O pulso de sinal queima a parabólica, então esta construção só pode ser usado uma vez.</MechbandDish.description>
+  <!-- EN: Summon apocriton threat -->
+  <MechbandDish.comps.CompUsable.useLabel>Convocar ameaça do apocritão</MechbandDish.comps.CompUsable.useLabel>
+  
+  <!-- EN: mech booster -->
+  <MechBooster.label>intensificador mecanoide</MechBooster.label>
+  <!-- EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. -->
+  <MechBooster.description>Um dispositivo remoto de aprimoramento de energia e computação. Quaisquer mecanoides aliados em seu raio de efeito se moverão e trabalharão mais rápido.</MechBooster.description>
+  
+  <!-- EN: pollution pump -->
+  <PollutionPump.label>bomba de poluição</PollutionPump.label>
+  <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
+  <PollutionPump.description>Uma bomba de filtragem de águas subterrâneas que limpa lentamente o terreno poluído. A poluição extraída é transformada em pacotes de resíduos tóxicos que devem ser transportados.</PollutionPump.description>
+  
+  <!-- EN: blood torch -->
+  <SanguphageMeetingTorch.label>tocha de sangue</SanguphageMeetingTorch.label>
+  <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
+  <SanguphageMeetingTorch.description>Uma tocha de madeira especialmente tratada que produz uma luz vermelha sobre uma grande área. Sanguófagos se reúnem em torno de tochas como essas durante suas reuniões cerimoniais. O brilho sanguíneo é particularmente agradável para indivíduos com o gene bloodfeeder. Pode ser reabastecido automaticamente com madeira e produz uma pequena quantidade de calor.</SanguphageMeetingTorch.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed_Exitable.label>transporte acidentado</ShuttleCrashed_Exitable.label>
+  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <ShuttleCrashed_Exitable.description>Um transporte de tecnologia espacial projetada para o trânsito entre a superfície e a órbita, ou entre as luas de um sistema planetário.</ShuttleCrashed_Exitable.description>
+  
+  <!-- EN: crashed mechanitor ship -->
+  <ShuttleCrashed_Exitable_Mechanitor.label>nave de mecanizador acidentada</ShuttleCrashed_Exitable_Mechanitor.label>
+  <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
+  <ShuttleCrashed_Exitable_Mechanitor.description>Uma nave de curto alcance usada por um mecanizador para transportar mecanoides para viagens em órbita baixa ou planetária.</ShuttleCrashed_Exitable_Mechanitor.description>
+  
+  <!-- EN: toxifier generator -->
+  <ToxifierGenerator.label>gerador toxificante</ToxifierGenerator.label>
+  <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
+  <ToxifierGenerator.description>Este gerador elétrico polui muito lentamente o terreno em um raio ao seu redor enquanto produz energia. Se todo o terreno no raio estiver poluído, o gerador será desligado.</ToxifierGenerator.description>
+  
+  <!-- EN: IED tox trap -->
+  <TrapIED_ToxGas.label>Armadilha IED tóxica</TrapIED_ToxGas.label>
+  <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_ToxGas.description>Um par de projéteis de gás tóxico conectado a um gatilho que detona no toque ou no impacto da bala. Como está escondido no terreno circundante, não pode ser colocado adjacente a outras armadilhas. Os animais podem farejar ela quando estão calmos.</TrapIED_ToxGas.description>
+  
+  <!-- EN: wastepack atomizer -->
+  <WastepackAtomizer.label>atomizador de pacotes de resíduos</WastepackAtomizer.label>
+  <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
+  <WastepackAtomizer.description>Um dispositivo com tecnologia dos mundos brilhantes que desconstrói pacotes de resíduos tóxicos em gases inertes usando processos moleculares avançados. O processo requer quantidades consideráveis de energia.</WastepackAtomizer.description>
+  
+</LanguageData>

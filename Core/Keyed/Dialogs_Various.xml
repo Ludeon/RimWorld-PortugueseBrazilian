@@ -13,6 +13,22 @@
   <Close>Fechar</Close>
   <!-- EN: Accept -->
   <Accept>Aceitar</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>Cancelar</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Redefinir</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>Redefinir tudo</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>Desativar</Disable>
+  <!-- EN: Modify -->
+  <Modify>Modificar</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>Ficar aqui mesmo assim?</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>adicionar</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>Impossível disparar</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -25,6 +41,8 @@
   <GameUpdatedToNewVersionNonSteam>Uma vez que esta é uma cópia sem DRM, você pode instalar o jogo duas vezes em duas pastas diferentes, para ser capaz de jogar ambas as versões antigas e novas.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Se você deseja continuar com a versão antiga, você pode optar por usar o recurso "Betas" da Steam.\n\n  1. Na biblioteca da Steam, clique com o botão direito no RimWorld.\n  2. Clique em Propriedades.\n  3. Clique na guia Betas.\n  4. Selecione a versão que você deseja a partir do menu pendente.</GameUpdatedToNewVersionSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
+  <GameUpdatedToNewVersionSteamController>Se você deseja continuar com a versão antiga, você pode optar por usar o recurso "Betas" da Steam.</GameUpdatedToNewVersionSteamController>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -50,7 +68,7 @@
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
-  <ModsChanged>A lista de mods mudou. O jogo vai reiniciar automaticamente.</ModsChanged>
+  <ModsChanged>A lista de mods foi alterada. O jogo reiniciará automaticamente.</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
   <FailedToRestart>Algo deu errado enquanto reiniciando o jogo. O jogo não pode descarregar completamente o código modificado de mods desativados, portanto, o código de mods desativados ainda pode estar ativo.\n\nÉ recomendado que você desista e reinicie o jogo agora para carregar todos os mods de forma limpa.</FailedToRestart>
   <!-- EN: Restarting -->
@@ -58,31 +76,31 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>Não foi possível inicializar a API Steam. Causas possíveis:\n\n-A Steam não está em execução.\n-Foi iniciado fora da Steam sem steam_appid.txt no lugar.\n-Está sendo executado com privilégios diferentes do cliente Steam (ex. "como administrador").\n\nNa maioria dos casos, reiniciar o computador irá corrigir este problema.\n\nVocê pode jogar assim mesmo, mas as estatísticas da Steam não serão gravadas e os recursos da Steam não estarão disponíveis.</SteamClientMissing>
+  <SteamClientMissing>Não foi possível inicializar a API Steam. Causas possíveis:\n\n-A Steam não está em execução.\n-Foi iniciado fora da Steam sem steam_appid.txt no lugar.\n-Está sendo executado com privilégios diferentes do cliente Steam (ex. "como administrador").\n\nNa maioria dos casos, reiniciar o computador corrigirá este problema.\n\nVocê pode jogar assim mesmo, mas as estatísticas da Steam não serão gravadas e os recursos da Steam não estarão disponíveis.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
-  <InitializingInterface>Inicializando interface</InitializingInterface>
+  <InitializingInterface>Inicializando Interface</InitializingInterface>
   <!-- EN: Unloading unused assets -->
-  <UnloadingUnusedAssets>Descarregando recursos inutilizados</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>Descarregando Recursos Inutilizados</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
-  <LoadingAllActiveMods>Carregando todos as modificações ativas</LoadingAllActiveMods>
+  <LoadingAllActiveMods>Carregando Mods Ativos</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
-  <LoadingDefs>Carregando definições</LoadingDefs>
+  <LoadingDefs>Carregando Definições</LoadingDefs>
   <!-- EN: Loading assets -->
-  <LoadingAssets>Carregando recursos</LoadingAssets>
+  <LoadingAssets>Carregando Recursos</LoadingAssets>
   <!-- EN: Initializing -->
   <Initializing>Inicializando</Initializing>
   <!-- EN: Loading world -->
-  <LoadingWorld>Carregando mundo</LoadingWorld>
+  <LoadingWorld>Carregando Mundo</LoadingWorld>
   <!-- EN: Loading map -->
-  <LoadingMap>Carregando mapa</LoadingMap>
+  <LoadingMap>Carregando Mapa</LoadingMap>
   <!-- EN: Initializing game -->
-  <InitializingGame>Inicializando jogo</InitializingGame>
+  <InitializingGame>Inicializando Jogo</InitializingGame>
   <!-- EN: Spawning things -->
-  <SpawningAllThings>Gerando coisas</SpawningAllThings>
+  <SpawningAllThings>Gerando Coisas</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>Gerando colonos</SpawningColonists>
+  <SpawningColonists>Gerando Colonos</SpawningColonists>
   
   <!-- Save/load -->
   <!-- EN: Save -->
@@ -90,7 +108,7 @@
   <!-- EN: Load -->
   <LoadGameButton>Carregar</LoadGameButton>
   <!-- EN: Overwrite -->
-  <OverwriteButton>substituir</OverwriteButton>
+  <OverwriteButton>Substituir</OverwriteButton>
   <!-- EN: Really delete {0}? -->
   <ConfirmDelete>Deseja realmente apagar {0}?</ConfirmDelete>
   <!-- EN: Delete this savegame. -->
@@ -104,15 +122,15 @@
   <!-- EN: Saving -->
   <SavingLongEvent>Salvando</SavingLongEvent>
   <!-- EN: (Permadeath) -->
-  <PermadeathModeSaveSuffix>(Morte perman.)</PermadeathModeSaveSuffix>
+  <PermadeathModeSaveSuffix>(Morte Perman.)</PermadeathModeSaveSuffix>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
-  <SaveIsFromDifferentGameVersion>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma versão completamente diferente.\n\nTentar carregar estes dados provavelmente não irão funcionar.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma versão completamente diferente.\n\nTentar carregar estes dados provavelmente não funcionarão.</SaveIsFromDifferentGameVersion>
   <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
   <SaveIsFromDifferentGameBuild>Estamos executando a versão {0} mas o jogo salvo é de {1}, que é uma compilação diferente.\n\nTentar carregar estes dados ainda deve funcionar.</SaveIsFromDifferentGameBuild>
   <!-- EN: Save data was saved with our game version and should work without issue. -->
   <SaveIsFromThisGameBuild>Os dados foram salvos com a nossa versão do jogo e devem funcionar sem problemas.</SaveIsFromThisGameBuild>
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
-  <SaveIsUnknownFormat>Os dados salvos estão em um formato desconhecido e quase certamente não irão carregar corretamente.</SaveIsUnknownFormat>
+  <SaveIsUnknownFormat>Os dados salvos estão em um formato desconhecido e quase certamente não carregarão corretamente.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
   <ProblemSavingFile>Houve um problema ao salvar o arquivo {0}:\n\n{1}\n\nConsulte o relatório de erro para mais informações.</ProblemSavingFile>
   <!-- EN: Load anyway -->
@@ -122,13 +140,13 @@
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>Alguns mods estão indisponíveis e precisam ser instalados</MissingMods>
   <!-- EN: Official content -->
-  <OfficialContent>Conteúdo oficial</OfficialContent>
+  <OfficialContent>Conteúdo Oficial</OfficialContent>
   <!-- EN: Active -->
   <ContentActive>Ativo</ContentActive>
   <!-- EN: Installed, but not active -->
   <ContentInstalledButNotActive>Instalado, mas desativado</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
-  <ContentNotInstalled>Não instalado</ContentNotInstalled>
+  <ContentNotInstalled>Não Instalado</ContentNotInstalled>
   
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
@@ -161,10 +179,28 @@
   <ZoneGainsName>A zona agora se chama {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>O nome escolhido é inválido.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>O apelido dessa pessoa agora é {0}. Seu título é {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>O nome do animal agora é {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>renomear pessoa</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>mãe</Mother>
+  <!-- EN: father -->
+  <Father>pai</Father>
+  <!-- EN: unknown -->
+  <Unknown>desconhecido</Unknown>
+  <!-- EN: first name -->
+  <FirstName>nome</FirstName>
+  <!-- EN: nickname -->
+  <NickName>apelido</NickName>
+  <!-- EN: last name -->
+  <LastName>sobrenome</LastName>
+  <!-- EN: suggested -->
+  <Suggested>sugerido</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -177,8 +213,12 @@
   <FileIncompatibleWarning>Este arquivo foi salvo com a versão do jogo {0}\nEstamos executando a versão {1}\n\nCarregar este jogo salvo pode causar erros e travamentos.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Incompatibilidade de mods</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
   <ModsMismatchWarningText>O mapa foi salvo com um conjunto diferente de mods ativos dos que estamos executando atualmente. Isto pode ou não pode causar problemas, dependendo exatamente o que estes mods fazem.\n\nMapa foi salvo com (nesta ordem):\n\n{0}\n\nEstamos rodando com:\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>Nenhum mod foi adicionado ou removido, mas a ordem da lista de mods foi alterada.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>Você tem certeza de que deseja carregar a lista de mods deste save?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -191,16 +231,28 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Você realmente deseja desativar permanentemente o modo desenvolvedor neste computador?</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>Tem certeza de que deseja redefinir o assistente de aprendizado?\n\nTodos os registros de quais conceitos foram aprendidos serão apagados e o sistema ensinará tudo desde o início.</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>Passados agora são implementados como uma definição e todas as traduções antigas foram importadas para as traduções de definições. O arquivo {0} foi importado e movido para {1}. Agora ele pode ser excluído.\n\nReinicie o jogo para que as alterações tenham efeito.</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>Deve incluir exatamente {SUMMARY}</SelectedCharactersMustInclude>
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Aviso: você irá aterrissar em um ambiente congelado. Pode ser difícil ou quase impossível para sobreviver. Se você não está pretendendo enfrentar um desafio extremo, escolha um outro local ou estação de ano diferente.</MapTemperatureDangerWarning>
+  <MapTemperatureDangerWarning>Aviso: você aterrissará em um ambiente congelado. Pode ser difícil ou quase impossível para sobreviver. Se você não está pretendendo enfrentar um desafio extremo, escolha um outro local ou estação de ano diferente.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>Aviso: O desempenho pode cair em mapas com tamanhos grandes. O tamanho Absurdo não foi testado e quase certamente não irá rodar bem.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>Aviso: O desempenho pode cair em mapas com tamanhos grandes. O tamanho Absurdo não foi testado e quase certamente não rodará bem.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
-  <MapSize>Tamanho do mapa</MapSize>
+  <MapSize>Tamanho do Mapa</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
-  <MapSizeDesc>{0}x{0} ({1} células)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0} ({1} Células)</MapSizeDesc>
   <!-- EN: Small -->
   <MapSizeSmall>Pequeno</MapSizeSmall>
   <!-- EN: Medium -->
@@ -210,7 +262,7 @@
   <!-- EN: Extreme (test) -->
   <MapSizeExtreme>Absurdo</MapSizeExtreme>
   <!-- EN: Starting season -->
-  <MapStartSeason>Estação inicial:</MapStartSeason>
+  <MapStartSeason>Estação Inicial</MapStartSeason>
   <!-- EN: Auto -->
   <MapStartSeasonDefault>Automático</MapStartSeasonDefault>
   <!-- EN: Notice -->
@@ -252,14 +304,16 @@
   <WorkAmount>Quantidade de trabalho</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Habilidade mínima:</MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
+  <!-- EN: Requires -->
   <BillRequires>Requer {0} {1}</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>nutrição</BillNutrition>
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requer {0} de nutrição</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Nota: Ingredientes de pequeno volume, como o ouro requerem {0}x a mais.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/{0} equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você irá precisar de {0}x a mais sempre.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este é um ingrediente de pequeno volume. Isto significa que cada "unidade" é apenas 1/{0} equivalente de um ingrediente de volume normal. Então, para preencher o mesmo requisito de ingrediente, você precisará de {0}x a mais sempre.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -291,7 +345,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Penetração de Armadura</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de armadura que esta arma irá ignorar toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a armadura do alvo, é como se o alvo não tivesse armadura. Caso contrário, a penetração da armadura é subtraída da armadura do alvo.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>A penetração da armadura é a quantidade de proteção que esta arma ignorará toda vez que ela atingir o alvo.\n\nSe a penetração da armadura for maior que a proteção do alvo, é como se o alvo estivesse sem proteção. Caso não, a penetração da armadura é subtraída da proteção do alvo.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
   <BuildingDamageFactor>Fator de dano à construções</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
@@ -307,13 +361,13 @@
   <!-- EN: Accuracy -->
   <Accuracy>Precisão</Accuracy>
   <!-- EN: Burst shot count -->
-  <BurstShotCount>Contagem de tiros</BurstShotCount>
+  <BurstShotCount>Contagem de tiros por disparo</BurstShotCount>
   <!-- EN: Warmup -->
   <WarmupTime>Aquecimento</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Aquecimento corpo a corpo</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
-  <RangedWarmupTime>Aquecimento a distância</RangedWarmupTime>
+  <!-- EN: Aiming time -->
+  <RangedWarmupTime>Tempo de preparação para disparar</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Esfriamento</CooldownTime>
   <!-- EN: Disarmed -->
@@ -329,11 +383,11 @@
   <!-- EN: Range -->
   <Range>Alcance</Range>
   <!-- EN: Stopping power -->
-  <StoppingPower>Poder de lentidão</StoppingPower>
+  <StoppingPower>Poder de parada</StoppingPower>
   <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
-  <StoppingPowerExplanation>Golpes desta arma irão balançar o alvo, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de lentidão não serão afetados.</StoppingPowerExplanation>
+  <StoppingPowerExplanation>Ataques desta arma farão o alvo cambalear, diminuindo o movimento por vários segundos.\n\nAlvos com um tamanho de corpo maior que o poder de parada não serão afetados.</StoppingPowerExplanation>
   <!-- EN: Direct hit chance -->
-  <DirectHitChance>Chance de acerto</DirectHitChance>
+  <DirectHitChance>Chance de acerto direto</DirectHitChance>
   <!-- EN: Miss radius -->
   <MissRadius>Chance de erro</MissRadius>
   <!-- EN: Grows wild -->
@@ -399,7 +453,7 @@
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Eficácia de cobertura</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>O quão eficaz é quando usado como cobertura em um tiroteio.\n\nPercentagens mais elevadas irão bloquear mais tiros.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>O quão eficaz é quando usado como cobertura em um tiroteio.\n\nPercentagens mais elevadas bloquearão mais tiros.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>Fator de ganho de experiência</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -419,23 +473,27 @@
   <!-- EN: Misc -->
   <MiscRecordsCategory>Outros</MiscRecordsCategory>
   <!-- EN: Chemical -->
-  <Chemical>Químico</Chemical>
+  <Chemical>Substância química</Chemical>
   <!-- EN: High gain per dose -->
-  <HighGain>Alto ganho por dose</HighGain>
+  <HighGain>Efeito da droga ganho por dose</HighGain>
   <!-- EN: High fall rate -->
-  <HighFallRate>Alta taxa de queda</HighFallRate>
+  <HighFallRate>Taxa de queda do efeito da droga</HighFallRate>
   <!-- EN: High duration per dose -->
-  <HighDuration>Alta duração por dose</HighDuration>
+  <HighDuration>Duração do efeito da droga por dose</HighDuration>
   <!-- EN: Tolerance gain per dose -->
-  <ToleranceGain>Ganho de tolerância por dose</ToleranceGain>
+  <ToleranceGain>Tolerância ao efeito ganha por dose</ToleranceGain>
   <!-- EN: Tolerance fall rate -->
-  <ToleranceFallRate>Taxa de queda de tolerância</ToleranceFallRate>
+  <ToleranceFallRate>Queda da tolerância ao efeito</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
-  <MinimumToleranceForAddiction>Novo vício tolerância mínima</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
+  <MinimumToleranceForAddiction>Tolerância mínima para gerar vício</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval for adults -->
   <SafeDoseInterval>Intervalo de dose segura</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>idade de {0} a {1}</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>idade maior que {0}</AgePlus>
   <!-- EN: New addiction chance -->
-  <Addictiveness>Nova chance de dependência</Addictiveness>
+  <Addictiveness>Chance de viciar</Addictiveness>
   <!-- EN: Addiction initial severity -->
   <AddictionSeverityInitial>Gravidade inicial do vício</AddictionSeverityInitial>
   <!-- EN: Addiction severity per dose -->
@@ -443,13 +501,13 @@
   <!-- EN: Addiction need fill per dose -->
   <AddictionNeedOffset>Necessidade de dependência preenchida por dose</AddictionNeedOffset>
   <!-- EN: Addiction need fall rate -->
-  <AddictionNeedFallRate>Taxa de queda da necessidade de dependência</AddictionNeedFallRate>
+  <AddictionNeedFallRate>Queda da necess. de dependência</AddictionNeedFallRate>
   <!-- EN: Addiction need dose interval -->
-  <AddictionNeedDoseInterval>Intervalo de dose da necessidade de dependência</AddictionNeedDoseInterval>
+  <AddictionNeedDoseInterval>Tempo entre doses</AddictionNeedDoseInterval>
   <!-- EN: Addiction recovery time -->
-  <AddictionRecoveryTime>Tempo de recuperação de dependência</AddictionRecoveryTime>
+  <AddictionRecoveryTime>Tempo de recuperação do vício</AddictionRecoveryTime>
   <!-- EN: Addiction cost -->
-  <AddictionCost>Custo de dependência</AddictionCost>
+  <AddictionCost>Custo da dependência</AddictionCost>
   <!-- EN: Random overdose chance -->
   <RandomODChance>Chance de overdose aleatória</RandomODChance>
   <!-- EN: Always safe -->
@@ -481,11 +539,11 @@
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Intervalo de acariciamento</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
-  <NuzzleIntervalExplanation>Quantas vezes, em média um animal irá acariciar colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição.\nA maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
+  <NuzzleIntervalExplanation>Quantas vezes, em média um animal acariciará colonos amigáveis.\n\nacariciamento é um comportamento compartilhado por muitas espécies de animais, onde o animal pressiona o nariz ou o focinho contra um amigo como um sinal de afeição.\nA maioria dos humanos acha isso fofo e vai deixá-los fazer isso de bom grado e por um bom tempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Chance de vingança</HarmedRevengeChance>
-  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>A chance desta criatura atacar quando ferida.\n\nEsta chance aumenta em até três vezes se o atacante estiver mais perto.\n\nEsta chance é aplicada cada vez que o dano é sofrido. Isso significa que armas de disparo mais lento e maior dano têm menos probabilidade de dispará-lo durante a caça.</HarmedRevengeChanceExplanation>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>A chance desta criatura atacar quando ferida.\n\nEsta chance aumenta em até três vezes se o atacante estiver mais perto.\n\nEsta chance é aplicada cada vez que o dano é sofrido. Isso significa que armas de disparo lento e maior dano têm menos probabilidade de dispará-lo durante a caça.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Chance de vingança ao falhar uma domesticação</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -526,7 +584,7 @@
   <MeditationFocuses>tipos de foco de meditação</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Desbloqueia tipos de foco de meditação</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>Os tipos de foco de meditação que essa pessoa pode usar. Ao meditar, uma pessoa pode se concentrar em um objeto para aumentar seu ganho de concentração psíquica - mas apenas se esse objeto oferecer um tipo de foco que possa ser usado. Os tipos de meditação de cada pessoa são determinados por seus antecedentes, características, posição social e assim por diante.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Os tipos de foco de meditação que esse objeto oferece. Uma pessoa meditando pode se concentrar nesse objeto para aumentar seu ganho de concentração psíquica, mas apenas se for capaz de usar um de seus tipos de meditação. Cada pessoa pode usar diferentes tipos de meditação, dependendo de seus antecedentes, características, posição social e assim por diante.</MeditationFocusesDesc>
@@ -549,11 +607,11 @@
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
-  <PositiveBuysNegativeSells>Números positivos você vende.\nNúmeros negativos você compra.</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>Números positivos você compra.\nNúmeros negativos você vende.</PositiveBuysNegativeSells>
   <!-- EN: Price you pay to buy this. -->
-  <BuyPriceDesc>Preço que você irá pagar para comprar isto.</BuyPriceDesc>
+  <BuyPriceDesc>Preço que você pagará para comprar isto.</BuyPriceDesc>
   <!-- EN: Price you receive for selling this. -->
-  <SellPriceDesc>Dinheiro que você irá receber por vender isto.</SellPriceDesc>
+  <SellPriceDesc>Dinheiro que você receberá por vender isto.</SellPriceDesc>
   <!-- EN: For this item, this price is {0}. -->
   <PriceTypeDesc>Para este item, o preço é {0}.</PriceTypeDesc>
   <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
@@ -601,7 +659,7 @@
   <!-- EN: buying -->
   <Buying>comprando</Buying>
   <!-- EN: item sell price multiplier -->
-  <ItemSellPriceFactor>multiplicador de preço de venda do item</ItemSellPriceFactor>
+  <ItemSellPriceFactor>multiplicador do preço de venda do item</ItemSellPriceFactor>
   <!-- EN: difficulty level -->
   <DifficultyLevel>nível de dificuldade</DifficultyLevel>
   <!-- EN: global post-process curve -->
@@ -685,7 +743,7 @@
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>O número aproximado de dias antes de pelo menos uma pessoa ou animal ficar sem comida. Diferentes espécies têm dietas diferentes, portanto, um pode ficar sem comida antes dos outros. Este valor é calculado com mais precisão após a escolha da rota.\n\nAfetado por:\n - Inventário do colono atual\n - Tipo e quantidade de alimentos transportados\n - Membros da caravana e suas dietas\n - Taxa de procura de alimentos\n - Se animais podem pastar\n - Tempo até a comida apodrecer\n - O tempo quente apodrece a comida mais rapidamente</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(somente o primeiro ponto de rota é levado em conta)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(somente o primeiro waypoint é levado em conta)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Sua caravana só tem {0} dias de comida e passará fome muito rapidamente.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
@@ -693,11 +751,11 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Sua caravana não tem comida e ficará com fome muito rapidamente.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>A quantidade média de alimentos por dia que o seu pessoal vai procurar. Este valor irá mudar conforme você viaja através dos biomas com diferentes taxas de rendimento de forragem.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>A quantidade média de alimentos por dia que o seu pessoal vai procurar. Este valor mudará conforme você viaja através dos biomas com diferentes taxas de rendimento de forragem.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>Forragem por dia</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
-  <CaravanFoodWillRotSoonWarningDialog>Uma grande parte da comida atribuída irá apodrecer em breve.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanFoodWillRotSoonWarningDialog>Uma grande parte da comida atribuída apodrecerá em breve.</CaravanFoodWillRotSoonWarningDialog>
   <!-- EN: You have no caravan members capable of diplomacy or trading. -->
   <CaravanIncapableOfSocial>Você não tem nenhum membro da caravana capaz de diplomacia ou negociação.</CaravanIncapableOfSocial>
   <!-- EN: Are you sure you want to form this caravan? -->
@@ -788,6 +846,8 @@
   <TotalBodySize>Tamanho total do corpo</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Selecionar automaticamento os suprimentos de viagem</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>Este animal está doente. Ele está sofrendo das seguintes doenças:</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -913,9 +973,9 @@
   <!-- EN: How often the colonists should try to take this drug. -->
   <FrequencyColumnDesc>Quantas vezes os colonos devem tentar usar esta droga.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
-  <MoodThresholdColumnDesc>Os colonos irão usar esta droga apenas se o seu nível de humor estiver abaixo deste limiar.</MoodThresholdColumnDesc>
+  <MoodThresholdColumnDesc>Os colonos usarão esta droga apenas se o seu nível de humor estiver abaixo deste limiar.</MoodThresholdColumnDesc>
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
-  <JoyThresholdColumnDesc>Os colonos irão usar esta droga apenas seus níveis de diversão estiver abaixo deste limiar.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Os colonos usarão esta droga apenas seus níveis de diversão estiver abaixo deste limiar.</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
   <TakeToInventoryColumnDesc>Uma quantidade da droga para pegar adicionalmente quando reuni-la para o consumo, a fim de evitar ter que visitar o estoque de drogas o tempo todo.</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
@@ -928,6 +988,8 @@
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
   <FoodRestriction>Restr. alimentar</FoodRestriction>
+  <!-- EN: Food -->
+  <FoodRestrictionShort>Alimento</FoodRestrictionShort>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>Esbanjar</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -941,15 +1003,17 @@
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Nada</FoodRestrictionNothing>
   <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Selecione a restrição alimentar</SelectFoodRestriction>
+  <SelectFoodRestriction>Selec. Restr. Alimentar</SelectFoodRestriction>
   <!-- EN: New food restriction -->
-  <NewFoodRestriction>Nova restrição alimentar</NewFoodRestriction>
+  <NewFoodRestriction>Nova Restr. Alimentar</NewFoodRestriction>
   <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>Deletar restrição alimentar</DeleteFoodRestriction>
+  <DeleteFoodRestriction>Excl. Restr. Alimentar</DeleteFoodRestriction>
   <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>Sem restrição alimentar</NoFoodRestrictionSelected>
+  <NoFoodRestrictionSelected>Sem Restrição Alimentar</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>Configuração padrão de medicamentos</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Padrões</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -979,13 +1043,13 @@
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonizadores saudáveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>Alguns animais ou prisioneiros estão tentando se juntar a essa caravana. Se você movê-los, eles não conseguirão mais.\n\nAnimais, prisioneiros e colonos incapacitados deixados em um mapa sem colonos saudáveis são considerados abandonados e podem ser capturados pelos inimigos.\n\nTem certeza que quer mover sua caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
   <ConfirmBanishPawnDialog>Você realmente quer banir {1_label}?</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} provavelmente irá morrer.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} provavelmente morrerá.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
   <ConfirmBanishPawnDialog_Items>{1_labelShort} levará os seguintes itens com {1_pronoun}:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
@@ -998,7 +1062,7 @@
   <ConfirmSendNotCompletelyLoadedPods>O grupo de cápsulas não está completamente carregado. Está faltando {1_labelShort}. Lançar assim mesmo?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
   <ConfirmSettleNearFactionBase>Como esse local está dentro de {0} blocos da base de outra facção, eles sentirão que você está invadindo sua terra e as relações com essas facções piorarão a cada {1} dias.\n\nficar aqui mesmo assim?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
@@ -1016,6 +1080,8 @@
   <ConfirmCancelMonumentMarker>Deseja mesmo remover este marcador de monumento?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>Impossível utilizar {0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Linha de visão necessária</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1030,15 +1096,17 @@
   <AbilityCastingTime>Tempo de invocação</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Nenhuma linha de visão para mirar.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>Alvo fora de alcance.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>Impossível chegar ao alvo.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>Sem espaço livre disponível.</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
+  <!-- EN: Must target an empty area. -->
   <AbilityOccupiedCells>{0} deve mirar em uma área vazia.</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
+  <!-- EN: Must target a walkable area. -->
   <AbilityUnwalkable>{0} deve mirar em uma área que pode ser percorrida.</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
+  <!-- EN: Must target an unroofed area. -->
   <AbilityRoofed>{0} deve mirar uma área não coberta.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0} está mentalmente quebrado.</AbilityCantApplyToMentallyBroken>
@@ -1058,6 +1126,10 @@
   <AbilityCantApplyOnAsexual>Impossível usar: {0} é assexuad{PAWN_gender ? o : a }.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} é o gênero errado para {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort} é muito jovem.</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>O alvo não pode ser um bebê.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Custo de concentração psíquica por intensidade do rompimento mental</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1114,21 +1186,21 @@
   <!-- EN: Current -->
   <AutoSlaugtherHeaderColCurrent>Atual</AutoSlaugtherHeaderColCurrent>
   <!-- EN: Max -->
-  <AutoSlaugtherHeaderColMax>Máx,</AutoSlaugtherHeaderColMax>
+  <AutoSlaugtherHeaderColMax>Máx.</AutoSlaugtherHeaderColMax>
   <!-- EN: Total -->
   <AutoSlaugtherHeaderColTotal>Total</AutoSlaugtherHeaderColTotal>
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>Outro</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>Os colonos abatem primeiro os animais não grávidos, ordenando do mais velho para o mais novo, e depois os animais grávidos da gravidez mais recente para a menos recente.</AutoSlaugtherTip>
+  <AutoSlaugtherTip>Os colonos abatem primeiro os animais não grávidos, do mais velho ao mais novo, e depois os grávidos, da gravidez mais recente à menos recente.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
-  <AnimalMaleAdult>Macho adulto</AnimalMaleAdult>
+  <AnimalMaleAdult>Macho Adulto</AnimalMaleAdult>
   <!-- EN: Male young -->
-  <AnimalMaleYoung>Macho jovem</AnimalMaleYoung>
+  <AnimalMaleYoung>Macho Jovem</AnimalMaleYoung>
   <!-- EN: Female adult -->
-  <AnimalFemaleAdult>Fêmea adulta</AnimalFemaleAdult>
+  <AnimalFemaleAdult>Fêmea Adulta</AnimalFemaleAdult>
   <!-- EN: Female young -->
-  <AnimalFemaleYoung>Fêmea grávida</AnimalFemaleYoung>
+  <AnimalFemaleYoung>Fêmea Jovem</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
   <AnimalPregnant>Grávida</AnimalPregnant>
   <!-- EN: Bonded -->
@@ -1187,5 +1259,69 @@
   <RoomRequirementNoProductionFacilities>sem instalações de trabalho permitidas</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>sem altares permitidos</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>Fator alimentar máximo do estágio de vida</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Expandir tudo</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Retrair tudo</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>A tinta pode ser produzida a partir de tintória ou comprada de comerciantes.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>Alcance do zoom {0}</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>temperatura da cor</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>escolha uma cor</ChooseAColor>
+  <!-- EN: red -->
+  <Red>vermelho</Red>
+  <!-- EN: green -->
+  <Green>verde</Green>
+  <!-- EN: blue -->
+  <Blue>azul</Blue>
+  <!-- EN: hue -->
+  <Hue>mat.</Hue>
+  <!-- EN: sat -->
+  <Saturation>sat.</Saturation>
+  <!-- EN: value -->
+  <ColorValue>valor</ColorValue>
+  <!-- EN: darklight -->
+  <Darklight>luz negra</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>luz normal</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>cor atual</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>cor antiga</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>Copiar cor</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>Copie a cor atual para a área de transferência.</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>Colar cor</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>Substitua a cor pela cor da área de transferência.</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>A área de transferência não contém uma cor válida.</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>Cor copiada para a área de transferência.</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>Cor da área de transferência atualizada.</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>Alterar para luz normal</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>Altere a cor da luz para sua cor normal.</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>Alterar para luz negra</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>Altere a cor da luz para luz negra.</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>Escolha uma cor definindo a temperatura da cor. Nota: isso afeta apenas o visual da cor, não a produção de calor.</ColorTemperatureTooltip>
 
 </LanguageData>

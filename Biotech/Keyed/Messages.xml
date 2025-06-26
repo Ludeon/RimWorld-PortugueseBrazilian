@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
+  <MessageColonistReaching2ndTrimesterPregnancy>A gravidez de {PAWN_labelShort} progrediu do 1º para o 2º trimestre.</MessageColonistReaching2ndTrimesterPregnancy>
+  <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
+  <MessageColonistReaching3rdTrimesterPregnancy>A gravidez de {PAWN_labelShort} progrediu do 2º para o 3º trimestre.</MessageColonistReaching3rdTrimesterPregnancy>
+  <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
+  <MessageColonistInFinalStagesOfLabor>O trabalho de parto de {PAWN_labelShort} entrou nos estágios finais.</MessageColonistInFinalStagesOfLabor>
+
+  <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
+  <MessageMechChargerDestroyedMechGoesBerserk>Um carregador mecanoide foi destruído enquanto {PAWN_nameDef} estava carregando! A interrupção de energia embaralhou seu cérebro, e {PAWN_gender ? o : a} está enlouquecendo.</MessageMechChargerDestroyedMechGoesBerserk>
+
+  <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
+  <MessageCantUseOnResistingPerson>Não é possível usar {ABILITY_label} em qualquer pessoa que resista ativamente.</MessageCantUseOnResistingPerson>
+  <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
+  <MessageCannotUseOnSameXenotype>{0_labelShort} já possui o xenótipo {0_xenotype}.</MessageCannotUseOnSameXenotype>
+  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
+  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
+  <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Xenogerminadores só podem ser implantados em colonos, prisioneiros e escravos.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <!-- EN: Cannot implant in temporary faction members. -->
+  <MessageCannotImplantInTempFactionMembers>Não é possível implantar em membros temporários da facção.</MessageCannotImplantInTempFactionMembers>
+  <!-- EN: A xenogerm has been completed. -->
+  <MessageXenogermCompleted>Um xenogerminador foi concluído.</MessageXenogermCompleted>
+  <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
+  <MessageXenogermCancelledMissingPack>O trabalho no xenogerminador em {0_labelShort} foi cancelado: Faltando o pacote de genes necessário.</MessageXenogermCancelledMissingPack>
+  <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
+  <MessageAbsorbingXenogermWillAngerFaction>Absorver o xenogerminador de {PAWN_nameDef} irritará {0}.</MessageAbsorbingXenogermWillAngerFaction>
+  <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
+  <MessageCannotUseOnOtherFactions>{ABILITY_label} só pode ser usado em colonos, prisioneiros e escravos.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>TODO</MessageCannotBecomeNonPreferredXenotype>
+
+  <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
+  <MessageCaravanAddingEscortingMech>Adicionando automaticamente {MECH_nameDef} à caravana, pois está escoltando {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
+  <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
+  <MessageCaravanRemovingEscortingMech>Removendo automaticamente {MECH_nameDef} da caravana, pois está escoltando {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
+
+  <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
+  <MessageMechanitorCasketOpened>{0} era um mecanizador. Você pode remover sua {1_label} e usá-la em um colono.</MessageMechanitorCasketOpened>
+  
+  <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
+  <MessageNoBloodfeedersPrisonerInteractionReset>O modo de interação de alguns prisioneiros exigia um bebedor de sangue. Desde que o último bebedor de sangue se foi, seus modos de interação foram redefinidos para "Sem interação".</MessageNoBloodfeedersPrisonerInteractionReset>
+
+  <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
+  <MessagePregnancyTerminated>A gravidez de {PAWN_nameDef} foi encerrada com sucesso.</MessagePregnancyTerminated>
+  
+  <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
+  <!-- EN: Need unpolluted terrain. -->
+  <MessageWarningPollutedCell>Necessita de terreno não poluído.</MessageWarningPollutedCell>
+  <!-- EN: Need polluted terrain. -->
+  <MessageWarningNotPollutedCell>Necessita de terreno poluído.</MessageWarningNotPollutedCell>
+  <!-- EN: {0} has died because of pollution. -->
+  <MessagePlantDiedOfPollution>{0} morreu devido à poluição.</MessagePlantDiedOfPollution>
+  <!-- EN: {0} has died because of a lack of pollution. -->
+  <MessagePlantDiedOfNoPollution>{0} morreu por falta de poluição.</MessagePlantDiedOfNoPollution>
+  <!-- EN: Pollution has increased by {0} at {1}. -->
+  <MessageWorldTilePollutionChanged>A poluição aumentou de {0} para {1}.</MessageWorldTilePollutionChanged>
+  <!-- EN: A cocoon has been disturbed and is opening! -->
+  <MessageCocoonDisturbed>Um casulo foi perturbado e está se abrindo!</MessageCocoonDisturbed>
+  <!-- EN: Cocoons have been disturbed and are opening! -->
+  <MessageCocoonDisturbedPlural>Casulos foram perturbados e estão abrindo!</MessageCocoonDisturbedPlural>
+
+  <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} deve ser derrubado antes que você possa forçar {PAWN_pronoun} a reimplantar seu xenogerminador.</MessageTargetMustBeDownedToForceReimplant>
+
+  <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
+  <MessageWorkTypeDisabledAge>{0_nameDef} tem apenas {1} ano(s).O trabalho de {2} só pode ser feito a partir de {3} ano(s) de idade.</MessageWorkTypeDisabledAge>
+
+  <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
+  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} agora pode acordar do descanso mortal com segurança.</MessageDeathrestingPawnCanWakeSafely>
+
+  <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
+  <MessageMechanitorLostControlOfMech>{0_nameDef} perdeu o controle de um mecanoide {1_kindBase}</MessageMechanitorLostControlOfMech>
+  <!-- EN: {0_nameDef} has disconnected from {1_nameDef} mech. -->
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef} se desconectou do mecanoide {1_nameDef}</MessageMechanitorDisconnectedFromMech>
+
+  <!-- Xenogerm -->
+  <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
+  <MetabolismTooLowToCreateXenogerm>O metabolismo total dos genes selecionados deve ser {MIN} ou superior para continuar, mas atualmente é apenas {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
+  <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
+  <ComplexityTooHighToCreateXenogerm>A complexidade total dos genes selecionados deve ser {MAX} ou menos para criar um xenogerminador, mas atualmente é {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <!-- EN: Cannot create a xenogerm with no genes. -->
+  <MessageNoSelectedGenepacks>Não é possível criar um xenogerminador sem genes.</MessageNoSelectedGenepacks>
+  <!-- EN: Cannot create a xenotype with no genes. -->
+  <MessageNoSelectedGenes>Não é possível criar um xenótipo sem genes.</MessageNoSelectedGenes>
+  <!-- EN: {0_label} can only store {1} genepacks. -->
+  <CanOnlyStoreNumGenepacks>{0_label} só pode armazenar {1} pacotes de genes.</CanOnlyStoreNumGenepacks>
+  <!-- EN: Xenotype name cannot be empty. -->
+  <XenotypeNameCannotBeEmpty>O nome do xenotipo não pode ficar vazio.</XenotypeNameCannotBeEmpty>
+  <!-- EN: {0} lacks a prerequisite gene -->
+  <MessageGeneMissingPrerequisite>{0} não possui um gene de pré-requisito</MessageGeneMissingPrerequisite>
+
+  <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
+  <MessageDeathrestCapacityChanged>A capacidade de descanso de morte de {PAWN_nameDef} aumentou de {OLD} para {NEW}.</MessageDeathrestCapacityChanged>
+
+  <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
+  <SanguophagesArrivingSoon>Os sanguófagos chegarão em algumas horas para o encontro.</SanguophagesArrivingSoon>
+  <!-- EN: The sanguophages have begun their meeting. -->
+  <SanguophagesBegunMeeting>Os sanguófagos começaram sua reunião.</SanguophagesBegunMeeting>
+  <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
+  <SanguophagesLeavingTemperature>Os sanguófagos estão saindo devido à temperatura arriscada.</SanguophagesLeavingTemperature>
+
+  <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} foi acordado de seu descanso de morte devido à exposição à luz solar.</MessagePawnWokenFromSunlight>
+  <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
+  <MessageBedExposedToSunlight>O(a) {BED_labelShort} de {PAWN_nameDef} que é designado para uso em descanso mortal foi exposto à luz solar. {PAWN_nameDef} não pode descansar lá.</MessageBedExposedToSunlight>
+
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>TODO</GeneExtractorNoPowerEjectedMessage>
+
+  <!-- Mechanitor -->
+  <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
+  <MessagePawnKilledRipscanner>O cérebro de {PAWN_nameDef} foi destruído pelo scanner rompedor de subnúcleo.</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>TODO</MessageSubcoreSoftscannerCompleted>
+
+  <!-- EN: Cannot resurrect dessicated corpses. -->
+  <MessageCannotResurrectDessicatedCorpse>Não é possível ressuscitar cadáveres dessecados.</MessageCannotResurrectDessicatedCorpse>
+
+  <!-- EN: {0} is about to explode! -->
+  <MessageAboutToExplode>{0} está prestes a explodir!</MessageAboutToExplode>
+
+  <!-- Childcare -->
+  <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
+  <MessageChildcareDisabled>{FEEDER_labelShort} não pode realizar tarefas de cuidado infantil.</MessageChildcareDisabled>
+  <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} não foi designado para realizar tarefas de cuidado infantil.</MessageChildcareNotAssigned>
+
+  <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
+  <MessageTooManyCustomXenotypes>Você já tem o número máximo de xenótipos personalizados. Você deve excluir alguns se desejar criar mais.</MessageTooManyCustomXenotypes>
+  <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
+  <MessageConflictingGenesPresent>Não é possível salvar um xenótipo com vários genes conflitantes.</MessageConflictingGenesPresent>
+
+  <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
+  <MessageDeathrestBuildingBound>{BUILDING_labelShort} foi vinculado a {PAWN_nameDef} (capacidade de descanso de morte {CUR}/{MAX}).</MessageDeathrestBuildingBound>
+
+  <!-- EN: Developmental stage selection disabled by scenario. -->
+  <MessageDevelopmentalStageSelectionDisabledByScenario>Seleção de estágio de desenvolvimento desabilitada pelo cenário.</MessageDevelopmentalStageSelectionDisabledByScenario>
+
+  <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} não tinha sangue suficiente para produzir um pacote de hemogênio.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} não tem sangue suficiente para produzir um pacote de hemogênio.</MessageCannotStartHemogenExtraction>
+
+  <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
+  <MessageCannotPostponeGrowthMoment>Você deve escolher como {PAWN_nameDef} crescerá a partir de agora.</MessageCannotPostponeGrowthMoment>
+
+  <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
+  <MessageDraftedPawnCarryingBaby>Aviso: {0_labelShort} está carregando um bebê enquanto está alistado.</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>TODO</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>TODO</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>TODO</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>TODO</CombinedGenesExceedMetabolismLimits>
+
+</LanguageData>

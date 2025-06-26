@@ -9,7 +9,7 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->Você detectou um drone espacial em órbita que pode conter informações sobre [relic_name]. Você tem o código que o forçará a pousar em [map_definite].\n\nPara obter as informações, hackeie o computador do drone. Hackear leva tempo, mas aqueles com grande habilidade intelectual podem acelerar o processo.[raidsDescription]\n\nApós aterrisar, o drone espacial irá se autodestruir em [destroyDelayTicks_duration].</li>
+    <li>questDescription->Você detectou um drone espacial em órbita que pode conter informações sobre [relic_name]. Você tem o código que o forçará a pousar em [map_definite].\n\nPara obter as informações, hackeie o computador do drone. Hackear leva tempo, mas aqueles com grande habilidade intelectual podem acelerar o processo.[raidsDescription]\n\nApós aterrissar, o drone espacial se autodestruirá em [destroyDelayTicks_duration].</li>
     <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] irão [droneDetectionMethod]. Enquanto estiver presente, eles enviarão invasões aproximadamente a cada [raidIntervalAvg_duration] para destruí-lo e roubar a riqueza que eles acham que contém. Você terá algum tempo para preparar defesas antes que eles cheguem.</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->avistar o drone durante sua descida</li>
@@ -34,7 +34,7 @@
     <li>questName->hack do [drone] de [data]</li>
     <li>droneAdj->orbital</li>
     <li>droneAdj->de dados</li>
-    <li>droneAdj->antigo</li>
+    <li>droneAdj->ancestral</li>
     <li>drone->drone</li>
     <li>drone->drone espacial</li>
     <li>drone->criptodrone</li>

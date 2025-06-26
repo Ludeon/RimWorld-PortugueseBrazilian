@@ -47,7 +47,7 @@ Este programa lhe permite fazer comparações entre até três arquivos, para ve
 
 #### Criando uma conta no GitHub
 
-1. Para começar a traduzir, caso ainda não possua uma conta no GitHub, você irá precisar criar uma em [github.com](https://github.com/join?source=header-home);
+1. Para começar a traduzir, caso ainda não possua uma conta no GitHub, você precisará criar uma em [github.com](https://github.com/join?source=header-home);
 2. Preencha os campos de usuário (Username), Email (Email address) e senha (Password);
 3. Escolha o tipo de conta que será criada. 
     * Clique em **Individual** e depois **Choose Free**;

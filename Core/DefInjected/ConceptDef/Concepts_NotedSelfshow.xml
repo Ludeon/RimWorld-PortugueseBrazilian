@@ -14,7 +14,7 @@
   <!-- EN: Animal taming -->
   <AnimalTaming.label>Domesticação de animais</AnimalTaming.label>
   <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
-  <AnimalTaming.helpText>Você pode atribuir os colonos para domesticarem um animal selvagem com o designador de DOMESTICAR.\n\nOs colonos irão oferecer alimento ao animal e tentar domá-lo.\n\nCuidado: Alguns animais podem responder com violência a tentativas de domesticação fracassadas.</AnimalTaming.helpText>
+  <AnimalTaming.helpText>Você pode atribuir os colonos para domesticarem um animal selvagem com o designador de DOMESTICAR.\n\nOs colonos oferecerão alimento ao animal e tentar domá-lo.\n\nCuidado: Alguns animais podem responder com violência a tentativas de domesticação fracassadas.</AnimalTaming.helpText>
   
   <!-- EN: Animal training -->
   <AnimalTraining.label>Treinamento de animais</AnimalTraining.label>
@@ -25,11 +25,15 @@
   <CameraDolly.label>Movimento da câmera</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
   <CameraDolly.helpText>Mova a câmera clicando e arrastando o BOTÃO 3 DO MOUSE (botão do meio ou da direita) ou com as teclas {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  <!-- EN: Move the camera by using the D-pad. -->
+  <CameraDolly.helpTextController>Mova a câmera utilizando o D-pad.</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
   <CameraZoom.label>Zoom da câmera</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
   <CameraZoom.helpText>Aumente e diminua o zoom com a RODA DO MOUSE ou com as teclas {Key:MapZoom_In} e {Key:MapZoom_Out}.</CameraZoom.helpText>
+  <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
+  <CameraZoom.helpTextController>Aumente e diminua o zoom com {Key:MapZoom_In} e {Key:MapZoom_Out}.</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
   <ClickingMessages.label>Clicando nas mensagens</ClickingMessages.label>
@@ -44,12 +48,14 @@
   <!-- EN: Item deterioration -->
   <Deterioration.label>deterioração de item</Deterioration.label>
   <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
-  <Deterioration.helpText>Itens deixados ao ar livre irão se deteriorar lentamente.\n\nSe você deseja armazenar itens de longo prazo, os mantenha sob um telhado.</Deterioration.helpText>
+  <Deterioration.helpText>Itens deixados ao ar livre deteriorão lentamente.\n\nSe você deseja armazenar itens de longo prazo, os mantenha sob um telhado.</Deterioration.helpText>
   
   <!-- EN: Equipping weapons -->
   <EquippingWeapons.label>Equipando armas</EquippingWeapons.label>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
   <EquippingWeapons.helpText>Os seus colonos chegaram com algumas armas. Equipe-os!\n\nSelecione cada colono e clique com o botão direito sobre a arma que você quer que eles equipem.</EquippingWeapons.helpText>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
+  <EquippingWeapons.helpTextController>Os seus colonos chegaram com algumas armas. Equipe-os!\n\nSelecione cada colono e pressione o gatilho esquerdo sobre a arma que você quer que eles equipem.</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
   <FirePreparation.label>Preparação contra fogo</FirePreparation.label>
@@ -59,7 +65,7 @@
   <!-- EN: Forbid and allow -->
   <Forbidding.label>Proibindo e permitindo</Forbidding.label>
   <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
-  <Forbidding.helpText>Os colonos não irão interagir com itens marcados como PROIBIDO.\n\nitens proibidos tem um pequeno X vermelho junto. Selecione um item proibido e use os controles na parte inferior para PERMITI-LO.</Forbidding.helpText>
+  <Forbidding.helpText>Os colonos não interagirão com itens marcados como PROIBIDO.\n\nitens proibidos tem um pequeno X vermelho junto. Selecione um item proibido e use os controles na parte inferior para PERMITI-LO.</Forbidding.helpText>
   
   <!-- EN: Forbidding doors -->
   <ForbiddingDoors.label>Proibindo portas</ForbiddingDoors.label>
@@ -73,13 +79,13 @@
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Segurança contra fogo amigo</FriendlyFireSafety.label>
-  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
-  <FriendlyFireSafety.helpText>O fogo amigo nunca ocorre se o atirador estiver perto de seu aliado.\n\nPor exemplo, você pode colocar com segurança um colono empunhando uma espada diretamente na frente de um que está empunhando uma arma de fogo. O atirador irá disparar por cima do ombro de seu amigo.\n\nEsta é uma boa maneira de combinar vários lutadores de corpo a corpo e os de distância</FriendlyFireSafety.helpText>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <FriendlyFireSafety.helpText>O fogo amigo nunca ocorre se o atirador estiver perto de seu aliado.\n\nPor exemplo, você pode colocar com segurança um colono empunhando uma espada diretamente a frente de um que está empunhando uma arma de fogo. O atirador disparará por cima do ombro de seu amigo.\n\nEsta é uma boa maneira de combinar lutadores corpo a corpo e longo alcance.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
   <GettingMoreTraders.label>Obtendo mais comerciantes</GettingMoreTraders.label>
   <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
-  <GettingMoreTraders.helpText>Mais caravanas comerciais virão visitá-lo se você estiver aliado com mais facções.\n\nSe você não tem aliados, caravanas nunca irão lhe visitar!\n\nVocê também pode pagar aos aliados para lhe enviarem caravanas de comércio chamando-os no console de comunicação.</GettingMoreTraders.helpText>
+  <GettingMoreTraders.helpText>Mais caravanas comerciais o visitarão se você estiver aliado com mais facções.\n\nSe você não tem aliados, caravanas nunca lhe visitarão!\n\nVocê também pode pagar aos aliados para lhe enviarem caravanas de comércio chamando-os no console de comunicação.</GettingMoreTraders.helpText>
   
   <!-- EN: Growing zones -->
   <GrowingFood.label>Zonas de cultivo</GrowingFood.label>
@@ -105,11 +111,6 @@
   <InfoCard.label>Cartão de informações</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
   <InfoCard.helpText>O cartão de informação lhe mostra estatísticas detalhadas sobre qualquer item, pessoa ou construção.\n\nSelecione uma pessoa ou item e abra o seu cartão de informação com o botão 'i' no painel de inspeção.</InfoCard.helpText>
-  
-  <!-- EN: Room stats inspector -->
-  <InspectRoomStats.label>Inspecionando a estatísticas de sala</InspectRoomStats.label>
-  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
-  <InspectRoomStats.helpText>Você pode inspecionar a impressão, riqueza e beleza de quartos individuais usando ESTATÍSTICAS DE SALAS alterando ela no canto inferior direito.</InspectRoomStats.helpText>
   
   <!-- EN: Manual work priorities -->
   <ManualWorkPriorities.label>Prioridades de trabalho manuais</ManualWorkPriorities.label>
@@ -144,7 +145,7 @@
   <!-- EN: Spoilage and freezers -->
   <SpoilageAndFreezers.label>Deterioração e congeladores</SpoilageAndFreezers.label>
   <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
-  <SpoilageAndFreezers.helpText>A maioria dos produtos alimentares irão estragar depois de um tempo relativamente curto.\n\nPara prevenir isto, você pode construir uma câmara frigorífica.\n\nPara construir um refrigerador, construa uma sala fechada, e coloque um ou dois refrigeradores na parede. Defina os congeladores com uma temperatura alvo negativa.\n\nAlimentos congelados nunca irão estragar.</SpoilageAndFreezers.helpText>
+  <SpoilageAndFreezers.helpText>A maioria dos produtos alimentares estragarão depois de um tempo relativamente curto.\n\nPara prevenir isto, você pode construir uma câmara frigorífica.\n\nPara construir um refrigerador, construa uma sala fechada, e coloque um ou dois refrigeradores na parede. Defina os congeladores com uma temperatura alvo negativa.\n\nAlimentos congelados nunca estragarão.</SpoilageAndFreezers.helpText>
   
   <!-- EN: Stockpiles -->
   <Stockpiles.label>Estoques</Stockpiles.label>
@@ -154,7 +155,12 @@
   <!-- EN: Storage tab -->
   <StorageTab.label>Aba de armazenamento</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
-  <StorageTab.helpText>Você pode configurar estoques e contruções de armazenamento selecionando-os e abrindo a aba ARMAZÉM acima do painel Inspetor do canto inferior esquerdo.\n\nNa aba de armazém de um estoque, você pode expandir as categorias para permitir ou negar itens específicos. Clique nos triângulos à esquerda da categoria de nomes.\n\nVocê pode alterar a prioridade de armazenamento. Os colonos irão encher estoques de alta prioridade primeiro, e mover itens de menor prioridade para a de maior.</StorageTab.helpText>
+  <StorageTab.helpText>Você pode configurar estoques e contruções de armazenamento selecionando-os e abrindo a aba ARMAZÉM acima do painel Inspetor do canto inferior esquerdo.\n\nNa aba de armazém de um estoque, você pode expandir as categorias para permitir ou negar itens específicos. Clique nos triângulos à esquerda da categoria de nomes.\n\nVocê pode alterar a prioridade de armazenamento. Os colonos encherão estoques de alta prioridade primeiro, e mover itens de menor prioridade para a de maior.</StorageTab.helpText>
+  
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>Inspetor de ladrilho</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>Você pode inspecionar detalhes de um ladrilho segurando {Key:ShowCellInspector}. Isso exibirá seu conteúdo, as informações da sala, sua beleza e mais.</TileInspector.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>Atribuições tempo</TimeAssignments.label>
@@ -165,6 +171,8 @@
   <TimeControls.label>Controles do tempo</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.helpText>Você pode acelerar o tempo.\n\nTente controlar o tempo com as teclas {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, e {Key:TimeSpeed_Superfast}, ou com os controles de tempo na parte inferior direita.</TimeControls.helpText>
+  <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.helpTextController>Você pode acelerar o tempo.\n\nTente controlar o tempo com {Key:TimeSpeed_Faster} e {Key:TimeSpeed_Slower}, ou com os controles de tempo na parte inferior direita.</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
   <WorkTab.label>Configurações de trabalho</WorkTab.label>

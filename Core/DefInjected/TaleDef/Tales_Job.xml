@@ -21,21 +21,27 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
   -->
   <AttendedParty.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] assistindo a festa de [ORGANIZER_nameDef]</li>
-    <li>tale_noun->[ATTENDER_nameDef] relaxando com [ORGANIZER_nameDef] numa festa</li>
-    <li>image->[ATTENDER_nameFull] teve uma conversa com [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] pegou uma bebida para [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] Conversou com [ORGANIZER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] recebeu [ATTENDER_nameFull] [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] inseriu [ATTENDER_nameFull] to a friend [circumstance_group]</li>
+    <li>tale_noun->a [ATTENDER_nameDef] participando da festa de [ORGANIZER_nameDef]</li>
+    <li>tale_noun->a [ATTENDER_nameDef] relaxando com [ORGANIZER_nameDef] em uma festa</li>
+    <li>tale_nounD->e [ATTENDER_nameDef] participando da festa de [ORGANIZER_nameDef]</li>
+    <li>tale_nounD->e [ATTENDER_nameDef] relaxando com [ORGANIZER_nameDef] em uma festa</li>
+    <li>image->[ATTENDER_nameFull] tendo uma conversa com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] pegando uma bebida para [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] conversando com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] recebendo [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] apresentando [ATTENDER_nameFull] a um amigo [circumstance_group]</li>
+    <li>imageD->e [ATTENDER_nameFull] tendo uma conversa com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ATTENDER_nameFull] pegando uma bebida para [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ATTENDER_nameFull] conversando com [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ORGANIZER_nameFull] recebendo [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>imageD->e [ORGANIZER_nameFull] apresentando [ATTENDER_nameFull] a um amigo [circumstance_group]</li>
     <li>circumstance_phrase->com um largo sorriso</li>
-    <li>circumstance_phrase->com uma risada</li>
-    <li>circumstance_phrase->com um(a) [AdjectiveFriendly] sorrindo</li>
+    <li>circumstance_phrase->enquanto ria</li>
+    <li>circumstance_phrase->com um sorriso [AdjectiveFriendly]</li>
     <li>circumstance_phrase->enquanto ria alto</li>
-    <li>circumstance_phrase->enquanto [AdjectiveFriendly]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] estão envolvidos na conversa.</li>
-    <li>desc_sentence->A área é decorada com [Color] e [Color].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] jogar nas proximidades.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s estão envolvidos na conversa.</li>
+    <li>desc_sentence->A área é decorada com as cores [Color] e [Color].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s brincam nas proximidades.</li>
   </AttendedParty.rulePack.rulesStrings>
   
   <!-- EN: built snowman -->
@@ -57,20 +63,26 @@
     <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
   -->
   <BuiltSnowman.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] construindo um boneco de neve</li>
-    <li>tale_noun->[PAWN_nameDef] brincando na neve</li>
-    <li>image->[PAWN_nameFull] formando uma bola de neve [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] rolando uma bola gigante de neve no chão [circumstance_group]</li>
+    <li>tale_noun->a [PAWN_nameDef] construindo um boneco de neve</li>
+    <li>tale_noun->a [PAWN_nameDef] brincando na neve</li>
+    <li>tale_nounD->e [PAWN_nameDef] construindo um boneco de neve</li>
+    <li>tale_nounD->e [PAWN_nameDef] brincando na neve</li>
+    <li>image->[PAWN_nameFull] fazendo uma bola de neve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolando uma bola gigante de neve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] arrumando [Vegetable]s no rosto do boneco [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] deitado na neve [circumstance_group]</li>
-    <li>circumstance_phrase->enquanto enrolado em [Quantity_adjphrase] jaqueta</li>
-    <li>circumstance_phrase->enquanto obscurecido em uma tempestade de neve leve</li>
-    <li>circumstance_phrase->enquanto seus amigos constroem um forte</li>
-    <li>circumstance_phrase->enquanto seus amigos constroem uma família de boneco de neve</li>
-    <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
-    <li>desc_sentence->À distância, uma [Community] está coberta de neve.</li>
+    <li>image->[PAWN_nameFull] deitando-se na neve [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] fazendo uma bola de neve [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] rolando uma bola gigante de neve [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] arrumando [Vegetable]s no rosto do boneco [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] deitando-se na neve [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto enrola-se em sua jaqueta</li>
+    <li>circumstance_phrase->enquanto observa uma tempestade de neve leve</li>
+    <li>circumstance_phrase->enquanto os outros constroem um forte</li>
+    <li>circumstance_phrase->enquanto os outros constroem uma família de boneco de neve</li>
+    <li>desc_sentence->Uma aurora de cor [Color] brilha no fundo.</li>
+    <li>desc_sentence->À distância, um(a) [Community] é visível coberto(a) de neve.</li>
     <li>desc_sentence->Um campo de [Vegetable]s é um pouco visível através da neve.</li>
-    <li>desc_sentence->Um [TerrainFeature] coberto de neve pode ser visto de longe.</li>
+    <li>desc_sentence->Um(a) [TerrainFeature] coberto(a) de neve pode ser visto(a) de longe.</li>
   </BuiltSnowman.rulePack.rulesStrings>
   
   <!-- EN: buried corpse -->
@@ -97,24 +109,31 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <BuriedCorpse.rulePack.rulesStrings>
-    <li>tale_noun->[DIGGER_nameDef] enterrando [CORPSE_nameDef]</li>
-    <li>tale_noun->[DIGGER_nameDef] colocando [CORPSE_nameDef] para descansar</li>
-    <li>image->[DIGGER_nameFull] está em pé ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] está sentado ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] está encostado no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] está escrevendo um texto na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] está pintando uma arte na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[DIGGER_nameFull] está colocando o corpo de [CORPSE_nameFull] dentro de uma sepultura [circumstance_group]</li>
+    <li>tale_noun->a [DIGGER_nameDef] enterrando [CORPSE_nameDef]</li>
+    <li>tale_noun->a [DIGGER_nameDef] colocando [CORPSE_nameDef] para descansar</li>
+    <li>tale_nounD->e [DIGGER_nameDef] enterrando [CORPSE_nameDef]</li>
+    <li>tale_nounD->e [DIGGER_nameDef] colocando [CORPSE_nameDef] para descansar</li>
+    <li>image->[DIGGER_nameFull] em pé ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] sentado(a) ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] encostado(a) no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] escrevendo um texto na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] pintando uma arte na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] colocando o corpo de [CORPSE_nameFull] dentro de uma sepultura [circumstance_group]</li>
+    <li>imageD->e [DIGGER_nameFull] em pé ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>imageD->e [DIGGER_nameFull] sentado(a) ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>imageD->e [DIGGER_nameFull] encostado(a) no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>imageD->e [DIGGER_nameFull] escrevendo um texto na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>imageD->e [DIGGER_nameFull] pintando uma arte na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>imageD->e [DIGGER_nameFull] colocando o corpo de [CORPSE_nameFull] dentro de uma sepultura [circumstance_group]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
-    <li>circumstance_phrase->e consumido em pensamentos</li>
-    <li>circumstance_phrase->enquanto admira a distância [TerrainFeature]</li>
-    <li>circumstance_phrase->falando baixinho para o memorial</li>
-    <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
-    <li>desc_sentence->À distância, uma [Community] está coberta de neve.</li>
+    <li>circumstance_phrase->enquanto é consumido(a) em pensamentos</li>
+    <li>circumstance_phrase->enquanto admira um(a) [TerrainFeature] distante</li>
+    <li>circumstance_phrase->enquanto sussura com o memorial</li>
+    <li>desc_sentence->Uma aurora de cor [Color] brilha no fundo.</li>
+    <li>desc_sentence->À distância, um(a) [Community] é visível coberto(a) de neve.</li>
     <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] examina a cena com uma expressão [AdjectiveFriendly].</li>
-    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [DIGGER_nameDef], usando uma expressão [AdjectiveFriendly].</li>
+    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [DIGGER_nameDef].</li>
     <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] examina a cena com uma expressão [AdjectiveAngsty].</li>
-    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [DIGGER_nameDef], usando uma expressão [AdjectiveAngsty].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansam perto da cena.</li>
   </BuriedCorpse.rulePack.rulesStrings>
   
@@ -138,21 +157,26 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] terminou a construção de [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] está montando um aparelho complicado dentro de um [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está polindo a superfície de um [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está adicionando detalhes da superfície de [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está inscrevendo seu nome em um [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->com um brilho no olho [PAWN_objective]</li>
-    <li>circumstance_phrase->enquanto limpa o suor da testa [PAWN_objective]</li>
-    <li>circumstance_phrase->enquanto coberto de sujeira</li>
+    <li>tale_noun->a [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] contruindo um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polindo a superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adicionando detalhes à superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscrevendo seu nome em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] contruindo um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] polindo a superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] adicionando detalhes à superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] inscrevendo seu nome em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->com um brilho em seu olho</li>
+    <li>circumstance_phrase->enquanto limpa o suor de sua testa</li>
+    <li>circumstance_phrase->enquanto cobre-se de sujeira</li>
     <li>circumstance_phrase->enquanto sorri orgulhosamente</li>
-    <li>circumstance_phrase->com uma expressão satisfeita no rosto [PAWN_objective]</li>
-    <li>desc_sentence->O [OBJECT_label] parece ter uma torre acima de [PAWN_nameDef].</li>
-    <li>desc_sentence->O [OBJECT_label] brilha vuavemente [Color].</li>
-    <li>desc_sentence->O [OBJECT_label] é extremamente detalhado.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s maravilhe-se com o [OBJECT_label].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s olhar admirado.</li>
+    <li>circumstance_phrase->com uma expressão satisfeita em seu rosto</li>
+    <li>desc_sentence->O(a) [OBJECT_label] parece sobrepôr [PAWN_nameDef].</li>
+    <li>desc_sentence->O(a) [OBJECT_label] brilha suavemente em uma cor [Color].</li>
+    <li>desc_sentence->O(a) [OBJECT_label] é extremamente detalhado(a).</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s maravilham-se com o(a) [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observam admirados.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
@@ -175,21 +199,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] terminou a construção de [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] está montando um aparelho complicado dentro da [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está polindo a superfície de [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está adicionando detalhes a superfície da [OBJECT_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está escrevendo seu nome na [OBJECT_label] [circumstance_group]</li>
-    <li>circumstance_phrase->com um brilho em seu olhar</li>
-    <li>circumstance_phrase->enquanto limpando o suor de sua testa</li>
-    <li>circumstance_phrase->enquanto está coberto de sujeira</li>
+    <li>tale_noun->a [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] terminando a construção de um(a) [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] trabalhando em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polindo a superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adicionando detalhes à superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscrevendo seu nome em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] trabalhando em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] polindo a superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] adicionando detalhes à superfície de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] inscrevendo seu nome em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->com um brilho em seus olhos</li>
+    <li>circumstance_phrase->enquanto limpa o suor de sua testa</li>
+    <li>circumstance_phrase->enquanto cobre-se de sujeira</li>
     <li>circumstance_phrase->enquanto sorri orgulhosamente</li>
-    <li>circumstance_phrase->com uma expressão satisfatória em sua face</li>
-    <li>desc_sentence->A [OBJECT_label] brilha suavemente [Color].</li>
-    <li>desc_sentence->A [OBJECT_label] é muito detalhado(a).</li>
-    <li>desc_sentence->[PAWN_nameDef] levanta o [OBJECT_label] sem muito esforço.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s maravilhe-se com o dispositivo.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s olha admirado.</li>
+    <li>desc_sentence->O(a) [OBJECT_label] brilha suavemente em uma cor [Color].</li>
+    <li>desc_sentence->O(a) [OBJECT_label] é extremamente detalhado(a).</li>
+    <li>desc_sentence->[PAWN_nameDef] levanta o(a) [OBJECT_label] sem muito esforço.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s maravilham-se com o(a) [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observam admirados.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
@@ -212,20 +240,23 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] entrando em criptosono</li>
-    <li>image->[PAWN_nameFull] deitado dentro de um sarcófago de criptosono [circumstance_group]</li>
+    <li>tale_noun->a [PAWN_nameDef] entrando em um sarcófago de criptosono</li>
+    <li>tale_noun->e [PAWN_nameDef] entrando em um sarcófago de criptosono</li>
+    <li>image->[PAWN_nameFull] deitado(a) em um sarcófago de criptosono [circumstance_group]</li>
     <li>image->[PAWN_nameFull] abrindo um sarcófago de criptosono vazio [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] se selando dentro de um sarcófago de criptosono [circunstance_group]</li>
-    <li>image->[PAWN_nameFull] olhando através da parede de um sarcófago de criptosono em um mundo que ele esta prestes a sair [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] selando-se em um sarcófago de criptosono [circunstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] deitado(a) em um sarcófago de criptosono [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] abrindo um sarcófago de criptosono vazio [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] selando-se em um sarcófago de criptosono [circunstance_group]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
-    <li>circumstance_phrase->enquanto consumido em pensamentos</li>
-    <li>circumstance_phrase->enquanto olha para um(a) distante [TerrainFeature]</li>
-    <li>circumstance_phrase->enquanto fala baixinho para si mesmos</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansa perto da cena.</li>
+    <li>circumstance_phrase->enquanto é consumido(a) por pensamentos</li>
+    <li>circumstance_phrase->enquanto olha para um(a) [TerrainFeature] distante</li>
+    <li>circumstance_phrase->enquanto sussura sozinho(a)</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansam perto da cena.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se aproxima da área.</li>
     <li>desc_sentence->[PAWN_nameDef] irradia determinação.</li>
-    <li>desc_sentence->[PAWN_nameDef] está visivelmente ferido.</li>
-    <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
+    <li>desc_sentence->[PAWN_nameDef] está visivelmente ferido(a).</li>
+    <li>desc_sentence->Uma aurora de cor [Color] brilha no fundo.</li>
     <li>desc_sentence->[Quantity_adjphrase] sarcófagos de criptosono preenchidos cercam a cena.</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
   
@@ -250,22 +281,22 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está se tornando um mestre na habilidade de [SKILL_label]</li>
-    <li>image->[PAWN_nameFull] está praticando a habilidade de [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está lendo um livro sobre métodos de [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está recebendo treinamento na habilidade de [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está operando sem parar [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está terminando um projeto [circumstance_group]</li>
-    <li>circumstance_phrase->enquanto está coberto de suor</li>
+    <li>tale_noun->a [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>image->[PAWN_nameFull] praticando a habilidade de [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lendo um livro sobre [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] recebendo treinamento em [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] trabalhando sem parar [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] terminando um projeto [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto cobre-se de suor</li>
     <li>circumstance_phrase->com exaustão visível</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
     <li>circumstance_phrase->com uma expressão entediada</li>
-    <li>desc_sentence->A cena é cercada por [Quantity_adjphrase] experiências com falhas.</li>
     <li>desc_sentence->A cena é cercada por [Quantity_adjphrase] livros.</li>
-    <li>desc_sentence->Sua habilidade é visível no trabalho.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s assistem com espanto.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s assistem com espanto.</li>
-    <li>desc_sentence->[Quantity_adjphrase] espíritos dos antigos mestres observam de cima.</li>
+    <li>desc_sentence->Sua habilidade é visível em seu trabalho.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observam com espanto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam com espanto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] espíritos de mestres antigos observam a cena de cima.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
   <!-- EN: gained master skill with passion -->
@@ -291,24 +322,27 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] está se tornando um mestre na habilidade de [SKILL_label]</li>
-    <li>image->[PAWN_nameFull] está praticando a habilidade de [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está lendo um livro sobre métodos de [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está recebendo treinamento na habilidade de [SKILL_label] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está operando sem parar [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] está terminando um projeto [circumstance_group]</li>
+    <li>tale_noun->a [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] se tornando um mestre na habilidade de [SKILL_label]</li>
+    <li>image->[PAWN_nameFull] praticando a habilidade de [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lendo um livro sobre [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] recebendo treinamento na habilidade de [SKILL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] trabalhando sem parar [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] terminando um projeto [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] praticando a habilidade de [SKILL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] lendo um livro sobre [SKILL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] recebendo treinamento na habilidade de [SKILL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] trabalhando sem parar [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] terminando um projeto [circumstance_group]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveFriendly]</li>
     <li>circumstance_phrase->com uma expressão alegre</li>
-    <li>circumstance_phrase->enquanto [VerbFriendly]</li>
-    <li>circumstance_phrase->com um grito exuberante</li>
-    <li>circumstance_phrase->enquanto está coberto de suor</li>
+    <li>circumstance_phrase->enquanto cobre-se de suor</li>
     <li>circumstance_phrase->com exaustão visível</li>
-    <li>desc_sentence->A cena é cercada por [Quantity_adjphrase] experiências com falhas.</li>
     <li>desc_sentence->A cena é cercada por [Quantity_adjphrase] livros.</li>
-    <li>desc_sentence->Sua habilidade é visível no trabalho.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s assistem com espanto.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s assistem com espanto.</li>
-    <li>desc_sentence->[Quantity_adjphrase] espíritos dos antigos mestres observam de cima.</li>
+    <li>desc_sentence->Sua habilidade é visível em seu trabalho.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s observam com espanto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s observam com espanto.</li>
+    <li>desc_sentence->[Quantity_adjphrase] espíritos de mestres antigos observam a cena de cima.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
   
   <!-- EN: increased menagerie -->
@@ -319,8 +353,8 @@
     <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[HUMAN_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
     <li>circumstance_phrase->with great care and caution</li>
     <li>circumstance_phrase->with a smile</li>
     <li>circumstance_phrase->while exhausted but happy</li>
@@ -331,23 +365,27 @@
     <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
   -->
   <IncreasedMenagerie.rulePack.rulesStrings>
-    <li>tale_noun->[HUMAN_nameDef] está recrutando outro animal para o crescimento [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recrutando ainda outro animal para o crescimento [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] recrutando ainda outro animal para o crescimento [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] sendo seguido por um [AnimalGroup]</li>
-    <li>tale_noun->[HUMAN_nameDef] está domando de [ANIMAL_nameDef]</li>
+    <li>tale_noun->a [HUMAN_nameDef] recrutando outro animal para seu(ua) [AnimalGroup] crescente</li>
+    <li>tale_noun->a [HUMAN_nameDef] sendo seguido(a) por um(a) [AnimalGroup]</li>
+    <li>tale_noun->a [HUMAN_nameDef] domando [ANIMAL_nameDef]</li>
+    <li>tale_nounD->e [HUMAN_nameDef] recrutando outro animal para seu(ua) [AnimalGroup] crescente</li>
+    <li>tale_nounD->e [HUMAN_nameDef] sendo seguido(a) por um(a) [AnimalGroup]</li>
+    <li>tale_nounD->e [HUMAN_nameDef] domando [ANIMAL_nameDef]</li>
     <li>image->[HUMAN_nameFull] domando [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[HUMAN_nameFull] oferecendo um pouco de comida para [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] sussurrando para um skittish [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[HUMAN_nameFull] acalma um wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] sussurrando para um(a) arisco(a) [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] acalmando um(a) [ANIMAL_label] selvagem [circumstance_group]</li>
+    <li>imageD->e [HUMAN_nameFull] domando [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>imageD->e [HUMAN_nameFull] oferecendo um pouco de comida para [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>imageD->e [HUMAN_nameFull] sussurrando para um(a) arisco(a) [ANIMAL_label] [circumstance_group]</li>
+    <li>imageD->e [HUMAN_nameFull] acalmando um(a) [ANIMAL_label] selvagem [circumstance_group]</li>
     <li>circumstance_phrase->com muito cuidado e cautela</li>
-    <li>circumstance_phrase->com um sorriso</li>
-    <li>circumstance_phrase->enquanto exausto mas feliz</li>
+    <li>circumstance_phrase->com um sorriso em seu rosto</li>
     <li>circumstance_phrase->com um(a) [AnimalGroup] em segundo plano</li>
-    <li>desc_sentence->[HUMAN_nameDef] é cercado por incontáveis ​​[Animal] s.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] está se movendo para participar de um [AnimalGroup] de seus parentes.</li>
-    <li>desc_sentence->A cena está repleta de [Animal]s e [Animal] s.</li>
-    <li>desc_sentence->Uma linha de incontáveis ​​[Animal]s espera ser domada por [HUMAN_nameDef].</li>
+    <li>desc_sentence->[HUMAN_nameDef] é cercado(a) por incontáveis [Animal]s.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] está correndo para um(a) [AnimalGroup].</li>
+    <li>desc_sentence->A cena está repleta de [Animal]s e [Animal]s.</li>
+    <li>desc_sentence->Uma linha de incontáveis [Animal]s espera ser domada por [HUMAN_nameDef].</li>
   </IncreasedMenagerie.rulePack.rulesStrings>
   
   <!-- EN: meditated -->
@@ -369,19 +407,23 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Meditated.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] meditando</li>
-    <li>image->[PAWN_nameFull] sentado em uma árvore [TreeType], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sentado em silêncio, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] olhando para a distância e [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] fechando olhos [PAWN_objective] e [circumstance_group]</li>
-    <li>circumstance_phrase->irradiando serenidade</li>
+    <li>tale_noun->a [PAWN_nameDef] meditando</li>
+    <li>tale_nounD->e [PAWN_nameDef] meditando</li>
+    <li>image->[PAWN_nameFull] sentado(a) em uma árvore de [TreeType] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sentado(a) em silêncio [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] observando o horizonte [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] fechando seus olhos [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] sentado(a) em uma árvore de [TreeType] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] sentado(a) em silêncio [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] observando o horizonte [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] fechando seus olhos [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto irradia serenidade</li>
     <li>circumstance_phrase->com um sorriso tranquilo</li>
     <li>circumstance_phrase->com um sorriso estridente</li>
-    <li>circumstance_phrase->brilhando suavemente</li>
-    <li>circumstance_phrase->cercado por uma aura [Color]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s olham sobre [PAWN_pronoun].</li>
-    <li>desc_sentence->[PAWN_pronoun] é cercado por [Quantity_adjphrase] [Animal] s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansem em paz.</li>
+    <li>circumstance_phrase->enquanto cerca-se por uma aura [Color]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplam [PAWN_nameDef].</li>
+    <li>desc_sentence->[PAWN_nameDef] é cercado(a) por [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansam em paz.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s ficam boquiabertos com a cena.</li>
   </Meditated.rulePack.rulesStrings>
   
@@ -407,23 +449,28 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <MinedValuable.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] minando uma veia rica de [MATERIAL_label]</li>
-    <li>image->[PAWN_nameFull] trabalhando com uma parede [MATERIAL_label] com ferramentas de mineração, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] segurando um pedaço de [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] apoiado em uma parede de [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] coordena uma equipe de escavação contra uma veia rica de [MATERIAL_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] inspecionando cuidadosamente uma veia rica de [MATERIAL_label], [circumstance_group]</li>
-    <li>circumstance_phrase->suando muito</li>
-    <li>circumstance_phrase->usando uma expressão [AdjectiveFriendly]</li>
-    <li>circumstance_phrase->usando uma expressão [AdjectiveFriendly]</li>
-    <li>circumstance_phrase->sorrindo orgulhosamente</li>
-    <li>circumstance_phrase->uma expressão satisfeita na sua face</li>
-    <li>desc_sentence->[Quantity_adjphrase] ajuda [ally] s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] vagueia pela área.</li>
-    <li>desc_sentence->Existe uma [Community] em segundo plano.</li>
+    <li>tale_noun->a [PAWN_nameDef] minerando uma veia rica de [MATERIAL_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] minerando uma veia rica de [MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull] minerando uma parede de [MATERIAL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] segurando um pedaço de [MATERIAL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] apoiando-se em uma parede de [MATERIAL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordenando uma equipe de escavação contra uma veia rica de [MATERIAL_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inspecionando cuidadosamente uma veia rica de [MATERIAL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] minerando uma parede de [MATERIAL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] segurando um pedaço de [MATERIAL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] apoiando-se em uma parede de [MATERIAL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] coordenando uma equipe de escavação contra uma veia rica de [MATERIAL_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] inspecionando cuidadosamente uma veia rica de [MATERIAL_label] [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto soa muito</li>
+    <li>circumstance_phrase->com uma expressão [AdjectiveFriendly]</li>
+    <li>circumstance_phrase->com uma expressão [AdjectiveFriendly]</li>
+    <li>circumstance_phrase->enquanto sorri orgulhosamente</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s ajudam.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s vagam pela área.</li>
+    <li>desc_sentence->Existe um(a) [Community] no segundo plano.</li>
     <li>desc_sentence->[Quantity_adjphrase] veias adicionais são visíveis à distância.</li>
-    <li>desc_sentence->A [TerrainFeature] é visível à distância.</li>
-    <li>desc_sentence->[PAWN_nameDef] está suado e sujo do trabalho.</li>
+    <li>desc_sentence->Um(a) [TerrainFeature] é visível à distância.</li>
+    <li>desc_sentence->[PAWN_nameDef] está suado(a) e sujo(a) do trabalho.</li>
   </MinedValuable.rulePack.rulesStrings>
   
   <!-- EN: played game -->
@@ -455,30 +502,34 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
   -->
   <PlayedGame.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] relaxando em um [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] jogando em um [OBJECT_label]</li>
-    <li>tale_noun->[PAWN_nameDef] se divertindo em um [OBJECT_label]</li>
-    <li>image->[PAWN_nameFull] esperando em uma cadeira, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] posicionada sobre o [OBJECT_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ao lado do [OBJECT_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ganhando em um [OBJECT_label], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] perdendo em um [OBJECT_label], [circumstance_group]</li>
-    <li>circumstance_phrase->tensa com energia</li>
-    <li>circumstance_phrase->seu corpo solto e relaxado</li>
-    <li>circumstance_phrase->planejando sua próxima ação</li>
-    <li>circumstance_phrase->massageando suavemente os pulsos [PAWN_objective]</li>
-    <li>circumstance_phrase->[angstyverb] com uma expressão [AdjectiveAngsty]</li>
-    <li>circumstance_phrase->usando uma aparência [AdjectiveAngsty]</li>
-    <li>circumstance_phrase->[angstyverb]</li>
-    <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
-    <li>desc_sentence->À distância, uma [Community] é visível.</li>
-    <li>desc_sentence->À distância, um [TerrainFeature] é visível.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] s também estão jogando.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s reproduzem nas proximidades.</li>
+    <li>tale_noun->a [PAWN_nameDef] relaxando em um(a) [OBJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] jogando jogos em um(a) [OBJECT_label]</li>
+    <li>tale_noun->a [PAWN_nameDef] se divertindo em um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] relaxando em um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] jogando jogos em um(a) [OBJECT_label]</li>
+    <li>tale_nounD->e [PAWN_nameDef] se divertindo em um(a) [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] esperando em uma cadeira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sobre um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ao lado de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ganhando em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] perdendo em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] esperando em uma cadeira [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] sobre um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] ao lado de um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] ganhando em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] perdendo em um(a) [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->enquanto relaxa seu corpo</li>
+    <li>circumstance_phrase->enquanto planeja sua próxima ação</li>
+    <li>circumstance_phrase->enquanto massageia suavemente seus pulsos</li>
+    <li>desc_sentence->Uma aurora de cor [Color] brilha no fundo.</li>
+    <li>desc_sentence->À distância, um(a) [Community] é visível.</li>
+    <li>desc_sentence->À distância, um(a) [TerrainFeature] é visível.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s também estão jogando.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s brincam nas proximidades.</li>
     <li>desc_sentence->[PAWN_nameDef] está brilhando com uma aura [Color].</li>
-    <li>desc_sentence->[PAWN_nameDef] são exagerados.</li>
-    <li>desc_sentence->[PAWN_nameDef] se eleva acima da cena.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] s estão derrotados.</li>
+    <li>desc_sentence->Os recursos [PAWN_nameDef] são abundantes.</li>
+    <li>desc_sentence->[PAWN_nameDef] se destaca na cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s são derrotados.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
@@ -501,20 +552,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Prayed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] orando</li>
-    <li>tale_noun->[PAWN_nameDef] rezando para um poder maior</li>
-    <li>image->[PAWN_nameFull] olhando para a distância e [circumstance_group]</li>
+    <li>tale_noun->a [PAWN_nameDef] orando</li>
+    <li>tale_noun->a [PAWN_nameDef] rezando</li>
+    <li>tale_nounD->e [PAWN_nameDef] orando</li>
+    <li>tale_nounD->e [PAWN_nameDef] rezando</li>
+    <li>image->[PAWN_nameFull] olhando o horizonte e [circumstance_group]</li>
     <li>image->[PAWN_nameFull] fechando seus olhos e [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] apertando as mãos [PAWN_objective] e [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] olhando para o céu e [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] apertando suas mãos e [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] olhando o céu e [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] olhando o horizonte e [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] fechando seus olhos e [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] apertando suas mãos e [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] olhando o céu e [circumstance_group]</li>
     <li>circumstance_phrase->irradiando serenidade</li>
     <li>circumstance_phrase->sussurrando suavemente</li>
-    <li>circumstance_phrase->vestindo uma expressão esperançosa</li>
     <li>circumstance_phrase->brilhando suavemente</li>
-    <li>circumstance_phrase->cercado por uma aura [Color]</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s olham sobre [PAWN_pronoun].</li>
-    <li>desc_sentence->[PAWN_pronoun] é cercado por [Quantity_adjphrase] [Animal]s.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansem em paz.</li>
+    <li>circumstance_phrase->cercando-se por uma aura [Color]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplam [PAWN_nameDef].</li>
+    <li>desc_sentence->[PAWN_pronoun] é cercado(a) por [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansam em paz.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s ficam boquiabertos com a cena.</li>
   </Prayed.rulePack.rulesStrings>
   
@@ -538,21 +594,26 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[CARRIER_nameDef] colocando [SLEEPER_nameDef] em criptosono</li>
+    <li>tale_noun->a [CARRIER_nameDef] colocando [SLEEPER_nameDef] em um sarcófago de criptosono</li>
+    <li>tale_nounD->e [CARRIER_nameDef] colocando [SLEEPER_nameDef] em um sarcófago de criptosono</li>
     <li>image->[CARRIER_nameFull] colocando [SLEEPER_nameDef] dentro de um sarcófago de criptosono [circumstance_group]</li>
-    <li>image->[CARRIER_nameFull] abrindo um sarcófago de criptosono vazio enquanto suporta [SLEEPER_nameDef] [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] abrindo um sarcófago de criptosono [circumstance_group]</li>
     <li>image->[CARRIER_nameFull] selando [SLEEPER_nameDef] dentro de um sarcófago de criptosono [circumstance_group]</li>
-    <li>imagem->[CARRIER_nameFull] indo embora enquanto [SLEEPER_nameDef] olha através da parede de um sarcófago de criptosono [circunstance_group]</li>
+    <li>image->[CARRIER_nameFull] indo embora enquanto [SLEEPER_nameDef] o(a) observa do sarcófago de criptosono</li>
+    <li>imageD->e [CARRIER_nameFull] colocando [SLEEPER_nameDef] dentro de um sarcófago de criptosono [circumstance_group]</li>
+    <li>imageD->e [CARRIER_nameFull] abrindo um sarcófago de criptosono [circumstance_group]</li>
+    <li>imageD->e [CARRIER_nameFull] selando [SLEEPER_nameDef] dentro de um sarcófago de criptosono [circumstance_group]</li>
+    <li>imageD->e [CARRIER_nameFull] indo embora enquanto [SLEEPER_nameDef] o(a) observa do sarcófago de criptosono</li>
     <li>circumstance_phrase (p = 3)->com uma expressão [AdjectiveAny]</li>
-    <li>circumstance_phrase->enquanto consumido em pensamentos</li>
-    <li>circumstance_phrase->enquanto olha para um distante [TerrainFeature]</li>
-    <li>circumstance_phrase->com tensão visível entre os dois</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] descansa perto da cena.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] se aproxima da área.</li>
+    <li>circumstance_phrase->enquanto é consumido(a) em pensamentos</li>
+    <li>circumstance_phrase->enquanto observa um(a) [TerrainFeature] distante</li>
+    <li>circumstance_phrase->enquanto o ambiente é consumido por tensão</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansam perto da cena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s se aproximam da área.</li>
     <li>desc_sentence->[CARRIER_nameDef] irradia determinação.</li>
-    <li>desc_sentence->[SLEEPER_nameDef] está visivelmente ferido.</li>
-    <li>desc_sentence->[SLEEPER_nameDef] parece esgotado.</li>
-    <li>desc_sentence->[Quantity_adjphrase] sarcófagos de criptosono preenchidos cercam a cena.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] está visivelmente ferido(a).</li>
+    <li>desc_sentence->[SLEEPER_nameDef] parece esgotado(a).</li>
+    <li>desc_sentence->[Quantity_adjphrase] sarcófagos de criptosono cercam a cena.</li>
   </PutIntoCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: stripped -->
@@ -575,21 +636,22 @@
     <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
   -->
   <Stripped.rulePack.rulesStrings>
-    <li>tale_noun->[TAKER_nameDef] retirando [STRIPPED_nameDef]</li>
-    <li>image->[TAKER_nameFull] despersonando [STRIPPED_nameFull] em público [circumstance_group]</li>
+    <li>tale_noun->a [TAKER_nameDef] despindo [STRIPPED_nameDef]</li>
+    <li>tale_nounD->e [TAKER_nameDef] despindo [STRIPPED_nameDef]</li>
+    <li>image->[TAKER_nameFull] despindo [STRIPPED_nameFull] em público [circumstance_group]</li>
     <li>image->[TAKER_nameFull] removendo as roupas de [STRIPPED_nameFull] [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] segurando uma porção de [Apparel] s ao lado de [STRIPPED_nameFull], que está completamente nu [circumstance_group]</li>
-    <li>image->[TAKER_nameFull] esperando pacientemente enquanto [STRIPPED_nameFull] remove suas roupas [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] segurando uma porção de [Apparel]s ao lado de [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>imageD->e [TAKER_nameFull] despindo [STRIPPED_nameFull] em público [circumstance_group]</li>
+    <li>imageD->e [TAKER_nameFull] removendo as roupas de [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>imageD->e [TAKER_nameFull] segurando uma porção de [Apparel]s ao lado de [STRIPPED_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->com um senso de propósito</li>
-    <li>circumstance_phrase->sem nenhum sinal de vergonha</li>
-    <li>circumstance_phrase->enquanto outros procuram</li>
+    <li>circumstance_phrase->enquanto outros observam</li>
     <li>circumstance_phrase->sem motivo aparente</li>
     <li>circumstance_phrase->enquanto animais confusos observam</li>
-    <li>desc_sentence->[STRIPPED_nameDef] está visivelmente excitado.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] é coberto por umidade inexplicável.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] está respirando pesadamente sem nenhum motivo óbvio.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] está visivelmente excitado(a).</li>
+    <li>desc_sentence->[STRIPPED_nameDef] está coberto(a) por umidade.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] está respirando pesadamente.</li>
     <li>desc_sentence->[STRIPPED_nameDef] está acariciando um arbusto.</li>
-    <li>desc_sentence->[STRIPPED_nameDef] usa apenas uma expressão [AdjectiveAngsty].</li>
   </Stripped.rulePack.rulesStrings>
   
   <!-- EN: visited grave -->
@@ -615,24 +677,23 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <VisitedGrave.rulePack.rulesStrings>
-    <li>tale_noun->[VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
-    <li>tale_noun->[VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
+    <li>tale_noun->a [VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
+    <li>tale_nounD->e [VISITOR_nameDef] visitando o túmulo de [CORPSE_nameDef]</li>
     <li>image->[VISITOR_nameFull] ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>imagem->[VISITOR_nameFull] sentado ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[VISITOR_nameFull] apoiado no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>imagem->[VISITOR_nameFull] sentado(a) ao lado da sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] apoiado(a) no túmulo de [CORPSE_nameFull] [circumstance_group]</li>
     <li>image->[VISITOR_nameFull] lendo o texto na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
-    <li>image->[VISITOR_nameFull] olhando a arte na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] observando a arte na sepultura de [CORPSE_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->com uma expressão [AdjectiveAngsty]</li>
-    <li>circumstance_phrase->e consumido em pensamentos</li>
-    <li>circumstance_phrase->enquanto olha para um distante [TerrainFeature]</li>
-    <li>circumstance_phrase->e falando baixinho para o memorial</li>
+    <li>circumstance_phrase->enquanto é consumido(a) em pensamentos</li>
+    <li>circumstance_phrase->enquanto sussura com o memorial</li>
     <li>desc_sentence->Uma aurora [Color] brilha no fundo.</li>
     <li>desc_sentence->À distância, uma [Community] está coberta de neve.</li>
     <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] examina a cena com uma expressão [AdjectiveFriendly].</li>
-    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [VISITOR_nameDef], usando uma expressão [AdjectiveFriendly].</li>
+    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [VISITOR_nameDef], com uma expressão [AdjectiveFriendly].</li>
     <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] examina a cena com uma expressão [AdjectiveAngsty].</li>
-    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [VISITOR_nameDef], usando uma expressão [AdjectiveAngsty].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] descansa perto da cena.</li>
+    <li>desc_sentence->Uma imagem espectral de [CORPSE_nameDef] está ao lado de [VISITOR_nameDef], com uma expressão [AdjectiveAngsty].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s descansam perto da cena.</li>
   </VisitedGrave.rulePack.rulesStrings>
   
 </LanguageData>

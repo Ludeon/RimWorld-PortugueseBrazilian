@@ -2,11 +2,14 @@
 <LanguageData>
   
   <!-- EN:
-    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
+    <li>includesChildren(priority=-999)-></li>
+    <li>includesChildren(childCount==1)->\n\nOne of [lodgersLabelSingOrPluralDef] is a child.</li>
+    <li>includesChildren(childCount>=2)->\n\nSome of [lodgersLabelSingOrPluralDef] are children.</li>
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
@@ -60,15 +63,15 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] sofrendo de abasia paralítica e [deveDevem] repousar na cama.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] com podridão no sangue e [exigiráExigirão] tratamento diário. A doença pode ser retardada com cuidados e medicamentos de alta qualidade, mas geralmente não pode ser curada completamente. Se a doença agravar-se, [lodgersLabelSingOrPluralDef] [morreráMorrerão], por isso verifique se você tem os suprimentos médicos necessários.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] com podridão no sangue e [exigiraExigirao] tratamento diário. A doença pode ser retardada com cuidados e medicamentos de alta qualidade, mas geralmente não pode ser curada completamente. Se a doença agravar-se, [lodgersLabelSingOrPluralDef] [morrerraMorrerrao], por isso verifique se você tem os suprimentos médicos necessários.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nvocê deve manter o humor [deDos] [lodgersLabelSingOrPluralDef] acima de [lodgersMoodThreshold_percent].</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] não [faráFarão] nenhum trabalho.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] não [faraFarao] nenhum trabalho.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->haverá (*Threat)uma invasão(/Threat) de aproximadamente este tamanho:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->háverá (*Threat)uma invasão(/Threat) de força [threatSize]x e aproximadamente este tamanho:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->haverá (*Threat)uma invasão(/Threat) de força [threatSize]x e aproximadamente este tamanho:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->haverá (*Threat)[threatCount] invasões(/Threat) de aproximadamente este tamanho:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->haverá (*Threat)[threatCount] invasões(/Threat) de força [threatSize]x e aproximadamente este tamanho:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->um aglomerado mecanoide será implantado nas proximidades.</li>
@@ -80,15 +83,15 @@
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recentemente [mechViolationS], e se tornou alvo de uma colmeia mecanoide.</li>
     <li>threatsInfoMechRaidsMultiHuman->Eles recentemente [mechViolationP], e se tornaram alvos de uma colmeia mecanoide.</li>
     <li>mechViolationS->irritou uma personalidade mecanoide</li>
-    <li>mechViolationS->violou um antigo terminal de supercomputadores</li>
+    <li>mechViolationS->violou um terminal de supercomputadores ancestral</li>
     <li>mechViolationS->assassinou uma criança arquotécnica</li>
     <li>mechViolationS->tentou hackear um terminal de controle mecanoide</li>
-    <li>mechViolationS->tentou roubar um antigo local de armazenamento mecanoide</li>
+    <li>mechViolationS->tentou roubar um local de armazenamento mecanoide ancestral</li>
     <li>mechViolationP->irritaram uma personalidade mecanoide</li>
-    <li>mechViolationP->violou um antigo terminal de supercomputadores</li>
+    <li>mechViolationP->violou um terminal de supercomputadores ancestral</li>
     <li>mechViolationP->assassinaram uma criança arquotécnica</li>
     <li>mechViolationP->tentaram hackear um terminal de controle mecanoide</li>
-    <li>mechViolationP->tentaram roubar um antigo local de armazenamento mecanoide</li>
+    <li>mechViolationP->tentaram roubar um local de armazenamento mecanoide ancestral</li>
     <li>letterSubject->{SUBJECT_definite}</li>
     <li>lodgersHasHave(lodgersCount==1)->tem</li>
     <li>lodgersHasHave(lodgersCount>=2)->têm</li>
@@ -96,16 +99,22 @@
     <li>lodgersObjective(lodgersCount>=2)->eles</li>
     <li>deveDevem(lodgersCount==1)->deve</li>
     <li>deveDevem(lodgersCount>=2)->devem</li>
-    <li>exigiráExigirão(lodgersCount==1)->exigirá</li>
-    <li>exigiráExigirão(lodgersCount>=2)->exigirão</li>
-    <li>morreráMorrerão(lodgersCount==1)->morrerá</li>
-    <li>morreráMorrerão(lodgersCount>=2)->morrerão</li>
+    <li>exigiraExigirao(lodgersCount==1)->exigirá</li>
+    <li>exigiraExigirao(lodgersCount>=2)->exigirão</li>
+    <li>morrerraMorrerrao(lodgersCount==1)->morrerá</li>
+    <li>morrerraMorrerrao(lodgersCount>=2)->morrerão</li>
     <li>areIs(lodgersCount==1)->está</li>
     <li>areIs(lodgersCount>=2)->estão</li>
     <li>deDos(lodgersCount==1)->de</li>
     <li>deDos(lodgersCount>=2)->dos</li>
-    <li>faráFarão(lodgersCount==1)->fará</li>
-    <li>faráFarão(lodgersCount>=2)->farão</li>
+    <li>faraFarao(lodgersCount==1)->fará</li>
+    <li>faraFarao(lodgersCount>=2)->farão</li>
+    <li>chegouChegaram(lodgersCount==1)->chegou</li>
+    <li>chegouChegaram(lodgersCount>=2)->chegaram</li>
+    <li>oOs(lodgersCount==1)->O(a)</li>
+    <li>oOs(lodgersCount>=2)->Os</li>
+    <li>iraIrao(lodgersCount==1)->irá</li>
+    <li>iraIrao(lodgersCount>=2)->irão</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Todos os [lodgersLabelPlural] restantes irão embora. </li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Você falhou na missão '[resolvedQuestName]'.</li>
