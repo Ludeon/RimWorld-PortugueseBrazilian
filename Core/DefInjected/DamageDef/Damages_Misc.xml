@@ -6,6 +6,11 @@
   <!-- EN: {0} has burned to death. -->
   <AcidBurn.deathMessage>{0} sucumbiu à queimadura por ácido.</AcidBurn.deathMessage>
   
+  <!-- EN: beam -->
+  <Beam.label>feixe</Beam.label>
+  <!-- EN: {0} has been beamed to death. -->
+  <Beam.deathMessage>{0} foi mort{PAWN_gender ? o : a} por um feixe.</Beam.deathMessage>
+  
   <!-- EN: bomb -->
   <Bomb.label>bomba</Bomb.label>
   <!-- EN: {0} has died in an explosion. -->
@@ -35,6 +40,16 @@
   <Mining.label>minerando</Mining.label>
   <!-- EN: {0} has been killed. -->
   <Mining.deathMessage>{0} morreu esmagad{PAWN_gender ? o : a}.</Mining.deathMessage>
+  
+  <!-- EN: nerve -->
+  <Nerve.label>choque nervoso</Nerve.label>
+  <!-- EN: {0} has been killed by nerve shock. -->
+  <Nerve.deathMessage>{0} foi morto(a) por um choque nervoso.</Nerve.deathMessage>
+  
+  <!-- EN: nerve stun -->
+  <NerveStun.label>atordoamento nervoso</NerveStun.label>
+  <!-- EN: {0} has been killed. -->
+  <NerveStun.deathMessage>{0} foi morto(a).</NerveStun.deathMessage>
   
   <!-- EN: rotting -->
   <Rotting.label>apodrecendo</Rotting.label>
