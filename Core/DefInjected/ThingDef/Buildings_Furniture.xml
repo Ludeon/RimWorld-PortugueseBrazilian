@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: animal bed -->
@@ -21,6 +21,11 @@
   <!-- EN: A large, soft, comfy seat. Great for relaxation. Can be used at tables, work stations, and elsewhere. -->
   <Armchair.description>Um assento confortável, grande e macio. Ótimo para o relaxamento.</Armchair.description>
   
+  <!-- EN: couch -->
+  <Couch.label>poltrona dupla</Couch.label>
+  <!-- EN: A large double-wide seat which is cushioned for maximum comfort. Perfect for a luxurious rec room or a homey reading nook. -->
+  <Couch.description>Uma poltrona dupla ampla, acolchoada para máximo conforto. Perfeita para uma sala de recreação luxuosa ou um aconchegante cantinho de leitura.</Couch.description>
+
   <!-- EN: bed -->
   <Bed.label>cama</Bed.label>
   <!-- EN: A cozy mattress and sheets on a frame for resting. -->
@@ -35,6 +40,21 @@
   <BedrollDouble.label>colchonete duplo</BedrollDouble.label>
   <!-- EN: A simple double-wide bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep. -->
   <BedrollDouble.description>Uma cama dupla simples que fica no chão, geralmente feita de tecido ou couro, forrada de pele. É leve e pode ser enrolado para facilitar o transporte, mas não é tão confortável quanto uma cama típica. As caravanas podem usar colchonetes enquanto viajam para dormir melhor.</BedrollDouble.description>
+  
+  <!-- EN: bookcase -->
+  <Bookcase.label>estante de livros</Bookcase.label>
+  <!-- EN: A wide bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <Bookcase.description>Uma estante larga para armazenar e exibir até dez livros. Os livros guardados aqui aumentam passivamente o trabalho acadêmico feito nas proximidades e também valorizam a beleza da estante. Os livros armazenados nunca se deterioram.</Bookcase.description>
+  
+  <!-- EN: small bookcase -->
+  <BookcaseSmall.label>estante pequena</BookcaseSmall.label>
+  <!-- EN: A narrow bookcase for storing and displaying up to five books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <BookcaseSmall.description>Uma estante estreita para armazenar e exibir até cinco livros. Os livros guardados aqui aumentam passivamente o trabalho acadêmico feito nas proximidades e também valorizam a beleza da estante. Os livros armazenados nunca se deterioram.</BookcaseSmall.description>
+  
+  <!-- EN: couch -->
+  <Couch.label>sofá</Couch.label>
+  <!-- EN: A large double-wide seat which is cushioned for maximum comfort. Perfect for a luxurious rec room or a homey reading nook. -->
+  <Couch.description>Um assento largo para duas pessoas, acolchoado para máximo conforto. Perfeito para uma sala de lazer luxuosa ou um cantinho de leitura aconchegante.</Couch.description>
   
   <!-- EN: dining chair -->
   <DiningChair.label>cadeira de jantar</DiningChair.label>
@@ -61,6 +81,11 @@
   <!-- EN: A small bedside table which makes nearby beds a little bit more comfortable. Must be placed directly adjacent to the head of the bed. Placing more than one end table near the same bed has no effect. -->
   <EndTable.description>Uma pequena mesa de cabeceira que torna as camas próximas um pouco mais confortável. Deve ser colocado diretamente ao lado da cabeceira da cama. Colocar mais de uma mesa perto da mesma cama não tem efeito.</EndTable.description>
   
+  <!-- EN: flood light -->
+  <FloodLight.label>holofote</FloodLight.label>
+  <!-- EN: A high-intensity light that's good for large outdoor spaces. -->
+  <FloodLight.description>Uma luz de alta intensidade ideal para grandes espaços ao ar livre.</FloodLight.description>
+  
   <!-- EN: hospital bed -->
   <HospitalBed.label>cama de hospital</HospitalBed.label>
   <!-- EN: A bed specially designed for use in hospitals. Adjustable for a patient and festooned with built-in equipment, it improves medical outcomes over normal beds. -->
@@ -79,12 +104,12 @@
   <!-- EN: shelf -->
   <Shelf.label>prateleira</Shelf.label>
   <!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
-  <Shelf.description>Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.</Shelf.description>
+  <Shelf.description>Uma prateleira tripla que comporta três vezes mais que um terreno vazio. Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.\n\nComo o espaço nas prateleiras é limitado, elas não podem conter pedaços, mobílias, plantas e cadáveres grandes.</Shelf.description>
   
   <!-- EN: small shelf -->
-  <ShelfSmall.label>TODO</ShelfSmall.label>
+  <ShelfSmall.label>prateleira pequena</ShelfSmall.label>
   <!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
-  <ShelfSmall.description>TODO</ShelfSmall.description>
+  <ShelfSmall.description>Uma prateleira tripla pequena que comporta três vezes mais que um terreno vazio. Itens armazenados nisto não deteriorarão, mesmo se no lado de fora.\n\nComo o espaço nas prateleiras é limitado, elas não podem conter pedaços, mobílias, plantas e cadáveres grandes.</ShelfSmall.description>
   
   <!-- EN: sleeping spot -->
   <SleepingSpot.label>local para dormir</SleepingSpot.label>
@@ -92,7 +117,7 @@
   <SleepingSpot.description>Específica um ponto no chão onde as pessoas devem dormir. Nada confortável.</SleepingSpot.description>
   
   <!-- EN: standing lamp -->
-  <StandingLamp.label>luminária negra</StandingLamp.label>
+  <StandingLamp.label>luminária de chão</StandingLamp.label>
   <!-- EN: An electrical standing lamp that lights an area. People need light to move and work at full speed. -->
   <StandingLamp.description>Uma lâmpada elétrica de baixa potência que emite uma luz fraca sobre uma grande área. Pessoas que preferem trabalhar no escuro ficam felizes com esta fonte de luz.</StandingLamp.description>
   
@@ -132,5 +157,25 @@
   <TorchLamp.label>tocha</TorchLamp.label>
   <!-- EN: A wooden torch for lighting an area. People need light to move and work at full speed. Can be automatically refueled with wood. Produces a small amount of heat. -->
   <TorchLamp.description>Uma tocha de madeira para a iluminação de uma área. Pode ser reabastecida automaticamente com madeira. Produz uma pequena quantidade de calor.</TorchLamp.description>
+  
+  <!-- EN: bookcase -->
+  <Bookcase.label>estante de livros</Bookcase.label>
+  <!-- EN: A wide bookcase for storing and displaying up to ten books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <Bookcase.description>Uma estante de livros para armazenar e exibir até dez livros. Os livros armazenados aqui irão melhorar passivamente o trabalho acadêmico feito nas proximidades e aumentar a beleza da estante. Os livros armazenados nunca irão se deteriorar.</Bookcase.description>
+
+  <!-- EN: small bookcase -->
+  <BookcaseSmall.label>estante de livros pequena</BookcaseSmall.label>
+  <!-- EN: A narrow bookcase for storing and displaying up to five books. Books stored here will passively enhance academic work done nearby, and increase the beauty of the bookcase. The stored books will never deteriorate. -->
+  <BookcaseSmall.description>Uma estante de livros pequena para armazenar e exibir até cinco livros. Os livros armazenados aqui irão melhorar passivamente o trabalho acadêmico feito nas proximidades e aumentar a beleza da estante. Os livros armazenados nunca irão se deteriorar.</BookcaseSmall.description>
+
+  <!-- EN: wall torch lamp -->
+  <TorchWallLamp.label>tocha de parede</TorchWallLamp.label>
+  <!-- EN: A wall-mounted wooden torch for lighting an area. It is not as bright as a regular torch lamp, but it can be mounted on walls. Produces a small amount of heat. -->
+  <TorchWallLamp.description>Uma tocha de madeira fixada na parede para iluminar um ambiente. Não é tão brilhante quanto uma lanterna comum, mas pode ser fixada na parede. Produz uma pequena quantidade de calor.</TorchWallLamp.description>
+  
+  <!-- EN: wall lamp -->
+  <WallLamp.label>luminária de parede</WallLamp.label>
+  <!-- EN: A wall-mounted lamp that lights an area using electricity. It is less powerful than a standing lamp, but can be mounted on walls. -->
+  <WallLamp.description>Uma luminária de parede que ilumina um ambiente usando eletricidade. É menos potente que uma luminária de pé, mas pode ser instalada em paredes.</WallLamp.description>
   
 </LanguageData>

@@ -48,8 +48,14 @@
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Conteúdo</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>TODO</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>Conteúdo</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>TODO</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>TODO</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Auto-corte</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>Colar</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>não pode adicionar mais</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Termina em</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,10 +112,10 @@
   <NotWhileAsleep>Não enquanto dorme</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>Fugindo agora</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
-  <FactorForDoorCount>Multiplicador para contagem de portas</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
-  <FactorForMovement>Multiplicador para movimento</FactorForMovement>
+  <!-- EN: Door count -->
+  <FactorForDoorCount>Contagem de portas</FactorForDoorCount>
+  <!-- EN: Movement -->
+  <FactorForMovement>Movimento</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Preço do escravo</SlavePrice>
   <!-- EN: The base market value of this slave if sold. -->
@@ -136,8 +144,11 @@
   <NonRecruitable>Lealdade inabalável</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>Este prisioneiro é tão inabalavelmente leal à sua facção que se recusa a ser inteiramente recrutado.</NonRecruitableTip>
-  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>Sua lealdade se estende às suas crenças e ele não pode ser convertido.</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>TODO</MedicineQualityDescriptionPrisoner>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -210,13 +221,19 @@
   <PainFactor>Dor</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>Previne infecção</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>Autoatendimento</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>TODO</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0} com o autoatendimento ligado vão tentar curar a si mesmos automaticamente no local, com {1} da eficiência normal.</SelfTendTip>
+  <AllowSelfTendTip>TODO</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>morte em {0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>TODO</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>TODO</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>TODO</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Nenhum</None>
@@ -265,8 +282,8 @@
   <Lent>Emprestado para {FACTION_name}, retorna em {1}</Lent>
   <!-- EN: Missing -->
   <Missing>Faltando</Missing>
-  <!-- EN: Slave -->
-  <Slave>Escravo(a)</Slave>
+  <!-- EN: slave -->
+  <Slave>escravo(a)</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Líder da facção</FactionLeader>
   <!-- EN: Opinion of {0} -->
@@ -419,5 +436,17 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Cortar as plantas bloqueadoras automaticamente</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>TODO</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>TODO</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>TODO</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>TODO</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>TODO</StudyNotesTab_NoDiscoveries>
 
 </LanguageData>

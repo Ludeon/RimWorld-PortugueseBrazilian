@@ -26,12 +26,26 @@
   <!-- EN: Medical tend quality is offset by this value. -->
   <MedicalTendQualityOffset.description>A qualidade de tratamento médico é multiplicada por este valor.</MedicalTendQualityOffset.description>
   
+  <!-- EN: max power output -->
+  <PowerPlantMaxPowerOuput.label>Potência máxima de saída</PowerPlantMaxPowerOuput.label>
+  <!-- EN: The maximum power that this generator can output in ideal conditions. -->
+  <PowerPlantMaxPowerOuput.description>A potência máxima que este gerador pode fornecer em condições ideais.</PowerPlantMaxPowerOuput.description>
+
   <!-- EN: research speed factor -->
   <ResearchSpeedFactor.label>fator de velocidade de pesquisa</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
   <ResearchSpeedFactor.description>Velocidade com que as pessoas fazem pesquisas é multiplicada por este valor.</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
   <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>Limpeza do cômodo</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <!-- EN: Reading bonus -->
+  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>Bônus de leitura</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
+
+  <!-- EN: reading bonus -->
+  <RoomReadingBonus.label>Bônus de leitura</RoomReadingBonus.label>
+  <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
+  <RoomReadingBonus.description>Fornece bônus à velocidade de pesquisa, XP ganho pela leitura e recreação obtida ao ler no mesmo cômodo que a estante. Isso aumenta ao colocar mais livros e de melhor qualidade na estante.</RoomReadingBonus.description>
+  <!-- EN: Reading bonus -->
+  <RoomReadingBonus.parts.Reading_bonus.customLabel>Bônus de leitura</RoomReadingBonus.parts.Reading_bonus.customLabel>
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>fator de chance de sucesso cirúrgico</SurgerySuccessChanceFactor.label>
@@ -42,8 +56,8 @@
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>dano de armadilha</TrapMeleeDamage.label>
-  <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>Quanto dano esta armadilha normalmente faz. O dano real pode variar um pouco.</TrapMeleeDamage.description>
+  <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>Quanto dano essa armadilha normalmente causa em média por acerto. Cada armadilha atinge múltiplas vezes.\n\nO dano real em qualquer caso irá variar aleatoriamente.</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
   <TrapSpringChance.label>chance de armadilha falhar</TrapSpringChance.label>

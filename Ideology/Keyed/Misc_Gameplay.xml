@@ -29,6 +29,8 @@
   <DeleteCustom>Excluir personalizada</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Criar nova ideologia</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>TODO</CreateFluid>
   <!-- EN: Load existing -->
   <LoadExisting>Carregar existente</LoadExisting>
   <!-- EN: Create custom ideoligion -->
@@ -49,8 +51,6 @@
   <Appearance>Aparência</Appearance>
   <!-- EN: Done -->
   <DoneButton>Feito</DoneButton>
-  <!-- EN: Caused by -->
-  <CausedBy>Causado por</CausedBy>
   <!-- EN: Belief in -->
   <BeliefInIdeo>Crença em</BeliefInIdeo>
   <!-- EN: Information about {0} -->
@@ -99,6 +99,10 @@
   <SetIdeoColor>Defina a cor da ideologia</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Defina para a cor favorita</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>TODO</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>TODO</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configure a ideologia da sua facção</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -197,8 +201,14 @@
   <RitualTargetConnectedGauranlenTree>Já possui conexão com {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite} teve sua conexão interrompida recentemente. Pode conectar-se novamente em {1}.</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>É necessário ter {0} unidade de madeira para cada participante (totalizando {2}). Você possui {1}.</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>TODO</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>TODO</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>TODO</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>TODO</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>TODO</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -292,8 +302,6 @@
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso escravo</ForSlaveUse>
-  <!-- EN: Slave -->
-  <Slave>Escravo(a)</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>Se você vender alguém para qualquer facção além da sua facção natal, eles se tornam escravos.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
@@ -388,7 +396,7 @@
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Informação da relíquia encontrada</RelicInfoFound>
-  <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>inativo, requer pelo menos {0} {1} (possui {2})</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->

@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: cleaning time multiplier -->
-  <CleaningTimeFactor.label>TODO</CleaningTimeFactor.label>
+  <CleaningTimeFactor.label>Multiplicador do tempo de limpeza</CleaningTimeFactor.label>
   <!-- EN: A multiplier on how long it takes to clean filth from this surface. -->
-  <CleaningTimeFactor.description>TODO</CleaningTimeFactor.description>
+  <CleaningTimeFactor.description>Multiplicador para o tempo necessário para limpar sujeira desta superfície.</CleaningTimeFactor.description>
   
   <!-- EN: construction speed -->
   <ConstructionSpeedFactor.label>velocidade de construção</ConstructionSpeedFactor.label>
@@ -15,8 +15,8 @@
   
   <!-- EN: filth multiplier -->
   <FilthMultiplier.label>multiplicador de sujeira</FilthMultiplier.label>
-  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. -->
-  <FilthMultiplier.description>O quão essa superfície é suscetível à sujeira. Se for inferior a 100%, parte da sujeira depositada aqui desaparecerá com o contato.</FilthMultiplier.description>
+  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
+  <FilthMultiplier.description>O quão essa superfície é suscetível à sujeira. Se for inferior a 100%, parte da sujeira depositada aqui desaparecerá com o contato. Isso se aplica apenas à sujeira orgânica.</FilthMultiplier.description>
   
   <!-- EN: medical potency -->
   <MedicalPotency.label>potência médica</MedicalPotency.label>
@@ -37,9 +37,26 @@
   <!-- EN: {0} / day -->
   <MeditationFocusStrength.formatStringUnfinalized>{0} / dia</MeditationFocusStrength.formatStringUnfinalized>
   
+  <!-- EN: neural heat limit offset -->
+  <PsychicEntropyMaxOffset.label>Compensação do limite de calor neural</PsychicEntropyMaxOffset.label>
+  <!-- EN: An offset applied to the user's neural heat limit. -->
+  <PsychicEntropyMaxOffset.description>Uma compensação aplicada ao limite de calor neural do usuário.</PsychicEntropyMaxOffset.description>
+
+  <!-- EN: neural heat recovery rate offset -->
+  <PsychicEntropyRecoveryRateOffset.label>Compensação da taxa de recuperação do calor neural</PsychicEntropyRecoveryRateOffset.label>
+  <!-- EN: An offset applied to the user's neural heat recovery rate. -->
+  <PsychicEntropyRecoveryRateOffset.description>Uma compensação aplicada à taxa de recuperação do calor neural do usuário.</PsychicEntropyRecoveryRateOffset.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRateOffset.formatString>{0}/s</PsychicEntropyRecoveryRateOffset.formatString>
+
+  <!-- EN: psychic sensitivity factor -->
+  <PsychicSensitivityFactor.label>Fator de sensibilidade psíquica</PsychicSensitivityFactor.label>
+  <!-- EN: A factor applied to the user's psychic sensitivity. -->
+  <PsychicSensitivityFactor.description>Um fator aplicado à sensibilidade psíquica do usuário.</PsychicSensitivityFactor.description>
+  
   <!-- EN: psychic sensitivity offset -->
-  <PsychicSensitivityOffset.label>sensibilidade psíquica compensada</PsychicSensitivityOffset.label>
+  <PsychicSensitivityOffset.label>compensação de sensibilidade psíquica</PsychicSensitivityOffset.label>
   <!-- EN: An offset applied to the user's psychic sensitivity. -->
-  <PsychicSensitivityOffset.description>Uma recompensa aplicada para o usuário com sensibilidade psíquica.</PsychicSensitivityOffset.description>
+  <PsychicSensitivityOffset.description>Uma compensação aplicada para o usuário com sensibilidade psíquica.</PsychicSensitivityOffset.description>
   
 </LanguageData>
