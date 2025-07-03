@@ -16,7 +16,7 @@
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort} já possui o xenótipo {0_xenotype}.</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort} não tem xenogenes disponíveis para implantar.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Xenogerminadores só podem ser implantados em colonos, prisioneiros e escravos.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
@@ -30,7 +30,7 @@
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label} só pode ser usado em colonos, prisioneiros e escravos.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>TODO</MessageCannotBecomeNonPreferredXenotype>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} se recusa a se tornar um xenótipo rejeitado.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>Adicionando automaticamente {MECH_nameDef} à caravana, pois está escoltando {OVERSEER_nameDef}</MessageCaravanAddingEscortingMech> 
@@ -48,7 +48,7 @@
   
   <!-- Pollution -->
   <!-- EN: {0} has been angered ({1}) -->
-  <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
+  <MessageAngeredPollutedCell>{0} ficou irritado ({1})</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>Necessita de terreno não poluído.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -64,7 +64,7 @@
   <!-- EN: Cocoons have been disturbed and are opening! -->
   <MessageCocoonDisturbedPlural>Casulos foram perturbados e estão abrindo!</MessageCocoonDisturbedPlural>
   <!-- EN: {0} has rotted due to polluted terrain. -->
-  <MessagePlantDiedOfRot_PollutedTerrain>TODO</MessagePlantDiedOfRot_PollutedTerrain>
+  <MessagePlantDiedOfRot_PollutedTerrain>{0} apodreceu devido ao terreno poluído.</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
   <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} deve ser derrubado antes que você possa forçar {PAWN_pronoun} a reimplantar seu xenogerminador.</MessageTargetMustBeDownedToForceReimplant>
@@ -112,13 +112,13 @@
   <MessageBedExposedToSunlight>O(a) {BED_labelShort} de {PAWN_nameDef} que é designado para uso em descanso mortal foi exposto à luz solar. {PAWN_nameDef} não pode descansar lá.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>TODO</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} foi ejetado de um extrator de genes devido à falta de energia.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
   <MessagePawnKilledRipscanner>O cérebro de {PAWN_nameDef} foi destruído pelo scanner rompedor de subnúcleo.</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>TODO</MessageSubcoreSoftscannerCompleted>
+  <MessageSubcoreSoftscannerCompleted>Escaneamento suave de subnúcleo concluído para {PAWN_nameDef}.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>Não é possível ressuscitar cadáveres dessecados.</MessageCannotResurrectDessicatedCorpse>
@@ -154,13 +154,13 @@
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Aviso: {0_labelShort} está carregando um bebê enquanto está alistado.</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
-  <MessageTakingBabyToSafeTemperature>TODO</MessageTakingBabyToSafeTemperature>
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} está movendo {BABY_nameDef} para algum lugar com uma temperatura mais segura.</MessageTakingBabyToSafeTemperature>
 
   <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
-  <MessagePregnancyFailed>TODO</MessagePregnancyFailed>
+  <MessagePregnancyFailed>A gravidez entre {MOTHER_nameDef} e {FATHER_nameDef} falhou</MessagePregnancyFailed>
   <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
-  <MessageFerilizeFailed>TODO</MessageFerilizeFailed>
+  <MessageFerilizeFailed>{PAWN_nameDef} falhou ao fertilizar o óvulo</MessageFerilizeFailed>
   <!-- EN: Combined genes exceeded metabolism limits. -->
-  <CombinedGenesExceedMetabolismLimits>TODO</CombinedGenesExceedMetabolismLimits>
+  <CombinedGenesExceedMetabolismLimits>Genes combinados excederam os limites do metabolismo.</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>
