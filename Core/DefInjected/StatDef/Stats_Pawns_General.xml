@@ -30,66 +30,66 @@
   <ComfyTemperatureMin.description>Abaixo desta temperatura, os personagens vão ficarem infelizes. Significativamente abaixo desta temperatura, eles desenvolverão hipotermia e queimaduras por frio e eventualmente morrerão.</ComfyTemperatureMin.description>
   
   <!-- EN: crawl speed -->
-  <CrawlSpeed.label>TODO</CrawlSpeed.label>
+  <CrawlSpeed.label>velocidade de rastejamento</CrawlSpeed.label>
   <!-- EN: Speed of crawling in cells per second. -->
-  <CrawlSpeed.description>TODO</CrawlSpeed.description>
+  <CrawlSpeed.description>Velocidade de rastejamento em células por segundo.</CrawlSpeed.description>
   <!-- EN: {0} c/s -->
-  <CrawlSpeed.formatString>TODO</CrawlSpeed.formatString>
-  
+  <CrawlSpeed.formatString>{0} c/s</CrawlSpeed.formatString>
+
   <!-- EN: eating speed -->
   <EatingSpeed.label>velocidade de alimentação</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Multiplicador da velocidade de alimentação.</EatingSpeed.description>
-  
+
   <!-- EN: EMP resistance -->
-  <EMPResistance.label>Resistência EMP</EMPResistance.label>
+  <EMPResistance.label>Resistência PEM</EMPResistance.label>
   <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
-  <EMPResistance.description>Este mecanoide possui filamentos especiais de blindagem e dissipação de choque que reduzem o efeito dos danos do EMP nessa porcentagem. Isso reduz a duração dos atordoamentos causados pelo EMP.</EMPResistance.description>
-  
+  <EMPResistance.description>Este mecanoide possui filamentos especiais de blindagem e dissipação de choque que reduzem o efeito dos danos do PEM nessa porcentagem. Isso reduz a duração dos atordoamentos causados pelo PEM.</EMPResistance.description>
+
   <!-- EN: filth rate -->
   <FilthRate.label>taxa de sujeira</FilthRate.label>
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>Quanta sujeira esta criatura produz.\n\nÉ melhor manter os animais produtores de sujeira ao ar livre ou em esteiras de palha, onde a sujeira não será um problema.</FilthRate.description>
-  
+
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>quantidade de nutrição</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
   <ForagedNutritionPerDay.description>A quantidade de nutrição que essa pessoa vai buscar automaticamente por dia enquanto viaja em uma caravana.</ForagedNutritionPerDay.description>
-  
+
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>fator de aprendizagem global</GlobalLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for all skills. -->
   <GlobalLearningFactor.description>A eficiência global de aprendizagem para todas as habilidades.</GlobalLearningFactor.description>
-  
+
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>velocidade de ganho de imunidade</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>Velocidade com que este personagem ganha imunidade a doenças. Se este é muito lento, o personagem morrerá de uma doença antes de desenvolver a imunidade.</ImmunityGainSpeed.description>
-  
+
   <!-- EN: injury healing factor -->
   <InjuryHealingFactor.label>fator de cicatrização de lesões</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
   <InjuryHealingFactor.description>O multiplicador aplicado à taxa de cura de lesões de uma pessoa.</InjuryHealingFactor.description>
-  
+
   <!-- EN: recreation fall rate -->
-  <JoyFallRateFactor.label>TODO</JoyFallRateFactor.label>
+  <JoyFallRateFactor.label>fator de queda de recreação</JoyFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
-  <JoyFallRateFactor.description>TODO</JoyFallRateFactor.description>
-  
+  <JoyFallRateFactor.description>Multiplicador na velocidade em que a necessidade de recreação de uma pessoa diminui.</JoyFallRateFactor.description>
+
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantidade de couro</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>A quantidade de couro que você receberá ao esquartejar esta criatura. Este valor é reduzido se a criatura não for abatida de forma limpa ou se for ferida ao ser morta.</LeatherAmount.description>
-  
+
   <!-- EN: lifespan factor -->
-  <LifespanFactor.label>TODO</LifespanFactor.label>
+  <LifespanFactor.label>fator de expectativa de vida</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
-  <LifespanFactor.description>TODO</LifespanFactor.description>
-  
+  <LifespanFactor.description>O fator de expectativa de vida altera a duração efetiva da vida de uma criatura encurtando ou alongando o tempo até que ela desenvolva doenças relacionadas à idade. Um fator acima de 100% atrasa o aparecimento de doenças e aumenta a expectativa de vida geral, enquanto um fator abaixo de 100% acelera o aparecimento de doenças e reduz a expectativa de vida.</LifespanFactor.description>
+
   <!-- EN: max nutrition -->
-  <MaxNutrition.label>TODO</MaxNutrition.label>
+  <MaxNutrition.label>nutrição máxima</MaxNutrition.label>
   <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
-  <MaxNutrition.description>TODO</MaxNutrition.description>
+  <MaxNutrition.description>A quantidade de nutrição necessária para preencher completamente o estômago desta criatura.</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>quantidade de carne</MeatAmount.label>
@@ -155,13 +155,13 @@
   <RestRateMultiplier.description>Um multiplicador da rapidez com que uma criatura descansa enquanto dorme.</RestRateMultiplier.description>
   
   <!-- EN: toxic environment resistance -->
-  <ToxicEnvironmentResistance.label>TODO</ToxicEnvironmentResistance.label>
+  <ToxicEnvironmentResistance.label>resistência a ambiente tóxico</ToxicEnvironmentResistance.label>
   <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
-  <ToxicEnvironmentResistance.description>TODO</ToxicEnvironmentResistance.description>
+  <ToxicEnvironmentResistance.description>Quão resistente esta criatura é aos efeitos de toxinas ambientais. Isso protege contra gás tóxico, cheiro de podridão, precipitação tóxica e terreno poluído, mas não contra ataques diretos com veneno ou substâncias injetadas. Quando esse valor é maior, a exposição à poluição gera proporcionalmente menos acúmulo tóxico no corpo.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
-  <ToxicResistance.label>TODO</ToxicResistance.label>
+  <ToxicResistance.label>resistência a toxinas</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
-  <ToxicResistance.description>TODO</ToxicResistance.description>
+  <ToxicResistance.description>Quão bem esta criatura resiste ao acúmulo de toxinas.</ToxicResistance.description>
   
 </LanguageData>
