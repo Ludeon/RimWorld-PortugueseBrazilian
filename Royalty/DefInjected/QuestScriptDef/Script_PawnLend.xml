@@ -24,7 +24,7 @@
     <li>disease->praga</li>
     <li>disease->malária</li>
     <li>disease->infecção</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], deseja adicionar um pouco de vida à sua corte, exibindo alguns [dutyRoyalDescription].\n\n[asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para servi-lo(a) por [lendForDays] dias.\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], precisa de pessoas para ajudar a [dutyRoyalDescription].\n\n[asker_pronoun] está pedindo para você emprestar [colonistCountToLend] para servi-lo(a) por [lendForDays] dias.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->um colono</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonos</li>
     <li>willSendShuttle->[asker_pronoun] enviará um transporte para pegar [colonists].</li>
