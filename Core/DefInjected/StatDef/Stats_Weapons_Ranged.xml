@@ -21,6 +21,11 @@
   <!-- EN: The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
   <AccuracyTouch.description>A precisão da arma a uma distância de 3 células ou menos.\n\nA chance real de um tiro acertar também será afetada por outros fatores.</AccuracyTouch.description>
   
+  <!-- EN: armor penetration multiplier -->
+  <RangedWeapon_ArmorPenetrationMultiplier.label>multiplicador de penetração de armadura</RangedWeapon_ArmorPenetrationMultiplier.label>
+  <!-- EN: A multiplier applied to armor penetration. -->
+  <RangedWeapon_ArmorPenetrationMultiplier.description>Um multiplicador aplicado à penetração de armaduras.</RangedWeapon_ArmorPenetrationMultiplier.description>
+  
   <!-- EN: ranged cooldown -->
   <RangedWeapon_Cooldown.label>tempo de recarga entre disparos</RangedWeapon_Cooldown.label>
   <!-- EN: How long it takes to recover after firing this weapon. -->
@@ -30,7 +35,17 @@
   
   <!-- EN: damage multiplier -->
   <RangedWeapon_DamageMultiplier.label>multiplicador de dano</RangedWeapon_DamageMultiplier.label>
-  <!-- EN: A damage multiplier applied to projectiles fired from this weapon. -->
-  <RangedWeapon_DamageMultiplier.description>Um multiplicador de dano aplicado a projéteis disparados dessa arma.</RangedWeapon_DamageMultiplier.description>
+  <!-- EN: A multiplier applied to this weapon's damage. -->
+  <RangedWeapon_DamageMultiplier.description>Um multiplicador aplicado ao dano dessa arma.</RangedWeapon_DamageMultiplier.description>
+  
+  <!-- EN: range multiplier -->
+  <RangedWeapon_RangeMultiplier.label>multiplicador de alcance</RangedWeapon_RangeMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's range. -->
+  <RangedWeapon_RangeMultiplier.description>Um multiplicador aplicado ao alcance desta arma.</RangedWeapon_RangeMultiplier.description>
+  
+  <!-- EN: aiming time multiplier -->
+  <RangedWeapon_WarmupMultiplier.label>multiplicador de tempo de mira</RangedWeapon_WarmupMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's aiming time. -->
+  <RangedWeapon_WarmupMultiplier.description>Um multiplicador aplicado ao tempo de mira desta arma.</RangedWeapon_WarmupMultiplier.description>
   
 </LanguageData>

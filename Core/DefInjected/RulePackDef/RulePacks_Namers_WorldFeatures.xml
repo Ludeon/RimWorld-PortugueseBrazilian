@@ -189,23 +189,19 @@
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
     <li>terrain_word(p=6)->lake</li>
-    <li>terrain_word->sea</li>
     <li>terrain_word->pond</li>
     <li>terrain_word->basin</li>
     <li>terrain_word->reservoir</li>
     <li>terrain_word(p=0.3)->puddle</li>
-    <li>terrain_word(p=0.3)->lagoon</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
   <NamerLake.rulePack.rulesStrings>
     <li>standardname->lago [narrative_name]</li>
     <li>terrain_word(p=6)->lago</li>
-    <li>terrain_word->mar</li>
     <li>terrain_word->lagoa</li>
     <li>terrain_word->bacia</li>
     <li>terrain_word->reservatório</li>
     <li>terrain_word(p=0.3)->poça</li>
-    <li>terrain_word(p=0.3)->lagoa</li>
     <li>terrain_word(p=0.3)->lago</li>
   </NamerLake.rulePack.rulesStrings>
   
@@ -285,16 +281,14 @@
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_name(p=0.1)->lake [narrative_name]</li>
     <li>terrain_word(p=6)->sea</li>
+    <li>terrain_word->lagoon</li>
     <li>terrain_word->ocean</li>
-    <li>terrain_word->lake</li>
   -->
   <NamerSea.rulePack.rulesStrings>
-    <li>standardname(p=0.1)->lago [narrative_name]</li>
     <li>terrain_word(p=6)->mar</li>
+    <li>terrain_word->lagoa</li>
     <li>terrain_word->oceano</li>
-    <li>terrain_word->lago</li>
   </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:

@@ -91,18 +91,18 @@
   <Styles>Estilo(s)</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Chance de possuir preceito</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>A cor favorita de {PAWN_labelShort}. Ter mais de {PERCENTAGE} de sua roupa nesta cor, ou na cor de sua ideologia, dará ligeira felicidade.\n\nVocê pode modificar a coloração do vestuário na estação de estilização usando corante tinctoria.</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>A cor favorita de {PAWN_labelShort}: {COLOR}.\nTer mais de {PERCENTAGE} de sua roupa nesta cor{ORIDEO} dará ligeira felicidade.\n\nVocê pode modificar a coloração do vestuário na estação de estilização usando corante tinctoria.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor>TODO</OrIdeoColor>
+  <OrIdeoColor>, ou na cor de sua ideologia,</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Defina a cor da ideologia</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Defina para a cor favorita</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
-  <FavoriteColorPickerTip>TODO</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
-  <IdeoColorPickerTip>TODO</IdeoColorPickerTip>
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>A cor favorita de {PAWN_nameDef}. Ter mais de 60% das peças de seu vestuário nesta cor, ou na cor de sua ideologia, fará {PAWN_objective} um pouco mais feliz.</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>Cor da ideologia de {PAWN_nameDef}. Ter mais de 60% das peças de vestuário de {PAWN_possessive} nesta cor, ou na cor favorita de {PAWN_possessive}, deixará {PAWN_objective} um pouco mais feliz.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configure a ideologia da sua facção</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -150,7 +150,7 @@
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Comida aceitável para todos</MealKindAny>
   <!-- EN: this outfit -->
-  <WearingDesiredApparelMulti>TODO</WearingDesiredApparelMulti>
+  <WearingDesiredApparelMulti>Esse Traje</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>Não foi possível carregar a ideologia</UnableToLoadIdeoTitle>
@@ -202,15 +202,15 @@
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite} teve sua conexão interrompida recentemente. Pode conectar-se novamente em {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({1} total). -->
-  <RitualTargetWoodInfo>TODO</RitualTargetWoodInfo>
+  <RitualTargetWoodInfo>Você precisa de {0} madeira(s) para cada participante ({1} total).</RitualTargetWoodInfo>
   <!-- EN: A participant cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppend>TODO</RitualTargetWoodInfoAppend>
+  <RitualTargetWoodInfoAppend>Um participante não consegue obter madeira suficiente.</RitualTargetWoodInfoAppend>
   <!-- EN: {0} participants cannot reach enough wood. -->
-  <RitualTargetWoodInfoAppendMultiple>TODO</RitualTargetWoodInfoAppendMultiple>
+  <RitualTargetWoodInfoAppendMultiple>{0} participantes não conseguem obter madeira suficiente.</RitualTargetWoodInfoAppendMultiple>
   <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
-  <RitualTargetWoodInfoWarning>TODO</RitualTargetWoodInfoWarning>
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort} não pode obter madeira suficiente.</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
-  <RitualTargetUnreachable>TODO</RitualTargetUnreachable>
+  <RitualTargetUnreachable>{0} deve ser capaz de chegar ao ritual alvo.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Acusar</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
@@ -240,7 +240,7 @@
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Devido à qualidade do ritual, seus pontos de desenvolvimento aumentaram em {2} (de {0} para {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Can't award development points beyond {0}. -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Não é possível conceder pontos de desenvolvimento além de {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Devido à baixa qualidade do ritual, nenhum ponto de desenvolvimento foi ganho.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -298,7 +298,7 @@
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>A conclusão deste ritual dá {0}-{1} pontos de desenvolvimento dependendo da qualidade.</RitualDevelopmentPointsTip>
   <!-- EN: {0} needs to be powered. -->
-  <RitualOutcomeBlockedNoPower>TODO</RitualOutcomeBlockedNoPower>
+  <RitualOutcomeBlockedNoPower>{0} precisa ser energizado.</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Para uso escravo</ForSlaveUse>
@@ -308,7 +308,7 @@
   <SellingAsRansom>Se você vender alguém para sua própria facção, eles serão resgatados e não escravizados.</SellingAsRansom>
 
   <!-- EN: We are {0} -->
-  <MemeGoodwillImpact_Player>{0}</MemeGoodwillImpact_Player>
+  <MemeGoodwillImpact_Player>Nós somos {0}</MemeGoodwillImpact_Player>
   <!-- EN: They are {0} -->
   <MemeGoodwillImpact_Other>Eles são {0}</MemeGoodwillImpact_Other>
 
@@ -326,7 +326,7 @@
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Deve ser {0}</RoleRequirementLabelSupremeGender>
   <!-- EN: Cannot be child -->
-  <RoleRequirementCannotBe>TODO</RoleRequirementCannotBe>
+  <RoleRequirementCannotBe>Não pode ser criança</RoleRequirementCannotBe>
 
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Habilidades</RoleGrantedAbilitiesLabel>
@@ -381,18 +381,6 @@
   <!-- Outfits -->
   <!-- EN: Slave -->
   <OutfitSlave>Escravo</OutfitSlave>
-
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>Progresso do hackeamento</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>velocidade de hackeamento</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>de {0}</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>hackeado</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Terminais hackeados</TerminalsHacked>
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Informação da relíquia encontrada</RelicInfoFound>
@@ -640,7 +628,7 @@
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completou o ciclo de reversão de idade {PAWN_possessive}. {PAWN_pronoun} espera a próxima reversão de idade em {DEADLINE} dias.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>TODO</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>{PAWN_pronoun} espera a próxima reversão de idade em {DEADLINE} dias.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>O ciclo de prazer de {PAWN_labelShort} está completo.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -666,5 +654,7 @@
   <ChangeStyleDesc>Altere o estilo em que isso será criado. Isso é puramente visual e não tem impacto na jogabilidade.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>Nenhum estilo disponível.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>Drone-espacial se autodestrói em {0} {0}</SpacedroneSelfDestructsIn>
 
 </LanguageData>

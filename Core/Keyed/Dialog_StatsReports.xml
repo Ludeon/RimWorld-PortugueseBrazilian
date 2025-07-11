@@ -19,7 +19,7 @@
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>Estágio da vida</StatsReport_LifeStage>
   <!-- EN: Shambler crawling -->
-  <StatsReport_ShamblerCrawling>TODO</StatsReport_ShamblerCrawling>
+  <StatsReport_ShamblerCrawling>Trôpego Rastejando</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>Material</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -45,7 +45,7 @@
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
   <!-- EN: Max value -->
-  <StatsReport_MaxValue>TODO</StatsReport_MaxValue>
+  <StatsReport_MaxValue>Valor Máximo</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>Multiplicador para {0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -139,9 +139,11 @@
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Atacar</StatsReport_NonToolAttack>
   <!-- EN: Ideoligion -->
-  <StatsReport_Ideoligion>Ideoligião</StatsReport_Ideoligion>
+  <StatsReport_Ideoligion>ideologia</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
   <StatsReport_Malnutrition>Multiplicador de má nutrição {0}</StatsReport_Malnutrition>
+  <!-- EN: Optimal room -->
+  <StatsReport_OptimalRoom>Quarto ideal</StatsReport_OptimalRoom>
 
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Compensações possíveis</StatReport_PossibleOffsets>
@@ -163,7 +165,7 @@
   <StatsReport_SatisfiesTitle>Preenche os requisitos de título do usuário</StatsReport_SatisfiesTitle>
 
   <!-- EN: Age -->
-  <Stat_Age_Label>TODO</Stat_Age_Label>
+  <Stat_Age_Label>Idade</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>Diferentes fontes de recreação satisfazem diferentes tipos de recreação. Os colonos ficam entediados de fazer o mesmo tipo de recreação repetidamente, por isso é importante fornecer uma variedade de fontes de recreação com diferentes tipos de recreação.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -207,9 +209,9 @@
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Se os nudistas considerarão este item uma peça de roupa. Caso não considerem, os nudistas não se incomodarão em usar isso.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Gender -->
-  <Stat_Thing_Apparel_Gender>TODO</Stat_Thing_Apparel_Gender>
+  <Stat_Thing_Apparel_Gender>Gênero</Stat_Thing_Apparel_Gender>
   <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
-  <Stat_Thing_Apparel_Gender_Desc>TODO</Stat_Thing_Apparel_Gender_Desc>
+  <Stat_Thing_Apparel_Gender_Desc>Certas peças de vestuários são geralmente preferidas por um gênero. Qualquer outro gênero pode se sentir desconfortável ao usá-las.</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Quais partes do corpo isso cobre.\n\nArmaduras não protegem as partes do corpo que não cobrem.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -246,6 +248,14 @@
   <Stat_Race_RoamInterval_Desc>Quão frequente um animal domesticado tentará se afastar e sair do mapa.\n\nOs animais só vagarão se tiverem um caminho direto para a borda do mapa. Você pode usar cercas, barricadas, paredes e portas para evitar isso.\n\nOs treinadores de animais podem amarrar os animais errantes e trazê-los de volta ao curral.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>O valor recreativo de ingerir isso. Números maiores atenderão mais às necessidades de recreação.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The weight of this creature and their equipment. -->
+  <Stat_Mass_Desc>O peso desta criatura e seu equipamento.</Stat_Mass_Desc>
+  <!-- EN: Base mass -->
+  <Stat_Mass_Base>Massa Base</Stat_Mass_Base>
+  <!-- EN: Mass from equipment -->
+  <Stat_Mass_Equipment>Massa do Equipamento</Stat_Mass_Equipment>
+  <!-- EN: Total mass -->
+  <Stat_Mass_Total>Total de Massa</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>O tamanho do corpo desta criatura, em comparação com a média de um ser humano adulto.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -260,6 +270,12 @@
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>A taxa de disparo desta arma durante cada rajada.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>O alcance máximo desta arma.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: Range multiplier -->
+  <Stat_Thing_Weapon_Range_Multiplier>Multiplicador de Alcance</Stat_Thing_Weapon_Range_Multiplier>
+  <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
+  <Stat_Thing_Weapon_Range_Clamped>Reduzido de {ORIGINAL} para {CAP} pelo clima.</Stat_Thing_Weapon_Range_Clamped>
+  <!-- EN: Aiming time multiplier -->
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>Multiplicador de Tempo de Mira</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>O raio de dispersão aleatória a partir tiros disparados por esta arma.\n\nValores altos fazem com que os projéteis se dispersem aleatoriamente ao redor do alvo.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -305,7 +321,7 @@
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>A compensação na eficiência aplicada às partes do corpo afetadas por isso.</Stat_Hediff_PartEfficiency_Desc>
   <!-- EN: How efficiently this functions compared to a natural body part. -->
-  <Stat_Hediff_PartEfficiencyAbsolute_Desc>TODO</Stat_Hediff_PartEfficiencyAbsolute_Desc>
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>Quão eficientemente isso funciona em comparação a uma parte natural do corpo.</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>As habilidades mentais que isso afeta.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -389,13 +405,15 @@
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>A cor na qual esta construção foi pintada.</Stat_Building_PaintColorDesc>
   <!-- EN: Resources to make -->
-  <Stat_Building_ResourcesToMake>TODO</Stat_Building_ResourcesToMake>
+  <Stat_Building_ResourcesToMake>Recursos para fazer</Stat_Building_ResourcesToMake>
   <!-- EN: The resources required to construct this. -->
-  <Stat_Building_ResourcesToMakeDesc>TODO</Stat_Building_ResourcesToMakeDesc>
+  <Stat_Building_ResourcesToMakeDesc>Os recursos necessários para construir isso.</Stat_Building_ResourcesToMakeDesc>
   <!-- EN: The weapon mounted on this creature. -->
-  <Stat_Thing_TurretDesc>TODO</Stat_Thing_TurretDesc>
+  <Stat_Thing_TurretDesc>A arma montada nesta criatura.</Stat_Thing_TurretDesc>
   <!-- EN: The ingredients needed to make this. -->
-  <Stat_Thing_Ingredients>TODO</Stat_Thing_Ingredients>
+  <Stat_Thing_Ingredients>Os ingredientes necessários para fazer isso.</Stat_Thing_Ingredients>
+  <!-- EN: Working at this building will be slower if it's not in this room type. -->
+  <Stat_Building_OptimalRoom_Desc>Trabalhar nesta construção será mais lenta se não estiver neste tipo de sala.</Stat_Building_OptimalRoom_Desc>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -407,7 +425,7 @@
   <!-- EN: How much this drug's high will decay each day. -->
   <Stat_Thing_Drug_HighFallPerDay_Desc>Quanto o efeito desta droga vai cair a cada dia.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>Quanto tempo durará o efeito desta droga por cada dose\n\nIsto é calculado a partir do efeito da droga ganho por dose e Taxa de queda do efeito da droga.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Quanto tempo durará o efeito desta droga por cada dose\n\nIsso é calculado a partir do efeito da droga ganho por dose e Taxa de queda do efeito da droga.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
   <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Quanto a tolerância do usuário a substância química aumentará para cada dose tomada desta droga.\n\nIsso pode ser diferente para as diversas formas da mesma substância química.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
@@ -423,7 +441,7 @@
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
   <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Novos vícios causados por esta droga começam neste nível de gravidade.\n\nTomar mais da droga aumentará a gravidade do vício, enquanto o tempo reduzirá-la.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
-  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Quanto tempo leva para se recuperar de um vício inicial a esta droga.\n\nIsto é calculado a partir da gravidade do novo vício dividido pela taxa de recuperação do vício. Um vício que foi alimentado demorará mais.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Quanto tempo leva para se recuperar de um vício inicial a esta droga.\n\nIsso é calculado a partir da gravidade do novo vício dividido pela taxa de recuperação do vício. Um vício que foi alimentado demorará mais.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
   <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Quanto de gravidade é adicionada a um vício existente para cada dose desta droga.\n\nA gravidade do vício não pode ultrapassar 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
@@ -487,7 +505,7 @@
   <!-- EN: Egg value per year -->
   <Stat_Animal_EggMarketValueYearly>Valor do ovo por ano</Stat_Animal_EggMarketValueYearly>
   <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
-  <Stat_Animal_EggMarketValueYearlyDesc>O valor total dos ovos normalmente postos ao longo de um ano.\n\nIsto é calculado a partir dos ovos por ano e do valor de mercado dos ovos.</Stat_Animal_EggMarketValueYearlyDesc>
+  <Stat_Animal_EggMarketValueYearlyDesc>O valor total dos ovos normalmente postos ao longo de um ano.\n\nIsso é calculado a partir dos ovos por ano e do valor de mercado dos ovos.</Stat_Animal_EggMarketValueYearlyDesc>
   <!-- EN: Milk type -->
   <Stat_Animal_MilkType>Tipo de leite</Stat_Animal_MilkType>
   <!-- EN: The type of milk this creature produces. -->
@@ -548,7 +566,21 @@
   <Stat_Source_ModReport>Este conteúdo veio de um mod.</Stat_Source_ModReport>
 
   <!-- EN: Contained book beauty -->
-  <ContainedBookBeauty>TODO</ContainedBookBeauty>
+  <ContainedBookBeauty>Beleza contida no livro</ContainedBookBeauty>
   <!-- EN: {0} hits -->
-  <Stat_TrapDamageHitCount>TODO</Stat_TrapDamageHitCount>
+  <Stat_TrapDamageHitCount>{0} acertos</Stat_TrapDamageHitCount>
+
+  <!-- EN: The amount of progress that has been made towards hacking this object. -->
+  <Stat_Thing_HackingProgress>A quantidade de progresso que foi feito para hackear este objeto.</Stat_Thing_HackingProgress>
+
+  <!-- EN: Multiplier for {0} terrain -->
+  <StatsReport_TerrainSpeedMultiplier>Multiplicador para terreno {0}</StatsReport_TerrainSpeedMultiplier>
+
+  <!-- EN: {0} trained -->
+  <StatsReport_Trainable>{0} treinado(s)</StatsReport_Trainable>
+  <!-- EN: Available training -->
+  <StatsReport_AvailableTraining>Treinamento Disponível</StatsReport_AvailableTraining>
+  <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
+  <StatsReport_AvailableTraining_Desc>As tarefas que esta criatura pode ser treinada para realizar. O treinamento disponível depende da capacidade de treinamento da criatura, do tamanho do corpo e da espécie.</StatsReport_AvailableTraining_Desc>
+  
 </LanguageData>

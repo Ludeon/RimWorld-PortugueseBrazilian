@@ -145,7 +145,7 @@
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>Este prisioneiro é tão inabalavelmente leal à sua facção que se recusa a ser inteiramente recrutado.</NonRecruitableTip>
   <!-- EN: What type of medicine can be given to this prisoner. -->
-  <MedicineQualityDescriptionPrisoner>TODO</MedicineQualityDescriptionPrisoner>
+  <MedicineQualityDescriptionPrisoner>Qual tipo de medicina pode ser usado neste prisioneiro.</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -222,17 +222,17 @@
   <!-- EN: Prevents infection -->
   <PreventsInfection>Previne infecção</PreventsInfection>
   <!-- EN: Allow self-tend -->
-  <AllowSelfTend>TODO</AllowSelfTend>
+  <AllowSelfTend>Permitir autocuidado</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <AllowSelfTendTip>TODO</AllowSelfTendTip>
+  <AllowSelfTendTip>{0} com autoatendimento habilitado cuidará de si mesmo automaticamente no local com {1} eficiência normal.</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>morte em {0}</DeathIn>
   <!-- EN: Allow medicine -->
-  <AllowMedicine>TODO</AllowMedicine>
+  <AllowMedicine>Permitir medicina</AllowMedicine>
   <!-- EN: What type of medicine can be given to this person. -->
-  <MedicineQualityDescription>TODO</MedicineQualityDescription>
+  <MedicineQualityDescription>Qual tipo de medicina será dada a essa pessoa.</MedicineQualityDescription>
   <!-- EN: What type of food can be given to this person. -->
-  <FoodRestrictionDescription>TODO</FoodRestrictionDescription>
+  <FoodRestrictionDescription>Qual tipo de comida será dada a essa pessoa.</FoodRestrictionDescription>
 
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
@@ -269,8 +269,8 @@
   <Trainability>Treinabilidade</Trainability>
   <!-- EN: Requires {0} trainability. -->
   <CannotTrainNotSmartEnough>Requer treinabilidade em {0}.</CannotTrainNotSmartEnough>
-  <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort} é muito pequeno(a) para treinar isto.</CannotTrainTooSmall>
+  <!-- EN: {0} is too small to train this. -->
+  <CannotTrainTooSmall>{0} é muito pequeno(a) para treinar isto.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Pré-requisito necessário: {0}</TrainingNeedsPrerequisite>
@@ -362,7 +362,7 @@
   <ConfirmRemoveItemDialog>Você realmente quer remover {0}?</ConfirmRemoveItemDialog>
   
   <!-- Quests tab -->
-  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't receive notifications about dismissed quests. -->
   <DismissQuest>Ignore esta missão e mova-a para a guia histórico.\n\nA missão pode ser cancelada a qualquer momento. Seus efeitos e prazos de validade continuarão normalmente. Você não receberá notificações sobre missões rejeitadas.</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
   <UnDismissQuest>Descancelar esta missão.\n\nA missão será retornada à guia disponível ou ativa e as notificações serão reativadas.</UnDismissQuest>
@@ -439,14 +439,14 @@
   
   <!-- Study tab  -->
   <!-- EN: Study progress -->
-  <StudyNotesTab_StudyProgress>TODO</StudyNotesTab_StudyProgress>
+  <StudyNotesTab_StudyProgress>Progresso do estudo</StudyNotesTab_StudyProgress>
   <!-- EN: Ongoing -->
-  <StudyNotesTab_StudyProgressOngoing>TODO</StudyNotesTab_StudyProgressOngoing>
+  <StudyNotesTab_StudyProgressOngoing>Em andamento</StudyNotesTab_StudyProgressOngoing>
   <!-- EN: Completed -->
-  <StudyNotesTab_StudyProgressCompleted>TODO</StudyNotesTab_StudyProgressCompleted>
+  <StudyNotesTab_StudyProgressCompleted>Completo</StudyNotesTab_StudyProgressCompleted>
   <!-- EN: Toggle study -->
-  <StudyNotesTab_ToggleStudy>TODO</StudyNotesTab_ToggleStudy>
+  <StudyNotesTab_ToggleStudy>Alternar estudo</StudyNotesTab_ToggleStudy>
   <!-- EN: No discoveries yet -->
-  <StudyNotesTab_NoDiscoveries>TODO</StudyNotesTab_NoDiscoveries>
+  <StudyNotesTab_NoDiscoveries>Nenhuma descoberta ainda</StudyNotesTab_NoDiscoveries>
 
 </LanguageData>

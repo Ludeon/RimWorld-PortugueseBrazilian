@@ -23,7 +23,7 @@
   <Disable>Desativar</Disable>
   <!-- EN: Modify -->
   <Modify>Modificar</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>Ficar aqui mesmo assim?</ConfirmSettle>
   <!-- EN: add -->
   <Add>adicionar</Add>
@@ -249,10 +249,10 @@
   <SelectedCharactersMustInclude>Deve incluir exatamente {SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Aviso: você aterrissará em um ambiente congelado. Pode ser difícil ou quase impossível para sobreviver. Se você não está pretendendo enfrentar um desafio extremo, escolha um outro local ou estação de ano diferente.</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>Aviso: Você pousará no inverno. Pode ser difícil ou quase impossível sobreviver. Se não pretende enfrentar um desafio extremo, escolha uma estação diferente.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>Aviso: O desempenho pode cair em mapas com tamanhos grandes. O tamanho Absurdo não foi testado e quase certamente não rodará bem.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>O jogo foi projetado para ser jogado em mapas de tamanho médio. Esses tamanhos oferecem bastante espaço! Mapas grandes não apenas prejudicam o desempenho, como também prejudicam o design do jogo. A IA tomará decisões estúpidas e o equilíbrio do jogo será gravemente afetado de várias maneiras. Esses tamanhos são incluídos apenas por motivos de tradição e testes. Não os utilize sem um motivo específico.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Tamanho do Mapa</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -264,7 +264,7 @@
   <!-- EN: Large -->
   <MapSizeLarge>Grande</MapSizeLarge>
   <!-- EN: Extreme (test) -->
-  <MapSizeExtreme>Absurdo</MapSizeExtreme>
+  <MapSizeExtreme>Absurdo (teste)</MapSizeExtreme>
   <!-- EN: Starting season -->
   <MapStartSeason>Estação Inicial</MapStartSeason>
   <!-- EN: Auto -->
@@ -655,7 +655,7 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>Negociador: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Seu(ua) negociador(a) {1_labelShort} Não pode falar corretamente por causa de problemas de saúde.\n\nIsto afetará os preços no comércio.\n\nConsidere o uso de um negociador mais saudável.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Seu(ua) negociador(a) {1_labelShort} Não pode falar corretamente por causa de problemas de saúde.\n\nIsso afetará os preços no comércio.\n\nConsidere o uso de um negociador mais saudável.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
   <NegotiatorHearingImpaired>Seu negociador {1_labelShort} não pode ouvir corretamente devido a problemas de saúde.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
@@ -700,6 +700,8 @@
   <TradeModeTip>Retornar ao modo de negociação.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} não está disposto(a) a enviar uma caravana porque {NEGOTIATOR_nameDef} não possui o título necessário de {TITLE}.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>{FACTION_name} não está disposto(a) a enviar um comerciante orbital porque {NEGOTIATOR_nameDef} não possui o título necessário de {TITLE}.</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -715,19 +717,23 @@
   
   <!-- Select caravan settlement -->
   <!-- EN: Select colony to send caravan -->
-  <SelectCaravanOrigin>TODO</SelectCaravanOrigin> 
+  <SelectCaravanOrigin>Selecione a colônia para enviar a caravana</SelectCaravanOrigin> 
   <!-- EN: Send a caravan from {0}. -->
-  <SelectCaravanDesc>TODO</SelectCaravanDesc> 
+  <SelectCaravanDesc>Envie uma caravana de {0}.</SelectCaravanDesc> 
   <!-- EN: Colonists -->
-  <SelectCaravanColonists>TODO</SelectCaravanColonists>
+  <SelectCaravanColonists>Colonos</SelectCaravanColonists>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
-  <FormCaravan>Formar caravana</FormCaravan>
+  <FormCaravan>Formar Caravana</FormCaravan>
   <!-- EN: Send -->
   <Send>Enviar</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Quantos deste item a colônia está pronta para dar à caravana.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>Número disponível para transporte.</TransporterColonyThingCountTip>
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>Número disponível para transferência.</TransferMapPortalColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>Pessoas e animais</PawnsTab>
   <!-- EN: Items -->
@@ -917,7 +923,7 @@
   <!-- EN: Research Screen -->
   <ResearchScreen>Tela de pesquisa</ResearchScreen>
   <!-- EN: By researching {0} you have discovered the {1} research project. -->
-  <ResearchUnknownProjectRevealed>TODO</ResearchUnknownProjectRevealed>
+  <ResearchUnknownProjectRevealed>Ao pesquisar {0} você descobriu o projeto de pesquisa {1}.</ResearchUnknownProjectRevealed>
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
@@ -935,31 +941,33 @@
   
   <!-- Policies -->
   <!-- EN: Available policies -->
-  <AvailablePolicies>TODO</AvailablePolicies>
+  <AvailablePolicies>Políticas Disponíveis</AvailablePolicies>
   <!-- EN: Unnamed -->
-  <UnnamedPolicy>TODO</UnnamedPolicy>
+  <UnnamedPolicy>Sem Nome</UnnamedPolicy>
   <!-- EN: New... -->
-  <NewPolicy>TODO</NewPolicy>
+  <NewPolicy>Novo...</NewPolicy>
   <!-- EN: Invalid policy name -->
-  <InvalidName>TODO</InvalidName>
+  <InvalidName>Nome de política inválido</InvalidName>
   <!-- EN: Delete the selected policy. -->
-  <DeletePolicyTip>TODO</DeletePolicyTip>
+  <DeletePolicyTip>Exclui a política selecionada.</DeletePolicyTip>
   <!-- EN: Create a duplicate of the selected policy. -->
-  <DuplicatePolicyTip>TODO</DuplicatePolicyTip>
+  <DuplicatePolicyTip>Duplica a política selecionada.</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
-  <RenamePolicyTip>TODO</RenamePolicyTip>
+  <RenamePolicyTip>Renomeia essa política.</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>Faça desta política a política padrão dada aos novos colonos.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
-  <DeletePolicyConfirm>TODO</DeletePolicyConfirm>
+  <DeletePolicyConfirm>Tem certeza de que deseja excluir a política: {0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
-  <DeletePolicyConfirmButton>TODO</DeletePolicyConfirmButton>
+  <DeletePolicyConfirmButton>Excluir</DeletePolicyConfirmButton>
   <!-- EN: No policy selected -->
-  <NoPolicySelected>TODO</NoPolicySelected>
+  <NoPolicySelected>Nenhuma política selecionada</NoPolicySelected>
   
   <!-- Outfit management -->
   <!-- EN: Apparel policies -->
-  <ApparelPolicyTitle>TODO</ApparelPolicyTitle>
+  <ApparelPolicyTitle>Políticas de Vestuário</ApparelPolicyTitle>
   <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
-  <ApparelPolicyTip>TODO</ApparelPolicyTip>
+  <ApparelPolicyTip>Crie e gerencie modelos para controlar quais itens de vestuário os membros da colônia podem usar.</ApparelPolicyTip>
   <!-- EN: Apparel policy -->
   <ApparelPolicy>Política de Vestuário</ApparelPolicy>
   <!-- EN: Apparel policy is in use by {0}. -->
@@ -967,11 +975,11 @@
   
   <!-- Drug policy management -->
   <!-- EN: Drug policies -->
-  <DrugPolicyTitle>TODO</DrugPolicyTitle>
+  <DrugPolicyTitle>Políticas de Drogas</DrugPolicyTitle>
   <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
-  <DrugPolicyTip>TODO</DrugPolicyTip>
+  <DrugPolicyTip>Crie e gerencie modelos para controlar quais drogas seus colonos podem consumir.</DrugPolicyTip>
   <!-- EN: Drug policy -->
-  <DrugPolicy>Política de drogas</DrugPolicy>
+  <DrugPolicy>Política de Drogas</DrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>Política de drogas está em uso por {0}.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
@@ -1019,11 +1027,11 @@
 
   <!-- Food restriction management -->
   <!-- EN: Food policies -->
-  <FoodPolicyTitle>TODO</FoodPolicyTitle>
+  <FoodPolicyTitle>Políticas Alimentícias</FoodPolicyTitle>
   <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
-  <FoodPolicyTip>TODO</FoodPolicyTip>
+  <FoodPolicyTip>Crie e gerencie modelos para controlar quais alimentos os membros da colônia podem comer.</FoodPolicyTip>
   <!-- EN: Food policy -->
-  <FoodPolicy>Política alimentar</FoodPolicy>
+  <FoodPolicy>Política Alimentícia</FoodPolicy>
   <!-- EN: Allow food -->
   <AllowFood>Permitir Alimento</AllowFood>
   <!-- EN: Lavish -->
@@ -1041,73 +1049,75 @@
   
   <!-- Reading management -->
   <!-- EN: Reading policies -->
-  <ReadingPolicyTitle>TODO</ReadingPolicyTitle>
+  <ReadingPolicyTitle>Políticas de Leitura</ReadingPolicyTitle>
   <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
-  <ReadingPolicyTip>TODO</ReadingPolicyTip>
+  <ReadingPolicyTip>Crie e gerencie modelos para controlar quais livros os membros da colônia têm permissão para ler.</ReadingPolicyTip>
   <!-- EN: Reading policy -->
-  <ReadingPolicy>TODO</ReadingPolicy>
+  <ReadingPolicy>Política de Leitura</ReadingPolicy>
   <!-- EN: Reading policy is in use. -->
-  <ReadingPolicyInUse>TODO</ReadingPolicyInUse>
+  <ReadingPolicyInUse>A política de leitura está em uso.</ReadingPolicyInUse>
 
   <!-- EN: Anything -->
-  <AllReadingPolicy>TODO</AllReadingPolicy>
+  <AllReadingPolicy>Qualquer</AllReadingPolicy>
   <!-- EN: None -->
-  <NoneReadingPolicy>TODO</NoneReadingPolicy>
+  <NoneReadingPolicy>Nenhum</NoneReadingPolicy>
   <!-- EN: Textbooks -->
-  <TextbookPolicy>TODO</TextbookPolicy>
+  <TextbookPolicy>Livros Didáticos</TextbookPolicy>
   <!-- EN: Schematics -->
-  <SchematicPolicy>TODO</SchematicPolicy>
+  <SchematicPolicy>Esquemas</SchematicPolicy>
   <!-- EN: Novels -->
-  <NovelPolicy>TODO</NovelPolicy>
+  <NovelPolicy>Romances</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>Mapas</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Configuração padrão de medicamentos</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>TODO</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>Essas configurações médicas são atribuídas às criaturas quando elas se juntam a um determinado grupo. Você pode atribuir manualmente uma configuração a um indivíduo em sua aba de saúde.\n\nObservação: Se a criatura se juntar a um novo grupo, ela sempre assumirá as configurações daquele grupo, mesmo que você já tenha atribuído uma configuração a ela.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>Padrões</MedGroupDefaults>
   
   <!-- EN: Colonists -->
-  <MedGroupColonists>TODO</MedGroupColonists>
+  <MedGroupColonists>Colonos</MedGroupColonists>
   <!-- EN: Free members of your colony -->
-  <MedGroupColonistsDesc>TODO</MedGroupColonistsDesc>
+  <MedGroupColonistsDesc>Membros livres da sua colônia</MedGroupColonistsDesc>
   
   <!-- EN: Prisoners -->
-  <MedGroupPrisoners>TODO</MedGroupPrisoners>
+  <MedGroupPrisoners>Prisioneiros</MedGroupPrisoners>
   <!-- EN: Prisoners in your colony, regardless of faction. -->
-  <MedGroupPrisonersDesc>TODO</MedGroupPrisonersDesc>
+  <MedGroupPrisonersDesc>Prisioneiros na sua colônia, independentemente da facção.</MedGroupPrisonersDesc>
 
   <!-- EN: Tamed animals -->
-  <MedGroupTamedAnimals>TODO</MedGroupTamedAnimals>
+  <MedGroupTamedAnimals>Animais Domesticados</MedGroupTamedAnimals>
   <!-- EN: Animals which have been tamed by your colony. -->
-  <MedGroupTamedAnimalsDesc>TODO</MedGroupTamedAnimalsDesc>
+  <MedGroupTamedAnimalsDesc>Animais que foram domesticados pela sua colônia.</MedGroupTamedAnimalsDesc>
 
   <!-- EN: Friendly faction members -->
-  <MedGroupFriendlyFaction>TODO</MedGroupFriendlyFaction>
+  <MedGroupFriendlyFaction>Membros de Facções Amigáveis</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
-  <MedGroupFriendlyFactionDesc>TODO</MedGroupFriendlyFactionDesc>
+  <MedGroupFriendlyFactionDesc>Humanos ou animais que fazem parte de uma facção amigável à sua (boa vontade acima de 75).</MedGroupFriendlyFactionDesc>
   
   <!-- EN: Neutral faction members -->
-  <MedGroupNeutralFaction>Facção neutra</MedGroupNeutralFaction>
+  <MedGroupNeutralFaction>Membros de Facções Neutras</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
-  <MedGroupNeutralFactionDesc>TODO</MedGroupNeutralFactionDesc>
+  <MedGroupNeutralFactionDesc>Humanos ou animais que fazem parte de uma facção neutra em relação à sua (entre -75 e 75 de boa vontade).</MedGroupNeutralFactionDesc>
 
   <!-- EN: Hostile faction members -->
-  <MedGroupHostileFaction>Facção hostil</MedGroupHostileFaction>
+  <MedGroupHostileFaction>Membros de Facções Hostis</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>TODO</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>Humanos ou animais que fazem parte de uma facção hostil à sua (boa vontade abaixo de -75).</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
-  <MedGroupNoFaction>TODO</MedGroupNoFaction>
+  <MedGroupNoFaction>Outros Humanos</MedGroupNoFaction>
   <!-- EN: Humans who are not members of any faction. -->
-  <MedGroupNoFactionDesc>TODO</MedGroupNoFactionDesc>
+  <MedGroupNoFactionDesc>Humanos que não fazem parte de nenhuma facção.</MedGroupNoFactionDesc>
   
   <!-- EN: Wildlife -->
-  <MedGroupWildlife>TODO</MedGroupWildlife>
+  <MedGroupWildlife>Animais Selvagens</MedGroupWildlife>
   <!-- EN: Animals and other creatures which are not members of any faction. -->
-  <MedGroupWildlifeDesc>TODO</MedGroupWildlifeDesc>
+  <MedGroupWildlifeDesc>Animais e outras criaturas que não são membros de nenhuma facção.</MedGroupWildlifeDesc>
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>Banir {1_labelShort} fará com que as seguintes pessoas tenham os seguintes pensamentos:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>O grupo de cápsulas não está completamente carregado. Está faltando {1_labelShort}. Lançar assim mesmo?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>O seguinte ainda precisa ser carregado</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>Lançar mesmo assim?</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1147,7 +1159,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}?\n\nIsto irá:\n  - Adicionar espaços reservados para traduções dos arquivos Keyed, DefInjected e Backstories.\n  - Adicionar ou atualizar os comentários que contêm no texto original não traduzido.\n  - Mover todas as traduções de Keyed e DefInjected para os arquivos XML apropriados.\n  - Aplicar a formatação automática a todos os arquivos XML.\n  - Atualizar os nomes Def compatíveis com versões anteriores.\n  - Remover todos os comentários XML existentes (exceto em texto completo).\n\nArquivos não-XML não serão removidos ou modificados.\n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados.\n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Tem certeza de que deseja limpar todos os arquivos de tradução do idioma {0}?\n\nIsso irá:\n  - Adicionar espaços reservados para traduções dos arquivos Keyed, DefInjected e Backstories.\n  - Adicionar ou atualizar os comentários que contêm no texto original não traduzido.\n  - Mover todas as traduções de Keyed e DefInjected para os arquivos XML apropriados.\n  - Aplicar a formatação automática a todos os arquivos XML.\n  - Atualizar os nomes Def compatíveis com versões anteriores.\n  - Remover todos os comentários XML existentes (exceto em texto completo).\n\nArquivos não-XML não serão removidos ou modificados.\n\nLembre-se de reiniciar o jogo depois de modificar os arquivos de idioma antes de executar essa ferramenta para recarregar todos os dados.\n\nCertifique-se de fazer backup de todos os arquivos de tradução antes de usar esta ferramenta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sim, eu tenho um backup</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1205,7 +1217,7 @@
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Impossível usar: {0} é assexuad{PAWN_gender ? o : a }.</AbilityCantApplyOnAsexual>
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
-  <AbilityCannotCastNoHealableInjury>TODO</AbilityCannotCastNoHealableInjury>
+  <AbilityCannotCastNoHealableInjury>{PAWN_labelShort} não tem ferimentos curáveis.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} é o gênero errado para {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1256,11 +1268,11 @@
   <FarskipConfirmTeleportingLodger>Caso pule {PAWN_labelShort} para outro mapa ou para uma caravana, a missão associada falhará e {PAWN_pronoun} irá embora imediatamente.\n\nRealmente deseja teleportar para longe com {PAWN_labelShort}? </FarskipConfirmTeleportingLodger>
   
   <!-- EN: minor -->
-  <MentalBreakIntensityMinor>menor</MentalBreakIntensityMinor>
+  <MentalBreakIntensityMinor>Menor</MentalBreakIntensityMinor>
   <!-- EN: major -->
-  <MentalBreakIntensityMajor>maior</MentalBreakIntensityMajor>
+  <MentalBreakIntensityMajor>Maior</MentalBreakIntensityMajor>
   <!-- EN: extreme -->
-  <MentalBreakIntensityExtreme>extremo</MentalBreakIntensityExtreme>
+  <MentalBreakIntensityExtreme>Extremo</MentalBreakIntensityExtreme>
 
   <!-- Auto slaughter -->
   <!-- EN: Animal -->
@@ -1407,17 +1419,21 @@
   <ColorTemperatureTooltip>Escolha uma cor definindo a temperatura da cor. Nota: isso afeta apenas o visual da cor, não a produção de calor.</ColorTemperatureTooltip>
 
   <!-- EN: {0_labelShort} is psychically deaf. -->
-  <CannotShootPawnIsPsychicallyDeaf>TODO</CannotShootPawnIsPsychicallyDeaf>
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort} é psiquicamente surdo.</CannotShootPawnIsPsychicallyDeaf>
 
   <!-- EN: Search the current map. -->
-  <SearchTheMap>TODO</SearchTheMap>
+  <SearchTheMap>Procurar no mapa atual.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
-  <SearchTheMapDesc>TODO</SearchTheMapDesc>
+  <SearchTheMapDesc>Procure no mapa atual por itens, edifícios, pessoas, animais, plantas e muito mais.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>Procurar pelo mundo</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>Procure no mundo por características, marcos, missões ou assentamentos específicos.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
-  <MapSearchResults>TODO</MapSearchResults>
+  <MapSearchResults>{0} resultados encontrados</MapSearchResults>
   <!-- EN: 1 result found -->
-  <MapSearchResultSingular>TODO</MapSearchResultSingular>
+  <MapSearchResultSingular>1 resultado encontrado</MapSearchResultSingular>
   <!-- EN: Searching -->
-  <Searching>TODO</Searching>
+  <Searching>Procurando</Searching>
 
 </LanguageData>

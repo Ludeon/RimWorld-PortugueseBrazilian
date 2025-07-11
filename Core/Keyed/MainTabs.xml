@@ -25,7 +25,7 @@
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
   <PriorityOneDoneFirst>A prioridade 1 é feita primeiro. A prioridade 4 é feita por último.</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
-  <Priority0>Não vai fazer</Priority0>
+  <Priority0>Não Fará</Priority0>
   <!-- EN: Top priority -->
   <Priority1>Prioridade Máxima</Priority1>
   <!-- EN: High priority -->
@@ -47,23 +47,23 @@
   <!-- EN: Unchangeable -->
   <Unchangeable>Imutável</Unchangeable>
   <!-- EN: Clr. forced -->
-  <ClearForcedApparel>Tirar forçado</ClearForcedApparel>
+  <ClearForcedApparel>Tirar Forçado</ClearForcedApparel>
   <!-- EN: forced -->
   <ApparelForcedLower>Forçado</ApparelForcedLower>
   <!-- EN: locked -->
   <ApparelLockedLower>Trancado</ApparelLockedLower>
   <!-- EN: Forced apparel -->
-  <ForcedApparel>Vestuário forçado</ForcedApparel>
+  <ForcedApparel>Vestuário Forçado</ForcedApparel>
   <!-- EN: Edit -->
   <AssignTabEdit>Editar</AssignTabEdit>
   <!-- EN: Manage apparel policies -->
-  <ManageApparelPolicies>TODO</ManageApparelPolicies>
+  <ManageApparelPolicies>Gerenciar Políticas de Vestuário</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>Gerenciar políticas de drogas</ManageDrugPolicies>
+  <ManageDrugPolicies>Gerenciar Políticas de Droga</ManageDrugPolicies>
   <!-- EN: Manage food policies -->
-  <ManageFoodPolicies>TODO</ManageFoodPolicies>
+  <ManageFoodPolicies>Gerenciar Políticas Alimentícias</ManageFoodPolicies>
   <!-- EN: Manage reading policies -->
-  <ManageReadingPolicies>TODO</ManageReadingPolicies>
+  <ManageReadingPolicies>Gerenciar Políticas de Leitura</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -193,15 +193,15 @@
   <!-- EN: Study {0} -->
   <StudyThing>Estudar {0}</StudyThing>
   <!-- EN: Unresearched -->
-  <Unresearched>Não pesquisado</Unresearched>
+  <Unresearched>Não Pesquisado</Unresearched>
   <!-- EN: Finished -->
   <Finished>Finalizado</Finished>
   <!-- EN: In Progress -->
-  <InProgress>Em progresso</InProgress>
+  <InProgress>Em Progresso</InProgress>
   <!-- EN: Locked -->
   <Locked>Trancado</Locked>
   <!-- EN: Prerequisites -->
-  <Prerequisites>TODO</Prerequisites>
+  <Prerequisites>Pré-Requisitos</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Projetos técnicos necessárias {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
@@ -209,13 +209,13 @@
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Pré-requisito(s) não concluído(s)</PrerequisitesNotCompleted>
   <!-- EN: No project active. -->
-  <NoProjectSelected>TODO</NoProjectSelected>
+  <NoProjectSelected>Nenhum projeto ativo.</NoProjectSelected>
   <!-- EN: Active projects -->
-  <ActiveProjectPlural>TODO</ActiveProjectPlural>
+  <ActiveProjectPlural>Projetos Ativos</ActiveProjectPlural>
   <!-- EN: Active project -->
-  <ActiveProject>TODO</ActiveProject>
+  <ActiveProject>Projeto Ativo</ActiveProject>
   <!-- EN: Stop research -->
-  <StopResearch>TODO</StopResearch>
+  <StopResearch>Parar Pesquisa</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>Instalações de pesquisa necessárias ausentes</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -231,9 +231,9 @@
   <!-- EN: Unlocked with -->
   <UnlockedWith>Desbloqueado com</UnlockedWith>
   <!-- EN: Research one or more of this project's prerequisites to discover it. -->
-  <UnknownResearchDescription>TODO</UnknownResearchDescription>
+  <UnknownResearchDescription>Pesquise um ou mais pré-requisitos deste projeto para descobri-lo.</UnknownResearchDescription>
   <!-- EN: unknown -->
-  <UnknownResearch>TODO</UnknownResearch>
+  <UnknownResearch>Desconhecido</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -322,6 +322,8 @@
   <QuestPawnNotOnColonyMap>{PAWN_definite} para ser sua colônia principal</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>que o mapa esteja livre de inimigos</QuestRequiresNoDangerOnMap>
+  <!-- EN: that {PROJECT_label} has been researched. -->
+  <QuestRequiresResearch>que {PROJECT_label} tenha sido pesquisado.</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>para finalizar a missão da cerimônia de outorga</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -358,26 +360,30 @@
   <QuestNeutralTo>neutro a {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>estudou {0_labelShort}</QuestRequiredThingStudied>
+  <!-- EN: cannot accept {GERUND} {LAYER} -->
+  <QuestRequiredLayer>não pode aceitar em {LAYER}</QuestRequiredLayer>
+  <!-- EN: cannot accept in space -->
+  <QuestNotSpace>não pode aceitar no espaço</QuestNotSpace>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
-  <CreatesNeed>Cria necessidade</CreatesNeed>
+  <CreatesNeed>Cria Necessidade</CreatesNeed>
   <!-- EN: Change defaults... -->
-  <ChangeDefaults>TODO</ChangeDefaults>
+  <ChangeDefaults>Alterar padrões...</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
-  <ClickToEdit>Clique para editar</ClickToEdit>
+  <ClickToEdit>Clique para Editar</ClickToEdit>
   <!-- EN: Assign -->
-  <AssignButton>TODO</AssignButton>
+  <AssignButton>Atribuir</AssignButton>
   <!-- EN: Unassign -->
-  <UnassignButton>TODO</UnassignButton>
+  <UnassignButton>Desatribuir</UnassignButton>
   
   <!-- Books -->
   <!-- EN: Mental break chance -->
-  <BookMentalBreakChance>TODO</BookMentalBreakChance>
+  <BookMentalBreakChance>Chance de Colapso Mental</BookMentalBreakChance>
   
   <!-- EN: Recreation gain multiplier -->
-  <BookJoyFactor>TODO</BookJoyFactor>
+  <BookJoyFactor>Multiplicador de Ganho de Recreação</BookJoyFactor>
   
 </LanguageData>

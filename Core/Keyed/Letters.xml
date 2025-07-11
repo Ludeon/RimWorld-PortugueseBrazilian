@@ -124,7 +124,7 @@
   <LetterFriendlyTrapSprung>{1_labelShort} acidentalmente ativou uma armadilha e se machucou.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{PAWN_labelShort} desenvolveu a seguinte condição de saúde: {1}\n\nIsto foi uma complicação de: {2}.</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort} desenvolveu a seguinte condição de saúde: {1}\n\nIsso foi uma complicação de: {2}.</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   
@@ -295,6 +295,8 @@
   <LetterLabelFactionBaseDefeated>Posto avançado destruído</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>O posto avançado inimigo {0} foi destruído.\n\nVocê tem {1} horas para coletar itens antes que seus colonos reformem a caravana.</LetterFactionBaseDefeated>
+  <!-- EN: The enemy settlement {0} has been destroyed. -->
+  <LetterFactionBaseDefeatedNoRaids>O posto avançado inimigo {0} foi destruído.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Esta foi a última base de {0}, O que significa que a facção não existe mais.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -413,8 +415,10 @@
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Regate se juntou</LetterLabelRescueQuestFinished>
-  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Resgatou {PAWN_nameDef} e {PAWN_pronoun} aderiu ao seu grupo.\n\nVocê pode levar {PAWN_pronoun} com você ao reformar a caravana na tela Mundo selecionando esta área e escolhendo a opção "Reformar caravana"</LetterRescueQuestFinished>
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
+  <LetterRescueQuestFinished>Resgatou {PAWN_nameDef} e {PAWN_pronoun} aderiu ao seu grupo.</LetterRescueQuestFinished>
+  <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
+  <LetterRescueQuestFinishedCaravanExtra>\n\nVocê pode levar {PAWN_pronoun} com você ao reformar a caravana na tela Mundo selecionando esta área e escolhendo a opção "Reformar caravana"</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -431,16 +435,28 @@
   <LetterTraitDisease>{PAWN_label} adoeceu de {1}.\n\nCertifique-se de que você tem camas médicas e um médico. Cuide para que {PAWN_pronoun} receba o tratamento adequado e gaste o máximo de tempo possível na cama.</LetterTraitDisease>
 
   <!-- Quests -->
-  <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Uma nova missão está disponível. É chamada de '{0}'.</LetterQuestBecameAvailable>
-  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>Se você não aceitar a missão em {0}, ela expirará.</LetterQuestRequiresAcceptance>
-  <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Uma nova missão se tornou ativa. É chamada de '{0}'.</LetterQuestBecameActive>
+  <!-- EN: Quest available: {0} -->
+  <LetterLabelQuestAvailableTitle>Missão disponível: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>Missão ativa: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>Missão ativa: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <!-- EN: {DISCOVEREDFROM} a new quest. -->
+  <LetterNewQuest>{DISCOVEREDFROM} uma nova missão.</LetterNewQuest>
+  <!-- EN: A new quest is available. -->
+  <LetterNewQuestFromUnknown>Uma nova missão está disponível.</LetterNewQuestFromUnknown>
+  <!-- EN: The quest is called '{0}'. -->
+  <LetterQuestIsNamed>A missão é chamada de '{0}'.</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>Ela expirará em {0}.</LetterQuestActiveNowTime>
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>Se você não aceitar a missão em {0}, ela expirará.</LetterQuestRequiresAcceptance>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
+  <QuestDiscoveredFromBook>Ao ler {BOOK_labelNoParenthesis}, {READER_nameDef} descobriu</QuestDiscoveredFromBook>
+  <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
+  <QuestDiscoveredFromTrader>Ao conversar com o comerciante {TRADER_nameDef}, {NEGOTIATOR_nameDef} soube de</QuestDiscoveredFromTrader>
+  <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
+  <QuestDiscoveredFromBeggar>Para mostrar sua gratidão por sua caridade, o mendigo {RECEIVER_nameDef} compartilhou um segredo com {GIVER_nameDef}.\n\nVocê aprendeu sobre</QuestDiscoveredFromBeggar>
+  <!-- EN: You have discovered -->
+  <QuestDiscoveredFromDebug>Você descobriu</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
@@ -554,7 +570,7 @@
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>{PAWN} ficou doente devido à exposição prolongada ao gás fétido de decomposição (que é liberado por cadáveres em decomposição).\n\nCertifique-se de possuir uma cama médica e um médico. Garanta que {PAWN_pronoun} receba tratamento adequado.</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} ficou doente de {1} devido à exposição prolongada ao gás fétido de decomposição (que é liberado por cadáveres em decomposição).\n\nCertifique-se de possuir uma cama médica e um médico. Garanta que {PAWN_pronoun} receba tratamento adequado.</LetterTextLungRot>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->

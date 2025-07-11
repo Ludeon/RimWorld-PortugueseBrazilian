@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Desconstrói algo e recupera parte de seus recursos.</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>Desconstruir conduíte</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>Desconstruir conduítes de energia e recuperar parte de seus recursos.</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Desinstalar</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -45,8 +50,8 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Caçar</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>Marca animais para serem caçados.</DesignatorHuntDesc>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>Marca animais para serem caçados.\n\nApenas caçadores com armas de longo alcance adequadas irão caçar.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>Minerar</DesignatorMine>
@@ -54,27 +59,27 @@
   <DesignatorMineDesc>Seleciona áreas de rocha para serem mineradas.</DesignatorMineDesc>
 
   <!-- EN: Mine vein -->
-  <DesignatorMineVein>TODO</DesignatorMineVein>
+  <DesignatorMineVein>Veia de mina</DesignatorMineVein>
   <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
-  <DesignatorMineVeinDesc>TODO</DesignatorMineVeinDesc>
+  <DesignatorMineVeinDesc>Designe uma área de rocha a ser minerada. Os colonos continuarão minerando até que todas as rochas conectadas do mesmo tipo tenham sido mineradas.</DesignatorMineVeinDesc>
 
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>Alisar superfície</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>Marca pisos e paredes de pedra bruta para serem alisados.</DesignatorSmoothSurfaceDesc>
   <!-- EN: Smooth walls -->
-  <DesignatorSmoothWalls>TODO</DesignatorSmoothWalls>
+  <DesignatorSmoothWalls>Alisar paredes</DesignatorSmoothWalls>
   <!-- EN: Designate rough stone walls to be smoothed. -->
-  <DesignatorSmoothWallsDesc>TODO</DesignatorSmoothWallsDesc>
+  <DesignatorSmoothWallsDesc>Designe paredes de pedra bruta para serem alisadas.</DesignatorSmoothWallsDesc>
   <!-- EN: Smooth terrain -->
-  <DesignatorSmoothFloors>TODO</DesignatorSmoothFloors>
+  <DesignatorSmoothFloors>Alisar terreno</DesignatorSmoothFloors>
   <!-- EN: Designate rough stone terrain to be smoothed. -->
-  <DesignatorSmoothFloorsDesc>TODO</DesignatorSmoothFloorsDesc>
+  <DesignatorSmoothFloorsDesc>Designe terrenos de pedras ásperas para serem alisadas.</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planos</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Coloca desenhos de planejamento. Eles não fazem nada além de ajudá-lo a planejar suas futuras expansões.</DesignatorPlanDesc>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <DesignatorPlanDesc>Coloca desenhos de planejamento. Eles não fazem nada além de ajudá-lo a planejar suas futuras expansões.\n\nClique com o botão direito para ocultar ou exibir todas as zonas de planejamento.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Remover planos</DesignatorPlanRemove>
@@ -168,8 +173,8 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Remover ponte</DesignatorRemoveBridge>
-  <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>Remova as pontes para revelar o terreno por baixo.</DesignatorRemoveBridgeDesc>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>Remove pontes para recuperar parcialmente os recursos.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>Remover roupas</DesignatorStrip>
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Abre recipientes.</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>Extrair combustível</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>Extraia todo o combustível contido no chão.</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Abater</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>Domesticar</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Doma e domestica um animal selvagem.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>Animais infectados com escara não podem ser domados.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Libertar</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Cor selecionada</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>Expandir plano</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>Novo plano</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>Encolher plano</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>Remover planos.</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Material não escolhido</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0} bloquearia {1} local de interação.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>O terreno aqui já é de {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>Já existe uma fundação aqui.</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>O terreno existente aqui não pode ser removido.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>A superfície já está marcada para ser suavizada.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>Expandir {0} ou\nCriar nova {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Criar nova {0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>Expandir {0} ou\nCriar novo plano</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>Criar novo plano</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

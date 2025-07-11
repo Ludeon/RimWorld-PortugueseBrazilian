@@ -2,7 +2,9 @@
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
-  
+
+  <!-- EN: Title -->
+  <ScenarioTitle>Título</ScenarioTitle>
   <!-- EN: Your faction will be a {0}. -->
   <ScenPart_PlayerFaction>Sua facção será: {0}.</ScenPart_PlayerFaction>
 
@@ -23,6 +25,9 @@
 
   <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>O status "{0}" será universalmente multiplicado por {1}.</ScenPart_StatFactor>
+  
+  <!-- EN: Select -->
+  <ScenPart_SelectQuestDef>Selecionar</ScenPart_SelectQuestDef>
 
   <!-- Pawn modifiers -->
   <!-- EN: {0} have a {1} chance to start with {2}. -->
@@ -54,6 +59,9 @@
   <ScenPart_StartWithSpecificColonists>Iniciar com {0}.</ScenPart_StartWithSpecificColonists>
   <!-- EN: {COUNT} {KINDLABEL} -->
   <PawnCount>{COUNT} {KINDLABEL}</PawnCount>
+  
+  <!-- EN: One or more parts in this scenario could not be loaded due to missing modded content.\n\nYou can load the scenario with all its required mods, or load it anyway without the missing scenario parts. -->
+  <ScenPart_Error>Uma ou mais partes deste cenário não puderam ser carregadas devido à falta de conteúdo modificado.\n\nVocê pode carregar o cenário com todos os mods necessários ou carregá-lo mesmo assim, sem as partes ausentes do cenário.</ScenPart_Error>
 
   <!-- ======================== Grouped ========================-->
 
@@ -69,5 +77,51 @@
   <ScenPart_CreateIncident>Incidente criado</ScenPart_CreateIncident>
   <!-- EN: Can never build -->
   <ScenPart_DisallowBuilding>Nunca poderá construir</ScenPart_DisallowBuilding>
+
+  <!-- ======================== Layers ========================-->
+  
+  <!-- EN: Tag -->
+  <ScenPart_PlanetLayerTag>Marcação</ScenPart_PlanetLayerTag>
+  <!-- EN: Must have a unique tag -->
+  <ScenPart_PlanetLayerTag_Error>Deve ter uma marcação exclusiva</ScenPart_PlanetLayerTag_Error>
+  
+  <!-- EN: Settings -->
+  <ScenPart_PlanetLayerSettings>Configurações</ScenPart_PlanetLayerSettings>
+  <!-- EN: Use settings def -->
+  <ScenPart_PlanetLayerSettings_UseDef>Usar configurações padrões</ScenPart_PlanetLayerSettings_UseDef>
+  <!-- EN: Select -->
+  <ScenPart_PlanetLayerSettings_SelectDef>Selecionar</ScenPart_PlanetLayerSettings_SelectDef>
+  <!-- EN: Position -->
+  <ScenPart_PlanetLayerSettings_Position>Posição</ScenPart_PlanetLayerSettings_Position>
+  <!-- EN: Radius -->
+  <ScenPart_PlanetLayerSettings_Radius>Raio</ScenPart_PlanetLayerSettings_Radius>
+  <!-- EN: Use surface view angle -->
+  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>Usar ângulo de visão da superfície</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
+  <!-- EN: View angle -->
+  <ScenPart_PlanetLayerSettings_ViewAngle>Ver Ângulo</ScenPart_PlanetLayerSettings_ViewAngle>
+  <!-- EN: Extra camera height -->
+  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>Altura Extra da Câmera</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
+  <!-- EN: Subdivisions -->
+  <ScenPart_PlanetLayerSettings_Subdivisions>Subdivisões</ScenPart_PlanetLayerSettings_Subdivisions>
+  <!-- EN: Background camera offset -->
+  <ScenPart_PlanetLayerSettings_BackgroundOffset>Deslocamento da Câmera de Fundo</ScenPart_PlanetLayerSettings_BackgroundOffset>
+  <!-- EN: Background parallax per 100 cells -->
+  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>Paralaxe de Fundo Por 100 células</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
+  
+  <!-- EN: Connections -->
+  <ScenPart_PlanetLayerConnections>Conexões</ScenPart_PlanetLayerConnections>
+  <!-- EN: Add connection -->
+  <ScenPart_PlanetLayerConnections_Add>Adicionar Conexões</ScenPart_PlanetLayerConnections_Add>
+  <!-- EN: No zoom -->
+  <ScenPart_PlanetLayerConnections_Zoom>Sem Zoom</ScenPart_PlanetLayerConnections_Zoom>
+  <!-- EN: Zoom in -->
+  <ScenPart_PlanetLayerConnections_ZoomIn>Aumentar o Zoom</ScenPart_PlanetLayerConnections_ZoomIn>
+  <!-- EN: Zoom out -->
+  <ScenPart_PlanetLayerConnections_ZoomOut>Diminuir o Zoom</ScenPart_PlanetLayerConnections_ZoomOut>
+  <!-- EN: Fuel cost -->
+  <ScenPart_PlanetLayerConnections_Fuel>Custo de Combustível</ScenPart_PlanetLayerConnections_Fuel>
+  
+  <!-- EN: Planet layer -->
+  <ScenPart_ForcedMapPlanetLayer>Camada Planetária</ScenPart_ForcedMapPlanetLayer>
 
 </LanguageData>

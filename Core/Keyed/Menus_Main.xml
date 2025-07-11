@@ -55,7 +55,7 @@
   <!-- EN: Tynan's design book -->
   <TynansDesignBook>Livro de Projeto</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
-  <HelpTranslate>Trad. do Jogo</HelpTranslate>
+  <HelpTranslate>Trad. do RimWorld</HelpTranslate>
   <!-- EN: Buy soundtrack -->
   <BuySoundtrack>Trilha Sonora</BuySoundtrack>
   <!-- EN: Create world -->
@@ -116,10 +116,12 @@
   <PlanetCoverageTip>O planeta é sempre do mesmo diâmetro, mas já que é muito maior do que o necessário para o jogo, nós não geramos toda a superfície. Esta é a percentagem da superfície que você que seja gerada.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Facções</WorldFactionsTab>
+  <!-- EN: Advanced settings -->
+  <AdvancedSettings>Configurações Avançadas</AdvancedSettings>
 
   <!-- Select world -->
   <!-- EN: Select world -->
-  <SelectWorld>Selecionar mundo</SelectWorld>
+  <SelectWorld>Selecionar Mundo</SelectWorld>
   <!-- EN: Select -->
   <WorldChooseButton>Selecionar</WorldChooseButton>
   <!-- EN: No world files found. Create a world first. -->
@@ -481,6 +483,10 @@
   <Difficulty_UnwaveringPrisoners_Label>Prisioneiros Inabaláveis</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
   <Difficulty_UnwaveringPrisoners_Info>Esta opção adiciona prisioneiros adicionais capturáveis ao jogo que não podem ser recrutados devido a uma lealdade inabalável.\n\nOs prisioneiros inabaláveis são adicionados além dos prisioneiros normais, portanto, desativar essa opção não fornecerá mais prisioneiros recrutáveis - ela simplesmente remove os prisioneiros inabaláveis.\n\nOs prisioneiros inabaláveis ainda podem ser libertados para ganhos diplomáticos, vendidos, escravizados, colhidos para órgãos ou usados de outras formas. Em geral, eles oferecem mais opções e recursos, tornando o jogo um pouco mais fácil.</Difficulty_UnwaveringPrisoners_Info>
+  <!-- EN: Nomadic mineable resources -->
+  <Difficulty_NomadicMineableResourcesFactor_Label>Recursos mineráveis nômades</Difficulty_NomadicMineableResourcesFactor_Label>
+  <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
+  <Difficulty_NomadicMineableResourcesFactor_Info>Ajuste quantos recursos mineráveis serão gerados nos mapas após o primeiro.\n\nObservação: seu primeiro mapa da colônia sempre será gerado com a quantidade padrão de recursos.</Difficulty_NomadicMineableResourcesFactor_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Ferramentas do Jogador</DifficultyPlayerToolsSection>
@@ -560,6 +566,8 @@
   <River>Rio</River>
   <!-- EN: Elevation -->
   <Elevation>Elevação</Elevation>
+  <!-- EN: Features -->
+  <TileMutators>Recursos</TileMutators>
   <!-- EN: Fertility -->
   <Fertility>Fertilidade</Fertility>
   <!-- EN: fertility -->
@@ -607,11 +615,11 @@
   <!-- EN: Create characters -->
   <CreateCharacters>Criação de Personagens</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
-  <FirstNameDesc>O primeiro nome do personagem.\n\nIsto só é exibido em alguns menus.</FirstNameDesc>
+  <FirstNameDesc>O primeiro nome do personagem.\n\nIsso só é exibido em alguns menus.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
-  <ShortIdentifierDesc>Como o personagem será chamado.\n\nIsto é exibido em todos os momentos. Ele pode ser o primeiro ou o último nome, ou um apelido completamente separado.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>Como o personagem será chamado.\n\nIsso é exibido em todos os momentos. Ele pode ser o primeiro ou o último nome, ou um apelido completamente separado.</ShortIdentifierDesc>
   <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
-  <LastNameDesc>O sobrenome do personagem.\n\nIsto só é exibido em alguns menus.</LastNameDesc>
+  <LastNameDesc>O sobrenome do personagem.\n\nIsso só é exibido em alguns menus.</LastNameDesc>
   <!-- EN: Randomize -->
   <Randomize>Aleatorizar</Randomize>
   <!-- EN: age {0} -->
@@ -643,7 +651,7 @@
   <!-- EN: Caused by gene -->
   <IncapableOfTooltipGene>Causado por gene</IncapableOfTooltipGene>
   <!-- EN: Caused by -->
-  <IncapableOfTooltipMutant>TODO</IncapableOfTooltipMutant>
+  <IncapableOfTooltipMutant>Causado por</IncapableOfTooltipMutant>
   <!-- EN: Traits -->
   <Traits>Traços</Traits>
   <!-- EN: Permanent mood effect -->
@@ -651,21 +659,21 @@
   <!-- EN: Skills -->
   <Skills>Habilidades</Skills>
   <!-- EN: none -->
-  <NoneLower>nenhum</NoneLower>
+  <NoneLower>Nenhum</NoneLower>
   <!-- EN: Adulthood -->
   <Adulthood>Idade Adulta</Adulthood>
   <!-- EN: Childhood -->
   <Childhood>Infância</Childhood>
   <!-- EN: male -->
-  <Male>masculino</Male>
+  <Male>Masculino</Male>
   <!-- EN: female -->
-  <Female>feminino</Female>
+  <Female>Feminino</Female>
   <!-- EN: male and female -->
-  <MaleAndFemale>masculino e feminino</MaleAndFemale>
+  <MaleAndFemale>Masculino e Feminino</MaleAndFemale>
   <!-- EN: male -->
-  <MaleAnimal>macho</MaleAnimal>
+  <MaleAnimal>Macho</MaleAnimal>
   <!-- EN: female -->
-  <FemaleAnimal>fêmea</FemaleAnimal>
+  <FemaleAnimal>Fêmea</FemaleAnimal>
   <!-- EN: Pain -->
   <Pain>Dor</Pain>
   <!-- EN: Health -->
@@ -709,9 +717,9 @@
   
   <!-- Progress bar -->
   <!-- EN: Generating world -->
-  <GeneratingWorld>Gerando mundo</GeneratingWorld>
+  <GeneratingWorld>Gerando Mundo</GeneratingWorld>
   <!-- EN: Generating planet -->
-  <GeneratingPlanet>Gerando planeta</GeneratingPlanet>
+  <GeneratingPlanet>Gerando Planeta</GeneratingPlanet>
   <!-- EN: Generating map -->
   <GeneratingMap>Gerando Mapa</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
@@ -721,6 +729,12 @@
   <ClickForMoreInfo>Clique para mais informações</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Não há mais informações disponíveis.</NoMoreInfoAvailable>
+  <!-- EN: Best skill -->
+  <BestSkillLabel>Melhor Habilidade</BestSkillLabel>
+  <!-- EN: {PAWN_nameDef}'s best stat -->
+  <BestSkillLetterLabel>Melhor estatística de {PAWN_nameDef}</BestSkillLetterLabel>
+  <!-- EN: skill level {0} -->
+  <BestSkillInfoLevel>nível de habilidade {0}</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -739,5 +753,7 @@
   <MechanoidsDisabledContentWarning>Desativar {0} significa menos variedade de ameaças espontâneas.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>Sem outras facções, invasões, negociações e missões não ocorrerão normalmente.</FactionsDisabledWarning>
+  <!-- EN: Cannot be removed for this scenario. -->
+  <FactionRemovalDisabled>Não pode ser removido para este cenário.</FactionRemovalDisabled>
 
 </LanguageData>
