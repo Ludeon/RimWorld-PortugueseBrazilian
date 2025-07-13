@@ -11,7 +11,7 @@
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>não é possível alcançar este destino</CannotLaunchDestination>
   <!-- EN: Cannot land on the same tile -->
-  <CannotLandOnSameTile>Não é possível pousar no mesmo local</CannotLandOnSameTile> <!-- text_todo -->
+  <CannotLandOnSameTile>Não é possível pousar no mesmo local</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
   <ConnectedSubstructure>Subestrutura conectada</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
@@ -51,23 +51,25 @@
   <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
   <RequiresSignalJammer>Sistemas de armas pesadas: Requer bloqueador de sinal para se aproximar</RequiresSignalJammer>
   <!-- EN: {0} landing site -->
-  <GravshipLandingSite>local de pouso {0}</GravshipLandingSite>
+  <GravshipLandingSite>local de pouso da(o) {0}</GravshipLandingSite>
   <!-- EN: Confirm landing area -->
   <ConfirmLandingArea>Confirmar área de pouso</ConfirmLandingArea>
   <!-- EN: Blocked by {0_label} -->
   <GravshipBlockedBy>Bloqueado por {0_label}</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Não é possível posicionar em áreas desconhecidas</GravshipBlockedByFog>
+  <!-- EN: Blocked by roof -->
+  <GravshipBlockedByRoof>Bloqueado pelo telhado</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Não é possível posicionar fora dos limites do mapa</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
   <GravshipInNoBuildArea>Não é possível posicionar próximo à borda do mapa</GravshipInNoBuildArea>
   <!-- EN: Can't place in blocked area -->
-  <GravshipInBlockedArea>Não é possível posicionar em área bloqueada</GravshipInBlockedArea> <!-- text_todo -->
+  <GravshipInBlockedArea>Não é possível posicionar em área bloqueada</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
   <GravshipBlockedByTerrain>Não é possível posicionar em {0_label}</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
-  <GravshipMustBeConnectedToLand>Deve ser conectado a um terreno sólido</GravshipMustBeConnectedToLand> <!-- text_todo -->
+  <GravshipMustBeConnectedToLand>Deve ser conectado a um terreno sólido</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
   <ConfirmLandingToContinue>Confirme a zona de pouso para continuar</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
@@ -91,17 +93,17 @@
   <!-- EN: Max per gravship -->
   <GravFacilityMaxSimultaneousConnections>Máx por gravinave</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>Não conectado à gravinave</ShieldNotConnectedToGravship> <!-- text_todo -->
+  <ShieldNotConnectedToGravship>Não conectado à gravinave</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
-  <GravshipLaunchInterrupted>Lançamento da gravinave cancelado</GravshipLaunchInterrupted> <!-- text_todo -->
+  <GravshipLaunchInterrupted>Lançamento da gravinave cancelado</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
   <NotConnectedToGravEngine>Não conectado ao motor gravitacional.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
-  <ThrusterNotFunctional>Não funcional</ThrusterNotFunctional> <!-- text_todo -->
+  <ThrusterNotFunctional>Não funcional</ThrusterNotFunctional>
   <!-- EN: not connected to grav engine -->
-  <ThrusterNotConnected>não conectado ao motor gravitacional</ThrusterNotConnected> <!-- text_todo -->
+  <ThrusterNotConnected>não conectado ao motor gravitacional</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>bloqueado por {0_label}</ThrusterBlockedBy> <!-- text_todo -->
+  <ThrusterBlockedBy>bloqueado por {0_label}</ThrusterBlockedBy>
   <!-- EN: must be outside -->
   <MustBeOutside>Deve estar ao ar livre</MustBeOutside>
   <!-- EN: blocked by substructure -->
@@ -111,7 +113,7 @@
   <!-- EN: Landmark -->
   <Landmark>Marco</Landmark>
   <!-- EN: {ANIMALKIND_label} habitat -->
-  <AnimalHabitat>habitat de {0}</AnimalHabitat>
+  <AnimalHabitat>habitat de {ANIMALKIND_label}</AnimalHabitat>
   <!-- EN: {0} grove -->
   <PlantGrove>bosque de {0}</PlantGrove>
   <!-- EN: {0} -->
@@ -147,7 +149,7 @@
   <!-- EN: Dying from vacuum exposure -->
   <DyingBecauseExposedToVacuum>Morrendo por exposição ao vácuo</DyingBecauseExposedToVacuum>
   <!-- EN: Vacstone with traces of {RESOURCE_label} -->
-  <TracesOfPreciousResource>Vacuíta com vestígios de</TracesOfPreciousResource>
+  <TracesOfPreciousResource>Vacuíta com traços de {RESOURCE_label}</TracesOfPreciousResource>
   <!-- EN: Requires signal jammer -->
   <TransportPodDestinationRequiresSignalJammer>Requer bloqueador de sinal</TransportPodDestinationRequiresSignalJammer>
   <!-- EN: cannot function in vacuum. -->
@@ -173,7 +175,7 @@
   <!-- EN: below minimum fish population -->
   <FishingSpotUnderTargetPopulation>abaixo da população mínima de peixes</FishingSpotUnderTargetPopulation>
   <!-- EN: stored fish exceed fishing zone settings -->
-  <FishingSpotOverTargetResourceCount>os peixes armazenados excedem as configurações da zona de pesca</FishingSpotOverTargetResourceCount> <!-- text_todo -->
+  <FishingSpotOverTargetResourceCount>os peixes armazenados excedem as configurações da zona de pesca</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>Pescaria</TabFishing>
   <!-- EN: Fish population -->
@@ -225,7 +227,7 @@
   <!-- EN: equip outfit -->
   <SwapOutfit>trocar roupa</SwapOutfit>
   <!-- EN: equip outfit... -->
-  <SwapOutfitGizmo>equipar roupa</SwapOutfitGizmo> <!-- text_todo -->
+  <SwapOutfitGizmo>equipar roupa</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
   <SwapOutfitDesc>Ordem para um colono vestir todas as roupas no suporte. O colono colocará qualquer peça retirada de volta no suporte.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
@@ -308,9 +310,9 @@
   <!-- EN: Direct all mastered animals to attack a specific target. -->
   <AnimalsAttackTargetDesc>Ordenar que todos os animais adestrados ataquem um alvo específico.</AnimalsAttackTargetDesc>
   <!-- EN: Cancel attack -->
-  <CancelAttack>Cancelar ataque</CancelAttack> <!-- text_todo -->
-  <!-- EN: Clear this animal’s current target. -->
-  <CancelAttackDesc>Limpe o alvo atual deste animal.</CancelAttackDesc> <!-- text_todo -->
+  <CancelAttack>Cancelar ataque</CancelAttack>
+  <!-- EN: Clear this animal's current target. -->
+  <CancelAttackDesc>Limpe o alvo atual deste animal.</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>Este animal não possui um mestre</NoMaster>
   <!-- EN: This animal's master is not on this map -->
@@ -327,7 +329,7 @@
   <DigEnabled>Permitir escavação</DigEnabled>
 
   <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>Selar a entrada do estoque ancestral é permanente. Qualquer coisa ou pessoa deixada embaixo será perdida para sempre.\n\nTem certeza que deseja continuar?</ConfirmSealHatch>
+  <ConfirmSealHatch>Selar a entrada do estoque ancestral é permanente. Qualquer coisa ou pessoa deixada embaixo será perdida para sempre.{0}\n\nTem certeza que deseja continuar?</ConfirmSealHatch>
   <!-- EN: Cannot seal -->
   <CannotChooseSealer>Não é possível selar</CannotChooseSealer>
   <!-- EN: Sealed -->
@@ -338,6 +340,6 @@
   <HatchUnlocked>Destrancado.</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
-  <GravshipShieldTip>Uma superfície repulsora de impulso de curta duração que bloqueia projéteis. Funciona contra tiros normais e morteiros. Desliga-se instantaneamente se for atingida por um PEM.</GravshipShieldTip> <!-- text_todo -->
+  <GravshipShieldTip>Uma superfície repulsora de impulso de curta duração que bloqueia projéteis. Funciona contra tiros normais e morteiros. Desliga-se instantaneamente se for atingida por um PEM.</GravshipShieldTip>
 
 </LanguageData>
