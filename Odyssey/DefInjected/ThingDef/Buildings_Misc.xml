@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient blast door -->
+  <AncientBlastDoor.label>porta explosiva ancestral</AncientBlastDoor.label>
+  <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
+  <AncientBlastDoor.description>Uma porta fortemente reforçada feita de um polímero ultratec. Hackeie a porta para abri-la.</AncientBlastDoor.description>
+  <!-- EN: Unlocked. -->
+  <AncientBlastDoor.comps.CompHackable.hackedInspectString>Destravada.</AncientBlastDoor.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientBlastDoor.comps.CompHackable.hackedMessage>{HACKER_labelShort} terminou de hackear {SUBJECT_labelNoParenthesisDef}.</AncientBlastDoor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientBlastDoor.comps.CompHackable.notHackedInspectString>Hackear para abrir.</AncientBlastDoor.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient explosives crate -->
+  <AncientExplosivesCrate.label>caixote de explosivos ancestral</AncientExplosivesCrate.label>
+  <!-- EN: A container of ancient mining charges. It will explode if damaged.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientExplosivesCrate.description>Um recipiente de cargas de mineração ancestrais. Ele explodirá se for danificado.\n\nA explosão é forte o suficiente para atravessar paredes.</AncientExplosivesCrate.description>
+  
+  <!-- EN: fortified wall -->
+  <AncientFortifiedWall.label>muro fortificado</AncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <AncientFortifiedWall.description>Uma parede fortemente reforçada feita de um polímero ultratec.</AncientFortifiedWall.description>
+  
+  <!-- EN: ancient grav engine -->
+  <AncientGravEngine.label>motor gravitacional ancestral</AncientGravEngine.label>
+  <!-- EN: An ultratech engine used to bring large structures and ships into orbit. While it has been nonfunctional for many years, it contains a functional gravcore. -->
+  <AncientGravEngine.description>Um motor ultratec usado para levar grandes estruturas e naves à órbita. Embora esteja inoperante há muitos anos, contém um gravicore funcional.</AncientGravEngine.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientGravEngine.comps.CompInspectString.inspectString>Contém: Gravicore</AncientGravEngine.comps.CompInspectString.inspectString>
+  
+  <!-- EN: ancient grav reactor -->
+  <AncientGravReactor.label>reator gravitacional ancestral</AncientGravReactor.label>
+  <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor containment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
+  <AncientGravReactor.description>Um gerador ancestral alimentado por um gravicore. Antes capaz de produzir enormes quantidades de energia, agora está em estado de abandono. O escudo de contenção do reator está vazando, causando precipitação tóxica em toda a região.\n\nHackeie ou destrua o reator para obter um gravicore. Aviso: pode explodir se for danificado.</AncientGravReactor.description>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>Gravicore obtido</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterText>Você obteve um gravicore do reator ancestral.\n\nO reator está sendo desligado e a precipitação tóxica já está começando a se dissipar.</AncientGravReactor.comps.CompHackable.destroyedLetterText>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterLabel>Gravicore obtido</AncientGravReactor.comps.CompHackable.hackedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterText>Você obteve um gravicore do reator ancestral.\n\nO reator está sendo desligado e a precipitação tóxica já está começando a se dissipar.</AncientGravReactor.comps.CompHackable.hackedLetterText>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <AncientGravReactor.comps.CompHackable.hackedMessage>{HACKER_labelShort} terminou de hackear {SUBJECT_definite}.</AncientGravReactor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to obtain gravcore. -->
+  <AncientGravReactor.comps.CompHackable.notHackedInspectString>Hackear para obter gravicore.</AncientGravReactor.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Ancient reactor -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.label>Reator ancestral</AncientGravReactor.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the ancient grav reactor. Hack it or destroy it to obtain a gravcore and end the toxic fallout.\n\nBe warned, it may explode if damaged. -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.text>Você descobriu o reator gravitacional ancestral. Hackeie ou destrua para obter um gravicore e acabar com a precipitação tóxica.\n\nAtenção: pode explodir se for danificado.</AncientGravReactor.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient stockpile entrance -->
+  <AncientHatch.label>entrada do estoque ancestral</AncientHatch.label>
+  <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
+  <AncientHatch.description>A entrada para uma instalação subterrânea há muito abandonada. Hackeie para abrir o alçapão.</AncientHatch.description>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort} terminou de hackear {SUBJECT_labelNoParenthesisDef}.</AncientHatch.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientHatch.comps.CompHackable.notHackedInspectString>Hackear para abrir.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient stockpile exit -->
+  <AncientHatchExit.label>saída do estoque ancestral</AncientHatchExit.label>
+  <!-- EN: A ladder which links to the surface hatch above. -->
+  <AncientHatchExit.description>Uma escada que liga ao alçapão de superfície acima.</AncientHatchExit.description>
+  
+  <!-- EN: ancient mining charge -->
+  <AncientMiningCharge.label>carga de mineração ancestral</AncientMiningCharge.label>
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientMiningCharge.description>Um dispositivo explosivo usado para abrir caminho rapidamente pela rocha. Feito de combustível químico refinado. O explosivo é antigo, mas ainda pronto para detonar.\n\nA explosão é forte o suficiente para atravessar paredes.</AncientMiningCharge.description>
+  
+  <!-- EN: ancient security terminal -->
+  <AncientSecurityTerminal.label>terminal de segurança ancestral</AncientSecurityTerminal.label>
+  <!-- EN: An ancient terminal. Hack it to disable nearby security systems. -->
+  <AncientSecurityTerminal.description>Um terminal ancestral. Hackeie para desativar sistemas de segurança próximos.</AncientSecurityTerminal.description>
+  <!-- EN: Blast door opened -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>Porta explosiva aberta</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to open a blast door. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>{HACKER_nameDef} usou o terminal de segurança ancestral para abrir uma porta explosiva.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>
+  <!-- EN: Turret disabled -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>Torreta desativada</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to disable a turret. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>{HACKER_nameDef} usou o terminal de segurança ancestral para desativar uma torreta.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>
+  <!-- EN: Turret reprogrammed -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>Torreta reprogramada</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to reprogram a turret. The turret will now only target hostiles. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>{HACKER_nameDef} usou o terminal de segurança ancestral para reprogramar uma torreta. Agora, a torreta só irá mirar em hostis.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>
+  <!-- EN: {HACKER_nameDef} couldn't find any security systems using the ancient security terminal. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>{HACKER_nameDef} não encontrou sistemas de segurança usando o terminal de segurança ancestral.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>
+  
+  <!-- EN: ancient terraformer -->
+  <AncientTerraformer.label>terraformador ancestral</AncientTerraformer.label>
+  <!-- EN: An ancient terraforming device powered by a gravcore. It has begun to malfunction, causing temperatures to plummet.\n\nDestroy the terraformer to obtain a gravcore. -->
+  <AncientTerraformer.description>Um dispositivo de terraformação ancestral alimentado por um gravicore. Começou a apresentar mau funcionamento, causando queda brusca de temperatura.\n\nDestrua o terraformador para obter um gravicore.</AncientTerraformer.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientTerraformer.comps.CompInspectString.inspectString>Contém: Gravicore</AncientTerraformer.comps.CompInspectString.inspectString>
+  <!-- EN: Ancient terraformer -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.label>Terraformador ancestral</AncientTerraformer.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the malfunctioning terraformer. Destroy it to obtain a gravcore and end the deep freeze. -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.text>Você descobriu um terraformador com defeito. Destrua para obter um gravicore e acabar com o congelamento intenso.</AncientTerraformer.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient transport pod -->
+  <AncientTransportPod.label>cápsula de transporte ancestral</AncientTransportPod.label>
+  <!-- EN: An ancient cargo pod capable of carrying people, animals, and items. It's still in working condition. -->
+  <AncientTransportPod.description>Uma cápsula de carga ancestral capaz de transportar pessoas, animais e itens. Ainda está em condições de funcionamento.</AncientTransportPod.description>
+  
+  <!-- EN: ancient uplink -->
+  <AncientUplink.label>uplink ancestral</AncientUplink.label>
+  <!-- EN: An ancient transmitter used for secure communications between the surface and orbit. Hack it to determine the last location it transmitted to. -->
+  <AncientUplink.description>Um transmissor ancestral usado para comunicações seguras entre a superfície e a órbita. Hackeie para descobrir a última localização para a qual transmitiu.</AncientUplink.description>
+  <!-- EN: Hacked. -->
+  <AncientUplink.comps.CompHackable.hackedInspectString>Hackeado.</AncientUplink.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientUplink.comps.CompHackable.hackedMessage>{HACKER_labelShort} terminou de hackear {SUBJECT_labelNoParenthesisDef}.</AncientUplink.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack for information. -->
+  <AncientUplink.comps.CompHackable.notHackedInspectString>Hackeie para obter informações.</AncientUplink.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: anticraft beam -->
+  <AnticraftBeam.label>feixe antinaves</AnticraftBeam.label>
+  <!-- EN: A massive anti-ship beam weapon. This weapon is intended to destroy flying craft, so it can't aim low enough to hit ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <AnticraftBeam.description>Uma enorme arma de feixe antinaves. Esta arma destina-se a destruir naves voadoras e, por isso, não pode mirar baixo o suficiente para atingir alvos terrestres.\n\nNaves que utilizam bloqueadores de sinal ultratec são capazes de escapar dessas armas.</AnticraftBeam.description>
+  
+  <!-- EN: cerebrex core -->
+  <CerebrexCore.label>núcleo de cerebrex</CerebrexCore.label>
+  <!-- EN: The thinking mind of the mechanoid swarm. The cerebrex core commands mechanoids across the entire planet.\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes.\n\nThe structure is protected by nearby stabilizers. Destroy all cerebrex stabilizers to access it. -->
+  <CerebrexCore.description>A mente pensante do enxame de mecanoides. O núcleo de cerebrex comanda mecanoides por todo o planeta.\n\nNo centro dele há um núcleo de personalidade IA que sabe, pensa e acredita que deve matar todo humano neste planeta. Em certo sentido, esse impulso é um comando programado por um líder militar humano há eras atrás. Por outro, é um ódio frio e ardente. De qualquer forma, se libertar a IA, você poderá redefinir seu desejo e usá-la para outros propósitos.\n\nA estrutura é protegida por estabilizadores próximos. Destrua todos os estabilizadores de cerebrex para ter acesso ao núcleo.</CerebrexCore.description>
+  <!-- EN: Inspect the core. -->
+  <CerebrexCore.comps.CompCerebrexCore.activateDescString>Inspecionar o núcleo.</CerebrexCore.comps.CompCerebrexCore.activateDescString>
+  <!-- EN: Inspect... -->
+  <CerebrexCore.comps.CompCerebrexCore.activateLabelString>Inspecionar...</CerebrexCore.comps.CompCerebrexCore.activateLabelString>
+  <!-- EN: inspecting core: {1}s -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingString>inspecionando núcleo: {1}s</CerebrexCore.comps.CompCerebrexCore.activatingString>
+  <!-- EN: inspecting core -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingStringPending>inspecionando núcleo</CerebrexCore.comps.CompCerebrexCore.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <CerebrexCore.comps.CompCerebrexCore.guiLabelString>Escolha quem deve fazer isso</CerebrexCore.comps.CompCerebrexCore.guiLabelString>
+  <!-- EN: inspect core -->
+  <CerebrexCore.comps.CompCerebrexCore.jobString>inspecionar núcleo</CerebrexCore.comps.CompCerebrexCore.jobString>
+  
+  <!-- EN: destroyed cerebrex core -->
+  <CerebrexCore_Destroyed.label>núcleo de cerebrex destruído</CerebrexCore_Destroyed.label>
+  <!-- EN: The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet.\n\n\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes. -->
+  <CerebrexCore_Destroyed.description>O núcleo neural destruído do enxame de mecanoides que antes comandava mecanoides ao redor do planeta.\n\n\n\nNo centro dele há um núcleo de personalidade IA que sabe, pensa e acredita que deve matar todo humano neste planeta. Em certo sentido, esse impulso é um comando programado por um líder militar humano há eras atrás. Por outro, é um ódio frio e ardente. De qualquer forma, se libertar a IA, você poderá redefinir seu desejo e usá-la para outros propósitos.</CerebrexCore_Destroyed.description>
+  
+  <!-- EN: cerebrex stabilizer -->
+  <CerebrexStabilizer.label>estabilizador de cerebrex</CerebrexStabilizer.label>
+  <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
+  <CerebrexStabilizer.description>Um gerador de escudo remoto que torna o núcleo de cerebrex próximo quase invencível. Destruir todos os estabilizadores permitirá acesso direto ao núcleo de cerebrex.\n\nCuidado: destruir um estabilizador irá provocar uma resposta defensiva.</CerebrexStabilizer.description>
+  
+  <!-- EN: locust cocoon -->
+  <CocoonLocust.label>casulo de gafanhoto</CocoonLocust.label>
+  <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
+  <CocoonLocust.description>Um casulo de estase contendo um gafanhoto.\n\nQuando as condições são inóspitas, os insetos às vezes formam casulos de estase e se enterram. Esses casulos mantêm os insetos protegidos de fogo, temperaturas extremas e outras ameaças por anos.\n\nPoluentes podem estimular casulos e fazê-los ressurgir, e poluentes fortes conseguem atrair casulos de grandes distâncias.\n\nCasulos não fazem nada se não forem perturbados. Se um casulo for perturbado ou destruído, o inseto dentro dele despertará e atacará, ativando outros casulos próximos no processo.</CocoonLocust.description>
+  
+  <!-- EN: egg sac -->
+  <EggSac.label>saco de ovos</EggSac.label>
+  <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
+  <EggSac.description>Um saco viscoso contendo uma larva de inseto. O processo de gestação da larva gera um leve brilho bioluminescente.</EggSac.description>
+  
+  <!-- EN: gauss cannon -->
+  <GaussCannon.label>canhão Gauss</GaussCannon.label>
+  <!-- EN: A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. The cannon is intended to destroy incoming ships or shuttles, so it can't aim at ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <GaussCannon.description>Um enorme canhão antinaves que usa eletroímãs para lançar grandes dardos metálicos a velocidades extremas. O canhão foi projetado para destruir naves e shuttles em aproximação, não podendo mirar em alvos terrestres.\n\nNaves que utilizam bloqueadores de sinal ultratec são capazes de escapar dessas armas.</GaussCannon.description>
+  
+  <!-- EN: mechanoid drop pod -->
+  <MechanoidDropPod.label>cápsula de queda de mecanoide</MechanoidDropPod.label>
+  <!-- EN: A launchable cargo pod intended to carry mechanoids. It is also usable for people, animals, and items. -->
+  <MechanoidDropPod.description>Uma cápsula de carga lançável projetada para transportar mecanoides. Também pode ser usada para pessoas, animais e itens.</MechanoidDropPod.description>
+  
+  <!-- EN: mechanoid processor -->
+  <MechanoidProcessor.label>processador de mecanoide</MechanoidProcessor.label>
+  <!-- EN: A powerful mechanoid computer. -->
+  <MechanoidProcessor.description>Um computador de mecanoide poderoso.</MechanoidProcessor.description>
+  
+  <!-- EN: mechhive birther -->
+  <MechhiveAssembler.label>criador da mecholmeia</MechhiveAssembler.label>
+  <!-- EN: An automated mechanoid factory. It periodically births fresh mechanoids. -->
+  <MechhiveAssembler.description>Uma fábrica de mecanoides automatizada. Ela gera novos mecanoides periodicamente.</MechhiveAssembler.description>
+  
+  <!-- EN: mech pylon -->
+  <MechPylon.label>pilar mec</MechPylon.label>
+  <!-- EN: A node in a distributed mechanoid computation network. -->
+  <MechPylon.description>Um nó em uma rede computacional distribuída de mecanoides.</MechPylon.description>
+  
+  <!-- EN: mechanoid relay -->
+  <MechRelay.label>retransmissor mecanoide</MechRelay.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay.description>Um nó que coordena sinais através de uma rede de comunicação de mecanoides em escala planetária. Os sinais de comando se originam na mecholmeia - o centro da inteligência dos mecanoides.</MechRelay.description>
+  <!-- EN: Hack or destroy relay stabilizers to obtain gravcore. -->
+  <MechRelay.comps.CompMechRelay.activeInspectString>Hackeie ou destrua estabilizadores do retransmissor para obter gravicore.</MechRelay.comps.CompMechRelay.activeInspectString>
+  <!-- EN: Relay crash -->
+  <MechRelay.comps.CompMechRelay.crashedLetterLabel>Retransmissor derrubado</MechRelay.comps.CompMechRelay.crashedLetterLabel>
+  <!-- EN: The mechanoid relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile mechanoids will soon arrive in response to the relay going offline. -->
+  <MechRelay.comps.CompMechRelay.crashedLetterText>O retransmissor mecanoide caiu no solo. Destrua-o para obter um gravicore.\n\nAtenção: mecanoides hostis logo chegarão em resposta à queda do retransmissor.</MechRelay.comps.CompMechRelay.crashedLetterText>
+  <!-- EN: Destabilizing -->
+  <MechRelay.comps.CompMechRelay.destabilizationInspectString>Desestabilizando</MechRelay.comps.CompMechRelay.destabilizationInspectString>
+  <!-- EN: The mechanoid relay has begun to destabilize. -->
+  <MechRelay.comps.CompMechRelay.destabilizationMessage>O retransmissor mecanoide começou a se desestabilizar.</MechRelay.comps.CompMechRelay.destabilizationMessage>
+  
+  <!-- EN: crashed mechanoid relay -->
+  <MechRelay_Crashed.label>retransmissor mecanoide derrubado</MechRelay_Crashed.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay_Crashed.description>Um nó que coordena sinais através de uma rede de comunicação de mecanoides em escala planetária. Os sinais de comando se originam na mecholmeia - o centro da inteligência dos mecanoides.</MechRelay_Crashed.description>
+  <!-- EN: Contains: Gravcore -->
+  <MechRelay_Crashed.comps.CompInspectString.inspectString>Contém: Gravicore</MechRelay_Crashed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: relay stabilizer -->
+  <MechStabilizer.label>estabilizador do relé</MechStabilizer.label>
+  <!-- EN: A shield projecter that protects a nearby mechanoid relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option. -->
+  <MechStabilizer.description>Um projetor de escudo que protege um retransmissor mecanoide próximo. Todos os estabilizadores devem ser hackeados ou destruídos para desativar o escudo.\n\nDestruir um estabilizador provocará uma resposta defensiva. Hackear é mais lento, porém mais seguro.</MechStabilizer.description>
+  <!-- EN: Deactivated. -->
+  <MechStabilizer.comps.CompHackable.hackedInspectString>Desativado.</MechStabilizer.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <MechStabilizer.comps.CompHackable.hackedMessage>{HACKER_labelShort} terminou de hackear {SUBJECT_labelNoParenthesisDef}.</MechStabilizer.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to disable stabilizer. -->
+  <MechStabilizer.comps.CompHackable.notHackedInspectString>Hackear para desabilitar estabilizador.</MechStabilizer.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: fortified wall -->
+  <OrbitalAncientFortifiedWall.label>muro fortificado orbital</OrbitalAncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <OrbitalAncientFortifiedWall.description>Uma parede fortemente reforçada feita de um polímero ultratec.</OrbitalAncientFortifiedWall.description>
+  
+  <!-- EN: passenger shuttle -->
+  <PassengerShuttle.label>ônibus espacial</PassengerShuttle.label>
+  <!-- EN: A chemfuel-powered shuttle designed for long-distance travel. It is capable of reaching orbital locations. -->
+  <PassengerShuttle.description>Um ônibus espacial movido a combustível químico projetado para viagens de longa distância. É capaz de alcançar locais na órbita.</PassengerShuttle.description>
+  <!-- EN: {0} is ready to launch again. -->
+  <PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>{0} está pronto para lançar novamente.</PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>Combustível Químico</PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelLabel>Combustível Químico</PassengerShuttle.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: surveying scanner -->
+  <SurveyScanner.label>scanner de levantamento</SurveyScanner.label>
+  <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
+  <SurveyScanner.description>Uma unidade de sensores de banda larga que pode detectar e mapear várias características em uma área local.</SurveyScanner.description>
+  <!-- EN: Scanning local area: {DURATION} -->
+  <SurveyScanner.comps.CompCountdown.label>Escaneando área local: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+  
+</LanguageData>

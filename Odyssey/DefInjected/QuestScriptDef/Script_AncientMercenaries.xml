@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an infamous company of mercenaries. These ancient soldiers are from a long-forgotten era in the planet's history. They have recently awoken from cryptosleep and are causing trouble in the area.\n\nThe company is led by [LEADER_nameDef], who possesses a unique [WEAPON_quality] weapon. The group contains:\n\n[mercenaryList]\n\nIf you're able to capture or kill the leader, you can take the unique weapon.\n\n[location]</li>
+    <li>location(atLandmark==true)->The soldiers are hiding out in an ancient structure at [landmarkName].</li>
+    <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] o local de uma infame companhia de mercenários. Esses soldados antigos são de uma era há muito esquecida na história do planeta. Eles despertaram recentemente do criptossono e estão causando problemas na região.\n\nA companhia é liderada por [LEADER_nameDef], que possui uma arma [WEAPON_quality] única. O grupo contém:\n\n[mercenaryList]\n\nSe você conseguir capturar ou matar o líder, poderá pegar essa arma única.\n\n[location]</li>
+    <li>location(atLandmark==true)->Os soldados estão escondidos em uma estrutura antiga em [landmarkName].</li>
+    <li>location(atLandmark==false)->Os soldados estão escondidos em uma estrutura antiga.</li>
+  </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->Ancient</li>
+    <li>ancient->Awoken</li>
+    <li>ancient->Cryptosleep</li>
+    <li>mercenaries->Mercenaries</li>
+    <li>mercenaries->Soldiers</li>
+    <li>mercenaries->Warriors</li>
+    <li>mercenaries->Fighters</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+    <li>questName->Os [ancient] [mercenaries]</li>
+    <li>questName->[ancient] [mercenaries]</li>
+    <li>ancient->Antigos</li>
+    <li>ancient->Despertos</li>
+    <li>ancient->Criptossono</li>
+    <li>mercenaries->Mercenários</li>
+    <li>mercenaries->Soldados</li>
+    <li>mercenaries->Guerreiros</li>
+    <li>mercenaries->Combatentes</li>
+  </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient mercenaries</li>
+    <li>subject->ancient soldiers</li>
+    <li>subject->ancients</li>
+    <li>questMapFeature->military garrison</li>
+    <li>questMapFeature->drawing of an ancient soldier</li>
+    <li>questMapFeature->sketch of a man from another time</li>
+    <li>questMapText->they're awake</li>
+    <li>questMapText->dangerous ancients</li>
+    <li>questMapText->ancient weapons</li>
+  -->
+  <OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+    <li>subject->mercenários antigos</li>
+    <li>subject->soldados antigos</li>
+    <li>subject->Antigos</li>
+    <li>questMapFeature->guarnição militar</li>
+    <li>questMapFeature->desenho de um soldado antigo</li>
+    <li>questMapFeature->esboço de um homem de outro tempo</li>
+    <li>questMapText->eles estão acordados</li>
+    <li>questMapText->antigos perigosos</li>
+    <li>questMapText->armas antigas</li>
+  </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
+  <ConfirmGravEngineLaunch>Tem certeza de que deseja lançar?\n\nSeu mapa atual, assim como tudo que não estiver na subestrutura da gravinave, será perdido permanentemente. O processo de lançamento é destrutivo, o que significa que você não poderá retornar.</ConfirmGravEngineLaunch>
+  <!-- EN: Warning -->
+  <GravEngineWarning>Aviso</GravEngineWarning>
+  <!-- EN: The following people will be left behind -->
+  <PeopleWillBeLeftBehind>As seguintes pessoas serão deixadas para trás</PeopleWillBeLeftBehind>
+  <!-- EN: The following will be left behind -->
+  <AnimalsWillBeLeftBehind>O seguinte será deixado para trás</AnimalsWillBeLeftBehind>
+  <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
+  <PawnsKidnappedOnGravship>As seguintes pessoas e animais de outra facção serão levados com você. Isso irritará a facção deles, podendo torná-los hostis</PawnsKidnappedOnGravship>
+  <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
+  <BuildingsWillBeLeftBehind>Os seguintes edifícios não estão totalmente na gravinave e serão deixados para trás</BuildingsWillBeLeftBehind>
+  <!-- EN: Some substructure has invalid placement and will be left behind -->
+  <SubstructureWillBeLeftBehind>Alguma subestrutura está posicionada de forma inválida e será deixada para trás</SubstructureWillBeLeftBehind>
+  <!-- EN: Disconnected from grav engine -->
+  <DisconnectedSubstructure>Desconectado do Motor Gravitacional</DisconnectedSubstructure>
+  <!-- EN: Under rock roof -->
+  <SubstructureUnderRockRoof>Sob o Teto de Rocha</SubstructureUnderRockRoof>
+  <!-- EN: Out of range -->
+  <SubstructureOutsideFootprint>Fora de Alcance</SubstructureOutsideFootprint>
+
+  <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
+  <NamePlayerGravshipMessage>{0} tem grandes expectativas para sua nova gravinave e quer batizá-la com um bom nome. Como sua gravinave deve se chamar?</NamePlayerGravshipMessage>
+  <!-- EN: The gravship is now known as {0}. -->
+  <PlayerGravshipGainsName>A gravinave agora é conhecida como {0}.</PlayerGravshipGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerGravshipNameIsInvalid>Esse nome não é válido.</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: {0} are hostile. If you land here they will attack you. -->
+  <ConfirmLandOnHostileFactionBase>{0} são hostis. Se você pousar aqui, eles atacarão você.</ConfirmLandOnHostileFactionBase>
+  <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
+  <ConfirmLandOnNeutralFactionBase>Pousar aqui será visto como um ato agressivo por {0}. Eles se tornarão hostis e atacarão.</ConfirmLandOnNeutralFactionBase>
+
+  <!-- EN: Land here anyway? -->
+  <ConfirmLand>Pousar aqui mesmo assim?</ConfirmLand>
+
+  <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
+  <OrbitalWarning>Locais orbitais são perigosos. Certifique-se de estar preparado:\n - Equipe seus colonos com trajes a vácuo ou outras armaduras avançadas.\n - Planeje sua viagem de volta. Viver em órbita por longos períodos é extremamente desafiador.</OrbitalWarning> <!-- text_todo -->
+  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
+  <OrbitalWarning_Gravship>Prepare sua nave espacial para a órbita:\n- Use paredes e portas herméticas.\n- Certifique-se de que os cômodos estejam bem aquecidos e totalmente cobertos.\n- Construa bombas de oxigênio.</OrbitalWarning_Gravship> <!-- text_todo -->
+  <!-- EN: Warning -->
+  <OrbitalWarning_Warning>Aviso</OrbitalWarning_Warning> <!-- text_todo -->
+  <!-- EN: Some exterior walls or doors are not airtight. -->
+  <OrbitalWarning_Vacuum>Algumas paredes ou portas externas não são herméticas.</OrbitalWarning_Vacuum> <!-- text_todo -->
+  <!-- EN: No functional heat sources. -->
+  <OrbitalWarning_NoHeatSources>Nenhuma fonte de calor funcional.</OrbitalWarning_NoHeatSources> <!-- text_todo -->
+  <!-- EN: Few functional heat sources -->
+  <OrbitalWarning_FewHeatSources>Poucas fontes de calor funcionais</OrbitalWarning_FewHeatSources> <!-- text_todo -->
+  <!-- EN: No functional oxygen pumps. -->
+  <OrbitalWarning_NoOxygenPumps>Nenhuma bomba de oxigênio funcional.</OrbitalWarning_NoOxygenPumps> <!-- text_todo -->
+  <!-- EN: Few functional oxygen pumps -->
+  <OrbitalWarning_FewOxygenPumps>Poucas bombas de oxigênio funcionais</OrbitalWarning_FewOxygenPumps> <!-- text_todo -->
+
+  <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
+  <ConfirmShuttleNotEnoughFuelToReturn>A nave não tem combustível suficiente para retornar deste destino. Ela pode ficar presa.\n\nAtualmente você tem {0} de combustível, mas precisa de {1} para o voo de volta.\n\nTem certeza de que deseja continuar?</ConfirmShuttleNotEnoughFuelToReturn>
+  <!-- EN: Caravan is immobile due to shuttle -->
+  <CaravanMovementSpeedShuttle>A caravana está imobilizada devido à nave</CaravanMovementSpeedShuttle>
+  <!-- EN: Refuel {0}x chemfuel -->
+  <RefuelShuttleCount>Reabastecer {0}x combustível químico</RefuelShuttleCount>
+  <!-- EN: Zoom range (gravship) {0} -->
+  <ZoomRangeGravshipCutscene>Alcance do zoom (gravinave) {0}</ZoomRangeGravshipCutscene>
+
+</LanguageData>

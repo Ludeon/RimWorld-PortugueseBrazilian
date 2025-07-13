@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aim assistance -->
+  <AimAssistance.label>assistência de mira</AimAssistance.label>
+  <!-- EN: This weapon contains a rudimentary aim assistant computer which helps track targets, increasing accuracy at all ranges. The device can account for environmental challenges, allowing the weapon to ignore the accuracy penalty from bad weather and smoke. -->
+  <AimAssistance.description>Esta arma contém um computador assistente de mira rudimentar que ajuda a rastrear alvos, aumentando a precisão em todas as distâncias. O dispositivo pode ajustar para desafios ambientais, permitindo que a arma ignore a penalidade de precisão por mau tempo e fumaça.</AimAssistance.description>
+  <!-- EN: seeking -->
+  <AimAssistance.traitAdjectives.0>buscando</AimAssistance.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <AimAssistance.traitAdjectives.1>preciso</AimAssistance.traitAdjectives.1>
+  <!-- EN: precise -->
+  <AimAssistance.traitAdjectives.2>preciso</AimAssistance.traitAdjectives.2>
+  <!-- EN: auto-aim -->
+  <AimAssistance.traitAdjectives.3>mira automática</AimAssistance.traitAdjectives.3>
+  <!-- EN: self-aim -->
+  <AimAssistance.traitAdjectives.4>mira própria</AimAssistance.traitAdjectives.4>
+  
+  <!-- EN: bioferrite burner -->
+  <BioferriteBurner.label>queimador de bioferrita</BioferriteBurner.label>
+  <!-- EN: This weapon has a bioferrite-powered flamethrower unit. The burner generates a blast of flame from a pressurized bioferrite charge. Once used, it must be reloaded using bioferrite. -->
+  <BioferriteBurner.description>Esta arma possui um lança-chamas alimentado por bioferrita. O queimador gera uma rajada de chamas a partir de uma carga pressurizada de bioferrita. Após o uso, deve ser recarregado com bioferrita.</BioferriteBurner.description>
+  <!-- EN: burner charge -->
+  <BioferriteBurner.abilityProps.chargeNoun>carga do queimador</BioferriteBurner.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <BioferriteBurner.abilityProps.cooldownGerund>em recarga</BioferriteBurner.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <BioferriteBurner.traitAdjectives.0>ardente</BioferriteBurner.traitAdjectives.0>
+  <!-- EN: flame -->
+  <BioferriteBurner.traitAdjectives.1>chama</BioferriteBurner.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <BioferriteBurner.traitAdjectives.2>flamejante</BioferriteBurner.traitAdjectives.2>
+  <!-- EN: burning -->
+  <BioferriteBurner.traitAdjectives.3>queimando</BioferriteBurner.traitAdjectives.3>
+  
+  <!-- EN: birdshot pellets -->
+  <BirdshotPellets.label>chumbo fino</BirdshotPellets.label>
+  <!-- EN: This weapon fires shells containing smaller pellets than normal. It's much more accurate at close range, but less effective at long range. -->
+  <BirdshotPellets.description>Esta arma dispara cartuchos com grânulos menores que o normal. É muito mais precisa a curta distância, porém menos eficaz a longas distâncias.</BirdshotPellets.description>
+  <!-- EN: birdshot -->
+  <BirdshotPellets.traitAdjectives.0>chumbo fino</BirdshotPellets.traitAdjectives.0>
+  <!-- EN: nearshot -->
+  <BirdshotPellets.traitAdjectives.1>tiro curto</BirdshotPellets.traitAdjectives.1>
+  
+  <!-- EN: broadhead arrows -->
+  <BroadheadArrows.label>flechas de ponta larga</BroadheadArrows.label>
+  <!-- EN: This bow shoots arrows tipped with sharp blades, increasing its damage. -->
+  <BroadheadArrows.description>Este arco dispara flechas com pontas de lâminas afiadas, aumentando o dano causado.</BroadheadArrows.description>
+  <!-- EN: strong -->
+  <BroadheadArrows.traitAdjectives.0>forte</BroadheadArrows.traitAdjectives.0>
+  <!-- EN: broadhead -->
+  <BroadheadArrows.traitAdjectives.1>ponta larga</BroadheadArrows.traitAdjectives.1>
+  
+  <!-- EN: charge capacitor -->
+  <ChargeCapacitor.label>capacitor de carga</ChargeCapacitor.label>
+  <!-- EN: This weapon amplifies pulse-charge technology with a massive capacitor, increasing damage and armor penetration. -->
+  <ChargeCapacitor.description>Esta arma amplifica a tecnologia de pulso de carga com um capacitor maciço, aumentando o dano e a penetração de armadura.</ChargeCapacitor.description>
+  <!-- EN: overcharged -->
+  <ChargeCapacitor.traitAdjectives.0>sobrecarregado</ChargeCapacitor.traitAdjectives.0>
+  
+  <!-- EN: cumbersome -->
+  <Cumbersome.label>desajeitado</Cumbersome.label>
+  <!-- EN: This weapon is unwieldy to use, making it slower to aim. -->
+  <Cumbersome.description>Esta arma é difícil de manusear, tornando a mira mais lenta.</Cumbersome.description>
+  <!-- EN: cumbersome -->
+  <Cumbersome.traitAdjectives.0>desajeitado</Cumbersome.traitAdjectives.0>
+  <!-- EN: bulky -->
+  <Cumbersome.traitAdjectives.1>volumoso</Cumbersome.traitAdjectives.1>
+  <!-- EN: awkward -->
+  <Cumbersome.traitAdjectives.2>estranho</Cumbersome.traitAdjectives.2>
+  
+  <!-- EN: custom grip -->
+  <CustomGrip.label>empunhadura personalizada</CustomGrip.label>
+  <!-- EN: This weapon contains a customized grip that handles recoil better, improving accuracy at short range. It looks cool too. -->
+  <CustomGrip.description>Esta arma tem uma empunhadura personalizada que controla melhor o recuo, melhorando a precisão a curta distância. Também tem um visual estiloso.</CustomGrip.description>
+  <!-- EN: custom -->
+  <CustomGrip.traitAdjectives.0>personalizado</CustomGrip.traitAdjectives.0>
+  <!-- EN: customized -->
+  <CustomGrip.traitAdjectives.1>customizado</CustomGrip.traitAdjectives.1>
+  <!-- EN: gripped -->
+  <CustomGrip.traitAdjectives.2>aderido</CustomGrip.traitAdjectives.2>
+  <!-- EN: hi-grip -->
+  <CustomGrip.traitAdjectives.3>alta aderência</CustomGrip.traitAdjectives.3>
+  
+  <!-- EN: EMP cannon -->
+  <EMPLauncher.label>canhão PEM</EMPLauncher.label>
+  <!-- EN: This weapon has an attached EMP shell launcher. The shell emits a burst of electromagnetic energy that stuns electronic targets like turrets and mechanoids. Once fired, it must be reloaded using steel. -->
+  <EMPLauncher.description>Esta arma possui um lançador de projéteis PEM acoplado. O projétil emite uma onda de energia eletromagnética atordoa alvos eletrônicos, como torretas e mecanoides. Após disparar, deve ser recarregada com aço.</EMPLauncher.description>
+  <!-- EN: shell -->
+  <EMPLauncher.abilityProps.chargeNoun>projétil</EMPLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <EMPLauncher.abilityProps.cooldownGerund>em recarga</EMPLauncher.abilityProps.cooldownGerund>
+  <!-- EN: EMP -->
+  <EMPLauncher.traitAdjectives.0>PEM</EMPLauncher.traitAdjectives.0>
+  <!-- EN: disabling -->
+  <EMPLauncher.traitAdjectives.1>desabilitado</EMPLauncher.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <EMPLauncher.traitAdjectives.2>atordoado</EMPLauncher.traitAdjectives.2>
+  
+  <!-- EN: EMP pulser -->
+  <EMPPulser.label>pulsador PEM</EMPPulser.label>
+  <!-- EN: This weapon can emit a burst of energy centered on the user. The burst will stun nearby electronic targets like mechanoids or turrets. Once used, the pulser takes some time to recharge. -->
+  <EMPPulser.description>Esta arma pode emitir um pulso PEM centrado no usuário. Esse pulso irá atordoar alvos eletrônicos próximos, como mecanoides ou torretas. Após o uso, demora um tempo para recarregar.</EMPPulser.description>
+  <!-- EN: charge -->
+  <EMPPulser.abilityProps.chargeNoun>carga</EMPPulser.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <EMPPulser.abilityProps.cooldownGerund>em recarga</EMPPulser.abilityProps.cooldownGerund>
+  <!-- EN: pulse -->
+  <EMPPulser.traitAdjectives.0>pulso</EMPPulser.traitAdjectives.0>
+  <!-- EN: EMP -->
+  <EMPPulser.traitAdjectives.1>PEM</EMPPulser.traitAdjectives.1>
+  
+  <!-- EN: EMP rounds -->
+  <EMPRounds.label>munição PEM</EMPRounds.label>
+  <!-- EN: This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and mechanoids. -->
+  <EMPRounds.description>Esta arma dispara munição com capacitores PEM embutidos, capazes de desativar temporariamente eletrônicos e mecanoides.</EMPRounds.description>
+  <!-- EN: EMP -->
+  <EMPRounds.traitAdjectives.0>PEM</EMPRounds.traitAdjectives.0>
+  <!-- EN: electric -->
+  <EMPRounds.traitAdjectives.1>elétrico</EMPRounds.traitAdjectives.1>
+  <!-- EN: shocking -->
+  <EMPRounds.traitAdjectives.2>chocante</EMPRounds.traitAdjectives.2>
+  <!-- EN: sparky -->
+  <EMPRounds.traitAdjectives.3>faísca</EMPRounds.traitAdjectives.3>
+  <!-- EN: zapping -->
+  <EMPRounds.traitAdjectives.4>eletrocutando</EMPRounds.traitAdjectives.4>
+  
+  <!-- EN: extended barrel -->
+  <ExtendedBarrel.label>cano alongado</ExtendedBarrel.label>
+  <!-- EN: This weapon has a longer range than normal. -->
+  <ExtendedBarrel.description>Esta arma tem um alcance maior que o normal.</ExtendedBarrel.description>
+  <!-- EN: long -->
+  <ExtendedBarrel.traitAdjectives.0>longo</ExtendedBarrel.traitAdjectives.0>
+  <!-- EN: extended -->
+  <ExtendedBarrel.traitAdjectives.1>estendido</ExtendedBarrel.traitAdjectives.1>
+  
+  <!-- EN: extended magazine -->
+  <ExtendedMagazine.label>carregador estendido</ExtendedMagazine.label>
+  <!-- EN: This weapon fires 50% more shots in a single burst than normal. -->
+  <ExtendedMagazine.description>Esta arma dispara 50% mais tiros em uma única rajada do que o normal.</ExtendedMagazine.description>
+  <!-- EN: high-capacity -->
+  <ExtendedMagazine.traitAdjectives.0>alta capacidade</ExtendedMagazine.traitAdjectives.0>
+  <!-- EN: extendo-clip -->
+  <ExtendedMagazine.traitAdjectives.1>clipe extensor</ExtendedMagazine.traitAdjectives.1>
+  
+  <!-- EN: frequency amplifier -->
+  <FrequencyAmplifier.label>amplificador de frequência</FrequencyAmplifier.label>
+  <!-- EN: This weapon passes the beam through a crystal amplifier, dramatically increasing the weapon's damage and range. The weapon needs to cool down between uses. -->
+  <FrequencyAmplifier.description>Esta arma faz o feixe passar por um amplificador de cristal, aumentando consideravelmente o dano e o alcance. Ela precisa de tempo para resfriar entre os usos.</FrequencyAmplifier.description>
+  <!-- EN: amplified -->
+  <FrequencyAmplifier.traitAdjectives.0>amplificado</FrequencyAmplifier.traitAdjectives.0>
+  
+  <!-- EN: gold inlay -->
+  <GoldInlay.label>incrustação de ouro</GoldInlay.label>
+  <!-- EN: This weapon is inlaid with gold. Traders will pay more for it. -->
+  <GoldInlay.description>Esta arma possui incrustações de ouro. Comerciantes pagarão mais por ela.</GoldInlay.description>
+  <!-- EN: gold -->
+  <GoldInlay.traitAdjectives.0>ouro</GoldInlay.traitAdjectives.0>
+  <!-- EN: golden -->
+  <GoldInlay.traitAdjectives.1>dourado</GoldInlay.traitAdjectives.1>
+  
+  <!-- EN: grenade launcher -->
+  <GrenadeLauncher.label>lança-granadas</GrenadeLauncher.label>
+  <!-- EN: This weapon has an attached frag grenade launcher. Once fired, it must be reloaded using steel. -->
+  <GrenadeLauncher.description>Esta arma possui um lança-granadas de fragmentação acoplado. Após disparar, deve ser recarregada com aço.</GrenadeLauncher.description>
+  <!-- EN: grenade -->
+  <GrenadeLauncher.abilityProps.chargeNoun>granada</GrenadeLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <GrenadeLauncher.abilityProps.cooldownGerund>em recarga</GrenadeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: explosive -->
+  <GrenadeLauncher.traitAdjectives.0>explosiva</GrenadeLauncher.traitAdjectives.0>
+  
+  <!-- EN: high-power rounds -->
+  <HighPowerRounds.label>munição de alta potência</HighPowerRounds.label>
+  <!-- EN: Special ammunition makes this weapon more powerful than normal. The heavy recoil makes it less accurate. -->
+  <HighPowerRounds.description>Munição especial torna esta arma mais poderosa que o normal. O recuo elevado reduz a precisão.</HighPowerRounds.description>
+  <!-- EN: atlas -->
+  <HighPowerRounds.traitAdjectives.0>atlas</HighPowerRounds.traitAdjectives.0>
+  <!-- EN: hi-power -->
+  <HighPowerRounds.traitAdjectives.1>alta potência</HighPowerRounds.traitAdjectives.1>
+  <!-- EN: heavy-shot -->
+  <HighPowerRounds.traitAdjectives.2>tiro pesado</HighPowerRounds.traitAdjectives.2>
+  <!-- EN: hardpunch -->
+  <HighPowerRounds.traitAdjectives.3>soco forte</HighPowerRounds.traitAdjectives.3>
+  <!-- EN: heavy-hit -->
+  <HighPowerRounds.traitAdjectives.4>forte impacto</HighPowerRounds.traitAdjectives.4>
+  
+  <!-- EN: hollow-point rounds -->
+  <HollowPointRounds.label>munição expansiva</HollowPointRounds.label>
+  <!-- EN: This weapon fires bullets that expand on impact, dealing more damage than normal. -->
+  <HollowPointRounds.description>Esta arma dispara balas que se expandem ao impacto, causando mais dano que o normal.</HollowPointRounds.description>
+  <!-- EN: shredding -->
+  <HollowPointRounds.traitAdjectives.0>trituração</HollowPointRounds.traitAdjectives.0>
+  <!-- EN: hollowpoint -->
+  <HollowPointRounds.traitAdjectives.1>ponta oca</HollowPointRounds.traitAdjectives.1>
+  <!-- EN: hardpunch -->
+  <HollowPointRounds.traitAdjectives.2>soco forte</HollowPointRounds.traitAdjectives.2>
+  <!-- EN: meatrip -->
+  <HollowPointRounds.traitAdjectives.3>detonador de carne</HollowPointRounds.traitAdjectives.3>
+  <!-- EN: grinder -->
+  <HollowPointRounds.traitAdjectives.4>moedor</HollowPointRounds.traitAdjectives.4>
+  
+  <!-- EN: tactical sight -->
+  <ImprovedSights.label>mira tática</ImprovedSights.label>
+  <!-- EN: This weapon has a custom sight, increasing its accuracy at long range. -->
+  <ImprovedSights.description>Esta arma possui uma mira personalizada, aumentando a precisão a longas distâncias.</ImprovedSights.description>
+  <!-- EN: accurate -->
+  <ImprovedSights.traitAdjectives.0>preciso</ImprovedSights.traitAdjectives.0>
+  <!-- EN: precise -->
+  <ImprovedSights.traitAdjectives.1>preciso</ImprovedSights.traitAdjectives.1>
+  <!-- EN: sniper -->
+  <ImprovedSights.traitAdjectives.2>franco-atirador</ImprovedSights.traitAdjectives.2>
+  
+  <!-- EN: incendiary launcher -->
+  <IncendiaryLauncher.label>lançador incendiário</IncendiaryLauncher.label>
+  <!-- EN: This weapon has an attached incendiary shell launcher. The shell creates a small flame explosion that ignites everything nearby. Once fired, it must be reloaded using chemfuel. -->
+  <IncendiaryLauncher.description>Esta arma possui um lançador de projéteis incendiários acoplado. O projétil cria uma pequena explosão de chamas que incendeia tudo ao redor. Após disparar, deve ser recarregada com combustível químico.</IncendiaryLauncher.description>
+  <!-- EN: shell -->
+  <IncendiaryLauncher.abilityProps.chargeNoun>projétil</IncendiaryLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <IncendiaryLauncher.abilityProps.cooldownGerund>em recarga</IncendiaryLauncher.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <IncendiaryLauncher.traitAdjectives.0>ardente</IncendiaryLauncher.traitAdjectives.0>
+  <!-- EN: flame -->
+  <IncendiaryLauncher.traitAdjectives.1>chama</IncendiaryLauncher.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryLauncher.traitAdjectives.2>flamejante</IncendiaryLauncher.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryLauncher.traitAdjectives.3>queimando</IncendiaryLauncher.traitAdjectives.3>
+  
+  <!-- EN: incendiary pellets -->
+  <IncendiaryPellets.label>projéteis incendiários</IncendiaryPellets.label>
+  <!-- EN: This weapon fires phosphorus pellets that have a chance to ignite targets. -->
+  <IncendiaryPellets.description>Esta arma dispara projéteis de fósforo que têm chance de incendiar os alvos.</IncendiaryPellets.description>
+  <!-- EN: red -->
+  <IncendiaryPellets.traitAdjectives.0>vermelho</IncendiaryPellets.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryPellets.traitAdjectives.1>ardente</IncendiaryPellets.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryPellets.traitAdjectives.2>flamejante</IncendiaryPellets.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryPellets.traitAdjectives.3>queimando</IncendiaryPellets.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryPellets.traitAdjectives.4>quente</IncendiaryPellets.traitAdjectives.4>
+  <!-- EN: volcanic -->
+  <IncendiaryPellets.traitAdjectives.5>vulcânico</IncendiaryPellets.traitAdjectives.5>
+  <!-- EN: promethean -->
+  <IncendiaryPellets.traitAdjectives.6>prometeico</IncendiaryPellets.traitAdjectives.6>
+  
+  <!-- EN: incendiary rounds -->
+  <IncendiaryRounds.label>munição incendiária</IncendiaryRounds.label>
+  <!-- EN: This weapon fires ammunition that contains a flammable chemical. It has a chance to ignite targets. -->
+  <IncendiaryRounds.description>Esta arma dispara munições que contêm um produto químico inflamável. Tem chance de incendiar os alvos.</IncendiaryRounds.description>
+  <!-- EN: red -->
+  <IncendiaryRounds.traitAdjectives.0>vermelho</IncendiaryRounds.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryRounds.traitAdjectives.1>ardente</IncendiaryRounds.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryRounds.traitAdjectives.2>flamejante</IncendiaryRounds.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryRounds.traitAdjectives.3>queimando</IncendiaryRounds.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryRounds.traitAdjectives.4>quente</IncendiaryRounds.traitAdjectives.4>
+  <!-- EN: igniting -->
+  <IncendiaryRounds.traitAdjectives.5>acendendo</IncendiaryRounds.traitAdjectives.5>
+  <!-- EN: napalm -->
+  <IncendiaryRounds.traitAdjectives.6>napalm</IncendiaryRounds.traitAdjectives.6>
+  
+  <!-- EN: jade inlay -->
+  <JadeInlay.label>incrustação de jade</JadeInlay.label>
+  <!-- EN: This weapon is adorned with jade. Traders will pay more for it. -->
+  <JadeInlay.description>Esta arma é adornada com jade. Comerciantes pagarão mais por ela.</JadeInlay.description>
+  <!-- EN: jade -->
+  <JadeInlay.traitAdjectives.0>jade</JadeInlay.traitAdjectives.0>
+  
+  <!-- EN: lightweight -->
+  <Lightweight.label>leve</Lightweight.label>
+  <!-- EN: This weapon is much lighter than normal, lowering its aiming time. -->
+  <Lightweight.description>Esta arma é muito mais leve que o normal, reduzindo o tempo de mira.</Lightweight.description>
+  <!-- EN: light -->
+  <Lightweight.traitAdjectives.0>leve</Lightweight.traitAdjectives.0>
+  <!-- EN: quickdraw -->
+  <Lightweight.traitAdjectives.1>saque rápido</Lightweight.traitAdjectives.1>
+  
+  <!-- EN: lightweight arrows -->
+  <LightweightArrows.label>flechas leves</LightweightArrows.label>
+  <!-- EN: This bow is adept at firing lightweight arrows. They fly farther but deal less damage. -->
+  <LightweightArrows.description>Este arco é especializado em atirar flechas leves. Elas alcançam maior distância, mas causam menos dano.</LightweightArrows.description>
+  <!-- EN: light -->
+  <LightweightArrows.traitAdjectives.0>leve</LightweightArrows.traitAdjectives.0>
+  <!-- EN: longreach -->
+  <LightweightArrows.traitAdjectives.1>longo alcance</LightweightArrows.traitAdjectives.1>
+  
+  <!-- EN: ornamental -->
+  <Ornamental.label>ornamental</Ornamental.label>
+  <!-- EN: This weapon was crafted for aesthetics over functionality. It deals less damage but looks great. -->
+  <Ornamental.description>Esta arma foi feita para aparência em vez de funcionalidade. Causa menos dano, mas tem uma ótima aparência.</Ornamental.description>
+  <!-- EN: beautiful -->
+  <Ornamental.traitAdjectives.0>lindo</Ornamental.traitAdjectives.0>
+  <!-- EN: elegant -->
+  <Ornamental.traitAdjectives.1>elegante</Ornamental.traitAdjectives.1>
+  <!-- EN: ornamental -->
+  <Ornamental.traitAdjectives.2>ornamental</Ornamental.traitAdjectives.2>
+  
+  <!-- EN: heavy rounds -->
+  <OversizedRounds.label>munição pesada</OversizedRounds.label>
+  <!-- EN: This weapon deals more damage and has a much higher stopping power than normal. -->
+  <OversizedRounds.description>Esta arma causa mais dano e possui um poder de parada muito maior que o normal.</OversizedRounds.description>
+  <!-- EN: hammering -->
+  <OversizedRounds.traitAdjectives.0>martelando</OversizedRounds.traitAdjectives.0>
+  <!-- EN: forceful -->
+  <OversizedRounds.traitAdjectives.1>forte</OversizedRounds.traitAdjectives.1>
+  <!-- EN: oversized -->
+  <OversizedRounds.traitAdjectives.2>superdimensionado</OversizedRounds.traitAdjectives.2>
+  <!-- EN: knockout -->
+  <OversizedRounds.traitAdjectives.3>suprimir</OversizedRounds.traitAdjectives.3>
+  
+  <!-- EN: paralytic arrows -->
+  <ParalyticArrows.label>flechas paralisantes</ParalyticArrows.label>
+  <!-- EN: This bow shoots arrows embedded with a paralytic biotoxin, which briefly stuns targets. -->
+  <ParalyticArrows.description>Este arco dispara flechas embebidas com um biotoxina paralisante, que atordoa os alvos brevemente.</ParalyticArrows.description>
+  <!-- EN: paralyzing -->
+  <ParalyticArrows.traitAdjectives.0>paralisante</ParalyticArrows.traitAdjectives.0>
+  <!-- EN: paralytic -->
+  <ParalyticArrows.traitAdjectives.1>paralítico</ParalyticArrows.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <ParalyticArrows.traitAdjectives.2>esplêndido</ParalyticArrows.traitAdjectives.2>
+  
+  <!-- EN: piercing arrows -->
+  <PiercingArrows.label>flechas perfurantes</PiercingArrows.label>
+  <!-- EN: This bow shoots bodkin-tipped arrows, making it more effective against armored targets. -->
+  <PiercingArrows.description>Este arco dispara flechas de ponta bodkin, tornando-o mais eficaz contra alvos blindados.</PiercingArrows.description>
+  <!-- EN: piercing -->
+  <PiercingArrows.traitAdjectives.0>perfurantes</PiercingArrows.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingArrows.traitAdjectives.1>afiado</PiercingArrows.traitAdjectives.1>
+  <!-- EN: penetrating -->
+  <PiercingArrows.traitAdjectives.2>penetrante</PiercingArrows.traitAdjectives.2>
+  <!-- EN: bodkin -->
+  <PiercingArrows.traitAdjectives.3>pele de carneiro</PiercingArrows.traitAdjectives.3>
+  <!-- EN: anti-armor -->
+  <PiercingArrows.traitAdjectives.4>anti-blindagem</PiercingArrows.traitAdjectives.4>
+  
+  <!-- EN: piercing rounds -->
+  <PiercingRounds.label>munição perfurante</PiercingRounds.label>
+  <!-- EN: This weapon fires rounds designed to penetrate thick armor. -->
+  <PiercingRounds.description>Esta arma dispara munição projetada para penetrar armaduras pesadas.</PiercingRounds.description>
+  <!-- EN: piercing -->
+  <PiercingRounds.traitAdjectives.0>perfurantes</PiercingRounds.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingRounds.traitAdjectives.1>afiado</PiercingRounds.traitAdjectives.1>
+  <!-- EN: sabot -->
+  <PiercingRounds.traitAdjectives.2>sabot</PiercingRounds.traitAdjectives.2>
+  <!-- EN: penetrating -->
+  <PiercingRounds.traitAdjectives.3>penetrante</PiercingRounds.traitAdjectives.3>
+  
+  <!-- EN: tracking scope -->
+  <PrecisionScope.label>mira de rastreamento</PrecisionScope.label>
+  <!-- EN: This weapon's scope uses target recognition software to automate target tracking, making it faster to fire. -->
+  <PrecisionScope.description>A mira desta arma usa um software de reconhecimento de alvos para automatizar o rastreamento, tornando o disparo mais rápido.</PrecisionScope.description>
+  <!-- EN: trackscope -->
+  <PrecisionScope.traitAdjectives.0>trackscope</PrecisionScope.traitAdjectives.0>
+  <!-- EN: fastfire -->
+  <PrecisionScope.traitAdjectives.1>fogo rápido</PrecisionScope.traitAdjectives.1>
+  
+  <!-- EN: pulse charger -->
+  <PulseCharger.label>carregador de pulso</PulseCharger.label>
+  <!-- EN: This weapon is retrofitted with pulse-charge technology, imbuing bullets with unstable energy. The weapon was clearly not designed for this, dramatically lowering its accuracy. -->
+  <PulseCharger.description>Esta arma foi adaptada com tecnologia de carga de pulso, imbuindo as balas com energia instável. Claramente não foi projetada para isso, tornando-se muito menos precisa.</PulseCharger.description>
+  <!-- EN: charged-shot -->
+  <PulseCharger.traitAdjectives.0>tiro carregado</PulseCharger.traitAdjectives.0>
+  <!-- EN: charged -->
+  <PulseCharger.traitAdjectives.1>carregado</PulseCharger.traitAdjectives.1>
+  <!-- EN: pulse-charged -->
+  <PulseCharger.traitAdjectives.2>carregado por pulso</PulseCharger.traitAdjectives.2>
+  
+  <!-- EN: quick reload -->
+  <QuickReload.label>recarregamento rápido</QuickReload.label>
+  <!-- EN: This weapon has a quick release-and-replace mechanism that makes it faster to reload. -->
+  <QuickReload.description>Esta arma possui um mecanismo rápido de troca e substituição, tornando a recarga mais ágil.</QuickReload.description>
+  <!-- EN: quick -->
+  <QuickReload.traitAdjectives.0>rápido</QuickReload.traitAdjectives.0>
+  <!-- EN: nimble -->
+  <QuickReload.traitAdjectives.1>ágil</QuickReload.traitAdjectives.1>
+  <!-- EN: quickload -->
+  <QuickReload.traitAdjectives.2>carregamento rápido</QuickReload.traitAdjectives.2>
+  <!-- EN: quickshot -->
+  <QuickReload.traitAdjectives.3>tiro rápido</QuickReload.traitAdjectives.3>
+  <!-- EN: fastload -->
+  <QuickReload.traitAdjectives.4>carregamento rápido</QuickReload.traitAdjectives.4>
+  
+  <!-- EN: rangefinder -->
+  <RangefinderScope.label>mira com telemetro</RangefinderScope.label>
+  <!-- EN: This weapon's scope contains an advanced rangefinder, allowing it to fire further. -->
+  <RangefinderScope.description>A mira desta arma possui um telemetro avançado, permitindo disparos a distâncias maiores.</RangefinderScope.description>
+  <!-- EN: eagle -->
+  <RangefinderScope.traitAdjectives.0>águia</RangefinderScope.traitAdjectives.0>
+  <!-- EN: farsight -->
+  <RangefinderScope.traitAdjectives.1>hipermetropia</RangefinderScope.traitAdjectives.1>
+  
+  <!-- EN: rapid fire -->
+  <RapidFire.label>disparo rápido</RapidFire.label>
+  <!-- EN: This weapon contains an improved self-loading mechanism. When firing bursts of multiple rounds, the time between each round is dramatically reduced. -->
+  <RapidFire.description>Esta arma possui um mecanismo de autocarregamento aprimorado. Ao disparar rajadas com múltiplos tiros, o intervalo entre os disparos é drasticamente reduzido.</RapidFire.description>
+  <!-- EN: rapid -->
+  <RapidFire.traitAdjectives.0>rápido</RapidFire.traitAdjectives.0>
+  <!-- EN: burst -->
+  <RapidFire.traitAdjectives.1>explodido</RapidFire.traitAdjectives.1>
+  <!-- EN: rapid-fire -->
+  <RapidFire.traitAdjectives.2>disparo rápido</RapidFire.traitAdjectives.2>
+  
+  <!-- EN: reinforced bow limbs -->
+  <ReinforcedLimbs.label>lâminas reforçadas</ReinforcedLimbs.label>
+  <!-- EN: The limbs of this bow have been strengthened, allowing it to shoot further. -->
+  <ReinforcedLimbs.description>Os braços deste arco foram reforçados, permitindo disparos a maiores distâncias.</ReinforcedLimbs.description>
+  <!-- EN: reinforced -->
+  <ReinforcedLimbs.traitAdjectives.0>reforçado</ReinforcedLimbs.traitAdjectives.0>
+  
+  <!-- EN: shoddy sights -->
+  <ShoddySights.label>mira defeituosa</ShoddySights.label>
+  <!-- EN: Defects in this weapon's sights decrease its accuracy at long ranges. -->
+  <ShoddySights.description>Defeitos nas miras desta arma reduzem a precisão a longas distâncias.</ShoddySights.description>
+  <!-- EN: inaccurate -->
+  <ShoddySights.traitAdjectives.0>impreciso</ShoddySights.traitAdjectives.0>
+  <!-- EN: imprecise -->
+  <ShoddySights.traitAdjectives.1>impreciso</ShoddySights.traitAdjectives.1>
+  
+  <!-- EN: shortened barrel -->
+  <ShortenedBarrel.label>cano encurtado</ShortenedBarrel.label>
+  <!-- EN: This weapon's barrel has been sawn off, reducing its range but making it quicker to aim and fire. -->
+  <ShortenedBarrel.description>O cano desta arma foi serrado, reduzindo o alcance, mas tornando mais rápido mirar e disparar.</ShortenedBarrel.description>
+  <!-- EN: shortened -->
+  <ShortenedBarrel.traitAdjectives.0>encurtado</ShortenedBarrel.traitAdjectives.0>
+  <!-- EN: sawn-off -->
+  <ShortenedBarrel.traitAdjectives.1>serrado</ShortenedBarrel.traitAdjectives.1>
+  
+  <!-- EN: smoke launcher -->
+  <SmokeLauncher.label>lançador de fumaça</SmokeLauncher.label>
+  <!-- EN: This weapon has an attached smoke shell launcher. The shell releases smoke that obscures incoming shots and prevents turrets from locking on. Once fired, it must be reloaded using steel. -->
+  <SmokeLauncher.description>Esta arma possui um lançador de projéteis de fumaça acoplado. O projétil libera fumaça que obscurece disparos inimigos e impede torretas de travar o alvo. Após disparar, deve ser recarregada com aço.</SmokeLauncher.description>
+  <!-- EN: shell -->
+  <SmokeLauncher.abilityProps.chargeNoun>projétil</SmokeLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <SmokeLauncher.abilityProps.cooldownGerund>em recarga</SmokeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: smoke -->
+  <SmokeLauncher.traitAdjectives.0>fumaça</SmokeLauncher.traitAdjectives.0>
+  <!-- EN: concealing -->
+  <SmokeLauncher.traitAdjectives.1>escondendo</SmokeLauncher.traitAdjectives.1>
+  <!-- EN: clouding -->
+  <SmokeLauncher.traitAdjectives.2>turvação</SmokeLauncher.traitAdjectives.2>
+  
+  <!-- EN: pistol brace -->
+  <StabilizerBrace.label>estabilizador de punho</StabilizerBrace.label>
+  <!-- EN: This weapon has a stabilizing brace that connects to the user's arm, increasing its accuracy. -->
+  <StabilizerBrace.description>Esta arma possui um estabilizador que conecta ao braço do usuário, aumentando a precisão.</StabilizerBrace.description>
+  <!-- EN: stable -->
+  <StabilizerBrace.traitAdjectives.0>estável</StabilizerBrace.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <StabilizerBrace.traitAdjectives.1>preciso</StabilizerBrace.traitAdjectives.1>
+  <!-- EN: precise -->
+  <StabilizerBrace.traitAdjectives.2>preciso</StabilizerBrace.traitAdjectives.2>
+  <!-- EN: braced -->
+  <StabilizerBrace.traitAdjectives.3>apoiado</StabilizerBrace.traitAdjectives.3>
+  
+  <!-- EN: toxic pellets -->
+  <ToxPellets.label>projéteis tóxicos</ToxPellets.label>
+  <!-- EN: This weapon fires chemical pellets which cause toxic buildup. -->
+  <ToxPellets.description>Esta arma dispara projéteis químicos que causam acúmulo tóxico.</ToxPellets.description>
+  <!-- EN: green -->
+  <ToxPellets.traitAdjectives.0>verde</ToxPellets.traitAdjectives.0>
+  <!-- EN: toxic -->
+  <ToxPellets.traitAdjectives.1>tóxico</ToxPellets.traitAdjectives.1>
+  <!-- EN: poisonous -->
+  <ToxPellets.traitAdjectives.2>venenoso</ToxPellets.traitAdjectives.2>
+  <!-- EN: poison -->
+  <ToxPellets.traitAdjectives.3>tóxico</ToxPellets.traitAdjectives.3>
+  
+  <!-- EN: tox rounds -->
+  <ToxRounds.label>munição tóxica</ToxRounds.label>
+  <!-- EN: This weapon fires rounds coated with toxic chemicals, which sicken wounded targets. -->
+  <ToxRounds.description>Esta arma dispara projéteis revestidos com químicos tóxicos, que adoecem alvos feridos.</ToxRounds.description>
+  <!-- EN: green -->
+  <ToxRounds.traitAdjectives.0>verde</ToxRounds.traitAdjectives.0>
+  <!-- EN: poison -->
+  <ToxRounds.traitAdjectives.1>tóxico</ToxRounds.traitAdjectives.1>
+  <!-- EN: venom -->
+  <ToxRounds.traitAdjectives.2>veneno</ToxRounds.traitAdjectives.2>
+  <!-- EN: venomous -->
+  <ToxRounds.traitAdjectives.3>venenoso</ToxRounds.traitAdjectives.3>
+  <!-- EN: snakebite -->
+  <ToxRounds.traitAdjectives.4>picada de cobra</ToxRounds.traitAdjectives.4>
+  
+  <!-- EN: ugly -->
+  <Ugly.label>feia</Ugly.label>
+  <!-- EN: This weapon was crafted with no respect for aesthetics. It looks like junk but gets the job done. Traders will pay less for it. -->
+  <Ugly.description>Esta arma foi feita sem preocupação estética. Parece sucata, mas cumpre sua função. Comerciantes pagarão menos por ela.</Ugly.description>
+  <!-- EN: monstrous -->
+  <Ugly.traitAdjectives.0>monstruoso</Ugly.traitAdjectives.0>
+  <!-- EN: crude -->
+  <Ugly.traitAdjectives.1>bruto</Ugly.traitAdjectives.1>
+  <!-- EN: ugly -->
+  <Ugly.traitAdjectives.2>feio</Ugly.traitAdjectives.2>
+  
+</LanguageData>
