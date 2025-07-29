@@ -71,9 +71,9 @@
     <li>strikeAdv->horribly</li>
     <li>strikeAdv->savagely</li>
     <li>strikeAdv->viciously</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound</li>
     <li>flavortext_consequence->leaving a horrific wound</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
@@ -84,9 +84,9 @@
     <li>strikeAdv->penosamente</li>
     <li>strikeAdv->brutalmente</li>
     <li>strikeAdv->horrivelmente</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixando uma ferida nojenta</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->deixando uma ferida nojenta</li>
     <li>flavortext_consequence->deixando uma ferida horrível</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->fazendo [RECIPIENT_pronoun] [wince] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->fazendo [RECIPIENT_pronoun] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->deixando [RECIPIENT_pronoun] sem equilíbrio</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
@@ -111,20 +111,20 @@
     <li>destroyed(p=0.5)->demolished</li>
     <li>destroyed(p=0.5)->ruined</li>
     <li>destroyed(p=0.5)->wrecked</li>
-    <li>wince(recipient_flesh==Normal)->wince</li>
-    <li>wince(recipient_flesh==Normal)->grimace</li>
-    <li>wince(recipient_flesh==Normal)->cringe</li>
-    <li>wince(recipient_flesh==Normal)->groan</li>
-    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
-    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince(RECIPIENT_flesh==Normal)->wince</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grimace</li>
+    <li>wince(RECIPIENT_flesh==Normal)->cringe</li>
+    <li>wince(RECIPIENT_flesh==Normal)->groan</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->scream</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->shout</li>
     <li>wince->recoil</li>
     <li>wince->stumble</li>
     <li>painstate->in</li>
     <li>painstate->with</li>
     <li>painstate->from the</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
-    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->with misery</li>
     <li>painevent->from the injury</li>
     <li>painevent->from the wound</li>
     <li>to->to</li>
@@ -151,20 +151,20 @@
     <li>destroyed(p=0.5)->demolido</li>
     <li>destroyed(p=0.5)->arruinado</li>
     <li>destroyed(p=0.5)->quebrado</li>
-    <li>wince(recipient_flesh==Normal)->estremecer</li>
-    <li>wince(recipient_flesh==Normal)->careta</li>
-    <li>wince(recipient_flesh==Normal)->vergonhoso</li>
-    <li>wince(recipient_flesh==Normal)->murmúrio</li>
-    <li>wince(recipient_flesh!=Mechanoid)->grito</li>
-    <li>wince(recipient_flesh!=Mechanoid)->berro</li>
-    <li>wince->recoil</li>
-    <li>wince->stumble</li>
-    <li>painstate->in</li>
-    <li>painstate->with</li>
-    <li>painstate->from the</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] dor</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agonia</li>
-    <li>painevent(recipient_flesh==Normal)->com miséria</li>
+    <li>wince(RECIPIENT_flesh==Normal)->estremecer</li>
+    <li>wince(RECIPIENT_flesh==Normal)->careta</li>
+    <li>wince(RECIPIENT_flesh==Normal)->vergonhoso</li>
+    <li>wince(RECIPIENT_flesh==Normal)->murmúrio</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->grito</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->berro</li>
+    <li>wince->recuo</li>
+    <li>wince->tropeçar</li>
+    <li>painstate->em</li>
+    <li>painstate->com</li>
+    <li>painstate->de</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] dor</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agonia</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->com miséria</li>
     <li>painevent->da lesão</li>
     <li>painevent->da ferida</li>
     <li>to->para</li>
