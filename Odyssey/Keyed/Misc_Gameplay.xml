@@ -108,6 +108,14 @@
   <MustBeOutside>Deve estar ao ar livre</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>Bloqueado por subestrutura</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>TODO</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>TODO</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>TODO</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>TODO</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -287,8 +295,10 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>Arma única</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>Reformar a caravana fará com que você abandone sua gravinave. Tem certeza de que deseja continuar?\n\nPara sair com sua gravinave, selecione o console do piloto e, em seguida, 'lançar'.</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
-  <ConfirmLoseShuttle>Reformar a caravana fará com que você abandone sua nave. Tem certeza que deseja continuar?\n\nPara partir com sua nave, selecione a nave e depois selecione 'lançar'.</ConfirmLoseShuttle>
+  <ConfirmLoseShuttle>Reformar a caravana fará com que você abandone sua nave. Tem certeza que deseja continuar?\n\nPara partir com sua nave, selecione a nave e, em seguida, 'lançar'.</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
   <BookHasQuest>Descobrir uma missão</BookHasQuest>
@@ -328,14 +338,6 @@
   <!-- EN: Allow digging -->
   <DigEnabled>Permitir escavação</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>Selar a entrada do estoque ancestral é permanente. Qualquer coisa ou pessoa deixada embaixo será perdida para sempre.{0}\n\nTem certeza que deseja continuar?</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>Não é possível selar</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>Selado</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>Selado permanentemente.</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>Destrancado.</HatchUnlocked>
 
