@@ -13,7 +13,14 @@
     <li>subject_story->was mining an ancient exostrider wreck and found a mechlink preserved in the wreckage</li>
     <li>subject_gerund->creating basic mechanoids</li>
   -->
-  <BasicMechtech.generalRules.rulesStrings>TODO</BasicMechtech.generalRules.rulesStrings>
+  <BasicMechtech.generalRules.rulesStrings>
+    <li>subject->mecanoides</li>
+    <li>subject_story->escreveu um livro infantil abordando os tipos básicos de mecanoides</li>
+    <li>subject_story->foi implantado(a) com um protótipo de meca-conexão</li>
+    <li>subject_story->replicou técnicas biomecânicas básicas de forma independente</li>
+    <li>subject_story->estava minerando os destroços de um antigo exostrider e encontrou uma meca-conexão preservada nos escombros</li>
+    <li>subject_gerund->criando mecanoides básicos</li>
+  </BasicMechtech.generalRules.rulesStrings>
   
   <!-- EN: high mechtech -->
   <HighMechtech.label>meca-tecnologia elevada</HighMechtech.label>
@@ -27,21 +34,35 @@
     <li>subject_story->built prototype mechanoid micro-organs for an offworld client</li>
     <li>subject_gerund->creating high-tier mechanoids</li>
   -->
-  <HighMechtech.generalRules.rulesStrings>TODO</HighMechtech.generalRules.rulesStrings>
+  <HighMechtech.generalRules.rulesStrings>
+    <li>subject->mecanoides de alto nível</li>
+    <li>subject_story->sobreviveu a um ataque de uma Rainha da Guerra em um mundo Imperial</li>
+    <li>subject_story->comprou um chip de foco energético de um comerciante que não entendia seu valor</li>
+    <li>subject_story->interrogou mecanizador capturados em incursões planetárias</li>
+    <li>subject_story->construiu micro-órgãos de mecanoides protótipos para um cliente de outro mundo</li>
+    <li>subject_gerund->criando mecanoides de alto nível</li>
+  </HighMechtech.generalRules.rulesStrings>
   
   <!-- EN: standard mechtech -->
   <StandardMechtech.label>meca-tecnologia padrão</StandardMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control standard-tier mechanoids.\n\nYou can get signal chips by using a mechanitor to summon a diabolus threat. -->
-  <StandardMechtech.description>A tecnologia necessária para seu mecanizador criar e controlar mecanoides de nível padrão.\n\nVocê pode obter chips de sinalização ao usar um mecanizador para convocar a ameação do diabolus.</StandardMechtech.description>
+  <StandardMechtech.description>A tecnologia necessária para seu mecanizador criar e controlar mecanoides de nível padrão.\n\nVocê pode obter chips de sinalização ao usar um mecanizador para convocar uma ameaça do diabolus.</StandardMechtech.description>
   <!-- EN:
     <li>subject->mechanoids</li>
     <li>subject_story->acquired a signal chip in shady circumstances</li>
-    <li>subject_story->found an intact signal chip in a diabolus wreck</li>
+    <li>subject_story->found an intact signal chip in a Diabolus wreck</li>
     <li>subject_story->survived a mechanoid hive assault</li>
     <li>subject_story->collated reports of mechanoid attacks, looking for commonalities</li>
     <li>subject_gerund->creating standard mechanoids</li>
   -->
-  <StandardMechtech.generalRules.rulesStrings>TODO</StandardMechtech.generalRules.rulesStrings>
+  <StandardMechtech.generalRules.rulesStrings>
+    <li>subject->mecanoides</li>
+    <li>subject_story->adquiriu um chip de sinal em circunstâncias duvidosas</li>
+    <li>subject_story->encontrou um chip de sinal intacto nos destroços de um Diabolus</li>
+    <li>subject_story->sobreviveu a um ataque de uma colmeia de mecanoides</li>
+    <li>subject_story->reuniu relatórios de ataques de mecanoides, procurando por padrões em comum</li>
+    <li>subject_gerund->criando mecanoides padrão</li>
+  </StandardMechtech.generalRules.rulesStrings>
   
   <!-- EN: ultra mechtech -->
   <UltraMechtech.label>ultra meca-tecnologia</UltraMechtech.label>
@@ -55,7 +76,14 @@
     <li>subject_story->found an ascension diary next to an inert archonexus</li>
     <li>subject_gerund->creating ultra-tier mechanoids</li>
   -->
-  <UltraMechtech.generalRules.rulesStrings>TODO</UltraMechtech.generalRules.rulesStrings>
+  <UltraMechtech.generalRules.rulesStrings>
+    <li>subject->mecanoides de nível ultra</li>
+    <li>subject_story->encontrou um apocritão desativado nos destroços de um mundo morto</li>
+    <li>subject_story->observou um apocritão ressuscitando mecas a uma distância segura</li>
+    <li>subject_story->acessou o ódio psíquico profundo que os apocritões sentem pela humanidade</li>
+    <li>subject_story->encontrou um diário de ascensão ao lado de um arquonexo inerte</li>
+    <li>subject_gerund->criando mecanoides de nível ultra</li>
+  </UltraMechtech.generalRules.rulesStrings>
   
   <!-- EN: wastepack atomizer -->
   <WastepackAtomizer.label>atomizador de pacote de resíduos</WastepackAtomizer.label>
@@ -65,10 +93,17 @@
     <li>subject->toxic waste atomization</li>
     <li>subject_story->studied safe atomic waste disposal</li>
     <li>subject_story->recruited disposable teams for solar waste disposal missions</li>
-    <li>subject_story->devised the theory for atomic destabilisation from first principles</li>
+    <li>subject_story->devised the theory for atomic destabilization from first principles</li>
     <li>subject_story->observed a toxicworld from orbit</li>
     <li>subject_gerund->constructing wastepack atomizers</li>
   -->
-  <WastepackAtomizer.generalRules.rulesStrings>TODO</WastepackAtomizer.generalRules.rulesStrings>
+  <WastepackAtomizer.generalRules.rulesStrings>
+    <li>subject->atomização de resíduos tóxicos</li>
+    <li>subject_story->estudou a eliminação segura de resíduos atômicos</li>
+    <li>subject_story->recrutou equipes descartáveis para missões de eliminação de resíduos solares</li>
+    <li>subject_story->desenvolveu a teoria da desestabilização atômica a partir de princípios básicos</li>
+    <li>subject_story->observou um mundo tóxico a partir da órbita</li>
+    <li>subject_gerund->construindo atomizadores de resíduos</li>
+  </WastepackAtomizer.generalRules.rulesStrings>
   
 </LanguageData>
