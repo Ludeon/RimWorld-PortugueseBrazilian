@@ -32,6 +32,7 @@ Se deseja atualizar as traduções para as mais recentes, siga [este guia](https
  - [Eduardo](https://github.com/eduardo0619)
  - [Ezequiel Wilhelm Ribeiro](https://github.com/Firty)
  - [Lich Beoulve](https://github.com/lichbeoulve)
+ - [Luan de Freitas](https://github.com/luan-u)
  - [Philippus](https://github.com/PhilippusBR)
  - [Ragnar](https://github.com/RagnarLothbroke)
  - [Renan Lopes](https://github.com/renan905)
