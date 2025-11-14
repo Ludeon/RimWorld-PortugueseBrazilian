@@ -6,7 +6,7 @@
   <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
   <ShipBasics.description>Construa os elementos estruturais e de suporte de uma nave estelar. Este é o primeiro passo na construção de uma nave para deixar esse sistema estelar.</ShipBasics.description>
   <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nA new Ship category is available in the Architect menu from which you may build ship parts once the appropriate technology is researched. Ships require several different parts in order to launch, including a ship reactor.\n\nShip reactors take 15 days to charge up and many desperate souls want off this planet. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
-  <ShipBasics.discoveredLetterText>Escapar deste planeta - seria uma liberdade ao menos, e talvez a volta para casa.\n\nnMas também é incrivelmente perigoso.\n\nMuitas almas desesperadas querem sair deste planeta. Os reatores da nave levam 15 dias para serem carregados. Quando você inicia esse processo, o reator da nave emitirá uma assinatura de energia detectável a milhares de quilômetros de distância. Os incursores se reúnem para atacá-lo em ondas, com uma intensidade que você nunca viu. Sabe-se também que os mecanoides são atraídos por essas assinaturas de energia por razões misteriosas.\n\nnNão será iniciado até que você ative o reator de sua nave, mas quando isso acontecer, será feroz. Você precisará estocar recursos, armas e defesas para o ataque, se desejar escapar vivo.</ShipBasics.discoveredLetterText>
+  <ShipBasics.discoveredLetterText>Escapar deste planeta - seria a liberdade, enfim, e talvez a volta para casa.\n\nMas também é incrivelmente perigoso.\n\nUma nova categoria, Nave, está agora disponível no meno Arquiteto, e a partir dela você pode construir partes de nave quando as tecnologias apropriadas forem pesquisadas. Naves precisam de muitas partes diferentes para decolar, inclusive um reator de nave.\n\nMuitas almas desesperadas querem sair deste planeta. Os reatores da nave levam 15 dias para serem carregados. Quando você inicia esse processo, o reator da nave emitirá uma assinatura de energia detectável a milhares de quilômetros de distância. Os incursores se reunirão para atacá-lo em ondas, com uma intensidade que você nunca viu. Sabe-se também que os mecanoides são atraídos por essas assinaturas de energia por razões misteriosas.\n\nIsso não acontecerá até que você ative o reator de sua nave, mas quando isso acontecer, será uma batalha feroz. Você precisará estocar recursos, armas e defesas para o ataque, se desejar escapar vivo.</ShipBasics.discoveredLetterText>
   <!-- EN: About: Launching the ship -->
   <ShipBasics.discoveredLetterTitle>Sobre: Lançamento da nave</ShipBasics.discoveredLetterTitle>
   <!-- EN:
@@ -16,7 +16,13 @@
     <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
     <li>subject_gerund->constructing starship structures</li>
   -->
-  <ShipBasics.generalRules.rulesStrings>TODO</ShipBasics.generalRules.rulesStrings>
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->engenharia estrutural de cosmonave</li>
+    <li>subject_story->recrutava engenheiros de cosmonave para a frota de um reluzmundo</li>
+    <li>subject_story->trabalhava com projetos de engenharia estrutural em um bairro de arranha-céus em um urbemundo</li>
+    <li>subject_story->desmontava restos de naves no cinturão de destroços de um mundo morto</li>
+    <li>subject_gerund->construindo estruturas de cosmonave</li>
+  </ShipBasics.generalRules.rulesStrings>
   
   <!-- EN: machine persuasion -->
   <ShipComputerCore.label>persuasão mecânica</ShipComputerCore.label>
@@ -32,7 +38,16 @@
     <li>subject_gerund->maintaining starship AI sanity</li>
     <li>subject_gerund->constructing reward-signal systems</li>
   -->
-  <ShipComputerCore.generalRules.rulesStrings>TODO</ShipComputerCore.generalRules.rulesStrings>
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->incentivos para núcleos de personalidade</li>
+    <li>subject->manutenção da sanidade em IAs para cosmonaves</li>
+    <li>subject_story->recuperou controle do núcleo aberrante de uma nave usando recondicionamento cuidadoso</li>
+    <li>subject_story->preparou simulações de gerenciamento de colônias para manter o núcleo da nave ocupado durante os muitos anos de viagem interestelar</li>
+    <li>subject_story->teve a companhia de um núcleo de nave durante uma viagem interestelar "curta", aprendendo muito sobre núcleos no processo</li>
+    <li>subject_gerund->incentivando núcleos de personalidade</li>
+    <li>subject_gerund->preservando a sanidade de IAs para cosmonaves</li>
+    <li>subject_gerund->construindo sistemas de sinalização de recompensa</li>
+  </ShipComputerCore.generalRules.rulesStrings>
   
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>sarcófagos de criptosono a vácuo</ShipCryptosleep.label>
@@ -45,7 +60,13 @@
     <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
     <li>subject_gerund->constructing hardened cryptosleep caskets</li>
   -->
-  <ShipCryptosleep.generalRules.rulesStrings>TODO</ShipCryptosleep.generalRules.rulesStrings>
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->sarcófagos de criptosono de classe cósmica</li>
+    <li>subject_story->substituiu os sarcófagos defeituosos de criptosono na CMC Celeste, permitindo que a nave de geração antiga pudesse ser usada novamente</li>
+    <li>subject_story->sofreu ejeção acidental no espaço profundo, sobrevivendo por dois meses em um sarcófago de projeto próprio</li>
+    <li>subject_story->lecionou sobre as diferenças entre equipamentos de classe planetária e de classe cósmica</li>
+    <li>subject_gerund->costruindo sarcófagos reforçados de criptosono</li>
+  </ShipCryptosleep.generalRules.rulesStrings>
   
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>motor JT</ShipEngine.label>
@@ -59,7 +80,14 @@
     <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
     <li>subject_gerund->constructing starship drives</li>
   -->
-  <ShipEngine.generalRules.rulesStrings>TODO</ShipEngine.generalRules.rulesStrings>
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->teoria JT</li>
+    <li>subject->transferência de momento exótico</li>
+    <li>subject_story->lecionou na universidade sobre Johnson, Tanaka e efeitos de escala quântica</li>
+    <li>subject_story->construiu um motor JT do zero para uma tese</li>
+    <li>subject_story->manteve um motor JT por duas décadas, enquanto a nave viajava entre as estrelas</li>
+    <li>subject_gerund->construindo motores para cosmonaves</li>
+  </ShipEngine.generalRules.rulesStrings>
   
   <!-- EN: starship reactor -->
   <ShipReactor.label>reator estelar</ShipReactor.label>
@@ -72,7 +100,13 @@
     <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
     <li>subject_gerund->constructing starship reactors</li>
   -->
-  <ShipReactor.generalRules.rulesStrings>TODO</ShipReactor.generalRules.rulesStrings>
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->reator nuclear de cosmonave</li>
+    <li>subject_story->construiu um novo reator para uma nave colonizadora, mas não viveu o bastante para ver a decolagem</li>
+    <li>subject_story->defendeu a nave de invasores desesperados para deixar o planeta enquanto o reator iniciava as operações</li>
+    <li>subject_story->usou um reator de cosmonave como energia de reserva para um banco de genes enterrado sob as calotas polares do planeta</li>
+    <li>subject_gerund->construindo reatores de cosmonave</li>
+  </ShipReactor.generalRules.rulesStrings>
   
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>sensores de voo estelar</ShipSensorCluster.label>
@@ -86,6 +120,13 @@
     <li>subject_gerund->navigating interstellar space</li>
     <li>subject_gerund->constructing starship sensors</li>
   -->
-  <ShipSensorCluster.generalRules.rulesStrings>TODO</ShipSensorCluster.generalRules.rulesStrings>
+  <ShipSensorCluster.generalRules.rulesStrings>
+    <li>subject->navegação interestelar</li>
+    <li>subject_story->usou protótipos de sensores em uma cosmonave para detectar a chegada de um asteroide de extinção em massa e evacuar o planeta</li>
+    <li>subject_story->trabalhou como navegador e cozinheiro em um iate estelar em um reluzmundo</li>
+    <li>subject_story->refinou o projeto de sensores de longa distância, melhorando sua utilidade</li>
+    <li>subject_gerund->navegando pelo espaço interestelar</li>
+    <li>subject_gerund->construindo sensores de cosmonave</li>
+  </ShipSensorCluster.generalRules.rulesStrings>
   
 </LanguageData>
