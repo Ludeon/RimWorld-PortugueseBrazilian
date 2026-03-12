@@ -189,7 +189,194 @@
     <li>story->Volume</li>
     <li>story->Whimsy</li>
   -->
-  <Namer_Novel.rulePack.rulesStrings>TODO</Namer_Novel.rulePack.rulesStrings>
+  <Namer_Novel.rulePack.rulesStrings>
+    <li>title(p=3)->[titleNaked]</li>
+    <li>title->[titleNaked] de [ANYPAWN_nameIndef]</li>
+    <li>title->[story] de [Character]</li>
+    <li>title->[objectAny] de [Character]</li>
+    <li>title->[Character] [linkagePlace] [place]</li>
+    <li>title->[adjective] [Character]</li>
+    <li>title->[adjective] [objectAny]</li>
+    <li>titleNaked->[ConceptAny]</li>
+    <li>titleNaked->[adjective] [ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlace] [place]</li>
+    <li>titleNaked->[objectAny] [linkage] [ConceptAny]</li>
+    <li>objectAny->[Game]</li>
+    <li>objectAny->[Weapon]</li>
+    <li>linkage->de</li>
+    <li>linkage->por</li>
+    <li>linkage->para</li>
+    <li>linkage->sem</li>
+    <li>linkage->com</li>
+    <li>linkagePlace->no interior de</li>
+    <li>linkagePlace->perto de</li>
+    <li>linkagePlace->em</li>
+    <li>linkagePlace->próximo de</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>place(p=25)->[TerrainFeature]</li>
+    <li>place->Abismo</li>
+    <li>place->Anfiteatro</li>
+    <li>place->Aquário</li>
+    <li>place->Aqueduto</li>
+    <li>place->Arena</li>
+    <li>place->Asilo</li>
+    <li>place->Quartel</li>
+    <li>place->Base</li>
+    <li>place->Bunker</li>
+    <li>place->Cabine</li>
+    <li>place->Acampamento</li>
+    <li>place->Castelo</li>
+    <li>place->Catedral</li>
+    <li>place->Caverna</li>
+    <li>place->Cidadela</li>
+    <li>place->Cidade</li>
+    <li>place->Coliseu</li>
+    <li>place->Colônia</li>
+    <li>place->Profundezas</li>
+    <li>place->Deserto</li>
+    <li>place->Elevador</li>
+    <li>place->Fábrica</li>
+    <li>place->Festival</li>
+    <li>place->Fortaelza</li>
+    <li>place->Clareira</li>
+    <li>place->Cemitério</li>
+    <li>place->Estufa</li>
+    <li>place->Bosque</li>
+    <li>place->Porto</li>
+    <li>place->Coração</li>
+    <li>place->Colmeia</li>
+    <li>place->Hospital</li>
+    <li>place->Ilha</li>
+    <li>place->Floresta</li>
+    <li>place->Campo de trabalhos forçados</li>
+    <li>place->Laboratório</li>
+    <li>place->Labirinto</li>
+    <li>place->Área de lançamento</li>
+    <li>place->Biblioteca</li>
+    <li>place->Farol</li>
+    <li>place->Mansão</li>
+    <li>place->Mansão</li>
+    <li>place->Mercado</li>
+    <li>place->Mina</li>
+    <li>place->Monastério</li>
+    <li>place->Montanha</li>
+    <li>place->Nexus</li>
+    <li>place->Oásis</li>
+    <li>place->Observatório</li>
+    <li>place->Pomar</li>
+    <li>place->Entreposto</li>
+    <li>place->Palácio</li>
+    <li>place->Planalto</li>
+    <li>place->Prisão</li>
+    <li>place->Refinaria</li>
+    <li>place->Balneário</li>
+    <li>place->Fenda</li>
+    <li>place->Ruínas</li>
+    <li>place->Santuário</li>
+    <li>place->Escola</li>
+    <li>place->Assentamento</li>
+    <li>place->Nave</li>
+    <li>place->Alma</li>
+    <li>place->Estação espacial</li>
+    <li>place->Espaçoporto</li>
+    <li>place->Espira</li>
+    <li>place->Pântano</li>
+    <li>place->Taverna</li>
+    <li>place->Templo</li>
+    <li>place->Cidade</li>
+    <li>place->Tundra</li>
+    <li>place->Universidade</li>
+    <li>place->Vila</li>
+    <li>place->Vulcão</li>
+    <li>place->Armazém</li>
+    <li>place->Desolação</li>
+    <li>place->Selva</li>
+    <li>place->Zoológico</li>
+    <li>story->Aventura</li>
+    <li>story->Aventuras</li>
+    <li>story->Alegoria</li>
+    <li>story->Anedota</li>
+    <li>story->Registros</li>
+    <li>story->Balada</li>
+    <li>story->Biografia</li>
+    <li>story->Capítulos</li>
+    <li>story->Crônica</li>
+    <li>story->Crônicas</li>
+    <li>story->Cronologia</li>
+    <li>story->Comédia</li>
+    <li>story->Compêndio</li>
+    <li>story->Coletânea</li>
+    <li>story->Diálogo</li>
+    <li>story->Diário</li>
+    <li>story->Discurso</li>
+    <li>story->Drama</li>
+    <li>story->Sonho</li>
+    <li>story->Enigma</li>
+    <li>story->Épico</li>
+    <li>story->Epifania</li>
+    <li>story->Epístola</li>
+    <li>story->Fábula</li>
+    <li>story->Fábulas</li>
+    <li>story->Conto de fadas</li>
+    <li>story->Fantasia</li>
+    <li>story->Fantasia</li>
+    <li>story->Fantasia</li>
+    <li>story->Ficção</li>
+    <li>story->Folclore</li>
+    <li>story->História</li>
+    <li>story->Imaginação</li>
+    <li>story->Imaginações</li>
+    <li>story->Discernimento</li>
+    <li>story->Anotações</li>
+    <li>story->Diário</li>
+    <li>story->Jornada</li>
+    <li>story->Legado</li>
+    <li>story->Lenda</li>
+    <li>story->Lendas</li>
+    <li>story->Literatura</li>
+    <li>story->Registro</li>
+    <li>story->Memória</li>
+    <li>story->Memórias</li>
+    <li>story->Lembranças</li>
+    <li>story->Mente</li>
+    <li>story->Musical</li>
+    <li>story->Pensamentos</li>
+    <li>story->Mito</li>
+    <li>story->Mitologia</li>
+    <li>story->Mitos</li>
+    <li>story->Narração</li>
+    <li>story->Narrativa</li>
+    <li>story->Romance</li>
+    <li>story->Observações</li>
+    <li>story->Ode</li>
+    <li>story->Páginas</li>
+    <li>story->Papéis</li>
+    <li>story->Parábola</li>
+    <li>story->Prosa</li>
+    <li>story->Recordações</li>
+    <li>story->Relato</li>
+    <li>story->Reflexão</li>
+    <li>story->Reflexões</li>
+    <li>story->Reminiscências</li>
+    <li>story->Revelação</li>
+    <li>story->Rapsódia</li>
+    <li>story->Saga</li>
+    <li>story->Rabiscos</li>
+    <li>story->Roteiro</li>
+    <li>story->Esboço</li>
+    <li>story->Esboços</li>
+    <li>story->Estória</li>
+    <li>story->Conto</li>
+    <li>story->Contos</li>
+    <li>story->Testamento</li>
+    <li>story->Depoimento</li>
+    <li>story->Tragédia</li>
+    <li>story->Tributo</li>
+    <li>story->Verso</li>
+    <li>story->Volume</li>
+    <li>story->Caprichos</li>
+  </Namer_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->The Design of [subject_primary]</li>
@@ -318,7 +505,133 @@
     <li>randTheme->rights</li>
     <li>randTheme->ethics</li>
   -->
-  <Namer_Schematic.rulePack.rulesStrings>TODO</Namer_Schematic.rulePack.rulesStrings>
+  <Namer_Schematic.rulePack.rulesStrings>
+    <li>title->Projeto de [subject_primary]</li>
+    <li>title->Notas sobre [subject_primary]</li>
+    <li>title->Avanços em [subject_primary]</li>
+    <li>title->Estudo sobre [subject_primary]</li>
+    <li>title->Novas Aplicações para [subject_primary]</li>
+    <li>title->Entendendo [subject_primary]</li>
+    <li>title->Princípios de [subject_primary]</li>
+    <li>title->Os Fundamentos de [subject_primary]</li>
+    <li>title->[subject_primary]: Parte [volNumeral]</li>
+    <li>title->[subject_primary], Vol. [volNumeral]</li>
+    <li>title->[randAdjective] [subject_primary]</li>
+    <li>title->[randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->[maybe_authored_title]</li>
+    <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] no setor de [subject_secondary]</li>
+    <li>title->[studiesStart] [subject_primary] após [lifeEvent]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: [randAdjective] [discussionNoun]</li>
+    <li>title->[randAdjective] [subject_primary] [referenceType]</li>
+    <li>title->[referenceType] de [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->[studiesStart] [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+    <li>title->[referenceType] de [studiesStart] [randAdjective] [subject_primary]</li>
+    <li>title->[lifeEvent] [discussionNoun] e [subject_primary]</li>
+    <li>studiesStart->Estudos em</li>
+    <li>studiesStart->Fundamentos de</li>
+    <li>studiesStart->Gerenciando</li>
+    <li>studiesStart->Histórias de</li>
+    <li>studiesStart->Trabalhando com</li>
+    <li>studiesStart->Representação de</li>
+    <li>studiesStart->Sobrevivendo a</li>
+    <li>studiesStart->Avanços em</li>
+    <li>studiesStart->Aplicações de</li>
+    <li>studiesStart->Modelando o futuro de</li>
+    <li>studiesStart->Documentação de</li>
+    <li>referenceType->Enciclopédia</li>
+    <li>referenceType->Dicionário</li>
+    <li>referenceType->Almanaque</li>
+    <li>referenceType->Registro</li>
+    <li>referenceType->Relato</li>
+    <li>referenceType->Registro</li>
+    <li>referenceType->Manual</li>
+    <li>referenceType->Crônica</li>
+    <li>referenceType->Mentor</li>
+    <li>referenceType->Caixa de ferramentas</li>
+    <li>anecdotes->pensamentos</li>
+    <li>anecdotes->anedotas</li>
+    <li>anecdotes->histórias populares</li>
+    <li>anecdotes->rumores</li>
+    <li>anecdotes->estórias</li>
+    <li>anecdotes->narrativas</li>
+    <li>discussionNoun->discussão</li>
+    <li>discussionNoun->debate</li>
+    <li>discussionNoun->discurso</li>
+    <li>discussionNoun->diálogo</li>
+    <li>discussionNoun->dialética</li>
+    <li>discussionNoun->análise</li>
+    <li>discussionNoun->consulta</li>
+    <li>discussionNoun->controvérsia</li>
+    <li>lifeEvent->ferimento</li>
+    <li>lifeEvent->clonagem</li>
+    <li>lifeEvent->trauma</li>
+    <li>lifeEvent->separação</li>
+    <li>lifeEvent->pouso</li>
+    <li>lifeEvent->revolução</li>
+    <li>lifeEvent->invocação de arquotecnologia</li>
+    <li>lifeEvent->Horax</li>
+    <li>lifeEvent->nascimento de criança</li>
+    <li>lifeEvent->acidente</li>
+    <li>lifeEvent->fusão de carne</li>
+    <li>lifeEvent->descanso mortal</li>
+    <li>lifeEvent->rebelião</li>
+    <li>lifeEvent->quimera</li>
+    <li>lifeEvent->devaneio</li>
+    <li>lifeEvent->queda</li>
+    <li>lifeEvent->lobotomia</li>
+    <li>lifeEvent->infecção por arquitas</li>
+    <li>volNumeral->I</li>
+    <li>volNumeral->II</li>
+    <li>volNumeral->III</li>
+    <li>volNumeral->IV</li>
+    <li>volNumeral->V</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
+    <li>titleTwoSubjects->Introdução a [subjectsTuple]</li>
+    <li>titleTwoSubjects->Análise de [subjectsTuple]</li>
+    <li>maybe_authored_title->[author_gen]</li>
+    <li>author_gen->Estudos de [ANYPAWN_nameIndef]</li>
+    <li>author_gen->Notas de [ANYPAWN_nameIndef]</li>
+    <li>author_gen->Seminários de [ANYPAWN_nameIndef]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
+    <li>authored_title_gen->Guia de [ANYPAWN_nameIndef] para [subject_primary]</li>
+    <li>authored_title_gen->Introdução de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>authored_title_gen_two->Guia de [ANYPAWN_nameIndef] para [subjectsTuple]</li>
+    <li>authored_title_gen_two->Introdução de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] e [subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] e [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] e [randTheme]</li>
+    <li>randAdjective->Básico</li>
+    <li>randAdjective->Melhor</li>
+    <li>randAdjective->Mundo reluzente</li>
+    <li>randAdjective->Medieval</li>
+    <li>randAdjective->Arcaico</li>
+    <li>randAdjective->Chocante</li>
+    <li>randAdjective->Crepuscular</li>
+    <li>randAdjective->Mundo mortífero</li>
+    <li>randAdjective->Grotesco</li>
+    <li>randAdjective->Sepulcral</li>
+    <li>randAdjective->Sacro</li>
+    <li>randAdjective->Mais sombrio</li>
+    <li>randAdjective->Sub-mundo</li>
+    <li>randAdjective->Primitivo</li>
+    <li>randAdjective->Sobrevivência</li>
+    <li>randAdjective->Desanimado</li>
+    <li>randAdjective->Moroso</li>
+    <li>randAdjective->Assombroso</li>
+    <li>randAdjective->Críptico</li>
+    <li>randAdjective->Amaldiçoado</li>
+    <li>randTheme->engenharia</li>
+    <li>randTheme->folclore</li>
+    <li>randTheme->ficção científica</li>
+    <li>randTheme->dicas de sobrevivência</li>
+    <li>randTheme->a orla</li>
+    <li>randTheme->autofagia</li>
+    <li>randTheme->fé</li>
+    <li>randTheme->direitos</li>
+    <li>randTheme->ética</li>
+  </Namer_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->[titleBasic]</li>
@@ -469,6 +782,154 @@
     <li>randTheme->self-improvement</li>
     <li>randTheme->understanding</li>
   -->
-  <Namer_TextBook.rulePack.rulesStrings>TODO</Namer_TextBook.rulePack.rulesStrings>
+  <Namer_TextBook.rulePack.rulesStrings>
+    <li>title->[titleBasic]</li>
+    <li>title(p=2)->[titleAuthored]</li>
+    <li>title(p=2)->[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+    <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
+    <li>titleBasic(p=6)->[randNoun] e [subject_primary]</li>
+    <li>titleBasic->Aulas de [subject_primary]</li>
+    <li>titleBasic->Pensando sobre [subject_primary]</li>
+    <li>titleBasic->Um Guia para [subject_primary]</li>
+    <li>titleBasic->Introdução a [subject_primary]</li>
+    <li>titleBasic->Orientações sobre [subject_primary]</li>
+    <li>titleBasic->Essência de [subject_primary]</li>
+    <li>titleBasic->Maestria em [subject_primary]</li>
+    <li>titleBasic->Os Fundamentos de [subject_primary]</li>
+    <li>titleBasic->Navegando [subject_primary]</li>
+    <li>titleBasic->Conceitos-chave sobre [subject_primary]</li>
+    <li>titleBasic->A Arte de [subject_primary]</li>
+    <li>titleBasic->Masterclass: [subject_primary]</li>
+    <li>titleBasic->Decodificando [subject_primary]</li>
+    <li>titleBasic->Técnicas Avançadas em [subject_primary]</li>
+    <li>titleBasic->Destravando [subject_primary]</li>
+    <li>titleBasic->Guia Prático sobre [subject_primary]</li>
+    <li>titleBasic->Explorando [subject_primary]</li>
+    <li>titleBasic->Dicas de Mestre: [subject_primary]</li>
+    <li>titleBasic->Entendendo [subject_primary]</li>
+    <li>titleBasic->Jornada Através de [subject_primary]</li>
+    <li>titleBasic->Doutrina de [subject_primary]</li>
+    <li>titleBasic->Tópicos Especiais em [subject_primary]</li>
+    <li>titleBasic->Desvendando [subject_primary]</li>
+    <li>titleBasic->Segredos de [subject_primary]</li>
+    <li>titleBasic->Dominando [subject_primary]</li>
+    <li>titleBasic->Estudo aprofundado sobre [subject_primary]</li>
+    <li>titleAuthoredNoSubject->Estudos de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Estudo [randAdjective] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Diário de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Crônicas de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Memórias de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Relatos de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Pensamentos de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Aventuras de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Reflexões de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Exploração de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Testemunhos de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Saga de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Jornada de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->A Vida de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->A História de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->O Legado de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->As Aventuras de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Os Diários de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->As Divagações de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Os Pensamentos de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Os Testemunhos de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->As Crônicas de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->As Recordações de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->O Guia {ANYPAWN_gender ? do : da} [ANYPAWN_nameIndef] para [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Introdução de [ANYPAWN_nameIndef] para [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Explora [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Ideias de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Manual {ANYPAWN_gender ? do : da} [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Perspectivas de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->O Guia de Bolso [ANYPAWN_nameIndef] para [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Análise de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Abordagem de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Descobertas de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Contemplações de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Um Estudo de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Investigação de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Pesquisa de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Guia {ANYPAWN_gender ? do : da} [ANYPAWN_nameIndef] para [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Introdução de [ANYPAWN_nameIndef] para [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Explora [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Ideias de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Manual {ANYPAWN_gender ? do : da} [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Perspectivas de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Guia de Bolso {ANYPAWN_gender ? do : da} [ANYPAWN_nameIndef] para [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Análise de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->A Abordagem de [ANYPAWN_nameIndef] para [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Descobertas de [ANYPAWN_nameIndef] em [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Contemplações de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Estudo de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Investigação de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Pesquisa de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Uma Introdução a [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->O Melhor de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Combinando [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Aulas sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Pensando sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Um Guia para [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Introdução a [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Uma Prévia sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Essência de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Maestria em [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Os Fundamentos de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Navegando [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Conceitos-chave em [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->A Arte de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Masterclass: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Decodificando [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Técnicas Avançadas em [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Destravando [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Guia Prático para [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Explorando [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Dicas de Mestre: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Compreendendo [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Jornada por [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Doutrina em [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Tópicos Especiais sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Desvendando [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Segredos de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Dominando [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Estudo Aprofundado em [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] e [subject_secondary]</li>
+    <li>subjectsTuple->[subject_secondary], [subject_primary] e [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] e [randTheme]</li>
+    <li>randNoun->Morte</li>
+    <li>randNoun->Vida</li>
+    <li>randNoun->Amor</li>
+    <li>randNoun->Crescimento</li>
+    <li>randNoun->Coragem</li>
+    <li>randNoun->Sabedoria</li>
+    <li>randNoun->Saúde</li>
+    <li>randNoun->Bumalopes</li>
+    <li>randNoun->Piratas</li>
+    <li>randAdjective->Básico</li>
+    <li>randAdjective->Eficiente</li>
+    <li>randAdjective->Cuidadoso</li>
+    <li>randAdjective->Espetacular</li>
+    <li>randAdjective->Desajeitado</li>
+    <li>randAdjective->Ruim</li>
+    <li>randAdjective->Bom</li>
+    <li>randAdjective->Mundo reluzente</li>
+    <li>randAdjective->Rural</li>
+    <li>randAdjective->Medieval</li>
+    <li>randAdjective->Inspirado</li>
+    <li>randAdjective->Saudável</li>
+    <li>randAdjective->Nefasto</li>
+    <li>randAdjective->Caótico</li>
+    <li>randAdjective->Divertido</li>
+    <li>randTheme->conhecimento</li>
+    <li>randTheme->crescimento pessoal</li>
+    <li>randTheme->compreensão</li>
+  </Namer_TextBook.rulePack.rulesStrings>
   
 </LanguageData>
