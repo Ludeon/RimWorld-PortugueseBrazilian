@@ -111,11 +111,11 @@
     <li>tale_noun->e [PAWN_nameDef] tendo um colapso por exaustão</li>
     <li>image->[PAWN_nameFull] colapsando [circumstance_group]</li>
     <li>image->[PAWN_nameFull] caindo no chão [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] deitanto-se em sua cama [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] deitando-se em sua cama [circumstance_group]</li>
     <li>image->[PAWN_nameFull] colapsando na cadeira [circumstance_group]</li>
     <li>image->[PAWN_nameFull] dormindo calmamente [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] caindo no chão [circumstance_group]</li>
-    <li>imageD->e [PAWN_nameFull] deitanto-se em sua cama [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] deitando-se em sua cama [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] colapsando na cadeira [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] dormindo calmamente [circumstance_group]</li>
     <li>circumstance_phrase->com uma exaustão extrema</li>
@@ -163,7 +163,7 @@
     <li>baby->bebê</li>
     <li>circumstance_phrase->[CHILD_nameFull], que sangra e chora</li>
     <li>circumstance_phrase->[CHILD_nameFull], que transmite um brilho [Color] suave</li>
-    <li>circumstance_phrase->[CHILD_nameFull], que tenta se recompor</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que tenta se arrastar</li>
     <li>circumstance_phrase->[CHILD_nameFull], que olha em volta com uma expressão de serenidade</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s dormem tranquilamente nas proximidades.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s contemplam a cena.</li>
@@ -247,12 +247,12 @@
     <li>tale_nounD->e [PAWN_nameDef] pegando hipotermia</li>
     <li>image->[PAWN_nameFull] caminhando pela neve [circumstance_group]</li>
     <li>image->[PAWN_nameFull] encolhido(a) ao lado de um(a) [TerrainFeature] [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] procurando por um(a) caloroso(a) [Apparel] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] procurando por um(a) quente(a) [Apparel] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] agachado(a) ao lado do fogo [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tentando acender uma fogueira [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] caminhando pela neve [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] encolhido(a) ao lado de um(a) [TerrainFeature] [circumstance_group]</li>
-    <li>imageD->e [PAWN_nameFull] procurando por um(a) caloroso(a) [Apparel] [circumstance_group]</li>
+    <li>imageD->e [PAWN_nameFull] procurando por um(a) quente(a) [Apparel] [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] agachado(a) ao lado do fogo [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] tentando acender uma fogueira [circumstance_group]</li>
     <li>circumstance_phrase->enquanto seu rosto lentamente fica azul</li>
@@ -306,9 +306,9 @@
     <li>imageD->e [PAWN_nameFull] deitado(a) em uma cama de hospital [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] colapsando em uma cadeira [circumstance_group]</li>
     <li>imageD->e [PAWN_nameFull] agachando-se ao lado do fogo [circumstance_group]</li>
-    <li>circumstance_phrase->enquanto soa incontrolavelmente</li>
+    <li>circumstance_phrase->enquanto sua incontrolavelmente</li>
     <li>circumstance_phrase->enquanto treme incontrolavelmente</li>
-    <li>circumstance_phrase->enquanto soa e treme</li>
+    <li>circumstance_phrase->enquanto sua e treme</li>
     <li>circumstance_phrase->enquanto seus lábios secam e racham</li>
     <li>circumstance_phrase->enquanto vomita</li>
     <li>circumstance_phrase->enquanto uma erupção toma conta de seu corpo</li>
@@ -358,20 +358,21 @@
     <li>tale_noun->a [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
     <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_nounD->e [KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] com um(a) [WEAPON_label]</li>
-    <li>image->[KILLER_nameFull] [cap_removal] o(a) de [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [cap_removal] a [CAPACITY_label] de [VICTIM_nameFull] [with_weapon_optional]</li>
     <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] e [cap_removal] seu(ua) [CAPACITY_label] [with_weapon_optional]</li>
-    <li>imageD->e [KILLER_nameFull] [cap_removal] o(a) de [VICTIM_nameFull] [with_weapon_optional]</li>
+    <li>imageD->e [KILLER_nameFull] [cap_removal] a capacidade de [VICTIM_nameFull] de [CAPACITY_label] [with_weapon_optional]</li>
     <li>imageD->e [KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] e [cap_removal] seu(ua) [CAPACITY_label] [with_weapon_optional]</li>
     <li>cap_removal->destruindo</li>
     <li>cap_removal->eliminando</li>
     <li>cap_removal->obliterando</li>
-    <li>wound_name_past->slayed</li>
-    <li>wound_name_past->executed</li>
-    <li>wound_name_past->assassinated</li>
-    <li>wound_name_past->eliminated</li>
+    <li>wound_name_past->assassinado(a)</li>
+    <li>wound_name_past->executado(a)</li>
+    <li>wound_name_past->eliminado(a)</li>
+    <li>wound_name_past->abatido(a)</li>
     <li>wound_name_present->matando</li>
     <li>wound_name_present->executando</li>
     <li>wound_name_present->assassinando</li>
+    <li>wound_name_present->eliminando</li>
     <li>with_weapon_optional->com um(a) [WEAPON_label] [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->aparentemente sem remorso</li>
@@ -648,7 +649,7 @@
     <li>circumstance_phrase->enquanto uma bomba voa em direção a [VICTIM_nameFull]</li>
     <li>circumstance_phrase->enquanto [VICTIM_nameFull] anda distraído(a)</li>
     <li>circumstance_phrase->enquanto [VICTIM_nameFull] anda</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s olha.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s olham.</li>
     <li>desc_sentence->Uma [PersonJob] observa silenciosamente [side_position].</li>
     <li>desc_sentence->[VICTIM_nameDef] está coberto(a) de [Gore].</li>
     <li>desc_sentence->[VICTIM_nameDef] está rodeado(a) de explosões.</li>
@@ -695,11 +696,11 @@
     <li>image->[PAWN_nameFull] tirando suas roupas sem pensar [circumstance_group]</li>
     <li>circumstance_phrase->e suando incontrolavelmente</li>
     <li>circumstance_phrase->e tremendo incontrolavelmente</li>
-    <li>circumstance_phrase->enquanto soa e treme</li>
+    <li>circumstance_phrase->enquanto sua e treme</li>
     <li>circumstance_phrase->com seus lábios secos e rachados</li>
     <li>circumstance_phrase->enquanto vomita</li>
     <li>circumstance_phrase->com uma erupção cutânea visível</li>
-    <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal] retocidos cercam a área.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadáveres de [Animal] retorcidos cercam a área.</li>
     <li>desc_sentence->As roupas de [PAWN_nameDef] estão caindo aos pedaços.</li>
     <li>desc_sentence->O céu é uma escuridão [Color].</li>
     <li>desc_sentence->[Quantity_adjphrase] [TerrainFeature]s de cor [Color] cercam a cena.</li>

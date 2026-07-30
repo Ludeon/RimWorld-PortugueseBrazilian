@@ -36,7 +36,7 @@
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] com [implement] [deflected_result].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] no [recipient_part0_label] [deflected_result].</li>
-    <li>r_logentry(p=0.1)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um [damaged_inf] from [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] acertou [RECIPIENT_definite] com um [damaged_inf] de [implement] [deflected_result].</li>
     <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] usou [implement] para [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
@@ -53,13 +53,13 @@
     <li>deflected->deslizou</li>
     <li>deflected->ralou</li>
     <li>deflected->saltou</li>
-    <li>deflected->olhou</li>
+    <li>deflected->ricocheteou</li>
     <li>deflecting->desviando</li>
     <li>deflecting->raspando</li>
     <li>deflecting->deslizando</li>
     <li>deflecting->ralando</li>
     <li>deflecting->pulando</li>
-    <li>deflecting->olhando</li>
+    <li>deflecting->ricocheteando</li>
   </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
