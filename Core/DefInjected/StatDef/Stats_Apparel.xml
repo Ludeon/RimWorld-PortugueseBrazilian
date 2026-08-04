@@ -4,7 +4,7 @@
   <!-- EN: Armor - Blunt -->
   <ArmorRating_Blunt.label>Resistência - Contundente</ArmorRating_Blunt.label>
   <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Blunt.description>Resistência contra dano contundente como ataques de porrete, queda de rochas, e explosões.</ArmorRating_Blunt.description>
+  <ArmorRating_Blunt.description>Resistência contra dano contundente como socos, ataques de porrete e queda de rochas.</ArmorRating_Blunt.description>
   <!-- EN: Armor - Blunt (armor stat) -->
   <ArmorRating_Blunt.labelForFullStatList>Armadura - Contundente (estatísticas da armadura)</ArmorRating_Blunt.labelForFullStatList>
   
@@ -18,7 +18,7 @@
   <!-- EN: Armor - Sharp -->
   <ArmorRating_Sharp.label>Resistência - Cortante</ArmorRating_Sharp.label>
   <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Sharp.description>Resistência contra danos cortantes como balas, golpes de faca, e mordidas de animais.</ArmorRating_Sharp.description>
+  <ArmorRating_Sharp.description>Resistência contra danos cortantes como balas, golpes de faca, explosões e mordidas de animais.</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
   <ArmorRating_Sharp.labelForFullStatList>Armadura - Cortante (estatísticas da armadura)</ArmorRating_Sharp.labelForFullStatList>
   

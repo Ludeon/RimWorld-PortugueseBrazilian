@@ -9,7 +9,7 @@
     <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Um assentamento próximo, [settlement_label], tem uma solicitação comercial especial. Eles gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](Custando [requestedThingMarketValue_money])\n\nSe você quiser fazer o comércio, envie uma caravana com os itens solicitados.[travelTime]</li>
+    <li>questDescription->Um assentamento próximo, [settlement_label], tem uma solicitação comercial especial. Eles gostariam de comprar:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](no valor de [requestedThingMarketValue_money])\n\nSe você quiser fazer o comércio, envie uma caravana com os itens solicitados.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualidade normal+ </li>
     <li>qualityInfo-></li>
     <li>travelTime(canCaravan==True,priority=1)-> O tempo estimado da viagem é [estimatedTravelTime_duration].</li>
